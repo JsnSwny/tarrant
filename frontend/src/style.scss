@@ -1,0 +1,223 @@
+$primary: #6354C1;
+$stroke: #E9E3FF;
+$black: #0F0744;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Signika+Negative:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .shadow {
+    box-shadow: 0px 0px 25px -10px rgba(156, 144, 211, 0.5);
+    border: 1px solid $stroke;
+  }
+  
+  body {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    background-color: #F5F3FF;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #root {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+  
+  
+  
+  .question-page {
+    display: flex;
+    width: 100%;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .question-banner {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    list-style-type: none;
+  }
+  
+
+  .speech-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__bubble {
+        background-color: #343244;
+        padding: 1rem 3rem;
+        color: white;
+        border-radius: 15px;
+        font-size: 16px;
+        font-family: Consolas,monaco,monospace; 
+    }
+    &__button {
+        background-color: #D34E4E;
+        color: white;
+        padding: 1rem 1.5rem;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 1rem;
+        width: 270px;
+        transition: 0.2s ease background-color;
+        &:hover {
+            background-color: darken(#D34E4E, 10%)
+        }
+        svg {
+            width: 35px;
+        }
+        &--start {
+            background-color: #39ad2a;
+            &:hover {
+                background-color: darken(#39ad2a, 10%)
+            }
+        }
+    }
+    &__text {
+        margin: 0.5rem 0;
+    }
+  }
+
+.leaderboard {
+    background-color: $primary;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 4rem 0;
+}
+
+.leaderboard-results {
+    list-style-type: none;
+    padding: 2rem 0;
+    width: 100%;
+    &__item {
+        width: 100%;
+        padding: 0 2rem;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 16px;
+        flex-wrap: wrap;
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 0.5px;
+            background-color: white;
+            margin-top: 1.5em;
+        }
+    }
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1rem;
+    width: 80%;
+    &__option {
+        width: calc(50% - 0.5rem);
+        background-color: white;
+        border: 1px solid gray;
+        padding: 1rem;
+        border-radius: 15px;
+        
+        text-align: center;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s ease background-color, 0.2s ease color;
+        cursor: pointer;
+        border: 1px solid $stroke;
+        color: $black;
+        font-size: 18px;
+        &:hover {
+            background-color: rgba($primary, 0.1);
+            border: 1px solid $primary;
+        }
+    }
+}
+
+.question {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &__title {
+        background-color: white;
+        border: 1px solid $stroke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        border-radius: 15px;
+        padding: 0 4rem;
+        padding-top: 50px;
+        padding-bottom: 25px;
+        
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    &__number {
+        position: absolute;
+        left: 50%;
+        top: -25px;
+        height: 60px;
+        transform: translateX(-50%);
+        background-color: $primary;
+        z-index: 2;
+        color: $black;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        color: white;
+        padding: 0 3rem;
+    }
+
+}
+
