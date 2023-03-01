@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>tarrant.io</title>
+    </head>
+    <body>
+
+        <h1>tarrant.io</h1>
+
+        <div>
+            <h2>Recognise intent</h2>
+            <input type="text" placeholder="Enter user speech" id="recognise-intent-input"/>
+            <button onclick="submit('recognise-intent', 'intent')">Submit</button>
+            <p id="recognise-intent-response"></p>
+        </div>
+
+        <div>
+            <h2>Decide action</h2>
+            <input type="text" placeholder="Enter name of intent" id="decide-action-input"/>
+            <button onclick="submit('decide-action', 'intent')">Submit</button>
+            <p id="decide-action-response"></p>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="./script.js" charset="utf-8"></script>
+</html>
