@@ -5,11 +5,13 @@
     "main": "main.js",
     "scripts": {
         "start": "node main.js",
+        "start-nlu": "rasa run --enable-api -m data/models/nlu-20230302-152415-black-hadron.tar.gz",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "dependencies": {
         "express": "^4.18.2",
+        "node-libcurl": "^3.0.0",
         "shelljs": "^0.8.5"
     }
 }
