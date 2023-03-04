@@ -1,63 +1,103 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 // import { w3cwebsocket as WebSocket } from "websocket";
-import { SpeechClient } from "@google-cloud/speech";
+import io from "socket.io-client";
 
 const AudioRecorder = () => {
   const [transcript, setTranscript] = useState("");
   const [recording, setRecording] = useState(false);
   const [streamingRecognize, setStreamingRecognize] = useState(null);
+  const [isConnected, setIsConnected] = useState(false);
+  const [connection, setConnection] = useState(undefined);
+  const mediaRecorderRef = useRef();
+  const connectionRef = useRef(false);
+  const audioRef = useRef();
+  // const [mediaRecorder, setMediaRecord] = useState(undefined);
+
+  const startRecording = () => {
+    // connectionRef.current.disconnect();
+    const socket = io("http://localhost:5000");
+    setRecording(true);
+
+    socket.on("connect", () => {
+      console.log("connected", socket.id);
+      connectionRef.current = socket;
+    });
+    socket.emit("startGoogleCloudStream");
+
+    socket.on("receive_message", (data) => {
+      console.log("received message", data);
+    });
+    socket.on("disconnect", () => {
+      connectionRef.current = false;
+      console.log("Disconnected");
+    });
+  };
 
   useEffect(() => {
-    process.env.GOOGLE_APPLICATION_CREDENTIALS = "./speech-to-text-key.json";
-    const initSpeechClient = async () => {
-      const client = new SpeechClient();
-      const streamingRecognize = client.streamingRecognize({
-        config: {
-          encoding: "LINEAR16",
-          sampleRateHertz: 16000,
-          languageCode: "en-US",
-        },
-        interimResults: true,
-      });
+    (async () => {
+      if (recording) {
+        if (navigator.mediaDevices) {
+          console.log("getUserMedia supported.");
 
-      setStreamingRecognize(streamingRecognize);
-    };
+          const constraints = { audio: true };
+          let chunks = [];
 
-    initSpeechClient();
-  }, []);
+          navigator.mediaDevices
+            .getUserMedia(constraints)
+            .then((stream) => {
+              mediaRecorderRef.current = new MediaRecorder(stream, {
+                mimeType: "audio/webm",
+                audioBitsPerSecond: 16000,
+              });
 
-  useEffect(() => {
-    if (navigator.mediaDevices) {
-      console.log("getUserMedia supported.");
+              console.log(mediaRecorderRef.current.state);
+              console.log("recorder started");
 
-      const constraints = { audio: true };
-      let chunks = [];
+              mediaRecorderRef.current.start(100);
 
-      navigator.mediaDevices
-        .getUserMedia(constraints)
-        .then((stream) => {
-          const mediaRecorder = new MediaRecorder(stream);
+              mediaRecorderRef.current.ondataavailable = (e) => {
+                chunks.push(e.data);
+                console.log(chunks);
+                connectionRef.current.emit("send_audio_data", {
+                  audio: e.data,
+                });
+              };
 
-          mediaRecorder.start(1000);
-          console.log(mediaRecorder.state);
-          console.log("recorder started");
+              mediaRecorderRef.current.onstop = (e) => {
+                console.log(
+                  "data available after MediaRecorder.stop() called."
+                );
 
-          mediaRecorder.ondataavailable = (e) => {
-            chunks.push(e.data);
-            console.log(chunks);
-          };
-        })
-        .catch((err) => {
-          console.error(`The following error occurred: ${err}`);
-        });
-    }
-  }, []);
+                audioRef.controls = true;
+                const blob = new Blob(chunks, {
+                  type: "audio/ogg; codecs=opus",
+                });
+                const audioURL = window.URL.createObjectURL(blob);
+                console.log(audioURL);
+                audioRef.src = audioURL;
+                console.log("recorder stopped");
+              };
+            })
+            .catch((err) => {
+              console.error(`The following error occurred: ${err}`);
+            });
+        }
+      }
+    })();
+  }, [recording]);
+
+  const stopRecording = () => {
+    connectionRef.current = false;
+    setRecording(false);
+    mediaRecorderRef.current.stop();
+  };
 
   return (
     <div>
-      {/* <button onClick={startRecording}>Start Recording</button> */}
-      {/* <button onClick={stopRecording}>Stop Recording</button> */}
+      <button onClick={startRecording}>Start Recording</button>
+      <button onClick={stopRecording}>Stop Recording</button>
       <p>{transcript}</p>
+      <audio ref={audioRef}></audio>
     </div>
   );
 };
