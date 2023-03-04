@@ -5,6 +5,7 @@ import axios from "axios";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import QuestionView from "./views/QuestionView";
 import Demo from "./views/Demo";
+import AudioRecorder from "./views/AudioRecorder";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -33,6 +34,11 @@ function App() {
     {
       path: "/question",
       element: <QuestionView />,
+      // errorElement: <ErrorPage />,
+    },
+    {
+      path: "/recorder",
+      element: <AudioRecorder />,
       // errorElement: <ErrorPage />,
     },
   ]);
