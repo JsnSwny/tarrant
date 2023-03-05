@@ -72,7 +72,7 @@ io.on("connection", (socket) => {
     io.emit("receive_message", "Got audio data");
     if (recognizeStream !== null) {
       try {
-        console.log(audioData.audio);
+        // console.log(audioData.audio);
         recognizeStream.write(audioData.audio);
       } catch (err) {
         console.log("AHHH Error calling google api " + err);
@@ -90,25 +90,28 @@ io.on("connection", (socket) => {
         .streamingRecognize(request)
         .on("error", (err) => console.log(err))
         .on("data", (data) => {
-          console.log(data);
-          //   console.log("TEST");
-          //   const result = data.results[0];
-          //   const isFinal = result.isFinal;
-          //   const transcription = data.results
-          //     .map((result) => result.alternatives[0].transcript)
-          //     .join("\n");
-          //   console.log(`Transcription: `, transcription);
-          //   client.emit("receive_audio_text", {
-          //     text: transcription,
-          //     isFinal: isFinal,
-          //   });
-          //   // if end of utterance, let's restart stream
-          //   // this is a small hack. After 65 seconds of silence, the stream will still throw an error for speech length limit
-          //   if (data.results[0] && data.results[0].isFinal) {
-          //     stopRecognitionStream();
-          //     startRecognitionStream(client);
-          //     console.log("restarted stream serverside");
-          //   }
+          const transcription = data.results
+            .map((result) => result.alternatives[0].transcript)
+            .join("\n");
+          result = data.results[data.results.length - 1];
+
+          console.log(result);
+
+          words_info = result.alternatives[0].words;
+
+          if (result.isFinal) {
+            io.emit(
+              "send_transcript",
+              words_info.map((item) => ({
+                word: item.word,
+                speaker: item.speakerTag,
+              }))
+            );
+          }
+
+          //   console.log(transcription);
+          //   console.log(speakers);
+          //   console.log(`Transcription: ${transcription}`);
         });
     } catch (err) {
       console.error("OHHH Error streaming google api " + err);
@@ -131,39 +134,21 @@ server.listen(PORT);
 // The encoding of the audio file, e.g. 'LINEAR16'
 // The sample rate of the audio file in hertz, e.g. 16000
 // The BCP-47 language code to use, e.g. 'en-US'
-// const encoding = "LINEAR16";
-// const sampleRateHertz = 16000;
-// const languageCode = "ko-KR"; //en-US
-// const alternativeLanguageCodes = ["en-US", "ko-KR"];
-
-// const request = {
-//   config: {
-//     encoding: encoding,
-//     sampleRateHertz: sampleRateHertz,
-//     languageCode: "en-US",
-//     //alternativeLanguageCodes: alternativeLanguageCodes,
-//     enableWordTimeOffsets: true,
-//     enableAutomaticPunctuation: true,
-//     enableWordConfidence: true,
-//     enableSpeakerDiarization: true,
-//     //diarizationSpeakerCount: 2,
-//     //model: "video",
-//     model: "command_and_search",
-//     //model: "default",
-//     useEnhanced: true,
-//   },
-//   interimResults: true,
-// };
-
 const encoding = "LINEAR16";
 const sampleRateHertz = 16000;
-const languageCode = "en-US";
+const languageCode = "ko-KR"; //en-US
+const alternativeLanguageCodes = ["en-US", "ko-KR"];
 
 const request = {
   config: {
-    encoding: encoding,
-    sampleRateHertz: sampleRateHertz,
-    languageCode: languageCode,
+    encoding: "LINEAR16",
+    sampleRateHertz: 16000,
+    languageCode: "en-US",
+    diarizationConfig: {
+      enableSpeakerDiarization: true,
+      minSpeakerCount: 2,
+      maxSpeakerCount: 2,
+    },
   },
-  interimResults: false, // If you want interim results, set this to true
+  interimResults: true,
 };

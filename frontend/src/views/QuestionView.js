@@ -5,6 +5,7 @@ import QuestionTitle from "../components/question/QuestionTitle";
 import Speech from "../components/question/Speech";
 import "../style.scss";
 import axios from "axios";
+import AudioToText from "./AudioRecorder";
 
 const QuestionView = () => {
   const [listening, setListening] = useState(false);
@@ -41,7 +42,7 @@ const QuestionView = () => {
             </>
           )}
         </div>
-        <Speech listening={listening} setListening={setListening} />
+        <AudioToText />
       </div>
       <Leaderboard />
     </section>

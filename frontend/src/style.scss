@@ -85,6 +85,11 @@ $black: #0F0744;
         border-radius: 15px;
         font-size: 16px;
         font-family: Consolas,monaco,monospace; 
+        width: 500px;
+        position: relative;
+        height: 175px;
+        display: flex;
+        flex-direction: column-reverse;
     }
     &__button {
         background-color: #D34E4E;

@@ -1,105 +1,181 @@
-import React, { useState, useEffect, useRef } from "react";
-// import { w3cwebsocket as WebSocket } from "websocket";
-import io from "socket.io-client";
+import { default as React, useEffect, useState, useRef } from "react";
+import * as io from "socket.io-client";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMicrophone,
+  faMicrophoneSlash,
+} from "@fortawesome/free-solid-svg-icons";
 
-const AudioRecorder = () => {
-  const [transcript, setTranscript] = useState("");
-  const [recording, setRecording] = useState(false);
-  const [streamingRecognize, setStreamingRecognize] = useState(null);
-  const [isConnected, setIsConnected] = useState(false);
-  const [connection, setConnection] = useState(undefined);
-  const mediaRecorderRef = useRef();
-  const connectionRef = useRef(false);
-  const audioRef = useRef();
-  // const [mediaRecorder, setMediaRecord] = useState(undefined);
+const sampleRate = 16000;
 
-  const startRecording = () => {
-    // connectionRef.current.disconnect();
-    const socket = io("http://localhost:5000");
-    setRecording(true);
+const getMediaStream = () =>
+  navigator.mediaDevices.getUserMedia({
+    audio: {
+      deviceId: "default",
+      sampleRate: sampleRate,
+      sampleSize: 16,
+      channelCount: 1,
+    },
+    video: false,
+  });
 
+const AudioToText = () => {
+  const [connection, setConnection] = useState();
+  const [currentRecognition, setCurrentRecognition] = useState();
+  const [recognitionHistory, setRecognitionHistory] = useState([]);
+  const [isRecording, setIsRecording] = useState(false);
+  const [recorder, setRecorder] = useState();
+  const processorRef = useRef();
+  const audioContextRef = useRef();
+  const audioInputRef = useRef();
+  const [dialogue, setDialogue] = useState([]);
+
+  const speechRecognized = (data) => {
+    if (data.final) {
+      setCurrentRecognition("...");
+      setRecognitionHistory((old) => [data.text, ...old]);
+    } else setCurrentRecognition(data.text + "...");
+  };
+
+  const connect = () => {
+    connection?.disconnect();
+    const socket = io.connect("http://localhost:5000");
     socket.on("connect", () => {
       console.log("connected", socket.id);
-      connectionRef.current = socket;
+      setConnection(socket);
     });
+
+    socket.emit("send_message", "hello world");
+
     socket.emit("startGoogleCloudStream");
 
     socket.on("receive_message", (data) => {
       console.log("received message", data);
     });
-    socket.on("disconnect", () => {
-      connectionRef.current = false;
-      console.log("Disconnected");
+
+    socket.on("send_transcript", (transcript) => {
+      console.log(`Transcript: ${JSON.stringify(transcript)}`);
+      let result = [];
+      let currentGroup = [];
+
+      console.log(transcript);
+
+      for (let i = 0; i < transcript.length; i++) {
+        if (i === 0 || transcript[i].speaker === transcript[i - 1].speaker) {
+          currentGroup.push(transcript[i]);
+        } else {
+          const textList = currentGroup.map((obj) => obj.word);
+          const textResult = textList.join(" ");
+          currentGroup = { text: textResult, speaker: currentGroup[0].speaker };
+          result.push(currentGroup);
+          currentGroup = [transcript[i]];
+        }
+      }
+
+      const textList = currentGroup.map((obj) => obj.word);
+      const textResult = textList.join(" ");
+      currentGroup = { text: textResult, speaker: currentGroup[0].speaker };
+      result.push(currentGroup);
+
+      setDialogue(result);
+      console.log(result);
     });
+
+    socket.on("receive_audio_text", (data) => {
+      speechRecognized(data);
+      console.log("received audio text", data);
+    });
+
+    socket.on("disconnect", () => {
+      console.log("disconnected", socket.id);
+    });
+  };
+
+  const disconnect = () => {
+    if (!connection) return;
+    connection?.emit("endGoogleCloudStream");
+    connection?.disconnect();
+    processorRef.current?.disconnect();
+    audioInputRef.current?.disconnect();
+    audioContextRef.current?.close();
+    setConnection(undefined);
+    setRecorder(undefined);
+    setIsRecording(false);
   };
 
   useEffect(() => {
     (async () => {
-      if (recording) {
-        if (navigator.mediaDevices) {
-          console.log("getUserMedia supported.");
-
-          const constraints = { audio: true };
-          let chunks = [];
-
-          navigator.mediaDevices
-            .getUserMedia(constraints)
-            .then((stream) => {
-              mediaRecorderRef.current = new MediaRecorder(stream, {
-                mimeType: "audio/webm",
-                audioBitsPerSecond: 16000,
-              });
-
-              console.log(mediaRecorderRef.current.state);
-              console.log("recorder started");
-
-              mediaRecorderRef.current.start(100);
-
-              mediaRecorderRef.current.ondataavailable = (e) => {
-                chunks.push(e.data);
-                console.log(chunks);
-                connectionRef.current.emit("send_audio_data", {
-                  audio: e.data,
-                });
-              };
-
-              mediaRecorderRef.current.onstop = (e) => {
-                console.log(
-                  "data available after MediaRecorder.stop() called."
-                );
-
-                audioRef.controls = true;
-                const blob = new Blob(chunks, {
-                  type: "audio/ogg; codecs=opus",
-                });
-                const audioURL = window.URL.createObjectURL(blob);
-                console.log(audioURL);
-                audioRef.src = audioURL;
-                console.log("recorder stopped");
-              };
-            })
-            .catch((err) => {
-              console.error(`The following error occurred: ${err}`);
-            });
+      if (connection) {
+        if (isRecording) {
+          return;
         }
+
+        const stream = await getMediaStream();
+
+        audioContextRef.current = new window.AudioContext();
+
+        await audioContextRef.current.audioWorklet.addModule(
+          "/src/worklets/recorderWorkletProcessor.js"
+        );
+
+        audioContextRef.current.resume();
+
+        audioInputRef.current =
+          audioContextRef.current.createMediaStreamSource(stream);
+
+        processorRef.current = new AudioWorkletNode(
+          audioContextRef.current,
+          "recorder.worklet"
+        );
+
+        processorRef.current.connect(audioContextRef.current.destination);
+        audioContextRef.current.resume();
+
+        audioInputRef.current.connect(processorRef.current);
+
+        processorRef.current.port.onmessage = (event) => {
+          const audioData = event.data;
+          connection.emit("send_audio_data", { audio: audioData });
+        };
+        setIsRecording(true);
+      } else {
+        console.error("No connection");
       }
     })();
-  }, [recording]);
-
-  const stopRecording = () => {
-    connectionRef.current = false;
-    setRecording(false);
-    mediaRecorderRef.current.stop();
-  };
+    return () => {
+      if (isRecording) {
+        console.log("Closed");
+        processorRef.current?.disconnect();
+        audioInputRef.current?.disconnect();
+        if (audioContextRef.current?.state !== "closed") {
+          audioContextRef.current?.close();
+        }
+      }
+    };
+  }, [connection, isRecording, recorder]);
 
   return (
-    <div>
-      <button onClick={startRecording}>Start Recording</button>
-      <button onClick={stopRecording}>Stop Recording</button>
-      <p>{transcript}</p>
-      <audio ref={audioRef}></audio>
+    <div className="speech-footer">
+      <div className="speech-footer__bubble">
+        {[...dialogue].reverse().map((item) => (
+          <p className="speech-footer__text">
+            <strong>User {item.speaker}:</strong> {item.text}
+          </p>
+        ))}
+      </div>
+      <button
+        className={`speech-footer__button speech-footer__button--${
+          isRecording ? "stop" : "start"
+        }`}
+        onClick={() => (isRecording ? disconnect() : connect())}
+      >
+        <FontAwesomeIcon
+          icon={isRecording ? faMicrophoneSlash : faMicrophone}
+        />
+        {isRecording ? "Stop" : "Start"} Listening
+      </button>
     </div>
   );
 };
 
-export default AudioRecorder;
+export default AudioToText;
