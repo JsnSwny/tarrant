@@ -3,6 +3,7 @@ const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
 const speech = require("@google-cloud/speech");
+const _ = require("lodash");
 
 // instantiate server object
 const app = express();
@@ -93,11 +94,11 @@ io.on("connection", (socket) => {
           const transcription = data.results
             .map((result) => result.alternatives[0].transcript)
             .join("\n");
+
           result = data.results[data.results.length - 1];
 
-          console.log(result);
-
           words_info = result.alternatives[0].words;
+          const grouped = _.groupBy(words_info, (word) => word.speakerTag);
 
           if (result.isFinal) {
             io.emit(
