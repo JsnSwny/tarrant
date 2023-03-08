@@ -10,7 +10,7 @@ class IntentRecogniser {
     // passes user speech to nlu server and receives recognised intent
     recogniseIntent(userSpeech, next) {
         
-        let args = `localhost:5005/model/parse -d '{"text":"${userSpeech}"}'`;
+        let args = "localhost:5005/model/parse -d \"{\\\"text\\\":\\\"" + userSpeech + "}\\\"}\"";
 
         // call curl function to communicate user speech to nlu server for intent response
         // example: curl localhost:5005/model/parse -d '{"text":"hello"}'

@@ -27,6 +27,6 @@ function submit(apiName) {
     postMethodFetch({ value }, target, response => {
         console.log(response);
         const elem = element(apiName + "-response");
-        elem.innerHTML = elem.innerHTML + response.value;
+        elem.innerHTML = elem.innerHTML + `<p>${response.value}</p>`;
     });
 }

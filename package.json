@@ -6,6 +6,7 @@
     "scripts": {
         "start": "node main.js",
         "start-nlu": "rasa run --enable-api -m data/models/nlu-20230302-152415-black-hadron.tar.gz",
+        "start-django": "python3 tarrant/manage.py runserver",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
