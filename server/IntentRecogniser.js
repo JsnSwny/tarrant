@@ -23,7 +23,13 @@ class IntentRecogniser {
             const object = JSON.parse(stdout);
             console.log(object);
             console.log(object.intent.name);
-            next({ "value": object.intent.name });
+            let args = object.entities.map(entity => entity.value)
+            if (args.length > 0) {
+                next({ "value": `${object.intent.name}(${args.join(", ")})` });
+            }
+            else {
+                next({ "value": `${object.intent.name}` });
+            }
         });
 
     }
