@@ -1,16 +1,23 @@
+import sys
 import os
 import torch
-import ModelTrainer
+from .ModelTrainer import RNN
+from .ModelTrainer import TextDataset
 
 current_path = os.path.dirname(os.path.abspath(__file__))
+
+CPU_ONLY = True
 
 class DialogManager():
     def __init__(self, threshhold=0.5):
         torch.device("cpu")
-        self.Model = ModelTrainer.RNN()
+        self.Model = RNN()
         self.Model.eval()
-        self.Model.load_state_dict(torch.load(os.path.join(current_path, "Model.pth")))
-        self.Formatter = ModelTrainer.TextDataset()
+        if CPU_ONLY:
+            self.Model.load_state_dict(torch.load(os.path.join(current_path, "Model.pth"), map_location=torch.device("cpu")))
+        else:
+            self.Model.load_state_dict(torch.load(os.path.join(current_path, "Model.pth")))
+        self.Formatter = TextDataset()
 
         self.max_lines = 5
         self.threshhold = threshhold
@@ -102,7 +109,7 @@ def main():
 
     #Main loop
     while True:
-        user_input = input()
+        user_input = input("> ")
 
         user = user_input.split(" ")[0]
         intent = user_input.split(" ")[1]
@@ -126,5 +133,5 @@ def main():
     confirm-agreement
 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

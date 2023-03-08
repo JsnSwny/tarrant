@@ -1,5 +1,5 @@
 import os
-import argparse
+import sys
 import glob as glob
 from random import random, randrange
 import torch
@@ -7,10 +7,6 @@ import torch.nn as nn
 from torch.utils.data import Dataset
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-
-parser = argparse.ArgumentParser()
-parser.add_argument("-p", "--path", help="path to data", required=False)
-args = parser.parse_args()
 
 class TextDataset(Dataset):
 
@@ -430,10 +426,14 @@ def train(model, epochs, learning_rate, training_data):
 
 def main():
 
-    if args.path == None:
-        print("Please add path argument")
+    if len(sys.argv) < 2:
+        print("error: No path argument provided")
+        print("usage: python3 ModelTrainer.py PATH")
+        sys.exit(1)
+    else:
+        path = sys.argv[1]
 
-    training_data = TextDataset(args.path)
+    training_data = TextDataset(path)
 
     model = RNN().cuda()
 
