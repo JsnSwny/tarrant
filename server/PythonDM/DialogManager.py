@@ -5,14 +5,15 @@ import ModelTrainer
 current_path = os.path.dirname(os.path.abspath(__file__))
 
 class DialogManager():
-    def __init__(self):
+    def __init__(self, threshhold=0.5):
+        torch.device("cpu")
         self.Model = ModelTrainer.RNN()
         self.Model.eval()
         self.Model.load_state_dict(torch.load(os.path.join(current_path, "Model.pth")))
         self.Formatter = ModelTrainer.TextDataset()
 
         self.max_lines = 5
-        self.threshhold = 0.5
+        self.threshhold = threshhold
 
         self.conversations = {}
 
@@ -31,7 +32,7 @@ class DialogManager():
         probabilities = []
         
         #model_output, conv.hidden = self.Model(formatted_input.unsqueeze(0), conv.hidden)
-        model_output, conv.hidden, conv.cell = self.Model(formatted_input.unsqueeze(0), conv.hidden, conv.cell)
+        model_output, conv.hidden, conv.cell = self.Model.forward_cpu(formatted_input.unsqueeze(0), conv.hidden, conv.cell)
         probabilities.append(model_output)
         model_output = self.Formatter.from_one_hot(model_output, self.threshhold)
         output.append(model_output)
@@ -41,7 +42,7 @@ class DialogManager():
         while model_output != 0 and i < self.max_lines:
 
             #model_output, conv.hidden = self.Model(self.Formatter.output_to_input(model_output).unsqueeze(0), conv.hidden)
-            model_output, conv.hidden, conv.cell = self.Model(self.Formatter.output_to_input(model_output).unsqueeze(0), conv.hidden, conv.cell)
+            model_output, conv.hidden, conv.cell = self.Model.forward_cpu(self.Formatter.output_to_input(model_output).unsqueeze(0), conv.hidden, conv.cell)
             probabilities.append(model_output)
             model_output = self.Formatter.from_one_hot(model_output, self.threshhold)
 
@@ -55,7 +56,7 @@ class DialogManager():
         for i in range(0, len(output)):
             output[i] = self.one_hot_to_text(output[i])
 
-        print(probabilities)
+        #print(probabilities)
 
         return output
     
@@ -80,8 +81,8 @@ class Conversation():
         self.DM = Manager
 
         if(hidden == None):
-            self.hidden = self.DM.init_hidden()
-            self.cell = self.DM.init_hidden()
+            self.hidden = self.DM.init_hidden().cpu()
+            self.cell = self.DM.init_hidden().cpu()
         else:
             self.cell = cell
 

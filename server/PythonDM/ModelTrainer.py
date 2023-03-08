@@ -290,6 +290,13 @@ class RNN(nn.Module):
         #return torch.cat((out2, out1), 1).cuda(), rnn_out[1]
         return torch.cat((out2, out1), 1).cuda(), rnn_out[1][0], rnn_out[1][1]
 
+    def forward_cpu(self, input, hidden_layer, cell_layer=None):
+        rnn_out = self.RNN(input, (hidden_layer.detach(), cell_layer.detach()))
+        linear_out = self.Linear(rnn_out[0])
+        out1 = self.Output1(linear_out)
+        out2 = self.Output2(linear_out)
+        return torch.cat((out2, out1), 1).cpu(), rnn_out[1][0], rnn_out[1][1]
+
 class CustomLossFunction():
     def __init__(self, labels, formatter):
         self.loss_function = nn.L1Loss()
