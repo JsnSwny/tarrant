@@ -5,6 +5,5 @@
 /frontend/package-lock.json
 node_modules
 package-lock.json
-data/models/*
 tarrant/gameshow/__pycache__/
 tarrant/tarrant/__pycache__/
