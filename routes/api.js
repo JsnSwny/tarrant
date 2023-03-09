@@ -8,12 +8,15 @@ const router = express.Router();
 router.post("/api/speak-to-chatbot", (req, res) => {
     console.log("API POST: speak-to-chatbot");
     console.log(req.body);
-    let userSpeech = req.body.value;
+    let rawInput = req.body.value;
+    rawInput = rawInput.split(" ")
+    let userName = rawInput[0]
+    let userSpeech = rawInput.slice(1).join(" ")
     console.log("USER SPEECH");
     console.log(userSpeech);
     intentRecogniser.recogniseIntent(userSpeech, response => {
         let intentName = response.value;
-        let intent = "U1 " + intentName;
+        let intent = `${userName} ${intentName}`;
         dialogueManager.decideAction(intent, response => {
             console.log("DIAAA RESPONSE");
             console.log(response);
