@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const speech = require("@google-cloud/speech");
 const _ = require("lodash");
+const axios = require("axios");
 
 // instantiate server object
 const app = express();
@@ -79,9 +80,21 @@ io.on("connection", (socket) => {
         console.log("AHHH Error calling google api " + err);
       }
     } else {
-      console.log("RecognizeStream is null");
+      // console.log("RecognizeStream is null");
     }
   });
+
+  const getAction = (transcript) => {
+    axios
+      .post("http://localhost:8000/api/get_action/", {
+        input: transcript,
+      })
+      .then((res) => {
+        console.log(res.data.action);
+        return res.data.action;
+      })
+      .catch((err) => console.log(err));
+  };
 
   function startRecognitionStream(client) {
     console.log("* StartRecognitionStream\n");
@@ -95,12 +108,22 @@ io.on("connection", (socket) => {
             .map((result) => result.alternatives[0].transcript)
             .join("\n");
 
-          result = data.results[data.results.length - 1];
+          console.log(data.results);
+          console.log(data.results[data.results.length - 1].alternatives);
+          result = data.results[0];
 
           words_info = result.alternatives[0].words;
+          // console.log(data);
           const grouped = _.groupBy(words_info, (word) => word.speakerTag);
-
           if (result.isFinal) {
+            console.log(transcription);
+            const action = getAction(`U1 ${transcription}`);
+            console.log(
+              words_info.map((item) => ({
+                word: item.word,
+                speaker: item.speakerTag,
+              }))
+            );
             io.emit(
               "send_transcript",
               words_info.map((item) => ({
@@ -143,13 +166,16 @@ const alternativeLanguageCodes = ["en-US", "ko-KR"];
 const request = {
   config: {
     encoding: "LINEAR16",
-    sampleRateHertz: 16000,
+    sampleRateHertz: 24000,
     languageCode: "en-US",
     diarizationConfig: {
       enableSpeakerDiarization: true,
       minSpeakerCount: 2,
       maxSpeakerCount: 2,
     },
+    enbleWordTimeOffsets: true,
+    enableAutomaticPunctuation: true,
+    model: "phone_call",
   },
   interimResults: true,
 };
