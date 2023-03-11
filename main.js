@@ -5,6 +5,10 @@ const bodyParser = require("body-parser");
 const speech = require("@google-cloud/speech");
 const _ = require("lodash");
 const axios = require("axios");
+const DialogueInputEmulator = require("./server/DialogueInputEmulator")
+const { Server } = require("socket.io");
+const { EMULATE_DIALOGUE } = require("./server/constants");
+const { chatbot } = require("./server/objects");
 
 // instantiate server object
 const app = express();
@@ -32,8 +36,6 @@ app.use("/", require("./routes/api"));
 // start server
 const PORT = 5000;
 console.log(`Listening on port ${PORT}.`);
-
-const { Server } = require("socket.io");
 
 const io = new Server(server, {
   cors: {
@@ -84,7 +86,7 @@ io.on("connection", (socket) => {
     }
   });
 
-  const getAction = (transcript) => {
+const getAction = (transcript) => {
     axios
       .post("http://localhost:8000/api/get_action/", {
         input: transcript,
@@ -152,6 +154,14 @@ io.on("connection", (socket) => {
 });
 
 server.listen(PORT);
+
+const dialogueInputEmulator = new DialogueInputEmulator(chatbot);
+
+if (EMULATE_DIALOGUE) {
+    setInterval(() => {
+        dialogueInputEmulator.tick();
+    }, 1000);
+}
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //
 

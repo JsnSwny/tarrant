@@ -1,26 +1,32 @@
-const { postMethodFetch } = require("./functions");
-const childProcess = require("child_process");
+const axios = require("axios");
+const { makePostRequest } = require("./functions");
 
 class IntentRecogniser {
-  constructor() {}
 
-  // passes user speech to nlu server and receives recognised intent
-  recogniseIntent(userSpeech, next) {
-    axios
-      .post("http://localhost:5005/model/parse", {
-        text: userSpeech,
-      })
-      .then((res) => {
-        let data = res.data;
-        let args = data.entities.map((entity) => entity.value);
-        if (args.length > 0) {
-          next({ value: `${data.intent.name}(${args.join(", ")})` });
-        } else {
-          next({ value: `${data.intent.name}` });
-        }
-      })
-      .catch((err) => console.log(err));
-  }
+	constructor() {
+
+	}
+
+	// passes user speech to nlu server and receives recognised intent
+	recogniseIntent(user, speech, next) {
+		makePostRequest("localhost:5005/model/parse", { "text": speech }, response => {
+			const intent = this.extractIntent(user, response);
+			next(intent);
+		});
+	}
+
+	extractIntent(user, rasaResponse) {
+		const name = rasaResponse.intent.name;
+		let args = [];
+		if (rasaResponse.entities) {
+			args = rasaResponse.entities.map(entity => entity.value);
+		}
+		let string = name;
+		if (args.length > 0) {
+			string = `${string}(${args.join(", ")})`;
+		}
+		return { user, name, args, string };
+	}
 }
 
 module.exports = IntentRecogniser;

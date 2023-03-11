@@ -1,21 +1,16 @@
 const childProcess = require("child_process");
 const axios = require("axios");
+const { makePostRequest } = require("./functions");
 
 class DialogueManager {
-  constructor() {}
+	constructor() {}
 
-  // TODO: Use Cale's PyTorch model from this function.
-  decideAction(userAndIntent, next) {
-    axios
-      .post("http://localhost:8000/api/get_action/", {
-        input: userAndIntent,
-      })
-      .then((res) => {
-        console.log(res);
-        next({ value: res.data.action });
-      })
-      .catch((err) => console.log(err));
-  }
+	decideAction(user, intent, next) {
+		const postObject = { input: `${user} ${intent}` };
+		makePostRequest("http://localhost:8000/api/get_action/", postObject, response => {
+			next({ value: response.action });
+		});
+	}
 }
 
 module.exports = DialogueManager;
