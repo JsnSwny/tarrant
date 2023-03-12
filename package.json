@@ -7,6 +7,8 @@
         "start": "node main.js",
         "start-nlu": "rasa run --enable-api -m data/models/nlu-model.tar.gz",
         "start-django": "python3 tarrant/manage.py runserver",
+		"build": "npm run update-data",
+		"update-data": "node system_scripts/update_data.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
