@@ -1,5 +1,7 @@
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
+
+const { DEBUG_MODE } = require("./constants");
 const { randomInt } = require("./functions");
 
 class Chatbot {
@@ -10,9 +12,6 @@ class Chatbot {
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
 		this.setQuestion("easy", "general-knowledge");
-		console.log("And our question is...");
-		console.log(this.question);
-		console.log(this.options);
 
 	}
 
@@ -30,7 +29,11 @@ class Chatbot {
 		const mentions = this.extractMentions(userSpeech);
 
 		console.log(`${userName}: ${userSpeech}`);
-		console.log(`Mentions: ${mentions.join(", ") || "-"}`);
+
+		if (DEBUG_MODE) {
+			console.log(`Mentions: ${mentions.join(", ") || "-"}`);
+		}
+
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, intent => {
 			this.dialogueManager.decideAction(userName, intent.name, action => {
 				const chatbotSpeech = `Intent: ${intent.string}, Action: ${action.value}`;
