@@ -1,19 +1,29 @@
 {
 	"lines": [
 		{
+			"wait": 3,
 			"user": 1,
-			"text": "hello",
-			"wait": 3
+			"text": "hello"
 		},
 		{
+			"wait": 3,
 			"user": 2,
-			"text": "i think it is Google",
-			"wait": 3
+			"text": "i think it is Google"
 		},
 		{
+			"wait": 1,
 			"user": 2,
-			"text": "wait no actually it must be razer",
-			"wait": 1
+			"text": "wait no actually it must be razer"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "yeah i think we should go with that"
+		},
+		{
+			"wait": 10,
+			"user": 2,
+			"text": "okay then"
 		}
 	],
 	"questions": [

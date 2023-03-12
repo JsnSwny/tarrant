@@ -26,3 +26,8 @@ module.exports.randomInt = (min, max) => {
     const range = max - min;
     return min + Math.floor(Math.random() * range);
 };
+
+module.exports.timeElapsed = since => {
+	return Math.floor(Date.now() / 1000) - since;
+}
+

@@ -34,7 +34,7 @@ def get_action(request):
         action = some_model(user_input)
         action = DM.process_line(1, user, intent)
         action = {
-            "action": ", ".join(action)
+            "action": action[0]
         }
         print("ACTION")
         print(action)

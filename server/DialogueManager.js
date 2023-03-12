@@ -8,7 +8,7 @@ class DialogueManager {
 	decideAction(user, intent, next) {
 		const postObject = { input: `${user} ${intent}` };
 		makePostRequest("http://localhost:8000/api/get_action/", postObject, response => {
-			next({ value: response.action });
+			next(response.action);
 		});
 	}
 }

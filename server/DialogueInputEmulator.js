@@ -14,18 +14,14 @@ class DialogueInputEmulator {
 	}
 
 	tick() {
-
 		let elapsed = Math.floor(Date.now() / 1000) - this.lastTimestamp;
-
 		if (elapsed < this.line.wait) return;
 
 		const userName = `U${this.line.user}`;
 		const userSpeech = this.line.text;
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
-		this.chatbot.input(userName, userSpeech, chatbotSpeech => {
-			console.log(chatbotSpeech);
-			this.nextLine();
-		});
+		this.chatbot.input(userName, userSpeech);
+		this.nextLine();
 
 	}
 

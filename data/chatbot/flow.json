@@ -1,0 +1,34 @@
+{
+    "introduction": {
+        "EXEC": "this.utter('introduction')",
+        "well": "this.utter('celebrate'); this.change_state('invite')",
+        "not_well": "this.utter('regret'); this.utter('console'); this.change_state('invite')",
+        "DEFAULT": "this.change_state('invite')"
+    },
+    "invite": {
+        "EXEC": "this.say('Would you like to play Who Wants To Be A Millionaire?')",
+        "affirm": "this.say('Awesome! Then let us begin.'); this.change_state('ask_question')",
+        "reject": "this.say('Too bad. Maybe next time then.'); this.change_state('goodbye')",
+        "DEFAULT": "this.say(\"I'm sorry. I don't quite understand your answer. Was that a yes?\")"
+    },
+    "goodbye": {
+        "EXEC": "this.say('Catch you later.')"
+    },
+    "ask_question": {
+        "EXEC": "this.configure_question(); this.utter('ask_question')",
+        "answer": "this.say('You are answering.'); this.change_state('seek_confirmation')",
+        "suggest": "this.say('You are suggesting.'); this.change_state('seek_confirmation')",
+        "exclude": "this.say('You are excluding.')",
+        "DEFAULT": "this.say('Let me process what you just said.')"
+    },
+    "seek_confirmation": {
+        "EXEC": "this.utter('seek_confirmation')",
+        "affirm": "this.say('Let us check the answer then.'); this.change_state('lock_answer')",
+        "reject": "this.say(\"I'll give you more time\"); this.change_state('repeat_question')",
+        "DEFAULT": "this.say('Let me process what you just said.')"
+    },
+    "lock_answer": {
+        "EXEC": "this.say('The result is...')",
+        "DEFAULT": "this.say('Narley')"
+    }
+}

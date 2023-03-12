@@ -164,6 +164,10 @@ if (EMULATE_DIALOGUE) {
     }, 100);
 }
 
+setInterval(() => {
+	chatbot.tick();
+}, 100);
+
 // =========================== GOOGLE CLOUD SETTINGS ================================ //
 
 // The encoding of the audio file, e.g. 'LINEAR16'
