@@ -1,5 +1,17 @@
 // const DOMAIN_NAME = "http://localhost:5000/";
 
+const socket = io("ws://localhost:5000");
+
+socket.on("connect", () => {
+	console.log("I'm playing");
+
+	socket.on("enter-into-game", data => {
+		console.log("Entered into game");
+		console.log(data);
+	});
+
+});
+
 // make an API post and handle the JSON response
 function postMethodFetch(data, uri, next) {
     fetch(uri, {
@@ -29,4 +41,9 @@ function submit(apiName) {
         const elem = element(apiName + "-response");
         elem.innerHTML = elem.innerHTML + `<p>${response.value}</p>`;
     });
+}
+
+function sendSpeech() {
+	const speech = element("dialogue-input").value;
+	socket.emit("say", speech);
 }

@@ -5,14 +5,14 @@
             "Pleasure to meet you."
         ]
     },
-    "greet_question": {
+    "greet-question": {
         "examples": [
             "How are you?",
             "How's it going?",
             "How are you today?"
         ]
     },
-    "respond_to_greet_question": {
+    "respond-to-greet-question": {
         "examples": [
             "I'm feeling great thank you!",
             "About as happy as a bundle of silicone and wires can be.",
@@ -39,14 +39,14 @@
             "But we can change that."
         ]
     },
-    "seek_confirmation": {
+    "seek-confirmation": {
         "examples": [
             "Is #[last_suggestion] your answer?",
             "Is #[last_suggestion] your final answer?",
             "Would you like to make #[last_suggestion] your final answer?"
         ]
     },
-    "ask_question": {
+    "ask-question": {
         "examples": [
             "Okay. Question number #[question_number] is for £#[question_reward]. #[question_text]"
         ]

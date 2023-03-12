@@ -11,11 +11,12 @@
 
         <div>
             <h2>Chat</h2>
-            <input type="text" placeholder="Type speech here" id="speak-to-chatbot-input"/>
-            <button onclick="submit('speak-to-chatbot')">Submit</button>
-            <div id="speak-to-chatbot-response"></div>
+            <input type="text" placeholder="Type speech here" id="dialogue-input"/>
+            <button onclick="sendSpeech()">Submit</button>
+            <div id="log"></div>
         </div>
 
     </body>
+	<script src="/socket.io/socket.io.js"></script>
     <script type="text/javascript" src="./script.js" charset="utf-8"></script>
 </html>

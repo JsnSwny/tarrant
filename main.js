@@ -6,7 +6,8 @@ const speech = require("@google-cloud/speech");
 const _ = require("lodash");
 const axios = require("axios");
 const DialogueInputEmulator = require("./server/DialogueInputEmulator")
-const { Server } = require("socket.io");
+//const { Server } = require("socket.io");
+const socketio = require("socket.io");
 const { EMULATE_DIALOGUE } = require("./server/constants");
 const { chatbot } = require("./server/objects");
 
@@ -14,9 +15,43 @@ const { chatbot } = require("./server/objects");
 const app = express();
 const server = http.createServer(app);
 
+const io = socketio(server, {
+    cors: {
+		origins: ["http://localhost:5000", "http://localhost:3000"],
+		handlePreflightRequest: (req, res) => {
+			res.writeHead(200, {
+			"Access-Control-Allow-Origin": "http://localhost:5000",
+			"Access-Control-Allow-Methods": "GET,POST",
+			"Access-Control-Allow-Headers": "",
+			"Access-Control-Allow-Credentials": true
+			});
+			res.end();
+		}
+    }
+});
+
 // specify public directory
 app.use(express.static(path.join(__dirname, "public")));
 
+// specify API
+app.use("/", require("./routes/api"));
+
+io.on("connection", socket => {
+
+	console.log("A new player is here!");
+
+	socket.emit("enter-into-game", {
+		"user": 1
+	});
+
+	socket.on("say", data => {
+		console.log("User says");
+		console.log(data);
+	});
+
+});
+
+/*
 // middleware for parsing post bodies
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
@@ -29,14 +64,9 @@ app.use(function (req, res, next) {
   );
   next();
 });
+*/
 
-// specify API
-app.use("/", require("./routes/api"));
-
-// start server
-const PORT = 5000;
-console.log(`Listening on port ${PORT}.`);
-
+/*
 const io = new Server(server, {
   cors: {
     origin: "http://localhost:3000",
@@ -152,21 +182,28 @@ const getAction = (transcript) => {
     recognizeStream = null;
   }
 });
+*/
+
+const PORT = 5000;
 
 server.listen(PORT);
+
+console.log(`Listening on port ${PORT}.`);
 
 const dialogueInputEmulator = new DialogueInputEmulator(chatbot, 1);
 
 if (EMULATE_DIALOGUE) {
-
     setInterval(() => {
         dialogueInputEmulator.tick();
     }, 100);
 }
 
+/*
 setInterval(() => {
 	chatbot.tick();
 }, 100);
+*/
+
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //
 

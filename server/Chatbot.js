@@ -2,23 +2,29 @@ const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 
 const { DEBUG_MODE } = require("./constants");
-const { randomInt, timeElapsed } = require("./functions");
+const { randomElement, randomInt, timeElapsed } = require("./functions");
 
 class Chatbot {
 
 	constructor() {
 
+		this.paused = true;
 		this.flow = require("../data/chatbot/flow");
+		this.actions = require("../data/chatbot/actions");
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
-		this.questionNumber = 0;
-		this.setQuestion("easy", "general-knowledge");
-		this.changeState("introduction");
+		this.questionNumber = -1;
+		this.changeState("ask-question");
 		this.answerSuggested = "";
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 		this.intentsDecided = 0;
 		this.intentsChanged = 0;
 
+	}
+
+	nextQuestion() {
+		this.setQuestion("easy", "general-knowledge");
+		this.questionNumber++;
 	}
 
 	changeState(state) {
@@ -28,8 +34,16 @@ class Chatbot {
 	}
 
 	utter(name) {
-		const speech = this.nlg(name);
-		this.say(speech)
+		let speech;
+		if (Object.keys(this.actions).includes(name)) {
+			speech = randomElement(this.actions[name].examples);
+		}
+		else {
+			speech = this.nlg(name);
+		}
+		if (speech !== "") {
+			this.say(speech)
+		}
 	}
 
 	setQuestion(difficulty, category) {
@@ -43,10 +57,7 @@ class Chatbot {
 
 	tick() {
 		let action = this.decideFinalAction("do nothing");
-
-		if (action !== "do nothing") {
-			this.say(this.nlg(action));
-		}
+		this.say(this.nlg(action));
 	}
 
 	input(userName, userSpeech, next = this.say.bind(this)) {
@@ -75,25 +86,23 @@ class Chatbot {
 	performAction(action, next) {
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 		const chatbotSpeech = this.nlg(action);
-		if (next !== this.say || action !== "do nothing") {
-			next(chatbotSpeech);
-		}
+		next(chatbotSpeech);
 	}
 
 	say(text) {
+		if (text === "") return;
 		console.log(`\nHOST: ${text}`);
-		console.log("Am I real? " + (this ? "Yes" : "No :O"));
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 	}
 
 	nlg(action) {
+		if (action == "do nothing") return "";
 		return `${action}`;
 	}
 
 	decideFinalAction(action) {
-		if (action == "do nothing" && timeElapsed(this.lastTimestamp) > 4) {
+		if (action === "do nothing" && timeElapsed(this.lastTimestamp) > 4) {
 			action = "prompt";
-			console.log("CHANGING TO PROROMPRMPRPT");
 		}
 		return action;
 	}

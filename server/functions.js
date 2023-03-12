@@ -22,12 +22,19 @@ else {
 }
 
 // return a random integer between min and max
-module.exports.randomInt = (min, max) => {
+function randomInt(min, max) {
     const range = max - min;
     return min + Math.floor(Math.random() * range);
 };
+
+function randomElement(array) {
+	const index = randomInt(0, array.length - 1);
+	return array[index];
+}
 
 module.exports.timeElapsed = since => {
 	return Math.floor(Date.now() / 1000) - since;
 }
 
+module.exports.randomElement = randomElement;
+module.exports.randomInt = randomInt;
