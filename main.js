@@ -155,12 +155,13 @@ const getAction = (transcript) => {
 
 server.listen(PORT);
 
-const dialogueInputEmulator = new DialogueInputEmulator(chatbot);
+const dialogueInputEmulator = new DialogueInputEmulator(chatbot, 1);
 
 if (EMULATE_DIALOGUE) {
+
     setInterval(() => {
         dialogueInputEmulator.tick();
-    }, 1000);
+    }, 100);
 }
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //

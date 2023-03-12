@@ -17,16 +17,21 @@ class IntentRecogniser {
 		});
 	}
 
+	stringifyIntent(name, args) {
+		let string = name;
+		if (args.length > 0) {
+			string = `${string}(${args.join(", ")})`;
+		}
+		return string;
+	}
+
 	extractIntent(user, rasaResponse) {
 		const name = rasaResponse.intent.name;
 		let args = [];
 		if (rasaResponse.entities) {
 			args = rasaResponse.entities.map(entity => entity.value);
 		}
-		let string = name;
-		if (args.length > 0) {
-			string = `${string}(${args.join(", ")})`;
-		}
+		let string = this.stringifyIntent(name, args);
 		return { user, name, args, string };
 	}
 }

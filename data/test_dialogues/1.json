@@ -1,0 +1,26 @@
+{
+	"lines": [
+		{
+			"user": 1,
+			"text": "hello",
+			"wait": 3
+		},
+		{
+			"user": 2,
+			"text": "i think it is Google",
+			"wait": 3
+		},
+		{
+			"user": 2,
+			"text": "wait no actually it must be razer",
+			"wait": 1
+		}
+	],
+	"questions": [
+		"easy/general-knowledge/0",
+		"easy/general-knowledge/1",
+		"easy/general-knowledge/2",
+		"easy/general-knowledge/3",
+		"easy/general-knowledge/4"
+	]
+}
