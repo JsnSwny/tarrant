@@ -1,0 +1,72 @@
+{
+    "greet": {
+        "examples": [
+            "Hey there. I'm glad you could join me.",
+            "Pleasure to meet you."
+        ]
+    },
+    "greet-question": {
+        "examples": [
+            "How are you?",
+            "How's it going?",
+            "How are you today?"
+        ]
+    },
+    "respond-to-greet-question": {
+        "examples": [
+            "I'm feeling great thank you!",
+            "About as happy as a bundle of silicone and wires can be.",
+            "I'm doing well thank you."
+        ]
+    },
+	"say-correct": {
+		"examples": [
+			"Well done. That is the correct answer."
+		]
+	},
+	"say-incorrect": {
+		"examples": [
+			"I'm afraid that's the incorrect answer. The answer was in fact [1]."
+		]
+	},
+    "celebrate": {
+        "examples": [
+            "Awesome! I love to hear it.",
+            "Fantastic!",
+            "Brilliant!",
+            "Well that's good."
+        ]
+    },
+    "regret": {
+        "examples": [
+            "Oh. Too bad.",
+            "I'm sorry to hear that."
+        ]
+    },
+    "console": {
+        "examples": [
+            "Well I hope this can cheer you up.",
+            "But we can change that."
+        ]
+    },
+    "seek-confirmation": {
+        "examples": [
+            "Is [1] your answer?",
+            "Is [1] your final answer?",
+            "Would you like to make [1] your final answer?"
+        ]
+    },
+    "next-question": {
+        "examples": [
+            "Okay. Question number [1] is for £[2]. [3]",
+            "Okay. We are now on question [1]. This question is for £[2]. [3]",
+            "We are now playing for £[2]. Question [1]. [3]"
+        ]
+    },
+    "repeat-question": {
+        "examples": [
+            "The question was: [1]",
+            "So. The question was: [1]"
+        ]
+    }
+}

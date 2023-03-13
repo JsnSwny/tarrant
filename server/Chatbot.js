@@ -11,12 +11,13 @@ class Chatbot {
 		this.outputTarget = outputTarget;
 		this.paused = true;
 		this.flow = require("../data/chatbot/flow");
-		this.actions = require("../data/chatbot/actions");
+		this.actions = require("../data/chatbot/nlg");
 		this.intentResponses = require("../data/chatbot/intent_responses");
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
-		this.questionNumber = -1;
-		this.changeState("ask-question");
+		this.questionNumber = 0;
+		this.currentPrize = 0;
+		this.changeState("next-question");
 		this.answerSuggested = "";
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 		this.intentsDecided = 0;
@@ -27,6 +28,7 @@ class Chatbot {
 	nextQuestion() {
 		this.setQuestion("easy", "general-knowledge");
 		this.questionNumber++;
+		this.currentPrize += 250;
 	}
 
 	changeState(state) {
@@ -36,7 +38,7 @@ class Chatbot {
 		eval(flowConfig.EXEC);
 	}
 
-	utter(action, args) {
+	utter(action, args = []) {
 		let speech = this.nlg(action, args);
 		this.say(speech)
 	}
@@ -52,7 +54,7 @@ class Chatbot {
 
 	tick() {
 		let action = this.decideFinalAction("do nothing");
-		this.utter(action.name, action.args);
+		this.utter(action, action.args);
 	}
 
 	input(userName, userSpeech) {
@@ -71,11 +73,7 @@ class Chatbot {
 			if (DEBUG_MODE) console.log(`Intent: ${intent.string}`);
 			this.decideFinalIntent(intent, mentions);
 			if (Object.keys(this.intentResponses).includes(intent.name)) {
-				console.log(`${intent.name} found in INTENT RESPONSES`);
 				eval(this.intentResponses[intent.name].EXEC);
-			}
-			else {
-				console.log(`${intent.name} NOT found in INTENT RESPONSES`);
 			}
 			this.dialogueManager.decideAction(userName, intent.name, action => {
 				this.decideFinalAction(action);
@@ -103,8 +101,15 @@ class Chatbot {
 		if (action == "do nothing") return "";
 		if (Object.keys(this.actions).includes(action)) {
 			let speech = randomElement(this.actions[action].examples);
-			// TODO: make this a loop
-			speech = speech.replace(/\[1\]/g, args[0])
+			for (let argIndex = 0; argIndex < args.length; argIndex++) {
+				let index = speech.indexOf(`[${argIndex + 1}]`);
+				while (index !== -1) {
+					speech = speech.replace(`[${argIndex + 1}]`, args[argIndex]);
+					index = speech.indexOf(`[${argIndex + 1}]`);
+				}
+				speech = speech.replace(/\[${argIndex}\]/g, args[argIndex])
+			}
+			return speech
 		}
 		else {
 			return action;
@@ -149,15 +154,20 @@ class Chatbot {
 		return mentions;
 	}
 
+	isCorrectAnswer(answer) {
+		return answer.toLowerCase() === this.question["correct_answer"].toLowerCase()
+	}
+
 	handleOfferAnswer(args) {
 		console.log("HANDLING OFFER ANSWER");
 		console.log(args);
-		if (args[0] === this.question["correct_answer"]) {
+		if (this.isCorrectAnswer(args[0])) {
 			this.utter("say-correct");
 		}
 		else {
-			this.utter("say-incorrect", [this.questions["correct_answer"]]);
+			this.utter("say-incorrect", [this.question["correct_answer"]]);
 		}
+		this.changeState("next-question");
 	}
 
 }
