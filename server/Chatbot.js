@@ -6,8 +6,9 @@ const { randomElement, randomInt, timeElapsed } = require("./functions");
 
 class Chatbot {
 
-	constructor() {
+	constructor(outputTarget) {
 
+		this.outputTarget = outputTarget;
 		this.paused = true;
 		this.flow = require("../data/chatbot/flow");
 		this.actions = require("../data/chatbot/actions");
@@ -91,7 +92,10 @@ class Chatbot {
 
 	say(text) {
 		if (text === "") return;
-		console.log(`\nHOST: ${text}`);
+		if (this.outputTarget === console.log) {
+			text = `\nHOST: ${text}`;
+		}
+		this.outputTarget(text);
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 	}
 

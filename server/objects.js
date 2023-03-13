@@ -1,3 +1,4 @@
 const Chatbot = require("./Chatbot");
 
-module.exports.chatbot = new Chatbot();
+// ad-hoc - remove outputTarget param later
+module.exports.chatbot = new Chatbot(console.log);

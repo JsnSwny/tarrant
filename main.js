@@ -36,13 +36,28 @@ app.use(express.static(path.join(__dirname, "public")));
 // specify API
 app.use("/", require("./routes/api"));
 
+const connections = [];
+let userCount = 0;
+
+function communicateToPlayers(text) {
+	connections.forEach(socket => {
+		socket.emit("dialogue", { user: "HOST", text });
+	});
+}
+
+let CHATBOT_OUTPUT_TARGET = (EMULATE_DIALOGUE ? console.log : communicateToPlayers);
+
 io.on("connection", socket => {
 
 	console.log("A new player is here!");
 
+	connections.push(socket);
+	
 	socket.emit("enter-into-game", {
-		"user": 1
+		"user": ++userCount
 	});
+
+	socket.emit("dialogue", { user: "HOST", text: "Welcome to WWTBAM." });
 
 	socket.on("say", data => {
 		console.log("User says");
@@ -198,11 +213,9 @@ if (EMULATE_DIALOGUE) {
     }, 100);
 }
 
-/*
 setInterval(() => {
-	chatbot.tick();
+	chatbot.tick(CHATBOT_OUTPUT_TARGET);
 }, 100);
-*/
 
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //
