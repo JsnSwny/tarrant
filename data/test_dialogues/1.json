@@ -1,12 +1,7 @@
 {
 	"lines": [
 		{
-			"wait": 3,
-			"user": 1,
-			"text": "hello"
-		},
-		{
-			"wait": 9,
+			"wait": 4,
 			"user": 2,
 			"text": "i think it is Google"
 		},

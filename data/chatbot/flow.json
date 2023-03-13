@@ -14,7 +14,7 @@
     },
     "ask-question": {
         "EXEC": "this.nextQuestion(); this.utter('ask-question')",
-        "answer": "this.say('You are answering.'); this.changeState('seek-confirmation')",
+        "offer-answer": "this.say('You are now answering.'); this.changeState('seek-confirmation')",
         "suggest": "this.say('You are suggesting.'); this.changeState('seek-confirmation')",
         "exclude": "this.say('You are excluding.')",
         "DEFAULT": "this.say('Let me process what you just said.')"

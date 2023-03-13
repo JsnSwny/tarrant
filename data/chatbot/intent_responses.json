@@ -1,0 +1,5 @@
+{
+	"offer-answer": {
+		"EXEC": "this.handleOfferAnswer(intent.args)"
+	}
+}

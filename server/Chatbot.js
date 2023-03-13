@@ -12,6 +12,7 @@ class Chatbot {
 		this.paused = true;
 		this.flow = require("../data/chatbot/flow");
 		this.actions = require("../data/chatbot/actions");
+		this.intentResponses = require("../data/chatbot/intent_responses");
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = -1;
@@ -29,22 +30,15 @@ class Chatbot {
 	}
 
 	changeState(state) {
+		console.log(`\n===== ${state} =====`);
 		this.state = state;
 		const flowConfig = this.flow[this.state];
 		eval(flowConfig.EXEC);
 	}
 
-	utter(name) {
-		let speech;
-		if (Object.keys(this.actions).includes(name)) {
-			speech = randomElement(this.actions[name].examples);
-		}
-		else {
-			speech = this.nlg(name);
-		}
-		if (speech !== "") {
-			this.say(speech)
-		}
+	utter(action, args) {
+		let speech = this.nlg(action, args);
+		this.say(speech)
 	}
 
 	setQuestion(difficulty, category) {
@@ -58,10 +52,10 @@ class Chatbot {
 
 	tick() {
 		let action = this.decideFinalAction("do nothing");
-		this.say(this.nlg(action));
+		this.utter(action.name, action.args);
 	}
 
-	input(userName, userSpeech, next = this.say.bind(this)) {
+	input(userName, userSpeech) {
 
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 
@@ -76,18 +70,24 @@ class Chatbot {
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, intent => {
 			if (DEBUG_MODE) console.log(`Intent: ${intent.string}`);
 			this.decideFinalIntent(intent, mentions);
+			if (Object.keys(this.intentResponses).includes(intent.name)) {
+				console.log(`${intent.name} found in INTENT RESPONSES`);
+				eval(this.intentResponses[intent.name].EXEC);
+			}
+			else {
+				console.log(`${intent.name} NOT found in INTENT RESPONSES`);
+			}
 			this.dialogueManager.decideAction(userName, intent.name, action => {
 				this.decideFinalAction(action);
-				this.performAction(action, next);
+				this.performAction(action);
 			});
 		});
 
 	}
 
-	performAction(action, next) {
+	performAction(action, args = []) {
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
-		const chatbotSpeech = this.nlg(action);
-		next(chatbotSpeech);
+		this.utter(action, args);
 	}
 
 	say(text) {
@@ -99,9 +99,16 @@ class Chatbot {
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 	}
 
-	nlg(action) {
+	nlg(action, args) {
 		if (action == "do nothing") return "";
-		return `${action}`;
+		if (Object.keys(this.actions).includes(action)) {
+			let speech = randomElement(this.actions[action].examples);
+			// TODO: make this a loop
+			speech = speech.replace(/\[1\]/g, args[0])
+		}
+		else {
+			return action;
+		}
 	}
 
 	decideFinalAction(action) {
@@ -140,6 +147,17 @@ class Chatbot {
 			}
 		}
 		return mentions;
+	}
+
+	handleOfferAnswer(args) {
+		console.log("HANDLING OFFER ANSWER");
+		console.log(args);
+		if (args[0] === this.question["correct_answer"]) {
+			this.utter("say-correct");
+		}
+		else {
+			this.utter("say-incorrect", [this.questions["correct_answer"]]);
+		}
 	}
 
 }
