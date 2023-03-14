@@ -58,9 +58,9 @@
     },
     "next-question": {
         "examples": [
-            "Okay. Question number [1] is for £[2]. [3]",
-            "Okay. We are now on question [1]. This question is for £[2]. [3]",
-            "We are now playing for £[2]. Question [1]. [3]"
+            "Okay. Question number [1] is for £[2]. [3]. [4]",
+            "Okay. We are now on question [1]. This question is for £[2]. [3]. [4]",
+            "We are now playing for £[2]. Question [1]. [3]. [4]"
         ]
     },
     "repeat-question": {

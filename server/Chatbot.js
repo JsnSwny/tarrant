@@ -1,8 +1,8 @@
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 
-const { DEBUG_MODE } = require("./constants");
-const { randomElement, randomInt, timeElapsed } = require("./functions");
+const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
+const { randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
 
 class Chatbot {
 
@@ -27,6 +27,8 @@ class Chatbot {
 
 	nextQuestion() {
 		this.setQuestion("easy", "general-knowledge");
+		this.options = this.question["incorrect_answers"].concat(this.question["correct_answer"]);
+		shuffle(this.options);
 		this.questionNumber++;
 		this.currentPrize += 250;
 	}
@@ -34,8 +36,8 @@ class Chatbot {
 	changeState(state) {
 		console.log(`\n===== ${state} =====`);
 		this.state = state;
-		const flowConfig = this.flow[this.state];
-		eval(flowConfig.EXEC);
+		this.stateConfig = this.flow[this.state];
+		eval(this.stateConfig.EXEC);
 	}
 
 	utter(action, args = []) {
@@ -47,7 +49,7 @@ class Chatbot {
 		const filepath = `../data/questions/${category}/${difficulty}`;
 		const questions = require(filepath).questions;
 		// const index = randomInt(0, questions.length - 1);
-		const index = 0;
+		const index = this.questionNumber;
 		this.question = questions[index];
 		this.options = this.question["incorrect_answers"].concat(this.question["correct_answer"]);
 	}
@@ -63,17 +65,18 @@ class Chatbot {
 
 		const mentions = this.extractMentions(userSpeech);
 
-		console.log(`\n${userName}: ${userSpeech}`);
+		console.log(`\n${userName}: ${COLOUR_WHITE_BOLD}${userSpeech}${COLOUR_NONE}`);
 
-		if (DEBUG_MODE) {
-			console.log(`Mentions: ${mentions.join(", ") || "-"}`);
-		}
+		whisper(`Mentions: ${mentions.join(", ") || "-"}`, DEBUG_MODE);
 
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, intent => {
-			if (DEBUG_MODE) console.log(`Intent: ${intent.string}`);
-			this.decideFinalIntent(intent, mentions);
-			if (Object.keys(this.intentResponses).includes(intent.name)) {
-				eval(this.intentResponses[intent.name].EXEC);
+			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
+			this.decideFinalIntent(intent, mentions, userSpeech);
+			if (Object.keys(this.stateConfig).includes(intent.name)) {
+				eval(this.stateConfig[intent.name]);
+			}
+			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
+				eval(this.stateConfig.DEFAULT);
 			}
 			this.dialogueManager.decideAction(userName, intent.name, action => {
 				this.decideFinalAction(action);
@@ -91,7 +94,7 @@ class Chatbot {
 	say(text) {
 		if (text === "") return;
 		if (this.outputTarget === console.log) {
-			text = `\nHOST: ${text}`;
+			text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		}
 		this.outputTarget(text);
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
@@ -109,7 +112,7 @@ class Chatbot {
 				}
 				speech = speech.replace(/\[${argIndex}\]/g, args[argIndex])
 			}
-			return speech
+			return speech;
 		}
 		else {
 			return action;
@@ -120,27 +123,42 @@ class Chatbot {
 		if (action === "do nothing" && timeElapsed(this.lastTimestamp) > 4) {
 			action = "prompt";
 		}
+		else if (Object.keys(this.flow[this.state]).includes(action)) {
+			const evalString = this.stateConfig[action];
+			eval(evalString);
+		}
 		return action;
 	}
 
-	decideFinalIntent(intent, mentions) {
+	decideFinalIntent(intent, mentions, speech) {
 		let originalIntentName = intent.name;
-		if (mentions.length > 0 && intent.name === "offer-to-answer") {
+		if (speech === "no") {
+			intent.name = "reject";
+		}
+		else if (speech === "yes") {
+			intent.name = "agreement";
+		}
+		else if (mentions.length > 0 && intent.name === "offer-to-answer") {
 			intent.name = "offer-answer";
 			intent.args = mentions;
 		}
-		else if (intent.name == "agreement" && mentions.length > 0) {
+		else if (intent.name === "agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
+			intent.args = mentions;
+		}
+		else if (intent.name === "reject-option" && mentions.length === 0) {
+			intent.name = "reject";
+		}
+		else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
 		}
 		this.intentsDecided++;
+		intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
 		if (originalIntentName !== intent.name) {
-			intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
-			if (DEBUG_MODE) {
-				console.log(`Changed intent: ${originalIntentName} -> ${intent.string}`);
-			}
+			whisper(`Changed intent: ${originalIntentName} -> ${intent.string}`, DEBUG_MODE);
 			this.intentsChanged++;
 		}
+		this.lastIntent = intent;
 	}
 
 	extractMentions(userSpeech) {
@@ -159,8 +177,6 @@ class Chatbot {
 	}
 
 	handleOfferAnswer(args) {
-		console.log("HANDLING OFFER ANSWER");
-		console.log(args);
 		if (this.isCorrectAnswer(args[0])) {
 			this.utter("say-correct");
 		}

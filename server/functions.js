@@ -1,9 +1,10 @@
 const childProcess = require("child_process");
-const { ON_UNIX } = require("./constants");
+const axios = require("axios");
+const { COLOUR_WHITE_LIGHT, COLOUR_NONE, ON_UNIX } = require("./constants");
 
 if (ON_UNIX) {
     module.exports.makePostRequest = (uri, object, next) => {
-        const command = `curl ${uri} -d '${JSON.stringify(object)}'`;
+        let command = `curl ${uri} -d '${JSON.stringify(object)}'`;
         childProcess.exec(command, (err, stdout) => {
             if (err) {
                 console.log("Shit there's an error");
@@ -17,7 +18,7 @@ if (ON_UNIX) {
 }
 else {
     module.exports.makePostRequest = (uri, object, next) => {
-        axios.post(uri, object).then(next).catch((err) => console.log(err));
+        axios.post(uri, object).then(res => console.log(res)).then(next).catch((err) => console.log(err));
     }
 }
 
@@ -25,16 +26,39 @@ else {
 function randomInt(min, max) {
     const range = max - min;
     return min + Math.floor(Math.random() * range);
-};
+}
 
 function randomElement(array) {
 	const index = randomInt(0, array.length - 1);
 	return array[index];
 }
 
+module.exports.replace = (string, match, substitute) => {
+	let index = string.indexOf(match);
+	while (index !== -1) {
+		string = string.replace(match, substitute);
+		index = string.indexOf(match);
+	}
+	return string;
+};
+
+module.exports.shuffle = (array) => {
+	const arrayLength = array.length;
+	const temp = array.splice(0);
+	for (let counter = 0; counter < arrayLength; counter++) {
+		const index = randomInt(0, temp.length - 1);
+		array.push(temp[index]);
+		temp.splice(index, 1)
+	}
+};
+
 module.exports.timeElapsed = since => {
 	return Math.floor(Date.now() / 1000) - since;
-}
+};
+
+module.exports.whisper = (text, show = True) => {
+	if (show) console.log(`${COLOUR_WHITE_LIGHT}${text}${COLOUR_NONE}`);
+};
 
 module.exports.randomElement = randomElement;
 module.exports.randomInt = randomInt;

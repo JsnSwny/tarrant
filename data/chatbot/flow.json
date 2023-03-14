@@ -7,21 +7,20 @@
         "EXEC": "this.say('Would you like to play Who Wants To Be A Millionaire?')",
         "affirm": "this.say('Awesome! Then let us begin.'); this.changeState('next-question')",
         "reject": "this.say('Too bad. Maybe next time then.'); this.changeState('goodbye')",
-        "DEFAULT": "this.say(\"I'm sorry. I don't quite understand your answer. Was that a yes?\")"
+        "DEFAULT": "this.say('Sorry. I do not quite understand your answer. Was that a yes?')"
     },
     "goodbye": {
         "EXEC": "this.say('Catch you later.')"
     },
     "next-question": {
-        "EXEC": "this.nextQuestion(); this.utter('next-question', [this.questionNumber, this.currentPrize, this.question.question])",
+        "EXEC": "this.nextQuestion(); this.utter('next-question', [this.questionNumber, this.currentPrize, this.question.question, this.options])",
         "offer-answer": "this.say('You are now answering.'); this.changeState('seek-confirmation')",
-        "suggest": "this.say('You are suggesting.'); this.changeState('seek-confirmation')",
-        "exclude": "this.say('You are excluding.')",
+        "reject-option": "this.say(\"You ain't sure?\")",
         "DEFAULT": "this.say('Let me process what you just said.')"
     },
     "seek-confirmation": {
-        "EXEC": "this.utter('seek-confirmation')",
-        "affirm": "this.say('Let us check the answer then.'); this.changeState('lock-answer')",
+        "EXEC": "this.utter('seek-confirmation', this.lastIntent.args)",
+        "agreement": "this.handleOfferAnswer(intent.args)",
         "reject": "this.say(\"I'll give you more time\"); this.changeState('repeat-question')",
         "DEFAULT": "this.say('Let me process what you just said.')"
     },

@@ -1,6 +1,6 @@
 const axios = require("axios");
-const { DEBUG_NLU } = require("./constants");
-const { makePostRequest } = require("./functions");
+const { DEBUG_NLU, CONTRACTION_SUBSTITUTIONS } = require("./constants");
+const { makePostRequest, replace } = require("./functions");
 
 class IntentRecogniser {
 
@@ -10,11 +10,20 @@ class IntentRecogniser {
 
 	// passes user speech to nlu server and receives recognised intent
 	recogniseIntent(user, speech, next) {
+		speech = this.preIntentRecognition(speech);
 		makePostRequest("localhost:5005/model/parse", { "text": speech }, response => {
 			if (DEBUG_NLU) console.log(response);
 			const intent = this.extractIntent(user, response);
 			next(intent);
 		});
+	}
+
+	preIntentRecognition(speech) {
+		for (let s of CONTRACTION_SUBSTITUTIONS) {
+			speech = replace(speech, s[0], s[1]);
+		}
+		speech = replace(speech, "'", "");
+		return speech;
 	}
 
 	stringifyIntent(name, args) {
