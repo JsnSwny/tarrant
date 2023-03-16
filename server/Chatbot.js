@@ -17,8 +17,9 @@ class Chatbot {
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
 		this.currentPrize = 0;
+		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
 		this.changeState("next-question");
-		this.answerSuggested = "";
+		this.answerOffered = "";
 		this.lastTimestamp = Math.floor(Date.now() / 1000);
 		this.intentsDecided = 0;
 		this.intentsChanged = 0;
@@ -34,10 +35,13 @@ class Chatbot {
 	}
 
 	changeState(state) {
-		console.log(`\n===== ${state} =====`);
+		console.log(`\n========== ${state} ==========`);
 		this.state = state;
 		this.stateConfig = this.flow[this.state];
-		eval(this.stateConfig.EXEC);
+		this.setEvalAction(this.stateConfig.EXEC);
+		if (timeElapsed(this.lastTimestamp) >= this.action.wait) {
+			this.performAction();
+		}
 	}
 
 	utter(action, args = []) {
@@ -55,13 +59,20 @@ class Chatbot {
 	}
 
 	tick() {
-		let action = this.decideFinalAction("do nothing");
-		this.utter(action, action.args);
+		this.decideFinalAction("do nothing");
+
+		if (timeElapsed(this.lastTimestamp) >= this.action.wait) {
+			this.performAction();
+		}
+	}
+
+	updateTimeStamp() {
+		this.lastTimestamp = Math.floor(Date.now() / 1000);
 	}
 
 	input(userName, userSpeech) {
 
-		this.lastTimestamp = Math.floor(Date.now() / 1000);
+		this.updateTimeStamp();
 
 		const mentions = this.extractMentions(userSpeech);
 
@@ -73,22 +84,31 @@ class Chatbot {
 			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
 			this.decideFinalIntent(intent, mentions, userSpeech);
 			if (Object.keys(this.stateConfig).includes(intent.name)) {
-				eval(this.stateConfig[intent.name]);
+				this.setEvalAction(this.stateConfig[intent.name]);
 			}
 			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
-				eval(this.stateConfig.DEFAULT);
+				this.setEvalAction(this.stateConfig.DEFAULT);
 			}
 			this.dialogueManager.decideAction(userName, intent.name, action => {
 				this.decideFinalAction(action);
-				this.performAction(action);
+				if (timeElapsed(this.lastTimestamp) >= this.action.wait) {
+					this.performAction();
+				}
 			});
 		});
 
 	}
 
-	performAction(action, args = []) {
-		this.lastTimestamp = Math.floor(Date.now() / 1000);
-		this.utter(action, args);
+	performAction() {
+		if (this.action.eval !== "") {
+			eval(this.action.eval);
+			this.updateTimeStamp();
+		}
+		else {
+			this.utter(this.action.name, this.action.args);
+			this.updateTimeStamp();
+		}
+		this.setAction("do nothing", [], 0, "");
 	}
 
 	say(text) {
@@ -97,7 +117,7 @@ class Chatbot {
 			text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		}
 		this.outputTarget(text);
-		this.lastTimestamp = Math.floor(Date.now() / 1000);
+		this.updateTimeStamp();
 	}
 
 	nlg(action, args) {
@@ -120,14 +140,40 @@ class Chatbot {
 	}
 
 	decideFinalAction(action) {
-		if (action === "do nothing" && timeElapsed(this.lastTimestamp) > 4) {
-			action = "prompt";
+		if (action === "do nothing" && !this.holdingAction()) return;
+
+		if (!this.holdingAction() && timeElapsed(this.lastTimestamp) > this.action.wait) {
+			this.setAction("prompt")
 		}
-		else if (Object.keys(this.flow[this.state]).includes(action)) {
-			const evalString = this.stateConfig[action];
-			eval(evalString);
+		else if (Object.keys(this.stateConfig).includes(action)) {
+			this.setEvalAction(this.stateConfig[action]);
 		}
-		return action;
+	}
+
+	holdingAction() {
+		return (this.action.eval !== "" || this.action.name !== "do nothing");
+	}
+
+	setAction(name, args = [], wait = 0, evalString = "") {
+		this.action.name = name;
+		this.action.args = args;
+		this.action.wait = wait;
+		this.setEvalAction(evalString);
+	}
+
+	setEvalAction(evalSpec) {
+		let string;
+		let wait;
+		if (typeof evalSpec === "string") {
+			wait = 0;
+			string = evalSpec;
+		}
+		else {
+			wait = evalSpec[0];
+			string = evalSpec[1];
+		}
+		this.action.wait = wait;
+		this.action.eval = string;
 	}
 
 	decideFinalIntent(intent, mentions, speech) {
@@ -177,7 +223,11 @@ class Chatbot {
 	}
 
 	handleOfferAnswer(args) {
-		if (this.isCorrectAnswer(args[0])) {
+		this.answerOffered = args[0];
+	}
+
+	acceptAnswer() {
+		if (this.isCorrectAnswer(this.answerOffered)) {
 			this.utter("say-correct");
 		}
 		else {

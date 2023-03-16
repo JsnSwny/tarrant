@@ -205,7 +205,7 @@ server.listen(PORT);
 
 console.log(`Listening on port ${PORT}.`);
 
-const dialogueInputEmulator = new DialogueInputEmulator(chatbot, 2);
+const dialogueInputEmulator = new DialogueInputEmulator(chatbot, 1);
 
 if (EMULATE_DIALOGUE) {
     setInterval(() => {

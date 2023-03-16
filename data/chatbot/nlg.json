@@ -68,5 +68,16 @@
             "The question was: [1]",
             "So. The question was: [1]"
         ]
+    },
+    "repeat-answer": {
+        "examples": [
+            "So you say [1].",
+            "So you're thinking [1]."
+        ]
+    },
+    "temp": {
+        "examples": [
+            "You folk sure enjoy chatting. (delete)"
+        ]
     }
 }

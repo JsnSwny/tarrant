@@ -14,18 +14,21 @@
     },
     "next-question": {
         "EXEC": "this.nextQuestion(); this.utter('next-question', [this.questionNumber, this.currentPrize, this.question.question, this.options])",
-        "offer-answer": "this.say('You are now answering.'); this.changeState('seek-confirmation')",
+        "offer-answer": "this.utter('repeat-answer', this.lastIntent.args); this.handleOfferAnswer(this.lastIntent.args); this.changeState('seek-confirmation')",
         "reject-option": "this.say(\"You ain't sure?\")",
-        "DEFAULT": "this.say('Let me process what you just said.')"
+		"confirm-final-answer": "this.changeState('accept-answer')",
+        "DEFAULT": [3, "this.utter('temp')"]
     },
     "seek-confirmation": {
         "EXEC": "this.utter('seek-confirmation', this.lastIntent.args)",
-        "agreement": "this.handleOfferAnswer(intent.args)",
+        "agreement": "this.say('Let us lock it in then'); this.acceptAnswer()",
         "reject": "this.say(\"I'll give you more time\"); this.changeState('repeat-question')",
+        "offer-answer": "this.utter('repeat-answer', this.lastIntent.args); this.handleOfferAnswer(this.lastIntent.args); this.changeState('seek-confirmation')",
+		"confirm-final-answer": "this.changeState('accept-answer')",
         "DEFAULT": "this.say('Let me process what you just said.')"
     },
-    "lock-answer": {
-        "EXEC": "this.say('The result is...')",
+    "accept-answer": {
+        "EXEC": "this.utter('repeat-answer', [this.answerOffered]); this.acceptAnswer()",
         "DEFAULT": "this.say('Narley')"
     }
 }
