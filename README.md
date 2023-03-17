@@ -15,3 +15,17 @@ Two servers must be run alongside the core server: the Rasa-powered NLU server a
 The core server can now be started.
 
 `npm start`
+
+## Environment file
+
+To configure system behaviour, create a file named `.env` in the project root. A boilerplate `.env` file can be found inside `res/example-env.txt`.
+
+### Environment variables
+
+> DEBUG\_MODE: Set to 1 to display runtime information.
+
+> DEBUG\_NLU: Set to 1 to display NLU server responses.
+
+> EMULATE\_DIALOGUE: Set to 1 to send dialogue to the chatbot for testing.
+
+> ON\_UNIX: Set to 1 if on Unix-based machine.

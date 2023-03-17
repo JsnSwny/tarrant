@@ -74,7 +74,6 @@ class Chatbot {
 
 	input(userName, userSpeech) {
 
-		console.log("input");
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 
@@ -147,7 +146,6 @@ class Chatbot {
 
 	decideFinalAction(action, intent = undefined) {
 		if (intent) {
-			console.log("INTENNNNT");
 			if (Object.keys(this.stateConfig).includes(intent.name)) {
 				this.setEvalAction(this.stateConfig[intent.name]);
 			}
