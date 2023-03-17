@@ -15,6 +15,7 @@ class Chatbot {
 		this.flow = require("../data/chatbot/flow");
 		this.actions = require("../data/chatbot/nlg");
 		this.intentResponses = require("../data/chatbot/intent_responses");
+		this.sockets = [null, null];
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
@@ -71,8 +72,9 @@ class Chatbot {
 		this.performAction();
 	}
 
-	input(userName, userSpeech, socket = null) {
+	input(userName, userSpeech) {
 
+		console.log("input");
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 
@@ -113,6 +115,8 @@ class Chatbot {
 			text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		}
 		this.outputTarget(text);
+		if (this.sockets[0]) this.sockets[0].emit("receive_message", text);
+		if (this.sockets[1]) this.sockets[1].emit("receive_message", text);
 		this.lastTimestamp = now();
 	}
 
@@ -137,17 +141,22 @@ class Chatbot {
 
 	decideFinalAction(action, intent = undefined) {
 		if (intent) {
+			console.log("INTENNNNT");
 			if (Object.keys(this.stateConfig).includes(intent.name)) {
 				this.setEvalAction(this.stateConfig[intent.name]);
 			}
 			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
 				this.setEvalAction(this.stateConfig.DEFAULT);
 			}
+			else {
+				console.log("Da fuck");
+			}
 		}
 		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
 			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
-			if (timeElapsed(this.lastTimestamp) >= this.stateConfig.SILENCE[0]) {
-				this.setEvalAction(this.stateConfig.SILENCE[1]);
+			const silenceValue = CONFIG_SPEC_VALUE;
+			if (timeElapsed(this.lastTimestamp) >= silenceValue[0]) {
+				this.setEvalAction(silenceValue[1]);
 			}
 		}
 	}
@@ -290,6 +299,10 @@ class Chatbot {
 			if (err) throw(err);
 			console.log("Written to leaderboard");
 		});
+	}
+
+	addSocket(username, socket) {
+		this.sockets[username] = socket;
 	}
 
 }

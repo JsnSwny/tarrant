@@ -133,6 +133,8 @@ io.on("connection", (socket) => {
     assignedUserId = 1;
   }
 
+  chatbot.addSocket(assignedUserId, socket);
+
   console.log(Object.values(rooms).map((item) => item.users));
   // Send the assigned room and user ID to the client
   socket.emit("receive_message", {
@@ -180,6 +182,7 @@ io.on("connection", (socket) => {
     });
 
     chatbot.input(speaker, text);
+
     console.log(`U${speaker} ${data.message}`);
 
     getAction(`U${speaker}`, data.message);
@@ -281,9 +284,9 @@ if (EMULATE_DIALOGUE) {
   }, 100);
 }
 
-// setInterval(() => {
-//   chatbot.tick(CHATBOT_OUTPUT_TARGET);
-// }, 100);
+setInterval(() => {
+	chatbot.tick();
+}, 100);
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //
 

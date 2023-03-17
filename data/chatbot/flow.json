@@ -22,7 +22,7 @@
 		"DEFAULT": [4, "this.offerGuidance()"],
 		"SILENCE": [
 			[6, "this.offerGuidance()"],
-			[6, "this.say('Answer ya fuck')"]
+			[12, "this.say('Answer ya fuck')"]
 		]
 	},
 	"seek-confirmation": {
