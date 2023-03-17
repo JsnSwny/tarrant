@@ -3,7 +3,7 @@
 		{
 			"wait": 2,
 			"user": 2,
-			"text": "i think it's HTC"
+			"text": "i think it's Oculus"
 		},
 		{
 			"wait": 1,
@@ -42,13 +42,18 @@
 		},
 		{
 			"wait": 3,
-			"user": 2,
+			"user": 1,
 			"text": "it must be Demolition"
 		},
 		{
 			"wait": 3,
 			"user": 2,
 			"text": "it is"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "that's our answer"
 		}
 	],
 	"questions": [
