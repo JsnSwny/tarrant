@@ -146,9 +146,6 @@ class Chatbot {
 		}
 		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
 			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
-			if (typeof CONFIG_SPEC_VALUE[0] !== "number") {
-				
-			}
 			if (timeElapsed(this.lastTimestamp) >= this.stateConfig.SILENCE[0]) {
 				this.setEvalAction(this.stateConfig.SILENCE[1]);
 			}
