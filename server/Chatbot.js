@@ -115,8 +115,14 @@ class Chatbot {
 			text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		}
 		this.outputTarget(text);
-		if (this.sockets[0]) this.sockets[0].emit("receive_message", text);
-		if (this.sockets[1]) this.sockets[1].emit("receive_message", text);
+		if (this.sockets[0]) this.sockets[0].emit("receive_message", {
+			text: text,
+			speaker: "HOST"
+		});
+		if (this.sockets[1]) this.sockets[1].emit("receive_message", {
+			text: text,
+			speaker: "HOST"
+		});
 		this.lastTimestamp = now();
 	}
 
