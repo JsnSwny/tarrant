@@ -19,7 +19,7 @@ const getMediaStream = () =>
     video: false,
   });
 
-const AudioToText = () => {
+const AudioToText = ({ messages }) => {
   const [connection, setConnection] = useState();
   const [currentRecognition, setCurrentRecognition] = useState();
   const [recognitionHistory, setRecognitionHistory] = useState([]);
@@ -29,6 +29,14 @@ const AudioToText = () => {
   const audioContextRef = useRef();
   const audioInputRef = useRef();
   const [dialogue, setDialogue] = useState([]);
+
+  useEffect(() => {
+    console.log("UPDATING DIALOGUE");
+    console.log(messages);
+    if (messages) {
+      setDialogue(messages);
+    }
+  }, [messages]);
 
   const speechRecognized = (data) => {
     if (data.final) {
@@ -44,8 +52,6 @@ const AudioToText = () => {
       console.log("connected", socket.id);
       setConnection(socket);
     });
-
-    socket.emit("send_message", "hello world");
 
     socket.emit("startGoogleCloudStream");
 
