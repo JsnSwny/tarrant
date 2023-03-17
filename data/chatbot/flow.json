@@ -37,7 +37,7 @@
 		"DEFAULT": "this.say('Narley')"
 	},
 	"end-of-game": {
-		"EXEC": "this.utter('end-of-game', [this.questionNumber, this.totalQuestions])",
+		"EXEC": "this.utter('end-of-game', [this.questionNumber, this.totalQuestions]); this.handleEndOfGame()",
 		"DEFAULT": ""
 	}
 }

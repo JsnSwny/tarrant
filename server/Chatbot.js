@@ -1,3 +1,5 @@
+const childProcess = require("child_process");
+
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 
@@ -16,7 +18,7 @@ class Chatbot {
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
-		this.totalQuestions = 2;
+		this.totalQuestions = 1;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
 		this.nextQuestion();
@@ -24,6 +26,8 @@ class Chatbot {
 		this.intentsDecided = 0;
 		this.intentsChanged = 0;
 		this.timeScaleFactor = 0.2;
+		this.USER_1_NAME = "Abraham";
+		this.USER_2_NAME = "Eleanor";
 
 	}
 
@@ -268,6 +272,14 @@ class Chatbot {
 		// args[0] is a boolean specifying whether the question should be stated in full
 		if (args[0]) this.utter("question", [this.questionNumber, this.currentPrize, this.question.question, this.options]);
 		else this.utter("question-brief", [this.questionNumber, this.currentPrize, this.question.question, this.options]);
+	}
+
+	handleEndOfGame() {
+		const command = `echo "${this.USER_1_NAME},${this.USER_2_NAME},${this.questionNumber}" >> leaderboard.csv`;
+		childProcess.exec(command, (err, stdout) => {
+			if (err) throw(err);
+			console.log("Written to leaderboard");
+		});
 	}
 
 }
