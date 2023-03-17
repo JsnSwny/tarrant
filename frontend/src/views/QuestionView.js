@@ -7,6 +7,7 @@ import "../style.scss";
 import axios from "axios";
 import AudioToText from "./AudioRecorder";
 import * as io from "socket.io-client";
+import { defaultsDeep } from "lodash";
 
 const QuestionView = () => {
   const [listening, setListening] = useState();
@@ -19,7 +20,7 @@ const QuestionView = () => {
 
   const connect = () => {
     connection?.disconnect();
-    const socket = io.connect("http://localhost:5000");
+    const socket = io.connect("http://137.195.119.18:5000");
     socket.on("connect", () => {
       console.log("connected", socket.id);
       setConnection(socket);
@@ -80,7 +81,7 @@ const QuestionView = () => {
           value={message}
         />
         <button onClick={() => sendMessage()}>Submit</button>
-        <AudioToText messages={dialogue} />
+        <AudioToText messages={dialogue} socket={connection} />
       </div>
       <Leaderboard />
     </section>

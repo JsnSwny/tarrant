@@ -194,7 +194,6 @@ io.on("connection", (socket) => {
   });
 
   socket.on("send_audio_data", async (audioData) => {
-    io.emit("receive_message", "Got audio data");
     if (recognizeStream !== null) {
       try {
         // console.log(audioData.audio);
@@ -208,7 +207,7 @@ io.on("connection", (socket) => {
   });
 
   const getAction = (userName, dialogue, socket) => {
-    chatbot.input(userName, dialogue, socket);
+    // chatbot.input(userName, dialogue, socket);
   };
 
   function startRecognitionStream(client) {
@@ -224,33 +223,22 @@ io.on("connection", (socket) => {
             .join("\n");
 
           console.log(data.results);
-          console.log(data.results[data.results.length - 1].alternatives);
+
           result = data.results[0];
 
           words_info = result.alternatives[0].words;
-          // console.log(data);
           const grouped = _.groupBy(words_info, (word) => word.speakerTag);
+          words = words_info.map((item) => ({
+            word: item.word,
+            speaker: getUserIdFromSocketId(socket.id),
+          }));
+          console.log(transcription);
           if (result.isFinal) {
-            console.log(transcription);
-            const action = getAction(`U1 ${transcription}`);
-            console.log(
-              words_info.map((item) => ({
-                word: item.word,
-                speaker: item.speakerTag,
-              }))
-            );
-            io.emit(
-              "send_transcript",
-              words_info.map((item) => ({
-                word: item.word,
-                speaker: item.speakerTag,
-              }))
-            );
+            io.emit("receive_message", {
+              text: transcription,
+              speaker: getUserIdFromSocketId(socket.id),
+            });
           }
-
-          //   console.log(transcription);
-          //   console.log(speakers);
-          //   console.log(`Transcription: ${transcription}`);
         });
     } catch (err) {
       console.error("OHHH Error streaming google api " + err);
@@ -297,16 +285,12 @@ const alternativeLanguageCodes = ["en-US", "ko-KR"];
 const request = {
   config: {
     encoding: "LINEAR16",
-    sampleRateHertz: 24000,
+    sampleRateHertz: 16000,
     languageCode: "en-US",
-    diarizationConfig: {
-      enableSpeakerDiarization: true,
-      minSpeakerCount: 2,
-      maxSpeakerCount: 2,
-    },
     enbleWordTimeOffsets: true,
     enableAutomaticPunctuation: true,
-    model: "phone_call",
+    model: "latest_long",
+    microphoneDistance: "NEARFIELD",
   },
   interimResults: true,
 };
