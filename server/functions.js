@@ -52,8 +52,12 @@ module.exports.shuffle = (array) => {
 	}
 };
 
+module.exports.now = () => {
+	return Math.floor(Date.now() / 1000);
+};
+
 module.exports.timeElapsed = since => {
-	return TIME_SCALE_FACTOR * (Math.floor(Date.now() / 1000) - since);
+	return TIME_SCALE_FACTOR * (module.exports.now() - since);
 };
 
 module.exports.currentTime = () => {

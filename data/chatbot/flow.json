@@ -20,7 +20,10 @@
 		"ask-agreement": "this.utter('acknowledge-agreement')",
 		"final-answer": "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.acceptAnswer()",
 		"DEFAULT": [4, "this.offerGuidance()"],
-		"SILENCE": [6, "this.handleQuestionSilence()"]
+		"SILENCE": [
+			[6, "this.offerGuidance()"],
+			[6, "this.say('Answer ya fuck')"]
+		]
 	},
 	"seek-confirmation": {
 		"EXEC": "this.utter('seek-confirmation', [this.answerOffered])",

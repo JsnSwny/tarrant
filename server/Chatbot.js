@@ -4,7 +4,7 @@ const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 
 const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
-const { randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
+const { now, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
 
 class Chatbot {
 
@@ -18,17 +18,19 @@ class Chatbot {
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
-		this.totalQuestions = 1;
+		this.totalQuestions = 2;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
 		this.nextQuestion();
-		this.updateTimeStamp();
+		this.lastTimestamp = now();
+		this.lastInputTimestamp = now();
 		this.intentsDecided = 0;
 		this.intentsChanged = 0;
 		this.timeScaleFactor = 0.2;
 		this.USER_1_NAME = "Abraham";
 		this.USER_2_NAME = "Eleanor";
-
+		this.hasLifelineFiftyFifty = true;
+		this.hasLifelineAskTheAudience = true;
 	}
 
 	nextQuestion() {
@@ -69,13 +71,10 @@ class Chatbot {
 		this.performAction();
 	}
 
-	updateTimeStamp() {
-		this.lastTimestamp = Math.floor(Date.now() / 1000);
-	}
+	input(userName, userSpeech, socket = null) {
 
-	input(userName, userSpeech) {
-
-		this.updateTimeStamp();
+		this.lastTimestamp = now();
+		this.lastInputTimestamp = now();
 
 		const mentions = this.extractMentions(userSpeech);
 
@@ -99,11 +98,11 @@ class Chatbot {
 
 		if (this.action.eval !== "") {
 			eval(this.action.eval);
-			this.updateTimeStamp();
+			this.lastTimestamp = now();
 		}
 		else if (this.action.name !== "do nothing") {
 			this.utter(this.action.name, this.action.args);
-			this.updateTimeStamp();
+			this.lastTimestamp = now();
 		}
 		this.setAction("do nothing", [], 0, "");
 	}
@@ -114,7 +113,7 @@ class Chatbot {
 			text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		}
 		this.outputTarget(text);
-		this.updateTimeStamp();
+		this.lastTimestamp = now();
 	}
 
 	nlg(action, args) {
@@ -145,8 +144,14 @@ class Chatbot {
 				this.setEvalAction(this.stateConfig.DEFAULT);
 			}
 		}
-		else if (Object.keys(this.stateConfig).includes("SILENCE") && timeElapsed(this.lastTimestamp) >= this.stateConfig.SILENCE[0]) {
-			this.setEvalAction(this.stateConfig.SILENCE[1]);
+		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
+			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
+			if (typeof CONFIG_SPEC_VALUE[0] !== "number") {
+				
+			}
+			if (timeElapsed(this.lastTimestamp) >= this.stateConfig.SILENCE[0]) {
+				this.setEvalAction(this.stateConfig.SILENCE[1]);
+			}
 		}
 	}
 
@@ -265,7 +270,15 @@ class Chatbot {
 	}
 	
 	offerGuidance() {
-		this.say("Remember that you have two lifelines");
+		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
+			this.utter("offer-lifelines");
+		}
+		else if (this.hasLifelineFiftyFifty) {
+			this.utter("offer-fifty-fifty");
+		}
+		else if (this.hasLifelineAskTheAudience) {
+			this.utter("offer-ask-the-audience");
+		}
 	}
 
 	stateQuestion(args) {
