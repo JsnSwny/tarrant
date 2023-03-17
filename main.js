@@ -179,6 +179,7 @@ io.on("connection", (socket) => {
       speaker: speaker,
     });
 
+    chatbot.input(speaker, text);
     console.log(`U${speaker} ${data.message}`);
 
     getAction(`U${speaker}`, data.message);
