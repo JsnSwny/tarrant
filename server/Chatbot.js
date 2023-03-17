@@ -16,13 +16,14 @@ class Chatbot {
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
+		this.totalQuestions = 2;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
-		this.changeState("next-question");
-		this.answerOffered = "";
-		this.lastTimestamp = Math.floor(Date.now() / 1000);
+		this.nextQuestion();
+		this.updateTimeStamp();
 		this.intentsDecided = 0;
 		this.intentsChanged = 0;
+		this.timeScaleFactor = 0.2;
 
 	}
 
@@ -32,16 +33,17 @@ class Chatbot {
 		shuffle(this.options);
 		this.questionNumber++;
 		this.currentPrize += 250;
+		this.answerOffered = "";
+		this.changeState("question", [true]);
 	}
 
-	changeState(state) {
-		console.log(`\n========== ${state} ==========`);
+	changeState(state, stateArgs = []) {
+		this.stateArgs = stateArgs;
+		console.log(`\n========== ${state} [${stateArgs.join(", ")}] ==========`);
 		this.state = state;
 		this.stateConfig = this.flow[this.state];
 		this.setEvalAction(this.stateConfig.EXEC);
-		if (timeElapsed(this.lastTimestamp) >= this.action.wait) {
-			this.performAction();
-		}
+		this.performAction();
 	}
 
 	utter(action, args = []) {
@@ -60,10 +62,7 @@ class Chatbot {
 
 	tick() {
 		this.decideFinalAction("do nothing");
-
-		if (timeElapsed(this.lastTimestamp) >= this.action.wait) {
-			this.performAction();
-		}
+		this.performAction();
 	}
 
 	updateTimeStamp() {
@@ -83,28 +82,22 @@ class Chatbot {
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, intent => {
 			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
 			this.decideFinalIntent(intent, mentions, userSpeech);
-			if (Object.keys(this.stateConfig).includes(intent.name)) {
-				this.setEvalAction(this.stateConfig[intent.name]);
-			}
-			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
-				this.setEvalAction(this.stateConfig.DEFAULT);
-			}
 			this.dialogueManager.decideAction(userName, intent.name, action => {
-				this.decideFinalAction(action);
-				if (timeElapsed(this.lastTimestamp) >= this.action.wait) {
-					this.performAction();
-				}
+				this.decideFinalAction(action, intent);
+				this.performAction();
 			});
 		});
 
 	}
 
 	performAction() {
+		if (timeElapsed(this.lastTimestamp) < this.action.wait) return;
+
 		if (this.action.eval !== "") {
 			eval(this.action.eval);
 			this.updateTimeStamp();
 		}
-		else {
+		else if (this.action.name !== "do nothing") {
 			this.utter(this.action.name, this.action.args);
 			this.updateTimeStamp();
 		}
@@ -139,14 +132,17 @@ class Chatbot {
 		}
 	}
 
-	decideFinalAction(action) {
-		if (action === "do nothing" && !this.holdingAction()) return;
-
-		if (!this.holdingAction() && timeElapsed(this.lastTimestamp) > this.action.wait) {
-			this.setAction("prompt")
+	decideFinalAction(action, intent = undefined) {
+		if (intent) {
+			if (Object.keys(this.stateConfig).includes(intent.name)) {
+				this.setEvalAction(this.stateConfig[intent.name]);
+			}
+			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
+				this.setEvalAction(this.stateConfig.DEFAULT);
+			}
 		}
-		else if (Object.keys(this.stateConfig).includes(action)) {
-			this.setEvalAction(this.stateConfig[action]);
+		else if (Object.keys(this.stateConfig).includes("SILENCE") && timeElapsed(this.lastTimestamp) >= this.stateConfig.SILENCE[0]) {
+			this.setEvalAction(this.stateConfig.SILENCE[1]);
 		}
 	}
 
@@ -174,10 +170,15 @@ class Chatbot {
 		}
 		this.action.wait = wait;
 		this.action.eval = string;
+		if (string === "") return;
+		whisper(`Eval action: ${string}`, (DEBUG_MODE && wait === 0));
+		whisper(`Eval action in ${wait} seconds: ${string}`, (DEBUG_MODE && wait > 0));
 	}
 
 	decideFinalIntent(intent, mentions, speech) {
 		let originalIntentName = intent.name;
+		let originalIntentArgs = intent.args;
+		let originalIntentString = intent.string;
 		if (speech === "no") {
 			intent.name = "reject";
 		}
@@ -201,8 +202,11 @@ class Chatbot {
 		this.intentsDecided++;
 		intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
 		if (originalIntentName !== intent.name) {
-			whisper(`Changed intent: ${originalIntentName} -> ${intent.string}`, DEBUG_MODE);
+			whisper(`Changed intent: ${originalIntentString} -> ${intent.string}`, DEBUG_MODE);
 			this.intentsChanged++;
+		}
+		else if (originalIntentArgs !== intent.args) {
+			whisper(`Added intent args: ${originalIntentString} -> ${intent.string}`, DEBUG_MODE);
 		}
 		this.lastIntent = intent;
 	}
@@ -233,7 +237,37 @@ class Chatbot {
 		else {
 			this.utter("say-incorrect", [this.question["correct_answer"]]);
 		}
-		this.changeState("next-question");
+		if (this.questionNumber < this.totalQuestions) {
+			this.nextQuestion();
+		}
+		else {
+			this.changeState("end-of-game");
+		}
+	}
+
+	handleQuestionSilence() {
+		if (this.answerOffered !== "") {
+			this.utter('repeat-answer', [this.answerOffered]);
+			this.changeState('seek-confirmation');
+		}
+		else {
+			this.say("I'll give you a bit more time. (delete)");
+		}
+	}
+
+	handleRejectOption(args) {
+		this.answerOffered = "";
+		this.offerGuidance();
+	}
+	
+	offerGuidance() {
+		this.say("Remember that you have two lifelines");
+	}
+
+	stateQuestion(args) {
+		// args[0] is a boolean specifying whether the question should be stated in full
+		if (args[0]) this.utter("question", [this.questionNumber, this.currentPrize, this.question.question, this.options]);
+		else this.utter("question-brief", [this.questionNumber, this.currentPrize, this.question.question, this.options]);
 	}
 
 }

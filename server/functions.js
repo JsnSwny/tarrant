@@ -1,6 +1,6 @@
 const childProcess = require("child_process");
 const axios = require("axios");
-const { COLOUR_WHITE_LIGHT, COLOUR_NONE, ON_UNIX } = require("./constants");
+const { COLOUR_WHITE_LIGHT, COLOUR_NONE, ON_UNIX, TIME_SCALE_FACTOR } = require("./constants");
 
 if (ON_UNIX) {
     module.exports.makePostRequest = (uri, object, next) => {
@@ -53,7 +53,11 @@ module.exports.shuffle = (array) => {
 };
 
 module.exports.timeElapsed = since => {
-	return Math.floor(Date.now() / 1000) - since;
+	return TIME_SCALE_FACTOR * (Math.floor(Date.now() / 1000) - since);
+};
+
+module.exports.currentTime = () => {
+	return Math.floor(Date.now() / 1000)
 };
 
 module.exports.whisper = (text, show = True) => {

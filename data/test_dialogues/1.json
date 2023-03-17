@@ -16,9 +16,39 @@
 			"text": "yeah i think we should go with that"
 		},
 		{
-			"wait": 10,
+			"wait": 8,
 			"user": 2,
-			"text": "okay then"
+			"text": "I know that one it's demolition"
+		},
+		{
+			"wait": 4,
+			"user": 2,
+			"text": "no it's not Demolition"
+		},
+		{
+			"wait": 3,
+			"user": 1,
+			"text": "that's right"
+		},
+		{
+			"wait": 6,
+			"user": 1,
+			"text": "yes we think so"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "yeah it has to be Demolition"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "it must be Demolition"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "it is"
 		}
 	],
 	"questions": [

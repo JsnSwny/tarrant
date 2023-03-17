@@ -1,24 +1,24 @@
 {
-    "greet": {
-        "examples": [
-            "Hey there. I'm glad you could join me.",
-            "Pleasure to meet you."
-        ]
-    },
-    "greet-question": {
-        "examples": [
-            "How are you?",
-            "How's it going?",
-            "How are you today?"
-        ]
-    },
-    "respond-to-greet-question": {
-        "examples": [
-            "I'm feeling great thank you!",
-            "About as happy as a bundle of silicone and wires can be.",
-            "I'm doing well thank you."
-        ]
-    },
+	"greet": {
+		"examples": [
+			"Hey there. I'm glad you could join me.",
+			"Pleasure to meet you."
+		]
+	},
+	"greet-question": {
+		"examples": [
+			"How are you?",
+			"How's it going?",
+			"How are you today?"
+		]
+	},
+	"respond-to-greet-question": {
+		"examples": [
+			"I'm feeling great thank you!",
+			"About as happy as a bundle of silicone and wires can be.",
+			"I'm doing well thank you."
+		]
+	},
 	"say-correct": {
 		"examples": [
 			"Well done. That is the correct answer."
@@ -29,55 +29,81 @@
 			"I'm afraid that's the incorrect answer. The answer was in fact [1]."
 		]
 	},
-    "celebrate": {
-        "examples": [
-            "Awesome! I love to hear it.",
-            "Fantastic!",
-            "Brilliant!",
-            "Well that's good."
-        ]
-    },
-    "regret": {
-        "examples": [
-            "Oh. Too bad.",
-            "I'm sorry to hear that."
-        ]
-    },
-    "console": {
-        "examples": [
-            "Well I hope this can cheer you up.",
-            "But we can change that."
-        ]
-    },
-    "seek-confirmation": {
-        "examples": [
-            "Is [1] your answer?",
-            "Is [1] your final answer?",
-            "Would you like to make [1] your final answer?"
-        ]
-    },
-    "next-question": {
-        "examples": [
-            "Okay. Question number [1] is for £[2]. [3]. [4]",
-            "Okay. We are now on question [1]. This question is for £[2]. [3]. [4]",
-            "We are now playing for £[2]. Question [1]. [3]. [4]"
-        ]
-    },
-    "repeat-question": {
-        "examples": [
-            "The question was: [1]",
-            "So. The question was: [1]"
-        ]
-    },
-    "repeat-answer": {
-        "examples": [
-            "So you say [1].",
-            "So you're thinking [1]."
-        ]
-    },
-    "temp": {
-        "examples": [
-            "You folk sure enjoy chatting. (delete)"
-        ]
-    }
+	"celebrate": {
+		"examples": [
+			"Awesome! I love to hear it.",
+			"Fantastic!",
+			"Brilliant!",
+			"Well that's good."
+		]
+	},
+	"regret": {
+		"examples": [
+			"Oh. Too bad.",
+			"I'm sorry to hear that."
+		]
+	},
+	"console": {
+		"examples": [
+			"Well I hope this can cheer you up.",
+			"But we can change that."
+		]
+	},
+	"seek-confirmation": {
+		"examples": [
+			"Is [1] your answer?",
+			"Is [1] your final answer?",
+			"Would you like to make [1] your final answer?"
+		]
+	},
+	"question": {
+		"examples": [
+			"Okay. Question number [1] is for £[2]. [3]. [4]",
+			"Okay. We are now on question [1]. This question is for £[2]. [3]. [4]",
+			"We are now playing for £[2]. Question [1]. [3]. [4]"
+		]
+	},
+	"question-brief": {
+		"examples": [
+			"Remember, we are on question number [1]. We're currently playing for £[2]."
+		]
+	},
+	"repeat-question": {
+		"examples": [
+			"The question was: [1]",
+			"So. The question was: [1]"
+		]
+	},
+	"repeat-answer": {
+		"examples": [
+			"So you say [1].",
+			"So you're thinking [1]."
+		]
+	},
+	"temp": {
+		"examples": [
+			"You folk sure enjoy chatting. (delete)"
+		]
+	},
+	"acknowledge-agreement": {
+		"examples": [
+			"It's important you both agree on this.",
+			"So what do you think?"
+		]
+	},
+	"end-of-game": {
+		"examples": [
+			"And that's the end of the game. Thank you so much for playing. I really enjoyed it. You reached question [1] out of a total [2]. I hope to see you again.",
+			"It's the end of the run for us. Question [1] out of a total [2]. I hope you enjoyed your game, because I know I did. Hopefully we can play again in the future.",
+			"And we have reached the end of our run. We reached question [1]. Thank you for playing, and I hope to see you both again.",
+			"It looks like question number [1] managed to defeat us. But no worry, there's no limit to how many games you may play."
+		]
+	},
+	"seek-answer-clarification": {
+		"examples": [
+			"So what is it you're thinking?",
+			"So what do you think the answer is then?",
+			"So what's your answer?"
+		]
+	}
 }

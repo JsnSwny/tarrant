@@ -1,34 +1,43 @@
 {
-    "introduction": {
-        "EXEC": "this.utter('introduction')",
-        "DEFAULT": "this.changeState('invite')"
-    },
-    "invite": {
-        "EXEC": "this.say('Would you like to play Who Wants To Be A Millionaire?')",
-        "affirm": "this.say('Awesome! Then let us begin.'); this.changeState('next-question')",
-        "reject": "this.say('Too bad. Maybe next time then.'); this.changeState('goodbye')",
-        "DEFAULT": "this.say('Sorry. I do not quite understand your answer. Was that a yes?')"
-    },
-    "goodbye": {
-        "EXEC": "this.say('Catch you later.')"
-    },
-    "next-question": {
-        "EXEC": "this.nextQuestion(); this.utter('next-question', [this.questionNumber, this.currentPrize, this.question.question, this.options])",
-        "offer-answer": "this.utter('repeat-answer', this.lastIntent.args); this.handleOfferAnswer(this.lastIntent.args); this.changeState('seek-confirmation')",
-        "reject-option": "this.say(\"You ain't sure?\")",
+	"introduction": {
+		"EXEC": "this.utter('introduction')",
+		"DEFAULT": "this.changeState('invite')"
+	},
+	"invite": {
+		"EXEC": "this.say('Would you like to play Who Wants To Be A Millionaire?')",
+		"affirm": "this.say('Awesome! Then let us begin.'); this.changeState('question', [true])",
+		"reject": "this.say('Too bad. Maybe next time then.'); this.changeState('goodbye')",
+		"DEFAULT": "this.say('Sorry. I do not quite understand your answer. Was that a yes?')"
+	},
+	"goodbye": {
+		"EXEC": "this.say('Catch you later.')"
+	},
+	"question": {
+		"EXEC": "this.stateQuestion(this.stateArgs)",
+		"offer-answer": "this.handleOfferAnswer(this.lastIntent.args)",
+		"reject-option": "this.handleRejectOption(this.lastIntent.args)",
 		"confirm-final-answer": "this.changeState('accept-answer')",
-        "DEFAULT": [3, "this.utter('temp')"]
-    },
-    "seek-confirmation": {
-        "EXEC": "this.utter('seek-confirmation', this.lastIntent.args)",
-        "agreement": "this.say('Let us lock it in then'); this.acceptAnswer()",
-        "reject": "this.say(\"I'll give you more time\"); this.changeState('repeat-question')",
-        "offer-answer": "this.utter('repeat-answer', this.lastIntent.args); this.handleOfferAnswer(this.lastIntent.args); this.changeState('seek-confirmation')",
+		"ask-agreement": "this.utter('acknowledge-agreement')",
+		"final-answer": "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.acceptAnswer()",
+		"DEFAULT": [4, "this.offerGuidance()"],
+		"SILENCE": [6, "this.handleQuestionSilence()"]
+	},
+	"seek-confirmation": {
+		"EXEC": "this.utter('seek-confirmation', [this.answerOffered])",
+		"agreement": "this.say('Let us lock it in then'); this.acceptAnswer()",
+		"reject": "this.changeState('question', [false])",
+		"reject-option": "(this.lastIntent.args[0] === this.answerOffered) ? this.changeState('question', [false]) : this.changeState('accept-answer')",
+		"offer-answer": "this.utter('repeat-answer', this.lastIntent.args); this.handleOfferAnswer(this.lastIntent.args); this.changeState('seek-confirmation')",
 		"confirm-final-answer": "this.changeState('accept-answer')",
-        "DEFAULT": "this.say('Let me process what you just said.')"
-    },
-    "accept-answer": {
-        "EXEC": "this.utter('repeat-answer', [this.answerOffered]); this.acceptAnswer()",
-        "DEFAULT": "this.say('Narley')"
-    }
+		"DEFAULT": "this.say('Let me process what you just said.')",
+		"SILENCE": [5, "this.say('Hello?')"]
+	},
+	"accept-answer": {
+		"EXEC": "this.utter('repeat-answer', [this.answerOffered]); this.acceptAnswer()",
+		"DEFAULT": "this.say('Narley')"
+	},
+	"end-of-game": {
+		"EXEC": "this.utter('end-of-game', [this.questionNumber, this.totalQuestions])",
+		"DEFAULT": ""
+	}
 }
