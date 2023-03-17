@@ -29,10 +29,9 @@ const AudioToText = ({ messages }) => {
   const audioContextRef = useRef();
   const audioInputRef = useRef();
   const [dialogue, setDialogue] = useState([]);
+  const [currentDialogue, setCurrentDialogue] = useState([]);
 
   useEffect(() => {
-    console.log("UPDATING DIALOGUE");
-    console.log(messages);
     if (messages) {
       setDialogue(messages);
     }
@@ -47,7 +46,7 @@ const AudioToText = ({ messages }) => {
 
   const connect = () => {
     connection?.disconnect();
-    const socket = io.connect("http://localhost:5000");
+    const socket = io.connect("http://137.195.119.18:5000");
     socket.on("connect", () => {
       console.log("connected", socket.id);
       setConnection(socket);
@@ -55,9 +54,9 @@ const AudioToText = ({ messages }) => {
 
     socket.emit("startGoogleCloudStream");
 
-    socket.on("receive_message", (data) => {
-      console.log("received message", data);
-    });
+    // socket.on("receive_message", (data) => {
+    //   console.log("received message", data);
+    // });
 
     socket.on("send_transcript", (transcript) => {
       console.log(`Transcript: ${JSON.stringify(transcript)}`);
@@ -84,7 +83,6 @@ const AudioToText = ({ messages }) => {
       result.push(currentGroup);
 
       setDialogue(result);
-      console.log(result);
     });
 
     socket.on("receive_audio_text", (data) => {
@@ -111,7 +109,9 @@ const AudioToText = ({ messages }) => {
 
   useEffect(() => {
     (async () => {
+      console.log("Trying to connect");
       if (connection) {
+        console.log(connection);
         if (isRecording) {
           return;
         }
@@ -179,6 +179,13 @@ const AudioToText = ({ messages }) => {
           icon={isRecording ? faMicrophoneSlash : faMicrophone}
         />
         {isRecording ? "Stop" : "Start"} Listening
+      </button>
+      <button
+        onClick={() => {
+          getMediaStream();
+        }}
+      >
+        Get Audio
       </button>
     </div>
   );
