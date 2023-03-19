@@ -53,17 +53,17 @@ class Chatbot {
 	}
 
 	nextQuestion(firstQuestion = false) {
+		if (firstQuestion) {
+			this.questionNumber = 1;
+		} else {
+			this.questionNumber++;
+		}
 		this.setQuestion("easy", "general-knowledge");
 		this.options = this.question["incorrect_answers"].map((options) => options);
 		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
 		this.options.push(this.question["correct_answers"]);
-		if (firstQuestion) {
-			this.questionNumber = 1;
-		}
-		else {
-			this.questionNumber++;
-		}
+
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
@@ -71,7 +71,7 @@ class Chatbot {
 		if (this.io) {
 			this.io.emit("next_question", {
 				questionNumber: this.questionNumber,
-				question: this.question
+				question: this.question,
 			});
 		}
 	}

@@ -98,9 +98,7 @@ const AudioToText = ({ messages, connection, letsPlayAudio }) => {
 	};
 
 	const disconnect = () => {
-		if (!connection) return;
 		connection?.emit("endGoogleCloudStream");
-		connection?.disconnect();
 		processorRef.current?.disconnect();
 		audioInputRef.current?.disconnect();
 		audioContextRef.current?.close();

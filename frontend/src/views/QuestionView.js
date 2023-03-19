@@ -14,8 +14,9 @@ import correctAnswer from "../sounds/correctAnswer.mp3";
 const QuestionView = () => {
 	const [listening, setListening] = useState();
 	const [questionHistory, setQuestionHistory] = useState([]);
-	const [currentQuestion, setCurrentQuestion] = useState({});
+	const [currentQuestion, setCurrentQuestion] = useState(null);
 	const [connection, setConnection] = useState(null);
+	const [questionNumber, setQuestionNumber] = useState(0);
 
 	const [dialogue, setDialogue] = useState([]);
 	const [user, setUser] = useState(0);
@@ -42,22 +43,24 @@ const QuestionView = () => {
 			setUser(data);
 		});
 
+		socket.on("start_game", () => {
+			console.log("Starting Game");
+			setTimeout(() => {
+				letsPlayAudio.play();
+			}, 2000);
+		});
+
+		socket.on("next_question", (data) => {
+			setCurrentQuestion(data.question);
+			setQuestionNumber(data.questionNumber);
+		});
+
 		socket.on("disconnect", () => {
 			console.log("disconnected", socket.id);
 		});
 	};
 
 	useEffect(() => {
-		console.log(dialogue);
-	}, [dialogue]);
-	useEffect(() => {
-		axios
-			.get("https://opentdb.com/api.php?amount=1")
-			.then((res) => {
-				setCurrentQuestion(res.data.results[0]);
-			})
-			.catch((err) => console.log(err));
-
 		connect();
 	}, []);
 
@@ -71,10 +74,13 @@ const QuestionView = () => {
 		<section className="question-page">
 			<div className="question-container container">
 				<div className="question-banner">
-					{Object.entries(currentQuestion).length > 0 && (
+					{currentQuestion && Object.entries(currentQuestion).length > 0 && (
 						<>
-							<QuestionTitle currentQuestion={currentQuestion} />
-							<Options currentQuestion={currentQuestion} />
+							<QuestionTitle
+								questionNumber={questionNumber}
+								currentQuestion={currentQuestion}
+							/>
+							<Options options={currentQuestion.options} />
 						</>
 					)}
 				</div>
