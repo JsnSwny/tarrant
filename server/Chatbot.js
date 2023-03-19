@@ -64,6 +64,7 @@ class Chatbot {
 		this.changeState("question", [true]);
 		if (this.io) {
 			this.io.emit("next_question", {
+				questionNumber: this.questionNumber,
 				question: this.question
 			});
 		}
