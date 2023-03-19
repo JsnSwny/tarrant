@@ -1,5 +1,5 @@
 {
-    "offer-answer": {
-        "EXEC": "this.handleOfferAnswer(intent.args)"
-    }
+	"offer-answer": {
+		"EXEC": "this.handleOfferAnswer(intent.args)"
+	}
 }

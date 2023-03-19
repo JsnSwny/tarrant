@@ -60,9 +60,7 @@ class Chatbot {
 
 	changeState(state, stateArgs = []) {
 		this.stateArgs = stateArgs;
-		console.log(
-			`\n========== ${state} [${stateArgs.join(", ")}] ==========`
-		);
+		console.log(`\n========== ${state} [${stateArgs.join(", ")}] ==========`);
 		this.state = state;
 		this.stateConfig = this.flow[this.state];
 		this.setEvalAction(this.stateConfig.EXEC);
@@ -102,22 +100,14 @@ class Chatbot {
 
 		whisper(`Mentions: ${mentions.join(", ") || "-"}`, DEBUG_MODE);
 
-		this.intentRecogniser.recogniseIntent(
-			userName,
-			userSpeech,
-			(intent) => {
-				whisper(`Intent: ${intent.string}`, DEBUG_MODE);
-				this.decideFinalIntent(intent, mentions, userSpeech);
-				this.dialogueManager.decideAction(
-					userName,
-					intent.name,
-					(action) => {
-						this.decideFinalAction(action, intent);
-						this.performAction();
-					}
-				);
-			}
-		);
+		this.intentRecogniser.recogniseIntent(userName, userSpeech, (intent) => {
+			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
+			this.decideFinalIntent(intent, mentions, userSpeech);
+			this.dialogueManager.decideAction(userName, intent.name, (action) => {
+				this.decideFinalAction(action, intent);
+				this.performAction();
+			});
+		});
 	}
 
 	performAction() {
@@ -160,10 +150,7 @@ class Chatbot {
 			for (let argIndex = 0; argIndex < args.length; argIndex++) {
 				let index = speech.indexOf(`[${argIndex + 1}]`);
 				while (index !== -1) {
-					speech = speech.replace(
-						`[${argIndex + 1}]`,
-						args[argIndex]
-					);
+					speech = speech.replace(`[${argIndex + 1}]`, args[argIndex]);
 					index = speech.indexOf(`[${argIndex + 1}]`);
 				}
 				speech = speech.replace(/\[${argIndex}\]/g, args[argIndex]);
@@ -266,9 +253,7 @@ class Chatbot {
 		const mentions = [];
 		if (this.options) {
 			for (let option of this.options) {
-				const index = userSpeech
-					.toLowerCase()
-					.indexOf(option.toLowerCase());
+				const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
 				if (index !== -1) {
 					mentions.push(option);
 				}
@@ -313,11 +298,7 @@ class Chatbot {
 	}
 
 	offerGuidance() {
-		if (
-			false &&
-			this.hasLifelineFiftyFifty &&
-			this.hasLifelineAskTheAudience
-		) {
+		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
 			this.utter("offer-lifelines");
 		} else if (this.hasLifelineFiftyFifty) {
 			this.utter("offer-fifty-fifty");
