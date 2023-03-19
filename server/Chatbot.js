@@ -22,7 +22,9 @@ class Chatbot {
 		this.totalQuestions = 2;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
-		this.nextQuestion();
+
+		this.changeState("introduction")
+		// this.nextQuestion();
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 		this.intentsDecided = 0;
@@ -74,7 +76,6 @@ class Chatbot {
 
 	input(userName, userSpeech) {
 
-		console.log("input");
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 
@@ -147,7 +148,6 @@ class Chatbot {
 
 	decideFinalAction(action, intent = undefined) {
 		if (intent) {
-			console.log("INTENNNNT");
 			if (Object.keys(this.stateConfig).includes(intent.name)) {
 				this.setEvalAction(this.stateConfig[intent.name]);
 			}
@@ -234,17 +234,19 @@ class Chatbot {
 
 	extractMentions(userSpeech) {
 		const mentions = [];
-		for (let option of this.options) {
-			const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
-			if (index !== -1) {
-				mentions.push(option);
+		if (this.options) {
+			for (let option of this.options) {
+				const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
+				if (index !== -1) {
+					mentions.push(option);
+				}
 			}
 		}
 		return mentions;
 	}
 
 	isCorrectAnswer(answer) {
-		return answer.toLowerCase() === this.question["correct_answer"].toLowerCase()
+		return this.question.correctAnswers.includes(answer.toLowerCase());//this.question["correct_answer"].toLowerCase();
 	}
 
 	handleOfferAnswer(args) {
