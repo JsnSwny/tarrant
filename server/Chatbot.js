@@ -35,10 +35,12 @@ class Chatbot {
 
 	nextQuestion() {
 		this.setQuestion("easy", "general-knowledge");
-		this.options = this.question["incorrect_answers"].concat(
-			this.question["correct_answer"]
-		);
+		this.options = this.question["incorrect_answers"].map(options => options);
+		this.options.push(this.question["correct_answers"]);
+		console.log("OPTIONS");
+		console.log(this.options);
 		shuffle(this.options);
+		this.options.push(this.question["correct_answers"]);
 		this.questionNumber++;
 		this.currentPrize += 250;
 		this.answerOffered = "";
@@ -112,10 +114,12 @@ class Chatbot {
 
 	say(text) {
 		if (text === "") return;
-		this.io.emit("receive_message", {
-			text: text,
-			speaker: "HOST",
-		});
+		if (this.io) {
+			this.io.emit("receive_message", {
+				text: text,
+				speaker: "HOST",
+			});
+		}
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		console.log(text);
 
@@ -231,18 +235,36 @@ class Chatbot {
 	extractMentions(userSpeech) {
 		const mentions = [];
 		if (this.options) {
-			for (let option of this.options) {
-				const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
-				if (index !== -1) {
-					mentions.push(option);
+			for (let optionsArray of this.options) {
+				if (this.containsMentions(userSpeech, optionsArray)) {
+					mentions.push(optionsArray[0]);
 				}
 			}
 		}
 		return mentions;
 	}
 
+	containsMentions(dialogue, options) {
+		for (let option of options) {
+			const index = dialogue.toLowerCase().indexOf(option.toLowerCase());
+			if (index !== -1) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	isCorrectAnswer(answer) {
-		return answer == this.question["correct_answer"].toLowerCase();
+		return this.question["correct_answers"].includes(answer.toLowerCase());
+	}
+
+	isIncorrectAnswer(answer) {
+		for (let answers of this.question["incorrect_answers"]) {
+			if (answers.includes(answer.toLowerCase())) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	handleOfferAnswer(args) {
@@ -293,14 +315,14 @@ class Chatbot {
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.options,
+				this.question.options,
 			]);
 		else
 			this.utter("question-brief", [
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.options,
+				this.question.options,
 			]);
 	}
 
