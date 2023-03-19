@@ -59,7 +59,7 @@ class Chatbot {
 		shuffle(this.options);
 		this.options.push(this.question["correct_answers"]);
 		if (firstQuestion) {
-			this.questionNumber = 0;
+			this.questionNumber = 1;
 		}
 		else {
 			this.questionNumber++;
