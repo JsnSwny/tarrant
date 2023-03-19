@@ -31,9 +31,6 @@ class Chatbot {
 		this.totalQuestions = 2;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
-
-		this.changeState("introduction");
-		// this.nextQuestion();
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 		this.intentsDecided = 0;
@@ -46,16 +43,31 @@ class Chatbot {
 		this.io = null;
 	}
 
+	startGame(io) {
+		this.io = io;
+		this.changeState("introduction");
+		this.paused = false;
+		if (this.io) {
+			this.io.emit("start_game");
+		}
+	}
+
 	nextQuestion() {
 		this.setQuestion("easy", "general-knowledge");
-		this.options = this.question["incorrect_answers"].concat(
-			this.question["correct_answer"]
-		);
+		this.options = this.question["incorrect_answers"].map((options) => options);
+		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
+		this.options.push(this.question["correct_answers"]);
 		this.questionNumber++;
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
+		if (this.io) {
+			this.io.emit("next_question", {
+				text: this.question.question,
+				options: this.options,
+			});
+		}
 	}
 
 	changeState(state, stateArgs = []) {
@@ -84,6 +96,7 @@ class Chatbot {
 	}
 
 	tick() {
+		if (this.paused) return;
 		this.decideFinalAction("do nothing");
 		this.performAction();
 	}
@@ -125,11 +138,12 @@ class Chatbot {
 
 	say(text) {
 		if (text === "") return;
-		this.io &&
+		if (this.io) {
 			this.io.emit("receive_message", {
 				text: text,
 				speaker: "HOST",
 			});
+		}
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		console.log(text);
 
@@ -245,18 +259,36 @@ class Chatbot {
 	extractMentions(userSpeech) {
 		const mentions = [];
 		if (this.options) {
-			for (let option of this.options) {
-				const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
-				if (index !== -1) {
-					mentions.push(option);
+			for (let optionsArray of this.options) {
+				if (this.containsMentions(userSpeech, optionsArray)) {
+					mentions.push(optionsArray[0]);
 				}
 			}
 		}
 		return mentions;
 	}
 
+	containsMentions(dialogue, options) {
+		for (let option of options) {
+			const index = dialogue.toLowerCase().indexOf(option.toLowerCase());
+			if (index !== -1) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 	isCorrectAnswer(answer) {
-		return answer == this.question["correct_answer"].toLowerCase();
+		return this.question["correct_answers"].includes(answer.toLowerCase());
+	}
+
+	isIncorrectAnswer(answer) {
+		for (let answers of this.question["incorrect_answers"]) {
+			if (answers.includes(answer.toLowerCase())) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	handleOfferAnswer(args) {
@@ -307,14 +339,14 @@ class Chatbot {
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.options,
+				this.question.options,
 			]);
 		else
 			this.utter("question-brief", [
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.options,
+				this.question.options,
 			]);
 	}
 
@@ -324,10 +356,6 @@ class Chatbot {
 			if (err) throw err;
 			console.log("Written to leaderboard");
 		});
-	}
-
-	addIO(io) {
-		this.io = io;
 	}
 }
 

@@ -7,18 +7,22 @@ function substituteCharRefs(string) {
 }
 
 function formatQuestion(question) {
+	question["options"] = question["incorrect_answers"].concat(question["correct_answer"]);
     question["correct_answers"] = [
         substituteCharRefs(question["correct_answer"]),
+        substituteCharRefs(question["correct_answer"]).toLowerCase(),
     ];
-    incorrectAnswers = question["incorrect_answers"];
-    for (let index = 0; index < incorrectAnswers.length; index++) {
+    for (let index = 0; index < question["incorrect_answers"].length; index++) {
         const answer = question["incorrect_answers"][index];
         question["incorrect_answers"][index] = formatIncorrectAnswers(answer);
     }
 }
 
 function formatIncorrectAnswers(answer) {
-    return [substituteCharRefs(answer)];
+    return [
+		substituteCharRefs(answer),
+		substituteCharRefs(answer).toLowerCase()
+	];
 }
 
 function formatQuestions(questions) {

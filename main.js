@@ -96,8 +96,6 @@ io.on("connection", (socket) => {
 	let assignedRoom = null;
 	let assignedUserId = null;
 
-	chatbot.addIO(io);
-
 	// Loop through the existing rooms and check if any have less than 2 users
 	for (const roomId in rooms) {
 		const { users } = rooms[roomId];
@@ -117,7 +115,7 @@ io.on("connection", (socket) => {
 			// START GAME
 
 			// io.to(roomId).emit("some event");
-			// chatbot.startGame(roomId)
+			chatbot.startGame(io);
 			// rooms = {"2123-1231-1241": users: [{userId: 1, socketId: 2}]}
 		}
 	}
@@ -262,6 +260,10 @@ if (EMULATE_DIALOGUE) {
 		dialogueInputEmulator.tick();
 	}, 100);
 }
+
+setTimeout(() => {
+	chatbot.startGame();
+}, 1000);
 
 setInterval(() => {
 	chatbot.tick();
