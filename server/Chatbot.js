@@ -43,8 +43,6 @@ class Chatbot {
 		this.setQuestion("easy", "general-knowledge");
 		this.options = this.question["incorrect_answers"].map(options => options);
 		this.options.push(this.question["correct_answers"]);
-		console.log("OPTIONS");
-		console.log(this.options);
 		shuffle(this.options);
 		this.options.push(this.question["correct_answers"]);
 		this.questionNumber++;
