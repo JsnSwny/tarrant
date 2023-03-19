@@ -1,71 +1,71 @@
 {
-	"lines": [
-		{
-			"wait": 2,
-			"user": 2,
-			"text": "alright okay"
-		},
-		{
-			"wait": 2,
-			"user": 2,
-			"text": "i think it's Oculus"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "wait no actually it must be HTC"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "yeah i think we should go with that"
-		},
-		{
-			"wait": 8,
-			"user": 2,
-			"text": "I know that one it's demolition"
-		},
-		{
-			"wait": 4,
-			"user": 2,
-			"text": "no it's not Demolition"
-		},
-		{
-			"wait": 3,
-			"user": 1,
-			"text": "that's right"
-		},
-		{
-			"wait": 6,
-			"user": 1,
-			"text": "yes we think so"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "yeah it has to be Demolition"
-		},
-		{
-			"wait": 3,
-			"user": 1,
-			"text": "it must be Demolition"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "it is"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "that's our answer"
-		}
-	],
-	"questions": [
-		"easy/general-knowledge/0",
-		"easy/general-knowledge/1",
-		"easy/general-knowledge/2",
-		"easy/general-knowledge/3",
-		"easy/general-knowledge/4"
-	]
+    "lines": [
+        {
+            "wait": 2,
+            "user": 2,
+            "text": "alright okay"
+        },
+        {
+            "wait": 2,
+            "user": 2,
+            "text": "i think it's Oculus"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "wait no actually it must be HTC"
+        },
+        {
+            "wait": 3,
+            "user": 2,
+            "text": "yeah i think we should go with that"
+        },
+        {
+            "wait": 8,
+            "user": 2,
+            "text": "I know that one it's demolition"
+        },
+        {
+            "wait": 4,
+            "user": 2,
+            "text": "no it's not Demolition"
+        },
+        {
+            "wait": 3,
+            "user": 1,
+            "text": "that's right"
+        },
+        {
+            "wait": 6,
+            "user": 1,
+            "text": "yes we think so"
+        },
+        {
+            "wait": 3,
+            "user": 2,
+            "text": "yeah it has to be Demolition"
+        },
+        {
+            "wait": 3,
+            "user": 1,
+            "text": "it must be Demolition"
+        },
+        {
+            "wait": 3,
+            "user": 2,
+            "text": "it is"
+        },
+        {
+            "wait": 3,
+            "user": 2,
+            "text": "that's our answer"
+        }
+    ],
+    "questions": [
+        "easy/general-knowledge/0",
+        "easy/general-knowledge/1",
+        "easy/general-knowledge/2",
+        "easy/general-knowledge/3",
+        "easy/general-knowledge/4"
+    ]
 }

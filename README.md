@@ -24,10 +24,10 @@ To configure system behaviour, create a file named `.env` in the project root. A
 
 ### Environment variables
 
-> DEBUG\_MODE: Set to 1 to display runtime information.
+> DEBUG_MODE: Set to 1 to display runtime information.
 
-> DEBUG\_NLU: Set to 1 to display NLU server responses.
+> DEBUG_NLU: Set to 1 to display NLU server responses.
 
-> EMULATE\_DIALOGUE: Set to 1 to send dialogue to the chatbot for testing.
+> EMULATE_DIALOGUE: Set to 1 to send dialogue to the chatbot for testing.
 
-> ON\_UNIX: Set to 1 if on Unix-based machine.
+> ON_UNIX: Set to 1 if on Unix-based machine.

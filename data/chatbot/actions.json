@@ -6,11 +6,7 @@
         ]
     },
     "greet-question": {
-        "examples": [
-            "How are you?",
-            "How's it going?",
-            "How are you today?"
-        ]
+        "examples": ["How are you?", "How's it going?", "How are you today?"]
     },
     "respond-to-greet-question": {
         "examples": [
@@ -19,16 +15,14 @@
             "I'm doing well thank you."
         ]
     },
-	"say-correct": {
-		"examples": [
-			"Well done. That is the correct answer."
-		]
-	},
-	"say-incorrect": {
-		"examples": [
-			"I'm afraid that's the incorrect answer. The answer was in fact [1]."
-		]
-	},
+    "say-correct": {
+        "examples": ["Well done. That is the correct answer."]
+    },
+    "say-incorrect": {
+        "examples": [
+            "I'm afraid that's the incorrect answer. The answer was in fact [1]."
+        ]
+    },
     "celebrate": {
         "examples": [
             "Awesome! I love to hear it.",
@@ -38,10 +32,7 @@
         ]
     },
     "regret": {
-        "examples": [
-            "Oh. Too bad.",
-            "I'm sorry to hear that."
-        ]
+        "examples": ["Oh. Too bad.", "I'm sorry to hear that."]
     },
     "console": {
         "examples": [
@@ -62,8 +53,6 @@
         ]
     },
     "repeat-question": {
-        "examples": [
-            "So the question is: #[question_text]"
-        ]
+        "examples": ["So the question is: #[question_text]"]
     }
 }

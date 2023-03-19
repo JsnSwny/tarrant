@@ -3,13 +3,13 @@ function postMethodFetch(data, uri, next) {
     fetch(uri, {
         method: "POST",
         headers: {
-            "Accept": "application/json",
-            "Content-Type": "application/json"
-    },
-    body: JSON.stringify(data)
+            Accept: "application/json",
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
     })
-    .then(response => response.json())
-    .then(response => next(response));
+        .then((response) => response.json())
+        .then((response) => next(response));
 }
 
 function element(id) {
@@ -22,7 +22,7 @@ function submit(apiName) {
     const value = element(apiName + "-input").value;
     const target = DOMAIN_NAME + "api/" + apiName;
     console.log("Submitting " + target);
-    postMethodFetch({ value }, target, response => {
+    postMethodFetch({ value }, target, (response) => {
         console.log(response);
         const elem = element(apiName + "-response");
         elem.innerHTML = elem.innerHTML + `<p>${response.value}</p>`;
@@ -30,10 +30,10 @@ function submit(apiName) {
 }
 
 function sendSpeech() {
-	const speech = element("dialogue-input").value;
-	socket.emit("say", speech);
+    const speech = element("dialogue-input").value;
+    socket.emit("say", speech);
 }
 
 function log(text) {
-	LOG_ELEMENT.innerHTML = LOG_ELEMENT.innerHTML + `<p>${text}</p>`;
+    LOG_ELEMENT.innerHTML = LOG_ELEMENT.innerHTML + `<p>${text}</p>`;
 }

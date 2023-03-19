@@ -1,56 +1,56 @@
 {
-	"lines": [
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "it definitely cannot be Madrid it is probably London definitely London"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "it's Spain"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "yeah i think so"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "absolutely"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "i think so"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "yeah ok"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "no"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "absolutely not"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "nope"
-		}
-	],
-	"questions": [
-		"easy/general-knowledge/0",
-		"easy/general-knowledge/1",
-		"easy/general-knowledge/2",
-		"easy/general-knowledge/3",
-		"easy/general-knowledge/4"
-	]
+    "lines": [
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "it definitely cannot be Madrid it is probably London definitely London"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "it's Spain"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "yeah i think so"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "absolutely"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "i think so"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "yeah ok"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "no"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "absolutely not"
+        },
+        {
+            "wait": 1,
+            "user": 2,
+            "text": "nope"
+        }
+    ],
+    "questions": [
+        "easy/general-knowledge/0",
+        "easy/general-knowledge/1",
+        "easy/general-knowledge/2",
+        "easy/general-knowledge/3",
+        "easy/general-knowledge/4"
+    ]
 }
