@@ -79,6 +79,7 @@ $black: #0F0744;
     flex-direction: column;
     align-items: center;
     &__bubble {
+        overflow: hidden;
         background-color: #343244;
         padding: 1rem 3rem;
         color: white;

@@ -50,23 +50,6 @@ let CHATBOT_OUTPUT_TARGET = EMULATE_DIALOGUE
   ? console.log
   : communicateToPlayers;
 
-io.on("connection", (socket) => {
-  console.log("A new player is here!");
-
-  connections.push(socket);
-
-  socket.emit("enter-into-game", {
-    user: ++userCount,
-  });
-
-  socket.emit("dialogue", { user: "HOST", text: "Welcome to WWTBAM." });
-
-  socket.on("say", (data) => {
-    console.log("User says");
-    console.log(data);
-  });
-});
-
 // middleware for parsing post bodies
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
@@ -117,6 +100,12 @@ io.on("connection", (socket) => {
       }
 
       users.push({ userId: assignedUserId, socketId: socket.id });
+
+      // START GAME
+
+      // io.to(roomId).emit("some event");
+      // chatbot.startGame(roomId)
+      // rooms = {"2123-1231-1241": users: [{userId: 1, socketId: 2}]}
     }
   }
 
@@ -174,18 +163,17 @@ io.on("connection", (socket) => {
     }
   });
 
-  socket.on("send_message", (data) => {
-    let speaker = getUserIdFromSocketId(socket.id);
+  const receiveDialogue = (dialogue) => {
+    const speaker = getUserIdFromSocketId(socket.id);
+    chatbot.input(speaker, dialogue);
     io.emit("receive_message", {
-      text: data.message,
-      speaker: speaker,
+      text: dialogue,
+      speaker: getUserIdFromSocketId(socket.id),
     });
+  };
 
-    chatbot.input(speaker, text);
-
-    console.log(`U${speaker} ${data.message}`);
-
-    getAction(`U${speaker}`, data.message);
+  socket.on("send_message", (data) => {
+    receiveDialogue(data.message);
   });
 
   socket.on("startGoogleCloudStream", function (data) {
@@ -226,18 +214,17 @@ io.on("connection", (socket) => {
             .map((result) => result.alternatives[0].transcript)
             .join("\n");
 
-          console.log(data.results);
-
           result = data.results[0];
 
           words_info = result.alternatives[0].words;
-          const grouped = _.groupBy(words_info, (word) => word.speakerTag);
+          // const grouped = _.groupBy(words_info, (word) => word.speakerTag);
           words = words_info.map((item) => ({
             word: item.word,
             speaker: getUserIdFromSocketId(socket.id),
           }));
-          console.log(transcription);
+
           if (result.isFinal) {
+            receiveDialogue(transcription);
             io.emit("receive_message", {
               text: transcription,
               speaker: getUserIdFromSocketId(socket.id),
@@ -273,7 +260,7 @@ if (EMULATE_DIALOGUE) {
 }
 
 setInterval(() => {
-	chatbot.tick();
+  chatbot.tick();
 }, 100);
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //

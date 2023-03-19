@@ -61,7 +61,7 @@ const QuestionView = () => {
   }, [connection]);
 
   const sendMessage = () => {
-    connection.emit("send_message", { message, user });
+    connection.emit("send_message", { message });
   };
 
   return (

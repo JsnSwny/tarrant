@@ -3,14 +3,18 @@ const axios = require("axios");
 const { makePostRequest } = require("./functions");
 
 class DialogueManager {
-	constructor() {}
+  constructor() {}
 
-	decideAction(user, intent, next) {
-		const postObject = { input: `${user} ${intent}` };
-		makePostRequest("http://localhost:8000/api/get_action/", postObject, response => {
-			next(response.action);
-		});
-	}
+  decideAction(user, intent, next) {
+    const postObject = { input: `${user} ${intent}` };
+    makePostRequest(
+      "http://127.0.0.1:8000/api/get_action/",
+      postObject,
+      (response) => {
+        next(response.action);
+      }
+    );
+  }
 }
 
 module.exports = DialogueManager;
