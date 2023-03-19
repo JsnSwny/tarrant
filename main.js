@@ -96,6 +96,8 @@ io.on("connection", (socket) => {
 	let assignedRoom = null;
 	let assignedUserId = null;
 
+	chatbot.addIO(io);
+
 	// Loop through the existing rooms and check if any have less than 2 users
 	for (const roomId in rooms) {
 		const { users } = rooms[roomId];
@@ -132,8 +134,6 @@ io.on("connection", (socket) => {
 		// Assign the user an ID of 1
 		assignedUserId = 1;
 	}
-
-	chatbot.addSocket(assignedUserId, socket);
 
 	console.log(Object.values(rooms).map((item) => item.users));
 	// Send the assigned room and user ID to the client

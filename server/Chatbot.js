@@ -112,16 +112,10 @@ class Chatbot {
 
 	say(text) {
 		if (text === "") return;
-		if (this.sockets[0])
-			this.sockets[0].emit("receive_message", {
-				text: text,
-				speaker: "HOST",
-			});
-		if (this.sockets[1])
-			this.sockets[1].emit("receive_message", {
-				text: text,
-				speaker: "HOST",
-			});
+		this.io.emit("receive_message", {
+			text: text,
+			speaker: "HOST",
+		});
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		console.log(text);
 
@@ -318,8 +312,8 @@ class Chatbot {
 		});
 	}
 
-	addSocket(username, socket) {
-		this.sockets[username] = socket;
+	addIO(io) {
+		this.io = io;
 	}
 }
 
