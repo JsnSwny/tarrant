@@ -64,8 +64,7 @@ class Chatbot {
 		this.changeState("question", [true]);
 		if (this.io) {
 			this.io.emit("next_question", {
-				text: this.question.question,
-				options: this.options,
+				question: this.question
 			});
 		}
 	}
@@ -356,6 +355,9 @@ class Chatbot {
 			if (err) throw err;
 			console.log("Written to leaderboard");
 		});
+		if (this.io) {
+			this.io.emit("end_of_game");
+		}
 	}
 }
 
