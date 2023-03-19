@@ -115,7 +115,7 @@ io.on("connection", (socket) => {
 			// START GAME
 
 			// io.to(roomId).emit("some event");
-			chatbot.startGame(io);
+			if (chatbot.paused) chatbot.startGame(io);
 			// rooms = {"2123-1231-1241": users: [{userId: 1, socketId: 2}]}
 		}
 	}
