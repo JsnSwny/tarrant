@@ -34,7 +34,9 @@ class Chatbot {
 		this.io = io;
 		this.changeState("introduction");
 		this.paused = false;
-		this.io.emit("start_game");
+		if (this.io) {
+			this.io.emit("start_game");
+		}
 	}
 
 	nextQuestion() {
@@ -49,10 +51,12 @@ class Chatbot {
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
-		this.io.emit("next_question", {
-			"text": this.question.question,
-			"options": this.options
-		});
+		if (this.io) {
+			this.io.emit("next_question", {
+				"text": this.question.question,
+				"options": this.options
+			});
+		}
 	}
 
 	changeState(state, stateArgs = []) {
