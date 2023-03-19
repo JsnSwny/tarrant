@@ -242,7 +242,7 @@ class Chatbot {
 	}
 
 	isCorrectAnswer(answer) {
-		return answer.toLowerCase() === this.question["correct_answer"].toLowerCase()
+		return this.question.correctAnswers.includes(answer.toLowerCase());//this.question["correct_answer"].toLowerCase();
 	}
 
 	handleOfferAnswer(args) {

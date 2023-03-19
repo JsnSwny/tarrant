@@ -6,6 +6,8 @@ First, install the dependencies from inside the project folder.
 
 `npm install`
 
+Next, you must get (or train) the most recent NLU model from [the NLU repository](https://github.com/Zein2002/F20CA). Move it to `data/models/nlu-model.tar.gz`.
+
 Two servers must be run alongside the core server: the Rasa-powered NLU server and the Django server.
 
 `npm run start-nlu`
