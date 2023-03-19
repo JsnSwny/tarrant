@@ -67,6 +67,7 @@ class Chatbot {
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
+		console.log(this.question);
 		if (this.io) {
 			this.io.emit("next_question", {
 				questionNumber: this.questionNumber,

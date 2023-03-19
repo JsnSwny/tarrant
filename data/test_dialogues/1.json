@@ -21,6 +21,11 @@
 			"text": "yeah i think we should go with that"
 		},
 		{
+			"wait": 3,
+			"user": 2,
+			"text": "yes"
+		},
+		{
 			"wait": 8,
 			"user": 2,
 			"text": "I know that one it's demolition"

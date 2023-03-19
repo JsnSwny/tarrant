@@ -261,6 +261,11 @@ if (EMULATE_DIALOGUE) {
 	}, 100);
 }
 
+// DELETE
+setTimeout(() => {
+	chatbot.startGame()
+}, 1000);
+
 setInterval(() => {
 	chatbot.tick();
 }, 100);
