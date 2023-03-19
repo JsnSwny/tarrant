@@ -45,7 +45,7 @@ class Chatbot {
 
 	startGame(io) {
 		this.io = io;
-		this.changeState("introduction");
+		this.nextQuestion();
 		this.paused = false;
 		if (this.io) {
 			this.io.emit("start_game");
