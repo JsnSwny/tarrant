@@ -8,84 +8,86 @@ import axios from "axios";
 import AudioToText from "./AudioRecorder";
 import * as io from "socket.io-client";
 import { defaultsDeep } from "lodash";
+import letsPlay from "../sounds/letsPlay.mp3";
+import correctAnswer from "../sounds/correctAnswer.mp3";
 
 const QuestionView = () => {
-    const [listening, setListening] = useState();
-    const [questionHistory, setQuestionHistory] = useState([]);
-    const [currentQuestion, setCurrentQuestion] = useState({});
-    const [connection, setConnection] = useState(null);
-    const [message, setMessage] = useState("");
-    const [dialogue, setDialogue] = useState([]);
-    const [user, setUser] = useState(0);
+	const [listening, setListening] = useState();
+	const [questionHistory, setQuestionHistory] = useState([]);
+	const [currentQuestion, setCurrentQuestion] = useState({});
+	const [connection, setConnection] = useState(null);
 
-    const connect = () => {
-        connection?.disconnect();
-        const socket = io.connect("http://localhost:5000");
-        socket.on("connect", () => {
-            console.log("connected", socket.id);
-            setConnection(socket);
-        });
+	const [dialogue, setDialogue] = useState([]);
+	const [user, setUser] = useState(0);
 
-        socket.on("receive_message", (data) => {
-            console.log(data);
-            setDialogue((dialogue) => [...dialogue, data]);
-        });
+	let letsPlayAudio = new Audio(letsPlay);
+	// let audio = new Audio("/christmas.mp3")
+	// let audio = new Audio("/christmas.mp3")
+	// let audio = new Audio("/christmas.mp3")
 
-        socket.on("set_speaker", (data) => {
-            setUser(data);
-        });
+	const connect = () => {
+		connection?.disconnect();
+		const socket = io.connect("http://localhost:5000");
+		socket.on("connect", () => {
+			console.log("connected", socket.id);
+			setConnection(socket);
+		});
 
-        socket.on("disconnect", () => {
-            console.log("disconnected", socket.id);
-        });
-    };
+		socket.on("receive_message", (data) => {
+			console.log(data);
+			setDialogue((dialogue) => [...dialogue, data]);
+		});
 
-    useEffect(() => {
-        console.log(dialogue);
-    }, [dialogue]);
-    useEffect(() => {
-        axios
-            .get("https://opentdb.com/api.php?amount=1")
-            .then((res) => {
-                setCurrentQuestion(res.data.results[0]);
-            })
-            .catch((err) => console.log(err));
+		socket.on("set_speaker", (data) => {
+			setUser(data);
+		});
 
-        connect();
-    }, []);
+		socket.on("disconnect", () => {
+			console.log("disconnected", socket.id);
+		});
+	};
 
-    useEffect(() => {
-        if (connection) {
-            // connection.emit("join_room");
-        }
-    }, [connection]);
+	useEffect(() => {
+		console.log(dialogue);
+	}, [dialogue]);
+	useEffect(() => {
+		axios
+			.get("https://opentdb.com/api.php?amount=1")
+			.then((res) => {
+				setCurrentQuestion(res.data.results[0]);
+			})
+			.catch((err) => console.log(err));
 
-    const sendMessage = () => {
-        connection.emit("send_message", { message });
-    };
+		connect();
+	}, []);
 
-    return (
-        <section className="question-page">
-            <div className="question-container container">
-                <div className="question-banner">
-                    {Object.entries(currentQuestion).length > 0 && (
-                        <>
-                            <QuestionTitle currentQuestion={currentQuestion} />
-                            <Options currentQuestion={currentQuestion} />
-                        </>
-                    )}
-                </div>
-                <input
-                    type="text"
-                    onChange={(e) => setMessage(e.target.value)}
-                    value={message}
-                />
-                <button onClick={() => sendMessage()}>Submit</button>
-                <AudioToText messages={dialogue} socket={connection} />
-            </div>
-            <Leaderboard />
-        </section>
-    );
+	useEffect(() => {
+		if (connection) {
+			// connection.emit("join_room");
+		}
+	}, [connection]);
+
+	return (
+		<section className="question-page">
+			<div className="question-container container">
+				<div className="question-banner">
+					{Object.entries(currentQuestion).length > 0 && (
+						<>
+							<QuestionTitle currentQuestion={currentQuestion} />
+							<Options currentQuestion={currentQuestion} />
+						</>
+					)}
+				</div>
+
+				<AudioToText
+					messages={dialogue}
+					connection={connection}
+					letsPlayAudio={letsPlayAudio}
+				/>
+			</div>
+			<Leaderboard />
+		</section>
+	);
 };
 
 export default QuestionView;

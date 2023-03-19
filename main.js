@@ -233,10 +233,6 @@ io.on("connection", (socket) => {
 
 					if (result.isFinal) {
 						receiveDialogue(transcription);
-						io.emit("receive_message", {
-							text: transcription,
-							speaker: getUserIdFromSocketId(socket.id),
-						});
 					}
 				});
 		} catch (err) {
@@ -289,7 +285,15 @@ const request = {
 		enbleWordTimeOffsets: true,
 		enableAutomaticPunctuation: true,
 		model: "latest_long",
-		microphoneDistance: "NEARFIELD",
+		metadata: {
+			microphoneDistance: "NEARFIELD",
+		},
+		speechContexts: [
+			{
+				phrases: ["razer", "htc", "oculus", "google"],
+			},
+		],
+		useEnhanced: true,
 	},
 	interimResults: true,
 };

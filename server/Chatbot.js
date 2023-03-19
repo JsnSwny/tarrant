@@ -3,8 +3,20 @@ const childProcess = require("child_process");
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 
-const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
-const { now, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
+const {
+	COLOUR_CYAN,
+	COLOUR_NONE,
+	COLOUR_WHITE_BOLD,
+	DEBUG_MODE,
+} = require("./constants");
+const {
+	now,
+	randomElement,
+	randomInt,
+	shuffle,
+	timeElapsed,
+	whisper,
+} = require("./functions");
 
 class Chatbot {
 	constructor(room) {
@@ -31,6 +43,7 @@ class Chatbot {
 		this.USER_2_NAME = "Eleanor";
 		this.hasLifelineFiftyFifty = true;
 		this.hasLifelineAskTheAudience = true;
+		this.io = null;
 	}
 
 	nextQuestion() {
@@ -112,10 +125,11 @@ class Chatbot {
 
 	say(text) {
 		if (text === "") return;
-		this.io.emit("receive_message", {
-			text: text,
-			speaker: "HOST",
-		});
+		this.io &&
+			this.io.emit("receive_message", {
+				text: text,
+				speaker: "HOST",
+			});
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
 		console.log(text);
 
