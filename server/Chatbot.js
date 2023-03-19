@@ -3,24 +3,11 @@ const childProcess = require("child_process");
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 
-const {
-	COLOUR_CYAN,
-	COLOUR_NONE,
-	COLOUR_WHITE_BOLD,
-	DEBUG_MODE,
-} = require("./constants");
-const {
-	now,
-	randomElement,
-	randomInt,
-	shuffle,
-	timeElapsed,
-	whisper,
-} = require("./functions");
+const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
+const { now, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
 
 class Chatbot {
-	constructor(outputTarget) {
-		this.outputTarget = outputTarget;
+	constructor(room) {
 		this.paused = true;
 		this.flow = require("../data/chatbot/flow");
 		this.actions = require("../data/chatbot/nlg");
@@ -145,10 +132,8 @@ class Chatbot {
 				text: text,
 				speaker: "HOST",
 			});
-		if (this.outputTarget === console.log) {
-			text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
-		}
-		this.outputTarget(text);
+		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
+		console.log(text);
 
 		this.lastTimestamp = now();
 	}
