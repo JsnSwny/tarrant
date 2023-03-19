@@ -19,9 +19,6 @@ class Chatbot {
 		this.totalQuestions = 2;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
-
-		this.changeState("introduction");
-		// this.nextQuestion();
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 		this.intentsDecided = 0;
@@ -31,6 +28,13 @@ class Chatbot {
 		this.USER_2_NAME = "Eleanor";
 		this.hasLifelineFiftyFifty = true;
 		this.hasLifelineAskTheAudience = true;
+	}
+
+	startGame(io) {
+		this.io = io;
+		this.changeState("introduction");
+		this.paused = false;
+		this.io.emit("start_game");
 	}
 
 	nextQuestion() {
@@ -45,6 +49,10 @@ class Chatbot {
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
+		this.io.emit("next_question", {
+			"text": this.question.question,
+			"options": this.options
+		});
 	}
 
 	changeState(state, stateArgs = []) {
@@ -73,6 +81,7 @@ class Chatbot {
 	}
 
 	tick() {
+		if (this.paused) return;
 		this.decideFinalAction("do nothing");
 		this.performAction();
 	}
@@ -153,7 +162,8 @@ class Chatbot {
 			} else {
 				console.log("Da fuck");
 			}
-		} else if (Object.keys(this.stateConfig).includes("SILENCE")) {
+		}
+		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
 			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
 			const silenceValue = CONFIG_SPEC_VALUE;
 			if (timeElapsed(this.lastTimestamp) >= silenceValue[0]) {
@@ -332,10 +342,6 @@ class Chatbot {
 			if (err) throw err;
 			console.log("Written to leaderboard");
 		});
-	}
-
-	addIO(io) {
-		this.io = io;
 	}
 }
 
