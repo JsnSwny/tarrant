@@ -1,12 +1,12 @@
 {
 	"introduction": {
 		"EXEC": "this.utter('introduction')",
-		"DEFAULT": "this.changeState('invite')"
+		"agreement": "this.say('Awesome! Then let us begin.'); this.nextQuestion()",
+		"reject": "this.say('Too bad. Maybe next time then.')",
+		"DEFAULT": ""
 	},
 	"invite": {
 		"EXEC": "this.say('Would you like to play Who Wants To Be A Millionaire?')",
-		"affirm": "this.say('Awesome! Then let us begin.'); this.changeState('question', [true])",
-		"reject": "this.say('Too bad. Maybe next time then.'); this.changeState('goodbye')",
 		"DEFAULT": "this.say('Sorry. I do not quite understand your answer. Was that a yes?')"
 	},
 	"goodbye": {

@@ -22,7 +22,9 @@ class Chatbot {
 		this.totalQuestions = 2;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
-		this.nextQuestion();
+
+		this.changeState("introduction")
+		// this.nextQuestion();
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 		this.intentsDecided = 0;
@@ -232,10 +234,12 @@ class Chatbot {
 
 	extractMentions(userSpeech) {
 		const mentions = [];
-		for (let option of this.options) {
-			const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
-			if (index !== -1) {
-				mentions.push(option);
+		if (this.options) {
+			for (let option of this.options) {
+				const index = userSpeech.toLowerCase().indexOf(option.toLowerCase());
+				if (index !== -1) {
+					mentions.push(option);
+				}
 			}
 		}
 		return mentions;

@@ -1,4 +1,9 @@
 {
+	"introduction": {
+		"examples": [
+			"Hello there. Glad you could join us. Would you like to play Who Wants To Be A Millionaire?"
+		]
+	},
 	"greet": {
 		"examples": [
 			"Hey there. I'm glad you could join me.",
