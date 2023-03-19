@@ -261,10 +261,6 @@ if (EMULATE_DIALOGUE) {
 	}, 100);
 }
 
-setTimeout(() => {
-	chatbot.startGame();
-}, 1000);
-
 setInterval(() => {
 	chatbot.tick();
 }, 100);

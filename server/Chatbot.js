@@ -45,20 +45,25 @@ class Chatbot {
 
 	startGame(io) {
 		this.io = io;
-		this.nextQuestion();
+		this.nextQuestion(true);
 		this.paused = false;
 		if (this.io) {
 			this.io.emit("start_game");
 		}
 	}
 
-	nextQuestion() {
+	nextQuestion(firstQuestion = false) {
 		this.setQuestion("easy", "general-knowledge");
 		this.options = this.question["incorrect_answers"].map((options) => options);
 		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
 		this.options.push(this.question["correct_answers"]);
-		this.questionNumber++;
+		if (firstQuestion) {
+			this.questionNumber = 0;
+		}
+		else {
+			this.questionNumber++;
+		}
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
