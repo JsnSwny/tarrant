@@ -43,20 +43,22 @@
 				[
 					"The Dream Team",
 					"the dream team",
-					"dream team"
+					"dream team",
+					"dreamteam"
 				],
 				[
 					"The Bushwhackers",
 					"the bushwhackers",
 					"bushwhackers",
-					"bush whackers"
+					"bush whackers",
+					"whackers"
 				],
 				[
 					"The British Bulldogs",
 					"the british bulldogs",
 					"the british bull dogs",
-					"british bulldogs",
-					"british bull dogs"
+					"bulldogs",
+					"bull dogs"
 				]
 			],
 			"options": [
@@ -161,7 +163,9 @@
 			],
 			"correct_answers": [
 				"A Tight Rope",
-				"a tight rope"
+				"a tight rope",
+				"ropes",
+				"rope"
 			]
 		},
 		{
@@ -235,15 +239,15 @@
 			"incorrect_answers": [
 				[
 					"20",
-					"20"
+					"twenty"
 				],
 				[
 					"12",
-					"12"
+					"twelve"
 				],
 				[
 					"15",
-					"15"
+					"fifteen"
 				]
 			],
 			"options": [
@@ -254,14 +258,14 @@
 			],
 			"correct_answers": [
 				"19",
-				"19"
+				"nineteen"
 			]
 		},
 		{
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "easy",
-			"question": "What word represents the letter &#039;T&#039; in the NATO phonetic alphabet?",
+			"question": "What word represents the letter T in the NATO phonetic alphabet?",
 			"correct_answer": "Tango",
 			"incorrect_answers": [
 				[
@@ -948,15 +952,18 @@
 			"incorrect_answers": [
 				[
 					"The Mars Galaxy",
-					"the mars galaxy"
+					"the mars galaxy",
+					"mars galaxy"
 				],
 				[
 					"The Galaxy Note",
-					"the galaxy note"
+					"the galaxy note",
+					"galaxy note"
 				],
 				[
 					"The Black Hole",
-					"the black hole"
+					"the black hole",
+					"black hole"
 				]
 			],
 			"options": [
@@ -967,7 +974,9 @@
 			],
 			"correct_answers": [
 				"The Milky Way Galaxy",
-				"the milky way galaxy"
+				"the milky way galaxy",
+				"milky way galaxy",
+				"milky way"
 			]
 		},
 		{

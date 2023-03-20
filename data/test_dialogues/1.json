@@ -4,28 +4,36 @@
 		["general-knowledge", 3],
 		["general-knowledge", 0],
 		["general-knowledge", 4],
-		["general-knowledge", 7],
-		["general-knowledge", 8],
-		["general-knowledge", 2]
+		["general-knowledge", 7]
 	],
 	"lines": [
 		{
 			"wait": 2,
 			"user": 2,
-			"text": "the answer to that one is dream team"
+			"text": "it definitely has to be dreamteam"
 		},
 		{
-			"wait": 3,
+			"wait": 6,
 			"user": 1,
 			"text": "yeah we both think so"
 		},
 		{
-			"wait": 6,
+			"wait": 3,
+			"user": 2,
+			"text": "do you have any ideas"
+		},
+		{
+			"wait": 3,
+			"user": 1,
+			"text": "no i have none"
+		},
+		{
+			"wait": 8,
 			"user": 2,
 			"text": "it's probably cell phone"
 		},
 		{
-			"wait": 4,
+			"wait": 6,
 			"user": 2,
 			"text": "yeah i think it's cellphone"
 		},
@@ -41,75 +49,88 @@
 		},
 		{
 			"wait": 1,
+			"user": 2,
+			"text": "i'm not convinced"
+		},
+		{
+			"wait": 1,
 			"user": 1,
-			"text": "no actually it must be HTC"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "why are you so certain?"
-		},
-		{
-			"wait": 1,
-			"user": 2,
-			"text": "because my parents are doctors"
+			"text": "believe me my parents are doctors"
 		},
 		{
 			"wait": 3,
 			"user": 1,
-			"text": "fair enough we should go with that then"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "yes"
+			"text": "yeah we want to go with that please"
 		},
 		{
 			"wait": 8,
 			"user": 2,
-			"text": "I know that one it's demolition"
-		},
-		{
-			"wait": 4,
-			"user": 2,
-			"text": "no it's not Demolition"
+			"text": "it's definitely not the moon"
 		},
 		{
 			"wait": 3,
 			"user": 1,
+			"text": "yeah why don't you think it's that?"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "because it's the moon"
+		},
+		{
+			"wait": 3,
+			"user": 1,
+			"text": "okay"
+		},
+		{
+			"wait": 3,
+			"user": 1,
+			"text": "what about the rope? do you think it could be that?"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "honestly i have no idea"
+		},
+		{
+			"wait": 3,
+			"user": 2,
+			"text": "is that what you want to go for?"
+		},
+		{
+			"wait": 3,
+			"user": 1,
+			"text": "i don't know that that's it but it's what i suspect"
+		},
+		{
+			"wait": 4,
+			"user": 1,
+			"text": "okay let's go with that"
+		},
+		{
+			"wait": 4,
+			"user": 1,
+			"text": "it is"
+		},
+		{
+			"wait": 4,
+			"user": 1,
+			"text": "you play darts don't you?"
+		},
+		{
+			"wait": 3,
+			"user": 2,
 			"text": "that's right"
 		},
 		{
 			"wait": 6,
 			"user": 1,
-			"text": "yes we think so"
+			"text": "am i correct in thinking it's nineteen?"
 		},
 		{
 			"wait": 3,
 			"user": 2,
-			"text": "yeah it has to be Demolition"
-		},
-		{
-			"wait": 3,
-			"user": 1,
-			"text": "it must be Demolition"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "it is"
-		},
-		{
-			"wait": 3,
-			"user": 2,
-			"text": "that's our answer"
+			"text": "yeah it is he's totally correct"
 		}
-	],
-	"questions": [
-		"easy/general-knowledge/0",
-		"easy/general-knowledge/1",
-		"easy/general-knowledge/2",
-		"easy/general-knowledge/3",
-		"easy/general-knowledge/4"
 	]
 }

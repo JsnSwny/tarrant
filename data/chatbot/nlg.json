@@ -4,10 +4,33 @@
 			"Hello there. Glad you could join us. Would you like to play Who Wants To Be A Millionaire?"
 		]
 	},
+	"encourage": {
+		"examples": [
+			"If you think you know it, go for it.",
+			"Have a go if you think you know it."
+		]
+	},
 	"greet": {
 		"examples": [
 			"Hey there. I'm glad you could join me.",
 			"Pleasure to meet you."
+		]
+	},
+	"lock-answer": {
+		"examples": [
+			"Let us lock it in then.",
+			"Let us lock in your answer.",
+			"So... you say [1]. Let's lock that in",
+			"Let's see if [1] is correct."
+		]
+	},
+	"return-to-question": {
+		"examples": [
+			"There is no hurry to answer. There are no time limits.",
+			"There are no time limits.",
+			"I'll give you some more time to think about it.",
+			"Take however long you need.",
+			"There is no hurry to confirm your final answer."
 		]
 	},
 	"say-correct": {
@@ -29,15 +52,16 @@
 	},
 	"question": {
 		"examples": [
-			"Okay. Question number [1] is for £[2]. [3]. [4]",
-			"Okay. We are now on question [1]. This question is for £[2]. [3]. [4]",
-			"We are now playing for £[2]. Question [1]. [3]. [4]"
+			"Okay. Question number [1] is for £[2]. [3] [4].",
+			"Okay. We are now on question [1]. This question is for £[2]. [3] [4].",
+			"We are now playing for £[2]. Question [1]. [3] [4]."
 		]
 	},
 	"question-brief": {
 		"examples": [
 			"Remember, we are on question number [1]. We're currently playing for £[2].",
-			"This is question number [1] that we are on. Current jackpot: £[2]."
+			"This is question number [1] that we are on. Question prize: £[2].",
+			"This is question number [1] that we are on. The question will reward you £[2]."
 		]
 	},
 	"repeat-question": {
@@ -65,6 +89,14 @@
 			"So what do you think?"
 		]
 	},
+	"acknowledge-reject-option": {
+		"examples": [
+			"Why do you not think it's [1]?",
+			"So it's not [1]? Why not?",
+			"What makes you rule out [1]?",
+			"So you're thinking it's probably not [1]."
+		]
+	},
 	"end-of-game": {
 		"examples": [
 			"And that's the end of the game. Thank you so much for playing. I really enjoyed it. You reached question [1] out of a total [2]. I hope to see you again.",
@@ -78,6 +110,13 @@
 			"So what is it you're thinking?",
 			"So what do you think the answer is then?",
 			"So what's your answer?"
+		]
+	},
+	"offer-generic-guidance": {
+		"examples": [
+			"I'm not even sure if I know the answer to this one.",
+			"There is only one correct answer.",
+			"I would help you if I could."
 		]
 	},
 	"offer-lifelines": {

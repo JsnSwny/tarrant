@@ -17,20 +17,22 @@
 		"offer-answer": "this.handleOfferAnswer(this.lastIntent.args)",
 		"reject-option": "this.handleRejectOption(this.lastIntent.args)",
 		"confirm-final-answer": "this.changeState('accept-answer')",
-		"agreement": [4, "(this.answerOffered === '') ? this.offerGuidance() : this.changeState('seek-confirmation')"],
-		"final-answer": [2, "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.acceptAnswer()"],
-		"DEFAULT": [4, "this.offerGuidance()"],
-		"SILENCE": [[6, "this.offerGuidance()"]]
+		"agreement": "(this.answerOffered === '') ? '' : this.changeState('seek-confirmation')",
+		"final-answer": "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.changeState('accept-answer')",
+		"DEFAULT": "",
+		"SILENCE": [6, "this.offerGuidance()"]
 	},
 	"seek-confirmation": {
 		"EXEC": "this.utter('seek-confirmation', [this.answerOffered])",
-		"agreement": [2, "this.say('Let us lock it in then'); this.acceptAnswer()"],
+		"agreement": "this.changeState('accept-answer')",
+		"final-answer": "this.changeState('accept-answer')",
 		"reject": "this.changeState('question', [false])",
 		"reject-option": "(this.lastIntent.args[0] === this.answerOffered) ? this.changeState('question', [false]) : this.changeState('accept-answer')",
 		"offer-answer": "this.handleOfferAnswer(this.lastIntent.args)",
-		"confirm-final-answer": [2, "this.changeState('accept-answer')"],
-		"DEFAULT": "this.say('Let me process what you just said.')",
-		"SILENCE": [5, "this.say('Hello?')"]
+		"offer-to-answer": "this.utter('encourage'); this.changeState('question', [false])",
+		"confirm-final-answer": "this.changeState('accept-answer')",
+		"DEFAULT": [8, "this.utter('return-to-question'); this.changeState('question', [false])"],
+		"SILENCE": [8, "this.utter('return-to-question'); this.changeState('question', [false])"]
 	},
 	"accept-answer": {
 		"EXEC": "this.utter('repeat-answer', [this.answerOffered]); this.acceptAnswer()",

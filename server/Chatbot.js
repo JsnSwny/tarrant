@@ -65,6 +65,7 @@ class Chatbot {
 		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
 		this.options.push(this.question["correct_answers"]);
+		this.optionsRejected = [];
 
 		this.currentPrize += 250;
 		this.answerOffered = "";
@@ -94,8 +95,7 @@ class Chatbot {
 	configureQuestion(difficulty, category, index = -1) {
 		const filepath = `../data/questions/${category}/${difficulty}`;
 		const questions = require(filepath).questions;
-		// const index = randomInt(0, questions.length - 1);
-		if (index === -1) index = this.questionNumber;
+		if (index === -1) index = randomInt(0, questions.length - 1);
 		this.question = questions[index];
 		this.options = this.question["incorrect_answers"].concat(
 			this.question["correct_answer"]
@@ -152,7 +152,8 @@ class Chatbot {
 		if (this.action.eval !== "") {
 			eval(this.action.eval);
 			this.lastTimestamp = now();
-		} else if (this.action.name !== "do nothing") {
+		}
+		else if (this.action.name !== "do nothing") {
 			this.utter(this.action.name, this.action.args);
 			this.lastTimestamp = now();
 		}
@@ -201,8 +202,7 @@ class Chatbot {
 			}
 		}
 		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
-			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
-			const silenceValue = CONFIG_SPEC_VALUE;
+			const silenceValue = this.stateConfig.SILENCE;
 			if (timeElapsed(this.lastTimestamp) >= silenceValue[0]) {
 				this.setEvalAction(silenceValue[1]);
 			}
@@ -226,7 +226,8 @@ class Chatbot {
 		if (typeof evalSpec === "string") {
 			wait = 0;
 			string = evalSpec;
-		} else {
+		}
+		else {
 			wait = evalSpec[0];
 			string = evalSpec[1];
 		}
@@ -234,10 +235,7 @@ class Chatbot {
 		this.action.eval = string;
 		if (string === "") return;
 		whisper(`Eval action: ${string}`, DEBUG_MODE && wait === 0);
-		whisper(
-			`Eval action in ${wait} seconds: ${string}`,
-			DEBUG_MODE && wait > 0
-		);
+		whisper(`Eval action in ${wait} seconds: ${string}`, DEBUG_MODE && wait > 0);
 	}
 
 	getEntity(intent, speech) {
@@ -283,6 +281,10 @@ class Chatbot {
 			intent.name = "offer-answer";
 			intent.args = mentions;
 		}
+		else if (intent.name === "ask-agreement" && mentions.length > 0) {
+			intent.name = "offer-answer";
+			intent.args = mentions;
+		}
 		else if (intent.name === "offer-to-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
@@ -297,7 +299,7 @@ class Chatbot {
 		else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
 		}
-		else if (intent.name === "confirm-final-answer" && this.lastIntent.args.length == 0) {
+		else if (intent.name === "confirm-final-answer" && this.answerOffered === "") {
 			intent.name = "chit-chat";
 		}
 		this.intentsDecided++;
@@ -365,6 +367,7 @@ class Chatbot {
 	}
 
 	acceptAnswer() {
+		this.utter("lock-answer", [this.answerOffered]);
 		if (this.isCorrectAnswer(this.answerOffered)) {
 			this.utter("say-correct");
 		}
@@ -390,8 +393,10 @@ class Chatbot {
 	}
 
 	handleRejectOption(args) {
-		this.answerOffered = "";
-		this.offerGuidance();
+		if (!this.optionsRejected.includes(args[0])) {
+			this.optionsRejected.push(args[0]);
+			this.utter("acknowledge-reject-option", args);
+		}
 	}
 
 	offerGuidance() {
@@ -413,7 +418,7 @@ class Chatbot {
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.question.options,
+				this.question.options.join(", ")
 			]);
 		}
 		else {
@@ -421,7 +426,7 @@ class Chatbot {
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.question.options,
+				this.question.options.join(", ")
 			]);
 		}
 	}

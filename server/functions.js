@@ -61,7 +61,7 @@ module.exports.now = () => {
 };
 
 module.exports.timeElapsed = (since) => {
-    return TIME_SCALE_FACTOR * (module.exports.now() - since);
+    return (module.exports.now() - since) / TIME_SCALE_FACTOR;
 };
 
 module.exports.currentTime = () => {
