@@ -53,7 +53,6 @@ const AudioToText = ({ messages, connection, letsPlayAudio }) => {
 
 	const connect = () => {
 		console.log("COnnecting");
-		letsPlayAudio.play();
 		connection.emit("startGoogleCloudStream");
 		console.log("Start Google Stream");
 		startRecording();

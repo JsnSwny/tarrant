@@ -28,7 +28,7 @@ class Chatbot {
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
 		this.questionNumber = 0;
-		this.totalQuestions = 2;
+		this.totalQuestions = 10;
 		this.currentPrize = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
 		this.lastTimestamp = now();

@@ -22,6 +22,7 @@ const QuestionView = () => {
 	const [user, setUser] = useState(0);
 
 	let letsPlayAudio = new Audio(letsPlay);
+	let correctAnswerAudio = new Audio(correctAnswer);
 	// let audio = new Audio("/christmas.mp3")
 	// let audio = new Audio("/christmas.mp3")
 	// let audio = new Audio("/christmas.mp3")
@@ -45,14 +46,13 @@ const QuestionView = () => {
 
 		socket.on("start_game", () => {
 			console.log("Starting Game");
-			setTimeout(() => {
-				letsPlayAudio.play();
-			}, 2000);
+			letsPlayAudio.play();
 		});
 
 		socket.on("next_question", (data) => {
 			setCurrentQuestion(data.question);
 			setQuestionNumber(data.questionNumber);
+			if (data.questionNumber > 1) correctAnswerAudio.play();
 		});
 
 		socket.on("disconnect", () => {
