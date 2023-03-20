@@ -2,6 +2,7 @@ const childProcess = require("child_process");
 
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
+fuzz = require("fuzzball");
 
 const {
 	COLOUR_CYAN,
@@ -121,7 +122,25 @@ class Chatbot {
 
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, (intent) => {
 			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
-			this.decideFinalIntent(intent, mentions, userSpeech);
+			let args = intent.args;
+			let entity = [];
+			console.log(`Args: ${intent.args}`);
+			if (args.length > 0) {
+				let fuzzArgs = args.map((item) =>
+					fuzz.extract(
+						item,
+						this.options.map((option) => option[0])
+					)
+				);
+
+				let highestResults = fuzzArgs.map((item) => item[0]);
+				console.log(highestResults);
+				entity = [highestResults.reduce((a, b) => a[1] - b[1])[0]];
+			}
+
+			console.log(entity);
+
+			this.decideFinalIntent(intent, entity, userSpeech);
 			this.dialogueManager.decideAction(userName, intent.name, (action) => {
 				this.decideFinalAction(action, intent);
 				this.performAction();
@@ -180,8 +199,6 @@ class Chatbot {
 				this.setEvalAction(this.stateConfig[intent.name]);
 			} else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
 				this.setEvalAction(this.stateConfig.DEFAULT);
-			} else {
-				console.log("Da fuck");
 			}
 		} else if (Object.keys(this.stateConfig).includes("SILENCE")) {
 			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
@@ -227,10 +244,31 @@ class Chatbot {
 		let originalIntentName = intent.name;
 		let originalIntentArgs = intent.args;
 		let originalIntentString = intent.string;
+
 		if (speech === "no") {
 			intent.name = "reject";
 		} else if (speech === "yes") {
 			intent.name = "agreement";
+		} else if (intent.name == "offer-answer") {
+			// If an answer is offered, but no entities are detected
+			if (mentions.length == 0) {
+				let query = speech;
+				let choices = this.options.map((item) => item[0]);
+
+				let options = {
+					scorer: fuzz.token_sort_ratio,
+					limit: 1,
+					cutoff: 50,
+					unsorted: true,
+				};
+
+				let results = fuzz.extract(query, choices, options);
+
+				let entity = results.reduce((a, b) => a[1] - b[1])[0];
+				intent.args = [entity];
+			} else {
+				intent.args = mentions;
+			}
 		} else if (mentions.length > 0 && intent.name === "offer-to-answer") {
 			intent.name = "offer-answer";
 			intent.args = mentions;
@@ -241,6 +279,11 @@ class Chatbot {
 			intent.name = "reject";
 		} else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
+		} else if (
+			intent.name === "confirm-final-answer" &&
+			this.lastIntent.args.length == 0
+		) {
+			intent.name = "chit-chat";
 		}
 		this.intentsDecided++;
 		intent.string = this.intentRecogniser.stringifyIntent(
@@ -298,6 +341,7 @@ class Chatbot {
 	}
 
 	handleOfferAnswer(args) {
+		console.log(args);
 		this.answerOffered = args[0];
 	}
 

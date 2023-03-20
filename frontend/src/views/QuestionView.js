@@ -29,7 +29,7 @@ const QuestionView = () => {
 
 	const connect = () => {
 		connection?.disconnect();
-		const socket = io.connect("http://localhost:5000");
+		const socket = io.connect("http://137.195.116.41:5000");
 		socket.on("connect", () => {
 			console.log("connected", socket.id);
 			setConnection(socket);

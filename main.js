@@ -286,7 +286,7 @@ const request = {
 		sampleRateHertz: 16000,
 		languageCode: "en-US",
 		enbleWordTimeOffsets: true,
-		enableAutomaticPunctuation: true,
+		// enableAutomaticPunctuation: true,
 		model: "latest_long",
 		metadata: {
 			microphoneDistance: "NEARFIELD",
