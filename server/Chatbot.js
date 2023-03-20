@@ -240,6 +240,23 @@ class Chatbot {
 		);
 	}
 
+	getEntity(intent, speech) {
+		let query = speech;
+		let choices = this.options.map((item) => item[0]);
+
+		let options = {
+			scorer: fuzz.token_sort_ratio,
+			limit: 1,
+			cutoff: 50,
+			unsorted: true,
+		};
+
+		let results = fuzz.extract(query, choices, options);
+
+		let entity = results.reduce((a, b) => a[1] - b[1])[0];
+		intent.args = [entity];
+	}
+
 	decideFinalIntent(intent, mentions, speech) {
 		let originalIntentName = intent.name;
 		let originalIntentArgs = intent.args;
@@ -251,24 +268,7 @@ class Chatbot {
 			intent.name = "agreement";
 		} else if (intent.name == "offer-answer") {
 			// If an answer is offered, but no entities are detected
-			if (mentions.length == 0) {
-				let query = speech;
-				let choices = this.options.map((item) => item[0]);
-
-				let options = {
-					scorer: fuzz.token_sort_ratio,
-					limit: 1,
-					cutoff: 50,
-					unsorted: true,
-				};
-
-				let results = fuzz.extract(query, choices, options);
-
-				let entity = results.reduce((a, b) => a[1] - b[1])[0];
-				intent.args = [entity];
-			} else {
-				intent.args = mentions;
-			}
+			this.getEntity(intent, speech);
 		} else if (mentions.length > 0 && intent.name === "offer-to-answer") {
 			intent.name = "offer-answer";
 			intent.args = mentions;
