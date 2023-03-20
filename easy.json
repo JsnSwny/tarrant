@@ -1,0 +1,1263 @@
+{
+	"questions": [
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which company did Valve cooperate with in the creation of the Vive?",
+			"correct_answer": "HTC",
+			"incorrect_answers": [
+				[
+					"Oculus",
+					"oculus"
+				],
+				[
+					"Google",
+					"google"
+				],
+				[
+					"Razer",
+					"razer",
+					"razor",
+					"rasor"
+				]
+			],
+			"options": [
+				"Oculus",
+				"Google",
+				"Razer",
+				"HTC"
+			],
+			"correct_answers": [
+				"HTC",
+				"htc"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+			"correct_answer": "Demolition",
+			"incorrect_answers": [
+				[
+					"The Dream Team",
+					"the dream team",
+					"dream team",
+					"dreamteam"
+				],
+				[
+					"The Bushwhackers",
+					"the bushwhackers",
+					"bushwhackers",
+					"bush whackers",
+					"whackers"
+				],
+				[
+					"The British Bulldogs",
+					"the british bulldogs",
+					"the british bull dogs",
+					"bulldogs",
+					"bull dogs"
+				]
+			],
+			"options": [
+				"The Dream Team",
+				"The Bushwhackers",
+				"The British Bulldogs",
+				"Demolition"
+			],
+			"correct_answers": [
+				"Demolition",
+				"demolition"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What is the first book of the Old Testament?",
+			"correct_answer": "Genesis",
+			"incorrect_answers": [
+				[
+					"Exodus",
+					"exodus"
+				],
+				[
+					"Leviticus",
+					"leviticus"
+				],
+				[
+					"Numbers",
+					"numbers"
+				]
+			],
+			"options": [
+				"Exodus",
+				"Leviticus",
+				"Numbers",
+				"Genesis"
+			],
+			"correct_answers": [
+				"Genesis",
+				"genesis"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+			"correct_answer": "Key",
+			"incorrect_answers": [
+				[
+					"Sword",
+					"sword"
+				],
+				[
+					"Pen",
+					"pen"
+				],
+				[
+					"Cellphone",
+					"cellphone",
+					"cell phone"
+				]
+			],
+			"options": [
+				"Sword",
+				"Pen",
+				"Cellphone",
+				"Key"
+			],
+			"correct_answers": [
+				"Key",
+				"key"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What does a funambulist walk on?",
+			"correct_answer": "A Tight Rope",
+			"incorrect_answers": [
+				[
+					"Broken Glass",
+					"broken glass"
+				],
+				[
+					"Balls",
+					"balls"
+				],
+				[
+					"The Moon",
+					"the moon"
+				]
+			],
+			"options": [
+				"Broken Glass",
+				"Balls",
+				"The Moon",
+				"A Tight Rope"
+			],
+			"correct_answers": [
+				"A Tight Rope",
+				"a tight rope",
+				"ropes",
+				"rope"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "In past times, what would a gentleman keep in his fob pocket?",
+			"correct_answer": "Watch",
+			"incorrect_answers": [
+				[
+					"Money",
+					"money"
+				],
+				[
+					"Keys",
+					"keys"
+				],
+				[
+					"Notebook",
+					"notebook"
+				]
+			],
+			"options": [
+				"Money",
+				"Keys",
+				"Notebook",
+				"Watch"
+			],
+			"correct_answers": [
+				"Watch",
+				"watch"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Area 51 is located in which US state?",
+			"correct_answer": "Nevada",
+			"incorrect_answers": [
+				[
+					"Arizona",
+					"arizona"
+				],
+				[
+					"New Mexico",
+					"new mexico"
+				],
+				[
+					"Utah",
+					"utah"
+				]
+			],
+			"options": [
+				"Arizona",
+				"New Mexico",
+				"Utah",
+				"Nevada"
+			],
+			"correct_answers": [
+				"Nevada",
+				"nevada"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "On a dartboard, what number is directly opposite No. 1?",
+			"correct_answer": "19",
+			"incorrect_answers": [
+				[
+					"20",
+					"twenty"
+				],
+				[
+					"12",
+					"twelve"
+				],
+				[
+					"15",
+					"fifteen"
+				]
+			],
+			"options": [
+				"20",
+				"12",
+				"15",
+				"19"
+			],
+			"correct_answers": [
+				"19",
+				"nineteen"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What word represents the letter T in the NATO phonetic alphabet?",
+			"correct_answer": "Tango",
+			"incorrect_answers": [
+				[
+					"Target",
+					"target"
+				],
+				[
+					"Taxi",
+					"taxi"
+				],
+				[
+					"Turkey",
+					"turkey"
+				]
+			],
+			"options": [
+				"Target",
+				"Taxi",
+				"Turkey",
+				"Tango"
+			],
+			"correct_answers": [
+				"Tango",
+				"tango"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What alcoholic drink is made from molasses?",
+			"correct_answer": "Rum",
+			"incorrect_answers": [
+				[
+					"Gin",
+					"gin"
+				],
+				[
+					"Vodka",
+					"vodka"
+				],
+				[
+					"Whisky",
+					"whisky"
+				]
+			],
+			"options": [
+				"Gin",
+				"Vodka",
+				"Whisky",
+				"Rum"
+			],
+			"correct_answers": [
+				"Rum",
+				"rum"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which American president appears on a one dollar bill?",
+			"correct_answer": "George Washington",
+			"incorrect_answers": [
+				[
+					"Thomas Jefferson",
+					"thomas jefferson"
+				],
+				[
+					"Abraham Lincoln",
+					"abraham lincoln"
+				],
+				[
+					"Benjamin Franklin",
+					"benjamin franklin"
+				]
+			],
+			"options": [
+				"Thomas Jefferson",
+				"Abraham Lincoln",
+				"Benjamin Franklin",
+				"George Washington"
+			],
+			"correct_answers": [
+				"George Washington",
+				"george washington"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Red Vines is a brand of what type of candy?",
+			"correct_answer": "Licorice",
+			"incorrect_answers": [
+				[
+					"Lollipop",
+					"lollipop"
+				],
+				[
+					"Chocolate",
+					"chocolate"
+				],
+				[
+					"Bubblegum",
+					"bubblegum"
+				]
+			],
+			"options": [
+				"Lollipop",
+				"Chocolate",
+				"Bubblegum",
+				"Licorice"
+			],
+			"correct_answers": [
+				"Licorice",
+				"licorice"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What is the nickname of the US state of California?",
+			"correct_answer": "Golden State",
+			"incorrect_answers": [
+				[
+					"Sunshine State",
+					"sunshine state"
+				],
+				[
+					"Bay State",
+					"bay state"
+				],
+				[
+					"Treasure State",
+					"treasure state"
+				]
+			],
+			"options": [
+				"Sunshine State",
+				"Bay State",
+				"Treasure State",
+				"Golden State"
+			],
+			"correct_answers": [
+				"Golden State",
+				"golden state"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What is the Spanish word for &quot;donkey&quot;?",
+			"correct_answer": "Burro",
+			"incorrect_answers": [
+				[
+					"Caballo",
+					"caballo"
+				],
+				[
+					"Toro",
+					"toro"
+				],
+				[
+					"Perro",
+					"perro"
+				]
+			],
+			"options": [
+				"Caballo",
+				"Toro",
+				"Perro",
+				"Burro"
+			],
+			"correct_answers": [
+				"Burro",
+				"burro"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Who is depicted on the US hundred dollar bill?",
+			"correct_answer": "Benjamin Franklin",
+			"incorrect_answers": [
+				[
+					"George Washington",
+					"george washington"
+				],
+				[
+					"Abraham Lincoln",
+					"abraham lincoln"
+				],
+				[
+					"Thomas Jefferson",
+					"thomas jefferson"
+				]
+			],
+			"options": [
+				"George Washington",
+				"Abraham Lincoln",
+				"Thomas Jefferson",
+				"Benjamin Franklin"
+			],
+			"correct_answers": [
+				"Benjamin Franklin",
+				"benjamin franklin"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which American-owned brewery led the country in sales by volume in 2015?",
+			"correct_answer": "D. G. Yuengling and Son, Inc",
+			"incorrect_answers": [
+				[
+					"Anheuser Busch",
+					"anheuser busch"
+				],
+				[
+					"Boston Beer Company",
+					"boston beer company"
+				],
+				[
+					"Miller Coors",
+					"miller coors"
+				]
+			],
+			"options": [
+				"Anheuser Busch",
+				"Boston Beer Company",
+				"Miller Coors",
+				"D. G. Yuengling and Son, Inc"
+			],
+			"correct_answers": [
+				"D. G. Yuengling and Son, Inc",
+				"d. g. yuengling and son, inc"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+			"correct_answer": "Print",
+			"incorrect_answers": [
+				[
+					"Digest",
+					"digest"
+				],
+				[
+					"Look",
+					"look"
+				],
+				[
+					"Read",
+					"read"
+				]
+			],
+			"options": [
+				"Digest",
+				"Look",
+				"Read",
+				"Print"
+			],
+			"correct_answers": [
+				"Print",
+				"print"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What do the letters of the fast food chain KFC stand for?",
+			"correct_answer": "Kentucky Fried Chicken",
+			"incorrect_answers": [
+				[
+					"Kentucky Fresh Cheese",
+					"kentucky fresh cheese"
+				],
+				[
+					"Kibbled Freaky Cow",
+					"kibbled freaky cow"
+				],
+				[
+					"Kiwi Food Cut",
+					"kiwi food cut"
+				]
+			],
+			"options": [
+				"Kentucky Fresh Cheese",
+				"Kibbled Freaky Cow",
+				"Kiwi Food Cut",
+				"Kentucky Fried Chicken"
+			],
+			"correct_answers": [
+				"Kentucky Fried Chicken",
+				"kentucky fried chicken"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of the following card games revolves around numbers and basic math?",
+			"correct_answer": "Uno",
+			"incorrect_answers": [
+				[
+					"Go Fish",
+					"go fish"
+				],
+				[
+					"Twister",
+					"twister"
+				],
+				[
+					"Munchkin",
+					"munchkin"
+				]
+			],
+			"options": [
+				"Go Fish",
+				"Twister",
+				"Munchkin",
+				"Uno"
+			],
+			"correct_answers": [
+				"Uno",
+				"uno"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What machine element is located in the center of fidget spinners?",
+			"correct_answer": "Bearings",
+			"incorrect_answers": [
+				[
+					"Axles",
+					"axles"
+				],
+				[
+					"Gears",
+					"gears"
+				],
+				[
+					"Belts",
+					"belts"
+				]
+			],
+			"options": [
+				"Axles",
+				"Gears",
+				"Belts",
+				"Bearings"
+			],
+			"correct_answers": [
+				"Bearings",
+				"bearings"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which sign of the zodiac comes between Virgo and Scorpio?",
+			"correct_answer": "Libra",
+			"incorrect_answers": [
+				[
+					"Gemini",
+					"gemini"
+				],
+				[
+					"Taurus",
+					"taurus"
+				],
+				[
+					"Capricorn",
+					"capricorn"
+				]
+			],
+			"options": [
+				"Gemini",
+				"Taurus",
+				"Capricorn",
+				"Libra"
+			],
+			"correct_answers": [
+				"Libra",
+				"libra"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of the following presidents is not on Mount Rushmore?",
+			"correct_answer": "John F. Kennedy",
+			"incorrect_answers": [
+				[
+					"Theodore Roosevelt",
+					"theodore roosevelt"
+				],
+				[
+					"Abraham Lincoln",
+					"abraham lincoln"
+				],
+				[
+					"Thomas Jefferson",
+					"thomas jefferson"
+				]
+			],
+			"options": [
+				"Theodore Roosevelt",
+				"Abraham Lincoln",
+				"Thomas Jefferson",
+				"John F. Kennedy"
+			],
+			"correct_answers": [
+				"John F. Kennedy",
+				"john f. kennedy"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What is Tasmania?",
+			"correct_answer": "An Australian State",
+			"incorrect_answers": [
+				[
+					"A flavor of Ben and Jerry's ice-cream",
+					"a flavor of ben and jerry's ice-cream"
+				],
+				[
+					"A Psychological Disorder",
+					"a psychological disorder"
+				],
+				[
+					"The Name of a Warner Brothers Cartoon Character",
+					"the name of a warner brothers cartoon character"
+				]
+			],
+			"options": [
+				"A flavor of Ben and Jerry&#039;s ice-cream",
+				"A Psychological Disorder",
+				"The Name of a Warner Brothers Cartoon Character",
+				"An Australian State"
+			],
+			"correct_answers": [
+				"An Australian State",
+				"an australian state"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which country, not including Japan, has the most people of japanese decent?",
+			"correct_answer": "Brazil",
+			"incorrect_answers": [
+				[
+					"China",
+					"china"
+				],
+				[
+					"South Korea",
+					"south korea"
+				],
+				[
+					"United States of America",
+					"united states of america"
+				]
+			],
+			"options": [
+				"China",
+				"South Korea",
+				"United States of America",
+				"Brazil"
+			],
+			"correct_answers": [
+				"Brazil",
+				"brazil"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "In which fast food chain can you order a Jamocha Shake?",
+			"correct_answer": "Arby&#039;s",
+			"incorrect_answers": [
+				[
+					"McDonald's",
+					"mcdonald's"
+				],
+				[
+					"Burger King",
+					"burger king"
+				],
+				[
+					"Wendy's",
+					"wendy's"
+				]
+			],
+			"options": [
+				"McDonald&#039;s",
+				"Burger King",
+				"Wendy&#039;s",
+				"Arby&#039;s"
+			],
+			"correct_answers": [
+				"Arby's",
+				"arby's"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of the following is the IATA code for Manchester Airport?",
+			"correct_answer": "MAN",
+			"incorrect_answers": [
+				[
+					"EGLL",
+					"egll"
+				],
+				[
+					"LHR",
+					"lhr"
+				],
+				[
+					"EGCC",
+					"egcc"
+				]
+			],
+			"options": [
+				"EGLL",
+				"LHR",
+				"EGCC",
+				"MAN"
+			],
+			"correct_answers": [
+				"MAN",
+				"man"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What nuts are used in the production of marzipan?",
+			"correct_answer": "Almonds",
+			"incorrect_answers": [
+				[
+					"Peanuts",
+					"peanuts"
+				],
+				[
+					"Walnuts",
+					"walnuts"
+				],
+				[
+					"Pistachios",
+					"pistachios"
+				]
+			],
+			"options": [
+				"Peanuts",
+				"Walnuts",
+				"Pistachios",
+				"Almonds"
+			],
+			"correct_answers": [
+				"Almonds",
+				"almonds"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+			"correct_answer": "Thomas Jefferson",
+			"incorrect_answers": [
+				[
+					"Martin Van Buren",
+					"martin van buren"
+				],
+				[
+					"Ulysses Grant",
+					"ulysses grant"
+				],
+				[
+					"John Quincy Adams",
+					"john quincy adams"
+				]
+			],
+			"options": [
+				"Martin Van Buren",
+				"Ulysses Grant",
+				"John Quincy Adams",
+				"Thomas Jefferson"
+			],
+			"correct_answers": [
+				"Thomas Jefferson",
+				"thomas jefferson"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "The Flag of the European Union has how many stars on it?",
+			"correct_answer": "12",
+			"incorrect_answers": [
+				[
+					"10",
+					"10"
+				],
+				[
+					"14",
+					"14"
+				],
+				[
+					"16",
+					"16"
+				]
+			],
+			"options": [
+				"10",
+				"14",
+				"16",
+				"12"
+			],
+			"correct_answers": [
+				"12",
+				"12"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "When one is &quot;envious&quot;, they are said to be what color?",
+			"correct_answer": "Green",
+			"incorrect_answers": [
+				[
+					"Red",
+					"red"
+				],
+				[
+					"Blue",
+					"blue"
+				],
+				[
+					"Yellow",
+					"yellow"
+				]
+			],
+			"options": [
+				"Red",
+				"Blue",
+				"Yellow",
+				"Green"
+			],
+			"correct_answers": [
+				"Green",
+				"green"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Earth is located in which galaxy?",
+			"correct_answer": "The Milky Way Galaxy",
+			"incorrect_answers": [
+				[
+					"The Mars Galaxy",
+					"the mars galaxy",
+					"mars galaxy"
+				],
+				[
+					"The Galaxy Note",
+					"the galaxy note",
+					"galaxy note"
+				],
+				[
+					"The Black Hole",
+					"the black hole",
+					"black hole"
+				]
+			],
+			"options": [
+				"The Mars Galaxy",
+				"The Galaxy Note",
+				"The Black Hole",
+				"The Milky Way Galaxy"
+			],
+			"correct_answers": [
+				"The Milky Way Galaxy",
+				"the milky way galaxy",
+				"milky way galaxy",
+				"milky way"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What are Panama hats made out of?",
+			"correct_answer": "Straw",
+			"incorrect_answers": [
+				[
+					"Silk",
+					"silk"
+				],
+				[
+					"Hemp",
+					"hemp"
+				],
+				[
+					"Flax",
+					"flax"
+				]
+			],
+			"options": [
+				"Silk",
+				"Hemp",
+				"Flax",
+				"Straw"
+			],
+			"correct_answers": [
+				"Straw",
+				"straw"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Foie gras is a French delicacy typically made from what part of a duck or goose?",
+			"correct_answer": "Liver",
+			"incorrect_answers": [
+				[
+					"Heart",
+					"heart"
+				],
+				[
+					"Stomach",
+					"stomach"
+				],
+				[
+					"Intestines",
+					"intestines"
+				]
+			],
+			"options": [
+				"Heart",
+				"Stomach",
+				"Intestines",
+				"Liver"
+			],
+			"correct_answers": [
+				"Liver",
+				"liver"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "The Canadian $1 coin is colloquially known as a what?",
+			"correct_answer": "Loonie",
+			"incorrect_answers": [
+				[
+					"Boolie",
+					"boolie"
+				],
+				[
+					"Foolie",
+					"foolie"
+				],
+				[
+					"Moodie",
+					"moodie"
+				]
+			],
+			"options": [
+				"Boolie",
+				"Foolie",
+				"Moodie",
+				"Loonie"
+			],
+			"correct_answers": [
+				"Loonie",
+				"loonie"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Who is the author of Jurrasic Park?",
+			"correct_answer": "Michael Crichton",
+			"incorrect_answers": [
+				[
+					"Peter Benchley",
+					"peter benchley"
+				],
+				[
+					"Chuck Paluhniuk",
+					"chuck paluhniuk"
+				],
+				[
+					"Irvine Welsh",
+					"irvine welsh"
+				]
+			],
+			"options": [
+				"Peter Benchley",
+				"Chuck Paluhniuk",
+				"Irvine Welsh",
+				"Michael Crichton"
+			],
+			"correct_answers": [
+				"Michael Crichton",
+				"michael crichton"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of the following is not an Ivy League University?",
+			"correct_answer": "Stanford",
+			"incorrect_answers": [
+				[
+					"University of Pennsylvania",
+					"university of pennsylvania"
+				],
+				[
+					"Harvard",
+					"harvard"
+				],
+				[
+					"Princeton",
+					"princeton"
+				]
+			],
+			"options": [
+				"University of Pennsylvania",
+				"Harvard",
+				"Princeton",
+				"Stanford"
+			],
+			"correct_answers": [
+				"Stanford",
+				"stanford"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of the following blood component forms a plug at the site of injuries?",
+			"correct_answer": "Platelets",
+			"incorrect_answers": [
+				[
+					"Red blood cells",
+					"red blood cells"
+				],
+				[
+					"White blood cells",
+					"white blood cells"
+				],
+				[
+					"Blood plasma",
+					"blood plasma"
+				]
+			],
+			"options": [
+				"Red blood cells",
+				"White blood cells",
+				"Blood plasma",
+				"Platelets"
+			],
+			"correct_answers": [
+				"Platelets",
+				"platelets"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which country has the union jack in its flag?",
+			"correct_answer": "New Zealand",
+			"incorrect_answers": [
+				[
+					"South Africa",
+					"south africa"
+				],
+				[
+					"Canada",
+					"canada"
+				],
+				[
+					"Hong Kong",
+					"hong kong"
+				]
+			],
+			"options": [
+				"South Africa",
+				"Canada",
+				"Hong Kong",
+				"New Zealand"
+			],
+			"correct_answers": [
+				"New Zealand",
+				"new zealand"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?",
+			"correct_answer": "Helicopter",
+			"incorrect_answers": [
+				[
+					"Stealth Blimp",
+					"stealth blimp"
+				],
+				[
+					"Jet",
+					"jet"
+				],
+				[
+					"Space Capsule",
+					"space capsule"
+				]
+			],
+			"options": [
+				"Stealth Blimp",
+				"Jet",
+				"Space Capsule",
+				"Helicopter"
+			],
+			"correct_answers": [
+				"Helicopter",
+				"helicopter"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Who invented the first ever chocolate bar, in 1847?",
+			"correct_answer": "Joseph Fry",
+			"incorrect_answers": [
+				[
+					"Andrew Johnson",
+					"andrew johnson"
+				],
+				[
+					"John Cadbury",
+					"john cadbury"
+				],
+				[
+					"John Tyler",
+					"john tyler"
+				]
+			],
+			"options": [
+				"Andrew Johnson",
+				"John Cadbury",
+				"John Tyler",
+				"Joseph Fry"
+			],
+			"correct_answers": [
+				"Joseph Fry",
+				"joseph fry"
+			]
+		}
+	],
+	"formatted": true
+}

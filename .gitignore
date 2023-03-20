@@ -7,4 +7,5 @@ package-lock.json
 tarrant/gameshow/__pycache__/
 tarrant/tarrant/__pycache__/
 data/models/*
+notes
 .env
