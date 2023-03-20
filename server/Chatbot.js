@@ -2,22 +2,10 @@ const childProcess = require("child_process");
 
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
-fuzz = require("fuzzball");
+const fuzz = require("fuzzball");
 
-const {
-	COLOUR_CYAN,
-	COLOUR_NONE,
-	COLOUR_WHITE_BOLD,
-	DEBUG_MODE,
-} = require("./constants");
-const {
-	now,
-	randomElement,
-	randomInt,
-	shuffle,
-	timeElapsed,
-	whisper,
-} = require("./functions");
+const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
+const { now, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
 
 class Chatbot {
 	constructor(room) {
@@ -28,6 +16,7 @@ class Chatbot {
 		this.sockets = [null, null];
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
+		this.questionRefs = null;
 		this.questionNumber = 0;
 		this.totalQuestions = 10;
 		this.currentPrize = 0;
@@ -44,8 +33,13 @@ class Chatbot {
 		this.io = null;
 	}
 
-	startGame(io) {
-		this.io = io;
+	startGame(io = null, questionRefs = null) {
+		console.log("========== Started game ==========");
+		if (io) this.io = io;
+		if (questionRefs !== null) {
+			this.questionRefs = questionRefs;
+			this.totalQuestions = this.questionRefs.length;
+		}
 		this.nextQuestion(true);
 		this.paused = false;
 		if (this.io) {
@@ -56,10 +50,17 @@ class Chatbot {
 	nextQuestion(firstQuestion = false) {
 		if (firstQuestion) {
 			this.questionNumber = 1;
-		} else {
+		}
+		else {
 			this.questionNumber++;
 		}
-		this.setQuestion("easy", "general-knowledge");
+		if (this.questionRefs !== null) {
+			const questionKey = this.questionRefs[this.questionNumber - 1];
+			this.configureQuestion("easy", "general-knowledge", questionKey[1]);
+		}
+		else {
+			this.configureQuestion("easy", "general-knowledge");
+		}
 		this.options = this.question["incorrect_answers"].map((options) => options);
 		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
@@ -68,7 +69,6 @@ class Chatbot {
 		this.currentPrize += 250;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
-		console.log(this.question);
 		if (this.io) {
 			this.io.emit("next_question", {
 				questionNumber: this.questionNumber,
@@ -79,7 +79,7 @@ class Chatbot {
 
 	changeState(state, stateArgs = []) {
 		this.stateArgs = stateArgs;
-		console.log(`\n========== ${state} [${stateArgs.join(", ")}] ==========`);
+		console.log(`\n---------- ${state} [${stateArgs.join(", ")}] ----------`);
 		this.state = state;
 		this.stateConfig = this.flow[this.state];
 		this.setEvalAction(this.stateConfig.EXEC);
@@ -91,11 +91,11 @@ class Chatbot {
 		this.say(speech);
 	}
 
-	setQuestion(difficulty, category) {
+	configureQuestion(difficulty, category, index = -1) {
 		const filepath = `../data/questions/${category}/${difficulty}`;
 		const questions = require(filepath).questions;
 		// const index = randomInt(0, questions.length - 1);
-		const index = this.questionNumber;
+		if (index === -1) index = this.questionNumber;
 		this.question = questions[index];
 		this.options = this.question["incorrect_answers"].concat(
 			this.question["correct_answer"]
@@ -109,22 +109,21 @@ class Chatbot {
 	}
 
 	input(userName, userSpeech) {
+		if (this.paused) return;
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 
 		const mentions = this.extractMentions(userSpeech);
 
-		console.log(
-			`\n${userName}: ${COLOUR_WHITE_BOLD}${userSpeech}${COLOUR_NONE}`
-		);
+		console.log(`\n${userName}: ${COLOUR_WHITE_BOLD}${userSpeech}${COLOUR_NONE}`);
 
 		whisper(`Mentions: ${mentions.join(", ") || "-"}`, DEBUG_MODE);
 
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, (intent) => {
 			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
+			/*
 			let args = intent.args;
 			let entity = [];
-			console.log(`Args: ${intent.args}`);
 			if (args.length > 0) {
 				let fuzzArgs = args.map((item) =>
 					fuzz.extract(
@@ -137,10 +136,9 @@ class Chatbot {
 				console.log(highestResults);
 				entity = [highestResults.reduce((a, b) => a[1] - b[1])[0]];
 			}
+			*/
 
-			console.log(entity);
-
-			this.decideFinalIntent(intent, entity, userSpeech);
+			this.decideFinalIntent(intent, mentions, userSpeech);
 			this.dialogueManager.decideAction(userName, intent.name, (action) => {
 				this.decideFinalAction(action, intent);
 				this.performAction();
@@ -197,10 +195,12 @@ class Chatbot {
 		if (intent) {
 			if (Object.keys(this.stateConfig).includes(intent.name)) {
 				this.setEvalAction(this.stateConfig[intent.name]);
-			} else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
+			}
+			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
 				this.setEvalAction(this.stateConfig.DEFAULT);
 			}
-		} else if (Object.keys(this.stateConfig).includes("SILENCE")) {
+		}
+		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
 			const CONFIG_SPEC_VALUE = this.stateConfig.SILENCE;
 			const silenceValue = CONFIG_SPEC_VALUE;
 			if (timeElapsed(this.lastTimestamp) >= silenceValue[0]) {
@@ -261,46 +261,53 @@ class Chatbot {
 		let originalIntentName = intent.name;
 		let originalIntentArgs = intent.args;
 		let originalIntentString = intent.string;
+		intent.args = [];
 
-		if (speech === "no") {
+		if (intent.name === "nlu_fallback") {
+			intent.name = "chit-chat";
+		}
+		else if (speech === "no") {
 			intent.name = "reject";
-		} else if (speech === "yes") {
+		}
+		else if (speech === "yes") {
 			intent.name = "agreement";
-		} else if (intent.name == "offer-answer") {
-			// If an answer is offered, but no entities are detected
-			this.getEntity(intent, speech);
-		} else if (mentions.length > 0 && intent.name === "offer-to-answer") {
+		}
+		else if (intent.name === "offer-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "agreement" && mentions.length > 0) {
+		}
+		else if (intent.name === "offer-answer" && mentions.length === 0) {
+			intent.name = "agreement";
+		}
+		else if (intent.name === "check-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "reject-option" && mentions.length === 0) {
+		}
+		else if (intent.name === "offer-to-answer" && mentions.length > 0) {
+			intent.name = "offer-answer";
+			intent.args = mentions;
+		}
+		else if (intent.name === "agreement" && mentions.length > 0) {
+			intent.name = "offer-answer";
+			intent.args = mentions;
+		}
+		else if (intent.name === "reject-option" && mentions.length === 0) {
 			intent.name = "reject";
-		} else if (intent.name === "reject-option" && mentions.length > 0) {
+		}
+		else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
-		} else if (
-			intent.name === "confirm-final-answer" &&
-			this.lastIntent.args.length == 0
-		) {
+		}
+		else if (intent.name === "confirm-final-answer" && this.lastIntent.args.length == 0) {
 			intent.name = "chit-chat";
 		}
 		this.intentsDecided++;
-		intent.string = this.intentRecogniser.stringifyIntent(
-			intent.name,
-			intent.args
-		);
+		intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
 		if (originalIntentName !== intent.name) {
-			whisper(
-				`Changed intent: ${originalIntentString} -> ${intent.string}`,
-				DEBUG_MODE
-			);
+			whisper(`Changed intent: ${originalIntentString} -> ${intent.string}`, DEBUG_MODE);
 			this.intentsChanged++;
-		} else if (originalIntentArgs !== intent.args) {
-			whisper(
-				`Added intent args: ${originalIntentString} -> ${intent.string}`,
-				DEBUG_MODE
-			);
+		}
+		else if (originalIntentArgs !== intent.args && intent.args.length > 0) {
+			whisper(`Added intent args: ${originalIntentString} -> ${intent.string}`, DEBUG_MODE);
 		}
 		this.lastIntent = intent;
 	}
@@ -311,6 +318,7 @@ class Chatbot {
 			for (let optionsArray of this.options) {
 				if (this.containsMentions(userSpeech, optionsArray)) {
 					mentions.push(optionsArray[0]);
+					return mentions;
 				}
 			}
 		}
@@ -341,19 +349,32 @@ class Chatbot {
 	}
 
 	handleOfferAnswer(args) {
-		console.log(args);
+		const prevAnswerOffered = this.answerOffered;
 		this.answerOffered = args[0];
+		if (this.state === "question") {
+			this.changeState("seek-confirmation");
+		}
+		else if (this.state === "seek-confirmation"){
+			if (this.answerOffered === prevAnswerOffered) {
+				this.acceptAnswer();
+			}
+			else {
+				this.changeState("question", [false]);
+			}
+		}
 	}
 
 	acceptAnswer() {
 		if (this.isCorrectAnswer(this.answerOffered)) {
 			this.utter("say-correct");
-		} else {
+		}
+		else {
 			this.utter("say-incorrect", [this.question["correct_answer"]]);
 		}
 		if (this.questionNumber < this.totalQuestions) {
 			this.nextQuestion();
-		} else {
+		}
+		else {
 			this.changeState("end-of-game");
 		}
 	}
@@ -362,7 +383,8 @@ class Chatbot {
 		if (this.answerOffered !== "") {
 			this.utter("repeat-answer", [this.answerOffered]);
 			this.changeState("seek-confirmation");
-		} else {
+		}
+		else {
 			this.say("I'll give you a bit more time. (delete)");
 		}
 	}
@@ -375,30 +397,35 @@ class Chatbot {
 	offerGuidance() {
 		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
 			this.utter("offer-lifelines");
-		} else if (this.hasLifelineFiftyFifty) {
+		}
+		else if (this.hasLifelineFiftyFifty) {
 			this.utter("offer-fifty-fifty");
-		} else if (this.hasLifelineAskTheAudience) {
+		}
+		else if (this.hasLifelineAskTheAudience) {
 			this.utter("offer-ask-the-audience");
 		}
 	}
 
 	stateQuestion(args) {
 		// args[0] is a boolean specifying whether the question should be stated in full
-		if (args[0])
+		if (args[0]) {
 			this.utter("question", [
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
 				this.question.options,
 			]);
-		else
+		}
+		else {
 			this.utter("question-brief", [
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
 				this.question.options,
 			]);
+		}
 	}
+
 
 	handleEndOfGame() {
 		const command = `echo "${this.USER_1_NAME},${this.USER_2_NAME},${this.questionNumber}" >> leaderboard.csv`;

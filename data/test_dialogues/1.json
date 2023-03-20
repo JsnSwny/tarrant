@@ -1,24 +1,63 @@
 {
+	"question-refs": [
+		["general-knowledge", 1],
+		["general-knowledge", 3],
+		["general-knowledge", 0],
+		["general-knowledge", 4],
+		["general-knowledge", 7],
+		["general-knowledge", 8],
+		["general-knowledge", 2]
+	],
 	"lines": [
 		{
 			"wait": 2,
 			"user": 2,
-			"text": "alright okay"
+			"text": "the answer to that one is dream team"
 		},
 		{
-			"wait": 2,
+			"wait": 3,
+			"user": 1,
+			"text": "yeah we both think so"
+		},
+		{
+			"wait": 6,
 			"user": 2,
-			"text": "i think it's oculus"
+			"text": "it's probably cell phone"
+		},
+		{
+			"wait": 4,
+			"user": 2,
+			"text": "yeah i think it's cellphone"
+		},
+		{
+			"wait": 4,
+			"user": 2,
+			"text": "this is one you should know"
+		},
+		{
+			"wait": 4,
+			"user": 1,
+			"text": "i do know it Google"
+		},
+		{
+			"wait": 1,
+			"user": 1,
+			"text": "no actually it must be HTC"
 		},
 		{
 			"wait": 1,
 			"user": 2,
-			"text": "wait no actually it must be HTC"
+			"text": "why are you so certain?"
+		},
+		{
+			"wait": 1,
+			"user": 2,
+			"text": "because my parents are doctors"
 		},
 		{
 			"wait": 3,
-			"user": 2,
-			"text": "yeah i think we should go with that"
+			"user": 1,
+			"text": "fair enough we should go with that then"
 		},
 		{
 			"wait": 3,

@@ -42,15 +42,21 @@
 			"incorrect_answers": [
 				[
 					"The Dream Team",
-					"the dream team"
+					"the dream team",
+					"dream team"
 				],
 				[
 					"The Bushwhackers",
-					"the bushwhackers"
+					"the bushwhackers",
+					"bushwhackers",
+					"bush whackers"
 				],
 				[
 					"The British Bulldogs",
-					"the british bulldogs"
+					"the british bulldogs",
+					"the british bull dogs",
+					"british bulldogs",
+					"british bull dogs"
 				]
 			],
 			"options": [
@@ -112,7 +118,8 @@
 				],
 				[
 					"Cellphone",
-					"cellphone"
+					"cellphone",
+					"cell phone"
 				]
 			],
 			"options": [
