@@ -310,7 +310,8 @@
 			"incorrect_answers": [
 				[
 					"Gin",
-					"gin"
+					"gin",
+					"jinn"
 				],
 				[
 					"Vodka",
@@ -513,7 +514,8 @@
 				[
 					"Kibbled Freaky Cow",
 					"kibbled freaky cow",
-					"freaky cow"
+					"freaky cow",
+					"freak cow"
 				],
 				[
 					"Kiwi Food Cut",
@@ -562,37 +564,6 @@
 			"correct_answers": [
 				"Uno",
 				"uno"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "easy",
-			"question": "What machine element is located in the center of fidget spinners?",
-			"correct_answer": "Bearings",
-			"incorrect_answers": [
-				[
-					"Axles",
-					"axles"
-				],
-				[
-					"Gears",
-					"gears"
-				],
-				[
-					"Belts",
-					"belts"
-				]
-			],
-			"options": [
-				"Axles",
-				"Gears",
-				"Belts",
-				"Bearings"
-			],
-			"correct_answers": [
-				"Bearings",
-				"bearings"
 			]
 		},
 		{
@@ -672,7 +643,8 @@
 					"A flavor of Ben and Jerry's ice-cream",
 					"a flavor of ben and jerry's ice-cream",
 					"a flavour of ben and jerry's ice-cream",
-					"ben and jerry's ice cream"
+					"ben and jerry's ice cream",
+					"ben and jerry"
 
 				],
 				[
@@ -683,7 +655,9 @@
 				[
 					"The Name of a Warner Brothers Cartoon Character",
 					"the name of a warner brothers cartoon character",
-					"warner brothers cartoon character"
+					"warner brothers cartoon character",
+					"warner brothers",
+					"warner bros"
 				]
 			],
 			"options": [
@@ -728,69 +702,6 @@
 				"Brazil",
 				"brazil",
 				"brasil"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "easy",
-			"question": "In which fast food chain can you order a Jamocha Shake?",
-			"correct_answer": "Arby&#039;s",
-			"incorrect_answers": [
-				[
-					"McDonald's",
-					"mcdonald's",
-					"mcdonalds"
-				],
-				[
-					"Burger King",
-					"burger king"
-				],
-				[
-					"Wendy's",
-					"wendy's"
-				]
-			],
-			"options": [
-				"McDonald's",
-				"Burger King",
-				"Wendy's",
-				"Arby's"
-			],
-			"correct_answers": [
-				"Arby's",
-				"arby's"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "easy",
-			"question": "Which of the following is the IATA code for Manchester Airport?",
-			"correct_answer": "MAN",
-			"incorrect_answers": [
-				[
-					"EGLL",
-					"egll"
-				],
-				[
-					"LHR",
-					"lhr"
-				],
-				[
-					"EGCC",
-					"egcc"
-				]
-			],
-			"options": [
-				"EGLL",
-				"LHR",
-				"EGCC",
-				"MAN"
-			],
-			"correct_answers": [
-				"MAN",
-				"man"
 			]
 		},
 		{
@@ -931,7 +842,8 @@
 				[
 					"The Mars Galaxy",
 					"the mars galaxy",
-					"mars galaxy"
+					"mars galaxy",
+					"mars"
 				],
 				[
 					"The Galaxy Note",
@@ -1005,7 +917,8 @@
 				],
 				[
 					"Intestines",
-					"intestines"
+					"intestines",
+					"intestine"
 				]
 			],
 			"options": [
@@ -1017,42 +930,6 @@
 			"correct_answers": [
 				"Liver",
 				"liver"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "easy",
-			"question": "The Canadian $1 coin is colloquially known as a what?",
-			"correct_answer": "Loonie",
-			"incorrect_answers": [
-				[
-					"Boolie",
-					"boolie",
-					"bully"
-				],
-				[
-					"Foolie",
-					"foolie",
-					"fooly",
-					"fool"
-				],
-				[
-					"Moodie",
-					"moodie",
-					"moody"
-				]
-			],
-			"options": [
-				"Boolie",
-				"Foolie",
-				"Moodie",
-				"Loonie"
-			],
-			"correct_answers": [
-				"Loonie",
-				"loonie",
-				"loony"
 			]
 		},
 		{
@@ -1075,7 +952,8 @@
 				[
 					"Irvine Welsh",
 					"irvine welsh",
-					"welsh"
+					"welsh",
+					"walsh"
 				]
 			],
 			"options": [
@@ -1108,7 +986,9 @@
 				],
 				[
 					"Princeton",
-					"princeton"
+					"princeton",
+					"prince town",
+					"princetown"
 				]
 			],
 			"options": [
@@ -1150,7 +1030,9 @@
 			],
 			"correct_answers": [
 				"Platelets",
-				"platelets"
+				"platelets",
+				"playlist",
+				"playlists"
 			]
 		},
 		{
@@ -1225,7 +1107,9 @@
 			"incorrect_answers": [
 				[
 					"Andrew Johnson",
-					"andrew johnson"
+					"andrew johnson",
+					"andrew johnstone",
+					"andrew johnston"
 				],
 				[
 					"John Cadbury",

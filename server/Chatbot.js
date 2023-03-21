@@ -98,7 +98,7 @@ class Chatbot {
 	configureQuestion(difficulty, category, index = -1) {
 		const filepath = `../data/questions/${category}/${difficulty}`;
 		const questions = require(filepath).questions;
-		if (index === -1) index = randomInt(0, questions.length - 1);
+		if (index == -1) index = randomInt(0, questions.length - 1);
 		this.question = questions[index];
 		this.options = this.question["incorrect_answers"].concat(
 			this.question["correct_answer"]

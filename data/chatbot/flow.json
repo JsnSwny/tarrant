@@ -20,7 +20,7 @@
 		"agreement": "(this.answerOffered === '') ? '' : this.changeState('seek-confirmation')",
 		"final-answer": "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.changeState('accept-answer')",
 		"DEFAULT": "",
-		"SILENCE": [6, "this.offerGuidance()"]
+		"SILENCE": [10, "this.offerGuidance()"]
 	},
 	"seek-confirmation": {
 		"EXEC": "this.utter('seek-confirmation', [this.answerOffered])",
@@ -32,11 +32,10 @@
 		"offer-to-answer": "this.utter('encourage'); this.changeState('question', [false])",
 		"confirm-final-answer": "this.changeState('accept-answer')",
 		"DEFAULT": [8, "this.utter('return-to-question'); this.changeState('question', [false])"],
-		"SILENCE": [8, "this.utter('return-to-question'); this.changeState('question', [false])"]
+		"SILENCE": [6, "this.utter('return-to-question'); this.changeState('question', [false])"]
 	},
 	"accept-answer": {
-		"EXEC": "this.utter('repeat-answer', [this.answerOffered]); this.acceptAnswer()",
-		"DEFAULT": "this.say('Narley')"
+		"EXEC": "this.utter('repeat-answer', [this.answerOffered]); this.acceptAnswer()"
 	},
 	"end-of-game": {
 		"EXEC": "this.utter('end-of-game', [this.correctlyAnswered, this.totalQuestions, this.winnings]); this.handleEndOfGame()",

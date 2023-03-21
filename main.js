@@ -253,17 +253,19 @@ server.listen(PORT);
 
 console.log(`Listening on port ${PORT}.`);
 
-const dialogueInputEmulator = new DialogueInputEmulator(chatbot, 1);
+setInterval(() => {
+	chatbot.tick();
+}, 100);
 
 if (EMULATE_DIALOGUE) {
+	const dialogueInputEmulator = new DialogueInputEmulator(chatbot, 1);
 	setInterval(() => {
 		dialogueInputEmulator.tick();
 	}, 100);
 }
-
-setInterval(() => {
-	chatbot.tick();
-}, 100);
+else {
+	chatbot.startGame();
+}
 
 // =========================== GOOGLE CLOUD SETTINGS ================================ //
 
