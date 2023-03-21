@@ -375,9 +375,22 @@ class Chatbot {
 			this.winnings += this.currentPrize;
 			this.correctlyAnswered++;
 			this.utter("say-correct", [this.currentPrize, this.winnings]);
+			if (this.io) {
+				this.io.emit("question_result", {
+					isCorrect: true,
+					answerOffered: this.answerOffered
+				});
+			}
 		}
 		else {
 			this.utter("say-incorrect", [this.question["correct_answer"], this.currentPrize, this.winnings]);
+			if (this.io) {
+				this.io.emit("question_result", {
+					isCorrect: false,
+					answerOffered: this.answerOffered,
+					correctAnswer: this.question["correct_answer"]
+				});
+			}
 		}
 		if (this.questionNumber < this.totalQuestions) {
 			this.nextQuestion();

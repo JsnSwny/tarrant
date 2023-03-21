@@ -9,20 +9,24 @@
 			"incorrect_answers": [
 				[
 					"Marvin Gaye - Sexual Healing",
-					"marvin gaye - sexual healing"
+					"marvin gaye sexual healing",
+					"sexual healing"
 				],
 				[
 					"Coldplay - Midnight",
-					"coldplay - midnight"
+					"coldplay midnight",
+					"midnight"
 				],
 				[
 					"a-ha - Take On Me",
-					"a-ha - take on me"
+					"a-ha take on me",
+					"take on me"
 				]
 			],
 			"correct_answers": [
 				"Ed Sheeran - I See Fire",
-				"ed sheeran - i see fire"
+				"ed sheeran i see fire",
+				"i see fire"
 			],
 			"options": [
 				"Marvin Gaye - Sexual Healing",
