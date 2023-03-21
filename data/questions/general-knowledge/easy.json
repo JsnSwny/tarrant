@@ -57,8 +57,8 @@
 					"The British Bulldogs",
 					"the british bulldogs",
 					"the british bull dogs",
-					"bulldogs",
-					"bull dogs"
+					"british bulldogs",
+					"british bull dogs"
 				]
 			],
 			"options": [
@@ -185,7 +185,8 @@
 				],
 				[
 					"Notebook",
-					"notebook"
+					"notebook",
+					"note book"
 				]
 			],
 			"options": [
@@ -278,7 +279,9 @@
 				],
 				[
 					"Turkey",
-					"turkey"
+					"turkey",
+					"turkiye",
+					"türkiye"
 				]
 			],
 			"options": [
@@ -309,7 +312,8 @@
 				],
 				[
 					"Whisky",
-					"whisky"
+					"whisky",
+					"whiskey"
 				]
 			],
 			"options": [
@@ -332,15 +336,18 @@
 			"incorrect_answers": [
 				[
 					"Thomas Jefferson",
-					"thomas jefferson"
+					"thomas jefferson",
+					"jefferson"
 				],
 				[
 					"Abraham Lincoln",
-					"abraham lincoln"
+					"abraham lincoln",
+					"lincoln"
 				],
 				[
 					"Benjamin Franklin",
-					"benjamin franklin"
+					"benjamin franklin",
+					"franklin"
 				]
 			],
 			"options": [
@@ -351,7 +358,8 @@
 			],
 			"correct_answers": [
 				"George Washington",
-				"george washington"
+				"george washington",
+				"washington"
 			]
 		},
 		{
@@ -382,7 +390,8 @@
 			],
 			"correct_answers": [
 				"Licorice",
-				"licorice"
+				"licorice",
+				"liquorice"
 			]
 		},
 		{
@@ -420,7 +429,7 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "easy",
-			"question": "What is the Spanish word for &quot;donkey&quot;?",
+			"question": "What is the Spanish word for 'donkey'?",
 			"correct_answer": "Burro",
 			"incorrect_answers": [
 				[
@@ -456,15 +465,18 @@
 			"incorrect_answers": [
 				[
 					"George Washington",
-					"george washington"
+					"george washington",
+					"washington"
 				],
 				[
 					"Abraham Lincoln",
-					"abraham lincoln"
+					"abraham lincoln",
+					"lincoln"
 				],
 				[
 					"Thomas Jefferson",
-					"thomas jefferson"
+					"thomas jefferson",
+					"jefferson"
 				]
 			],
 			"options": [
@@ -475,7 +487,8 @@
 			],
 			"correct_answers": [
 				"Benjamin Franklin",
-				"benjamin franklin"
+				"benjamin franklin",
+				"franklin"
 			]
 		},
 		{
@@ -513,7 +526,7 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "easy",
-			"question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+			"question": "The New York Times slogan is, All the News That's Fit to what?",
 			"correct_answer": "Print",
 			"incorrect_answers": [
 				[
@@ -549,15 +562,18 @@
 			"incorrect_answers": [
 				[
 					"Kentucky Fresh Cheese",
-					"kentucky fresh cheese"
+					"kentucky fresh cheese",
+					"fresh cheese"
 				],
 				[
 					"Kibbled Freaky Cow",
-					"kibbled freaky cow"
+					"kibbled freaky cow",
+					"freaky cow"
 				],
 				[
 					"Kiwi Food Cut",
-					"kiwi food cut"
+					"kiwi food cut",
+					"kiwi food"
 				]
 			],
 			"options": [
@@ -673,15 +689,18 @@
 			"incorrect_answers": [
 				[
 					"Theodore Roosevelt",
-					"theodore roosevelt"
+					"theodore roosevelt",
+					"roosevelt"
 				],
 				[
 					"Abraham Lincoln",
-					"abraham lincoln"
+					"abraham lincoln",
+					"lincoln"
 				],
 				[
 					"Thomas Jefferson",
-					"thomas jefferson"
+					"thomas jefferson",
+					"jefferson"
 				]
 			],
 			"options": [
@@ -692,7 +711,8 @@
 			],
 			"correct_answers": [
 				"John F. Kennedy",
-				"john f. kennedy"
+				"john f. kennedy",
+				"kennedy"
 			]
 		},
 		{
@@ -704,26 +724,31 @@
 			"incorrect_answers": [
 				[
 					"A flavor of Ben and Jerry's ice-cream",
-					"a flavor of ben and jerry's ice-cream"
+					"a flavor of ben and jerry's ice-cream",
+					"a flavour of ben and jerry's ice-cream",
+					"ben and jerry's ice cream"
+
 				],
 				[
 					"A Psychological Disorder",
-					"a psychological disorder"
+					"a psychological disorder",
+					"psychological disorder"
 				],
 				[
 					"The Name of a Warner Brothers Cartoon Character",
-					"the name of a warner brothers cartoon character"
+					"the name of a warner brothers cartoon character",
+					"warner brothers cartoon character"
 				]
 			],
 			"options": [
-				"A flavor of Ben and Jerry&#039;s ice-cream",
+				"A flavor of Ben and Jerry's ice-cream",
 				"A Psychological Disorder",
 				"The Name of a Warner Brothers Cartoon Character",
 				"An Australian State"
 			],
 			"correct_answers": [
 				"An Australian State",
-				"an australian state"
+				"australian state"
 			]
 		},
 		{
@@ -743,7 +768,8 @@
 				],
 				[
 					"United States of America",
-					"united states of america"
+					"united states of america",
+					"united states"
 				]
 			],
 			"options": [
@@ -754,7 +780,8 @@
 			],
 			"correct_answers": [
 				"Brazil",
-				"brazil"
+				"brazil",
+				"brasil"
 			]
 		},
 		{
@@ -766,7 +793,8 @@
 			"incorrect_answers": [
 				[
 					"McDonald's",
-					"mcdonald's"
+					"mcdonald's",
+					"mcdonalds"
 				],
 				[
 					"Burger King",
@@ -778,10 +806,10 @@
 				]
 			],
 			"options": [
-				"McDonald&#039;s",
+				"McDonald's",
 				"Burger King",
-				"Wendy&#039;s",
-				"Arby&#039;s"
+				"Wendy's",
+				"Arby's"
 			],
 			"correct_answers": [
 				"Arby's",
@@ -859,15 +887,18 @@
 			"incorrect_answers": [
 				[
 					"Martin Van Buren",
-					"martin van buren"
+					"martin van buren",
+					"van buren"
 				],
 				[
 					"Ulysses Grant",
-					"ulysses grant"
+					"ulysses grant",
+					"grant"
 				],
 				[
 					"John Quincy Adams",
-					"john quincy adams"
+					"john quincy adams",
+					"quincy adams"
 				]
 			],
 			"options": [
@@ -878,7 +909,8 @@
 			],
 			"correct_answers": [
 				"Thomas Jefferson",
-				"thomas jefferson"
+				"thomas jefferson",
+				"jefferson"
 			]
 		},
 		{
@@ -890,15 +922,15 @@
 			"incorrect_answers": [
 				[
 					"10",
-					"10"
+					"ten"
 				],
 				[
 					"14",
-					"14"
+					"fourteen"
 				],
 				[
 					"16",
-					"16"
+					"sixteen"
 				]
 			],
 			"options": [
@@ -909,7 +941,7 @@
 			],
 			"correct_answers": [
 				"12",
-				"12"
+				"twelve"
 			]
 		},
 		{
@@ -1050,15 +1082,19 @@
 			"incorrect_answers": [
 				[
 					"Boolie",
-					"boolie"
+					"boolie",
+					"bully"
 				],
 				[
 					"Foolie",
-					"foolie"
+					"foolie",
+					"fooly",
+					"fool"
 				],
 				[
 					"Moodie",
-					"moodie"
+					"moodie",
+					"moody"
 				]
 			],
 			"options": [
@@ -1069,7 +1105,8 @@
 			],
 			"correct_answers": [
 				"Loonie",
-				"loonie"
+				"loonie",
+				"loony"
 			]
 		},
 		{
@@ -1081,15 +1118,18 @@
 			"incorrect_answers": [
 				[
 					"Peter Benchley",
-					"peter benchley"
+					"peter benchley",
+					"benchley"
 				],
 				[
 					"Chuck Paluhniuk",
-					"chuck paluhniuk"
+					"chuck paluhniuk",
+					"paluhniuk"
 				],
 				[
 					"Irvine Welsh",
-					"irvine welsh"
+					"irvine welsh",
+					"welsh"
 				]
 			],
 			"options": [
@@ -1100,7 +1140,8 @@
 			],
 			"correct_answers": [
 				"Michael Crichton",
-				"michael crichton"
+				"michael crichton",
+				"crichton"
 			]
 		},
 		{
@@ -1112,7 +1153,8 @@
 			"incorrect_answers": [
 				[
 					"University of Pennsylvania",
-					"university of pennsylvania"
+					"university of pennsylvania",
+					"pennsylvania"
 				],
 				[
 					"Harvard",
@@ -1182,7 +1224,8 @@
 				],
 				[
 					"Hong Kong",
-					"hong kong"
+					"hong kong",
+					"hongkong"
 				]
 			],
 			"options": [

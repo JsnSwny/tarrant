@@ -5,7 +5,7 @@ const IntentRecogniser = require("./IntentRecogniser");
 const fuzz = require("fuzzball");
 
 const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
-const { now, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
+const { now, randomDifficulty, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
 
 class Chatbot {
 	constructor(room) {
@@ -20,6 +20,7 @@ class Chatbot {
 		this.questionNumber = 0;
 		this.totalQuestions = 10;
 		this.currentPrize = 0;
+		this.winnings = 0;
 		this.action = { name: "prompt", args: [], wait: 0, eval: "" };
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
@@ -31,6 +32,7 @@ class Chatbot {
 		this.hasLifelineFiftyFifty = true;
 		this.hasLifelineAskTheAudience = true;
 		this.io = null;
+		this.currentDifficulty = "easy";
 	}
 
 	startGame(io = null, questionRefs = null) {
@@ -41,6 +43,7 @@ class Chatbot {
 			this.totalQuestions = this.questionRefs.length;
 		}
 		this.nextQuestion(true);
+		this.correctlyAnswered = 0;
 		this.paused = false;
 		if (this.io) {
 			this.io.emit("start_game");
@@ -56,10 +59,10 @@ class Chatbot {
 		}
 		if (this.questionRefs !== null) {
 			const questionKey = this.questionRefs[this.questionNumber - 1];
-			this.configureQuestion("easy", "general-knowledge", questionKey[1]);
+			this.configureQuestion(this.currentDifficulty, questionKey[0], questionKey[1]);
 		}
 		else {
-			this.configureQuestion("easy", "general-knowledge");
+			this.configureQuestion(this.currentDifficulty, "general-knowledge");
 		}
 		this.options = this.question["incorrect_answers"].map((options) => options);
 		this.options.push(this.question["correct_answers"]);
@@ -67,7 +70,7 @@ class Chatbot {
 		this.options.push(this.question["correct_answers"]);
 		this.optionsRejected = [];
 
-		this.currentPrize += 250;
+		this.currentPrize += 50;
 		this.answerOffered = "";
 		this.changeState("question", [true]);
 		if (this.io) {
@@ -369,10 +372,12 @@ class Chatbot {
 	acceptAnswer() {
 		this.utter("lock-answer", [this.answerOffered]);
 		if (this.isCorrectAnswer(this.answerOffered)) {
-			this.utter("say-correct");
+			this.winnings += this.currentPrize;
+			this.correctlyAnswered++;
+			this.utter("say-correct", [this.currentPrize, this.winnings]);
 		}
 		else {
-			this.utter("say-incorrect", [this.question["correct_answer"]]);
+			this.utter("say-incorrect", [this.question["correct_answer"], this.currentPrize, this.winnings]);
 		}
 		if (this.questionNumber < this.totalQuestions) {
 			this.nextQuestion();
@@ -400,6 +405,8 @@ class Chatbot {
 	}
 
 	offerGuidance() {
+		this.utter("offer-generic-guidance");
+		return;
 		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
 			this.utter("offer-lifelines");
 		}
@@ -433,7 +440,7 @@ class Chatbot {
 
 
 	handleEndOfGame() {
-		const command = `echo "${this.USER_1_NAME},${this.USER_2_NAME},${this.questionNumber}" >> leaderboard.csv`;
+		const command = `echo "${this.USER_1_NAME},${this.USER_2_NAME},${this.correctlyAnswered},${this.winnings}" >> leaderboard.csv`;
 		childProcess.exec(command, (err, stdout) => {
 			if (err) throw err;
 			console.log("Written to leaderboard");

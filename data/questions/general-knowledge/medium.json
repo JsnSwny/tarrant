@@ -454,7 +454,8 @@
 			"incorrect_answers": [
 				[
 					"Big Billy Bass",
-					"big billy bass"
+					"big billy bass",
+					"big billy base"
 				],
 				[
 					"Singing Fish",
@@ -462,12 +463,14 @@
 				],
 				[
 					"Sardeen",
-					"sardeen"
+					"sardeen",
+					"sardine"
 				]
 			],
 			"correct_answers": [
 				"Big Mouth Billy Bass",
-				"big mouth billy bass"
+				"big mouth billy bass",
+				"big mouth billy base"
 			],
 			"options": [
 				"Big Billy Bass",
@@ -759,7 +762,8 @@
 				[
 					"Peter Pan's Flight",
 					"peter pan's flight",
-					"peter pans flight"
+					"peter pans flight",
+					"peter pan flight"
 				]
 			],
 			"correct_answers": [
@@ -864,7 +868,9 @@
 				[
 					"Zach Soldi",
 					"zach soldi",
-					"zach"
+					"zach",
+					"zak",
+					"zack"
 				]
 			],
 			"correct_answers": [
@@ -952,12 +958,13 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "medium",
-			"question": "Which slogan did the fast food company, McDonald's, use before their &quot;I'm Lovin' It&quot; slogan?",
+			"question": "Which slogan did the fast food company, McDonald's, use before their 'I'm Lovin' It' slogan?",
 			"correct_answer": "We Love to See You Smile",
 			"incorrect_answers": [
 				[
 					"Why Pay More!?",
-					"why pay more!?"
+					"why pay more!?",
+					"why pay more"
 				],
 				[
 					"Have It Your Way",
@@ -965,12 +972,14 @@
 				],
 				[
 					"Making People Happy Through Food",
-					"making people happy through food"
+					"making people happy through food",
+					"make people happy through food"
 				]
 			],
 			"correct_answers": [
 				"We Love to See You Smile",
-				"we love to see you smile"
+				"we love to see you smile",
+				"love to see you smile"
 			],
 			"options": [
 				"Why Pay More!?",
@@ -983,16 +992,18 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "medium",
-			"question": "What was the original name of the search engine &quot;Google&quot;?",
+			"question": "What was the original name of the search engine 'Google'?",
 			"correct_answer": "BackRub",
 			"incorrect_answers": [
 				[
 					"CatMassage",
-					"catmassage"
+					"catmassage",
+					"cat massage"
 				],
 				[
 					"SearchPro",
-					"searchpro"
+					"searchpro",
+					"search pro"
 				],
 				[
 					"Netscape Navigator",
@@ -1001,7 +1012,8 @@
 			],
 			"correct_answers": [
 				"BackRub",
-				"backrub"
+				"backrub",
+				"back rub"
 			],
 			"options": [
 				"CatMassage",
@@ -1032,7 +1044,8 @@
 			],
 			"correct_answers": [
 				"Bergamot oil",
-				"bergamot oil"
+				"bergamot oil",
+				"bergamot"
 			],
 			"options": [
 				"Lavender",
@@ -1058,7 +1071,8 @@
 				],
 				[
 					"USA",
-					"usa"
+					"usa",
+					"united states"
 				]
 			],
 			"correct_answers": [
@@ -1156,7 +1170,8 @@
 			],
 			"correct_answers": [
 				"Shogun",
-				"shogun"
+				"shogun",
+				"shotgun"
 			],
 			"options": [
 				"Ninja",
@@ -1174,20 +1189,24 @@
 			"incorrect_answers": [
 				[
 					"Four",
-					"four"
+					"four",
+					"4"
 				],
 				[
 					"Five",
-					"five"
+					"five",
+					"5"
 				],
 				[
 					"Six",
-					"six"
+					"six",
+					"6"
 				]
 			],
 			"correct_answers": [
 				"Three",
-				"three"
+				"three",
+				"3"
 			],
 			"options": [
 				"Four",
@@ -1214,13 +1233,15 @@
 				[
 					"Manager of the Crown Estate",
 					"manager of the crown estate",
-					"Manager of Crown Estate"
+					"manager of crown estate"
 				]
 			],
 			"correct_answers": [
 				"First Lord of the Treasury",
 				"first lord of the treasury",
-				"First Lord of Treasury"
+				"first lord of treasury",
+				"lord of the treasury",
+				"lord of treasury"
 			],
 			"options": [
 				"Duke of Cambridge",
@@ -1251,7 +1272,9 @@
 			],
 			"correct_answers": [
 				"World War II",
-				"world war ii"
+				"world war ii",
+				"world war 2",
+				"second world war"
 			],
 			"options": [
 				"Vietnam War",
@@ -1269,20 +1292,20 @@
 			"incorrect_answers": [
 				[
 					"3",
-					"3"
+					"three"
 				],
 				[
 					"5",
-					"5"
+					"five"
 				],
 				[
 					"6",
-					"6"
+					"six"
 				]
 			],
 			"correct_answers": [
 				"4",
-				"4"
+				"four"
 			],
 			"options": [
 				"3",
@@ -1339,12 +1362,14 @@
 				],
 				[
 					"The Space Needle",
-					"the space needle"
+					"the space needle",
+					"space needle"
 				]
 			],
 			"correct_answers": [
 				"The Guggenheim",
-				"the guggenheim"
+				"the guggenheim",
+				"guggenheim"
 			],
 			"options": [
 				"Villa Savoye",
@@ -1365,7 +1390,8 @@
 					"starbucks"
 				],
 				[
-					"McDonalds",
+					"McDonald's",
+					"mcdonald's",
 					"mcdonalds"
 				],
 				[
@@ -1382,37 +1408,6 @@
 				"McDonalds",
 				"KFC",
 				"Subway"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "medium",
-			"question": "What are the three starter Pokemon available in Pokemon Black and White?",
-			"correct_answer": "Snivy, Tepig, Oshawott",
-			"incorrect_answers": [
-				[
-					"Snivy, Fennekin, Froakie",
-					"snivy, fennekin, froakie"
-				],
-				[
-					"Chespin, Tepig, Froakie",
-					"chespin, tepig, froakie"
-				],
-				[
-					"Chespin, Fennekin, Oshawott",
-					"chespin, fennekin, oshawott"
-				]
-			],
-			"correct_answers": [
-				"Snivy, Tepig, Oshawott",
-				"snivy, tepig, oshawott"
-			],
-			"options": [
-				"Snivy, Fennekin, Froakie",
-				"Chespin, Tepig, Froakie",
-				"Chespin, Fennekin, Oshawott",
-				"Snivy, Tepig, Oshawott"
 			]
 		}
 	],

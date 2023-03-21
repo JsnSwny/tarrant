@@ -9,3 +9,4 @@ tarrant/tarrant/__pycache__/
 data/models/*
 notes
 .env
+data/logs/*

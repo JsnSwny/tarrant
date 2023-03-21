@@ -29,13 +29,17 @@ if (ON_UNIX) {
 // return a random integer between min and max
 function randomInt(min, max) {
     const range = max - min;
-    return min + Math.floor(Math.random() * range);
+    return min + Math.round(Math.random() * range);
 }
 
 function randomElement(array) {
     const index = randomInt(0, array.length - 1);
     return array[index];
 }
+
+module.exports.randomDifficulty = () => {
+	return randomElement(["medium", "easy"]);
+};
 
 module.exports.replace = (string, match, substitute) => {
     let index = string.indexOf(match);

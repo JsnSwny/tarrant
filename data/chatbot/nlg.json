@@ -35,12 +35,15 @@
 	},
 	"say-correct": {
 		"examples": [
-			"Well done. That is the correct answer."
+			"Well done. That is the correct answer. You just won £[1]. You're now sitting on £[2].",
+			"Fantastic! You've just won £[1]. Total winnings: £[2]"
 		]
 	},
 	"say-incorrect": {
 		"examples": [
-			"I'm afraid that's the incorrect answer. The answer was in fact [1]."
+			"I'm afraid that's the incorrect answer. The answer was in fact [1]. You are sitting on £[3]",
+			"That's not quite correct. The answer was [1]. You are sitting on £[3]",
+			"Incorrect, we were looking for [1]. You currently have £[3] in the bank."
 		]
 	},
 	"seek-confirmation": {
@@ -99,10 +102,11 @@
 	},
 	"end-of-game": {
 		"examples": [
-			"And that's the end of the game. Thank you so much for playing. I really enjoyed it. You reached question [1] out of a total [2]. I hope to see you again.",
-			"It's the end of the run for us. Question [1] out of a total [2]. I hope you enjoyed your game, because I know I did. Hopefully we can play again in the future.",
-			"And we have reached the end of our run. We reached question [1]. Thank you for playing, and I hope to see you both again.",
-			"It looks like question number [1] managed to defeat us. But no worry, there's no limit to how many games you may play."
+			"And that's the end of the game. Thank you so much for playing. Out of [2] questions, you got [1] correct. You are going home with £[3]. Congratulations!",
+			"It's the end of the run for us. You have won a total of £[3]. I hope you enjoyed your game, because I know I did. You got [1] out of [2] questions correct.",
+			"And we have reached the end of our run. We won £[3] and answered [1] out of [2] questions correctly. Thank you for playing, and I hope to see you both again.",
+			"And that's it. Total prize: £[3]. [1] out of [2] questions were answered correctly. Good job! I hope to see you again.",
+			"That is us. You won £[3]. You correctly answered [1] out of the [2] questions. I hope we can play again in the future!"
 		]
 	},
 	"seek-answer-clarification": {
@@ -115,7 +119,11 @@
 	"offer-generic-guidance": {
 		"examples": [
 			"I'm not even sure if I know the answer to this one.",
+			"I don't even think I know this one.",
+			"Co-operation is key.",
 			"There is only one correct answer.",
+			"There are four options, only one of which is correct.",
+			"One of these is the correct answer. Which one?",
 			"I would help you if I could."
 		]
 	},

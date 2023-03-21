@@ -17,6 +17,16 @@
 			"wait": 8,
 			"user": 2,
 			"text": "we say it's the milky way"
+		},
+		{
+			"wait": 6,
+			"user": 2,
+			"text": "it's the milky way"
+		},
+		{
+			"wait": 4,
+			"user": 2,
+			"text": "it is"
 		}
 	]
 }
