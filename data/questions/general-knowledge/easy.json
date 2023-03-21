@@ -383,7 +383,8 @@
 				],
 				[
 					"Bubblegum",
-					"bubblegum"
+					"bubblegum",
+					"bubble gum"
 				]
 			],
 			"options": [
@@ -433,37 +434,6 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "easy",
-			"question": "What is the Spanish word for 'donkey'?",
-			"correct_answer": "Burro",
-			"incorrect_answers": [
-				[
-					"Caballo",
-					"caballo"
-				],
-				[
-					"Toro",
-					"toro"
-				],
-				[
-					"Perro",
-					"perro"
-				]
-			],
-			"options": [
-				"Caballo",
-				"Toro",
-				"Perro",
-				"Burro"
-			],
-			"correct_answers": [
-				"Burro",
-				"burro"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "easy",
 			"question": "Who is depicted on the US hundred dollar bill?",
 			"correct_answer": "Benjamin Franklin",
 			"incorrect_answers": [
@@ -493,37 +463,6 @@
 				"Benjamin Franklin",
 				"benjamin franklin",
 				"franklin"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "easy",
-			"question": "Which American-owned brewery led the country in sales by volume in 2015?",
-			"correct_answer": "D. G. Yuengling and Son, Inc",
-			"incorrect_answers": [
-				[
-					"Anheuser Busch",
-					"anheuser busch"
-				],
-				[
-					"Boston Beer Company",
-					"boston beer company"
-				],
-				[
-					"Miller Coors",
-					"miller coors"
-				]
-			],
-			"options": [
-				"Anheuser Busch",
-				"Boston Beer Company",
-				"Miller Coors",
-				"D. G. Yuengling and Son, Inc"
-			],
-			"correct_answers": [
-				"D. G. Yuengling and Son, Inc",
-				"d. g. yuengling and son, inc"
 			]
 		},
 		{
@@ -608,7 +547,8 @@
 				],
 				[
 					"Munchkin",
-					"munchkin"
+					"munchkin",
+					"munch kin"
 				]
 			],
 			"options": [
