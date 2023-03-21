@@ -378,7 +378,8 @@ class Chatbot {
 			if (this.io) {
 				this.io.emit("question_result", {
 					isCorrect: true,
-					answerOffered: this.answerOffered
+					answerOffered: this.answerOffered,
+					correctAnswer: this.question["correct_answer"]
 				});
 			}
 		}
