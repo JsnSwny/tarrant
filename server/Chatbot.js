@@ -112,7 +112,7 @@ class Chatbot {
 	}
 
 	input(userName, userSpeech) {
-		if (this.paused) return;
+		if (this.paused || userSpeech === "") return;
 		this.lastTimestamp = now();
 		this.lastInputTimestamp = now();
 

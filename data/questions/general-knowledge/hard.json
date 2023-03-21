@@ -57,7 +57,8 @@
 			],
 			"correct_answers": [
 				"Bulldog",
-				"bulldog"
+				"bulldog",
+				"bull dog"
 			],
 			"options": [
 				"Yorkshire Terrier",
@@ -75,20 +76,32 @@
 			"incorrect_answers": [
 				[
 					"15 MPH",
-					"15 mph"
+					"fifteen miles per hour",
+					"fifteen",
+					"15 miles per hour",
+					"15"
 				],
 				[
 					"20 MPH",
-					"20 mph"
+					"twenty miles per hour",
+					"twenty",
+					"20 miles per hour",
+					"20"
 				],
 				[
 					"200 MPH",
-					"200 mph"
+					"two hundred miles per hour",
+					"two hundred",
+					"200 miles per hour",
+					"200"
 				]
 			],
 			"correct_answers": [
 				"24 MPH",
-				"24 mph"
+				"twenty four miles per hour",
+				"twenty four",
+				"24 miles per hour",
+				"24"
 			],
 			"options": [
 				"15 MPH",
@@ -101,7 +114,7 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "hard",
-			"question": "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+			"question": "The words 'bungalow' and 'shampoo' originate from the languages of which country?",
 			"correct_answer": "India",
 			"incorrect_answers": [
 				[
@@ -132,31 +145,35 @@
 			"category": "General Knowledge",
 			"type": "multiple",
 			"difficulty": "hard",
-			"question": "When was &quot;YouTube&quot; founded?",
-			"correct_answer": "February 14, 2005",
+			"question": "When was YouTube founded?",
+			"correct_answer": "2005",
 			"incorrect_answers": [
 				[
-					"May 22, 2004",
-					"may 22, 2004"
+					"2004",
+					"two thousand four",
+					"two thousand and four"
 				],
 				[
-					"September 12, 2005",
-					"september 12, 2005"
+					"2007",
+					"two thousand seven",
+					"two thousand and seven"
 				],
 				[
-					"July 19, 2009",
-					"july 19, 2009"
+					"2006",
+					"two thousand six",
+					"two thousand and six"
 				]
 			],
 			"correct_answers": [
-				"February 14, 2005",
-				"february 14, 2005"
+				"2005",
+				"two thousand five",
+				"two thousand and five"
 			],
 			"options": [
-				"May 22, 2004",
-				"September 12, 2005",
-				"July 19, 2009",
-				"February 14, 2005"
+				"2004",
+				"2007",
+				"2006",
+				"2005"
 			]
 		},
 		{
