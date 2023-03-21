@@ -152,7 +152,8 @@
 				],
 				[
 					"Balls",
-					"balls"
+					"balls",
+					"bowls"
 				],
 				[
 					"The Moon",
@@ -167,7 +168,8 @@
 			],
 			"correct_answers": [
 				"A Tight Rope",
-				"a tight rope",
+				"tight rope",
+				"tightrope",
 				"ropes",
 				"rope"
 			]
