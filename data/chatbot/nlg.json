@@ -35,29 +35,63 @@
 	},
 	"say-correct": {
 		"examples": [
-			"Well done. That is the correct answer. You just won £[1]. You're now sitting on £[2].",
-			"Fantastic! You've just won £[1]. Total winnings: £[2]"
+			"Well done. [3] is the correct answer. You just won £[1]. You're now sitting on £[2].",
+			"Fantastic! You've just won £[1]. Total winnings: £[2].",
+			"You answered [3] which is the correct answer. You've just won £[1], bringing your prize up to £[2]!",
+			"You are correct and now have another £[1]. [3] was the answer. We're sitting on £[2].",
+			"You've just won £[1]! [3] was the answer. Total winnings are now at £[2].",
+			"Correct! The answer was [3]. You now have £[2].",
+			"[3] is correct! We now have £[2]. Brilliantly played.",
+			"Brillianty played! [3] was spot on. We are now at £[2].",
+			"That's another £[1] in the bank for us! You now have £[2]. [3] is spot on. Good job!",
+			"You are now £[1] richer as that was the correct answer! Total winnings have risen to £[2].",
+			"And with that you now have £[2]. [3] is correct!"
 		]
 	},
 	"say-incorrect": {
 		"examples": [
-			"I'm afraid that's the incorrect answer. The answer was in fact [1]. You are sitting on £[3]",
+			"I'm afraid [4] is not the correct answer. The answer was in fact [1]. You are sitting on £[3]",
 			"That's not quite correct. The answer was [1]. You are sitting on £[3]",
-			"Incorrect, we were looking for [1]. You currently have £[3] in the bank."
+			"Incorrect. It was not [4] but rather [1]. We missed out on that £[2]. You currently have £[3] in the bank.",
+			"Looks like we've missed out on that £[2]. The answer was not [4] but [1]. Total winnings remain at £[3]. Better luck next time.",
+			"Unfortunately, [4] was not correct. The answer was actually [1]. Our winnings stay at £[3].",
+			"[4] is actually not the answer. It was [1]. You remain at £[3].",
+			"Our winnings remain at £[3]. It was not [4] but [1].",
+			"I'm afraid to say that [4] was not correct. [1] was the answer. Our prize remains at £[3].",
+			"I'm sorry to tell you that the answer was [1]. We remain at £[3].",
+			"I'm so sorry. It was [1]. Total winnings remain at £[3]."
 		]
 	},
 	"seek-confirmation": {
 		"examples": [
+			"Are you wanting to lock in [1]?",
+			"Are you wishing to answer [1]?",
+			"Would you like me to enter [1] as your answer?",
+			"Shall I lock in [1]?",
+			"Should I enter [1]?",
+			"Should I enter [1] into the system?",
+			"Are you wanting to go with [1]?",
+			"Do you wish to go with [1]?",
 			"Is [1] your answer?",
 			"Is [1] your final answer?",
-			"Would you like to make [1] your final answer?"
+			"Would you like to make [1] your final answer?",
+			"Is [1] what you want to go with?"
 		]
 	},
 	"question": {
 		"examples": [
 			"Okay. Question number [1] is for £[2]. [3] [4].",
 			"Okay. We are now on question [1]. This question is for £[2]. [3] [4].",
-			"We are now playing for £[2]. Question [1]. [3] [4]."
+			"We are now playing for £[2]. Question [1]. [3] [4].",
+			"Question number [1]. £[2] up for grabs. Our question is... [3] [4].",
+			"We are on question [1]. This question is for £[2]. [3] [4].",
+			"This is question [1] worth £[2]. [3] [4].",
+			"This is question [1] and it is worth £[2]. [3] [4].",
+			"Question [1] is worth £[2]. [3] [4].",
+			"Here is question [1] worth £[2]. [3] [4].",
+			"Question [1]. Answer this correctly and you will win £[2]. [3] [4].",
+			"This is question [1]. This one could win you £[2]. Here it goes... [3] [4].",
+			"Question number [1]. This one is offering £[2]. [3] [4]."
 		]
 	},
 	"question-brief": {

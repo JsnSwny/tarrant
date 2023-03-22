@@ -22,7 +22,7 @@ const {
 
 class Chatbot {
 	constructor(room) {
-		this.paused = true;
+		this.sleeping = true;
 		this.flow = require("../data/chatbot/flow");
 		this.actions = require("../data/chatbot/nlg");
 		this.intentResponses = require("../data/chatbot/intent_responses");
@@ -57,7 +57,7 @@ class Chatbot {
 		}
 		this.nextQuestion(true);
 		this.correctlyAnswered = 0;
-		this.paused = false;
+		this.sleeping = false;
 		if (this.io) {
 			this.io.emit("start_game");
 		}
@@ -121,23 +121,22 @@ class Chatbot {
 	}
 
 	tick() {
-		if (this.paused) return;
+		if (this.sleeping) return;
 		this.decideFinalAction("do nothing");
 		this.performAction();
 	}
 
 	input(userName, userSpeech) {
-		if (this.paused || userSpeech === "") return;
-		this.lastTimestamp = now();
-		this.lastInputTimestamp = now();
-
-		const mentions = this.extractMentions(userSpeech);
-
 		console.log(
 			`\n${userName}: ${COLOUR_WHITE_BOLD}${userSpeech}${COLOUR_NONE}`
 		);
-
+		const mentions = this.extractMentions(userSpeech);
 		whisper(`Mentions: ${mentions.join(", ") || "-"}`, DEBUG_MODE);
+
+		if (this.sleeping || userSpeech === "") return;
+
+		this.lastTimestamp = now();
+		this.lastInputTimestamp = now();
 
 		this.intentRecogniser.recogniseIntent(userName, userSpeech, (intent) => {
 			whisper(`Intent: ${intent.string}`, DEBUG_MODE);
@@ -280,12 +279,12 @@ class Chatbot {
 		let originalIntentString = intent.string;
 		intent.args = [];
 
-		if (intent.name === "nlu_fallback") {
-			intent.name = "chit-chat";
-		} else if (speech === "no") {
+		if (speech === "no") {
 			intent.name = "reject";
 		} else if (speech === "yes") {
 			intent.name = "agreement";
+		} else if (intent.name === "nlu_fallback") {
+			intent.name = "chit-chat";
 		} else if (intent.name === "offer-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
@@ -384,11 +383,14 @@ class Chatbot {
 	}
 
 	acceptAnswer() {
-		this.utter("lock-answer", [this.answerOffered]);
 		if (this.isCorrectAnswer(this.answerOffered)) {
 			this.winnings += this.currentPrize;
 			this.correctlyAnswered++;
-			this.utter("say-correct", [this.currentPrize, this.winnings]);
+			this.utter("say-correct", [
+				this.currentPrize,
+				this.winnings,
+				this.answerOffered,
+			]);
 			if (this.io) {
 				this.io.emit("question_result", {
 					isCorrect: true,
@@ -401,6 +403,7 @@ class Chatbot {
 				this.question["correct_answer"],
 				this.currentPrize,
 				this.winnings,
+				this.answerOffered,
 			]);
 			if (this.io) {
 				this.io.emit("question_result", {
@@ -410,11 +413,16 @@ class Chatbot {
 				});
 			}
 		}
-		if (this.questionNumber < this.totalQuestions) {
-			this.nextQuestion();
-		} else {
-			this.changeState("end-of-game");
-		}
+
+		this.sleeping = true;
+		setTimeout(() => {
+			if (this.questionNumber < this.totalQuestions) {
+				this.nextQuestion();
+			} else {
+				this.changeState("end-of-game");
+			}
+			this.sleeping = false;
+		}, 6000);
 	}
 
 	handleQuestionSilence() {

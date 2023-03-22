@@ -10,3 +10,4 @@ data/models/*
 notes
 .env
 data/logs/*
+leaderboard.csv
