@@ -18,14 +18,19 @@
 			"text": "yeah we both think so"
 		},
 		{
-			"wait": 3,
+			"wait": 2,
+			"user": 1,
+			"text": "damn it"
+		},
+		{
+			"wait": 12,
 			"user": 2,
 			"text": "do you have any ideas"
 		},
 		{
 			"wait": 3,
 			"user": 1,
-			"text": "no i have none"
+			"text": "no"
 		},
 		{
 			"wait": 8,
@@ -38,7 +43,7 @@
 			"text": "yeah i think it's cellphone"
 		},
 		{
-			"wait": 4,
+			"wait": 12,
 			"user": 2,
 			"text": "this is one you should know"
 		},
@@ -63,7 +68,7 @@
 			"text": "yeah we want to go with that please"
 		},
 		{
-			"wait": 8,
+			"wait": 12,
 			"user": 2,
 			"text": "it's definitely not the moon"
 		},
@@ -113,7 +118,7 @@
 			"text": "it is"
 		},
 		{
-			"wait": 4,
+			"wait": 10,
 			"user": 1,
 			"text": "you play darts don't you?"
 		},
