@@ -5,17 +5,18 @@ dotenv.config();
 module.exports.DEBUG_MODE = Boolean(Number(process.env.DEBUG_MODE)) || false;
 module.exports.DEBUG_NLU = Boolean(Number(process.env.DEBUG_NLU)) || false;
 
-module.exports.EMULATE_DIALOGUE = Boolean(Number(process.env.EMULATE_DIALOGUE)) || false;
+module.exports.EMULATE_DIALOGUE =
+	Boolean(Number(process.env.EMULATE_DIALOGUE)) || false;
 module.exports.ON_UNIX = Boolean(Number(process.env.ON_UNIX)) || false;
 module.exports.TIME_SCALE_FACTOR = Number(process.env.TIME_SCALE_FACTOR) || 1;
 
 module.exports.CONTRACTION_SUBSTITUTIONS = [
-    ["can't", "can not"],
-    ["couldn't", "could not"],
-    ["isn't", "is not"],
-    ["it's", "it is"],
-    ["won't", "will not"],
-    ["wouldn't", "would not"],
+	["can't", "can not"],
+	["couldn't", "could not"],
+	["isn't", "is not"],
+	["it's", "it is"],
+	["won't", "will not"],
+	["wouldn't", "would not"],
 ];
 
 module.exports.COLOUR_RED = "\033[0;31m";

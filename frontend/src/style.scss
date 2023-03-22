@@ -227,7 +227,15 @@ body {
 		font-size: 18px;
 		&:hover {
 			background-color: rgba($primary, 0.1);
-			border: 1px solid $primary;
+			border: 2px solid $primary;
+		}
+		&.wrong {
+			border: 2px solid red;
+			background-color: rgba(red, 0.1);
+		}
+		&.correct {
+			border: 2px solid green;
+			background-color: rgba(green, 0.1);
 		}
 	}
 }

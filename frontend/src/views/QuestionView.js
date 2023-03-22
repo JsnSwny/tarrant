@@ -10,6 +10,7 @@ import * as io from "socket.io-client";
 import { defaultsDeep } from "lodash";
 import letsPlay from "../sounds/letsPlay.mp3";
 import correctAnswer from "../sounds/correctAnswer.mp3";
+import wrongAnswer from "../sounds/wrongAnswer.mp3";
 
 const QuestionView = () => {
 	const [listening, setListening] = useState();
@@ -17,19 +18,21 @@ const QuestionView = () => {
 	const [currentQuestion, setCurrentQuestion] = useState(null);
 	const [connection, setConnection] = useState(null);
 	const [questionNumber, setQuestionNumber] = useState(0);
+	const [endOfQuestion, setEndOfQuestion] = useState(null);
 
 	const [dialogue, setDialogue] = useState([]);
 	const [user, setUser] = useState(0);
 
 	let letsPlayAudio = new Audio(letsPlay);
 	let correctAnswerAudio = new Audio(correctAnswer);
+	let wrongAnswerAudio = new Audio(wrongAnswer);
 	// let audio = new Audio("/christmas.mp3")
 	// let audio = new Audio("/christmas.mp3")
 	// let audio = new Audio("/christmas.mp3")
 
 	const connect = () => {
 		connection?.disconnect();
-		const socket = io.connect("http://137.195.116.41:5000");
+		const socket = io.connect(`192.168.0.14:5000`);
 		socket.on("connect", () => {
 			console.log("connected", socket.id);
 			setConnection(socket);
@@ -50,9 +53,29 @@ const QuestionView = () => {
 		});
 
 		socket.on("next_question", (data) => {
-			setCurrentQuestion(data.question);
-			setQuestionNumber(data.questionNumber);
-			if (data.questionNumber > 1) correctAnswerAudio.play();
+			console.log("Data:");
+			console.log(data);
+			if (data.questionNumber != 1) {
+				setTimeout(() => {
+					setCurrentQuestion(data.question);
+					setQuestionNumber(data.questionNumber);
+					setEndOfQuestion(null);
+				}, 4000);
+			} else {
+				setCurrentQuestion(data.question);
+				setQuestionNumber(data.questionNumber);
+				setEndOfQuestion(null);
+			}
+		});
+
+		socket.on("question_result", (data) => {
+			console.log(data);
+			if (data.isCorrect) {
+				correctAnswerAudio.play();
+			} else {
+				wrongAnswerAudio.play();
+			}
+			setEndOfQuestion(data);
 		});
 
 		socket.on("disconnect", () => {
@@ -80,7 +103,10 @@ const QuestionView = () => {
 								questionNumber={questionNumber}
 								currentQuestion={currentQuestion}
 							/>
-							<Options options={currentQuestion.options} />
+							<Options
+								options={currentQuestion.options}
+								endOfQuestion={endOfQuestion}
+							/>
 						</>
 					)}
 				</div>

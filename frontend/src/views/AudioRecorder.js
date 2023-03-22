@@ -137,26 +137,6 @@ const AudioToText = ({ messages, connection, letsPlayAudio }) => {
 		setIsRecording(true);
 	};
 
-	// useEffect(() => {
-	// 	(async () => {
-	// 		if (!isRecording) {
-	// 			setIsRecording(true);
-	// 		} else {
-	// 			console.error("No connection");
-	// 		}
-	// 	})();
-	// 	return () => {
-	// 		if (isRecording) {
-	// 			console.log("Closed");
-	// 			processorRef.current?.disconnect();
-	// 			audioInputRef.current?.disconnect();
-	// 			if (audioContextRef.current?.state !== "closed") {
-	// 				audioContextRef.current?.close();
-	// 			}
-	// 		}
-	// 	};
-	// }, [isRecording, recorder]);
-
 	return (
 		<div className="speech-footer">
 			<div className="speech-footer__bubble">
@@ -198,13 +178,6 @@ const AudioToText = ({ messages, connection, letsPlayAudio }) => {
 					icon={isRecording ? faMicrophoneSlash : faMicrophone}
 				/>
 				{isRecording ? "Stop" : "Start"} Listening
-			</button>
-			<button
-				onClick={() => {
-					getMediaStream();
-				}}
-			>
-				Get Audio
 			</button>
 		</div>
 	);

@@ -4,8 +4,21 @@ const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 const fuzz = require("fuzzball");
 
-const { COLOUR_CYAN, COLOUR_NONE, COLOUR_WHITE_BOLD, DEBUG_MODE } = require("./constants");
-const { now, randomDifficulty, randomElement, randomInt, shuffle, timeElapsed, whisper } = require("./functions");
+const {
+	COLOUR_CYAN,
+	COLOUR_NONE,
+	COLOUR_WHITE_BOLD,
+	DEBUG_MODE,
+} = require("./constants");
+const {
+	now,
+	randomDifficulty,
+	randomElement,
+	randomInt,
+	shuffle,
+	timeElapsed,
+	whisper,
+} = require("./functions");
 
 class Chatbot {
 	constructor(room) {
@@ -53,15 +66,17 @@ class Chatbot {
 	nextQuestion(firstQuestion = false) {
 		if (firstQuestion) {
 			this.questionNumber = 1;
-		}
-		else {
+		} else {
 			this.questionNumber++;
 		}
 		if (this.questionRefs !== null) {
 			const questionKey = this.questionRefs[this.questionNumber - 1];
-			this.configureQuestion(this.currentDifficulty, questionKey[0], questionKey[1]);
-		}
-		else {
+			this.configureQuestion(
+				this.currentDifficulty,
+				questionKey[0],
+				questionKey[1]
+			);
+		} else {
 			this.configureQuestion(this.currentDifficulty, "general-knowledge");
 		}
 		this.options = this.question["incorrect_answers"].map((options) => options);
@@ -118,7 +133,9 @@ class Chatbot {
 
 		const mentions = this.extractMentions(userSpeech);
 
-		console.log(`\n${userName}: ${COLOUR_WHITE_BOLD}${userSpeech}${COLOUR_NONE}`);
+		console.log(
+			`\n${userName}: ${COLOUR_WHITE_BOLD}${userSpeech}${COLOUR_NONE}`
+		);
 
 		whisper(`Mentions: ${mentions.join(", ") || "-"}`, DEBUG_MODE);
 
@@ -155,8 +172,7 @@ class Chatbot {
 		if (this.action.eval !== "") {
 			eval(this.action.eval);
 			this.lastTimestamp = now();
-		}
-		else if (this.action.name !== "do nothing") {
+		} else if (this.action.name !== "do nothing") {
 			this.utter(this.action.name, this.action.args);
 			this.lastTimestamp = now();
 		}
@@ -199,12 +215,10 @@ class Chatbot {
 		if (intent) {
 			if (Object.keys(this.stateConfig).includes(intent.name)) {
 				this.setEvalAction(this.stateConfig[intent.name]);
-			}
-			else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
+			} else if (Object.keys(this.stateConfig).includes("DEFAULT")) {
 				this.setEvalAction(this.stateConfig.DEFAULT);
 			}
-		}
-		else if (Object.keys(this.stateConfig).includes("SILENCE")) {
+		} else if (Object.keys(this.stateConfig).includes("SILENCE")) {
 			const silenceValue = this.stateConfig.SILENCE;
 			if (timeElapsed(this.lastTimestamp) >= silenceValue[0]) {
 				this.setEvalAction(silenceValue[1]);
@@ -229,8 +243,7 @@ class Chatbot {
 		if (typeof evalSpec === "string") {
 			wait = 0;
 			string = evalSpec;
-		}
-		else {
+		} else {
 			wait = evalSpec[0];
 			string = evalSpec[1];
 		}
@@ -238,7 +251,10 @@ class Chatbot {
 		this.action.eval = string;
 		if (string === "") return;
 		whisper(`Eval action: ${string}`, DEBUG_MODE && wait === 0);
-		whisper(`Eval action in ${wait} seconds: ${string}`, DEBUG_MODE && wait > 0);
+		whisper(
+			`Eval action in ${wait} seconds: ${string}`,
+			DEBUG_MODE && wait > 0
+		);
 	}
 
 	getEntity(intent, speech) {
@@ -266,53 +282,53 @@ class Chatbot {
 
 		if (intent.name === "nlu_fallback") {
 			intent.name = "chit-chat";
-		}
-		else if (speech === "no") {
+		} else if (speech === "no") {
 			intent.name = "reject";
-		}
-		else if (speech === "yes") {
+		} else if (speech === "yes") {
 			intent.name = "agreement";
-		}
-		else if (intent.name === "offer-answer" && mentions.length > 0) {
+		} else if (intent.name === "offer-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		}
-		else if (intent.name === "offer-answer" && mentions.length === 0) {
+		} else if (intent.name === "offer-answer" && mentions.length === 0) {
 			intent.name = "agreement";
-		}
-		else if (intent.name === "check-answer" && mentions.length > 0) {
+		} else if (intent.name === "check-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		}
-		else if (intent.name === "ask-agreement" && mentions.length > 0) {
+		} else if (intent.name === "ask-agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		}
-		else if (intent.name === "offer-to-answer" && mentions.length > 0) {
+		} else if (intent.name === "offer-to-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		}
-		else if (intent.name === "agreement" && mentions.length > 0) {
+		} else if (intent.name === "agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		}
-		else if (intent.name === "reject-option" && mentions.length === 0) {
+		} else if (intent.name === "reject-option" && mentions.length === 0) {
 			intent.name = "reject";
-		}
-		else if (intent.name === "reject-option" && mentions.length > 0) {
+		} else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
-		}
-		else if (intent.name === "confirm-final-answer" && this.answerOffered === "") {
+		} else if (
+			intent.name === "confirm-final-answer" &&
+			this.answerOffered === ""
+		) {
 			intent.name = "chit-chat";
 		}
 		this.intentsDecided++;
-		intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
+		intent.string = this.intentRecogniser.stringifyIntent(
+			intent.name,
+			intent.args
+		);
 		if (originalIntentName !== intent.name) {
-			whisper(`Changed intent: ${originalIntentString} -> ${intent.string}`, DEBUG_MODE);
+			whisper(
+				`Changed intent: ${originalIntentString} -> ${intent.string}`,
+				DEBUG_MODE
+			);
 			this.intentsChanged++;
-		}
-		else if (originalIntentArgs !== intent.args && intent.args.length > 0) {
-			whisper(`Added intent args: ${originalIntentString} -> ${intent.string}`, DEBUG_MODE);
+		} else if (originalIntentArgs !== intent.args && intent.args.length > 0) {
+			whisper(
+				`Added intent args: ${originalIntentString} -> ${intent.string}`,
+				DEBUG_MODE
+			);
 		}
 		this.lastIntent = intent;
 	}
@@ -358,12 +374,10 @@ class Chatbot {
 		this.answerOffered = args[0];
 		if (this.state === "question") {
 			this.changeState("seek-confirmation");
-		}
-		else if (this.state === "seek-confirmation"){
+		} else if (this.state === "seek-confirmation") {
 			if (this.answerOffered === prevAnswerOffered) {
 				this.acceptAnswer();
-			}
-			else {
+			} else {
 				this.changeState("question", [false]);
 			}
 		}
@@ -379,24 +393,26 @@ class Chatbot {
 				this.io.emit("question_result", {
 					isCorrect: true,
 					answerOffered: this.answerOffered,
-					correctAnswer: this.question["correct_answer"]
+					correctAnswer: this.question["correct_answer"],
 				});
 			}
-		}
-		else {
-			this.utter("say-incorrect", [this.question["correct_answer"], this.currentPrize, this.winnings]);
+		} else {
+			this.utter("say-incorrect", [
+				this.question["correct_answer"],
+				this.currentPrize,
+				this.winnings,
+			]);
 			if (this.io) {
 				this.io.emit("question_result", {
 					isCorrect: false,
 					answerOffered: this.answerOffered,
-					correctAnswer: this.question["correct_answer"]
+					correctAnswer: this.question["correct_answer"],
 				});
 			}
 		}
 		if (this.questionNumber < this.totalQuestions) {
 			this.nextQuestion();
-		}
-		else {
+		} else {
 			this.changeState("end-of-game");
 		}
 	}
@@ -405,8 +421,7 @@ class Chatbot {
 		if (this.answerOffered !== "") {
 			this.utter("repeat-answer", [this.answerOffered]);
 			this.changeState("seek-confirmation");
-		}
-		else {
+		} else {
 			this.say("I'll give you a bit more time. (delete)");
 		}
 	}
@@ -423,11 +438,9 @@ class Chatbot {
 		return;
 		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
 			this.utter("offer-lifelines");
-		}
-		else if (this.hasLifelineFiftyFifty) {
+		} else if (this.hasLifelineFiftyFifty) {
 			this.utter("offer-fifty-fifty");
-		}
-		else if (this.hasLifelineAskTheAudience) {
+		} else if (this.hasLifelineAskTheAudience) {
 			this.utter("offer-ask-the-audience");
 		}
 	}
@@ -439,19 +452,17 @@ class Chatbot {
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.question.options.join(", ")
+				this.question.options.join(", "),
 			]);
-		}
-		else {
+		} else {
 			this.utter("question-brief", [
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
-				this.question.options.join(", ")
+				this.question.options.join(", "),
 			]);
 		}
 	}
-
 
 	handleEndOfGame() {
 		const command = `echo "${this.USER_1_NAME},${this.USER_2_NAME},${this.correctlyAnswered},${this.winnings}" >> leaderboard.csv`;

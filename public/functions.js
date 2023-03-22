@@ -18,7 +18,7 @@ function element(id) {
 
 // Note: This function is used only in the test page
 function submit(apiName) {
-	const DOMAIN_NAME = "http://137.195.116.41:5000/";
+	const DOMAIN_NAME = `192.168.0.14:5000`;
 	const value = element(apiName + "-input").value;
 	const target = DOMAIN_NAME + "api/" + apiName;
 	console.log("Submitting " + target);
