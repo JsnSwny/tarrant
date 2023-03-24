@@ -18,7 +18,7 @@
 		"reject-option": "this.handleRejectOption(this.lastIntent.args)",
 		"confirm-final-answer": "this.changeState('accept-answer')",
 		"agreement": "(this.answerOffered === '') ? '' : this.changeState('seek-confirmation')",
-		"final-answer": "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.changeState('accept-answer')",
+		"final-answer": "this.changeState('accept-answer')",
 		"DEFAULT": "",
 		"SILENCE": [12, "this.offerGuidance()"]
 	},

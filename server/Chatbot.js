@@ -89,6 +89,7 @@ class Chatbot {
 
 		this.currentPrize += 50;
 		this.answerOffered = "";
+		this.prevAnswerOffered = "";
 		this.changeState("question", [true]);
 		if (this.io) {
 			this.io.emit("next_question", {
@@ -288,54 +289,55 @@ class Chatbot {
 
 		if (speech === "no") {
 			intent.name = "reject";
-		} else if (speech === "yes") {
+		}
+		else if (speech === "yes") {
 			intent.name = "agreement";
-		} else if (intent.name === "nlu_fallback") {
+		} 
+		else if (intent.name === "nlu_fallback") {
 			intent.name = "chit-chat";
-		} else if (intent.name === "offer-answer" && mentions.length > 0) {
-			intent.name = "offer-answer";
+		}
+		else if (intent.name === "offer-answer" && mentions.length > 0) {
 			intent.args = mentions;
-		} else if (intent.name === "offer-answer" && mentions.length === 0) {
+		}
+		else if (intent.name === "offer-answer" && mentions.length === 0) {
 			intent.name = "agreement";
-		} else if (intent.name === "check-answer" && mentions.length > 0) {
+		}
+		else if (intent.name === "final-answer" && mentions.length > 0) {
+			intent.args = mentions;
+		}
+		else if (intent.name === "check-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "ask-agreement" && mentions.length > 0) {
+		}
+		else if (intent.name === "ask-agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "offer-to-answer" && mentions.length > 0) {
+		}
+		else if (intent.name === "offer-to-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "agreement" && mentions.length > 0) {
+		}
+		else if (intent.name === "agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "reject-option" && mentions.length === 0) {
+		}
+		else if (intent.name === "reject-option" && mentions.length === 0) {
 			intent.name = "reject";
-		} else if (intent.name === "reject-option" && mentions.length > 0) {
+		}
+		else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
-		} else if (
-			intent.name === "confirm-final-answer" &&
-			this.answerOffered === ""
-		) {
-			intent.name = "chit-chat";
 		}
+		else if (intent.name === "confirm-final-answer" && mentions.length > 0) {
+			intent.args = mentions;
+		}
+
 		this.intentsDecided++;
-		intent.string = this.intentRecogniser.stringifyIntent(
-			intent.name,
-			intent.args
-		);
-		if (originalIntentName !== intent.name) {
-			whisper(
-				`Changed intent: ${originalIntentString} -> ${intent.string}`,
-				DEBUG_MODE
-			);
-			this.intentsChanged++;
-		} else if (originalIntentArgs !== intent.args && intent.args.length > 0) {
-			whisper(
-				`Added intent args: ${originalIntentString} -> ${intent.string}`,
-				DEBUG_MODE
-			);
-		}
+		intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
+
+		if (originalIntentName !== intent.name) this.intentsChanged++;
+
+		whisper(`Final intent: ${intent.string}`, DEBUG_MODE);
+
 		this.lastIntent = intent;
 	}
 
@@ -375,21 +377,37 @@ class Chatbot {
 		return false;
 	}
 
+	setAnswerOffered(value) {
+		this.prevAnswerOffered = this.answerOffered;
+		this.answerOffered = value;
+	}
+
 	handleOfferAnswer(args) {
-		const prevAnswerOffered = this.answerOffered;
-		this.answerOffered = args[0];
+		this.setAnswerOffered(args[0]);
 		if (this.state === "question") {
 			this.changeState("seek-confirmation");
-		} else if (this.state === "seek-confirmation") {
-			if (this.answerOffered === prevAnswerOffered) {
+		}
+		else if (this.state === "seek-confirmation") {
+			if (this.answerOffered === this.prevAnswerOffered) {
 				this.acceptAnswer();
-			} else {
+			}
+			else {
 				this.changeState("question", [false]);
 			}
 		}
 	}
 
 	acceptAnswer() {
+		if (!this.answerOffered) {
+			if (this.lastIntent.args.length) {
+				this.setAnswerOffered(this.lastIntent.args[0]);
+			}
+			else {
+				this.changeState("question", [false]);
+				return;
+			}
+		}
+
 		if (this.isCorrectAnswer(this.answerOffered)) {
 			this.winnings += this.currentPrize;
 			this.correctlyAnswered++;
