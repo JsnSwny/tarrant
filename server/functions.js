@@ -60,6 +60,23 @@ module.exports.shuffle = (array) => {
     }
 };
 
+module.exports.insertIntoLeaderboard = (leaderboard, entry) => {
+
+	let inserted = false;
+	for (let index = 0; index < leaderboard.length; index++) {
+		const compEntry = leaderboard[index];
+		if (entry.winnings > compEntry.winnings) {
+			leaderboard.splice(index, 0, entry);
+			inserted = true;
+			break;
+		}
+	}
+	
+	if (!inserted) leaderboard.push(entry);
+
+
+};
+
 module.exports.now = () => {
     return Math.floor(Date.now() / 1000);
 };

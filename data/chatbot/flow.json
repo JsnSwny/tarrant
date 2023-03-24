@@ -18,7 +18,7 @@
 		"reject-option": "this.handleRejectOption(this.lastIntent.args)",
 		"confirm-final-answer": "this.changeState('accept-answer')",
 		"agreement": "(this.answerOffered === '') ? '' : this.changeState('seek-confirmation')",
-		"final-answer": "(this.answerOffered === '') ? this.utter('seek-answer-clarification') : this.changeState('accept-answer')",
+		"final-answer": "this.changeState('accept-answer')",
 		"DEFAULT": "",
 		"SILENCE": [12, "this.offerGuidance()"]
 	},
@@ -32,6 +32,11 @@
 		"offer-to-answer": "this.utter('encourage'); this.changeState('question', [false])",
 		"confirm-final-answer": "this.changeState('accept-answer')",
 		"DEFAULT": [12, "this.utter('return-to-question'); this.changeState('question', [false])"],
+		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [false])"]
+	},
+	"seek-direct-answer": {
+		"EXEC": "this.utter('seek-direct-answer')",
+		"DEFAULT": "(this.lastIntent.args.length > 0) ? this.handleOfferAnswer(this.lastIntent.args) : this.changeState('question', [false])",
 		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [false])"]
 	},
 	"accept-answer": {

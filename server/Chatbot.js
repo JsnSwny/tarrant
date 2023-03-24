@@ -29,6 +29,7 @@ class Chatbot {
 		this.sockets = [null, null];
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
+		this.questionsAsked = [];
 		this.questionRefs = null;
 		this.questionNumber = 0;
 		this.totalQuestions = 10;
@@ -66,6 +67,7 @@ class Chatbot {
 	nextQuestion(firstQuestion = false) {
 		if (firstQuestion) {
 			this.questionNumber = 1;
+			this.questionsAsked = [];
 		} else {
 			this.questionNumber++;
 		}
@@ -87,6 +89,7 @@ class Chatbot {
 
 		this.currentPrize += 50;
 		this.answerOffered = "";
+		this.prevAnswerOffered = "";
 		this.changeState("question", [true]);
 		if (this.io) {
 			this.io.emit("next_question", {
@@ -113,11 +116,16 @@ class Chatbot {
 	configureQuestion(difficulty, category, index = -1) {
 		const filepath = `../data/questions/${category}/${difficulty}`;
 		const questions = require(filepath).questions;
-		if (index == -1) index = randomInt(0, questions.length - 1);
+		if (index == -1) {
+			do {
+				index = randomInt(0, questions.length - 1);
+			} while (this.questionsAsked.includes(difficulty+"_"+category+"_"+index))
+		}
 		this.question = questions[index];
 		this.options = this.question["incorrect_answers"].concat(
 			this.question["correct_answer"]
 		);
+		this.questionsAsked.push(difficulty+"_"+category+"_"+index);
 	}
 
 	tick() {
@@ -284,54 +292,55 @@ class Chatbot {
 
 		if (speech === "no") {
 			intent.name = "reject";
-		} else if (speech === "yes") {
+		}
+		else if (speech === "yes") {
 			intent.name = "agreement";
-		} else if (intent.name === "nlu_fallback") {
+		} 
+		else if (intent.name === "nlu_fallback") {
 			intent.name = "chit-chat";
-		} else if (intent.name === "offer-answer" && mentions.length > 0) {
-			intent.name = "offer-answer";
+		}
+		else if (intent.name === "offer-answer" && mentions.length > 0) {
 			intent.args = mentions;
-		} else if (intent.name === "offer-answer" && mentions.length === 0) {
+		}
+		else if (intent.name === "offer-answer" && mentions.length === 0) {
 			intent.name = "agreement";
-		} else if (intent.name === "check-answer" && mentions.length > 0) {
+		}
+		else if (intent.name === "final-answer" && mentions.length > 0) {
+			intent.args = mentions;
+		}
+		else if (intent.name === "check-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "ask-agreement" && mentions.length > 0) {
+		}
+		else if (intent.name === "ask-agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "offer-to-answer" && mentions.length > 0) {
+		}
+		else if (intent.name === "offer-to-answer" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "agreement" && mentions.length > 0) {
+		}
+		else if (intent.name === "agreement" && mentions.length > 0) {
 			intent.name = "offer-answer";
 			intent.args = mentions;
-		} else if (intent.name === "reject-option" && mentions.length === 0) {
+		}
+		else if (intent.name === "reject-option" && mentions.length === 0) {
 			intent.name = "reject";
-		} else if (intent.name === "reject-option" && mentions.length > 0) {
+		}
+		else if (intent.name === "reject-option" && mentions.length > 0) {
 			intent.args = mentions;
-		} else if (
-			intent.name === "confirm-final-answer" &&
-			this.answerOffered === ""
-		) {
-			intent.name = "chit-chat";
 		}
+		else if (intent.name === "confirm-final-answer" && mentions.length > 0) {
+			intent.args = mentions;
+		}
+
 		this.intentsDecided++;
-		intent.string = this.intentRecogniser.stringifyIntent(
-			intent.name,
-			intent.args
-		);
-		if (originalIntentName !== intent.name) {
-			whisper(
-				`Changed intent: ${originalIntentString} -> ${intent.string}`,
-				DEBUG_MODE
-			);
-			this.intentsChanged++;
-		} else if (originalIntentArgs !== intent.args && intent.args.length > 0) {
-			whisper(
-				`Added intent args: ${originalIntentString} -> ${intent.string}`,
-				DEBUG_MODE
-			);
-		}
+		intent.string = this.intentRecogniser.stringifyIntent(intent.name, intent.args);
+
+		if (originalIntentName !== intent.name) this.intentsChanged++;
+
+		whisper(`Final intent: ${intent.string}`, DEBUG_MODE);
+
 		this.lastIntent = intent;
 	}
 
@@ -377,21 +386,37 @@ class Chatbot {
 		return false;
 	}
 
+	setAnswerOffered(value) {
+		this.prevAnswerOffered = this.answerOffered;
+		this.answerOffered = value;
+	}
+
 	handleOfferAnswer(args) {
-		const prevAnswerOffered = this.answerOffered;
-		this.answerOffered = args[0];
-		if (this.state === "question") {
-			this.changeState("seek-confirmation");
-		} else if (this.state === "seek-confirmation") {
-			if (this.answerOffered === prevAnswerOffered) {
+		this.setAnswerOffered(args[0]);
+		if (this.state === "seek-confirmation") {
+			if (this.answerOffered === this.prevAnswerOffered) {
 				this.acceptAnswer();
-			} else {
+			}
+			else {
 				this.changeState("question", [false]);
 			}
+		}
+		else {
+			this.changeState("seek-confirmation");
 		}
 	}
 
 	acceptAnswer() {
+		if (!this.answerOffered) {
+			if (this.lastIntent.args.length > 0) {
+				this.setAnswerOffered(this.lastIntent.args[0]);
+			}
+			else {
+				this.changeState("seek-direct-answer");
+				return;
+			}
+		}
+
 		if (this.isCorrectAnswer(this.answerOffered)) {
 			this.winnings += this.currentPrize;
 			this.correctlyAnswered++;
