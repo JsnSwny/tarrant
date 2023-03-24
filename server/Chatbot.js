@@ -29,6 +29,7 @@ class Chatbot {
 		this.sockets = [null, null];
 		this.dialogueManager = new DialogueManager();
 		this.intentRecogniser = new IntentRecogniser();
+		this.questionsAsked = [];
 		this.questionRefs = null;
 		this.questionNumber = 0;
 		this.totalQuestions = 10;
@@ -66,6 +67,7 @@ class Chatbot {
 	nextQuestion(firstQuestion = false) {
 		if (firstQuestion) {
 			this.questionNumber = 1;
+			this.questionsAsked = [];
 		} else {
 			this.questionNumber++;
 		}
@@ -113,11 +115,16 @@ class Chatbot {
 	configureQuestion(difficulty, category, index = -1) {
 		const filepath = `../data/questions/${category}/${difficulty}`;
 		const questions = require(filepath).questions;
-		if (index == -1) index = randomInt(0, questions.length - 1);
+		if (index == -1) {
+			do {
+				index = randomInt(0, questions.length - 1);
+			} while (this.questionsAsked.includes(difficulty+"_"+category+"_"+index))
+		}
 		this.question = questions[index];
 		this.options = this.question["incorrect_answers"].concat(
 			this.question["correct_answer"]
 		);
+		this.questionsAsked.push(difficulty+"_"+category+"_"+index);
 	}
 
 	tick() {
