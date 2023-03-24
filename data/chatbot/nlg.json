@@ -143,11 +143,15 @@
 			"That is us. You won £[3]. You correctly answered [1] out of the [2] questions. I hope we can play again in the future!"
 		]
 	},
-	"seek-answer-clarification": {
+	"seek-direct-answer": {
 		"examples": [
-			"So what is it you're thinking?",
-			"So what do you think the answer is then?",
-			"So what's your answer?"
+			"I didn't pick up on your answer. What is it you'd like to go with?",
+			"I'm sorry but I didn't quite catch your answer. Could you repeat it?",
+			"What is it you would like to go with?",
+			"What's your final answer? I didn't quite catch it.",
+			"Did you have a final answer? I may have missed it.",
+			"I didn't quite catch your answer. If there was one, could you please repeat it?",
+			"Could you please repeat your answer for me? I may have missed it."
 		]
 	},
 	"offer-generic-guidance": {

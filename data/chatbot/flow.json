@@ -34,6 +34,11 @@
 		"DEFAULT": [12, "this.utter('return-to-question'); this.changeState('question', [false])"],
 		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [false])"]
 	},
+	"seek-direct-answer": {
+		"EXEC": "this.utter('seek-direct-answer')",
+		"DEFAULT": "(this.lastIntent.args.length > 0) ? this.handleOfferAnswer(this.lastIntent.args) : this.changeState('question', [false])",
+		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [false])"]
+	},
 	"accept-answer": {
 		"EXEC": "this.acceptAnswer()"
 	},

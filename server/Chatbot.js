@@ -384,10 +384,7 @@ class Chatbot {
 
 	handleOfferAnswer(args) {
 		this.setAnswerOffered(args[0]);
-		if (this.state === "question") {
-			this.changeState("seek-confirmation");
-		}
-		else if (this.state === "seek-confirmation") {
+		if (this.state === "seek-confirmation") {
 			if (this.answerOffered === this.prevAnswerOffered) {
 				this.acceptAnswer();
 			}
@@ -395,15 +392,18 @@ class Chatbot {
 				this.changeState("question", [false]);
 			}
 		}
+		else {
+			this.changeState("seek-confirmation");
+		}
 	}
 
 	acceptAnswer() {
 		if (!this.answerOffered) {
-			if (this.lastIntent.args.length) {
+			if (this.lastIntent.args.length > 0) {
 				this.setAnswerOffered(this.lastIntent.args[0]);
 			}
 			else {
-				this.changeState("question", [false]);
+				this.changeState("seek-direct-answer");
 				return;
 			}
 		}
