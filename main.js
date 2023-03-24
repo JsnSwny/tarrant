@@ -143,6 +143,10 @@ io.on("connection", (socket) => {
 	let recognizeStream = null;
 	console.log("** a user connected - " + socket.id + " **\n");
 
+	socket.on("skip_question", () => {
+		chatbot.nextQuestion();
+	});
+
 	socket.on("disconnect", () => {
 		console.log("** user disconnected ** \n");
 		// Find the room containing the disconnected user and remove them
@@ -262,8 +266,7 @@ if (EMULATE_DIALOGUE) {
 	setInterval(() => {
 		dialogueInputEmulator.tick();
 	}, 100);
-}
-else {
+} else {
 	chatbot.startGame();
 }
 

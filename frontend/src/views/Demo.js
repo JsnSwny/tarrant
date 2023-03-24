@@ -2,10 +2,13 @@ import React from "react";
 
 const Demo = () => {
 	return (
-		<div>
-			<a href="/game">
-				<button>Join Game</button>
-			</a>
+		<div className="title-screen">
+			<div className="title-screen__content">
+				<h1>tarrant</h1>
+				<a href="/game">
+					<button>Join Game</button>
+				</a>
+			</div>
 		</div>
 	);
 };

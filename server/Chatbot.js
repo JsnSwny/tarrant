@@ -256,21 +256,24 @@ class Chatbot {
 		);
 	}
 
-	getEntity(intent, speech) {
+	getEntity(speech) {
 		let query = speech;
 		let choices = this.options.map((item) => item[0]);
 
 		let options = {
-			scorer: fuzz.token_sort_ratio,
+			scorer: fuzz.token_set_ratio,
 			limit: 1,
-			cutoff: 50,
+			cutoff: 40,
 			unsorted: true,
 		};
 
 		let results = fuzz.extract(query, choices, options);
 
-		let entity = results.reduce((a, b) => a[1] - b[1])[0];
-		intent.args = [entity];
+		if (results.length > 0) {
+			return [results.sort((a, b) => b[1] - a[1])[0][0]];
+		} else {
+			return [];
+		}
 	}
 
 	decideFinalIntent(intent, mentions, speech) {
@@ -333,16 +336,22 @@ class Chatbot {
 	}
 
 	extractMentions(userSpeech) {
-		const mentions = [];
-		if (this.options) {
-			for (let optionsArray of this.options) {
-				if (this.containsMentions(userSpeech, optionsArray)) {
-					mentions.push(optionsArray[0]);
-					return mentions;
-				}
-			}
-		}
-		return mentions;
+		const entity = this.getEntity(userSpeech);
+
+		// const mentions = [];
+		// if (this.options) {
+		// 	for (let optionsArray of this.options) {
+		// 		if (this.containsMentions(userSpeech, optionsArray)) {
+		// 			mentions.push(optionsArray[0]);
+		// 			console.log("Mentions");
+		// 			console.log(mentions);
+		// 			return mentions;
+		// 		}
+		// 	}
+		// }
+		// console.log("Mentions");
+		// console.log(mentions);
+		return entity;
 	}
 
 	containsMentions(dialogue, options) {
@@ -422,7 +431,7 @@ class Chatbot {
 				this.changeState("end-of-game");
 			}
 			this.sleeping = false;
-		}, 6000);
+		}, 5000);
 	}
 
 	handleQuestionSilence() {

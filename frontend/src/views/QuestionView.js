@@ -11,6 +11,8 @@ import { defaultsDeep } from "lodash";
 import letsPlay from "../sounds/letsPlay.mp3";
 import correctAnswer from "../sounds/correctAnswer.mp3";
 import wrongAnswer from "../sounds/wrongAnswer.mp3";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faForward } from "@fortawesome/free-solid-svg-icons";
 
 const QuestionView = () => {
 	const [listening, setListening] = useState();
@@ -32,7 +34,7 @@ const QuestionView = () => {
 
 	const connect = () => {
 		connection?.disconnect();
-		const socket = io.connect(`192.168.0.14:5000`);
+		const socket = io.connect(`137.195.118.51:5000`);
 		socket.on("connect", () => {
 			console.log("connected", socket.id);
 			setConnection(socket);
@@ -53,19 +55,9 @@ const QuestionView = () => {
 		});
 
 		socket.on("next_question", (data) => {
-			console.log("Data:");
-			console.log(data);
-			if (data.questionNumber != 1) {
-				setTimeout(() => {
-					setCurrentQuestion(data.question);
-					setQuestionNumber(data.questionNumber);
-					setEndOfQuestion(null);
-				}, 4000);
-			} else {
-				setCurrentQuestion(data.question);
-				setQuestionNumber(data.questionNumber);
-				setEndOfQuestion(null);
-			}
+			setCurrentQuestion(data.question);
+			setQuestionNumber(data.questionNumber);
+			setEndOfQuestion(null);
 		});
 
 		socket.on("question_result", (data) => {
@@ -116,6 +108,12 @@ const QuestionView = () => {
 					connection={connection}
 					letsPlayAudio={letsPlayAudio}
 				/>
+				<button
+					className="skip-button"
+					onClick={() => connection.emit("skip_question")}
+				>
+					Skip Question <FontAwesomeIcon icon={faForward} />
+				</button>
 			</div>
 			<Leaderboard />
 		</section>
