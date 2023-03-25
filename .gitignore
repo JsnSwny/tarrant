@@ -10,7 +10,8 @@ data/models/*
 notes
 .env
 data/logs/*
-./leaderboard.csv
+leaderboard.csv
 api_responses/
 medium/
 hard/
+public/audios/

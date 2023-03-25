@@ -8,3 +8,7 @@ socket.on("connect", () => {
     socket.on("enter-into-game", handleEnterIntoGame);
     socket.on("dialogue", handleDialogue);
 });
+
+setTimeout(() => {
+	hearSpeech("77b824a4-d3ba-40a2-bc31-94b963e45049");
+}, 5000);

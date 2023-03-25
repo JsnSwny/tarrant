@@ -1,4 +1,5 @@
 const childProcess = require("child_process");
+const uuid = require("uuid");
 
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
@@ -242,12 +243,24 @@ class Chatbot {
 		this.setAction("do nothing", [], 0, "");
 	}
 
+	produceAudio(text) {
+		const serial = uuid.v4();
+		const command = `python3 Text_To_Speech/Text_To_Speech.py ${serial} "${text}"`;
+		childProcess.exec(command, (err, stdout) => {
+			if (err) throw err;
+			console.log("Produced audio " + serial);
+		});
+		return serial;
+	}
+
 	say(text) {
 		if (text === "") return;
+		const audioSerial = this.produceAudio(text);
 		if (this.io) {
 			this.io.emit("receive_message", {
 				text: text,
 				speaker: "HOST",
+				audioSerial
 			});
 		}
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
