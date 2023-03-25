@@ -1,0 +1,159 @@
+{
+    "questions": [
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following cellular device companies is NOT headquartered in Asia?",
+            "correct_answer": "Nokia",
+            "incorrect_answers": [
+                [
+                    "LG Electronics",
+                    "lg electronics"
+                ],
+                [
+                    "Samsung",
+                    "samsung"
+                ],
+                [
+                    "HTC",
+                    "htc"
+                ]
+            ],
+            "correct_answers": [
+                "Nokia",
+                "nokia"
+            ],
+            "options": [
+                "LG Electronics",
+                "Samsung",
+                "HTC",
+                "Nokia"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is the standard THX subwoofer crossover frequency?",
+            "correct_answer": "80 Hz",
+            "incorrect_answers": [
+                [
+                    "70 Hz",
+                    "70 hz"
+                ],
+                [
+                    "90 Hz",
+                    "90 hz"
+                ],
+                [
+                    "100 Hz",
+                    "100 hz"
+                ]
+            ],
+            "correct_answers": [
+                "80 Hz",
+                "80 hz"
+            ],
+            "options": [
+                "70 Hz",
+                "90 Hz",
+                "100 Hz",
+                "80 Hz"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who built the first laser?",
+            "correct_answer": "Theodore Harold Maiman",
+            "incorrect_answers": [
+                [
+                    "Nikola Tesla",
+                    "nikola tesla"
+                ],
+                [
+                    "Jack Kilby",
+                    "jack kilby"
+                ],
+                [
+                    "Edith Clarke",
+                    "edith clarke"
+                ]
+            ],
+            "correct_answers": [
+                "Theodore Harold Maiman",
+                "theodore harold maiman"
+            ],
+            "options": [
+                "Nikola Tesla",
+                "Jack Kilby",
+                "Edith Clarke",
+                "Theodore Harold Maiman"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is used to measure blood pressure?",
+            "correct_answer": "Sphygmomanometer",
+            "incorrect_answers": [
+                [
+                    "Barometer",
+                    "barometer"
+                ],
+                [
+                    "Ruler",
+                    "ruler"
+                ],
+                [
+                    "Haemoerythrometer",
+                    "haemoerythrometer"
+                ]
+            ],
+            "correct_answers": [
+                "Sphygmomanometer",
+                "sphygmomanometer"
+            ],
+            "options": [
+                "Barometer",
+                "Ruler",
+                "Haemoerythrometer",
+                "Sphygmomanometer"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which round does a WW2 M1 Garand fire?",
+            "correct_answer": ".30-06",
+            "incorrect_answers": [
+                [
+                    ".308",
+                    ".308"
+                ],
+                [
+                    "7.62",
+                    "7.62"
+                ],
+                [
+                    "7.62x51mm",
+                    "7.62x51mm"
+                ]
+            ],
+            "correct_answers": [
+                ".30-06",
+                ".30-06"
+            ],
+            "options": [
+                ".308",
+                "7.62",
+                "7.62x51mm",
+                ".30-06"
+            ]
+        }
+    ]
+}

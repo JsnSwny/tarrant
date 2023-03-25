@@ -1,0 +1,412 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these musicals won the Tony Award for Best Musical?",
+            "correct_answer": "Rent",
+            "incorrect_answers": [
+                [
+                    "The Color Purple",
+                    "the color purple",
+                    "color purple"
+                ],
+                [
+                    "American Idiot",
+                    "american idiot"
+                ],
+                [
+                    "Newsies",
+                    "newsies"
+                ]
+            ],
+            "correct_answers": [
+                "Rent",
+                "rent"
+            ],
+            "options": [
+                "The Color Purple",
+                "American Idiot",
+                "Newsies",
+                "Rent"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was the play &quot;Macbeth&quot; written?",
+            "correct_answer": "1606",
+            "incorrect_answers": [
+                [
+                    "1605",
+                    "1605"
+                ],
+                [
+                    "1723",
+                    "1723"
+                ],
+                [
+                    "1628",
+                    "1628"
+                ]
+            ],
+            "correct_answers": [
+                "1606",
+                "1606"
+            ],
+            "options": [
+                "1605",
+                "1723",
+                "1628",
+                "1606"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which Shakespeare play does the character Marcellus say, &quot;Something is rotten in the state of Denmark&quot;?",
+            "correct_answer": "Hamlet",
+            "incorrect_answers": [
+                [
+                    "Macbeth",
+                    "macbeth"
+                ],
+                [
+                    "King Lear",
+                    "king lear"
+                ],
+                [
+                    "Twelfth Night",
+                    "twelfth night"
+                ]
+            ],
+            "correct_answers": [
+                "Hamlet",
+                "hamlet"
+            ],
+            "options": [
+                "Macbeth",
+                "King Lear",
+                "Twelfth Night",
+                "Hamlet"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+            "correct_answer": "A million to one",
+            "incorrect_answers": [
+                [
+                    "A billion to one",
+                    "a billion to one"
+                ],
+                [
+                    "A trillion to one",
+                    "a trillion to one"
+                ],
+                [
+                    "A hundred to one",
+                    "a hundred to one"
+                ]
+            ],
+            "correct_answers": [
+                "A million to one",
+                "a million to one"
+            ],
+            "options": [
+                "A billion to one",
+                "A trillion to one",
+                "A hundred to one",
+                "A million to one"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
+            "correct_answer": "Daveed Diggs",
+            "incorrect_answers": [
+                [
+                    "Lin-Manuel Miranda",
+                    "lin-manuel miranda"
+                ],
+                [
+                    "Javier Mu&ntilde;oz",
+                    "javier mu&ntilde;oz"
+                ],
+                [
+                    "Wayne Brady",
+                    "wayne brady"
+                ]
+            ],
+            "correct_answers": [
+                "Daveed Diggs",
+                "daveed diggs"
+            ],
+            "options": [
+                "Lin-Manuel Miranda",
+                "Javier Mu&ntilde;oz",
+                "Wayne Brady",
+                "Daveed Diggs"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Andrew Lloyd Webber musical &quot;Cats&quot; is based off a book of poems written by which author?",
+            "correct_answer": "T.S. Elliot",
+            "incorrect_answers": [
+                [
+                    "Andrew Lloyd Webber",
+                    "andrew lloyd webber"
+                ],
+                [
+                    "Emily Dickenson",
+                    "emily dickenson"
+                ],
+                [
+                    "Robert Frost",
+                    "robert frost"
+                ]
+            ],
+            "correct_answers": [
+                "T.S. Elliot",
+                "t.s. elliot"
+            ],
+            "options": [
+                "Andrew Lloyd Webber",
+                "Emily Dickenson",
+                "Robert Frost",
+                "T.S. Elliot"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What play is the quote &quot;Hell is other people&quot; from?",
+            "correct_answer": "No Exit",
+            "incorrect_answers": [
+                [
+                    "The Devil and the Good Lord",
+                    "the devil and the good lord",
+                    "devil and good lord"
+                ],
+                [
+                    "The Condemned of Altona",
+                    "the condemned of altona",
+                    "condemned of altona"
+                ],
+                [
+                    "The Flies",
+                    "the flies",
+                    "flies"
+                ]
+            ],
+            "correct_answers": [
+                "No Exit",
+                "no exit"
+            ],
+            "options": [
+                "The Devil and the Good Lord",
+                "The Condemned of Altona",
+                "The Flies",
+                "No Exit"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is the musical director for the award winning musical &quot;Hamilton&quot;?",
+            "correct_answer": "Alex Lacamoire",
+            "incorrect_answers": [
+                [
+                    "Lin-Manuel Miranda",
+                    "lin-manuel miranda"
+                ],
+                [
+                    "Renee Elise-Goldberry",
+                    "renee elise-goldberry"
+                ],
+                [
+                    "Leslie Odom Jr.",
+                    "leslie odom jr."
+                ]
+            ],
+            "correct_answers": [
+                "Alex Lacamoire",
+                "alex lacamoire"
+            ],
+            "options": [
+                "Lin-Manuel Miranda",
+                "Renee Elise-Goldberry",
+                "Leslie Odom Jr.",
+                "Alex Lacamoire"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which Shakespearean play will you find the suicide of Ophelia?",
+            "correct_answer": "Hamlet",
+            "incorrect_answers": [
+                [
+                    "Macbeth",
+                    "macbeth"
+                ],
+                [
+                    "Othello",
+                    "othello"
+                ],
+                [
+                    "King Lear",
+                    "king lear"
+                ]
+            ],
+            "correct_answers": [
+                "Hamlet",
+                "hamlet"
+            ],
+            "options": [
+                "Macbeth",
+                "Othello",
+                "King Lear",
+                "Hamlet"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The musical &quot;Dirty Rotten Scoundrels&quot; is set in what country?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                [
+                    "USA",
+                    "usa"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Sweden",
+                    "sweden"
+                ]
+            ],
+            "correct_answers": [
+                "France",
+                "france"
+            ],
+            "options": [
+                "USA",
+                "Germany",
+                "Sweden",
+                "France"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following is not a piece from the 1950's musical West Side Story?",
+            "correct_answer": "The Back Alley",
+            "incorrect_answers": [
+                [
+                    "Maria",
+                    "maria"
+                ],
+                [
+                    "Tonight",
+                    "tonight"
+                ],
+                [
+                    "Mambo",
+                    "mambo"
+                ]
+            ],
+            "correct_answers": [
+                "The Back Alley",
+                "the back alley",
+                "back alley"
+            ],
+            "options": [
+                "Maria",
+                "Tonight",
+                "Mambo",
+                "The Back Alley"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
+            "correct_answer": "Merano",
+            "incorrect_answers": [
+                [
+                    "Venice",
+                    "venice"
+                ],
+                [
+                    "Milan",
+                    "milan"
+                ],
+                [
+                    "Rome",
+                    "rome"
+                ]
+            ],
+            "correct_answers": [
+                "Merano",
+                "merano"
+            ],
+            "options": [
+                "Venice",
+                "Milan",
+                "Rome",
+                "Merano"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was George Bizet's last opera?",
+            "correct_answer": "Carmen",
+            "incorrect_answers": [
+                [
+                    "Don Rodrigue",
+                    "don rodrigue"
+                ],
+                [
+                    "Gris&eacute;lidis",
+                    "gris&eacute;lidis"
+                ],
+                [
+                    "Les p&ecirc;cheurs de perles",
+                    "les p&ecirc;cheurs de perles"
+                ]
+            ],
+            "correct_answers": [
+                "Carmen",
+                "carmen"
+            ],
+            "options": [
+                "Don Rodrigue",
+                "Gris&eacute;lidis",
+                "Les p&ecirc;cheurs de perles",
+                "Carmen"
+            ]
+        }
+    ]
+}

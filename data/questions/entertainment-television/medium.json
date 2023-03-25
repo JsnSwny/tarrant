@@ -1,0 +1,1919 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the episode of SpongeBob SquarePants, &quot;Survival of the Idiots&quot;, Spongebob called Patrick which nickname?",
+            "correct_answer": "Pinhead",
+            "incorrect_answers": [
+                [
+                    "Starfish",
+                    "starfish"
+                ],
+                [
+                    "Larry",
+                    "larry"
+                ],
+                [
+                    "Dirty Dan",
+                    "dirty dan"
+                ]
+            ],
+            "correct_answers": [
+                "Pinhead",
+                "pinhead"
+            ],
+            "options": [
+                "Starfish",
+                "Larry",
+                "Dirty Dan",
+                "Pinhead"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "&quot;The A Team&quot; first aired in the USA and in the UK in what year?",
+            "correct_answer": "1983",
+            "incorrect_answers": [
+                [
+                    "1981",
+                    "1981"
+                ],
+                [
+                    "1985",
+                    "1985"
+                ],
+                [
+                    "1987",
+                    "1987"
+                ]
+            ],
+            "correct_answers": [
+                "1983",
+                "1983"
+            ],
+            "options": [
+                "1981",
+                "1985",
+                "1987",
+                "1983"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Baron Silas Greenback is the arch nemesis of which cartoon hero?",
+            "correct_answer": "Danger Mouse",
+            "incorrect_answers": [
+                [
+                    "Bananaman",
+                    "bananaman"
+                ],
+                [
+                    "SuperTed",
+                    "superted"
+                ],
+                [
+                    "Captain Star",
+                    "captain star"
+                ]
+            ],
+            "correct_answers": [
+                "Danger Mouse",
+                "danger mouse"
+            ],
+            "options": [
+                "Bananaman",
+                "SuperTed",
+                "Captain Star",
+                "Danger Mouse"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The first half-hour CGI cartoon, ReBoot, aired on which year?",
+            "correct_answer": "1994",
+            "incorrect_answers": [
+                [
+                    "1993",
+                    "1993"
+                ],
+                [
+                    "1998",
+                    "1998"
+                ],
+                [
+                    "1999",
+                    "1999"
+                ]
+            ],
+            "correct_answers": [
+                "1994",
+                "1994"
+            ],
+            "options": [
+                "1993",
+                "1998",
+                "1999",
+                "1994"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the &quot;Flash&quot; and &quot;Arrow&quot; spinoff featuring a team of characters that have appeared on both shows?",
+            "correct_answer": "Legends of Tomorrow",
+            "incorrect_answers": [
+                [
+                    "Heroes of Tomorrow",
+                    "heroes of tomorrow"
+                ],
+                [
+                    "The Justice Society of America",
+                    "the justice society of america",
+                    "justice society of america"
+                ],
+                [
+                    "The Justice Society",
+                    "the justice society",
+                    "justice society"
+                ]
+            ],
+            "correct_answers": [
+                "Legends of Tomorrow",
+                "legends of tomorrow"
+            ],
+            "options": [
+                "Heroes of Tomorrow",
+                "The Justice Society of America",
+                "The Justice Society",
+                "Legends of Tomorrow"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;The Simpsons&quot;, what is the real name of &quot;Comic Book Guy&quot;?",
+            "correct_answer": "Jeff Albertson",
+            "incorrect_answers": [
+                [
+                    "Comic Book Guy",
+                    "comic book guy"
+                ],
+                [
+                    "Edward Stone",
+                    "edward stone"
+                ],
+                [
+                    "Jack Richardson",
+                    "jack richardson"
+                ]
+            ],
+            "correct_answers": [
+                "Jeff Albertson",
+                "jeff albertson"
+            ],
+            "options": [
+                "Comic Book Guy",
+                "Edward Stone",
+                "Jack Richardson",
+                "Jeff Albertson"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?",
+            "correct_answer": "$5",
+            "incorrect_answers": [
+                [
+                    "A Copy of Bonestorm 2",
+                    "a copy of bonestorm 2"
+                ],
+                [
+                    "$100",
+                    "$100"
+                ],
+                [
+                    "A Giant Gobstopper",
+                    "a giant gobstopper"
+                ]
+            ],
+            "correct_answers": [
+                "$5",
+                "$5"
+            ],
+            "options": [
+                "A Copy of Bonestorm 2",
+                "$100",
+                "A Giant Gobstopper",
+                "$5"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many seasons did the TV show &quot;Donkey Kong Country&quot; last?",
+            "correct_answer": "2",
+            "incorrect_answers": [
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "4",
+                    "4"
+                ],
+                [
+                    "5",
+                    "5"
+                ]
+            ],
+            "correct_answers": [
+                "2",
+                "2"
+            ],
+            "options": [
+                "1",
+                "4",
+                "5",
+                "2"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the main antagonists in Battlestar Galactica?",
+            "correct_answer": "The Cylons",
+            "incorrect_answers": [
+                [
+                    "The Collective",
+                    "the collective",
+                    "collective"
+                ],
+                [
+                    "The Federation",
+                    "the federation",
+                    "federation"
+                ],
+                [
+                    "The Rebels",
+                    "the rebels",
+                    "rebels"
+                ]
+            ],
+            "correct_answers": [
+                "The Cylons",
+                "the cylons",
+                "cylons"
+            ],
+            "options": [
+                "The Collective",
+                "The Federation",
+                "The Rebels",
+                "The Cylons"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Naruto: Shippuden, which of the following elements is a &quot;Kekkei Tōta?&quot;",
+            "correct_answer": "Particle Style",
+            "incorrect_answers": [
+                [
+                    "Any Doujutsu",
+                    "any doujutsu"
+                ],
+                [
+                    "Shadow Style",
+                    "shadow style"
+                ],
+                [
+                    "Ice Style",
+                    "ice style"
+                ]
+            ],
+            "correct_answers": [
+                "Particle Style",
+                "particle style"
+            ],
+            "options": [
+                "Any Doujutsu",
+                "Shadow Style",
+                "Ice Style",
+                "Particle Style"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which year did the British television series &quot;The Bill&quot; end?",
+            "correct_answer": "2010",
+            "incorrect_answers": [
+                [
+                    "2001",
+                    "2001"
+                ],
+                [
+                    "2007",
+                    "2007"
+                ],
+                [
+                    "2012",
+                    "2012"
+                ]
+            ],
+            "correct_answers": [
+                "2010",
+                "2010"
+            ],
+            "options": [
+                "2001",
+                "2007",
+                "2012",
+                "2010"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was Firestorm's rival during the original run of UK Robot Wars?",
+            "correct_answer": "Panic Attack",
+            "incorrect_answers": [
+                [
+                    "Razer",
+                    "razer"
+                ],
+                [
+                    "Chaos 2",
+                    "chaos 2"
+                ],
+                [
+                    "Hypno Disc",
+                    "hypno disc"
+                ]
+            ],
+            "correct_answers": [
+                "Panic Attack",
+                "panic attack"
+            ],
+            "options": [
+                "Razer",
+                "Chaos 2",
+                "Hypno Disc",
+                "Panic Attack"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Breaking Bad, the initials W.W. refer to which of the following?",
+            "correct_answer": "Walter White",
+            "incorrect_answers": [
+                [
+                    "William Wolf",
+                    "william wolf"
+                ],
+                [
+                    "Willy Wonka",
+                    "willy wonka"
+                ],
+                [
+                    "Wally Walrus",
+                    "wally walrus"
+                ]
+            ],
+            "correct_answers": [
+                "Walter White",
+                "walter white"
+            ],
+            "options": [
+                "William Wolf",
+                "Willy Wonka",
+                "Wally Walrus",
+                "Walter White"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
+            "correct_answer": "Jessica",
+            "incorrect_answers": [
+                [
+                    "Angela",
+                    "angela"
+                ],
+                [
+                    "Erica",
+                    "erica"
+                ],
+                [
+                    "Sandra",
+                    "sandra"
+                ]
+            ],
+            "correct_answers": [
+                "Jessica",
+                "jessica"
+            ],
+            "options": [
+                "Angela",
+                "Erica",
+                "Sandra",
+                "Jessica"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the surname of the character Daryl in AMC's show The Walking Dead?",
+            "correct_answer": "Dixon",
+            "incorrect_answers": [
+                [
+                    "Grimes",
+                    "grimes"
+                ],
+                [
+                    "Dickinson",
+                    "dickinson"
+                ],
+                [
+                    "Dicketson",
+                    "dicketson"
+                ]
+            ],
+            "correct_answers": [
+                "Dixon",
+                "dixon"
+            ],
+            "options": [
+                "Grimes",
+                "Dickinson",
+                "Dicketson",
+                "Dixon"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which character does voice actress Tara Strong NOT voice?",
+            "correct_answer": "Bubbles (2016)",
+            "incorrect_answers": [
+                [
+                    "Twilight Sparkle",
+                    "twilight sparkle"
+                ],
+                [
+                    "Timmy Turner",
+                    "timmy turner"
+                ],
+                [
+                    "Harley Quinn",
+                    "harley quinn"
+                ]
+            ],
+            "correct_answers": [
+                "Bubbles (2016)",
+                "bubbles (2016)"
+            ],
+            "options": [
+                "Twilight Sparkle",
+                "Timmy Turner",
+                "Harley Quinn",
+                "Bubbles (2016)"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the original Doctor Who series (1963), fourth doctor Tom Baker's scarf was how long?",
+            "correct_answer": "7 Meters",
+            "incorrect_answers": [
+                [
+                    "10 Meters",
+                    "10 meters"
+                ],
+                [
+                    "2 Meters",
+                    "2 meters"
+                ],
+                [
+                    "5 Meters",
+                    "5 meters"
+                ]
+            ],
+            "correct_answers": [
+                "7 Meters",
+                "7 meters"
+            ],
+            "options": [
+                "10 Meters",
+                "2 Meters",
+                "5 Meters",
+                "7 Meters"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following Autobot names in Michael Bay's movies was NOT a name for a Transformer in the original 1980's cartoon?",
+            "correct_answer": "Mudflap",
+            "incorrect_answers": [
+                [
+                    "Skids",
+                    "skids"
+                ],
+                [
+                    "Sideswipe",
+                    "sideswipe"
+                ],
+                [
+                    "Ratchet",
+                    "ratchet"
+                ]
+            ],
+            "correct_answers": [
+                "Mudflap",
+                "mudflap"
+            ],
+            "options": [
+                "Skids",
+                "Sideswipe",
+                "Ratchet",
+                "Mudflap"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was Nickelodeon's original name?",
+            "correct_answer": "Pinwheel",
+            "incorrect_answers": [
+                [
+                    "MTVKids",
+                    "mtvkids"
+                ],
+                [
+                    "KidsTV",
+                    "kidstv"
+                ],
+                [
+                    "Splat!",
+                    "splat!"
+                ]
+            ],
+            "correct_answers": [
+                "Pinwheel",
+                "pinwheel"
+            ],
+            "options": [
+                "MTVKids",
+                "KidsTV",
+                "Splat!",
+                "Pinwheel"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the show &quot;The Office&quot; who does Michael Scott eventually end up with?",
+            "correct_answer": "Holly Flax",
+            "incorrect_answers": [
+                [
+                    "Angela Martin",
+                    "angela martin"
+                ],
+                [
+                    "Jan Levinson",
+                    "jan levinson"
+                ],
+                [
+                    "Pam Beesly",
+                    "pam beesly"
+                ]
+            ],
+            "correct_answers": [
+                "Holly Flax",
+                "holly flax"
+            ],
+            "options": [
+                "Angela Martin",
+                "Jan Levinson",
+                "Pam Beesly",
+                "Holly Flax"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who sang the theme song for the TV show 'Rawhide'?",
+            "correct_answer": "Frankie Laine",
+            "incorrect_answers": [
+                [
+                    "Guy Mitchell",
+                    "guy mitchell"
+                ],
+                [
+                    " Tennessee Ernie Ford",
+                    " tennessee ernie ford"
+                ],
+                [
+                    "Slim Whitman",
+                    "slim whitman"
+                ]
+            ],
+            "correct_answers": [
+                "Frankie Laine",
+                "frankie laine"
+            ],
+            "options": [
+                "Guy Mitchell",
+                " Tennessee Ernie Ford",
+                "Slim Whitman",
+                "Frankie Laine"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What breed of dog is &quot;Scooby Doo&quot;?",
+            "correct_answer": "Great Dane",
+            "incorrect_answers": [
+                [
+                    "Pit bull",
+                    "pit bull"
+                ],
+                [
+                    "Boxer",
+                    "boxer"
+                ],
+                [
+                    "Doberman Pinscher",
+                    "doberman pinscher"
+                ]
+            ],
+            "correct_answers": [
+                "Great Dane",
+                "great dane"
+            ],
+            "options": [
+                "Pit bull",
+                "Boxer",
+                "Doberman Pinscher",
+                "Great Dane"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How long was Ken Jennings' win streak on Jeopardy?",
+            "correct_answer": "74",
+            "incorrect_answers": [
+                [
+                    "88",
+                    "88"
+                ],
+                [
+                    "49",
+                    "49"
+                ],
+                [
+                    "62",
+                    "62"
+                ]
+            ],
+            "correct_answers": [
+                "74",
+                "74"
+            ],
+            "options": [
+                "88",
+                "49",
+                "62",
+                "74"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which British writer wrote for both Doctor Who and Sherlock?",
+            "correct_answer": "Steven Moffatt",
+            "incorrect_answers": [
+                [
+                    "Phil Ford",
+                    "phil ford"
+                ],
+                [
+                    "Russell T Davies",
+                    "russell t davies"
+                ],
+                [
+                    "Toby Whithouse",
+                    "toby whithouse"
+                ]
+            ],
+            "correct_answers": [
+                "Steven Moffatt",
+                "steven moffatt"
+            ],
+            "options": [
+                "Phil Ford",
+                "Russell T Davies",
+                "Toby Whithouse",
+                "Steven Moffatt"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;Star Trek&quot;, what is the Ferengi's First Rule of Acquisition?",
+            "correct_answer": "Once you have their money, you never give it back. ",
+            "incorrect_answers": [
+                [
+                    "Never place friendship above profit",
+                    "never place friendship above profit"
+                ],
+                [
+                    "Greed is Eternal",
+                    "greed is eternal"
+                ],
+                [
+                    "Never allow family to stand in the way of opportunity",
+                    "never allow family to stand in the way of opportunity",
+                    "never allow family to stand in way of opportunity"
+                ]
+            ],
+            "correct_answers": [
+                "Once you have their money, you never give it back. ",
+                "once you have their money, you never give it back. "
+            ],
+            "options": [
+                "Never place friendship above profit",
+                "Greed is Eternal",
+                "Never allow family to stand in the way of opportunity",
+                "Once you have their money, you never give it back. "
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which WWF wrestler had the nickname &quot;The Ayatollah of Rock 'N' Rolla&quot;?",
+            "correct_answer": "Chris Jericho",
+            "incorrect_answers": [
+                [
+                    "Marty Jannetty",
+                    "marty jannetty"
+                ],
+                [
+                    "Scott Hall",
+                    "scott hall"
+                ],
+                [
+                    "Shawn Michaels",
+                    "shawn michaels"
+                ]
+            ],
+            "correct_answers": [
+                "Chris Jericho",
+                "chris jericho"
+            ],
+            "options": [
+                "Marty Jannetty",
+                "Scott Hall",
+                "Shawn Michaels",
+                "Chris Jericho"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the television show &quot;Lazy Town&quot;, who is the actor of Robbie Rotten?",
+            "correct_answer": "Stef&aacute;n Stef&aacute;nsson",
+            "incorrect_answers": [
+                [
+                    "Adam Sandler",
+                    "adam sandler"
+                ],
+                [
+                    "Magn&uacute;s Scheving",
+                    "magn&uacute;s scheving"
+                ],
+                [
+                    "Stephen Carl",
+                    "stephen carl"
+                ]
+            ],
+            "correct_answers": [
+                "Stef&aacute;n Stef&aacute;nsson",
+                "stef&aacute;n stef&aacute;nsson"
+            ],
+            "options": [
+                "Adam Sandler",
+                "Magn&uacute;s Scheving",
+                "Stephen Carl",
+                "Stef&aacute;n Stef&aacute;nsson"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The fictional movie 'Rochelle, Rochelle' features in which sitcom?",
+            "correct_answer": "Seinfeld",
+            "incorrect_answers": [
+                [
+                    "Frasier",
+                    "frasier"
+                ],
+                [
+                    "Cheers",
+                    "cheers"
+                ],
+                [
+                    "Friends",
+                    "friends"
+                ]
+            ],
+            "correct_answers": [
+                "Seinfeld",
+                "seinfeld"
+            ],
+            "options": [
+                "Frasier",
+                "Cheers",
+                "Friends",
+                "Seinfeld"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the star of the TV series &quot;24&quot;?",
+            "correct_answer": "Kiefer Sutherland",
+            "incorrect_answers": [
+                [
+                    "Kevin Bacon",
+                    "kevin bacon"
+                ],
+                [
+                    "Hugh Laurie",
+                    "hugh laurie"
+                ],
+                [
+                    "Rob Lowe",
+                    "rob lowe"
+                ]
+            ],
+            "correct_answers": [
+                "Kiefer Sutherland",
+                "kiefer sutherland"
+            ],
+            "options": [
+                "Kevin Bacon",
+                "Hugh Laurie",
+                "Rob Lowe",
+                "Kiefer Sutherland"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did &quot;The Big Bang Theory&quot; debut on CBS?",
+            "correct_answer": "2007",
+            "incorrect_answers": [
+                [
+                    "2008",
+                    "2008"
+                ],
+                [
+                    "2006",
+                    "2006"
+                ],
+                [
+                    "2009",
+                    "2009"
+                ]
+            ],
+            "correct_answers": [
+                "2007",
+                "2007"
+            ],
+            "options": [
+                "2008",
+                "2006",
+                "2009",
+                "2007"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these television shows makes everyone look under their chair?",
+            "correct_answer": "Oprah",
+            "incorrect_answers": [
+                [
+                    "Jimmy Fallon",
+                    "jimmy fallon"
+                ],
+                [
+                    "Saturday Night Live",
+                    "saturday night live"
+                ],
+                [
+                    "Larry Rubert",
+                    "larry rubert"
+                ]
+            ],
+            "correct_answers": [
+                "Oprah",
+                "oprah"
+            ],
+            "options": [
+                "Jimmy Fallon",
+                "Saturday Night Live",
+                "Larry Rubert",
+                "Oprah"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which boxing personality was one of the presenters in the 1999 revival of It's a Knockout?",
+            "correct_answer": "Frank Bruno",
+            "incorrect_answers": [
+                [
+                    "Henry Cooper",
+                    "henry cooper"
+                ],
+                [
+                    "Muhammad Ali",
+                    "muhammad ali"
+                ],
+                [
+                    "Joe Fraiser",
+                    "joe fraiser"
+                ]
+            ],
+            "correct_answers": [
+                "Frank Bruno",
+                "frank bruno"
+            ],
+            "options": [
+                "Henry Cooper",
+                "Muhammad Ali",
+                "Joe Fraiser",
+                "Frank Bruno"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did the television company BBC officially launch the channel BBC One?",
+            "correct_answer": "1936",
+            "incorrect_answers": [
+                [
+                    "1948",
+                    "1948"
+                ],
+                [
+                    "1932",
+                    "1932"
+                ],
+                [
+                    "1955",
+                    "1955"
+                ]
+            ],
+            "correct_answers": [
+                "1936",
+                "1936"
+            ],
+            "options": [
+                "1948",
+                "1932",
+                "1955",
+                "1936"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Battlestar Galactica (2004), what is the name of the President of the Twelve Colonies?",
+            "correct_answer": "Laura Roslin",
+            "incorrect_answers": [
+                [
+                    "William Adama",
+                    "william adama"
+                ],
+                [
+                    "Tricia Helfer",
+                    "tricia helfer"
+                ],
+                [
+                    "Harry Stills",
+                    "harry stills"
+                ]
+            ],
+            "correct_answers": [
+                "Laura Roslin",
+                "laura roslin"
+            ],
+            "options": [
+                "William Adama",
+                "Tricia Helfer",
+                "Harry Stills",
+                "Laura Roslin"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Dee from &quot;It's Always Sunny in Philadelphia&quot; has dated all of the following guys EXCEPT",
+            "correct_answer": "Matthew &quot;Rickety Cricket&quot; Mara",
+            "incorrect_answers": [
+                [
+                    "Colin the Thief",
+                    "colin the thief",
+                    "colin thief"
+                ],
+                [
+                    "Ben the Soldier",
+                    "ben the soldier",
+                    "ben soldier"
+                ],
+                [
+                    "Kevin Gallagher aka Lil' Kevin",
+                    "kevin gallagher aka lil' kevin",
+                    "kevin gallagher aka lil kevin"
+                ]
+            ],
+            "correct_answers": [
+                "Matthew &quot;Rickety Cricket&quot; Mara",
+                "matthew &quot;rickety cricket&quot; mara"
+            ],
+            "options": [
+                "Colin the Thief",
+                "Ben the Soldier",
+                "Kevin Gallagher aka Lil' Kevin",
+                "Matthew &quot;Rickety Cricket&quot; Mara"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Alan Reed is known for providing the voice of which character?",
+            "correct_answer": "Fred Flintstone",
+            "incorrect_answers": [
+                [
+                    "Bugs Bunny",
+                    "bugs bunny"
+                ],
+                [
+                    "Fangface",
+                    "fangface"
+                ],
+                [
+                    "G.I. Joe",
+                    "g.i. joe"
+                ]
+            ],
+            "correct_answers": [
+                "Fred Flintstone",
+                "fred flintstone"
+            ],
+            "options": [
+                "Bugs Bunny",
+                "Fangface",
+                "G.I. Joe",
+                "Fred Flintstone"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which track by &quot;Massive Attack&quot; is used for the theme of &quot;House&quot;? ",
+            "correct_answer": "Teardrop",
+            "incorrect_answers": [
+                [
+                    "Protection",
+                    "protection"
+                ],
+                [
+                    "Angel",
+                    "angel"
+                ],
+                [
+                    "Black Milk",
+                    "black milk"
+                ]
+            ],
+            "correct_answers": [
+                "Teardrop",
+                "teardrop"
+            ],
+            "options": [
+                "Protection",
+                "Angel",
+                "Black Milk",
+                "Teardrop"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Netflix show, Stranger Things, what song would Will sing to himself as he was missing?",
+            "correct_answer": "Should I Stay or Should I Go?",
+            "incorrect_answers": [
+                [
+                    "Love Will Tear Us Apart",
+                    "love will tear us apart"
+                ],
+                [
+                    "This Charming Man",
+                    "this charming man"
+                ],
+                [
+                    "Africa",
+                    "africa"
+                ]
+            ],
+            "correct_answers": [
+                "Should I Stay or Should I Go?",
+                "should i stay or should i go?"
+            ],
+            "options": [
+                "Love Will Tear Us Apart",
+                "This Charming Man",
+                "Africa",
+                "Should I Stay or Should I Go?"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following was not an actor/actress on the American television show &quot;Saturday Night Live&quot; in Season 42?",
+            "correct_answer": "Tina Fey",
+            "incorrect_answers": [
+                [
+                    "Mikey Day",
+                    "mikey day"
+                ],
+                [
+                    "Kate McKinnon",
+                    "kate mckinnon"
+                ],
+                [
+                    "Sasheer Zamata",
+                    "sasheer zamata"
+                ]
+            ],
+            "correct_answers": [
+                "Tina Fey",
+                "tina fey"
+            ],
+            "options": [
+                "Mikey Day",
+                "Kate McKinnon",
+                "Sasheer Zamata",
+                "Tina Fey"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "From what show is the character &quot;James Doakes&quot;? ",
+            "correct_answer": "Dexter",
+            "incorrect_answers": [
+                [
+                    "Marvel's Daredevil",
+                    "marvel's daredevil",
+                    "marvels daredevil"
+                ],
+                [
+                    "Boardwalk Empire",
+                    "boardwalk empire"
+                ],
+                [
+                    "The Walking Dead",
+                    "the walking dead",
+                    "walking dead"
+                ]
+            ],
+            "correct_answers": [
+                "Dexter",
+                "dexter"
+            ],
+            "options": [
+                "Marvel's Daredevil",
+                "Boardwalk Empire",
+                "The Walking Dead",
+                "Dexter"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the inspector in the series &quot;On the Buses&quot;?",
+            "correct_answer": "Blakey",
+            "incorrect_answers": [
+                [
+                    "Harper",
+                    "harper"
+                ],
+                [
+                    "Naily",
+                    "naily"
+                ],
+                [
+                    "Gally",
+                    "gally"
+                ]
+            ],
+            "correct_answers": [
+                "Blakey",
+                "blakey"
+            ],
+            "options": [
+                "Harper",
+                "Naily",
+                "Gally",
+                "Blakey"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who co-founded the YouTube Let's Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?",
+            "correct_answer": "JonTron",
+            "incorrect_answers": [
+                [
+                    "Pewdiepie",
+                    "pewdiepie"
+                ],
+                [
+                    "Tobuscus",
+                    "tobuscus"
+                ],
+                [
+                    "Markiplier",
+                    "markiplier"
+                ]
+            ],
+            "correct_answers": [
+                "JonTron",
+                "jontron"
+            ],
+            "options": [
+                "Pewdiepie",
+                "Tobuscus",
+                "Markiplier",
+                "JonTron"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of following is rude and dishonorable by Klingon standards?",
+            "correct_answer": "Taking his D&#039;k tahg",
+            "incorrect_answers": [
+                [
+                    "Insulting and laughing at him at the dinner table",
+                    "insulting and laughing at him at the dinner table",
+                    "insulting and laughing at him at dinner table"
+                ],
+                [
+                    "Reaching over and taking his meal",
+                    "reaching over and taking his meal"
+                ],
+                [
+                    "Punching him and taking his ship station position",
+                    "punching him and taking his ship station position"
+                ]
+            ],
+            "correct_answers": [
+                "Taking his D'k tahg",
+                "taking his d'k tahg",
+                "taking his dk tahg"
+            ],
+            "options": [
+                "Insulting and laughing at him at the dinner table",
+                "Reaching over and taking his meal",
+                "Punching him and taking his ship station position",
+                "Taking his D'k tahg"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+            "correct_answer": "Tilly",
+            "incorrect_answers": [
+                [
+                    "Tom",
+                    "tom"
+                ],
+                [
+                    "Tiny",
+                    "tiny"
+                ],
+                [
+                    "None of the Above",
+                    "none of the above",
+                    "none of above"
+                ]
+            ],
+            "correct_answers": [
+                "Tilly",
+                "tilly"
+            ],
+            "options": [
+                "Tom",
+                "Tiny",
+                "None of the Above",
+                "Tilly"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is Meg's full name in &quot;Family Guy&quot;?",
+            "correct_answer": "Megatron Griffin",
+            "incorrect_answers": [
+                [
+                    "Who-Cares Griffin",
+                    "who-cares griffin"
+                ],
+                [
+                    "Neil Griffin",
+                    "neil griffin"
+                ],
+                [
+                    "Megan Griffin",
+                    "megan griffin"
+                ]
+            ],
+            "correct_answers": [
+                "Megatron Griffin",
+                "megatron griffin"
+            ],
+            "options": [
+                "Who-Cares Griffin",
+                "Neil Griffin",
+                "Megan Griffin",
+                "Megatron Griffin"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of Ross' pet monkey on &quot;Friends&quot;?",
+            "correct_answer": "Marcel",
+            "incorrect_answers": [
+                [
+                    "Jojo",
+                    "jojo"
+                ],
+                [
+                    "George",
+                    "george"
+                ],
+                [
+                    "Champ",
+                    "champ"
+                ]
+            ],
+            "correct_answers": [
+                "Marcel",
+                "marcel"
+            ],
+            "options": [
+                "Jojo",
+                "George",
+                "Champ",
+                "Marcel"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the winner of the 2016 WWE Royal Rumble?",
+            "correct_answer": "Triple H",
+            "incorrect_answers": [
+                [
+                    "Roman Reigns",
+                    "roman reigns"
+                ],
+                [
+                    "AJ Styles",
+                    "aj styles"
+                ],
+                [
+                    "Dean Ambrose",
+                    "dean ambrose"
+                ]
+            ],
+            "correct_answers": [
+                "Triple H",
+                "triple h"
+            ],
+            "options": [
+                "Roman Reigns",
+                "AJ Styles",
+                "Dean Ambrose",
+                "Triple H"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Game of Thrones what is the name of Jon Snow's sword?",
+            "correct_answer": "Longclaw",
+            "incorrect_answers": [
+                [
+                    "Oathkeeper",
+                    "oathkeeper"
+                ],
+                [
+                    "Widow's Wail",
+                    "widow's wail",
+                    "widows wail"
+                ],
+                [
+                    "Needle",
+                    "needle"
+                ]
+            ],
+            "correct_answers": [
+                "Longclaw",
+                "longclaw"
+            ],
+            "options": [
+                "Oathkeeper",
+                "Widow's Wail",
+                "Needle",
+                "Longclaw"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What episode of &quot;Mr. Bean&quot; saw him trying to prevent people from seeing him naked?",
+            "correct_answer": "Mr. Bean in Room 426",
+            "incorrect_answers": [
+                [
+                    "Mr. Bean Goes to Town",
+                    "mr. bean goes to town"
+                ],
+                [
+                    "The Trouble with Mr. Bean",
+                    "the trouble with mr. bean",
+                    "trouble with mr. bean"
+                ],
+                [
+                    "Back to School Mr. Bean",
+                    "back to school mr. bean"
+                ]
+            ],
+            "correct_answers": [
+                "Mr. Bean in Room 426",
+                "mr. bean in room 426"
+            ],
+            "options": [
+                "Mr. Bean Goes to Town",
+                "The Trouble with Mr. Bean",
+                "Back to School Mr. Bean",
+                "Mr. Bean in Room 426"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which actor was not a major character in TV Show Freaks and Geeks?",
+            "correct_answer": "Jonah Hill",
+            "incorrect_answers": [
+                [
+                    "Jason Segel",
+                    "jason segel"
+                ],
+                [
+                    "Seth Rogen",
+                    "seth rogen"
+                ],
+                [
+                    "James Franco",
+                    "james franco"
+                ]
+            ],
+            "correct_answers": [
+                "Jonah Hill",
+                "jonah hill"
+            ],
+            "options": [
+                "Jason Segel",
+                "Seth Rogen",
+                "James Franco",
+                "Jonah Hill"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On the NBC show Community what was Star Burns' real name?",
+            "correct_answer": "Alex",
+            "incorrect_answers": [
+                [
+                    "Todd",
+                    "todd"
+                ],
+                [
+                    "Neal",
+                    "neal"
+                ],
+                [
+                    "Grimus",
+                    "grimus"
+                ]
+            ],
+            "correct_answers": [
+                "Alex",
+                "alex"
+            ],
+            "options": [
+                "Todd",
+                "Neal",
+                "Grimus",
+                "Alex"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What actor portrays Hogan &quot;Wash&quot; Washburne in the TV Show Firefly?",
+            "correct_answer": "Alan Tudyk",
+            "incorrect_answers": [
+                [
+                    "Adam Baldwin",
+                    "adam baldwin"
+                ],
+                [
+                    "Nathan Fillion",
+                    "nathan fillion"
+                ],
+                [
+                    "Sean Maher",
+                    "sean maher"
+                ]
+            ],
+            "correct_answers": [
+                "Alan Tudyk",
+                "alan tudyk"
+            ],
+            "options": [
+                "Adam Baldwin",
+                "Nathan Fillion",
+                "Sean Maher",
+                "Alan Tudyk"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Sci-Fi television show Doctor Who, who plays the Tenth Doctor?",
+            "correct_answer": "David Tennant",
+            "incorrect_answers": [
+                [
+                    "William Hartnell",
+                    "william hartnell"
+                ],
+                [
+                    "Peter Capaldi",
+                    "peter capaldi"
+                ],
+                [
+                    "Peter Davison",
+                    "peter davison"
+                ]
+            ],
+            "correct_answers": [
+                "David Tennant",
+                "david tennant"
+            ],
+            "options": [
+                "William Hartnell",
+                "Peter Capaldi",
+                "Peter Davison",
+                "David Tennant"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The 1985 Toyota Corolla &quot;AE86&quot; was the hero car for what anime? ",
+            "correct_answer": "Initial D",
+            "incorrect_answers": [
+                [
+                    "Wangan Midnight",
+                    "wangan midnight"
+                ],
+                [
+                    "Ghost MF",
+                    "ghost mf"
+                ],
+                [
+                    "Ex Driver",
+                    "ex driver"
+                ]
+            ],
+            "correct_answers": [
+                "Initial D",
+                "initial d"
+            ],
+            "options": [
+                "Wangan Midnight",
+                "Ghost MF",
+                "Ex Driver",
+                "Initial D"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the setting of the show &quot;Parks and Recreation&quot;?",
+            "correct_answer": "Pawnee, Indiana",
+            "incorrect_answers": [
+                [
+                    "Eagleton, Indiana",
+                    "eagleton, indiana"
+                ],
+                [
+                    "Pasadena, California",
+                    "pasadena, california"
+                ],
+                [
+                    "London, England",
+                    "london, england"
+                ]
+            ],
+            "correct_answers": [
+                "Pawnee, Indiana",
+                "pawnee, indiana"
+            ],
+            "options": [
+                "Eagleton, Indiana",
+                "Pasadena, California",
+                "London, England",
+                "Pawnee, Indiana"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the TV series &quot;Person of Interest&quot;, who plays the character &quot;Harold Finch&quot;?",
+            "correct_answer": "Michael Emerson",
+            "incorrect_answers": [
+                [
+                    "Jim Caviezel",
+                    "jim caviezel"
+                ],
+                [
+                    "Taraji P. Henson",
+                    "taraji p. henson"
+                ],
+                [
+                    "Kevin Chapman",
+                    "kevin chapman"
+                ]
+            ],
+            "correct_answers": [
+                "Michael Emerson",
+                "michael emerson"
+            ],
+            "options": [
+                "Jim Caviezel",
+                "Taraji P. Henson",
+                "Kevin Chapman",
+                "Michael Emerson"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Cesar Romero played which iconic Batman villain from the 1960's TV show?",
+            "correct_answer": "The Joker",
+            "incorrect_answers": [
+                [
+                    "The Penguin",
+                    "the penguin",
+                    "penguin"
+                ],
+                [
+                    "The Riddler",
+                    "the riddler",
+                    "riddler"
+                ],
+                [
+                    "Mr. Freeze",
+                    "mr. freeze"
+                ]
+            ],
+            "correct_answers": [
+                "The Joker",
+                "the joker",
+                "joker"
+            ],
+            "options": [
+                "The Penguin",
+                "The Riddler",
+                "Mr. Freeze",
+                "The Joker"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;Star Trek&quot;, what is the Klingon death ritual?",
+            "correct_answer": "Look into sky and yell loudly in mourning.",
+            "incorrect_answers": [
+                [
+                    "Kiss the jagged forehead before burial.",
+                    "kiss the jagged forehead before burial.",
+                    "kiss jagged forehead before burial."
+                ],
+                [
+                    "Shoot into space in a torpedo casing.",
+                    "shoot into space in a torpedo casing."
+                ],
+                [
+                    "Split the deceased's earnings between bloodkin.",
+                    "split the deceased's earnings between bloodkin.",
+                    "split deceased's earnings between bloodkin.",
+                    "split the deceaseds earnings between bloodkin."
+                ]
+            ],
+            "correct_answers": [
+                "Look into sky and yell loudly in mourning.",
+                "look into sky and yell loudly in mourning."
+            ],
+            "options": [
+                "Kiss the jagged forehead before burial.",
+                "Shoot into space in a torpedo casing.",
+                "Split the deceased's earnings between bloodkin.",
+                "Look into sky and yell loudly in mourning."
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;The Big Bang Theory&quot;, what is Howard Wolowitz's nickname in World of Warcraft?",
+            "correct_answer": "Wolowizard",
+            "incorrect_answers": [
+                [
+                    "Sheldor",
+                    "sheldor"
+                ],
+                [
+                    "Rajesh",
+                    "rajesh"
+                ],
+                [
+                    "Priya",
+                    "priya"
+                ]
+            ],
+            "correct_answers": [
+                "Wolowizard",
+                "wolowizard"
+            ],
+            "options": [
+                "Sheldor",
+                "Rajesh",
+                "Priya",
+                "Wolowizard"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the race horse that Tony Soprano becomes attached to?",
+            "correct_answer": "Pie-O-My",
+            "incorrect_answers": [
+                [
+                    "Man o' war",
+                    "man o' war",
+                    "man o war"
+                ],
+                [
+                    "Bada Bing",
+                    "bada bing"
+                ],
+                [
+                    "Honest Earnings",
+                    "honest earnings"
+                ]
+            ],
+            "correct_answers": [
+                "Pie-O-My",
+                "pie-o-my"
+            ],
+            "options": [
+                "Man o' war",
+                "Bada Bing",
+                "Honest Earnings",
+                "Pie-O-My"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Doctor Who universe, how many times can a time lord normally regenerate?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                [
+                    "11",
+                    "11"
+                ],
+                [
+                    "13",
+                    "13"
+                ],
+                [
+                    "15",
+                    "15"
+                ]
+            ],
+            "correct_answers": [
+                "12",
+                "12"
+            ],
+            "options": [
+                "11",
+                "13",
+                "15",
+                "12"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,624 @@
+{
+    "questions": [
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+            "correct_answer": "Nine",
+            "incorrect_answers": [
+                [
+                    "Ten",
+                    "ten"
+                ],
+                [
+                    "Seven",
+                    "seven"
+                ],
+                [
+                    "Eight",
+                    "eight"
+                ]
+            ],
+            "correct_answers": [
+                "Nine",
+                "nine"
+            ],
+            "options": [
+                "Ten",
+                "Seven",
+                "Eight",
+                "Nine"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+            "correct_answer": "Hammer",
+            "incorrect_answers": [
+                [
+                    "Wrench",
+                    "wrench"
+                ],
+                [
+                    "Drill",
+                    "drill"
+                ],
+                [
+                    "Screwdriver",
+                    "screwdriver"
+                ]
+            ],
+            "correct_answers": [
+                "Hammer",
+                "hammer"
+            ],
+            "options": [
+                "Wrench",
+                "Drill",
+                "Screwdriver",
+                "Hammer"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Where was the Games of the XXII Olympiad held?",
+            "correct_answer": "Moscow",
+            "incorrect_answers": [
+                [
+                    "Barcelona",
+                    "barcelona"
+                ],
+                [
+                    "Tokyo",
+                    "tokyo"
+                ],
+                [
+                    "Los Angeles",
+                    "los angeles"
+                ]
+            ],
+            "correct_answers": [
+                "Moscow",
+                "moscow"
+            ],
+            "options": [
+                "Barcelona",
+                "Tokyo",
+                "Los Angeles",
+                "Moscow"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                [
+                    "West Germany",
+                    "west germany"
+                ],
+                [
+                    "Soviet Union",
+                    "soviet union"
+                ],
+                [
+                    "Brazil",
+                    "brazil"
+                ]
+            ],
+            "correct_answers": [
+                "Portugal",
+                "portugal"
+            ],
+            "options": [
+                "West Germany",
+                "Soviet Union",
+                "Brazil",
+                "Portugal"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Canadian football, scoring a rouge is worth how many points?",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                [
+                    "2",
+                    "2"
+                ],
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "4",
+                    "4"
+                ]
+            ],
+            "correct_answers": [
+                "1",
+                "1"
+            ],
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+            "correct_answer": "Mazda",
+            "incorrect_answers": [
+                [
+                    "Toyota",
+                    "toyota"
+                ],
+                [
+                    "Subaru",
+                    "subaru"
+                ],
+                [
+                    "Nissan",
+                    "nissan"
+                ]
+            ],
+            "correct_answers": [
+                "Mazda",
+                "mazda"
+            ],
+            "options": [
+                "Toyota",
+                "Subaru",
+                "Nissan",
+                "Mazda"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+            "correct_answer": "DING Ning (China)",
+            "incorrect_answers": [
+                [
+                    "LI Xiaoxia (China)",
+                    "li xiaoxia (china)"
+                ],
+                [
+                    "Ai FUKUHARA (Japan)",
+                    "ai fukuhara (japan)"
+                ],
+                [
+                    "Song KIM (North Korea)",
+                    "song kim (north korea)"
+                ]
+            ],
+            "correct_answers": [
+                "DING Ning (China)",
+                "ding ning (china)"
+            ],
+            "options": [
+                "LI Xiaoxia (China)",
+                "Ai FUKUHARA (Japan)",
+                "Song KIM (North Korea)",
+                "DING Ning (China)"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+            "correct_answer": "Ma Long (China)",
+            "incorrect_answers": [
+                [
+                    "Zhang Jike (China)",
+                    "zhang jike (china)"
+                ],
+                [
+                    "Jun Mizutani (Japan)",
+                    "jun mizutani (japan)"
+                ],
+                [
+                    "Vladimir Samsonov (Belarus)",
+                    "vladimir samsonov (belarus)"
+                ]
+            ],
+            "correct_answers": [
+                "Ma Long (China)",
+                "ma long (china)"
+            ],
+            "options": [
+                "Zhang Jike (China)",
+                "Jun Mizutani (Japan)",
+                "Vladimir Samsonov (Belarus)",
+                "Ma Long (China)"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The AHL affiliate team of the Boston Bruins is named what?",
+            "correct_answer": "Providence Bruins",
+            "incorrect_answers": [
+                [
+                    "New Haven Bruins",
+                    "new haven bruins"
+                ],
+                [
+                    "Cambridge Bruins",
+                    "cambridge bruins"
+                ],
+                [
+                    "Hartford Bruins",
+                    "hartford bruins"
+                ]
+            ],
+            "correct_answers": [
+                "Providence Bruins",
+                "providence bruins"
+            ],
+            "options": [
+                "New Haven Bruins",
+                "Cambridge Bruins",
+                "Hartford Bruins",
+                "Providence Bruins"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+            "correct_answer": "Horse Racing",
+            "incorrect_answers": [
+                [
+                    "Chess",
+                    "chess"
+                ],
+                [
+                    "Jousting",
+                    "jousting"
+                ],
+                [
+                    "Fencing",
+                    "fencing"
+                ]
+            ],
+            "correct_answers": [
+                "Horse Racing",
+                "horse racing"
+            ],
+            "options": [
+                "Chess",
+                "Jousting",
+                "Fencing",
+                "Horse Racing"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+            "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
+            "incorrect_answers": [
+                [
+                    "Cristiano Ronaldo los Santos Diego",
+                    "cristiano ronaldo los santos diego"
+                ],
+                [
+                    "Cristiano Armando Diego Ronaldo",
+                    "cristiano armando diego ronaldo"
+                ],
+                [
+                    "Cristiano Luis Armando Ronaldo",
+                    "cristiano luis armando ronaldo"
+                ]
+            ],
+            "correct_answers": [
+                "Cristiano Ronaldo dos Santos Aveiro",
+                "cristiano ronaldo dos santos aveiro"
+            ],
+            "options": [
+                "Cristiano Ronaldo los Santos Diego",
+                "Cristiano Armando Diego Ronaldo",
+                "Cristiano Luis Armando Ronaldo",
+                "Cristiano Ronaldo dos Santos Aveiro"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which city features all of their professional sports teams' jersey's with the same color scheme?",
+            "correct_answer": "Pittsburgh",
+            "incorrect_answers": [
+                [
+                    "New York",
+                    "new york"
+                ],
+                [
+                    "Seattle",
+                    "seattle"
+                ],
+                [
+                    "Tampa Bay",
+                    "tampa bay"
+                ]
+            ],
+            "correct_answers": [
+                "Pittsburgh",
+                "pittsburgh"
+            ],
+            "options": [
+                "New York",
+                "Seattle",
+                "Tampa Bay",
+                "Pittsburgh"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "With which doubles partner did John McEnroe have most success?",
+            "correct_answer": "Peter Fleming",
+            "incorrect_answers": [
+                [
+                    "Mark Woodforde",
+                    "mark woodforde"
+                ],
+                [
+                    "Michael Stich",
+                    "michael stich"
+                ],
+                [
+                    "Mary Carillo",
+                    "mary carillo"
+                ]
+            ],
+            "correct_answers": [
+                "Peter Fleming",
+                "peter fleming"
+            ],
+            "options": [
+                "Mark Woodforde",
+                "Michael Stich",
+                "Mary Carillo",
+                "Peter Fleming"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is Manchester United's leading appearance maker?",
+            "correct_answer": "Ryan Giggs",
+            "incorrect_answers": [
+                [
+                    "David Beckham",
+                    "david beckham"
+                ],
+                [
+                    "Wayne Rooney",
+                    "wayne rooney"
+                ],
+                [
+                    "Eric Cantona",
+                    "eric cantona"
+                ]
+            ],
+            "correct_answers": [
+                "Ryan Giggs",
+                "ryan giggs"
+            ],
+            "options": [
+                "David Beckham",
+                "Wayne Rooney",
+                "Eric Cantona",
+                "Ryan Giggs"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+            "correct_answer": "1991",
+            "incorrect_answers": [
+                [
+                    "1990",
+                    "1990"
+                ],
+                [
+                    "2000",
+                    "2000"
+                ],
+                [
+                    "1987",
+                    "1987"
+                ]
+            ],
+            "correct_answers": [
+                "1991",
+                "1991"
+            ],
+            "options": [
+                "1990",
+                "2000",
+                "1987",
+                "1991"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+            "correct_answer": "Vladivostok",
+            "incorrect_answers": [
+                [
+                    "Rostov-on-Don",
+                    "rostov-on-don"
+                ],
+                [
+                    "Yekaterinburg",
+                    "yekaterinburg"
+                ],
+                [
+                    "Kaliningrad",
+                    "kaliningrad"
+                ]
+            ],
+            "correct_answers": [
+                "Vladivostok",
+                "vladivostok"
+            ],
+            "options": [
+                "Rostov-on-Don",
+                "Yekaterinburg",
+                "Kaliningrad",
+                "Vladivostok"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which player &quot;kung-fu kicked&quot; a Crystal Palace fan in January 1995?",
+            "correct_answer": "Eric Cantona",
+            "incorrect_answers": [
+                [
+                    "David Seamen",
+                    "david seamen"
+                ],
+                [
+                    "Ashley Cole",
+                    "ashley cole"
+                ],
+                [
+                    "Mark Hughes",
+                    "mark hughes"
+                ]
+            ],
+            "correct_answers": [
+                "Eric Cantona",
+                "eric cantona"
+            ],
+            "options": [
+                "David Seamen",
+                "Ashley Cole",
+                "Mark Hughes",
+                "Eric Cantona"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which English football team is nicknamed 'The Tigers'?",
+            "correct_answer": "Hull City",
+            "incorrect_answers": [
+                [
+                    "Cardiff City",
+                    "cardiff city"
+                ],
+                [
+                    "Bristol City",
+                    "bristol city"
+                ],
+                [
+                    "Manchester City",
+                    "manchester city"
+                ]
+            ],
+            "correct_answers": [
+                "Hull City",
+                "hull city"
+            ],
+            "options": [
+                "Cardiff City",
+                "Bristol City",
+                "Manchester City",
+                "Hull City"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which year was the third Super Bowl held?",
+            "correct_answer": "1969",
+            "incorrect_answers": [
+                [
+                    "1968",
+                    "1968"
+                ],
+                [
+                    "1971",
+                    "1971"
+                ],
+                [
+                    "1970",
+                    "1970"
+                ]
+            ],
+            "correct_answers": [
+                "1969",
+                "1969"
+            ],
+            "options": [
+                "1968",
+                "1971",
+                "1970",
+                "1969"
+            ]
+        },
+        {
+            "category": "Sports",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+            "correct_answer": "Pelle",
+            "incorrect_answers": [
+                [
+                    "Insigne",
+                    "insigne"
+                ],
+                [
+                    "Barzagli",
+                    "barzagli"
+                ],
+                [
+                    "Giaccherini",
+                    "giaccherini"
+                ]
+            ],
+            "correct_answers": [
+                "Pelle",
+                "pelle"
+            ],
+            "options": [
+                "Insigne",
+                "Barzagli",
+                "Giaccherini",
+                "Pelle"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,566 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In what year did the first &quot;The Walking Dead&quot; comic come out?",
+            "correct_answer": "2003",
+            "incorrect_answers": [
+                [
+                    "2001",
+                    "2001"
+                ],
+                [
+                    "2006",
+                    "2006"
+                ],
+                [
+                    "1999",
+                    "1999"
+                ]
+            ],
+            "correct_answers": [
+                "2003",
+                "2003"
+            ],
+            "options": [
+                "2001",
+                "2006",
+                "1999",
+                "2003"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When Batman trolls the online chat rooms, what alias does he use?",
+            "correct_answer": "JonDoe297",
+            "incorrect_answers": [
+                [
+                    "iAmBatman",
+                    "iambatman"
+                ],
+                [
+                    "BWayne13",
+                    "bwayne13"
+                ],
+                [
+                    "BW1129",
+                    "bw1129"
+                ]
+            ],
+            "correct_answers": [
+                "JonDoe297",
+                "jondoe297"
+            ],
+            "options": [
+                "iAmBatman",
+                "BWayne13",
+                "BW1129",
+                "JonDoe297"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In 1978, Superman teamed up with what celebrity, to defeat an alien invasion?",
+            "correct_answer": "Muhammad Ali",
+            "incorrect_answers": [
+                [
+                    "Mike Tyson",
+                    "mike tyson"
+                ],
+                [
+                    "Sylvester Stallone",
+                    "sylvester stallone"
+                ],
+                [
+                    "Arnold Schwarzenegger",
+                    "arnold schwarzenegger"
+                ]
+            ],
+            "correct_answers": [
+                "Muhammad Ali",
+                "muhammad ali"
+            ],
+            "options": [
+                "Mike Tyson",
+                "Sylvester Stallone",
+                "Arnold Schwarzenegger",
+                "Muhammad Ali"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Hellboy universe, what was Abe Sapien's birth name?",
+            "correct_answer": "Langdon Everett Caul",
+            "incorrect_answers": [
+                [
+                    "Lord Baltimore",
+                    "lord baltimore"
+                ],
+                [
+                    "Sir Edward Grey",
+                    "sir edward grey"
+                ],
+                [
+                    "Landis Pope",
+                    "landis pope"
+                ]
+            ],
+            "correct_answers": [
+                "Langdon Everett Caul",
+                "langdon everett caul"
+            ],
+            "options": [
+                "Lord Baltimore",
+                "Sir Edward Grey",
+                "Landis Pope",
+                "Langdon Everett Caul"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Homestuck Series, what is the alternate name for the Kingdom of Lights?",
+            "correct_answer": "Prospit",
+            "incorrect_answers": [
+                [
+                    "No Name",
+                    "no name"
+                ],
+                [
+                    "Golden City",
+                    "golden city"
+                ],
+                [
+                    "Yellow Moon",
+                    "yellow moon"
+                ]
+            ],
+            "correct_answers": [
+                "Prospit",
+                "prospit"
+            ],
+            "options": [
+                "No Name",
+                "Golden City",
+                "Yellow Moon",
+                "Prospit"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following rings from the DC Comics' &quot;Lantern Corps&quot; are classified as Parasitic?",
+            "correct_answer": "Indigo (Compassion)",
+            "incorrect_answers": [
+                [
+                    "Green (Willpower)",
+                    "green (willpower)"
+                ],
+                [
+                    "White (Life)",
+                    "white (life)"
+                ],
+                [
+                    "Yellow (Fear)",
+                    "yellow (fear)"
+                ]
+            ],
+            "correct_answers": [
+                "Indigo (Compassion)",
+                "indigo (compassion)"
+            ],
+            "options": [
+                "Green (Willpower)",
+                "White (Life)",
+                "Yellow (Fear)",
+                "Indigo (Compassion)"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Better known by his nickname Logan, what is Wolverine's birth name?",
+            "correct_answer": "James Howlett",
+            "incorrect_answers": [
+                [
+                    "Logan Wolf",
+                    "logan wolf"
+                ],
+                [
+                    "Thomas Wilde",
+                    "thomas wilde"
+                ],
+                [
+                    "John Savage",
+                    "john savage"
+                ]
+            ],
+            "correct_answers": [
+                "James Howlett",
+                "james howlett"
+            ],
+            "options": [
+                "Logan Wolf",
+                "Thomas Wilde",
+                "John Savage",
+                "James Howlett"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What year was the first San Diego Comic-Con?",
+            "correct_answer": "1970",
+            "incorrect_answers": [
+                [
+                    "2000",
+                    "2000"
+                ],
+                [
+                    "1990",
+                    "1990"
+                ],
+                [
+                    "1985",
+                    "1985"
+                ]
+            ],
+            "correct_answers": [
+                "1970",
+                "1970"
+            ],
+            "options": [
+                "2000",
+                "1990",
+                "1985",
+                "1970"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Batman comics, by what other name is the villain Dr. Jonathan Crane known?",
+            "correct_answer": "Scarecrow",
+            "incorrect_answers": [
+                [
+                    "Bane",
+                    "bane"
+                ],
+                [
+                    "Calendar Man",
+                    "calendar man"
+                ],
+                [
+                    "Clayface",
+                    "clayface"
+                ]
+            ],
+            "correct_answers": [
+                "Scarecrow",
+                "scarecrow"
+            ],
+            "options": [
+                "Bane",
+                "Calendar Man",
+                "Clayface",
+                "Scarecrow"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was the Garfield comic first published?",
+            "correct_answer": "1978",
+            "incorrect_answers": [
+                [
+                    "1982",
+                    "1982"
+                ],
+                [
+                    "1973",
+                    "1973"
+                ],
+                [
+                    "1988",
+                    "1988"
+                ]
+            ],
+            "correct_answers": [
+                "1978",
+                "1978"
+            ],
+            "options": [
+                "1982",
+                "1973",
+                "1988",
+                "1978"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
+            "correct_answer": "Dark Elves",
+            "incorrect_answers": [
+                [
+                    "Frost Giants",
+                    "frost giants"
+                ],
+                [
+                    "Kronans",
+                    "kronans"
+                ],
+                [
+                    "Skrulls",
+                    "skrulls"
+                ]
+            ],
+            "correct_answers": [
+                "Dark Elves",
+                "dark elves"
+            ],
+            "options": [
+                "Frost Giants",
+                "Kronans",
+                "Skrulls",
+                "Dark Elves"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the real hair colour of the mainstream comic book version (Earth-616) of Daredevil?",
+            "correct_answer": "Blonde",
+            "incorrect_answers": [
+                [
+                    "Auburn",
+                    "auburn"
+                ],
+                [
+                    "Brown",
+                    "brown"
+                ],
+                [
+                    "Black",
+                    "black"
+                ]
+            ],
+            "correct_answers": [
+                "Blonde",
+                "blonde"
+            ],
+            "options": [
+                "Auburn",
+                "Brown",
+                "Black",
+                "Blonde"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the webcomic &quot;Ava's Demon&quot;, what sin is &quot;Nevy Nervine&quot; based off of? ",
+            "correct_answer": "Envy ",
+            "incorrect_answers": [
+                [
+                    "Sloth",
+                    "sloth"
+                ],
+                [
+                    "Wrath ",
+                    "wrath "
+                ],
+                [
+                    "Lust",
+                    "lust"
+                ]
+            ],
+            "correct_answers": [
+                "Envy ",
+                "envy "
+            ],
+            "options": [
+                "Sloth",
+                "Wrath ",
+                "Lust",
+                "Envy "
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Archie&quot; comics, who was Jughead's first girlfriend?",
+            "correct_answer": "Joani",
+            "incorrect_answers": [
+                [
+                    "Ethel",
+                    "ethel"
+                ],
+                [
+                    "Debbi",
+                    "debbi"
+                ],
+                [
+                    "Margret",
+                    "margret"
+                ]
+            ],
+            "correct_answers": [
+                "Joani",
+                "joani"
+            ],
+            "options": [
+                "Ethel",
+                "Debbi",
+                "Margret",
+                "Joani"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?",
+            "correct_answer": "Lobster Johnson",
+            "incorrect_answers": [
+                [
+                    "Roger the Homunculus",
+                    "roger the homunculus",
+                    "roger homunculus"
+                ],
+                [
+                    "The Spider",
+                    "the spider",
+                    "spider"
+                ],
+                [
+                    "The Wendigo",
+                    "the wendigo",
+                    "wendigo"
+                ]
+            ],
+            "correct_answers": [
+                "Lobster Johnson",
+                "lobster johnson"
+            ],
+            "options": [
+                "Roger the Homunculus",
+                "The Spider",
+                "The Wendigo",
+                "Lobster Johnson"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What are the names of the two &quot;Canon fan trolls&quot; in &quot;Homestuck&quot;?",
+            "correct_answer": "Mierfa Durgas and Nektan Whelan",
+            "incorrect_answers": [
+                [
+                    "The Wrycrown and Voksea Olkido",
+                    "the wrycrown and voksea olkido",
+                    "wrycrown and voksea olkido"
+                ],
+                [
+                    "Aikter Frekik and Xagrai Ollomu",
+                    "aikter frekik and xagrai ollomu"
+                ],
+                [
+                    "Grekei Ceknux and Riya Camacho",
+                    "grekei ceknux and riya camacho"
+                ]
+            ],
+            "correct_answers": [
+                "Mierfa Durgas and Nektan Whelan",
+                "mierfa durgas and nektan whelan"
+            ],
+            "options": [
+                "The Wrycrown and Voksea Olkido",
+                "Aikter Frekik and Xagrai Ollomu",
+                "Grekei Ceknux and Riya Camacho",
+                "Mierfa Durgas and Nektan Whelan"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What are the Three Virtues of Bionicle?",
+            "correct_answer": "Unity, Duty, Destiny",
+            "incorrect_answers": [
+                [
+                    "Build, Play, Change",
+                    "build, play, change"
+                ],
+                [
+                    "Work, Play, Live",
+                    "work, play, live"
+                ],
+                [
+                    "Forge, Build, Fight",
+                    "forge, build, fight"
+                ]
+            ],
+            "correct_answers": [
+                "Unity, Duty, Destiny",
+                "unity, duty, destiny"
+            ],
+            "options": [
+                "Build, Play, Change",
+                "Work, Play, Live",
+                "Forge, Build, Fight",
+                "Unity, Duty, Destiny"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In what Homestuck Update was [S] Game Over released?",
+            "correct_answer": "October 25th, 2014",
+            "incorrect_answers": [
+                [
+                    "April 13th, 2009",
+                    "april 13th, 2009"
+                ],
+                [
+                    "April 8th, 2012",
+                    "april 8th, 2012"
+                ],
+                [
+                    "August 28th, 2003",
+                    "august 28th, 2003"
+                ]
+            ],
+            "correct_answers": [
+                "October 25th, 2014",
+                "october 25th, 2014"
+            ],
+            "options": [
+                "April 13th, 2009",
+                "April 8th, 2012",
+                "August 28th, 2003",
+                "October 25th, 2014"
+            ]
+        }
+    ]
+}

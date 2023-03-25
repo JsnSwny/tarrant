@@ -1,0 +1,687 @@
+{
+    "questions": [
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "For what reason would a spotted hyena &quot;laugh&quot;?",
+            "correct_answer": "Nervousness",
+            "incorrect_answers": [
+                [
+                    "Excitement",
+                    "excitement"
+                ],
+                [
+                    "Aggression",
+                    "aggression"
+                ],
+                [
+                    "Exhaustion",
+                    "exhaustion"
+                ]
+            ],
+            "correct_answers": [
+                "Nervousness",
+                "nervousness"
+            ],
+            "options": [
+                "Excitement",
+                "Aggression",
+                "Exhaustion",
+                "Nervousness"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What are rhino's horn made of?",
+            "correct_answer": "Keratin",
+            "incorrect_answers": [
+                [
+                    "Bone",
+                    "bone"
+                ],
+                [
+                    "Ivory",
+                    "ivory"
+                ],
+                [
+                    "Skin",
+                    "skin"
+                ]
+            ],
+            "correct_answers": [
+                "Keratin",
+                "keratin"
+            ],
+            "options": [
+                "Bone",
+                "Ivory",
+                "Skin",
+                "Keratin"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+            "correct_answer": "Mad Cow disease",
+            "incorrect_answers": [
+                [
+                    "Weil's disease",
+                    "weil's disease",
+                    "weils disease"
+                ],
+                [
+                    "Milk fever",
+                    "milk fever"
+                ],
+                [
+                    "Foot-and-mouth disease",
+                    "foot-and-mouth disease"
+                ]
+            ],
+            "correct_answers": [
+                "Mad Cow disease",
+                "mad cow disease"
+            ],
+            "options": [
+                "Weil's disease",
+                "Milk fever",
+                "Foot-and-mouth disease",
+                "Mad Cow disease"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the collective noun for bears?",
+            "correct_answer": "Sloth",
+            "incorrect_answers": [
+                [
+                    "Drove",
+                    "drove"
+                ],
+                [
+                    "Tribe",
+                    "tribe"
+                ],
+                [
+                    "Husk",
+                    "husk"
+                ]
+            ],
+            "correct_answers": [
+                "Sloth",
+                "sloth"
+            ],
+            "options": [
+                "Drove",
+                "Tribe",
+                "Husk",
+                "Sloth"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "&quot;Decapods&quot; are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+            "correct_answer": "Krill",
+            "incorrect_answers": [
+                [
+                    "Lobsters",
+                    "lobsters"
+                ],
+                [
+                    "Shrimp",
+                    "shrimp"
+                ],
+                [
+                    "Crabs",
+                    "crabs"
+                ]
+            ],
+            "correct_answers": [
+                "Krill",
+                "krill"
+            ],
+            "options": [
+                "Lobsters",
+                "Shrimp",
+                "Crabs",
+                "Krill"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What type of animal is a natterjack?",
+            "correct_answer": "Toad",
+            "incorrect_answers": [
+                [
+                    "Bird",
+                    "bird"
+                ],
+                [
+                    "Fish",
+                    "fish"
+                ],
+                [
+                    "Insect",
+                    "insect"
+                ]
+            ],
+            "correct_answers": [
+                "Toad",
+                "toad"
+            ],
+            "options": [
+                "Bird",
+                "Fish",
+                "Insect",
+                "Toad"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The dish Fugu, is made from what family of fish?",
+            "correct_answer": "Pufferfish",
+            "incorrect_answers": [
+                [
+                    "Bass",
+                    "bass"
+                ],
+                [
+                    "Salmon",
+                    "salmon"
+                ],
+                [
+                    "Mackerel",
+                    "mackerel"
+                ]
+            ],
+            "correct_answers": [
+                "Pufferfish",
+                "pufferfish"
+            ],
+            "options": [
+                "Bass",
+                "Salmon",
+                "Mackerel",
+                "Pufferfish"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What color/colour is a polar bear's skin?",
+            "correct_answer": "Black",
+            "incorrect_answers": [
+                [
+                    "White",
+                    "white"
+                ],
+                [
+                    "Pink",
+                    "pink"
+                ],
+                [
+                    "Green",
+                    "green"
+                ]
+            ],
+            "correct_answers": [
+                "Black",
+                "black"
+            ],
+            "options": [
+                "White",
+                "Pink",
+                "Green",
+                "Black"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Cashmere is the wool from which kind of animal?",
+            "correct_answer": "Goat",
+            "incorrect_answers": [
+                [
+                    "Sheep",
+                    "sheep"
+                ],
+                [
+                    "Camel",
+                    "camel"
+                ],
+                [
+                    "Llama",
+                    "llama"
+                ]
+            ],
+            "correct_answers": [
+                "Goat",
+                "goat"
+            ],
+            "options": [
+                "Sheep",
+                "Camel",
+                "Llama",
+                "Goat"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the family that the domestic cat is a member of?",
+            "correct_answer": "Felidae",
+            "incorrect_answers": [
+                [
+                    "Felinae",
+                    "felinae"
+                ],
+                [
+                    "Felis",
+                    "felis"
+                ],
+                [
+                    "Cat",
+                    "cat"
+                ]
+            ],
+            "correct_answers": [
+                "Felidae",
+                "felidae"
+            ],
+            "options": [
+                "Felinae",
+                "Felis",
+                "Cat",
+                "Felidae"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which animal was part of an Russian domestication experiment in 1959?",
+            "correct_answer": "Foxes",
+            "incorrect_answers": [
+                [
+                    "Pigeons",
+                    "pigeons"
+                ],
+                [
+                    "Bears",
+                    "bears"
+                ],
+                [
+                    "Alligators",
+                    "alligators"
+                ]
+            ],
+            "correct_answers": [
+                "Foxes",
+                "foxes"
+            ],
+            "options": [
+                "Pigeons",
+                "Bears",
+                "Alligators",
+                "Foxes"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the fastest animal?",
+            "correct_answer": "Peregrine Falcon",
+            "incorrect_answers": [
+                [
+                    "Golden Eagle",
+                    "golden eagle"
+                ],
+                [
+                    "Cheetah",
+                    "cheetah"
+                ],
+                [
+                    "Horsefly",
+                    "horsefly"
+                ]
+            ],
+            "correct_answers": [
+                "Peregrine Falcon",
+                "peregrine falcon"
+            ],
+            "options": [
+                "Golden Eagle",
+                "Cheetah",
+                "Horsefly",
+                "Peregrine Falcon"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the collective noun for rats?",
+            "correct_answer": "Mischief",
+            "incorrect_answers": [
+                [
+                    "Pack",
+                    "pack"
+                ],
+                [
+                    "Race",
+                    "race"
+                ],
+                [
+                    "Drift",
+                    "drift"
+                ]
+            ],
+            "correct_answers": [
+                "Mischief",
+                "mischief"
+            ],
+            "options": [
+                "Pack",
+                "Race",
+                "Drift",
+                "Mischief"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the scientific name for the &quot;Polar Bear&quot;?",
+            "correct_answer": "Ursus Maritimus",
+            "incorrect_answers": [
+                [
+                    "Polar Bear",
+                    "polar bear"
+                ],
+                [
+                    "Ursus Spelaeus",
+                    "ursus spelaeus"
+                ],
+                [
+                    "Ursus Arctos",
+                    "ursus arctos"
+                ]
+            ],
+            "correct_answers": [
+                "Ursus Maritimus",
+                "ursus maritimus"
+            ],
+            "options": [
+                "Polar Bear",
+                "Ursus Spelaeus",
+                "Ursus Arctos",
+                "Ursus Maritimus"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these species is not extinct?",
+            "correct_answer": "Komodo dragon",
+            "incorrect_answers": [
+                [
+                    "Japanese sea lion",
+                    "japanese sea lion"
+                ],
+                [
+                    "Tasmanian tiger",
+                    "tasmanian tiger"
+                ],
+                [
+                    "Saudi gazelle",
+                    "saudi gazelle"
+                ]
+            ],
+            "correct_answers": [
+                "Komodo dragon",
+                "komodo dragon"
+            ],
+            "options": [
+                "Japanese sea lion",
+                "Tasmanian tiger",
+                "Saudi gazelle",
+                "Komodo dragon"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The now extinct species &quot;Thylacine&quot; was native to where?",
+            "correct_answer": "Tasmania, Australia",
+            "incorrect_answers": [
+                [
+                    "Baluchistan, Pakistan",
+                    "baluchistan, pakistan"
+                ],
+                [
+                    "Wallachia, Romania",
+                    "wallachia, romania"
+                ],
+                [
+                    "Oregon, United States",
+                    "oregon, united states"
+                ]
+            ],
+            "correct_answers": [
+                "Tasmania, Australia",
+                "tasmania, australia"
+            ],
+            "options": [
+                "Baluchistan, Pakistan",
+                "Wallachia, Romania",
+                "Oregon, United States",
+                "Tasmania, Australia"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does &quot;hippopotamus&quot; mean and in what langauge?",
+            "correct_answer": "River Horse (Greek)",
+            "incorrect_answers": [
+                [
+                    "River Horse (Latin)",
+                    "river horse (latin)"
+                ],
+                [
+                    "Fat Pig (Greek)",
+                    "fat pig (greek)"
+                ],
+                [
+                    "Fat Pig (Latin)",
+                    "fat pig (latin)"
+                ]
+            ],
+            "correct_answers": [
+                "River Horse (Greek)",
+                "river horse (greek)"
+            ],
+            "options": [
+                "River Horse (Latin)",
+                "Fat Pig (Greek)",
+                "Fat Pig (Latin)",
+                "River Horse (Greek)"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What dog bread is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+            "correct_answer": "Pugs",
+            "incorrect_answers": [
+                [
+                    "Bulldogs",
+                    "bulldogs"
+                ],
+                [
+                    "Boxers",
+                    "boxers"
+                ],
+                [
+                    "Chihuahua",
+                    "chihuahua"
+                ]
+            ],
+            "correct_answers": [
+                "Pugs",
+                "pugs"
+            ],
+            "options": [
+                "Bulldogs",
+                "Boxers",
+                "Chihuahua",
+                "Pugs"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+            "correct_answer": "Nuts",
+            "incorrect_answers": [
+                [
+                    "Nothing",
+                    "nothing"
+                ],
+                [
+                    "Fruit",
+                    "fruit"
+                ],
+                [
+                    "Seaweed",
+                    "seaweed"
+                ]
+            ],
+            "correct_answers": [
+                "Nuts",
+                "nuts"
+            ],
+            "options": [
+                "Nothing",
+                "Fruit",
+                "Seaweed",
+                "Nuts"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the world's longest venomous snake?",
+            "correct_answer": "King Cobra",
+            "incorrect_answers": [
+                [
+                    "Green Anaconda",
+                    "green anaconda"
+                ],
+                [
+                    "Inland Taipan",
+                    "inland taipan"
+                ],
+                [
+                    "Yellow Bellied Sea Snake",
+                    "yellow bellied sea snake"
+                ]
+            ],
+            "correct_answers": [
+                "King Cobra",
+                "king cobra"
+            ],
+            "options": [
+                "Green Anaconda",
+                "Inland Taipan",
+                "Yellow Bellied Sea Snake",
+                "King Cobra"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name for a male bee that comes from an unfertilized egg?",
+            "correct_answer": "Drone",
+            "incorrect_answers": [
+                [
+                    "Soldier",
+                    "soldier"
+                ],
+                [
+                    "Worker",
+                    "worker"
+                ],
+                [
+                    "Male",
+                    "male"
+                ]
+            ],
+            "correct_answers": [
+                "Drone",
+                "drone"
+            ],
+            "options": [
+                "Soldier",
+                "Worker",
+                "Male",
+                "Drone"
+            ]
+        },
+        {
+            "category": "Animals",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the scientific name of the Common Chimpanzee?",
+            "correct_answer": "Pan troglodytes",
+            "incorrect_answers": [
+                [
+                    "Gorilla gorilla",
+                    "gorilla gorilla"
+                ],
+                [
+                    "Pan paniscus",
+                    "pan paniscus"
+                ],
+                [
+                    "Panthera leo",
+                    "panthera leo"
+                ]
+            ],
+            "correct_answers": [
+                "Pan troglodytes",
+                "pan troglodytes"
+            ],
+            "options": [
+                "Gorilla gorilla",
+                "Pan paniscus",
+                "Panthera leo",
+                "Pan troglodytes"
+            ]
+        }
+    ]
+}

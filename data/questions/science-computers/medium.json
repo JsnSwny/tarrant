@@ -1,0 +1,1747 @@
+{
+    "questions": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was the programming language &quot;C#&quot; released?",
+            "correct_answer": "2000",
+            "incorrect_answers": [
+                [
+                    "1998",
+                    "1998"
+                ],
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "2001",
+                    "2001"
+                ]
+            ],
+            "correct_answers": [
+                "2000",
+                "2000"
+            ],
+            "options": [
+                "1998",
+                "1999",
+                "2001",
+                "2000"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": ".at is the top-level domain for what country?",
+            "correct_answer": "Austria",
+            "incorrect_answers": [
+                [
+                    "Argentina",
+                    "argentina"
+                ],
+                [
+                    "Australia",
+                    "australia"
+                ],
+                [
+                    "Angola",
+                    "angola"
+                ]
+            ],
+            "correct_answers": [
+                "Austria",
+                "austria"
+            ],
+            "options": [
+                "Argentina",
+                "Australia",
+                "Angola",
+                "Austria"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the term GPU stand for?",
+            "correct_answer": "Graphics Processing Unit",
+            "incorrect_answers": [
+                [
+                    "Gaming Processor Unit",
+                    "gaming processor unit"
+                ],
+                [
+                    "Graphite Producing Unit",
+                    "graphite producing unit"
+                ],
+                [
+                    "Graphical Proprietary Unit",
+                    "graphical proprietary unit"
+                ]
+            ],
+            "correct_answers": [
+                "Graphics Processing Unit",
+                "graphics processing unit"
+            ],
+            "options": [
+                "Gaming Processor Unit",
+                "Graphite Producing Unit",
+                "Graphical Proprietary Unit",
+                "Graphics Processing Unit"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these people was NOT a founder of Apple Inc?",
+            "correct_answer": "Jonathan Ive",
+            "incorrect_answers": [
+                [
+                    "Steve Jobs",
+                    "steve jobs"
+                ],
+                [
+                    "Ronald Wayne",
+                    "ronald wayne"
+                ],
+                [
+                    "Steve Wozniak",
+                    "steve wozniak"
+                ]
+            ],
+            "correct_answers": [
+                "Jonathan Ive",
+                "jonathan ive"
+            ],
+            "options": [
+                "Steve Jobs",
+                "Ronald Wayne",
+                "Steve Wozniak",
+                "Jonathan Ive"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the term MIME stand for, in regards to computing?",
+            "correct_answer": "Multipurpose Internet Mail Extensions",
+            "incorrect_answers": [
+                [
+                    "Mail Internet Mail Exchange",
+                    "mail internet mail exchange"
+                ],
+                [
+                    "Multipurpose Interleave Mail Exchange",
+                    "multipurpose interleave mail exchange"
+                ],
+                [
+                    "Mail Interleave Method Exchange",
+                    "mail interleave method exchange"
+                ]
+            ],
+            "correct_answers": [
+                "Multipurpose Internet Mail Extensions",
+                "multipurpose internet mail extensions"
+            ],
+            "options": [
+                "Mail Internet Mail Exchange",
+                "Multipurpose Interleave Mail Exchange",
+                "Mail Interleave Method Exchange",
+                "Multipurpose Internet Mail Extensions"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Whistler was the codename of this Microsoft Operating System.",
+            "correct_answer": "Windows XP",
+            "incorrect_answers": [
+                [
+                    "Windows 2000",
+                    "windows 2000"
+                ],
+                [
+                    "Windows 7",
+                    "windows 7"
+                ],
+                [
+                    "Windows 95",
+                    "windows 95"
+                ]
+            ],
+            "correct_answers": [
+                "Windows XP",
+                "windows xp"
+            ],
+            "options": [
+                "Windows 2000",
+                "Windows 7",
+                "Windows 95",
+                "Windows XP"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which computer hardware device is the BIOS chip located?",
+            "correct_answer": "Motherboard",
+            "incorrect_answers": [
+                [
+                    "Hard Disk Drive",
+                    "hard disk drive"
+                ],
+                [
+                    "Central Processing Unit",
+                    "central processing unit"
+                ],
+                [
+                    "Graphics Processing Unit",
+                    "graphics processing unit"
+                ]
+            ],
+            "correct_answers": [
+                "Motherboard",
+                "motherboard"
+            ],
+            "options": [
+                "Hard Disk Drive",
+                "Central Processing Unit",
+                "Graphics Processing Unit",
+                "Motherboard"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Generally, which component of a computer draws the most power?",
+            "correct_answer": "Video Card",
+            "incorrect_answers": [
+                [
+                    "Hard Drive",
+                    "hard drive"
+                ],
+                [
+                    "Processor",
+                    "processor"
+                ],
+                [
+                    "Power Supply",
+                    "power supply"
+                ]
+            ],
+            "correct_answers": [
+                "Video Card",
+                "video card"
+            ],
+            "options": [
+                "Hard Drive",
+                "Processor",
+                "Power Supply",
+                "Video Card"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+            "correct_answer": "&lt;marquee&gt;&lt;/marquee&gt;",
+            "incorrect_answers": [
+                [
+                    "&lt;scroll&gt;&lt;/scroll&gt;",
+                    "&lt;scroll&gt;&lt;/scroll&gt;"
+                ],
+                [
+                    "&lt;move&gt;&lt;/move&gt;",
+                    "&lt;move&gt;&lt;/move&gt;"
+                ],
+                [
+                    "&lt;slide&gt;&lt;/slide&gt;",
+                    "&lt;slide&gt;&lt;/slide&gt;"
+                ]
+            ],
+            "correct_answers": [
+                "&lt;marquee&gt;&lt;/marquee&gt;",
+                "&lt;marquee&gt;&lt;/marquee&gt;"
+            ],
+            "options": [
+                "&lt;scroll&gt;&lt;/scroll&gt;",
+                "&lt;move&gt;&lt;/move&gt;",
+                "&lt;slide&gt;&lt;/slide&gt;",
+                "&lt;marquee&gt;&lt;/marquee&gt;"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+            "correct_answer": "center",
+            "incorrect_answers": [
+                [
+                    "static",
+                    "static"
+                ],
+                [
+                    "absolute",
+                    "absolute"
+                ],
+                [
+                    "relative",
+                    "relative"
+                ]
+            ],
+            "correct_answers": [
+                "center",
+                "center"
+            ],
+            "options": [
+                "static",
+                "absolute",
+                "relative",
+                "center"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+            "correct_answer": "Motorola 68000",
+            "incorrect_answers": [
+                [
+                    "Zilog Z80",
+                    "zilog z80"
+                ],
+                [
+                    "Yamaha YM2612",
+                    "yamaha ym2612"
+                ],
+                [
+                    "Intel 8088",
+                    "intel 8088"
+                ]
+            ],
+            "correct_answers": [
+                "Motorola 68000",
+                "motorola 68000"
+            ],
+            "options": [
+                "Zilog Z80",
+                "Yamaha YM2612",
+                "Intel 8088",
+                "Motorola 68000"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the number of keys on a standard Windows Keyboard?",
+            "correct_answer": "104",
+            "incorrect_answers": [
+                [
+                    "64",
+                    "64"
+                ],
+                [
+                    "94",
+                    "94"
+                ],
+                [
+                    "76",
+                    "76"
+                ]
+            ],
+            "correct_answers": [
+                "104",
+                "104"
+            ],
+            "options": [
+                "64",
+                "94",
+                "76",
+                "104"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many cores does the Intel i7-6950X have?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                [
+                    "12",
+                    "12"
+                ],
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "4",
+                    "4"
+                ]
+            ],
+            "correct_answers": [
+                "10",
+                "10"
+            ],
+            "options": [
+                "12",
+                "8",
+                "4",
+                "10"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In programming, what do you call functions with the same name but different implementations?",
+            "correct_answer": "Overloading",
+            "incorrect_answers": [
+                [
+                    "Overriding",
+                    "overriding"
+                ],
+                [
+                    "Abstracting",
+                    "abstracting"
+                ],
+                [
+                    "Inheriting",
+                    "inheriting"
+                ]
+            ],
+            "correct_answers": [
+                "Overloading",
+                "overloading"
+            ],
+            "options": [
+                "Overriding",
+                "Abstracting",
+                "Inheriting",
+                "Overloading"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is known as &quot;the brain&quot; of the Computer?",
+            "correct_answer": "Central Processing Unit",
+            "incorrect_answers": [
+                [
+                    "Motherboard",
+                    "motherboard"
+                ],
+                [
+                    "Graphics Processing Unit",
+                    "graphics processing unit"
+                ],
+                [
+                    "Keyboard",
+                    "keyboard"
+                ]
+            ],
+            "correct_answers": [
+                "Central Processing Unit",
+                "central processing unit"
+            ],
+            "options": [
+                "Motherboard",
+                "Graphics Processing Unit",
+                "Keyboard",
+                "Central Processing Unit"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did the online streaming service &quot;Mixer&quot; launch?",
+            "correct_answer": "2016",
+            "incorrect_answers": [
+                [
+                    "2013",
+                    "2013"
+                ],
+                [
+                    "2009",
+                    "2009"
+                ],
+                [
+                    "2011",
+                    "2011"
+                ]
+            ],
+            "correct_answers": [
+                "2016",
+                "2016"
+            ],
+            "options": [
+                "2013",
+                "2009",
+                "2011",
+                "2016"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What five letter word is the motto of the IBM Computer company?",
+            "correct_answer": "Think",
+            "incorrect_answers": [
+                [
+                    "Click",
+                    "click"
+                ],
+                [
+                    "Logic",
+                    "logic"
+                ],
+                [
+                    "Pixel",
+                    "pixel"
+                ]
+            ],
+            "correct_answers": [
+                "Think",
+                "think"
+            ],
+            "options": [
+                "Click",
+                "Logic",
+                "Pixel",
+                "Think"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+            "correct_answer": "C#",
+            "incorrect_answers": [
+                [
+                    "Java",
+                    "java"
+                ],
+                [
+                    "C++",
+                    "c++"
+                ],
+                [
+                    "Objective-C",
+                    "objective-c"
+                ]
+            ],
+            "correct_answers": [
+                "C#",
+                "c#"
+            ],
+            "options": [
+                "Java",
+                "C++",
+                "Objective-C",
+                "C#"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many bits make up the significand portion of a single precision floating point number?",
+            "correct_answer": "23",
+            "incorrect_answers": [
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "53",
+                    "53"
+                ],
+                [
+                    "15",
+                    "15"
+                ]
+            ],
+            "correct_answers": [
+                "23",
+                "23"
+            ],
+            "options": [
+                "8",
+                "53",
+                "15",
+                "23"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The teapot often seen in many 3D modeling applications is called what?",
+            "correct_answer": "Utah Teapot",
+            "incorrect_answers": [
+                [
+                    "Pixar Teapot",
+                    "pixar teapot"
+                ],
+                [
+                    "3D Teapot",
+                    "3d teapot"
+                ],
+                [
+                    "Tennessee Teapot",
+                    "tennessee teapot"
+                ]
+            ],
+            "correct_answers": [
+                "Utah Teapot",
+                "utah teapot"
+            ],
+            "options": [
+                "Pixar Teapot",
+                "3D Teapot",
+                "Tennessee Teapot",
+                "Utah Teapot"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these programming languages is a low-level language?",
+            "correct_answer": "Assembly",
+            "incorrect_answers": [
+                [
+                    "Python",
+                    "python"
+                ],
+                [
+                    "C#",
+                    "c#"
+                ],
+                [
+                    "Pascal",
+                    "pascal"
+                ]
+            ],
+            "correct_answers": [
+                "Assembly",
+                "assembly"
+            ],
+            "options": [
+                "Python",
+                "C#",
+                "Pascal",
+                "Assembly"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
+            "correct_answer": "FM-7",
+            "incorrect_answers": [
+                [
+                    "PC-9801",
+                    "pc-9801"
+                ],
+                [
+                    "Xmillennium ",
+                    "xmillennium "
+                ],
+                [
+                    "MSX",
+                    "msx"
+                ]
+            ],
+            "correct_answers": [
+                "FM-7",
+                "fm-7"
+            ],
+            "options": [
+                "PC-9801",
+                "Xmillennium ",
+                "MSX",
+                "FM-7"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": ".rs is the top-level domain for what country?",
+            "correct_answer": "Serbia",
+            "incorrect_answers": [
+                [
+                    "Romania",
+                    "romania"
+                ],
+                [
+                    "Russia",
+                    "russia"
+                ],
+                [
+                    "Rwanda",
+                    "rwanda"
+                ]
+            ],
+            "correct_answers": [
+                "Serbia",
+                "serbia"
+            ],
+            "options": [
+                "Romania",
+                "Russia",
+                "Rwanda",
+                "Serbia"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does RAID stand for?",
+            "correct_answer": "Redundant Array of Independent Disks",
+            "incorrect_answers": [
+                [
+                    "Rapid Access for Indexed Devices",
+                    "rapid access for indexed devices"
+                ],
+                [
+                    "Range of Applications with Identical Designs",
+                    "range of applications with identical designs"
+                ],
+                [
+                    "Randomized Abstract Identification Description",
+                    "randomized abstract identification description"
+                ]
+            ],
+            "correct_answers": [
+                "Redundant Array of Independent Disks",
+                "redundant array of independent disks"
+            ],
+            "options": [
+                "Rapid Access for Indexed Devices",
+                "Range of Applications with Identical Designs",
+                "Randomized Abstract Identification Description",
+                "Redundant Array of Independent Disks"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+            "correct_answer": "Non-impact printer",
+            "incorrect_answers": [
+                [
+                    "Impact printer",
+                    "impact printer"
+                ],
+                [
+                    "Daisywheel printer",
+                    "daisywheel printer"
+                ],
+                [
+                    "Dot matrix printer",
+                    "dot matrix printer"
+                ]
+            ],
+            "correct_answers": [
+                "Non-impact printer",
+                "non-impact printer"
+            ],
+            "options": [
+                "Impact printer",
+                "Daisywheel printer",
+                "Dot matrix printer",
+                "Non-impact printer"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the 'S' in the RSA encryption algorithm stand for?",
+            "correct_answer": "Shamir",
+            "incorrect_answers": [
+                [
+                    "Secure",
+                    "secure"
+                ],
+                [
+                    "Schottky",
+                    "schottky"
+                ],
+                [
+                    "Stable",
+                    "stable"
+                ]
+            ],
+            "correct_answers": [
+                "Shamir",
+                "shamir"
+            ],
+            "options": [
+                "Secure",
+                "Schottky",
+                "Stable",
+                "Shamir"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+            "correct_answer": "Taiwan",
+            "incorrect_answers": [
+                [
+                    "United States",
+                    "united states"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "China (People's Republic of)",
+                    "china (people's republic of)",
+                    "china (peoples republic of)"
+                ]
+            ],
+            "correct_answers": [
+                "Taiwan",
+                "taiwan"
+            ],
+            "options": [
+                "United States",
+                "Germany",
+                "China (People's Republic of)",
+                "Taiwan"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How fast is USB 3.1 Gen 2 theoretically?",
+            "correct_answer": "10 Gb/s",
+            "incorrect_answers": [
+                [
+                    "5 Gb/s",
+                    "5 gb/s"
+                ],
+                [
+                    "8 Gb/s",
+                    "8 gb/s"
+                ],
+                [
+                    "1 Gb/s",
+                    "1 gb/s"
+                ]
+            ],
+            "correct_answers": [
+                "10 Gb/s",
+                "10 gb/s"
+            ],
+            "options": [
+                "5 Gb/s",
+                "8 Gb/s",
+                "1 Gb/s",
+                "10 Gb/s"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+            "correct_answer": "JavaScript",
+            "incorrect_answers": [
+                [
+                    "C#",
+                    "c#"
+                ],
+                [
+                    "Python",
+                    "python"
+                ],
+                [
+                    "PHP",
+                    "php"
+                ]
+            ],
+            "correct_answers": [
+                "JavaScript",
+                "javascript"
+            ],
+            "options": [
+                "C#",
+                "Python",
+                "PHP",
+                "JavaScript"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+            "correct_answer": "?:",
+            "incorrect_answers": [
+                [
+                    "??",
+                    "??"
+                ],
+                [
+                    "if then",
+                    "if then"
+                ],
+                [
+                    "?",
+                    "?"
+                ]
+            ],
+            "correct_answers": [
+                "?:",
+                "?:"
+            ],
+            "options": [
+                "??",
+                "if then",
+                "?",
+                "?:"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+            "correct_answer": "The Onion Router",
+            "incorrect_answers": [
+                [
+                    "The Only Router",
+                    "the only router",
+                    "only router"
+                ],
+                [
+                    "The Orange Router",
+                    "the orange router",
+                    "orange router"
+                ],
+                [
+                    "The Ominous Router",
+                    "the ominous router",
+                    "ominous router"
+                ]
+            ],
+            "correct_answers": [
+                "The Onion Router",
+                "the onion router",
+                "onion router"
+            ],
+            "options": [
+                "The Only Router",
+                "The Orange Router",
+                "The Ominous Router",
+                "The Onion Router"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which operating system was released first?",
+            "correct_answer": "Mac OS",
+            "incorrect_answers": [
+                [
+                    "Windows",
+                    "windows"
+                ],
+                [
+                    "Linux",
+                    "linux"
+                ],
+                [
+                    "OS/2",
+                    "os/2"
+                ]
+            ],
+            "correct_answers": [
+                "Mac OS",
+                "mac os"
+            ],
+            "options": [
+                "Windows",
+                "Linux",
+                "OS/2",
+                "Mac OS"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Moore's law originally stated that the number of transistors on a microprocessor chip would double every...",
+            "correct_answer": "Year",
+            "incorrect_answers": [
+                [
+                    "Four Years",
+                    "four years"
+                ],
+                [
+                    "Two Years",
+                    "two years"
+                ],
+                [
+                    "Eight Years",
+                    "eight years"
+                ]
+            ],
+            "correct_answers": [
+                "Year",
+                "year"
+            ],
+            "options": [
+                "Four Years",
+                "Two Years",
+                "Eight Years",
+                "Year"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does AD stand for in relation to Windows Operating Systems? ",
+            "correct_answer": "Active Directory",
+            "incorrect_answers": [
+                [
+                    "Alternative Drive",
+                    "alternative drive"
+                ],
+                [
+                    "Automated Database",
+                    "automated database"
+                ],
+                [
+                    "Active Department",
+                    "active department"
+                ]
+            ],
+            "correct_answers": [
+                "Active Directory",
+                "active directory"
+            ],
+            "options": [
+                "Alternative Drive",
+                "Automated Database",
+                "Active Department",
+                "Active Directory"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which internet company began life as an online bookstore called 'Cadabra'?",
+            "correct_answer": "Amazon",
+            "incorrect_answers": [
+                [
+                    "eBay",
+                    "ebay"
+                ],
+                [
+                    "Overstock",
+                    "overstock"
+                ],
+                [
+                    "Shopify",
+                    "shopify"
+                ]
+            ],
+            "correct_answers": [
+                "Amazon",
+                "amazon"
+            ],
+            "options": [
+                "eBay",
+                "Overstock",
+                "Shopify",
+                "Amazon"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+            "correct_answer": "Inkscape",
+            "incorrect_answers": [
+                [
+                    "Paint.NET",
+                    "paint.net"
+                ],
+                [
+                    "GIMP",
+                    "gimp"
+                ],
+                [
+                    "Adobe Photoshop",
+                    "adobe photoshop"
+                ]
+            ],
+            "correct_answers": [
+                "Inkscape",
+                "inkscape"
+            ],
+            "options": [
+                "Paint.NET",
+                "GIMP",
+                "Adobe Photoshop",
+                "Inkscape"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does &quot;LCD&quot; stand for?",
+            "correct_answer": "Liquid Crystal Display",
+            "incorrect_answers": [
+                [
+                    "Language Control Design",
+                    "language control design"
+                ],
+                [
+                    "Last Common Difference",
+                    "last common difference"
+                ],
+                [
+                    "Long Continuous Design",
+                    "long continuous design"
+                ]
+            ],
+            "correct_answers": [
+                "Liquid Crystal Display",
+                "liquid crystal display"
+            ],
+            "options": [
+                "Language Control Design",
+                "Last Common Difference",
+                "Long Continuous Design",
+                "Liquid Crystal Display"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Nvidia's headquarters are based in which Silicon Valley city?",
+            "correct_answer": "Santa Clara",
+            "incorrect_answers": [
+                [
+                    "Palo Alto",
+                    "palo alto"
+                ],
+                [
+                    "Cupertino",
+                    "cupertino"
+                ],
+                [
+                    "Mountain View",
+                    "mountain view"
+                ]
+            ],
+            "correct_answers": [
+                "Santa Clara",
+                "santa clara"
+            ],
+            "options": [
+                "Palo Alto",
+                "Cupertino",
+                "Mountain View",
+                "Santa Clara"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which programming language was developed by Sun Microsystems in 1995?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                [
+                    "Python",
+                    "python"
+                ],
+                [
+                    "Solaris OS",
+                    "solaris os"
+                ],
+                [
+                    "C++",
+                    "c++"
+                ]
+            ],
+            "correct_answers": [
+                "Java",
+                "java"
+            ],
+            "options": [
+                "Python",
+                "Solaris OS",
+                "C++",
+                "Java"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Approximately how many Apple I personal computers were created?",
+            "correct_answer": "200",
+            "incorrect_answers": [
+                [
+                    "100",
+                    "100"
+                ],
+                [
+                    "500",
+                    "500"
+                ],
+                [
+                    "1000",
+                    "1000"
+                ]
+            ],
+            "correct_answers": [
+                "200",
+                "200"
+            ],
+            "options": [
+                "100",
+                "500",
+                "1000",
+                "200"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the first commerically available computer processor?",
+            "correct_answer": "Intel 4004",
+            "incorrect_answers": [
+                [
+                    "Intel 486SX",
+                    "intel 486sx"
+                ],
+                [
+                    "TMS 1000",
+                    "tms 1000"
+                ],
+                [
+                    "AMD AM386",
+                    "amd am386"
+                ]
+            ],
+            "correct_answers": [
+                "Intel 4004",
+                "intel 4004"
+            ],
+            "options": [
+                "Intel 486SX",
+                "TMS 1000",
+                "AMD AM386",
+                "Intel 4004"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+            "correct_answer": "print(&quot;Hello World&quot;)",
+            "incorrect_answers": [
+                [
+                    "console.log(&quot;Hello World&quot;)",
+                    "console.log(&quot;hello world&quot;)"
+                ],
+                [
+                    "echo &quot;Hello World&quot;",
+                    "echo &quot;hello world&quot;"
+                ],
+                [
+                    "printf(&quot;Hello World&quot;)",
+                    "printf(&quot;hello world&quot;)"
+                ]
+            ],
+            "correct_answers": [
+                "print(&quot;Hello World&quot;)",
+                "print(&quot;hello world&quot;)"
+            ],
+            "options": [
+                "console.log(&quot;Hello World&quot;)",
+                "echo &quot;Hello World&quot;",
+                "printf(&quot;Hello World&quot;)",
+                "print(&quot;Hello World&quot;)"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the server hosting industry IaaS stands for...",
+            "correct_answer": "Infrastructure as a Service",
+            "incorrect_answers": [
+                [
+                    "Internet as a Service",
+                    "internet as a service"
+                ],
+                [
+                    "Internet and a Server",
+                    "internet and a server"
+                ],
+                [
+                    "Infrastructure as a Server",
+                    "infrastructure as a server"
+                ]
+            ],
+            "correct_answers": [
+                "Infrastructure as a Service",
+                "infrastructure as a service"
+            ],
+            "options": [
+                "Internet as a Service",
+                "Internet and a Server",
+                "Infrastructure as a Server",
+                "Infrastructure as a Service"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the acronym CDN stand for in terms of networking?",
+            "correct_answer": "Content Delivery Network",
+            "incorrect_answers": [
+                [
+                    "Content Distribution Network",
+                    "content distribution network"
+                ],
+                [
+                    "Computational Data Network",
+                    "computational data network"
+                ],
+                [
+                    "Compressed Data Network",
+                    "compressed data network"
+                ]
+            ],
+            "correct_answers": [
+                "Content Delivery Network",
+                "content delivery network"
+            ],
+            "options": [
+                "Content Distribution Network",
+                "Computational Data Network",
+                "Compressed Data Network",
+                "Content Delivery Network"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The name of technology company HP stands for what?",
+            "correct_answer": "Hewlett-Packard",
+            "incorrect_answers": [
+                [
+                    "Howard Packmann",
+                    "howard packmann"
+                ],
+                [
+                    "Husker-Pollosk",
+                    "husker-pollosk"
+                ],
+                [
+                    "Hellman-Pohl",
+                    "hellman-pohl"
+                ]
+            ],
+            "correct_answers": [
+                "Hewlett-Packard",
+                "hewlett-packard"
+            ],
+            "options": [
+                "Howard Packmann",
+                "Husker-Pollosk",
+                "Hellman-Pohl",
+                "Hewlett-Packard"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one of these is not an official development name for a Ubuntu release?",
+            "correct_answer": "Mystic Mansion",
+            "incorrect_answers": [
+                [
+                    "Trusty Tahr",
+                    "trusty tahr"
+                ],
+                [
+                    "Utopic Unicorn",
+                    "utopic unicorn"
+                ],
+                [
+                    "Wily Werewolf",
+                    "wily werewolf"
+                ]
+            ],
+            "correct_answers": [
+                "Mystic Mansion",
+                "mystic mansion"
+            ],
+            "options": [
+                "Trusty Tahr",
+                "Utopic Unicorn",
+                "Wily Werewolf",
+                "Mystic Mansion"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many bytes are in a single Kibibyte?",
+            "correct_answer": "1024",
+            "incorrect_answers": [
+                [
+                    "2400",
+                    "2400"
+                ],
+                [
+                    "1000",
+                    "1000"
+                ],
+                [
+                    "1240",
+                    "1240"
+                ]
+            ],
+            "correct_answers": [
+                "1024",
+                "1024"
+            ],
+            "options": [
+                "2400",
+                "1000",
+                "1240",
+                "1024"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In computing terms, typically what does CLI stand for?",
+            "correct_answer": "Command Line Interface",
+            "incorrect_answers": [
+                [
+                    "Common Language Input",
+                    "common language input"
+                ],
+                [
+                    "Control Line Interface",
+                    "control line interface"
+                ],
+                [
+                    "Common Language Interface",
+                    "common language interface"
+                ]
+            ],
+            "correct_answers": [
+                "Command Line Interface",
+                "command line interface"
+            ],
+            "options": [
+                "Common Language Input",
+                "Control Line Interface",
+                "Common Language Interface",
+                "Command Line Interface"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Unix Time is defined as the number of seconds that have elapsed since when?",
+            "correct_answer": "Midnight, January 1, 1970",
+            "incorrect_answers": [
+                [
+                    "Midnight, July 4, 1976",
+                    "midnight, july 4, 1976"
+                ],
+                [
+                    "Midnight on the creator of Unix's birthday",
+                    "midnight on the creator of unix's birthday",
+                    "midnight on creator of unix's birthday",
+                    "midnight on the creator of unixs birthday"
+                ],
+                [
+                    "Midnight, July 4, 1980",
+                    "midnight, july 4, 1980"
+                ]
+            ],
+            "correct_answers": [
+                "Midnight, January 1, 1970",
+                "midnight, january 1, 1970"
+            ],
+            "options": [
+                "Midnight, July 4, 1976",
+                "Midnight on the creator of Unix's birthday",
+                "Midnight, July 4, 1980",
+                "Midnight, January 1, 1970"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the default theme that is installed with Windows XP?",
+            "correct_answer": "Luna",
+            "incorrect_answers": [
+                [
+                    "Neptune",
+                    "neptune"
+                ],
+                [
+                    "Whistler",
+                    "whistler"
+                ],
+                [
+                    "Bliss",
+                    "bliss"
+                ]
+            ],
+            "correct_answers": [
+                "Luna",
+                "luna"
+            ],
+            "options": [
+                "Neptune",
+                "Whistler",
+                "Bliss",
+                "Luna"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+            "correct_answer": "Clipper Chip",
+            "incorrect_answers": [
+                [
+                    "Enigma Machine",
+                    "enigma machine"
+                ],
+                [
+                    "Skipjack",
+                    "skipjack"
+                ],
+                [
+                    "Nautilus",
+                    "nautilus"
+                ]
+            ],
+            "correct_answers": [
+                "Clipper Chip",
+                "clipper chip"
+            ],
+            "options": [
+                "Enigma Machine",
+                "Skipjack",
+                "Nautilus",
+                "Clipper Chip"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+            "correct_answer": "Heat Sink",
+            "incorrect_answers": [
+                [
+                    "CPU Vent",
+                    "cpu vent"
+                ],
+                [
+                    "Temperature Decipator",
+                    "temperature decipator"
+                ],
+                [
+                    "Heat Vent",
+                    "heat vent"
+                ]
+            ],
+            "correct_answers": [
+                "Heat Sink",
+                "heat sink"
+            ],
+            "options": [
+                "CPU Vent",
+                "Temperature Decipator",
+                "Heat Vent",
+                "Heat Sink"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name given to Android 4.3?",
+            "correct_answer": "Jelly Bean",
+            "incorrect_answers": [
+                [
+                    "Lollipop",
+                    "lollipop"
+                ],
+                [
+                    "Nutella",
+                    "nutella"
+                ],
+                [
+                    "Froyo",
+                    "froyo"
+                ]
+            ],
+            "correct_answers": [
+                "Jelly Bean",
+                "jelly bean"
+            ],
+            "options": [
+                "Lollipop",
+                "Nutella",
+                "Froyo",
+                "Jelly Bean"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the first Android version specifically optimized for tablets?",
+            "correct_answer": "Honeycomb",
+            "incorrect_answers": [
+                [
+                    "Eclair",
+                    "eclair"
+                ],
+                [
+                    "Froyo",
+                    "froyo"
+                ],
+                [
+                    "Marshmellow",
+                    "marshmellow"
+                ]
+            ],
+            "correct_answers": [
+                "Honeycomb",
+                "honeycomb"
+            ],
+            "options": [
+                "Eclair",
+                "Froyo",
+                "Marshmellow",
+                "Honeycomb"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+            "correct_answer": "New Mexico",
+            "incorrect_answers": [
+                [
+                    "Washington",
+                    "washington"
+                ],
+                [
+                    "Colorado",
+                    "colorado"
+                ],
+                [
+                    "Arizona",
+                    "arizona"
+                ]
+            ],
+            "correct_answers": [
+                "New Mexico",
+                "new mexico"
+            ],
+            "options": [
+                "Washington",
+                "Colorado",
+                "Arizona",
+                "New Mexico"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which day did the World Wide Web go online?",
+            "correct_answer": "December 20, 1990",
+            "incorrect_answers": [
+                [
+                    "December 17, 1996",
+                    "december 17, 1996"
+                ],
+                [
+                    "November 12, 1990",
+                    "november 12, 1990"
+                ],
+                [
+                    "November 24, 1995",
+                    "november 24, 1995"
+                ]
+            ],
+            "correct_answers": [
+                "December 20, 1990",
+                "december 20, 1990"
+            ],
+            "options": [
+                "December 17, 1996",
+                "November 12, 1990",
+                "November 24, 1995",
+                "December 20, 1990"
+            ]
+        }
+    ]
+}

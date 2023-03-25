@@ -1,0 +1,1002 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which issue of the &quot;Sonic the Hedgehog&quot; comic did Scourge the Hedgehog make his first appearance?",
+            "correct_answer": "Sonic the Hedgehog #11",
+            "incorrect_answers": [
+                [
+                    "Sonic Universe #32",
+                    "sonic universe #32"
+                ],
+                [
+                    "Sonic the Hedgehog #161",
+                    "sonic the hedgehog #161",
+                    "sonic hedgehog #161"
+                ],
+                [
+                    "Sonic the Hedgehog #47",
+                    "sonic the hedgehog #47",
+                    "sonic hedgehog #47"
+                ]
+            ],
+            "correct_answers": [
+                "Sonic the Hedgehog #11",
+                "sonic the hedgehog #11",
+                "sonic hedgehog #11"
+            ],
+            "options": [
+                "Sonic Universe #32",
+                "Sonic the Hedgehog #161",
+                "Sonic the Hedgehog #47",
+                "Sonic the Hedgehog #11"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Pre-Super Genesis universe of &quot;Sonic the Hedgehog&quot; comic, what was the name of  Sally Acorn's brother?",
+            "correct_answer": "Elias Acorn",
+            "incorrect_answers": [
+                [
+                    "Maximillian Acorn",
+                    "maximillian acorn"
+                ],
+                [
+                    "Alexis Acorn",
+                    "alexis acorn"
+                ],
+                [
+                    "Frederick Acorn",
+                    "frederick acorn"
+                ]
+            ],
+            "correct_answers": [
+                "Elias Acorn",
+                "elias acorn"
+            ],
+            "options": [
+                "Maximillian Acorn",
+                "Alexis Acorn",
+                "Frederick Acorn",
+                "Elias Acorn"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is Homestuck character Gamzee's last name?",
+            "correct_answer": "Makara",
+            "incorrect_answers": [
+                [
+                    "Makera",
+                    "makera"
+                ],
+                [
+                    "Makare",
+                    "makare"
+                ],
+                [
+                    "Makrea",
+                    "makrea"
+                ]
+            ],
+            "correct_answers": [
+                "Makara",
+                "makara"
+            ],
+            "options": [
+                "Makera",
+                "Makare",
+                "Makrea",
+                "Makara"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What's the weakness of american vampires (Scott Snyder's American Vampire)?",
+            "correct_answer": "Gold",
+            "incorrect_answers": [
+                [
+                    "Sunlight",
+                    "sunlight"
+                ],
+                [
+                    "Wood",
+                    "wood"
+                ],
+                [
+                    "Silver",
+                    "silver"
+                ]
+            ],
+            "correct_answers": [
+                "Gold",
+                "gold"
+            ],
+            "options": [
+                "Sunlight",
+                "Wood",
+                "Silver",
+                "Gold"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Black Hammer, what dimension does Colonel Weird travel through?",
+            "correct_answer": "Para-Zone",
+            "incorrect_answers": [
+                [
+                    "Hyperspace",
+                    "hyperspace"
+                ],
+                [
+                    "Mirror Universe",
+                    "mirror universe"
+                ],
+                [
+                    "Phantom Zone",
+                    "phantom zone"
+                ]
+            ],
+            "correct_answers": [
+                "Para-Zone",
+                "para-zone"
+            ],
+            "options": [
+                "Hyperspace",
+                "Mirror Universe",
+                "Phantom Zone",
+                "Para-Zone"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Hellboy universe, who founded the BPRD?",
+            "correct_answer": "Trevor Bruttenholm",
+            "incorrect_answers": [
+                [
+                    "Kate Corrigan",
+                    "kate corrigan"
+                ],
+                [
+                    "Johann Kraus",
+                    "johann kraus"
+                ],
+                [
+                    "Benjamin Daimio",
+                    "benjamin daimio"
+                ]
+            ],
+            "correct_answers": [
+                "Trevor Bruttenholm",
+                "trevor bruttenholm"
+            ],
+            "options": [
+                "Kate Corrigan",
+                "Johann Kraus",
+                "Benjamin Daimio",
+                "Trevor Bruttenholm"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Bionicle, who was formerly a Av-Matoran and is now the Toa of Light?",
+            "correct_answer": "Takua",
+            "incorrect_answers": [
+                [
+                    "Jaller",
+                    "jaller"
+                ],
+                [
+                    "Vakama",
+                    "vakama"
+                ],
+                [
+                    "Tahu",
+                    "tahu"
+                ]
+            ],
+            "correct_answers": [
+                "Takua",
+                "takua"
+            ],
+            "options": [
+                "Jaller",
+                "Vakama",
+                "Tahu",
+                "Takua"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following superheros did Wonder Woman NOT have a love interest in?",
+            "correct_answer": "Green Arrow",
+            "incorrect_answers": [
+                [
+                    "Superman",
+                    "superman"
+                ],
+                [
+                    "Batman",
+                    "batman"
+                ],
+                [
+                    "Steve Trevor",
+                    "steve trevor"
+                ]
+            ],
+            "correct_answers": [
+                "Green Arrow",
+                "green arrow"
+            ],
+            "options": [
+                "Superman",
+                "Batman",
+                "Steve Trevor",
+                "Green Arrow"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What's the name of Batman's parents?",
+            "correct_answer": "Thomas &amp; Martha",
+            "incorrect_answers": [
+                [
+                    "Joey &amp; Jackie",
+                    "joey &amp; jackie"
+                ],
+                [
+                    "Jason &amp; Sarah",
+                    "jason &amp; sarah"
+                ],
+                [
+                    "Todd &amp; Mira",
+                    "todd &amp; mira"
+                ]
+            ],
+            "correct_answers": [
+                "Thomas &amp; Martha",
+                "thomas &amp; martha"
+            ],
+            "options": [
+                "Joey &amp; Jackie",
+                "Jason &amp; Sarah",
+                "Todd &amp; Mira",
+                "Thomas &amp; Martha"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the inspiration for Cuthbert Calculus in the Tintin series?",
+            "correct_answer": "Auguste Picard",
+            "incorrect_answers": [
+                [
+                    "Jacques Piccard",
+                    "jacques piccard"
+                ],
+                [
+                    "Will Morris",
+                    "will morris"
+                ],
+                [
+                    "J. Cecil Maby",
+                    "j. cecil maby"
+                ]
+            ],
+            "correct_answers": [
+                "Auguste Picard",
+                "auguste picard"
+            ],
+            "options": [
+                "Jacques Piccard",
+                "Will Morris",
+                "J. Cecil Maby",
+                "Auguste Picard"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who created Ultron of Earth-616?",
+            "correct_answer": "Henry Pym",
+            "incorrect_answers": [
+                [
+                    "Amadeus Cho",
+                    "amadeus cho"
+                ],
+                [
+                    "Tony Stark",
+                    "tony stark"
+                ],
+                [
+                    "Reed Richards",
+                    "reed richards"
+                ]
+            ],
+            "correct_answers": [
+                "Henry Pym",
+                "henry pym"
+            ],
+            "options": [
+                "Amadeus Cho",
+                "Tony Stark",
+                "Reed Richards",
+                "Henry Pym"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is the second person to take up the mantle of Night Owl in the Watchmen graphic novel?",
+            "correct_answer": "Daniel Dreiberg",
+            "incorrect_answers": [
+                [
+                    "Nelson Gardner",
+                    "nelson gardner"
+                ],
+                [
+                    "Hollis Mason",
+                    "hollis mason"
+                ],
+                [
+                    "Adrian Veidt",
+                    "adrian veidt"
+                ]
+            ],
+            "correct_answers": [
+                "Daniel Dreiberg",
+                "daniel dreiberg"
+            ],
+            "options": [
+                "Nelson Gardner",
+                "Hollis Mason",
+                "Adrian Veidt",
+                "Daniel Dreiberg"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;Sonic the Hedgehog&quot; comic, who was the creator of Roboticizer? ",
+            "correct_answer": "Professor Charles the Hedgehog",
+            "incorrect_answers": [
+                [
+                    "Julian Robotnik",
+                    "julian robotnik"
+                ],
+                [
+                    "Ivo Robotnik",
+                    "ivo robotnik"
+                ],
+                [
+                    "Snively Robotnik",
+                    "snively robotnik"
+                ]
+            ],
+            "correct_answers": [
+                "Professor Charles the Hedgehog",
+                "professor charles the hedgehog",
+                "professor charles hedgehog"
+            ],
+            "options": [
+                "Julian Robotnik",
+                "Ivo Robotnik",
+                "Snively Robotnik",
+                "Professor Charles the Hedgehog"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which &quot;Green Arrow&quot; sidekick commonly wears a baseball cap?",
+            "correct_answer": "Roy Harper",
+            "incorrect_answers": [
+                [
+                    "Black Canary",
+                    "black canary"
+                ],
+                [
+                    "Emiko Queen",
+                    "emiko queen"
+                ],
+                [
+                    "Dick Grayson",
+                    "dick grayson"
+                ]
+            ],
+            "correct_answers": [
+                "Roy Harper",
+                "roy harper"
+            ],
+            "options": [
+                "Black Canary",
+                "Emiko Queen",
+                "Dick Grayson",
+                "Roy Harper"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the main character in the webcomic Gunnerkrigg Court by Tom Siddell?",
+            "correct_answer": "Antimony",
+            "incorrect_answers": [
+                [
+                    "Bismuth",
+                    "bismuth"
+                ],
+                [
+                    "Mercury",
+                    "mercury"
+                ],
+                [
+                    "Cobalt",
+                    "cobalt"
+                ]
+            ],
+            "correct_answers": [
+                "Antimony",
+                "antimony"
+            ],
+            "options": [
+                "Bismuth",
+                "Mercury",
+                "Cobalt",
+                "Antimony"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?",
+            "correct_answer": "Wally West",
+            "incorrect_answers": [
+                [
+                    "Johnny Quick",
+                    "johnny quick"
+                ],
+                [
+                    "Jay Garrick",
+                    "jay garrick"
+                ],
+                [
+                    "Eobard Thawne",
+                    "eobard thawne"
+                ]
+            ],
+            "correct_answers": [
+                "Wally West",
+                "wally west"
+            ],
+            "options": [
+                "Johnny Quick",
+                "Jay Garrick",
+                "Eobard Thawne",
+                "Wally West"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Found in the Marvel Comics fictional universe, what is the name of the nearly indestructible metal that coats Wolverine's bones and claws?",
+            "correct_answer": "Adamantium",
+            "incorrect_answers": [
+                [
+                    "Titanium",
+                    "titanium"
+                ],
+                [
+                    "Vibranium",
+                    "vibranium"
+                ],
+                [
+                    "Carbonadium",
+                    "carbonadium"
+                ]
+            ],
+            "correct_answers": [
+                "Adamantium",
+                "adamantium"
+            ],
+            "options": [
+                "Titanium",
+                "Vibranium",
+                "Carbonadium",
+                "Adamantium"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Calvin and Hobbes, what is the name of Susie's stuffed rabbit?",
+            "correct_answer": "Mr. Bun",
+            "incorrect_answers": [
+                [
+                    "Mr. Bunbun",
+                    "mr. bunbun"
+                ],
+                [
+                    "Mr. Rabbit",
+                    "mr. rabbit"
+                ],
+                [
+                    "Mr. Hoppy",
+                    "mr. hoppy"
+                ]
+            ],
+            "correct_answers": [
+                "Mr. Bun",
+                "mr. bun"
+            ],
+            "options": [
+                "Mr. Bunbun",
+                "Mr. Rabbit",
+                "Mr. Hoppy",
+                "Mr. Bun"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Calvin and Hobbes, what is the name of the babysitter's boyfriend?",
+            "correct_answer": "Charlie",
+            "incorrect_answers": [
+                [
+                    "Dave",
+                    "dave"
+                ],
+                [
+                    "Charles",
+                    "charles"
+                ],
+                [
+                    "Nathaniel",
+                    "nathaniel"
+                ]
+            ],
+            "correct_answers": [
+                "Charlie",
+                "charlie"
+            ],
+            "options": [
+                "Dave",
+                "Charles",
+                "Nathaniel",
+                "Charlie"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the real name of the &quot;Master Of Magnetism&quot; Magneto?",
+            "correct_answer": "Max Eisenhardt",
+            "incorrect_answers": [
+                [
+                    "Charles Xavier",
+                    "charles xavier"
+                ],
+                [
+                    "Pietro Maximoff",
+                    "pietro maximoff"
+                ],
+                [
+                    "Johann Schmidt",
+                    "johann schmidt"
+                ]
+            ],
+            "correct_answers": [
+                "Max Eisenhardt",
+                "max eisenhardt"
+            ],
+            "options": [
+                "Charles Xavier",
+                "Pietro Maximoff",
+                "Johann Schmidt",
+                "Max Eisenhardt"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Marvel Comics, Taurus is the founder and leader of which criminal organization?",
+            "correct_answer": "Zodiac",
+            "incorrect_answers": [
+                [
+                    "Scorpio",
+                    "scorpio"
+                ],
+                [
+                    "Tiger Mafia",
+                    "tiger mafia"
+                ],
+                [
+                    "The Union",
+                    "the union",
+                    "union"
+                ]
+            ],
+            "correct_answers": [
+                "Zodiac",
+                "zodiac"
+            ],
+            "options": [
+                "Scorpio",
+                "Tiger Mafia",
+                "The Union",
+                "Zodiac"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Batman sidekick is the son of Talia al Ghul?",
+            "correct_answer": "Damian Wayne",
+            "incorrect_answers": [
+                [
+                    "Dick Grayson",
+                    "dick grayson"
+                ],
+                [
+                    "Tim Drake",
+                    "tim drake"
+                ],
+                [
+                    "Jason Todd",
+                    "jason todd"
+                ]
+            ],
+            "correct_answers": [
+                "Damian Wayne",
+                "damian wayne"
+            ],
+            "options": [
+                "Dick Grayson",
+                "Tim Drake",
+                "Jason Todd",
+                "Damian Wayne"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who wrote the Batman comic series &quot;The Killing Joke&quot;?",
+            "correct_answer": "Alan Moore",
+            "incorrect_answers": [
+                [
+                    "Bill Finger",
+                    "bill finger"
+                ],
+                [
+                    "Frank Miller",
+                    "frank miller"
+                ],
+                [
+                    "Jerry Siegel",
+                    "jerry siegel"
+                ]
+            ],
+            "correct_answers": [
+                "Alan Moore",
+                "alan moore"
+            ],
+            "options": [
+                "Bill Finger",
+                "Frank Miller",
+                "Jerry Siegel",
+                "Alan Moore"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the comics, which Sonic character took command of the Dark Legion after Luger's assassination?",
+            "correct_answer": "Lien-Da",
+            "incorrect_answers": [
+                [
+                    "Kragok",
+                    "kragok"
+                ],
+                [
+                    "Dimitri",
+                    "dimitri"
+                ],
+                [
+                    "Remington",
+                    "remington"
+                ]
+            ],
+            "correct_answers": [
+                "Lien-Da",
+                "lien-da"
+            ],
+            "options": [
+                "Kragok",
+                "Dimitri",
+                "Remington",
+                "Lien-Da"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of the first Robin in the Batman comics?",
+            "correct_answer": "Dick Grayson",
+            "incorrect_answers": [
+                [
+                    "Bruce Wayne",
+                    "bruce wayne"
+                ],
+                [
+                    "Jason Todd",
+                    "jason todd"
+                ],
+                [
+                    "Tim Drake",
+                    "tim drake"
+                ]
+            ],
+            "correct_answers": [
+                "Dick Grayson",
+                "dick grayson"
+            ],
+            "options": [
+                "Bruce Wayne",
+                "Jason Todd",
+                "Tim Drake",
+                "Dick Grayson"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Calvin and Hobbes, what is the name of the principal at Calvin's school?",
+            "correct_answer": "Mr. Spittle",
+            "incorrect_answers": [
+                [
+                    "Mr. Boreman",
+                    "mr. boreman"
+                ],
+                [
+                    "Mr. Spitling",
+                    "mr. spitling"
+                ],
+                [
+                    "Mr. Moe",
+                    "mr. moe"
+                ]
+            ],
+            "correct_answers": [
+                "Mr. Spittle",
+                "mr. spittle"
+            ],
+            "options": [
+                "Mr. Boreman",
+                "Mr. Spitling",
+                "Mr. Moe",
+                "Mr. Spittle"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the first American Vampire (Scott Snyder's American Vampire)?",
+            "correct_answer": "Skinner Sweet",
+            "incorrect_answers": [
+                [
+                    "Hattie Hargrove",
+                    "hattie hargrove"
+                ],
+                [
+                    "Pearl Jones",
+                    "pearl jones"
+                ],
+                [
+                    "James &quot;Jim&quot; Book",
+                    "james &quot;jim&quot; book"
+                ]
+            ],
+            "correct_answers": [
+                "Skinner Sweet",
+                "skinner sweet"
+            ],
+            "options": [
+                "Hattie Hargrove",
+                "Pearl Jones",
+                "James &quot;Jim&quot; Book",
+                "Skinner Sweet"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is Hellboy's true name?",
+            "correct_answer": "Anung Un Rama",
+            "incorrect_answers": [
+                [
+                    "Right Hand of Doom",
+                    "right hand of doom"
+                ],
+                [
+                    "Ogdru Jahad",
+                    "ogdru jahad"
+                ],
+                [
+                    "Azzael",
+                    "azzael"
+                ]
+            ],
+            "correct_answers": [
+                "Anung Un Rama",
+                "anung un rama"
+            ],
+            "options": [
+                "Right Hand of Doom",
+                "Ogdru Jahad",
+                "Azzael",
+                "Anung Un Rama"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The stuffed tiger in Calvin and Hobbes is named after what philosopher?",
+            "correct_answer": "Thomas Hobbes",
+            "incorrect_answers": [
+                [
+                    "David Hobbes",
+                    "david hobbes"
+                ],
+                [
+                    "John Hobbes",
+                    "john hobbes"
+                ],
+                [
+                    "Nathaniel Hobbes",
+                    "nathaniel hobbes"
+                ]
+            ],
+            "correct_answers": [
+                "Thomas Hobbes",
+                "thomas hobbes"
+            ],
+            "options": [
+                "David Hobbes",
+                "John Hobbes",
+                "Nathaniel Hobbes",
+                "Thomas Hobbes"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who authored The Adventures of Tintin?",
+            "correct_answer": "Herg&eacute;",
+            "incorrect_answers": [
+                [
+                    "E.P. Jacobs",
+                    "e.p. jacobs"
+                ],
+                [
+                    "Rin Tin Tin",
+                    "rin tin tin"
+                ],
+                [
+                    "Chic Young",
+                    "chic young"
+                ]
+            ],
+            "correct_answers": [
+                "Herg&eacute;",
+                "herg&eacute;"
+            ],
+            "options": [
+                "E.P. Jacobs",
+                "Rin Tin Tin",
+                "Chic Young",
+                "Herg&eacute;"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the designation given to the Marvel Cinematic Universe?",
+            "correct_answer": "Earth-199999",
+            "incorrect_answers": [
+                [
+                    "Earth-616",
+                    "earth-616"
+                ],
+                [
+                    "Earth-10005",
+                    "earth-10005"
+                ],
+                [
+                    "Earth-2008",
+                    "earth-2008"
+                ]
+            ],
+            "correct_answers": [
+                "Earth-199999",
+                "earth-199999"
+            ],
+            "options": [
+                "Earth-616",
+                "Earth-10005",
+                "Earth-2008",
+                "Earth-199999"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the comic about a young boy, and a tiger who is actually a stuffed animal?",
+            "correct_answer": "Calvin and Hobbes",
+            "incorrect_answers": [
+                [
+                    "Winnie the Pooh",
+                    "winnie the pooh",
+                    "winnie pooh"
+                ],
+                [
+                    "Albert and Pogo",
+                    "albert and pogo"
+                ],
+                [
+                    "Peanuts",
+                    "peanuts"
+                ]
+            ],
+            "correct_answers": [
+                "Calvin and Hobbes",
+                "calvin and hobbes"
+            ],
+            "options": [
+                "Winnie the Pooh",
+                "Albert and Pogo",
+                "Peanuts",
+                "Calvin and Hobbes"
+            ]
+        }
+    ]
+}

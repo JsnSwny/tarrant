@@ -3,11 +3,11 @@ const fs = require("fs");
 
 const { nLengthNumber } = require("../server/functions");
 
-const API_URL = "https://opentdb.com/api.php?amount=50&difficulty=easy&type=multiple";
+const API_URL = "https://opentdb.com/api.php?amount=50&difficulty=hard&type=multiple";
 
-const STARTING_NUMBER = 301;
-const CALLS_TO_MAKE = 5;
-const DELAY_BETWEEN_CALLS = 2000;
+const STARTING_NUMBER = 201;
+const CALLS_TO_MAKE = 100;
+const DELAY_BETWEEN_CALLS = 3000;
 const STARTING_FILENAME = nLengthNumber(4, STARTING_NUMBER) + ".json";
 const TARGET_DIRECTORY = "api_responses/"
 

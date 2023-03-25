@@ -1,0 +1,221 @@
+{
+    "questions": [
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The eccentric natural philosopher Tycho Brahe kept what as a pet?",
+            "correct_answer": "Moose",
+            "incorrect_answers": [
+                [
+                    "Dog",
+                    "dog"
+                ],
+                [
+                    "Bear",
+                    "bear"
+                ],
+                [
+                    "Goat",
+                    "goat"
+                ]
+            ],
+            "correct_answers": [
+                "Moose",
+                "moose"
+            ],
+            "options": [
+                "Dog",
+                "Bear",
+                "Goat",
+                "Moose"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which school in Surrey, England did Steve Backshall attend?",
+            "correct_answer": "Collingwood College",
+            "incorrect_answers": [
+                [
+                    "Tomlinscote School",
+                    "tomlinscote school"
+                ],
+                [
+                    "Kings International College",
+                    "kings international college"
+                ],
+                [
+                    "Lyndhurst School",
+                    "lyndhurst school"
+                ]
+            ],
+            "correct_answers": [
+                "Collingwood College",
+                "collingwood college"
+            ],
+            "options": [
+                "Tomlinscote School",
+                "Kings International College",
+                "Lyndhurst School",
+                "Collingwood College"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Gabe Newell was born in which year?",
+            "correct_answer": "1962 ",
+            "incorrect_answers": [
+                [
+                    "1970",
+                    "1970"
+                ],
+                [
+                    "1960",
+                    "1960"
+                ],
+                [
+                    "1972",
+                    "1972"
+                ]
+            ],
+            "correct_answers": [
+                "1962 ",
+                "1962 "
+            ],
+            "options": [
+                "1970",
+                "1960",
+                "1972",
+                "1962 "
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who was Donald Trump's first wife?",
+            "correct_answer": "Ivana Zeln&iacute;čkov&aacute;",
+            "incorrect_answers": [
+                [
+                    "Melania Knauss",
+                    "melania knauss"
+                ],
+                [
+                    "Marla Maples",
+                    "marla maples"
+                ],
+                [
+                    "Nancy Davis",
+                    "nancy davis"
+                ]
+            ],
+            "correct_answers": [
+                "Ivana Zeln&iacute;čkov&aacute;",
+                "ivana zeln&iacute;čkov&aacute;"
+            ],
+            "options": [
+                "Melania Knauss",
+                "Marla Maples",
+                "Nancy Davis",
+                "Ivana Zeln&iacute;čkov&aacute;"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Billy Herrington is from which US state?",
+            "correct_answer": "New York",
+            "incorrect_answers": [
+                [
+                    "Arizona",
+                    "arizona"
+                ],
+                [
+                    "California",
+                    "california"
+                ],
+                [
+                    "Georgia",
+                    "georgia"
+                ]
+            ],
+            "correct_answers": [
+                "New York",
+                "new york"
+            ],
+            "options": [
+                "Arizona",
+                "California",
+                "Georgia",
+                "New York"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How tall is Tom Cruise?",
+            "correct_answer": "5&prime; 7&Prime;",
+            "incorrect_answers": [
+                [
+                    "5&prime; 9&Prime;",
+                    "5&prime; 9&prime;"
+                ],
+                [
+                    "5&prime; 4&Prime;",
+                    "5&prime; 4&prime;"
+                ],
+                [
+                    "5&prime; 5&Prime;",
+                    "5&prime; 5&prime;"
+                ]
+            ],
+            "correct_answers": [
+                "5&prime; 7&Prime;",
+                "5&prime; 7&prime;"
+            ],
+            "options": [
+                "5&prime; 9&Prime;",
+                "5&prime; 4&Prime;",
+                "5&prime; 5&Prime;",
+                "5&prime; 7&Prime;"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the religion of famous singer &quot;Freddie Mercury&quot;?",
+            "correct_answer": "Zoroastrianism",
+            "incorrect_answers": [
+                [
+                    "Paganism",
+                    "paganism"
+                ],
+                [
+                    "Ashurism",
+                    "ashurism"
+                ],
+                [
+                    "Judaism",
+                    "judaism"
+                ]
+            ],
+            "correct_answers": [
+                "Zoroastrianism",
+                "zoroastrianism"
+            ],
+            "options": [
+                "Paganism",
+                "Ashurism",
+                "Judaism",
+                "Zoroastrianism"
+            ]
+        }
+    ]
+}

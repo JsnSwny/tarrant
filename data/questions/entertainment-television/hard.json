@@ -1,0 +1,886 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What's Dr. Doofenshmirtz first name?",
+            "correct_answer": "Heinz",
+            "incorrect_answers": [
+                [
+                    "Hans",
+                    "hans"
+                ],
+                [
+                    "Hank",
+                    "hank"
+                ],
+                [
+                    "Heidi",
+                    "heidi"
+                ]
+            ],
+            "correct_answers": [
+                "Heinz",
+                "heinz"
+            ],
+            "options": [
+                "Hans",
+                "Hank",
+                "Heidi",
+                "Heinz"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which country does the YouTuber &quot;SinowBeats&quot; originate from?",
+            "correct_answer": "Scotland",
+            "incorrect_answers": [
+                [
+                    "England",
+                    "england"
+                ],
+                [
+                    "Sweden",
+                    "sweden"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ]
+            ],
+            "correct_answers": [
+                "Scotland",
+                "scotland"
+            ],
+            "options": [
+                "England",
+                "Sweden",
+                "Germany",
+                "Scotland"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Star Trek, what is the name of Spock's father?",
+            "correct_answer": "Sarek",
+            "incorrect_answers": [
+                [
+                    "Tuvok",
+                    "tuvok"
+                ],
+                [
+                    "T'Pal",
+                    "t'pal",
+                    "tpal"
+                ],
+                [
+                    "Surak",
+                    "surak"
+                ]
+            ],
+            "correct_answers": [
+                "Sarek",
+                "sarek"
+            ],
+            "options": [
+                "Tuvok",
+                "T'Pal",
+                "Surak",
+                "Sarek"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In season one of the US Kitchen Nightmares, Gordan Ramsay tried to save 10 different restaurants. How many ended up closing afterwards?",
+            "correct_answer": "9",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "0",
+                    "0"
+                ]
+            ],
+            "correct_answers": [
+                "9",
+                "9"
+            ],
+            "options": [
+                "6",
+                "3",
+                "0",
+                "9"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who was the winner of &quot;Big Brother&quot; Season 10?",
+            "correct_answer": "Dan Gheesling",
+            "incorrect_answers": [
+                [
+                    "Bryce Kranyik",
+                    "bryce kranyik"
+                ],
+                [
+                    "Ryan Sutfin",
+                    "ryan sutfin"
+                ],
+                [
+                    "Chris Mundorf",
+                    "chris mundorf"
+                ]
+            ],
+            "correct_answers": [
+                "Dan Gheesling",
+                "dan gheesling"
+            ],
+            "options": [
+                "Bryce Kranyik",
+                "Ryan Sutfin",
+                "Chris Mundorf",
+                "Dan Gheesling"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Donkey Kong Country&quot;, why does Donkey Kong want to know the secret of the crystal coconut?",
+            "correct_answer": "He&#039;s the big kahuna.",
+            "incorrect_answers": [
+                [
+                    "To find out where all the bananas are.",
+                    "to find out where all the bananas are.",
+                    "to find out where all bananas are."
+                ],
+                [
+                    "Because Diddy Kong forced him.",
+                    "because diddy kong forced him."
+                ],
+                [
+                    "He wants to punish brutes.",
+                    "he wants to punish brutes."
+                ]
+            ],
+            "correct_answers": [
+                "He's the big kahuna.",
+                "he's the big kahuna.",
+                "he's big kahuna.",
+                "hes the big kahuna."
+            ],
+            "options": [
+                "To find out where all the bananas are.",
+                "Because Diddy Kong forced him.",
+                "He wants to punish brutes.",
+                "He's the big kahuna."
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?",
+            "correct_answer": "Amanda Barrie",
+            "incorrect_answers": [
+                [
+                    "Sue Nicholls",
+                    "sue nicholls"
+                ],
+                [
+                    "Violet Carson",
+                    "violet carson"
+                ],
+                [
+                    "Jean Alexander",
+                    "jean alexander"
+                ]
+            ],
+            "correct_answers": [
+                "Amanda Barrie",
+                "amanda barrie"
+            ],
+            "options": [
+                "Sue Nicholls",
+                "Violet Carson",
+                "Jean Alexander",
+                "Amanda Barrie"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the show 'Doctor Who', what is the name of the time-capsule model stolen by 'the Doctor'?",
+            "correct_answer": "TT Type 40, Mark 3 (TARDIS)",
+            "incorrect_answers": [
+                [
+                    "TT Type 1, Mark 3 (TARDIS)",
+                    "tt type 1, mark 3 (tardis)"
+                ],
+                [
+                    "TT Type 40, Mark 5 (TARDIS)",
+                    "tt type 40, mark 5 (tardis)"
+                ],
+                [
+                    "TT Type 1, Mark 5 (TARDIS)",
+                    "tt type 1, mark 5 (tardis)"
+                ]
+            ],
+            "correct_answers": [
+                "TT Type 40, Mark 3 (TARDIS)",
+                "tt type 40, mark 3 (tardis)"
+            ],
+            "options": [
+                "TT Type 1, Mark 3 (TARDIS)",
+                "TT Type 40, Mark 5 (TARDIS)",
+                "TT Type 1, Mark 5 (TARDIS)",
+                "TT Type 40, Mark 3 (TARDIS)"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the UK &quot;Who Wants to be a Millionaire?&quot; cheating scandal known as?",
+            "correct_answer": "Major Fraud",
+            "incorrect_answers": [
+                [
+                    "Ingram Cheater",
+                    "ingram cheater"
+                ],
+                [
+                    "Coughing Major",
+                    "coughing major"
+                ],
+                [
+                    "Millionaire Crime",
+                    "millionaire crime"
+                ]
+            ],
+            "correct_answers": [
+                "Major Fraud",
+                "major fraud"
+            ],
+            "options": [
+                "Ingram Cheater",
+                "Coughing Major",
+                "Millionaire Crime",
+                "Major Fraud"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Star Trek&quot;, what is the Klingon delicacy of &quot;gagh&quot; made from?",
+            "correct_answer": "Serpent worms",
+            "incorrect_answers": [
+                [
+                    "Earthworms",
+                    "earthworms"
+                ],
+                [
+                    "Spaghetti noodles",
+                    "spaghetti noodles"
+                ],
+                [
+                    "Klingworms",
+                    "klingworms"
+                ]
+            ],
+            "correct_answers": [
+                "Serpent worms",
+                "serpent worms"
+            ],
+            "options": [
+                "Earthworms",
+                "Spaghetti noodles",
+                "Klingworms",
+                "Serpent worms"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these voices wasn't a choice for the House AI in &quot;The Simpsons Treehouse of Horror&quot; short, House of Whacks?",
+            "correct_answer": "George Clooney",
+            "incorrect_answers": [
+                [
+                    "Matthew Perry",
+                    "matthew perry"
+                ],
+                [
+                    "Dennis Miller",
+                    "dennis miller"
+                ],
+                [
+                    "Pierce Brosnan",
+                    "pierce brosnan"
+                ]
+            ],
+            "correct_answers": [
+                "George Clooney",
+                "george clooney"
+            ],
+            "options": [
+                "Matthew Perry",
+                "Dennis Miller",
+                "Pierce Brosnan",
+                "George Clooney"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of the inflatable duck sacrified to the crowd at the end of Episode 34 of the 18th season of Big Brother?",
+            "correct_answer": "Pablo",
+            "incorrect_answers": [
+                [
+                    "Esteban",
+                    "esteban"
+                ],
+                [
+                    "Carlos",
+                    "carlos"
+                ],
+                [
+                    "Duckster",
+                    "duckster"
+                ]
+            ],
+            "correct_answers": [
+                "Pablo",
+                "pablo"
+            ],
+            "options": [
+                "Esteban",
+                "Carlos",
+                "Duckster",
+                "Pablo"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Prior to working at Wizards of the Coast, &quot;Mark Rosewater&quot; was a writer for which show?",
+            "correct_answer": "Roseanne",
+            "incorrect_answers": [
+                [
+                    "Boy Meets World",
+                    "boy meets world"
+                ],
+                [
+                    "The X-Files",
+                    "the x-files",
+                    "x-files"
+                ],
+                [
+                    "NYPD Blue",
+                    "nypd blue"
+                ]
+            ],
+            "correct_answers": [
+                "Roseanne",
+                "roseanne"
+            ],
+            "options": [
+                "Boy Meets World",
+                "The X-Files",
+                "NYPD Blue",
+                "Roseanne"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the date of original airing of the pilot episode of My Little Pony: Friendship is Magic?",
+            "correct_answer": "October 10th, 2010",
+            "incorrect_answers": [
+                [
+                    "November 6th, 2010",
+                    "november 6th, 2010"
+                ],
+                [
+                    "April 14th, 1984",
+                    "april 14th, 1984"
+                ],
+                [
+                    "May 18th, 2015",
+                    "may 18th, 2015"
+                ]
+            ],
+            "correct_answers": [
+                "October 10th, 2010",
+                "october 10th, 2010"
+            ],
+            "options": [
+                "November 6th, 2010",
+                "April 14th, 1984",
+                "May 18th, 2015",
+                "October 10th, 2010"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?",
+            "correct_answer": "Rik Mayall",
+            "incorrect_answers": [
+                [
+                    "Adrian Edmondson",
+                    "adrian edmondson"
+                ],
+                [
+                    "Nigel Planer",
+                    "nigel planer"
+                ],
+                [
+                    "Christopher Ryan",
+                    "christopher ryan"
+                ]
+            ],
+            "correct_answers": [
+                "Rik Mayall",
+                "rik mayall"
+            ],
+            "options": [
+                "Adrian Edmondson",
+                "Nigel Planer",
+                "Christopher Ryan",
+                "Rik Mayall"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?",
+            "correct_answer": "Slipping off a cliff, and nearly drowning in icy water",
+            "incorrect_answers": [
+                [
+                    "Crash landing when arriving at Keflav&iacute;k airport",
+                    "crash landing when arriving at keflav&iacute;k airport"
+                ],
+                [
+                    "A minor car accident in a snowstorm",
+                    "a minor car accident in a snowstorm"
+                ],
+                [
+                    "Being served under-cooked chicken at his hotel",
+                    "being served under-cooked chicken at his hotel"
+                ]
+            ],
+            "correct_answers": [
+                "Slipping off a cliff, and nearly drowning in icy water",
+                "slipping off a cliff, and nearly drowning in icy water"
+            ],
+            "options": [
+                "Crash landing when arriving at Keflav&iacute;k airport",
+                "A minor car accident in a snowstorm",
+                "Being served under-cooked chicken at his hotel",
+                "Slipping off a cliff, and nearly drowning in icy water"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who played the sun baby in the original run of Teletubbies?",
+            "correct_answer": "Jessica Smith",
+            "incorrect_answers": [
+                [
+                    "Pui Fan Lee",
+                    "pui fan lee"
+                ],
+                [
+                    "Sue Monroe",
+                    "sue monroe"
+                ],
+                [
+                    "Lisa Brockwell",
+                    "lisa brockwell"
+                ]
+            ],
+            "correct_answers": [
+                "Jessica Smith",
+                "jessica smith"
+            ],
+            "options": [
+                "Pui Fan Lee",
+                "Sue Monroe",
+                "Lisa Brockwell",
+                "Jessica Smith"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these in the Star Trek series is NOT Klingon food?",
+            "correct_answer": "Hors d&#039;oeuvre",
+            "incorrect_answers": [
+                [
+                    "Racht",
+                    "racht"
+                ],
+                [
+                    "Gagh",
+                    "gagh"
+                ],
+                [
+                    "Bloodwine",
+                    "bloodwine"
+                ]
+            ],
+            "correct_answers": [
+                "Hors d'oeuvre",
+                "hors d'oeuvre",
+                "hors doeuvre"
+            ],
+            "options": [
+                "Racht",
+                "Gagh",
+                "Bloodwine",
+                "Hors d'oeuvre"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the TV Show &quot;Donkey Kong Country&quot;, which episode did the song &quot;Eddie, Let Me Go Back To My Home&quot; play in?",
+            "correct_answer": "It&#039;s a Wonderful Life",
+            "incorrect_answers": [
+                [
+                    "Message In A Bottle Show",
+                    "message in a bottle show"
+                ],
+                [
+                    "To The Moon Baboon",
+                    "to the moon baboon",
+                    "to moon baboon"
+                ],
+                [
+                    "Ape-Nesia",
+                    "ape-nesia"
+                ]
+            ],
+            "correct_answers": [
+                "It's a Wonderful Life",
+                "it's a wonderful life",
+                "its a wonderful life"
+            ],
+            "options": [
+                "Message In A Bottle Show",
+                "To The Moon Baboon",
+                "Ape-Nesia",
+                "It's a Wonderful Life"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Star Trek&quot;, who was the founder of the Klingon Empire and its philosophy?",
+            "correct_answer": "Kahless the Unforgettable",
+            "incorrect_answers": [
+                [
+                    "Lady Lukara of the Great Hall",
+                    "lady lukara of the great hall",
+                    "lady lukara of great hall"
+                ],
+                [
+                    "Molor the Unforgiving",
+                    "molor the unforgiving",
+                    "molor unforgiving"
+                ],
+                [
+                    "Dahar Master Kor",
+                    "dahar master kor"
+                ]
+            ],
+            "correct_answers": [
+                "Kahless the Unforgettable",
+                "kahless the unforgettable",
+                "kahless unforgettable"
+            ],
+            "options": [
+                "Lady Lukara of the Great Hall",
+                "Molor the Unforgiving",
+                "Dahar Master Kor",
+                "Kahless the Unforgettable"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Star Trek&quot;, what sauce is commonly used by Klingons on bregit lung?",
+            "correct_answer": "Grapok sauce",
+            "incorrect_answers": [
+                [
+                    "Gazorpazorp pudding",
+                    "gazorpazorp pudding"
+                ],
+                [
+                    "Sweet chili sauce",
+                    "sweet chili sauce"
+                ],
+                [
+                    "Grapork sauce",
+                    "grapork sauce"
+                ]
+            ],
+            "correct_answers": [
+                "Grapok sauce",
+                "grapok sauce"
+            ],
+            "options": [
+                "Gazorpazorp pudding",
+                "Sweet chili sauce",
+                "Grapork sauce",
+                "Grapok sauce"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;It's Always Sunny in Philadelphia&quot; what was the name of Frank's wrestling persona?",
+            "correct_answer": "The Trash Man",
+            "incorrect_answers": [
+                [
+                    "Bird of War",
+                    "bird of war"
+                ],
+                [
+                    "Day Man",
+                    "day man"
+                ],
+                [
+                    "The Maniac",
+                    "the maniac",
+                    "maniac"
+                ]
+            ],
+            "correct_answers": [
+                "The Trash Man",
+                "the trash man",
+                "trash man"
+            ],
+            "options": [
+                "Bird of War",
+                "Day Man",
+                "The Maniac",
+                "The Trash Man"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
+            "correct_answer": "Husker",
+            "incorrect_answers": [
+                [
+                    "Starbuck",
+                    "starbuck"
+                ],
+                [
+                    "Apollo",
+                    "apollo"
+                ],
+                [
+                    "Crashdown",
+                    "crashdown"
+                ]
+            ],
+            "correct_answers": [
+                "Husker",
+                "husker"
+            ],
+            "options": [
+                "Starbuck",
+                "Apollo",
+                "Crashdown",
+                "Husker"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The theme for the popular science fiction series &quot;Doctor Who&quot; was composed by who?",
+            "correct_answer": "Ron Grainer",
+            "incorrect_answers": [
+                [
+                    "Murray Gold",
+                    "murray gold"
+                ],
+                [
+                    "Delia Derbyshire",
+                    "delia derbyshire"
+                ],
+                [
+                    "Peter Howell",
+                    "peter howell"
+                ]
+            ],
+            "correct_answers": [
+                "Ron Grainer",
+                "ron grainer"
+            ],
+            "options": [
+                "Murray Gold",
+                "Delia Derbyshire",
+                "Peter Howell",
+                "Ron Grainer"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which race enjoys a glass of warm baghol in &quot;Star Trek&quot;?",
+            "correct_answer": "Klingon",
+            "incorrect_answers": [
+                [
+                    "Vulcan",
+                    "vulcan"
+                ],
+                [
+                    "Human",
+                    "human"
+                ],
+                [
+                    "Botha",
+                    "botha"
+                ]
+            ],
+            "correct_answers": [
+                "Klingon",
+                "klingon"
+            ],
+            "options": [
+                "Vulcan",
+                "Human",
+                "Botha",
+                "Klingon"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following actors portrayed the Ninth Doctor in the British television show &quot;Doctor Who&quot;?",
+            "correct_answer": "Christopher Eccleston",
+            "incorrect_answers": [
+                [
+                    "David Tennant",
+                    "david tennant"
+                ],
+                [
+                    "Matt Smith",
+                    "matt smith"
+                ],
+                [
+                    "Tom Baker",
+                    "tom baker"
+                ]
+            ],
+            "correct_answers": [
+                "Christopher Eccleston",
+                "christopher eccleston"
+            ],
+            "options": [
+                "David Tennant",
+                "Matt Smith",
+                "Tom Baker",
+                "Christopher Eccleston"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these Nickelodeon game shows aired first?",
+            "correct_answer": "Double Dare",
+            "incorrect_answers": [
+                [
+                    "Nick Arcade",
+                    "nick arcade"
+                ],
+                [
+                    "Finders Keepers",
+                    "finders keepers"
+                ],
+                [
+                    "Nickelodeon Guts",
+                    "nickelodeon guts"
+                ]
+            ],
+            "correct_answers": [
+                "Double Dare",
+                "double dare"
+            ],
+            "options": [
+                "Nick Arcade",
+                "Finders Keepers",
+                "Nickelodeon Guts",
+                "Double Dare"
+            ]
+        },
+        {
+            "category": "Entertainment: Television",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the Klingon's afterlife called?",
+            "correct_answer": "Sto-vo-kor",
+            "incorrect_answers": [
+                [
+                    "Valhalla",
+                    "valhalla"
+                ],
+                [
+                    "Karon'gahk",
+                    "karon'gahk",
+                    "karongahk"
+                ],
+                [
+                    "New Jersey",
+                    "new jersey"
+                ]
+            ],
+            "correct_answers": [
+                "Sto-vo-kor",
+                "sto-vo-kor"
+            ],
+            "options": [
+                "Valhalla",
+                "Karon'gahk",
+                "New Jersey",
+                "Sto-vo-kor"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1168 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following countries does &quot;JoJo's Bizarre Adventure: Stardust Crusaders&quot; not take place in?",
+            "correct_answer": "Philippines",
+            "incorrect_answers": [
+                [
+                    "India",
+                    "india"
+                ],
+                [
+                    "Pakistan",
+                    "pakistan"
+                ],
+                [
+                    "Egypt",
+                    "egypt"
+                ]
+            ],
+            "correct_answers": [
+                "Philippines",
+                "philippines"
+            ],
+            "options": [
+                "India",
+                "Pakistan",
+                "Egypt",
+                "Philippines"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What year was &quot;JoJo's Bizarre Adventure: Phantom Blood&quot; first released?",
+            "correct_answer": "1987",
+            "incorrect_answers": [
+                [
+                    "2013",
+                    "2013"
+                ],
+                [
+                    "1983",
+                    "1983"
+                ],
+                [
+                    "1995",
+                    "1995"
+                ]
+            ],
+            "correct_answers": [
+                "1987",
+                "1987"
+            ],
+            "options": [
+                "2013",
+                "1983",
+                "1995",
+                "1987"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Hunter x Hunter&quot;, what are members in Killua's family known for being?",
+            "correct_answer": "Assassins",
+            "incorrect_answers": [
+                [
+                    "Bandits",
+                    "bandits"
+                ],
+                [
+                    "Hunters",
+                    "hunters"
+                ],
+                [
+                    "Ninjas",
+                    "ninjas"
+                ]
+            ],
+            "correct_answers": [
+                "Assassins",
+                "assassins"
+            ],
+            "options": [
+                "Bandits",
+                "Hunters",
+                "Ninjas",
+                "Assassins"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which animation studio animated &quot;Psycho Pass&quot;?",
+            "correct_answer": "Production I.G",
+            "incorrect_answers": [
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ],
+                [
+                    "Shaft",
+                    "shaft"
+                ],
+                [
+                    "Trigger",
+                    "trigger"
+                ]
+            ],
+            "correct_answers": [
+                "Production I.G",
+                "production i.g"
+            ],
+            "options": [
+                "Kyoto Animation",
+                "Shaft",
+                "Trigger",
+                "Production I.G"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who was the Author of the manga Monster Hunter Orage?",
+            "correct_answer": "Hiro Mashima",
+            "incorrect_answers": [
+                [
+                    "Shin Yamamoto",
+                    "shin yamamoto"
+                ],
+                [
+                    "Keiichi Hikami",
+                    "keiichi hikami"
+                ],
+                [
+                    "Hirohiko Araki",
+                    "hirohiko araki"
+                ]
+            ],
+            "correct_answers": [
+                "Hiro Mashima",
+                "hiro mashima"
+            ],
+            "options": [
+                "Shin Yamamoto",
+                "Keiichi Hikami",
+                "Hirohiko Araki",
+                "Hiro Mashima"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Medaka Kurokami from &quot;Medaka Box&quot; has what abnormality?",
+            "correct_answer": "The End",
+            "incorrect_answers": [
+                [
+                    "Perfection",
+                    "perfection"
+                ],
+                [
+                    "Sandbox",
+                    "sandbox"
+                ],
+                [
+                    "Fairness",
+                    "fairness"
+                ]
+            ],
+            "correct_answers": [
+                "The End",
+                "the end",
+                "end"
+            ],
+            "options": [
+                "Perfection",
+                "Sandbox",
+                "Fairness",
+                "The End"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Dragon Ball&quot; franchise, what is the name of Goku's brother?",
+            "correct_answer": "Raditz",
+            "incorrect_answers": [
+                [
+                    "Gohan",
+                    "gohan"
+                ],
+                [
+                    "Vegeta",
+                    "vegeta"
+                ],
+                [
+                    "Bardock",
+                    "bardock"
+                ]
+            ],
+            "correct_answers": [
+                "Raditz",
+                "raditz"
+            ],
+            "options": [
+                "Gohan",
+                "Vegeta",
+                "Bardock",
+                "Raditz"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The &quot;To Love-Ru&quot; Manga was started in what year?",
+            "correct_answer": "2006",
+            "incorrect_answers": [
+                [
+                    "2007",
+                    "2007"
+                ],
+                [
+                    "2004",
+                    "2004"
+                ],
+                [
+                    "2005",
+                    "2005"
+                ]
+            ],
+            "correct_answers": [
+                "2006",
+                "2006"
+            ],
+            "options": [
+                "2007",
+                "2004",
+                "2005",
+                "2006"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which animation studio produced &quot;Log Horizon&quot;?",
+            "correct_answer": "Satelite",
+            "incorrect_answers": [
+                [
+                    "Sunrise",
+                    "sunrise"
+                ],
+                [
+                    "Xebec",
+                    "xebec"
+                ],
+                [
+                    "Production I.G",
+                    "production i.g"
+                ]
+            ],
+            "correct_answers": [
+                "Satelite",
+                "satelite"
+            ],
+            "options": [
+                "Sunrise",
+                "Xebec",
+                "Production I.G",
+                "Satelite"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who was the Director of the 1988 Anime film &quot;Grave of the Fireflies&quot;?",
+            "correct_answer": "Isao Takahata",
+            "incorrect_answers": [
+                [
+                    "Hayao Miyazaki",
+                    "hayao miyazaki"
+                ],
+                [
+                    "Satoshi Kon",
+                    "satoshi kon"
+                ],
+                [
+                    "Sunao Katabuchi",
+                    "sunao katabuchi"
+                ]
+            ],
+            "correct_answers": [
+                "Isao Takahata",
+                "isao takahata"
+            ],
+            "options": [
+                "Hayao Miyazaki",
+                "Satoshi Kon",
+                "Sunao Katabuchi",
+                "Isao Takahata"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which person from &quot;JoJo's Bizarre Adventure&quot; does NOT house a reference to a band, artist, or song earlier than 1980?",
+            "correct_answer": "Giorno Giovanna",
+            "incorrect_answers": [
+                [
+                    "Josuke Higashikata",
+                    "josuke higashikata"
+                ],
+                [
+                    "Jolyne Cujoh",
+                    "jolyne cujoh"
+                ],
+                [
+                    "Johnny Joestar",
+                    "johnny joestar"
+                ]
+            ],
+            "correct_answers": [
+                "Giorno Giovanna",
+                "giorno giovanna"
+            ],
+            "options": [
+                "Josuke Higashikata",
+                "Jolyne Cujoh",
+                "Johnny Joestar",
+                "Giorno Giovanna"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Winch of these names are not a character of JoJo's Bizarre Adventure?",
+            "correct_answer": "JoJo Kikasu",
+            "incorrect_answers": [
+                [
+                    "Jean-Pierre Polnareff",
+                    "jean-pierre polnareff"
+                ],
+                [
+                    "George Joestar",
+                    "george joestar"
+                ],
+                [
+                    "Risotto Nero",
+                    "risotto nero"
+                ]
+            ],
+            "correct_answers": [
+                "JoJo Kikasu",
+                "jojo kikasu"
+            ],
+            "options": [
+                "Jean-Pierre Polnareff",
+                "George Joestar",
+                "Risotto Nero",
+                "JoJo Kikasu"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;One Piece&quot;, who confirms the existence of the legendary treasure, One Piece?",
+            "correct_answer": "Edward &quot;Whitebeard&quot; Newgate",
+            "incorrect_answers": [
+                [
+                    "Former Marine Fleet Admiral Sengoku",
+                    "former marine fleet admiral sengoku"
+                ],
+                [
+                    "Pirate King Gol D Roger",
+                    "pirate king gol d roger"
+                ],
+                [
+                    "Silvers Rayleigh",
+                    "silvers rayleigh"
+                ]
+            ],
+            "correct_answers": [
+                "Edward &quot;Whitebeard&quot; Newgate",
+                "edward &quot;whitebeard&quot; newgate"
+            ],
+            "options": [
+                "Former Marine Fleet Admiral Sengoku",
+                "Pirate King Gol D Roger",
+                "Silvers Rayleigh",
+                "Edward &quot;Whitebeard&quot; Newgate"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the horror manga artist who made Uzumaki?",
+            "correct_answer": "Junji Ito",
+            "incorrect_answers": [
+                [
+                    "Kazuo Umezu",
+                    "kazuo umezu"
+                ],
+                [
+                    "Shintaro Kago",
+                    "shintaro kago"
+                ],
+                [
+                    "Sui Ishida",
+                    "sui ishida"
+                ]
+            ],
+            "correct_answers": [
+                "Junji Ito",
+                "junji ito"
+            ],
+            "options": [
+                "Kazuo Umezu",
+                "Shintaro Kago",
+                "Sui Ishida",
+                "Junji Ito"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the first episode of Yu-Gi-Oh: Duel Monsters, what book is Seto Kaiba seen reading at Domino High School?",
+            "correct_answer": "Thus Spoke Zarathustra",
+            "incorrect_answers": [
+                [
+                    "Beyond Good and Evil",
+                    "beyond good and evil"
+                ],
+                [
+                    "The Republic",
+                    "the republic",
+                    "republic"
+                ],
+                [
+                    "Meditations",
+                    "meditations"
+                ]
+            ],
+            "correct_answers": [
+                "Thus Spoke Zarathustra",
+                "thus spoke zarathustra"
+            ],
+            "options": [
+                "Beyond Good and Evil",
+                "The Republic",
+                "Meditations",
+                "Thus Spoke Zarathustra"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Overlord Anime who was Cocytus made by?",
+            "correct_answer": "Warrior Takemikazuchi",
+            "incorrect_answers": [
+                [
+                    "Peroroncino",
+                    "peroroncino"
+                ],
+                [
+                    "Ulbert Alain Odle",
+                    "ulbert alain odle"
+                ],
+                [
+                    "Bukubukuchagama",
+                    "bukubukuchagama"
+                ]
+            ],
+            "correct_answers": [
+                "Warrior Takemikazuchi",
+                "warrior takemikazuchi"
+            ],
+            "options": [
+                "Peroroncino",
+                "Ulbert Alain Odle",
+                "Bukubukuchagama",
+                "Warrior Takemikazuchi"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Akatsuki's subclass in &quot;Log Horizon&quot; is what?",
+            "correct_answer": " Tracker",
+            "incorrect_answers": [
+                [
+                    "Assassin",
+                    "assassin"
+                ],
+                [
+                    "Scribe",
+                    "scribe"
+                ],
+                [
+                    "Apprentice",
+                    "apprentice"
+                ]
+            ],
+            "correct_answers": [
+                " Tracker",
+                " tracker"
+            ],
+            "options": [
+                "Assassin",
+                "Scribe",
+                "Apprentice",
+                " Tracker"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the anime, Full Metal Panic!, who is Kaname's best friend?",
+            "correct_answer": "Kyoko Tokiwa",
+            "incorrect_answers": [
+                [
+                    "Melissa Mao",
+                    "melissa mao"
+                ],
+                [
+                    "Ren Mikihara",
+                    "ren mikihara"
+                ],
+                [
+                    "Teletha &quot;Tessa&quot; Testarossa",
+                    "teletha &quot;tessa&quot; testarossa"
+                ]
+            ],
+            "correct_answers": [
+                "Kyoko Tokiwa",
+                "kyoko tokiwa"
+            ],
+            "options": [
+                "Melissa Mao",
+                "Ren Mikihara",
+                "Teletha &quot;Tessa&quot; Testarossa",
+                "Kyoko Tokiwa"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Highschool of the Dead&quot;, where did Komuro and Saeko establish to meet after the bus explosion?",
+            "correct_answer": "Eastern Police Station",
+            "incorrect_answers": [
+                [
+                    "The Center Mall",
+                    "the center mall",
+                    "center mall"
+                ],
+                [
+                    "Komuro's House",
+                    "komuro's house",
+                    "komuros house"
+                ],
+                [
+                    "On The Main Bridge",
+                    "on the main bridge",
+                    "on main bridge"
+                ]
+            ],
+            "correct_answers": [
+                "Eastern Police Station",
+                "eastern police station"
+            ],
+            "options": [
+                "The Center Mall",
+                "Komuro's House",
+                "On The Main Bridge",
+                "Eastern Police Station"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which animation studio produced &quot;Sword Art Online&quot;?",
+            "correct_answer": "A-1 Pictures",
+            "incorrect_answers": [
+                [
+                    "Production I.G",
+                    "production i.g"
+                ],
+                [
+                    "Silver Link",
+                    "silver link"
+                ],
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ]
+            ],
+            "correct_answers": [
+                "A-1 Pictures",
+                "a-1 pictures"
+            ],
+            "options": [
+                "Production I.G",
+                "Silver Link",
+                "Kyoto Animation",
+                "A-1 Pictures"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which song was the callsign for Stefan Verdemann's KWFM radio station in Urasawa Naoki's &quot;Monster&quot;?",
+            "correct_answer": "Over the Rainbow",
+            "incorrect_answers": [
+                [
+                    "What a Wonderful World",
+                    "what a wonderful world"
+                ],
+                [
+                    "When You Wish Upon A Star",
+                    "when you wish upon a star"
+                ],
+                [
+                    "Singing In The Rain",
+                    "singing in the rain",
+                    "singing in rain"
+                ]
+            ],
+            "correct_answers": [
+                "Over the Rainbow",
+                "over the rainbow",
+                "over rainbow"
+            ],
+            "options": [
+                "What a Wonderful World",
+                "When You Wish Upon A Star",
+                "Singing In The Rain",
+                "Over the Rainbow"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;One Piece&quot;, what does &quot;the Pirate King&quot; mean to the captain of the Straw Hat Pirates?",
+            "correct_answer": "Freedom",
+            "incorrect_answers": [
+                [
+                    "Promise",
+                    "promise"
+                ],
+                [
+                    "Adventure",
+                    "adventure"
+                ],
+                [
+                    "Friendship",
+                    "friendship"
+                ]
+            ],
+            "correct_answers": [
+                "Freedom",
+                "freedom"
+            ],
+            "options": [
+                "Promise",
+                "Adventure",
+                "Friendship",
+                "Freedom"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these anime have over 7,500 episodes?",
+            "correct_answer": "Sazae-san",
+            "incorrect_answers": [
+                [
+                    "Naruto",
+                    "naruto"
+                ],
+                [
+                    "One Piece",
+                    "one piece"
+                ],
+                [
+                    "Chibi Maruko-chan",
+                    "chibi maruko-chan"
+                ]
+            ],
+            "correct_answers": [
+                "Sazae-san",
+                "sazae-san"
+            ],
+            "options": [
+                "Naruto",
+                "One Piece",
+                "Chibi Maruko-chan",
+                "Sazae-san"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which animation studio animated &quot;Hidamari Sketch&quot;?",
+            "correct_answer": "Shaft",
+            "incorrect_answers": [
+                [
+                    "Trigger",
+                    "trigger"
+                ],
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ],
+                [
+                    "Production I.G",
+                    "production i.g"
+                ]
+            ],
+            "correct_answers": [
+                "Shaft",
+                "shaft"
+            ],
+            "options": [
+                "Trigger",
+                "Kyoto Animation",
+                "Production I.G",
+                "Shaft"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;One Piece&quot;, who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
+            "correct_answer": "Koala",
+            "incorrect_answers": [
+                [
+                    "Boa Hancock",
+                    "boa hancock"
+                ],
+                [
+                    "Nico Robin",
+                    "nico robin"
+                ],
+                [
+                    "Emporio Ivankov ",
+                    "emporio ivankov "
+                ]
+            ],
+            "correct_answers": [
+                "Koala",
+                "koala"
+            ],
+            "options": [
+                "Boa Hancock",
+                "Nico Robin",
+                "Emporio Ivankov ",
+                "Koala"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Jewelpet Sunshine&quot;, what is the song that plays when Kanon and her friends bust out of prison?",
+            "correct_answer": "I Don&#039;t Want to Miss a Thing",
+            "incorrect_answers": [
+                [
+                    "Eye Of The Tiger",
+                    "eye of the tiger",
+                    "eye of tiger"
+                ],
+                [
+                    "Born to be Wild",
+                    "born to be wild"
+                ],
+                [
+                    "Ruby Ring",
+                    "ruby ring"
+                ]
+            ],
+            "correct_answers": [
+                "I Don't Want to Miss a Thing",
+                "i don't want to miss a thing",
+                "i dont want to miss a thing"
+            ],
+            "options": [
+                "Eye Of The Tiger",
+                "Born to be Wild",
+                "Ruby Ring",
+                "I Don't Want to Miss a Thing"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which animation studio animated &quot;To Love-Ru&quot;?",
+            "correct_answer": "Xebec",
+            "incorrect_answers": [
+                [
+                    "Trigger",
+                    "trigger"
+                ],
+                [
+                    "Sunrise",
+                    "sunrise"
+                ],
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ]
+            ],
+            "correct_answers": [
+                "Xebec",
+                "xebec"
+            ],
+            "options": [
+                "Trigger",
+                "Sunrise",
+                "Kyoto Animation",
+                "Xebec"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who was the Author of the manga Uzumaki?",
+            "correct_answer": "Junji Ito",
+            "incorrect_answers": [
+                [
+                    "\tNoboru Takahashi",
+                    "\tnoboru takahashi"
+                ],
+                [
+                    "Akira Toriyama",
+                    "akira toriyama"
+                ],
+                [
+                    "Masashi Kishimoto",
+                    "masashi kishimoto"
+                ]
+            ],
+            "correct_answers": [
+                "Junji Ito",
+                "junji ito"
+            ],
+            "options": [
+                "\tNoboru Takahashi",
+                "Akira Toriyama",
+                "Masashi Kishimoto",
+                "Junji Ito"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which animation studio produced the anime adaptation of &quot;xxxHolic&quot;?",
+            "correct_answer": "Production I.G",
+            "incorrect_answers": [
+                [
+                    "Sunrise",
+                    "sunrise"
+                ],
+                [
+                    "Xebec",
+                    "xebec"
+                ],
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ]
+            ],
+            "correct_answers": [
+                "Production I.G",
+                "production i.g"
+            ],
+            "options": [
+                "Sunrise",
+                "Xebec",
+                "Kyoto Animation",
+                "Production I.G"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the anime Initial D, how does Takumi Fujiwara describe a drift?",
+            "correct_answer": "&#039;. . . the front tires slide so the car won&#039;t face the inside&#039;",
+            "incorrect_answers": [
+                [
+                    "'. . . the wheels lose traction, making the car slide sideways'",
+                    "'. . . the wheels lose traction, making the car slide sideways'",
+                    "'. . . wheels lose traction, making car slide sideways'",
+                    ". . . the wheels lose traction, making the car slide sideways"
+                ],
+                [
+                    "'. . . the car oversteers through a curve, causing it to turn faster'",
+                    "'. . . the car oversteers through a curve, causing it to turn faster'",
+                    "'. . . car oversteers through a curve, causing it to turn faster'",
+                    ". . . the car oversteers through a curve, causing it to turn faster"
+                ],
+                [
+                    "'. . . you turn a lot'",
+                    "'. . . you turn a lot'",
+                    ". . . you turn a lot"
+                ]
+            ],
+            "correct_answers": [
+                "'. . . the front tires slide so the car won't face the inside'",
+                "'. . . the front tires slide so the car won't face the inside'",
+                "'. . . front tires slide so car won't face inside'",
+                ". . . the front tires slide so the car wont face the inside"
+            ],
+            "options": [
+                "'. . . the wheels lose traction, making the car slide sideways'",
+                "'. . . the car oversteers through a curve, causing it to turn faster'",
+                "'. . . you turn a lot'",
+                "'. . . the front tires slide so the car won't face the inside'"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Hunter x Hunter&quot;, which of the following is NOT a type of Nen aura?",
+            "correct_answer": "Restoration",
+            "incorrect_answers": [
+                [
+                    "Emission",
+                    "emission"
+                ],
+                [
+                    "Transmutation",
+                    "transmutation"
+                ],
+                [
+                    "Specialization",
+                    "specialization"
+                ]
+            ],
+            "correct_answers": [
+                "Restoration",
+                "restoration"
+            ],
+            "options": [
+                "Emission",
+                "Transmutation",
+                "Specialization",
+                "Restoration"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which studio animated Afro Samurai?",
+            "correct_answer": "Gonzo",
+            "incorrect_answers": [
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ],
+                [
+                    "xebec",
+                    "xebec"
+                ],
+                [
+                    "Production I.G",
+                    "production i.g"
+                ]
+            ],
+            "correct_answers": [
+                "Gonzo",
+                "gonzo"
+            ],
+            "options": [
+                "Kyoto Animation",
+                "xebec",
+                "Production I.G",
+                "Gonzo"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the school in the anime and manga &quot;Gosick&quot;?",
+            "correct_answer": "St. Marguerite",
+            "incorrect_answers": [
+                [
+                    "St. Augustine",
+                    "st. augustine"
+                ],
+                [
+                    "St. Mary",
+                    "st. mary"
+                ],
+                [
+                    "St. Bernadette",
+                    "st. bernadette"
+                ]
+            ],
+            "correct_answers": [
+                "St. Marguerite",
+                "st. marguerite"
+            ],
+            "options": [
+                "St. Augustine",
+                "St. Mary",
+                "St. Bernadette",
+                "St. Marguerite"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which one of these characters is from &quot;Legendz : Tale of the Dragon Kings&quot;?",
+            "correct_answer": "Shiron",
+            "incorrect_answers": [
+                [
+                    "Jack",
+                    "jack"
+                ],
+                [
+                    "Axia",
+                    "axia"
+                ],
+                [
+                    "Drum",
+                    "drum"
+                ]
+            ],
+            "correct_answers": [
+                "Shiron",
+                "shiron"
+            ],
+            "options": [
+                "Jack",
+                "Axia",
+                "Drum",
+                "Shiron"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In which manga did the &quot;404 Girl&quot; from 4chan originate from?",
+            "correct_answer": "Yotsuba&amp;!",
+            "incorrect_answers": [
+                [
+                    "Azumanga Daioh",
+                    "azumanga daioh"
+                ],
+                [
+                    "Lucky Star",
+                    "lucky star"
+                ],
+                [
+                    "Clover",
+                    "clover"
+                ]
+            ],
+            "correct_answers": [
+                "Yotsuba&amp;!",
+                "yotsuba&amp;!"
+            ],
+            "options": [
+                "Azumanga Daioh",
+                "Lucky Star",
+                "Clover",
+                "Yotsuba&amp;!"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
+            "correct_answer": "&quot;How disgusting.&quot;",
+            "incorrect_answers": [
+                [
+                    "&quot;Idiot, I won't let you kill me!&quot;",
+                    "&quot;idiot, i won't let you kill me!&quot;",
+                    "&quot;idiot, i wont let you kill me!&quot;"
+                ],
+                [
+                    "&quot;Nothing.&quot;",
+                    "&quot;nothing.&quot;"
+                ],
+                [
+                    "&quot;Goddammit, Shinji.&quot;",
+                    "&quot;goddammit, shinji.&quot;"
+                ]
+            ],
+            "correct_answers": [
+                "&quot;How disgusting.&quot;",
+                "&quot;how disgusting.&quot;"
+            ],
+            "options": [
+                "&quot;Idiot, I won't let you kill me!&quot;",
+                "&quot;Nothing.&quot;",
+                "&quot;Goddammit, Shinji.&quot;",
+                "&quot;How disgusting.&quot;"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In what year did the manga &quot;Ping Pong&quot; begin serialization?",
+            "correct_answer": "1996",
+            "incorrect_answers": [
+                [
+                    "2014",
+                    "2014"
+                ],
+                [
+                    "2010",
+                    "2010"
+                ],
+                [
+                    "2003",
+                    "2003"
+                ]
+            ],
+            "correct_answers": [
+                "1996",
+                "1996"
+            ],
+            "options": [
+                "2014",
+                "2010",
+                "2003",
+                "1996"
+            ]
+        }
+    ]
+}

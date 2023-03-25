@@ -26,18 +26,18 @@
 		"EXEC": "this.utter('seek-confirmation', [this.answerOffered])",
 		"agreement": "this.changeState('accept-answer')",
 		"final-answer": "this.changeState('accept-answer')",
-		"reject": "this.changeState('question', [false])",
-		"reject-option": "(this.lastIntent.args[0] === this.answerOffered) ? this.changeState('question', [false]) : this.changeState('accept-answer')",
+		"reject": "this.changeState('question', [2])",
+		"reject-option": "(this.lastIntent.args[0] === this.answerOffered) ? this.changeState('question', [2]) : this.changeState('accept-answer')",
 		"offer-answer": "this.handleOfferAnswer(this.lastIntent.args)",
-		"offer-to-answer": "this.utter('encourage'); this.changeState('question', [false])",
+		"offer-to-answer": "this.prependUtter('encourage'); this.changeState('question', [2])",
 		"confirm-final-answer": "this.changeState('accept-answer')",
-		"DEFAULT": [12, "this.utter('return-to-question'); this.changeState('question', [false])"],
-		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [false])"]
+		"DEFAULT": [12, "this.utter('return-to-question'); this.changeState('question', [2])"],
+		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [2])"]
 	},
 	"seek-direct-answer": {
 		"EXEC": "this.utter('seek-direct-answer')",
-		"DEFAULT": "(this.lastIntent.args.length > 0) ? this.handleOfferAnswer(this.lastIntent.args) : this.changeState('question', [false])",
-		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [false])"]
+		"DEFAULT": "(this.lastIntent.args.length > 0) ? this.handleOfferAnswer(this.lastIntent.args) : this.changeState('question', [2])",
+		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [2])"]
 	},
 	"accept-answer": {
 		"EXEC": "this.acceptAnswer()"

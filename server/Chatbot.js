@@ -3,6 +3,7 @@ const childProcess = require("child_process");
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 const fuzz = require("fuzzball");
+const { selectRandomDifficulty } = require("./functions");
 
 const {
 	COLOUR_CYAN,
@@ -43,8 +44,7 @@ class Chatbot {
 		this.timeScaleFactor = 0.2;
 		this.USER_1_NAME = "Abraham";
 		this.USER_2_NAME = "Eleanor";
-		this.hasLifelineFiftyFifty = true;
-		this.hasLifelineAskTheAudience = true;
+		this.prependedUtterances = [];
 		this.io = null;
 		this.currentDifficulty = "easy";
 	}
@@ -71,6 +71,9 @@ class Chatbot {
 		} else {
 			this.questionNumber++;
 		}
+
+		this.updateDifficulty();
+
 		if (this.questionRefs !== null) {
 			const questionKey = this.questionRefs[this.questionNumber - 1];
 			this.configureQuestion(
@@ -79,8 +82,9 @@ class Chatbot {
 				questionKey[1]
 			);
 		} else {
-			this.configureQuestion(this.currentDifficulty, "general-knowledge");
+			this.configureQuestion(this.currentDifficulty, selectRandomDifficulty());
 		}
+
 		this.options = this.question["incorrect_answers"].map((options) => options);
 		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
@@ -90,13 +94,26 @@ class Chatbot {
 		this.currentPrize += 50;
 		this.answerOffered = "";
 		this.prevAnswerOffered = "";
-		this.changeState("question", [true]);
+		this.changeState("question", [1]);
 		if (this.io) {
 			this.io.emit("next_question", {
 				questionNumber: this.questionNumber,
 				question: this.question,
 			});
 		}
+	}
+
+	updateDifficulty() {
+		if (this.questionNumber <= 3) {
+			this.currentDifficulty = "easy";
+		}
+		else if (this.questionNumber <= 7) {
+			this.currentDifficulty = "medium";
+		}
+		else {
+			this.currentDifficulty = "hard";
+		}
+		whisper(`Set difficulty to ${this.currentDifficulty}`, DEBUG_MODE);
 	}
 
 	changeState(state, stateArgs = []) {
@@ -108,8 +125,17 @@ class Chatbot {
 		this.performAction();
 	}
 
+	prependUtter(action, args = []) {
+		this.prependedUtterances.push({ action, args });
+	}
+
 	utter(action, args = []) {
-		let speech = this.nlg(action, args);
+		let speech = [this.nlg(action, args)];
+		for (let utterance of this.prependedUtterances) {
+			speech.unshift(this.nlg(utterance.action, utterance.args));
+		}
+		this.prependedUtterances.splice(0);
+		speech = speech.join(" ");
 		this.say(speech);
 	}
 
@@ -398,7 +424,7 @@ class Chatbot {
 				this.acceptAnswer();
 			}
 			else {
-				this.changeState("question", [false]);
+				this.changeState("seek-confirmation");
 			}
 		}
 		else {
@@ -477,26 +503,20 @@ class Chatbot {
 
 	offerGuidance() {
 		this.utter("offer-generic-guidance");
-		return;
-		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
-			this.utter("offer-lifelines");
-		} else if (this.hasLifelineFiftyFifty) {
-			this.utter("offer-fifty-fifty");
-		} else if (this.hasLifelineAskTheAudience) {
-			this.utter("offer-ask-the-audience");
-		}
 	}
 
 	stateQuestion(args) {
-		// args[0] is a boolean specifying whether the question should be stated in full
-		if (args[0]) {
+		// args[0] is an integer
+		// if args[0] is 1 then state the question in full; if 2 then give a brief of the question; otherwise, say nothing
+		if (args[0] === 1) {
 			this.utter("question", [
 				this.questionNumber,
 				this.currentPrize,
 				this.question.question,
 				this.question.options.join(", "),
 			]);
-		} else {
+		}
+		else if (args[0] === 2) {
 			this.utter("question-brief", [
 				this.questionNumber,
 				this.currentPrize,

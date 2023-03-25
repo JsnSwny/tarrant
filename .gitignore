@@ -10,6 +10,7 @@ data/models/*
 notes
 .env
 data/logs/*
-leaderboard.csv
+./leaderboard.csv
 api_responses/
-responses_saved/
+medium/
+hard/

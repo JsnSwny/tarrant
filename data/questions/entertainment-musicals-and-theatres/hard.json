@@ -1,0 +1,286 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
+            "correct_answer": "Stephen Sondheim",
+            "incorrect_answers": [
+                [
+                    "Himself",
+                    "himself"
+                ],
+                [
+                    "Oscar Hammerstein",
+                    "oscar hammerstein"
+                ],
+                [
+                    "Richard Rodgers",
+                    "richard rodgers"
+                ]
+            ],
+            "correct_answers": [
+                "Stephen Sondheim",
+                "stephen sondheim"
+            ],
+            "options": [
+                "Himself",
+                "Oscar Hammerstein",
+                "Richard Rodgers",
+                "Stephen Sondheim"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who played &quot;Charlie Price&quot; in the musical &quot;Kinky Boots&quot; on Broadway in New York from May 26th - Aug 6th 2017?",
+            "correct_answer": "Brendon Urie",
+            "incorrect_answers": [
+                [
+                    "Ed Sheeren",
+                    "ed sheeren"
+                ],
+                [
+                    "Tom Cruise",
+                    "tom cruise"
+                ],
+                [
+                    "Dallon Weekes",
+                    "dallon weekes"
+                ]
+            ],
+            "correct_answers": [
+                "Brendon Urie",
+                "brendon urie"
+            ],
+            "options": [
+                "Ed Sheeren",
+                "Tom Cruise",
+                "Dallon Weekes",
+                "Brendon Urie"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which Shakespeare play features the stage direction &quot;Enter a messenger, with two heads and a hand&quot;?",
+            "correct_answer": "Titus Andronicus",
+            "incorrect_answers": [
+                [
+                    "Othello",
+                    "othello"
+                ],
+                [
+                    "Macbeth",
+                    "macbeth"
+                ],
+                [
+                    "King Lear",
+                    "king lear"
+                ]
+            ],
+            "correct_answers": [
+                "Titus Andronicus",
+                "titus andronicus"
+            ],
+            "options": [
+                "Othello",
+                "Macbeth",
+                "King Lear",
+                "Titus Andronicus"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
+            "correct_answer": "Italy",
+            "incorrect_answers": [
+                [
+                    "United States",
+                    "united states"
+                ],
+                [
+                    "Greece",
+                    "greece"
+                ],
+                [
+                    "France",
+                    "france"
+                ]
+            ],
+            "correct_answers": [
+                "Italy",
+                "italy"
+            ],
+            "options": [
+                "United States",
+                "Greece",
+                "France",
+                "Italy"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?",
+            "correct_answer": "4.48 Psychosis",
+            "incorrect_answers": [
+                [
+                    "Hamilton",
+                    "hamilton"
+                ],
+                [
+                    "Much Ado About Nothing",
+                    "much ado about nothing"
+                ],
+                [
+                    "The Birthday Party",
+                    "the birthday party",
+                    "birthday party"
+                ]
+            ],
+            "correct_answers": [
+                "4.48 Psychosis",
+                "4.48 psychosis"
+            ],
+            "options": [
+                "Hamilton",
+                "Much Ado About Nothing",
+                "The Birthday Party",
+                "4.48 Psychosis"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of Broadway's first &quot;long-run&quot; musical?",
+            "correct_answer": "The Elves",
+            "incorrect_answers": [
+                [
+                    "Wicked",
+                    "wicked"
+                ],
+                [
+                    "Hamilton",
+                    "hamilton"
+                ],
+                [
+                    "The Book of Mormon",
+                    "the book of mormon",
+                    "book of mormon"
+                ]
+            ],
+            "correct_answers": [
+                "The Elves",
+                "the elves",
+                "elves"
+            ],
+            "options": [
+                "Wicked",
+                "Hamilton",
+                "The Book of Mormon",
+                "The Elves"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
+            "correct_answer": "Newts",
+            "incorrect_answers": [
+                [
+                    "Humans",
+                    "humans"
+                ],
+                [
+                    "Sharks",
+                    "sharks"
+                ],
+                [
+                    "Squids",
+                    "squids"
+                ]
+            ],
+            "correct_answers": [
+                "Newts",
+                "newts"
+            ],
+            "options": [
+                "Humans",
+                "Sharks",
+                "Squids",
+                "Newts"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Les Mis&eacute;rables, who is Prison Code 24601?",
+            "correct_answer": "Jean Valjean",
+            "incorrect_answers": [
+                [
+                    "Marius Pontmercy",
+                    "marius pontmercy"
+                ],
+                [
+                    "Javert",
+                    "javert"
+                ],
+                [
+                    "Jean Claude Van Damme",
+                    "jean claude van damme"
+                ]
+            ],
+            "correct_answers": [
+                "Jean Valjean",
+                "jean valjean"
+            ],
+            "options": [
+                "Marius Pontmercy",
+                "Javert",
+                "Jean Claude Van Damme",
+                "Jean Valjean"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+            "correct_answer": "Chorus",
+            "incorrect_answers": [
+                [
+                    "Montague",
+                    "montague"
+                ],
+                [
+                    "Refrain",
+                    "refrain"
+                ],
+                [
+                    "Capulet",
+                    "capulet"
+                ]
+            ],
+            "correct_answers": [
+                "Chorus",
+                "chorus"
+            ],
+            "options": [
+                "Montague",
+                "Refrain",
+                "Capulet",
+                "Chorus"
+            ]
+        }
+    ]
+}

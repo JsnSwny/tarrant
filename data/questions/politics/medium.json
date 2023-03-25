@@ -1,0 +1,659 @@
+{
+    "questions": [
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was elected leader of the UK Labour Party in September 2015?",
+            "correct_answer": "Jeremy Corbyn",
+            "incorrect_answers": [
+                [
+                    "Ed Miliband",
+                    "ed miliband"
+                ],
+                [
+                    "David Cameron",
+                    "david cameron"
+                ],
+                [
+                    "Theresa May",
+                    "theresa may"
+                ]
+            ],
+            "correct_answers": [
+                "Jeremy Corbyn",
+                "jeremy corbyn"
+            ],
+            "options": [
+                "Ed Miliband",
+                "David Cameron",
+                "Theresa May",
+                "Jeremy Corbyn"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these is NOT one of Donald Trump's children?",
+            "correct_answer": "Julius",
+            "incorrect_answers": [
+                [
+                    "Donald Jr.",
+                    "donald jr."
+                ],
+                [
+                    "Ivanka",
+                    "ivanka"
+                ],
+                [
+                    "Eric",
+                    "eric"
+                ]
+            ],
+            "correct_answers": [
+                "Julius",
+                "julius"
+            ],
+            "options": [
+                "Donald Jr.",
+                "Ivanka",
+                "Eric",
+                "Julius"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?",
+            "correct_answer": "Chile",
+            "incorrect_answers": [
+                [
+                    "Ethiopia",
+                    "ethiopia"
+                ],
+                [
+                    "Indonesia",
+                    "indonesia"
+                ],
+                [
+                    "Nicaragua",
+                    "nicaragua"
+                ]
+            ],
+            "correct_answers": [
+                "Chile",
+                "chile"
+            ],
+            "options": [
+                "Ethiopia",
+                "Indonesia",
+                "Nicaragua",
+                "Chile"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who became Prime Minister of the United Kingdom in July 2016?",
+            "correct_answer": "Theresa May",
+            "incorrect_answers": [
+                [
+                    "Boris Johnson",
+                    "boris johnson"
+                ],
+                [
+                    "David Cameron",
+                    "david cameron"
+                ],
+                [
+                    "Tony Blair",
+                    "tony blair"
+                ]
+            ],
+            "correct_answers": [
+                "Theresa May",
+                "theresa may"
+            ],
+            "options": [
+                "Boris Johnson",
+                "David Cameron",
+                "Tony Blair",
+                "Theresa May"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?",
+            "correct_answer": "3",
+            "incorrect_answers": [
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "2",
+                    "2"
+                ],
+                [
+                    "0",
+                    "0"
+                ]
+            ],
+            "correct_answers": [
+                "3",
+                "3"
+            ],
+            "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the only president to not be in office in Washington D.C?",
+            "correct_answer": "George Washington",
+            "incorrect_answers": [
+                [
+                    "Abraham Lincoln",
+                    "abraham lincoln"
+                ],
+                [
+                    "Richard Nixon",
+                    "richard nixon"
+                ],
+                [
+                    "Thomas Jefferson",
+                    "thomas jefferson"
+                ]
+            ],
+            "correct_answers": [
+                "George Washington",
+                "george washington"
+            ],
+            "options": [
+                "Abraham Lincoln",
+                "Richard Nixon",
+                "Thomas Jefferson",
+                "George Washington"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What are the first names of the first father and son pair that were both Prime Ministers of Canada?",
+            "correct_answer": "Justin and Pierre",
+            "incorrect_answers": [
+                [
+                    "John and Louis",
+                    "john and louis"
+                ],
+                [
+                    "Brian and Justin",
+                    "brian and justin"
+                ],
+                [
+                    "Brian and Pierre",
+                    "brian and pierre"
+                ]
+            ],
+            "correct_answers": [
+                "Justin and Pierre",
+                "justin and pierre"
+            ],
+            "options": [
+                "John and Louis",
+                "Brian and Justin",
+                "Brian and Pierre",
+                "Justin and Pierre"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Due to the Nagoya Resolution, China agreed to allow Taiwan to compete separately in international sporting events under what name?",
+            "correct_answer": "Chinese Taipei",
+            "incorrect_answers": [
+                [
+                    "Chinese Taiwan",
+                    "chinese taiwan"
+                ],
+                [
+                    "Republic of Taiwan",
+                    "republic of taiwan"
+                ],
+                [
+                    "Republic of Taipei ",
+                    "republic of taipei "
+                ]
+            ],
+            "correct_answers": [
+                "Chinese Taipei",
+                "chinese taipei"
+            ],
+            "options": [
+                "Chinese Taiwan",
+                "Republic of Taiwan",
+                "Republic of Taipei ",
+                "Chinese Taipei"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Before 2011, &quot;True Capitalist Radio&quot; was known by a different name. What was that name?",
+            "correct_answer": "True Conservative Radio",
+            "incorrect_answers": [
+                [
+                    "True Republican Radio",
+                    "true republican radio"
+                ],
+                [
+                    "Texan Capitalist Radio",
+                    "texan capitalist radio"
+                ],
+                [
+                    "United Capitalists",
+                    "united capitalists"
+                ]
+            ],
+            "correct_answers": [
+                "True Conservative Radio",
+                "true conservative radio"
+            ],
+            "options": [
+                "True Republican Radio",
+                "Texan Capitalist Radio",
+                "United Capitalists",
+                "True Conservative Radio"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did Gerald Ford Become President?",
+            "correct_answer": "1974",
+            "incorrect_answers": [
+                [
+                    "1977",
+                    "1977"
+                ],
+                [
+                    "1973",
+                    "1973"
+                ],
+                [
+                    "1969",
+                    "1969"
+                ]
+            ],
+            "correct_answers": [
+                "1974",
+                "1974"
+            ],
+            "options": [
+                "1977",
+                "1973",
+                "1969",
+                "1974"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which former US president used &quot;Let's Make America Great Again&quot; as his campaign slogan before Donald Trump's campaign?",
+            "correct_answer": "Ronald Reagan",
+            "incorrect_answers": [
+                [
+                    "Jimmy Carter",
+                    "jimmy carter"
+                ],
+                [
+                    "Gerald Ford",
+                    "gerald ford"
+                ],
+                [
+                    "Richard Nixon",
+                    "richard nixon"
+                ]
+            ],
+            "correct_answers": [
+                "Ronald Reagan",
+                "ronald reagan"
+            ],
+            "options": [
+                "Jimmy Carter",
+                "Gerald Ford",
+                "Richard Nixon",
+                "Ronald Reagan"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Watergate Scandal occured in what year?",
+            "correct_answer": "1972",
+            "incorrect_answers": [
+                [
+                    "1973",
+                    "1973"
+                ],
+                [
+                    "1974",
+                    "1974"
+                ],
+                [
+                    "1971",
+                    "1971"
+                ]
+            ],
+            "correct_answers": [
+                "1972",
+                "1972"
+            ],
+            "options": [
+                "1973",
+                "1974",
+                "1971",
+                "1972"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the British Prime Minister at the outbreak of the Second World War?",
+            "correct_answer": "Neville Chamberlain",
+            "incorrect_answers": [
+                [
+                    "Clement Attlee",
+                    "clement attlee"
+                ],
+                [
+                    "Winston Churchill",
+                    "winston churchill"
+                ],
+                [
+                    "Stanley Baldwin",
+                    "stanley baldwin"
+                ]
+            ],
+            "correct_answers": [
+                "Neville Chamberlain",
+                "neville chamberlain"
+            ],
+            "options": [
+                "Clement Attlee",
+                "Winston Churchill",
+                "Stanley Baldwin",
+                "Neville Chamberlain"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following Argentinian presidents was elected in 2015?",
+            "correct_answer": "Mauricio Macri",
+            "incorrect_answers": [
+                [
+                    "Cristina Fernandez de Kirchner",
+                    "cristina fernandez de kirchner"
+                ],
+                [
+                    "Nestor Kirchner",
+                    "nestor kirchner"
+                ],
+                [
+                    "Juan Domingo Peron",
+                    "juan domingo peron"
+                ]
+            ],
+            "correct_answers": [
+                "Mauricio Macri",
+                "mauricio macri"
+            ],
+            "options": [
+                "Cristina Fernandez de Kirchner",
+                "Nestor Kirchner",
+                "Juan Domingo Peron",
+                "Mauricio Macri"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which president erased the national debt of the United States?",
+            "correct_answer": "Andrew Jackson",
+            "incorrect_answers": [
+                [
+                    "Ronald Reagan",
+                    "ronald reagan"
+                ],
+                [
+                    "John F. Kennedy",
+                    "john f. kennedy"
+                ],
+                [
+                    "Franklin Roosevelt",
+                    "franklin roosevelt"
+                ]
+            ],
+            "correct_answers": [
+                "Andrew Jackson",
+                "andrew jackson"
+            ],
+            "options": [
+                "Ronald Reagan",
+                "John F. Kennedy",
+                "Franklin Roosevelt",
+                "Andrew Jackson"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the 40th President of the USA?",
+            "correct_answer": "Ronald Reagan",
+            "incorrect_answers": [
+                [
+                    "Jimmy Carter",
+                    "jimmy carter"
+                ],
+                [
+                    "Bill Clinton",
+                    "bill clinton"
+                ],
+                [
+                    "Richard Nixon",
+                    "richard nixon"
+                ]
+            ],
+            "correct_answers": [
+                "Ronald Reagan",
+                "ronald reagan"
+            ],
+            "options": [
+                "Jimmy Carter",
+                "Bill Clinton",
+                "Richard Nixon",
+                "Ronald Reagan"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is former United States President Bill Clinton's full name?",
+            "correct_answer": "William Jefferson Clinton",
+            "incorrect_answers": [
+                [
+                    "William Roosevelt Clinton",
+                    "william roosevelt clinton"
+                ],
+                [
+                    "William Truman Clinton",
+                    "william truman clinton"
+                ],
+                [
+                    "William Lincoln Clinton",
+                    "william lincoln clinton"
+                ]
+            ],
+            "correct_answers": [
+                "William Jefferson Clinton",
+                "william jefferson clinton"
+            ],
+            "options": [
+                "William Roosevelt Clinton",
+                "William Truman Clinton",
+                "William Lincoln Clinton",
+                "William Jefferson Clinton"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Before 2016, in which other year did Donald Trump run for President?",
+            "correct_answer": "2000",
+            "incorrect_answers": [
+                [
+                    "2012",
+                    "2012"
+                ],
+                [
+                    "1988",
+                    "1988"
+                ],
+                [
+                    "2008",
+                    "2008"
+                ]
+            ],
+            "correct_answers": [
+                "2000",
+                "2000"
+            ],
+            "options": [
+                "2012",
+                "1988",
+                "2008",
+                "2000"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?",
+            "correct_answer": "The Kingfish",
+            "incorrect_answers": [
+                [
+                    "The Champ",
+                    "the champ",
+                    "champ"
+                ],
+                [
+                    "The Hoot Owl",
+                    "the hoot owl",
+                    "hoot owl"
+                ],
+                [
+                    "The Oracle",
+                    "the oracle",
+                    "oracle"
+                ]
+            ],
+            "correct_answers": [
+                "The Kingfish",
+                "the kingfish",
+                "kingfish"
+            ],
+            "options": [
+                "The Champ",
+                "The Hoot Owl",
+                "The Oracle",
+                "The Kingfish"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The 2014 movie &quot;The Raid 2: Berandal&quot; was mainly filmed in which Asian country?",
+            "correct_answer": "Indonesia",
+            "incorrect_answers": [
+                [
+                    "Thailand",
+                    "thailand"
+                ],
+                [
+                    "Brunei",
+                    "brunei"
+                ],
+                [
+                    "Malaysia",
+                    "malaysia"
+                ]
+            ],
+            "correct_answers": [
+                "Indonesia",
+                "indonesia"
+            ],
+            "options": [
+                "Thailand",
+                "Brunei",
+                "Malaysia",
+                "Indonesia"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?",
+            "correct_answer": "Nikita Khrushchev",
+            "incorrect_answers": [
+                [
+                    "Leonid Brezhnev",
+                    "leonid brezhnev"
+                ],
+                [
+                    "Mikhail Gorbachev",
+                    "mikhail gorbachev"
+                ],
+                [
+                    "Boris Yeltsin",
+                    "boris yeltsin"
+                ]
+            ],
+            "correct_answers": [
+                "Nikita Khrushchev",
+                "nikita khrushchev"
+            ],
+            "options": [
+                "Leonid Brezhnev",
+                "Mikhail Gorbachev",
+                "Boris Yeltsin",
+                "Nikita Khrushchev"
+            ]
+        }
+    ]
+}

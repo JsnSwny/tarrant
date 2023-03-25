@@ -1,0 +1,946 @@
+{
+    "questions": [
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did &quot;Bob Ross&quot; die?",
+            "correct_answer": "1995",
+            "incorrect_answers": [
+                [
+                    "1986",
+                    "1986"
+                ],
+                [
+                    "1989",
+                    "1989"
+                ],
+                [
+                    "1997",
+                    "1997"
+                ]
+            ],
+            "correct_answers": [
+                "1995",
+                "1995"
+            ],
+            "options": [
+                "1986",
+                "1989",
+                "1997",
+                "1995"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which TV chef wrote an autobiography titled &quot;Humble Pie&quot;?",
+            "correct_answer": "Gordon Ramsay",
+            "incorrect_answers": [
+                [
+                    "Jamie Oliver",
+                    "jamie oliver"
+                ],
+                [
+                    "Ainsley Harriott",
+                    "ainsley harriott"
+                ],
+                [
+                    "Antony Worrall Thompson",
+                    "antony worrall thompson"
+                ]
+            ],
+            "correct_answers": [
+                "Gordon Ramsay",
+                "gordon ramsay"
+            ],
+            "options": [
+                "Jamie Oliver",
+                "Ainsley Harriott",
+                "Antony Worrall Thompson",
+                "Gordon Ramsay"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year was O.J. Simpson aquitted of his murder charges?",
+            "correct_answer": "1995",
+            "incorrect_answers": [
+                [
+                    "1992",
+                    "1992"
+                ],
+                [
+                    "1996",
+                    "1996"
+                ],
+                [
+                    "1991",
+                    "1991"
+                ]
+            ],
+            "correct_answers": [
+                "1995",
+                "1995"
+            ],
+            "options": [
+                "1992",
+                "1996",
+                "1991",
+                "1995"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these celebrities was not a member of the Jackson 5?",
+            "correct_answer": "Bo Jackson",
+            "incorrect_answers": [
+                [
+                    "Tito Jackson",
+                    "tito jackson"
+                ],
+                [
+                    "Jermaine Jackson",
+                    "jermaine jackson"
+                ],
+                [
+                    "Marlon Jackson",
+                    "marlon jackson"
+                ]
+            ],
+            "correct_answers": [
+                "Bo Jackson",
+                "bo jackson"
+            ],
+            "options": [
+                "Tito Jackson",
+                "Jermaine Jackson",
+                "Marlon Jackson",
+                "Bo Jackson"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
+            "correct_answer": "Joe DiMaggio",
+            "incorrect_answers": [
+                [
+                    "Tino Martinez",
+                    "tino martinez"
+                ],
+                [
+                    "Babe Ruth",
+                    "babe ruth"
+                ],
+                [
+                    "Mason Williams",
+                    "mason williams"
+                ]
+            ],
+            "correct_answers": [
+                "Joe DiMaggio",
+                "joe dimaggio"
+            ],
+            "options": [
+                "Tino Martinez",
+                "Babe Ruth",
+                "Mason Williams",
+                "Joe DiMaggio"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which television show has Dan Gheesling been on?",
+            "correct_answer": "Big Brother",
+            "incorrect_answers": [
+                [
+                    "Jeopardy",
+                    "jeopardy"
+                ],
+                [
+                    "Survivor",
+                    "survivor"
+                ],
+                [
+                    "The Bachelor",
+                    "the bachelor",
+                    "bachelor"
+                ]
+            ],
+            "correct_answers": [
+                "Big Brother",
+                "big brother"
+            ],
+            "options": [
+                "Jeopardy",
+                "Survivor",
+                "The Bachelor",
+                "Big Brother"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In 2014, this new top 100 rapper who featured in &quot;Computers&quot; and &quot;Body Dance&quot; was arrested in a NYPD sting for murder.",
+            "correct_answer": "Bobby Shmurda",
+            "incorrect_answers": [
+                [
+                    "DJ Snake",
+                    "dj snake"
+                ],
+                [
+                    "Swae Lee",
+                    "swae lee"
+                ],
+                [
+                    "Young Thug",
+                    "young thug"
+                ]
+            ],
+            "correct_answers": [
+                "Bobby Shmurda",
+                "bobby shmurda"
+            ],
+            "options": [
+                "DJ Snake",
+                "Swae Lee",
+                "Young Thug",
+                "Bobby Shmurda"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Where was Kanye West born?",
+            "correct_answer": "Atlanta, Georgia",
+            "incorrect_answers": [
+                [
+                    "Chicago, Illinois",
+                    "chicago, illinois"
+                ],
+                [
+                    "Los Angeles, California",
+                    "los angeles, california"
+                ],
+                [
+                    "Detroit, Michigan",
+                    "detroit, michigan"
+                ]
+            ],
+            "correct_answers": [
+                "Atlanta, Georgia",
+                "atlanta, georgia"
+            ],
+            "options": [
+                "Chicago, Illinois",
+                "Los Angeles, California",
+                "Detroit, Michigan",
+                "Atlanta, Georgia"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who out of these actresses is the youngest?",
+            "correct_answer": "Kiernan Shipka",
+            "incorrect_answers": [
+                [
+                    "Ariel Winter",
+                    "ariel winter"
+                ],
+                [
+                    "Emma Watson",
+                    "emma watson"
+                ],
+                [
+                    "Bonnie Wright",
+                    "bonnie wright"
+                ]
+            ],
+            "correct_answers": [
+                "Kiernan Shipka",
+                "kiernan shipka"
+            ],
+            "options": [
+                "Ariel Winter",
+                "Emma Watson",
+                "Bonnie Wright",
+                "Kiernan Shipka"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Before voicing Pearl in Steven Universe, Deedee Magno Hall was part of which American band?",
+            "correct_answer": "The Party",
+            "incorrect_answers": [
+                [
+                    "The Weather Girls",
+                    "the weather girls",
+                    "weather girls"
+                ],
+                [
+                    "The Pussycat Dolls",
+                    "the pussycat dolls",
+                    "pussycat dolls"
+                ],
+                [
+                    "The Cheetah Girls",
+                    "the cheetah girls",
+                    "cheetah girls"
+                ]
+            ],
+            "correct_answers": [
+                "The Party",
+                "the party",
+                "party"
+            ],
+            "options": [
+                "The Weather Girls",
+                "The Pussycat Dolls",
+                "The Cheetah Girls",
+                "The Party"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is &quot;James Rolfe&quot; better known as?",
+            "correct_answer": "The Angry Video Game Nerd",
+            "incorrect_answers": [
+                [
+                    "TotalBiscuit",
+                    "totalbiscuit"
+                ],
+                [
+                    "PeanutButterGamer",
+                    "peanutbuttergamer"
+                ],
+                [
+                    "PewDiePie",
+                    "pewdiepie"
+                ]
+            ],
+            "correct_answers": [
+                "The Angry Video Game Nerd",
+                "the angry video game nerd",
+                "angry video game nerd"
+            ],
+            "options": [
+                "TotalBiscuit",
+                "PeanutButterGamer",
+                "PewDiePie",
+                "The Angry Video Game Nerd"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Donald J. Trump's Middle Name is...",
+            "correct_answer": "John",
+            "incorrect_answers": [
+                [
+                    "Jeff",
+                    "jeff"
+                ],
+                [
+                    "Jerald",
+                    "jerald"
+                ],
+                [
+                    "Jason",
+                    "jason"
+                ]
+            ],
+            "correct_answers": [
+                "John",
+                "john"
+            ],
+            "options": [
+                "Jeff",
+                "Jerald",
+                "Jason",
+                "John"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the cause of death for Freddie Mercury?",
+            "correct_answer": "Pneumonia",
+            "incorrect_answers": [
+                [
+                    "Stomach Cancer",
+                    "stomach cancer"
+                ],
+                [
+                    "HIV",
+                    "hiv"
+                ],
+                [
+                    "Brain Hemorrhage",
+                    "brain hemorrhage"
+                ]
+            ],
+            "correct_answers": [
+                "Pneumonia",
+                "pneumonia"
+            ],
+            "options": [
+                "Stomach Cancer",
+                "HIV",
+                "Brain Hemorrhage",
+                "Pneumonia"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What caused Jake Lloyd who played Anakin Skywalker in The Phantom Menace to quit acting?",
+            "correct_answer": "Bullying",
+            "incorrect_answers": [
+                [
+                    "Criminal Record",
+                    "criminal record"
+                ],
+                [
+                    "Nomination for Worst Actor",
+                    "nomination for worst actor"
+                ],
+                [
+                    "Racism",
+                    "racism"
+                ]
+            ],
+            "correct_answers": [
+                "Bullying",
+                "bullying"
+            ],
+            "options": [
+                "Criminal Record",
+                "Nomination for Worst Actor",
+                "Racism",
+                "Bullying"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is Doug Walker's YouTube name?",
+            "correct_answer": "The Nostalgia Critic",
+            "incorrect_answers": [
+                [
+                    "The Angry Video Game Nerd",
+                    "the angry video game nerd",
+                    "angry video game nerd"
+                ],
+                [
+                    "AngryJoeShow",
+                    "angryjoeshow"
+                ],
+                [
+                    "The Cinema Snob",
+                    "the cinema snob",
+                    "cinema snob"
+                ]
+            ],
+            "correct_answers": [
+                "The Nostalgia Critic",
+                "the nostalgia critic",
+                "nostalgia critic"
+            ],
+            "options": [
+                "The Angry Video Game Nerd",
+                "AngryJoeShow",
+                "The Cinema Snob",
+                "The Nostalgia Critic"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the real name of &quot;moot&quot;, founder of the imageboard 4chan?",
+            "correct_answer": "Christopher Poole",
+            "incorrect_answers": [
+                [
+                    "Mark Zuckerberg",
+                    "mark zuckerberg"
+                ],
+                [
+                    "Allison Harvard",
+                    "allison harvard"
+                ],
+                [
+                    "Catie Wayne",
+                    "catie wayne"
+                ]
+            ],
+            "correct_answers": [
+                "Christopher Poole",
+                "christopher poole"
+            ],
+            "options": [
+                "Mark Zuckerberg",
+                "Allison Harvard",
+                "Catie Wayne",
+                "Christopher Poole"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which actress's real name was Frances Ethel Gumm?",
+            "correct_answer": "Judy Garland",
+            "incorrect_answers": [
+                [
+                    "Doris Day",
+                    "doris day"
+                ],
+                [
+                    "Julie Andrews",
+                    "julie andrews"
+                ],
+                [
+                    "Marilyn Monroe",
+                    "marilyn monroe"
+                ]
+            ],
+            "correct_answers": [
+                "Judy Garland",
+                "judy garland"
+            ],
+            "options": [
+                "Doris Day",
+                "Julie Andrews",
+                "Marilyn Monroe",
+                "Judy Garland"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+            "correct_answer": "Bing Crosby",
+            "incorrect_answers": [
+                [
+                    "Elvis Presley",
+                    "elvis presley"
+                ],
+                [
+                    "Charlie Chaplin",
+                    "charlie chaplin"
+                ],
+                [
+                    "Groucho Marx",
+                    "groucho marx"
+                ]
+            ],
+            "correct_answers": [
+                "Bing Crosby",
+                "bing crosby"
+            ],
+            "options": [
+                "Elvis Presley",
+                "Charlie Chaplin",
+                "Groucho Marx",
+                "Bing Crosby"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these people is NOT a part of the Internet comedy group Mega64?",
+            "correct_answer": "Jon Jafari",
+            "incorrect_answers": [
+                [
+                    "Rocco Botte",
+                    "rocco botte"
+                ],
+                [
+                    "Derrick Acosta",
+                    "derrick acosta"
+                ],
+                [
+                    "Shawn Chatfield",
+                    "shawn chatfield"
+                ]
+            ],
+            "correct_answers": [
+                "Jon Jafari",
+                "jon jafari"
+            ],
+            "options": [
+                "Rocco Botte",
+                "Derrick Acosta",
+                "Shawn Chatfield",
+                "Jon Jafari"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is generally considered to be William Shakespeare's birth date?",
+            "correct_answer": "April 23rd, 1564",
+            "incorrect_answers": [
+                [
+                    "July 4th, 1409",
+                    "july 4th, 1409"
+                ],
+                [
+                    "September 29th, 1699",
+                    "september 29th, 1699"
+                ],
+                [
+                    "December 1st, 1750",
+                    "december 1st, 1750"
+                ]
+            ],
+            "correct_answers": [
+                "April 23rd, 1564",
+                "april 23rd, 1564"
+            ],
+            "options": [
+                "July 4th, 1409",
+                "September 29th, 1699",
+                "December 1st, 1750",
+                "April 23rd, 1564"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was Elvis Presley born?",
+            "correct_answer": "January 8, 1935",
+            "incorrect_answers": [
+                [
+                    "December 13, 1931",
+                    "december 13, 1931"
+                ],
+                [
+                    "July 18, 1940",
+                    "july 18, 1940"
+                ],
+                [
+                    "April 17, 1938",
+                    "april 17, 1938"
+                ]
+            ],
+            "correct_answers": [
+                "January 8, 1935",
+                "january 8, 1935"
+            ],
+            "options": [
+                "December 13, 1931",
+                "July 18, 1940",
+                "April 17, 1938",
+                "January 8, 1935"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did radio icon Howard Stern start a job at radio station WNBC?",
+            "correct_answer": "1982",
+            "incorrect_answers": [
+                [
+                    "1985",
+                    "1985"
+                ],
+                [
+                    "1984",
+                    "1984"
+                ],
+                [
+                    "1995",
+                    "1995"
+                ]
+            ],
+            "correct_answers": [
+                "1982",
+                "1982"
+            ],
+            "options": [
+                "1985",
+                "1984",
+                "1995",
+                "1982"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Paul McCartney has always used his middle name. What is his real first name? ",
+            "correct_answer": "James",
+            "incorrect_answers": [
+                [
+                    "John",
+                    "john"
+                ],
+                [
+                    "Jack",
+                    "jack"
+                ],
+                [
+                    "Justin",
+                    "justin"
+                ]
+            ],
+            "correct_answers": [
+                "James",
+                "james"
+            ],
+            "options": [
+                "John",
+                "Jack",
+                "Justin",
+                "James"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of Marilyn Monroe's first husband?",
+            "correct_answer": "James Dougherty",
+            "incorrect_answers": [
+                [
+                    "Joe Dimaggio",
+                    "joe dimaggio"
+                ],
+                [
+                    "Kirk Douglas",
+                    "kirk douglas"
+                ],
+                [
+                    "Arthur Miller",
+                    "arthur miller"
+                ]
+            ],
+            "correct_answers": [
+                "James Dougherty",
+                "james dougherty"
+            ],
+            "options": [
+                "Joe Dimaggio",
+                "Kirk Douglas",
+                "Arthur Miller",
+                "James Dougherty"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+            "correct_answer": "Auction Hunters",
+            "incorrect_answers": [
+                [
+                    "Ramsay's Kitchen Nightmares",
+                    "ramsay's kitchen nightmares",
+                    "ramsays kitchen nightmares"
+                ],
+                [
+                    "Hotel Hell",
+                    "hotel hell"
+                ],
+                [
+                    "Hell's Kitchen",
+                    "hell's kitchen",
+                    "hells kitchen"
+                ]
+            ],
+            "correct_answers": [
+                "Auction Hunters",
+                "auction hunters"
+            ],
+            "options": [
+                "Ramsay's Kitchen Nightmares",
+                "Hotel Hell",
+                "Hell's Kitchen",
+                "Auction Hunters"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How old was Muhammad Ali when he died?",
+            "correct_answer": "74",
+            "incorrect_answers": [
+                [
+                    "61",
+                    "61"
+                ],
+                [
+                    "He's still alive",
+                    "he's still alive",
+                    "hes still alive"
+                ],
+                [
+                    "56",
+                    "56"
+                ]
+            ],
+            "correct_answers": [
+                "74",
+                "74"
+            ],
+            "options": [
+                "61",
+                "He's still alive",
+                "56",
+                "74"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "If he was still alive, in what year would Elvis Presley celebrate his 100th birthday?",
+            "correct_answer": "2035",
+            "incorrect_answers": [
+                [
+                    "2030",
+                    "2030"
+                ],
+                [
+                    "2040",
+                    "2040"
+                ],
+                [
+                    "2045",
+                    "2045"
+                ]
+            ],
+            "correct_answers": [
+                "2035",
+                "2035"
+            ],
+            "options": [
+                "2030",
+                "2040",
+                "2045",
+                "2035"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which radio personality calls himself &quot;The King of All Media&quot;?",
+            "correct_answer": "Howard Stern",
+            "incorrect_answers": [
+                [
+                    "Rush Limbaugh",
+                    "rush limbaugh"
+                ],
+                [
+                    "Pete Tong",
+                    "pete tong"
+                ],
+                [
+                    "Ryan Seacrest",
+                    "ryan seacrest"
+                ]
+            ],
+            "correct_answers": [
+                "Howard Stern",
+                "howard stern"
+            ],
+            "options": [
+                "Rush Limbaugh",
+                "Pete Tong",
+                "Ryan Seacrest",
+                "Howard Stern"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Nikki Diamond portrayed which Gladiator in the 1992 TV show &quot;Gladiators&quot;?",
+            "correct_answer": "Scorpio",
+            "incorrect_answers": [
+                [
+                    "Jet",
+                    "jet"
+                ],
+                [
+                    "Nightshade",
+                    "nightshade"
+                ],
+                [
+                    "Falcon",
+                    "falcon"
+                ]
+            ],
+            "correct_answers": [
+                "Scorpio",
+                "scorpio"
+            ],
+            "options": [
+                "Jet",
+                "Nightshade",
+                "Falcon",
+                "Scorpio"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How much weight did Chris Pratt lose for his role as Star-Lord in &quot;Guardians of the Galaxy&quot;?",
+            "correct_answer": "60 lbs",
+            "incorrect_answers": [
+                [
+                    "30 lbs",
+                    "30 lbs"
+                ],
+                [
+                    "50 lbs",
+                    "50 lbs"
+                ],
+                [
+                    "70 lbs",
+                    "70 lbs"
+                ]
+            ],
+            "correct_answers": [
+                "60 lbs",
+                "60 lbs"
+            ],
+            "options": [
+                "30 lbs",
+                "50 lbs",
+                "70 lbs",
+                "60 lbs"
+            ]
+        }
+    ]
+}

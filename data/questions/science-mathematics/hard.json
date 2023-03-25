@@ -1,0 +1,379 @@
+{
+    "questions": [
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the approximate value of mathematical constant e?",
+            "correct_answer": "2.72",
+            "incorrect_answers": [
+                [
+                    "3.14",
+                    "3.14"
+                ],
+                [
+                    "1.62",
+                    "1.62"
+                ],
+                [
+                    "1.41",
+                    "1.41"
+                ]
+            ],
+            "correct_answers": [
+                "2.72",
+                "2.72"
+            ],
+            "options": [
+                "3.14",
+                "1.62",
+                "1.41",
+                "2.72"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following mathematicians made major contributions to game theory?",
+            "correct_answer": "John Von Neumann",
+            "incorrect_answers": [
+                [
+                    "Carl Friedrich Gauss",
+                    "carl friedrich gauss"
+                ],
+                [
+                    "Leonhard Euler",
+                    "leonhard euler"
+                ],
+                [
+                    "Stefan Banach",
+                    "stefan banach"
+                ]
+            ],
+            "correct_answers": [
+                "John Von Neumann",
+                "john von neumann"
+            ],
+            "options": [
+                "Carl Friedrich Gauss",
+                "Leonhard Euler",
+                "Stefan Banach",
+                "John Von Neumann"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+            "correct_answer": "Folium of Descartes",
+            "incorrect_answers": [
+                [
+                    "Elliptic Paraboloid of Descartes",
+                    "elliptic paraboloid of descartes"
+                ],
+                [
+                    "Cartesian Coordinates",
+                    "cartesian coordinates"
+                ],
+                [
+                    "Descarte's Helicoid",
+                    "descarte's helicoid",
+                    "descartes helicoid"
+                ]
+            ],
+            "correct_answers": [
+                "Folium of Descartes",
+                "folium of descartes"
+            ],
+            "options": [
+                "Elliptic Paraboloid of Descartes",
+                "Cartesian Coordinates",
+                "Descarte's Helicoid",
+                "Folium of Descartes"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+            "correct_answer": "1.58 x 10^20",
+            "incorrect_answers": [
+                [
+                    "1.58 x 10^22",
+                    "1.58 x 10^22"
+                ],
+                [
+                    "1.58 x  10^18",
+                    "1.58 x  10^18"
+                ],
+                [
+                    "1.58 x 10^24",
+                    "1.58 x 10^24"
+                ]
+            ],
+            "correct_answers": [
+                "1.58 x 10^20",
+                "1.58 x 10^20"
+            ],
+            "options": [
+                "1.58 x 10^22",
+                "1.58 x  10^18",
+                "1.58 x 10^24",
+                "1.58 x 10^20"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The decimal number 31 in hexadecimal would be what?",
+            "correct_answer": "1F",
+            "incorrect_answers": [
+                [
+                    "3D",
+                    "3d"
+                ],
+                [
+                    "2E",
+                    "2e"
+                ],
+                [
+                    "1B",
+                    "1b"
+                ]
+            ],
+            "correct_answers": [
+                "1F",
+                "1f"
+            ],
+            "options": [
+                "3D",
+                "2E",
+                "1B",
+                "1F"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+            "correct_answer": "Galois Theory",
+            "incorrect_answers": [
+                [
+                    "Galois' Continued Fractions",
+                    "galois' continued fractions",
+                    "galois continued fractions"
+                ],
+                [
+                    "Galois' Method for PDE's ",
+                    "galois' method for pde's ",
+                    "galois method for pdes "
+                ],
+                [
+                    "Abelian Integration",
+                    "abelian integration"
+                ]
+            ],
+            "correct_answers": [
+                "Galois Theory",
+                "galois theory"
+            ],
+            "options": [
+                "Galois' Continued Fractions",
+                "Galois' Method for PDE's ",
+                "Abelian Integration",
+                "Galois Theory"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The notion of a &quot;set that contains all sets which do not contain themselves&quot; is a paradoxical idea attributed to which English philospher?",
+            "correct_answer": "Bertrand Russel",
+            "incorrect_answers": [
+                [
+                    "Francis Bacon",
+                    "francis bacon"
+                ],
+                [
+                    "John Locke",
+                    "john locke"
+                ],
+                [
+                    "Alfred North Whitehead",
+                    "alfred north whitehead"
+                ]
+            ],
+            "correct_answers": [
+                "Bertrand Russel",
+                "bertrand russel"
+            ],
+            "options": [
+                "Francis Bacon",
+                "John Locke",
+                "Alfred North Whitehead",
+                "Bertrand Russel"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+            "correct_answer": "1729",
+            "incorrect_answers": [
+                [
+                    "91",
+                    "91"
+                ],
+                [
+                    "561",
+                    "561"
+                ],
+                [
+                    "4104",
+                    "4104"
+                ]
+            ],
+            "correct_answers": [
+                "1729",
+                "1729"
+            ],
+            "options": [
+                "91",
+                "561",
+                "4104",
+                "1729"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+            "correct_answer": "Galois",
+            "incorrect_answers": [
+                [
+                    "Abel",
+                    "abel"
+                ],
+                [
+                    "Euler",
+                    "euler"
+                ],
+                [
+                    "Gauss",
+                    "gauss"
+                ]
+            ],
+            "correct_answers": [
+                "Galois",
+                "galois"
+            ],
+            "options": [
+                "Abel",
+                "Euler",
+                "Gauss",
+                "Galois"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many zeptometres are inside one femtometre?",
+            "correct_answer": "1,000,000",
+            "incorrect_answers": [
+                [
+                    "10",
+                    "10"
+                ],
+                [
+                    "1,000,000,000",
+                    "1,000,000,000"
+                ],
+                [
+                    "1000",
+                    "1000"
+                ]
+            ],
+            "correct_answers": [
+                "1,000,000",
+                "1,000,000"
+            ],
+            "options": [
+                "10",
+                "1,000,000,000",
+                "1000",
+                "1,000,000"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the derivative of Acceleration with respect to time?",
+            "correct_answer": "Jerk",
+            "incorrect_answers": [
+                [
+                    "Shift",
+                    "shift"
+                ],
+                [
+                    "Bump",
+                    "bump"
+                ],
+                [
+                    "Slide",
+                    "slide"
+                ]
+            ],
+            "correct_answers": [
+                "Jerk",
+                "jerk"
+            ],
+            "options": [
+                "Shift",
+                "Bump",
+                "Slide",
+                "Jerk"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the fourth digit of &pi;?",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                [
+                    "2",
+                    "2"
+                ],
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "4",
+                    "4"
+                ]
+            ],
+            "correct_answers": [
+                "1",
+                "1"
+            ],
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ]
+        }
+    ]
+}

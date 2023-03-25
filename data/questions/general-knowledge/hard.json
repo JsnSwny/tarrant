@@ -1,1577 +1,1702 @@
 {
-	"questions": [
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Electronic music producer Kygo's popularity skyrocketed after a certain remix. Which song did he remix?",
-			"correct_answer": "Ed Sheeran - I See Fire",
-			"incorrect_answers": [
-				[
-					"Marvin Gaye - Sexual Healing",
-					"marvin gaye sexual healing",
-					"sexual healing"
-				],
-				[
-					"Coldplay - Midnight",
-					"coldplay midnight",
-					"midnight"
-				],
-				[
-					"a-ha - Take On Me",
-					"a-ha take on me",
-					"take on me"
-				]
-			],
-			"correct_answers": [
-				"Ed Sheeran - I See Fire",
-				"ed sheeran i see fire",
-				"i see fire"
-			],
-			"options": [
-				"Marvin Gaye - Sexual Healing",
-				"Coldplay - Midnight",
-				"a-ha - Take On Me",
-				"Ed Sheeran - I See Fire"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What type of dog is 'Handsome Dan', the mascot of Yale University?",
-			"correct_answer": "Bulldog",
-			"incorrect_answers": [
-				[
-					"Yorkshire Terrier",
-					"yorkshire terrier"
-				],
-				[
-					"Boxer",
-					"boxer"
-				],
-				[
-					"Pug",
-					"pug"
-				]
-			],
-			"correct_answers": [
-				"Bulldog",
-				"bulldog",
-				"bull dog"
-			],
-			"options": [
-				"Yorkshire Terrier",
-				"Boxer",
-				"Pug",
-				"Bulldog"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What is the airspeed velocity of an unladen swallow?",
-			"correct_answer": "24 MPH",
-			"incorrect_answers": [
-				[
-					"15 MPH",
-					"fifteen miles per hour",
-					"fifteen",
-					"15 miles per hour",
-					"15"
-				],
-				[
-					"20 MPH",
-					"twenty miles per hour",
-					"twenty",
-					"20 miles per hour",
-					"20"
-				],
-				[
-					"200 MPH",
-					"two hundred miles per hour",
-					"two hundred",
-					"200 miles per hour",
-					"200"
-				]
-			],
-			"correct_answers": [
-				"24 MPH",
-				"twenty four miles per hour",
-				"twenty four",
-				"24 miles per hour",
-				"24"
-			],
-			"options": [
-				"15 MPH",
-				"20 MPH",
-				"200 MPH",
-				"24 MPH"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "The words 'bungalow' and 'shampoo' originate from the languages of which country?",
-			"correct_answer": "India",
-			"incorrect_answers": [
-				[
-					"Papua New Guinea",
-					"papua new guinea"
-				],
-				[
-					"Ethiopia",
-					"ethiopia"
-				],
-				[
-					"China",
-					"china"
-				]
-			],
-			"correct_answers": [
-				"India",
-				"india"
-			],
-			"options": [
-				"Papua New Guinea",
-				"Ethiopia",
-				"China",
-				"India"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "When was YouTube founded?",
-			"correct_answer": "2005",
-			"incorrect_answers": [
-				[
-					"2004",
-					"two thousand four",
-					"two thousand and four"
-				],
-				[
-					"2007",
-					"two thousand seven",
-					"two thousand and seven"
-				],
-				[
-					"2006",
-					"two thousand six",
-					"two thousand and six"
-				]
-			],
-			"correct_answers": [
-				"2005",
-				"two thousand five",
-				"two thousand and five"
-			],
-			"options": [
-				"2004",
-				"2007",
-				"2006",
-				"2005"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Before the 19th Century, the &quot;Living Room&quot; was originally called the...",
-			"correct_answer": "Parlor",
-			"incorrect_answers": [
-				[
-					"Open Room",
-					"open room"
-				],
-				[
-					"Sitting Room",
-					"sitting room"
-				],
-				[
-					"Loft",
-					"loft"
-				]
-			],
-			"correct_answers": [
-				"Parlor",
-				"parlor"
-			],
-			"options": [
-				"Open Room",
-				"Sitting Room",
-				"Loft",
-				"Parlor"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What year was Queen Elizabeth II born?",
-			"correct_answer": "1926",
-			"incorrect_answers": [
-				[
-					"1923",
-					"1923"
-				],
-				[
-					"1929",
-					"1929"
-				],
-				[
-					"1930",
-					"1930"
-				]
-			],
-			"correct_answers": [
-				"1926",
-				"1926"
-			],
-			"options": [
-				"1923",
-				"1929",
-				"1930",
-				"1926"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which film star has his statue in Leicester Square?",
-			"correct_answer": "Charlie Chaplin",
-			"incorrect_answers": [
-				[
-					"Paul Newman",
-					"paul newman"
-				],
-				[
-					"Rowan Atkinson ",
-					"rowan atkinson "
-				],
-				[
-					"Alfred Hitchcock",
-					"alfred hitchcock"
-				]
-			],
-			"correct_answers": [
-				"Charlie Chaplin",
-				"charlie chaplin"
-			],
-			"options": [
-				"Paul Newman",
-				"Rowan Atkinson ",
-				"Alfred Hitchcock",
-				"Charlie Chaplin"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of the following is not another name for the eggplant?",
-			"correct_answer": "Potimarron",
-			"incorrect_answers": [
-				[
-					"Brinjal",
-					"brinjal"
-				],
-				[
-					"Guinea Squash",
-					"guinea squash"
-				],
-				[
-					"Melongene",
-					"melongene"
-				]
-			],
-			"correct_answers": [
-				"Potimarron",
-				"potimarron"
-			],
-			"options": [
-				"Brinjal",
-				"Guinea Squash",
-				"Melongene",
-				"Potimarron"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of the following chemicals are found in eggplant seeds?",
-			"correct_answer": "Nicotine",
-			"incorrect_answers": [
-				[
-					"Mescaline",
-					"mescaline"
-				],
-				[
-					"Cyanide",
-					"cyanide"
-				],
-				[
-					"Psilocybin",
-					"psilocybin"
-				]
-			],
-			"correct_answers": [
-				"Nicotine",
-				"nicotine"
-			],
-			"options": [
-				"Mescaline",
-				"Cyanide",
-				"Psilocybin",
-				"Nicotine"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Sciophobia is the fear of what?",
-			"correct_answer": "Shadows",
-			"incorrect_answers": [
-				[
-					"Eating",
-					"eating"
-				],
-				[
-					"Bright lights",
-					"bright lights"
-				],
-				[
-					"Transportation",
-					"transportation"
-				]
-			],
-			"correct_answers": [
-				"Shadows",
-				"shadows"
-			],
-			"options": [
-				"Eating",
-				"Bright lights",
-				"Transportation",
-				"Shadows"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of the following is an existing family in &quot;The Sims&quot;?",
-			"correct_answer": "The Goth Family",
-			"incorrect_answers": [
-				[
-					"The Family",
-					"the family"
-				],
-				[
-					"The Simoleon Family",
-					"the simoleon family"
-				],
-				[
-					"The Proud Family",
-					"the proud family"
-				]
-			],
-			"correct_answers": [
-				"The Goth Family",
-				"the goth family"
-			],
-			"options": [
-				"The Family",
-				"The Simoleon Family",
-				"The Proud Family",
-				"The Goth Family"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
-			"correct_answer": "OCBC",
-			"incorrect_answers": [
-				[
-					"HSBC",
-					"hsbc"
-				],
-				[
-					"Standard Chartered",
-					"standard chartered"
-				],
-				[
-					"Bank of China",
-					"bank of china"
-				]
-			],
-			"correct_answers": [
-				"OCBC",
-				"ocbc"
-			],
-			"options": [
-				"HSBC",
-				"Standard Chartered",
-				"Bank of China",
-				"OCBC"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What is the romanized Chinese word for &quot;airplane&quot;?",
-			"correct_answer": "Feiji",
-			"incorrect_answers": [
-				[
-					"Qiche",
-					"qiche"
-				],
-				[
-					"Zongxian",
-					"zongxian"
-				],
-				[
-					"Huojian",
-					"huojian"
-				]
-			],
-			"correct_answers": [
-				"Feiji",
-				"feiji"
-			],
-			"options": [
-				"Qiche",
-				"Zongxian",
-				"Huojian",
-				"Feiji"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What is the romanized Korean word for &quot;heart&quot;?",
-			"correct_answer": "Simjang",
-			"incorrect_answers": [
-				[
-					"Aejeong",
-					"aejeong"
-				],
-				[
-					"Jeongsin",
-					"jeongsin"
-				],
-				[
-					"Segseu",
-					"segseu"
-				]
-			],
-			"correct_answers": [
-				"Simjang",
-				"simjang"
-			],
-			"options": [
-				"Aejeong",
-				"Jeongsin",
-				"Segseu",
-				"Simjang"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What is the romanized Arabic word for &quot;moon&quot;?",
-			"correct_answer": "Qamar",
-			"incorrect_answers": [
-				[
-					"Najma",
-					"najma"
-				],
-				[
-					"Kawkab",
-					"kawkab"
-				],
-				[
-					"Shams",
-					"shams"
-				]
-			],
-			"correct_answers": [
-				"Qamar",
-				"qamar"
-			],
-			"options": [
-				"Najma",
-				"Kawkab",
-				"Shams",
-				"Qamar"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "The Swedish word &quot;Grunka&quot; means what in English?",
-			"correct_answer": "Thing",
-			"incorrect_answers": [
-				[
-					"People",
-					"people"
-				],
-				[
-					"Place",
-					"place"
-				],
-				[
-					"Pineapple",
-					"pineapple"
-				]
-			],
-			"correct_answers": [
-				"Thing",
-				"thing"
-			],
-			"options": [
-				"People",
-				"Place",
-				"Pineapple",
-				"Thing"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
-			"correct_answer": "Harry",
-			"incorrect_answers": [
-				[
-					"Gus",
-					"gus"
-				],
-				[
-					"Phineas",
-					"phineas"
-				],
-				[
-					"Ezra",
-					"ezra"
-				]
-			],
-			"correct_answers": [
-				"Harry",
-				"harry"
-			],
-			"options": [
-				"Gus",
-				"Phineas",
-				"Ezra",
-				"Harry"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?",
-			"correct_answer": "1 Month",
-			"incorrect_answers": [
-				[
-					"3 Weeks",
-					"3 weeks"
-				],
-				[
-					"1 Week",
-					"1 week"
-				],
-				[
-					"2 Months",
-					"2 months"
-				]
-			],
-			"correct_answers": [
-				"1 Month",
-				"1 month"
-			],
-			"options": [
-				"3 Weeks",
-				"1 Week",
-				"2 Months",
-				"1 Month"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of the following languages does NOT use gender as a part of its grammar?",
-			"correct_answer": "Turkish",
-			"incorrect_answers": [
-				[
-					"German",
-					"german"
-				],
-				[
-					"Danish",
-					"danish"
-				],
-				[
-					"Polish",
-					"polish"
-				]
-			],
-			"correct_answers": [
-				"Turkish",
-				"turkish"
-			],
-			"options": [
-				"German",
-				"Danish",
-				"Polish",
-				"Turkish"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which one of these Swedish companies was founded in 1943?",
-			"correct_answer": "IKEA",
-			"incorrect_answers": [
-				[
-					"H &amp; M",
-					"h &amp; m"
-				],
-				[
-					"Lindex",
-					"lindex"
-				],
-				[
-					"Clas Ohlson",
-					"clas ohlson"
-				]
-			],
-			"correct_answers": [
-				"IKEA",
-				"ikea"
-			],
-			"options": [
-				"H &amp; M",
-				"Lindex",
-				"Clas Ohlson",
-				"IKEA"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
-			"correct_answer": "Center Parcs",
-			"incorrect_answers": [
-				[
-					"Yelloh Village",
-					"yelloh village"
-				],
-				[
-					"Keycamp",
-					"keycamp"
-				],
-				[
-					"Villa Plus",
-					"villa plus"
-				]
-			],
-			"correct_answers": [
-				"Center Parcs",
-				"center parcs"
-			],
-			"options": [
-				"Yelloh Village",
-				"Keycamp",
-				"Villa Plus",
-				"Center Parcs"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What year was the RoboSapien toy robot released?",
-			"correct_answer": "2004",
-			"incorrect_answers": [
-				[
-					"2000",
-					"2000"
-				],
-				[
-					"2001",
-					"2001"
-				],
-				[
-					"2006",
-					"2006"
-				]
-			],
-			"correct_answers": [
-				"2004",
-				"2004"
-			],
-			"options": [
-				"2000",
-				"2001",
-				"2006",
-				"2004"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
-			"correct_answer": "7 years",
-			"incorrect_answers": [
-				[
-					"2 years",
-					"2 years"
-				],
-				[
-					"8 years",
-					"8 years"
-				],
-				[
-					"6 months",
-					"6 months"
-				]
-			],
-			"correct_answers": [
-				"7 years",
-				"7 years"
-			],
-			"options": [
-				"2 years",
-				"8 years",
-				"6 months",
-				"7 years"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
-			"correct_answer": "28%",
-			"incorrect_answers": [
-				[
-					"13%",
-					"13%"
-				],
-				[
-					"20%",
-					"20%"
-				],
-				[
-					"7%",
-					"7%"
-				]
-			],
-			"correct_answers": [
-				"28%",
-				"28%"
-			],
-			"options": [
-				"13%",
-				"20%",
-				"7%",
-				"28%"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What was Bank of America originally established as?",
-			"correct_answer": "Bank of Italy",
-			"incorrect_answers": [
-				[
-					"Bank of Long Island",
-					"bank of long island"
-				],
-				[
-					"Bank of Pennsylvania",
-					"bank of pennsylvania"
-				],
-				[
-					"Bank of Charlotte",
-					"bank of charlotte"
-				]
-			],
-			"correct_answers": [
-				"Bank of Italy",
-				"bank of italy"
-			],
-			"options": [
-				"Bank of Long Island",
-				"Bank of Pennsylvania",
-				"Bank of Charlotte",
-				"Bank of Italy"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which product did Nokia, the telecommunications company, originally sell?",
-			"correct_answer": "Paper",
-			"incorrect_answers": [
-				[
-					"Phones",
-					"phones"
-				],
-				[
-					"Computers",
-					"computers"
-				],
-				[
-					"Processors",
-					"processors"
-				]
-			],
-			"correct_answers": [
-				"Paper",
-				"paper"
-			],
-			"options": [
-				"Phones",
-				"Computers",
-				"Processors",
-				"Paper"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What does the Latin phrase &quot;Veni, vidi, vici&quot; translate into English?",
-			"correct_answer": "I came, I saw, I conquered",
-			"incorrect_answers": [
-				[
-					"See no evil, hear no evil, speak no evil",
-					"see no evil, hear no evil, speak no evil"
-				],
-				[
-					"Life, liberty, and happiness",
-					"life, liberty, and happiness"
-				],
-				[
-					"Past, present, and future",
-					"past, present, and future"
-				]
-			],
-			"correct_answers": [
-				"I came, I saw, I conquered",
-				"i came, i saw, i conquered"
-			],
-			"options": [
-				"See no evil, hear no evil, speak no evil",
-				"Life, liberty, and happiness",
-				"Past, present, and future",
-				"I came, I saw, I conquered"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?",
-			"correct_answer": "Andrew Scott Reisse",
-			"incorrect_answers": [
-				[
-					"Nate Mitchell",
-					"nate mitchell"
-				],
-				[
-					"Jack McCauley",
-					"jack mccauley"
-				],
-				[
-					"Palmer Luckey",
-					"palmer luckey"
-				]
-			],
-			"correct_answers": [
-				"Andrew Scott Reisse",
-				"andrew scott reisse"
-			],
-			"options": [
-				"Nate Mitchell",
-				"Jack McCauley",
-				"Palmer Luckey",
-				"Andrew Scott Reisse"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Who founded the Khan Academy?",
-			"correct_answer": "Sal Khan",
-			"incorrect_answers": [
-				[
-					"Ben Khan",
-					"ben khan"
-				],
-				[
-					"Kitt Khan",
-					"kitt khan"
-				],
-				[
-					"Adel Khan",
-					"adel khan"
-				]
-			],
-			"correct_answers": [
-				"Sal Khan",
-				"sal khan"
-			],
-			"options": [
-				"Ben Khan",
-				"Kitt Khan",
-				"Adel Khan",
-				"Sal Khan"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "In flight systems, what does the initialism &quot;TCAS&quot; stand for?",
-			"correct_answer": "Traffic Collision Avoidance System",
-			"incorrect_answers": [
-				[
-					"Traffic Communication Alert System",
-					"traffic communication alert system"
-				],
-				[
-					"Traffic Configuration Alignment System",
-					"traffic configuration alignment system"
-				],
-				[
-					"Traffic Call-sign Abbreviation System",
-					"traffic call-sign abbreviation system"
-				]
-			],
-			"correct_answers": [
-				"Traffic Collision Avoidance System",
-				"traffic collision avoidance system"
-			],
-			"options": [
-				"Traffic Communication Alert System",
-				"Traffic Configuration Alignment System",
-				"Traffic Call-sign Abbreviation System",
-				"Traffic Collision Avoidance System"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "If someone said &quot;you are olid&quot;, what would they mean?",
-			"correct_answer": "You smell extremely unpleasant.",
-			"incorrect_answers": [
-				[
-					"You are out of shape/weak.",
-					"you are out of shape/weak."
-				],
-				[
-					"Your appearance is repulsive.",
-					"your appearance is repulsive."
-				],
-				[
-					"You are incomprehensible/an idiot.",
-					"you are incomprehensible/an idiot."
-				]
-			],
-			"correct_answers": [
-				"You smell extremely unpleasant.",
-				"you smell extremely unpleasant."
-			],
-			"options": [
-				"You are out of shape/weak.",
-				"Your appearance is repulsive.",
-				"You are incomprehensible/an idiot.",
-				"You smell extremely unpleasant."
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Named after the mallow flower, mauve is a shade of what?",
-			"correct_answer": "Purple",
-			"incorrect_answers": [
-				[
-					"Red",
-					"red"
-				],
-				[
-					"Brown",
-					"brown"
-				],
-				[
-					"Pink",
-					"pink"
-				]
-			],
-			"correct_answers": [
-				"Purple",
-				"purple"
-			],
-			"options": [
-				"Red",
-				"Brown",
-				"Pink",
-				"Purple"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Chartreuse is a color between yellow and what?",
-			"correct_answer": "Green",
-			"incorrect_answers": [
-				[
-					"Red",
-					"red"
-				],
-				[
-					"Black",
-					"black"
-				],
-				[
-					"Purple",
-					"purple"
-				]
-			],
-			"correct_answers": [
-				"Green",
-				"green"
-			],
-			"options": [
-				"Red",
-				"Black",
-				"Purple",
-				"Green"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Nephelococcygia is the practice of doing what?",
-			"correct_answer": "Finding shapes in clouds",
-			"incorrect_answers": [
-				[
-					"Sleeping with your eyes open",
-					"sleeping with your eyes open"
-				],
-				[
-					"Breaking glass with your voice",
-					"breaking glass with your voice"
-				],
-				[
-					"Swimming in freezing water",
-					"swimming in freezing water"
-				]
-			],
-			"correct_answers": [
-				"Finding shapes in clouds",
-				"finding shapes in clouds"
-			],
-			"options": [
-				"Sleeping with your eyes open",
-				"Breaking glass with your voice",
-				"Swimming in freezing water",
-				"Finding shapes in clouds"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "The Quadrangularis Reversum is best described as which of the following?",
-			"correct_answer": "A percussion instrument",
-			"incorrect_answers": [
-				[
-					"A building in Oxford University",
-					"a building in oxford university"
-				],
-				[
-					"A chess move",
-					"a chess move"
-				],
-				[
-					"A geometric theorem",
-					"a geometric theorem"
-				]
-			],
-			"correct_answers": [
-				"A percussion instrument",
-				"a percussion instrument"
-			],
-			"options": [
-				"A building in Oxford University",
-				"A chess move",
-				"A geometric theorem",
-				"A percussion instrument"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Where is Apple Inc. headquartered?",
-			"correct_answer": "Cupertino, California",
-			"incorrect_answers": [
-				[
-					"Redwood City, California",
-					"redwood city, california"
-				],
-				[
-					"Redmond, Washington",
-					"redmond, washington"
-				],
-				[
-					"Santa Monica, CA",
-					"santa monica, ca"
-				]
-			],
-			"correct_answers": [
-				"Cupertino, California",
-				"cupertino, california"
-			],
-			"options": [
-				"Redwood City, California",
-				"Redmond, Washington",
-				"Santa Monica, CA",
-				"Cupertino, California"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
-			"correct_answer": "St. Peter&#039;s Basilica",
-			"incorrect_answers": [
-				[
-					"Catania Cathedral",
-					"catania cathedral"
-				],
-				[
-					"St. Mark&rsquo;s Basilica",
-					"st. mark&rsquo;s basilica"
-				],
-				[
-					"The Duomo of Florence",
-					"the duomo of florence"
-				]
-			],
-			"correct_answers": [
-				"St. Peter's Basilica",
-				"st. peter's basilica"
-			],
-			"options": [
-				"Catania Cathedral",
-				"St. Mark&rsquo;s Basilica",
-				"The Duomo of Florence",
-				"St. Peter's Basilica"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "If you planted the seeds of Quercus robur, what would grow?",
-			"correct_answer": "Trees",
-			"incorrect_answers": [
-				[
-					"Grains",
-					"grains"
-				],
-				[
-					"Vegetables",
-					"vegetables"
-				],
-				[
-					"Flowers",
-					"flowers"
-				]
-			],
-			"correct_answers": [
-				"Trees",
-				"trees"
-			],
-			"options": [
-				"Grains",
-				"Vegetables",
-				"Flowers",
-				"Trees"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Located in Chile, El Teniente is the world's largest underground mine for what metal?",
-			"correct_answer": "Copper",
-			"incorrect_answers": [
-				[
-					"Iron",
-					"iron"
-				],
-				[
-					"Nickel",
-					"nickel"
-				],
-				[
-					"Silver",
-					"silver"
-				]
-			],
-			"correct_answers": [
-				"Copper",
-				"copper"
-			],
-			"options": [
-				"Iron",
-				"Nickel",
-				"Silver",
-				"Copper"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what dungeon is widely considered to be the most difficult?",
-			"correct_answer": "The Shatter&#039;s",
-			"incorrect_answers": [
-				[
-					"Snake Pit",
-					"snake pit"
-				],
-				[
-					"The Tomb of the Acient's",
-					"the tomb of the acient's",
-					"The Tomb of Acient&#039;s"
-				],
-				[
-					"The Puppet Master's Theater",
-					"the puppet master's theater"
-				]
-			],
-			"correct_answers": [
-				"The Shatter's",
-				"the shatter's"
-			],
-			"options": [
-				"Snake Pit",
-				"The Tomb of the Acient's",
-				"The Puppet Master's Theater",
-				"The Shatter's"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
-			"correct_answer": "35 Pounds",
-			"incorrect_answers": [
-				[
-					"30 Pounds",
-					"30 pounds"
-				],
-				[
-					"40 Pounds",
-					"40 pounds"
-				],
-				[
-					"32.50 Pounds",
-					"32.50 pounds"
-				]
-			],
-			"correct_answers": [
-				"35 Pounds",
-				"35 pounds"
-			],
-			"options": [
-				"30 Pounds",
-				"40 Pounds",
-				"32.50 Pounds",
-				"35 Pounds"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "In &quot;Battle Cats&quot;, what is Moneko / MISS Moneko's critical percentage rate?",
-			"correct_answer": "15%",
-			"incorrect_answers": [
-				[
-					"20%",
-					"20%"
-				],
-				[
-					"10%",
-					"10%"
-				],
-				[
-					"25%",
-					"25%"
-				]
-			],
-			"correct_answers": [
-				"15%",
-				"15%"
-			],
-			"options": [
-				"20%",
-				"10%",
-				"25%",
-				"15%"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "What is the most commonly used noun in the English language?",
-			"correct_answer": "Time",
-			"incorrect_answers": [
-				[
-					"Home",
-					"home"
-				],
-				[
-					"Water",
-					"water"
-				],
-				[
-					"Man",
-					"man"
-				]
-			],
-			"correct_answers": [
-				"Time",
-				"time"
-			],
-			"options": [
-				"Home",
-				"Water",
-				"Man",
-				"Time"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "The word &quot;abulia&quot; means which of the following?",
-			"correct_answer": "The inability to make decisions",
-			"incorrect_answers": [
-				[
-					"The inability to stand up",
-					"the inability to stand up"
-				],
-				[
-					"The inability to concentrate on anything",
-					"the inability to concentrate on anything"
-				],
-				[
-					"A feverish desire to rip one's clothes off",
-					"a feverish desire to rip one's clothes off"
-				]
-			],
-			"correct_answers": [
-				"The inability to make decisions",
-				"the inability to make decisions"
-			],
-			"options": [
-				"The inability to stand up",
-				"The inability to concentrate on anything",
-				"A feverish desire to rip one's clothes off",
-				"The inability to make decisions"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "The word &quot;astasia&quot; means which of the following?",
-			"correct_answer": "The inability to stand up",
-			"incorrect_answers": [
-				[
-					"The inability to make decisions",
-					"the inability to make decisions"
-				],
-				[
-					"The inability to concentrate on anything",
-					"the inability to concentrate on anything"
-				],
-				[
-					"A feverish desire to rip one's clothes off",
-					"a feverish desire to rip one's clothes off"
-				]
-			],
-			"correct_answers": [
-				"The inability to stand up",
-				"the inability to stand up"
-			],
-			"options": [
-				"The inability to make decisions",
-				"The inability to concentrate on anything",
-				"A feverish desire to rip one's clothes off",
-				"The inability to stand up"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "The word &quot;aprosexia&quot; means which of the following?",
-			"correct_answer": "The inability to concentrate on anything",
-			"incorrect_answers": [
-				[
-					"The inability to make decisions",
-					"the inability to make decisions"
-				],
-				[
-					"A feverish desire to rip one's clothes off",
-					"a feverish desire to rip one's clothes off"
-				],
-				[
-					"The inability to stand up",
-					"the inability to stand up"
-				]
-			],
-			"correct_answers": [
-				"The inability to concentrate on anything",
-				"the inability to concentrate on anything"
-			],
-			"options": [
-				"The inability to make decisions",
-				"A feverish desire to rip one's clothes off",
-				"The inability to stand up",
-				"The inability to concentrate on anything"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of these cities does NOT have a United States Minting location?",
-			"correct_answer": "St. Louis, MO",
-			"incorrect_answers": [
-				[
-					"San Fransisco, CA",
-					"san fransisco, ca"
-				],
-				[
-					"Philidelphia, PA",
-					"philidelphia, pa"
-				],
-				[
-					"West Point, NY",
-					"west point, ny"
-				]
-			],
-			"correct_answers": [
-				"St. Louis, MO",
-				"st. louis, mo"
-			],
-			"options": [
-				"San Fransisco, CA",
-				"Philidelphia, PA",
-				"West Point, NY",
-				"St. Louis, MO"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
-			"correct_answer": "Edward VIII",
-			"incorrect_answers": [
-				[
-					"Victoria",
-					"victoria"
-				],
-				[
-					"George VI",
-					"george vi"
-				],
-				[
-					"Charles II",
-					"charles ii"
-				]
-			],
-			"correct_answers": [
-				"Edward VIII",
-				"edward viii"
-			],
-			"options": [
-				"Victoria",
-				"George VI",
-				"Charles II",
-				"Edward VIII"
-			]
-		},
-		{
-			"category": "General Knowledge",
-			"type": "multiple",
-			"difficulty": "hard",
-			"question": "In &quot;Resident Evil 3&quot;, how many inventory slots does Jill have at the start of the game?",
-			"correct_answer": "10",
-			"incorrect_answers": [
-				[
-					"6",
-					"6"
-				],
-				[
-					"8",
-					"8"
-				],
-				[
-					"12",
-					"12"
-				]
-			],
-			"correct_answers": [
-				"10",
-				"10"
-			],
-			"options": [
-				"6",
-				"8",
-				"12",
-				"10"
-			]
-		}
-	],
-	"formatted": true
+    "questions": [
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
+            "correct_answer": "7 years",
+            "incorrect_answers": [
+                [
+                    "2 years",
+                    "2 years"
+                ],
+                [
+                    "8 years",
+                    "8 years"
+                ],
+                [
+                    "6 months",
+                    "6 months"
+                ]
+            ],
+            "correct_answers": [
+                "7 years",
+                "7 years"
+            ],
+            "options": [
+                "2 years",
+                "8 years",
+                "6 months",
+                "7 years"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the romanized Chinese word for &quot;airplane&quot;?",
+            "correct_answer": "Feiji",
+            "incorrect_answers": [
+                [
+                    "Qiche",
+                    "qiche"
+                ],
+                [
+                    "Zongxian",
+                    "zongxian"
+                ],
+                [
+                    "Huojian",
+                    "huojian"
+                ]
+            ],
+            "correct_answers": [
+                "Feiji",
+                "feiji"
+            ],
+            "options": [
+                "Qiche",
+                "Zongxian",
+                "Huojian",
+                "Feiji"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many notes are there on a standard grand piano?",
+            "correct_answer": "88",
+            "incorrect_answers": [
+                [
+                    "98",
+                    "98"
+                ],
+                [
+                    "108",
+                    "108"
+                ],
+                [
+                    "78",
+                    "78"
+                ]
+            ],
+            "correct_answers": [
+                "88",
+                "88"
+            ],
+            "options": [
+                "98",
+                "108",
+                "78",
+                "88"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
+            "correct_answer": "Edward VIII",
+            "incorrect_answers": [
+                [
+                    "Victoria",
+                    "victoria"
+                ],
+                [
+                    "George VI",
+                    "george vi"
+                ],
+                [
+                    "Charles II",
+                    "charles ii"
+                ]
+            ],
+            "correct_answers": [
+                "Edward VIII",
+                "edward viii"
+            ],
+            "options": [
+                "Victoria",
+                "George VI",
+                "Charles II",
+                "Edward VIII"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was &quot;YouTube&quot; founded?",
+            "correct_answer": "February 14, 2005",
+            "incorrect_answers": [
+                [
+                    "May 22, 2004",
+                    "may 22, 2004"
+                ],
+                [
+                    "September 12, 2005",
+                    "september 12, 2005"
+                ],
+                [
+                    "July 19, 2009",
+                    "july 19, 2009"
+                ]
+            ],
+            "correct_answers": [
+                "February 14, 2005",
+                "february 14, 2005"
+            ],
+            "options": [
+                "May 22, 2004",
+                "September 12, 2005",
+                "July 19, 2009",
+                "February 14, 2005"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following languages does NOT use gender as a part of its grammar?",
+            "correct_answer": "Turkish",
+            "incorrect_answers": [
+                [
+                    "German",
+                    "german"
+                ],
+                [
+                    "Danish",
+                    "danish"
+                ],
+                [
+                    "Polish",
+                    "polish"
+                ]
+            ],
+            "correct_answers": [
+                "Turkish",
+                "turkish"
+            ],
+            "options": [
+                "German",
+                "Danish",
+                "Polish",
+                "Turkish"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
+            "correct_answer": "Center Parcs",
+            "incorrect_answers": [
+                [
+                    "Yelloh Village",
+                    "yelloh village"
+                ],
+                [
+                    "Keycamp",
+                    "keycamp"
+                ],
+                [
+                    "Villa Plus",
+                    "villa plus"
+                ]
+            ],
+            "correct_answers": [
+                "Center Parcs",
+                "center parcs"
+            ],
+            "options": [
+                "Yelloh Village",
+                "Keycamp",
+                "Villa Plus",
+                "Center Parcs"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was Bank of America originally established as?",
+            "correct_answer": "Bank of Italy",
+            "incorrect_answers": [
+                [
+                    "Bank of Long Island",
+                    "bank of long island"
+                ],
+                [
+                    "Bank of Pennsylvania",
+                    "bank of pennsylvania"
+                ],
+                [
+                    "Bank of Charlotte",
+                    "bank of charlotte"
+                ]
+            ],
+            "correct_answers": [
+                "Bank of Italy",
+                "bank of italy"
+            ],
+            "options": [
+                "Bank of Long Island",
+                "Bank of Pennsylvania",
+                "Bank of Charlotte",
+                "Bank of Italy"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?",
+            "correct_answer": "Andrew Scott Reisse",
+            "incorrect_answers": [
+                [
+                    "Nate Mitchell",
+                    "nate mitchell"
+                ],
+                [
+                    "Jack McCauley",
+                    "jack mccauley"
+                ],
+                [
+                    "Palmer Luckey",
+                    "palmer luckey"
+                ]
+            ],
+            "correct_answers": [
+                "Andrew Scott Reisse",
+                "andrew scott reisse"
+            ],
+            "options": [
+                "Nate Mitchell",
+                "Jack McCauley",
+                "Palmer Luckey",
+                "Andrew Scott Reisse"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who founded the Khan Academy?",
+            "correct_answer": "Sal Khan",
+            "incorrect_answers": [
+                [
+                    "Ben Khan",
+                    "ben khan"
+                ],
+                [
+                    "Kitt Khan",
+                    "kitt khan"
+                ],
+                [
+                    "Adel Khan",
+                    "adel khan"
+                ]
+            ],
+            "correct_answers": [
+                "Sal Khan",
+                "sal khan"
+            ],
+            "options": [
+                "Ben Khan",
+                "Kitt Khan",
+                "Adel Khan",
+                "Sal Khan"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "If someone said &quot;you are olid&quot;, what would they mean?",
+            "correct_answer": "You smell extremely unpleasant.",
+            "incorrect_answers": [
+                [
+                    "You are out of shape/weak.",
+                    "you are out of shape/weak."
+                ],
+                [
+                    "Your appearance is repulsive.",
+                    "your appearance is repulsive."
+                ],
+                [
+                    "You are incomprehensible/an idiot.",
+                    "you are incomprehensible/an idiot."
+                ]
+            ],
+            "correct_answers": [
+                "You smell extremely unpleasant.",
+                "you smell extremely unpleasant."
+            ],
+            "options": [
+                "You are out of shape/weak.",
+                "Your appearance is repulsive.",
+                "You are incomprehensible/an idiot.",
+                "You smell extremely unpleasant."
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The word &quot;aprosexia&quot; means which of the following?",
+            "correct_answer": "The inability to concentrate on anything",
+            "incorrect_answers": [
+                [
+                    "The inability to make decisions",
+                    "the inability to make decisions",
+                    "inability to make decisions"
+                ],
+                [
+                    "A feverish desire to rip one's clothes off",
+                    "a feverish desire to rip one's clothes off",
+                    "a feverish desire to rip ones clothes off"
+                ],
+                [
+                    "The inability to stand up",
+                    "the inability to stand up",
+                    "inability to stand up"
+                ]
+            ],
+            "correct_answers": [
+                "The inability to concentrate on anything",
+                "the inability to concentrate on anything",
+                "inability to concentrate on anything"
+            ],
+            "options": [
+                "The inability to make decisions",
+                "A feverish desire to rip one's clothes off",
+                "The inability to stand up",
+                "The inability to concentrate on anything"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Resident Evil 3&quot;, how many inventory slots does Jill have at the start of the game?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "12",
+                    "12"
+                ]
+            ],
+            "correct_answers": [
+                "10",
+                "10"
+            ],
+            "options": [
+                "6",
+                "8",
+                "12",
+                "10"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Named after the mallow flower, mauve is a shade of what?",
+            "correct_answer": "Purple",
+            "incorrect_answers": [
+                [
+                    "Red",
+                    "red"
+                ],
+                [
+                    "Brown",
+                    "brown"
+                ],
+                [
+                    "Pink",
+                    "pink"
+                ]
+            ],
+            "correct_answers": [
+                "Purple",
+                "purple"
+            ],
+            "options": [
+                "Red",
+                "Brown",
+                "Pink",
+                "Purple"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Nephelococcygia is the practice of doing what?",
+            "correct_answer": "Finding shapes in clouds",
+            "incorrect_answers": [
+                [
+                    "Sleeping with your eyes open",
+                    "sleeping with your eyes open"
+                ],
+                [
+                    "Breaking glass with your voice",
+                    "breaking glass with your voice"
+                ],
+                [
+                    "Swimming in freezing water",
+                    "swimming in freezing water"
+                ]
+            ],
+            "correct_answers": [
+                "Finding shapes in clouds",
+                "finding shapes in clouds"
+            ],
+            "options": [
+                "Sleeping with your eyes open",
+                "Breaking glass with your voice",
+                "Swimming in freezing water",
+                "Finding shapes in clouds"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+            "correct_answer": "St. Peter&#039;s Basilica",
+            "incorrect_answers": [
+                [
+                    "Catania Cathedral",
+                    "catania cathedral"
+                ],
+                [
+                    "St. Mark&rsquo;s Basilica",
+                    "st. mark&rsquo;s basilica"
+                ],
+                [
+                    "The Duomo of Florence",
+                    "the duomo of florence",
+                    "duomo of florence"
+                ]
+            ],
+            "correct_answers": [
+                "St. Peter's Basilica",
+                "st. peter's basilica",
+                "st. peters basilica"
+            ],
+            "options": [
+                "Catania Cathedral",
+                "St. Mark&rsquo;s Basilica",
+                "The Duomo of Florence",
+                "St. Peter's Basilica"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what dungeon is widely considered to be the most difficult?",
+            "correct_answer": "The Shatter&#039;s",
+            "incorrect_answers": [
+                [
+                    "Snake Pit",
+                    "snake pit"
+                ],
+                [
+                    "The Tomb of the Acient's",
+                    "the tomb of the acient's",
+                    "tomb of acient's",
+                    "the tomb of the acients"
+                ],
+                [
+                    "The Puppet Master's Theater",
+                    "the puppet master's theater",
+                    "puppet master's theater",
+                    "the puppet masters theater"
+                ]
+            ],
+            "correct_answers": [
+                "The Shatter's",
+                "the shatter's",
+                "shatter's",
+                "the shatters"
+            ],
+            "options": [
+                "Snake Pit",
+                "The Tomb of the Acient's",
+                "The Puppet Master's Theater",
+                "The Shatter's"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What type of dog is 'Handsome Dan', the mascot of Yale University?",
+            "correct_answer": "Bulldog",
+            "incorrect_answers": [
+                [
+                    "Yorkshire Terrier",
+                    "yorkshire terrier"
+                ],
+                [
+                    "Boxer",
+                    "boxer"
+                ],
+                [
+                    "Pug",
+                    "pug"
+                ]
+            ],
+            "correct_answers": [
+                "Bulldog",
+                "bulldog"
+            ],
+            "options": [
+                "Yorkshire Terrier",
+                "Boxer",
+                "Pug",
+                "Bulldog"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
+            "correct_answer": "OCBC",
+            "incorrect_answers": [
+                [
+                    "HSBC",
+                    "hsbc"
+                ],
+                [
+                    "Standard Chartered",
+                    "standard chartered"
+                ],
+                [
+                    "Bank of China",
+                    "bank of china"
+                ]
+            ],
+            "correct_answers": [
+                "OCBC",
+                "ocbc"
+            ],
+            "options": [
+                "HSBC",
+                "Standard Chartered",
+                "Bank of China",
+                "OCBC"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the romanized Arabic word for &quot;moon&quot;?",
+            "correct_answer": "Qamar",
+            "incorrect_answers": [
+                [
+                    "Najma",
+                    "najma"
+                ],
+                [
+                    "Kawkab",
+                    "kawkab"
+                ],
+                [
+                    "Shams",
+                    "shams"
+                ]
+            ],
+            "correct_answers": [
+                "Qamar",
+                "qamar"
+            ],
+            "options": [
+                "Najma",
+                "Kawkab",
+                "Shams",
+                "Qamar"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is not another name for the eggplant?",
+            "correct_answer": "Potimarron",
+            "incorrect_answers": [
+                [
+                    "Brinjal",
+                    "brinjal"
+                ],
+                [
+                    "Guinea Squash",
+                    "guinea squash"
+                ],
+                [
+                    "Melongene",
+                    "melongene"
+                ]
+            ],
+            "correct_answers": [
+                "Potimarron",
+                "potimarron"
+            ],
+            "options": [
+                "Brinjal",
+                "Guinea Squash",
+                "Melongene",
+                "Potimarron"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Battle Cats&quot;, what is Moneko / MISS Moneko's critical percentage rate?",
+            "correct_answer": "15%",
+            "incorrect_answers": [
+                [
+                    "20%",
+                    "20%"
+                ],
+                [
+                    "10%",
+                    "10%"
+                ],
+                [
+                    "25%",
+                    "25%"
+                ]
+            ],
+            "correct_answers": [
+                "15%",
+                "15%"
+            ],
+            "options": [
+                "20%",
+                "10%",
+                "25%",
+                "15%"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which one of these Swedish companies was founded in 1943?",
+            "correct_answer": "IKEA",
+            "incorrect_answers": [
+                [
+                    "H &amp; M",
+                    "h &amp; m"
+                ],
+                [
+                    "Lindex",
+                    "lindex"
+                ],
+                [
+                    "Clas Ohlson",
+                    "clas ohlson"
+                ]
+            ],
+            "correct_answers": [
+                "IKEA",
+                "ikea"
+            ],
+            "options": [
+                "H &amp; M",
+                "Lindex",
+                "Clas Ohlson",
+                "IKEA"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What does the Latin phrase &quot;Veni, vidi, vici&quot; translate into English?",
+            "correct_answer": "I came, I saw, I conquered",
+            "incorrect_answers": [
+                [
+                    "See no evil, hear no evil, speak no evil",
+                    "see no evil, hear no evil, speak no evil"
+                ],
+                [
+                    "Life, liberty, and happiness",
+                    "life, liberty, and happiness"
+                ],
+                [
+                    "Past, present, and future",
+                    "past, present, and future"
+                ]
+            ],
+            "correct_answers": [
+                "I came, I saw, I conquered",
+                "i came, i saw, i conquered"
+            ],
+            "options": [
+                "See no evil, hear no evil, speak no evil",
+                "Life, liberty, and happiness",
+                "Past, present, and future",
+                "I came, I saw, I conquered"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Electronic music producer Kygo's popularity skyrocketed after a certain remix. Which song did he remix?",
+            "correct_answer": "Ed Sheeran - I See Fire",
+            "incorrect_answers": [
+                [
+                    "Marvin Gaye - Sexual Healing",
+                    "marvin gaye - sexual healing"
+                ],
+                [
+                    "Coldplay - Midnight",
+                    "coldplay - midnight"
+                ],
+                [
+                    "a-ha - Take On Me",
+                    "a-ha - take on me"
+                ]
+            ],
+            "correct_answers": [
+                "Ed Sheeran - I See Fire",
+                "ed sheeran - i see fire"
+            ],
+            "options": [
+                "Marvin Gaye - Sexual Healing",
+                "Coldplay - Midnight",
+                "a-ha - Take On Me",
+                "Ed Sheeran - I See Fire"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the romanized Korean word for &quot;heart&quot;?",
+            "correct_answer": "Simjang",
+            "incorrect_answers": [
+                [
+                    "Aejeong",
+                    "aejeong"
+                ],
+                [
+                    "Jeongsin",
+                    "jeongsin"
+                ],
+                [
+                    "Segseu",
+                    "segseu"
+                ]
+            ],
+            "correct_answers": [
+                "Simjang",
+                "simjang"
+            ],
+            "options": [
+                "Aejeong",
+                "Jeongsin",
+                "Segseu",
+                "Simjang"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Sciophobia is the fear of what?",
+            "correct_answer": "Shadows",
+            "incorrect_answers": [
+                [
+                    "Eating",
+                    "eating"
+                ],
+                [
+                    "Bright lights",
+                    "bright lights"
+                ],
+                [
+                    "Transportation",
+                    "transportation"
+                ]
+            ],
+            "correct_answers": [
+                "Shadows",
+                "shadows"
+            ],
+            "options": [
+                "Eating",
+                "Bright lights",
+                "Transportation",
+                "Shadows"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Swedish word &quot;Grunka&quot; means what in English?",
+            "correct_answer": "Thing",
+            "incorrect_answers": [
+                [
+                    "People",
+                    "people"
+                ],
+                [
+                    "Place",
+                    "place"
+                ],
+                [
+                    "Pineapple",
+                    "pineapple"
+                ]
+            ],
+            "correct_answers": [
+                "Thing",
+                "thing"
+            ],
+            "options": [
+                "People",
+                "Place",
+                "Pineapple",
+                "Thing"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
+            "correct_answer": "Harry",
+            "incorrect_answers": [
+                [
+                    "Gus",
+                    "gus"
+                ],
+                [
+                    "Phineas",
+                    "phineas"
+                ],
+                [
+                    "Ezra",
+                    "ezra"
+                ]
+            ],
+            "correct_answers": [
+                "Harry",
+                "harry"
+            ],
+            "options": [
+                "Gus",
+                "Phineas",
+                "Ezra",
+                "Harry"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What year was Queen Elizabeth II born?",
+            "correct_answer": "1926",
+            "incorrect_answers": [
+                [
+                    "1923",
+                    "1923"
+                ],
+                [
+                    "1929",
+                    "1929"
+                ],
+                [
+                    "1930",
+                    "1930"
+                ]
+            ],
+            "correct_answers": [
+                "1926",
+                "1926"
+            ],
+            "options": [
+                "1923",
+                "1929",
+                "1930",
+                "1926"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+            "correct_answer": "35 Pounds",
+            "incorrect_answers": [
+                [
+                    "30 Pounds",
+                    "30 pounds"
+                ],
+                [
+                    "40 Pounds",
+                    "40 pounds"
+                ],
+                [
+                    "32.50 Pounds",
+                    "32.50 pounds"
+                ]
+            ],
+            "correct_answers": [
+                "35 Pounds",
+                "35 pounds"
+            ],
+            "options": [
+                "30 Pounds",
+                "40 Pounds",
+                "32.50 Pounds",
+                "35 Pounds"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What year was the RoboSapien toy robot released?",
+            "correct_answer": "2004",
+            "incorrect_answers": [
+                [
+                    "2000",
+                    "2000"
+                ],
+                [
+                    "2001",
+                    "2001"
+                ],
+                [
+                    "2006",
+                    "2006"
+                ]
+            ],
+            "correct_answers": [
+                "2004",
+                "2004"
+            ],
+            "options": [
+                "2000",
+                "2001",
+                "2006",
+                "2004"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+            "correct_answer": "150",
+            "incorrect_answers": [
+                [
+                    "200",
+                    "200"
+                ],
+                [
+                    "100",
+                    "100"
+                ],
+                [
+                    "155",
+                    "155"
+                ]
+            ],
+            "correct_answers": [
+                "150",
+                "150"
+            ],
+            "options": [
+                "200",
+                "100",
+                "155",
+                "150"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+            "correct_answer": "28%",
+            "incorrect_answers": [
+                [
+                    "13%",
+                    "13%"
+                ],
+                [
+                    "20%",
+                    "20%"
+                ],
+                [
+                    "7%",
+                    "7%"
+                ]
+            ],
+            "correct_answers": [
+                "28%",
+                "28%"
+            ],
+            "options": [
+                "13%",
+                "20%",
+                "7%",
+                "28%"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which product did Nokia, the telecommunications company, originally sell?",
+            "correct_answer": "Paper",
+            "incorrect_answers": [
+                [
+                    "Phones",
+                    "phones"
+                ],
+                [
+                    "Computers",
+                    "computers"
+                ],
+                [
+                    "Processors",
+                    "processors"
+                ]
+            ],
+            "correct_answers": [
+                "Paper",
+                "paper"
+            ],
+            "options": [
+                "Phones",
+                "Computers",
+                "Processors",
+                "Paper"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Quadrangularis Reversum is best described as which of the following?",
+            "correct_answer": "A percussion instrument",
+            "incorrect_answers": [
+                [
+                    "A building in Oxford University",
+                    "a building in oxford university"
+                ],
+                [
+                    "A chess move",
+                    "a chess move"
+                ],
+                [
+                    "A geometric theorem",
+                    "a geometric theorem"
+                ]
+            ],
+            "correct_answers": [
+                "A percussion instrument",
+                "a percussion instrument"
+            ],
+            "options": [
+                "A building in Oxford University",
+                "A chess move",
+                "A geometric theorem",
+                "A percussion instrument"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which film star has his statue in Leicester Square?",
+            "correct_answer": "Charlie Chaplin",
+            "incorrect_answers": [
+                [
+                    "Paul Newman",
+                    "paul newman"
+                ],
+                [
+                    "Rowan Atkinson ",
+                    "rowan atkinson "
+                ],
+                [
+                    "Alfred Hitchcock",
+                    "alfred hitchcock"
+                ]
+            ],
+            "correct_answers": [
+                "Charlie Chaplin",
+                "charlie chaplin"
+            ],
+            "options": [
+                "Paul Newman",
+                "Rowan Atkinson ",
+                "Alfred Hitchcock",
+                "Charlie Chaplin"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "If you planted the seeds of Quercus robur, what would grow?",
+            "correct_answer": "Trees",
+            "incorrect_answers": [
+                [
+                    "Grains",
+                    "grains"
+                ],
+                [
+                    "Vegetables",
+                    "vegetables"
+                ],
+                [
+                    "Flowers",
+                    "flowers"
+                ]
+            ],
+            "correct_answers": [
+                "Trees",
+                "trees"
+            ],
+            "options": [
+                "Grains",
+                "Vegetables",
+                "Flowers",
+                "Trees"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the most commonly used noun in the English language?",
+            "correct_answer": "Time",
+            "incorrect_answers": [
+                [
+                    "Home",
+                    "home"
+                ],
+                [
+                    "Water",
+                    "water"
+                ],
+                [
+                    "Man",
+                    "man"
+                ]
+            ],
+            "correct_answers": [
+                "Time",
+                "time"
+            ],
+            "options": [
+                "Home",
+                "Water",
+                "Man",
+                "Time"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these cities does NOT have a United States Minting location?",
+            "correct_answer": "St. Louis, MO",
+            "incorrect_answers": [
+                [
+                    "San Fransisco, CA",
+                    "san fransisco, ca"
+                ],
+                [
+                    "Philidelphia, PA",
+                    "philidelphia, pa"
+                ],
+                [
+                    "West Point, NY",
+                    "west point, ny"
+                ]
+            ],
+            "correct_answers": [
+                "St. Louis, MO",
+                "st. louis, mo"
+            ],
+            "options": [
+                "San Fransisco, CA",
+                "Philidelphia, PA",
+                "West Point, NY",
+                "St. Louis, MO"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+            "correct_answer": "India",
+            "incorrect_answers": [
+                [
+                    "Papua New Guinea",
+                    "papua new guinea"
+                ],
+                [
+                    "Ethiopia",
+                    "ethiopia"
+                ],
+                [
+                    "China",
+                    "china"
+                ]
+            ],
+            "correct_answers": [
+                "India",
+                "india"
+            ],
+            "options": [
+                "Papua New Guinea",
+                "Ethiopia",
+                "China",
+                "India"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?",
+            "correct_answer": "1 Month",
+            "incorrect_answers": [
+                [
+                    "3 Weeks",
+                    "3 weeks"
+                ],
+                [
+                    "1 Week",
+                    "1 week"
+                ],
+                [
+                    "2 Months",
+                    "2 months"
+                ]
+            ],
+            "correct_answers": [
+                "1 Month",
+                "1 month"
+            ],
+            "options": [
+                "3 Weeks",
+                "1 Week",
+                "2 Months",
+                "1 Month"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Originally another word for poppy, coquelicot is a shade of what?",
+            "correct_answer": "Red",
+            "incorrect_answers": [
+                [
+                    "Green",
+                    "green"
+                ],
+                [
+                    "Blue",
+                    "blue"
+                ],
+                [
+                    "Pink",
+                    "pink"
+                ]
+            ],
+            "correct_answers": [
+                "Red",
+                "red"
+            ],
+            "options": [
+                "Green",
+                "Blue",
+                "Pink",
+                "Red"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Before the 19th Century, the &quot;Living Room&quot; was originally called the...",
+            "correct_answer": "Parlor",
+            "incorrect_answers": [
+                [
+                    "Open Room",
+                    "open room"
+                ],
+                [
+                    "Sitting Room",
+                    "sitting room"
+                ],
+                [
+                    "Loft",
+                    "loft"
+                ]
+            ],
+            "correct_answers": [
+                "Parlor",
+                "parlor"
+            ],
+            "options": [
+                "Open Room",
+                "Sitting Room",
+                "Loft",
+                "Parlor"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is an existing family in &quot;The Sims&quot;?",
+            "correct_answer": "The Goth Family",
+            "incorrect_answers": [
+                [
+                    "The Family",
+                    "the family",
+                    "family"
+                ],
+                [
+                    "The Simoleon Family",
+                    "the simoleon family",
+                    "simoleon family"
+                ],
+                [
+                    "The Proud Family",
+                    "the proud family",
+                    "proud family"
+                ]
+            ],
+            "correct_answers": [
+                "The Goth Family",
+                "the goth family",
+                "goth family"
+            ],
+            "options": [
+                "The Family",
+                "The Simoleon Family",
+                "The Proud Family",
+                "The Goth Family"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Chartreuse is a color between yellow and what?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                [
+                    "Red",
+                    "red"
+                ],
+                [
+                    "Black",
+                    "black"
+                ],
+                [
+                    "Purple",
+                    "purple"
+                ]
+            ],
+            "correct_answers": [
+                "Green",
+                "green"
+            ],
+            "options": [
+                "Red",
+                "Black",
+                "Purple",
+                "Green"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Where is Apple Inc. headquartered?",
+            "correct_answer": "Cupertino, California",
+            "incorrect_answers": [
+                [
+                    "Redwood City, California",
+                    "redwood city, california"
+                ],
+                [
+                    "Redmond, Washington",
+                    "redmond, washington"
+                ],
+                [
+                    "Santa Monica, CA",
+                    "santa monica, ca"
+                ]
+            ],
+            "correct_answers": [
+                "Cupertino, California",
+                "cupertino, california"
+            ],
+            "options": [
+                "Redwood City, California",
+                "Redmond, Washington",
+                "Santa Monica, CA",
+                "Cupertino, California"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following chemicals are found in eggplant seeds?",
+            "correct_answer": "Nicotine",
+            "incorrect_answers": [
+                [
+                    "Mescaline",
+                    "mescaline"
+                ],
+                [
+                    "Cyanide",
+                    "cyanide"
+                ],
+                [
+                    "Psilocybin",
+                    "psilocybin"
+                ]
+            ],
+            "correct_answers": [
+                "Nicotine",
+                "nicotine"
+            ],
+            "options": [
+                "Mescaline",
+                "Cyanide",
+                "Psilocybin",
+                "Nicotine"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Located in Chile, El Teniente is the world's largest underground mine for what metal?",
+            "correct_answer": "Copper",
+            "incorrect_answers": [
+                [
+                    "Iron",
+                    "iron"
+                ],
+                [
+                    "Nickel",
+                    "nickel"
+                ],
+                [
+                    "Silver",
+                    "silver"
+                ]
+            ],
+            "correct_answers": [
+                "Copper",
+                "copper"
+            ],
+            "options": [
+                "Iron",
+                "Nickel",
+                "Silver",
+                "Copper"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The word &quot;astasia&quot; means which of the following?",
+            "correct_answer": "The inability to stand up",
+            "incorrect_answers": [
+                [
+                    "The inability to make decisions",
+                    "the inability to make decisions",
+                    "inability to make decisions"
+                ],
+                [
+                    "The inability to concentrate on anything",
+                    "the inability to concentrate on anything",
+                    "inability to concentrate on anything"
+                ],
+                [
+                    "A feverish desire to rip one's clothes off",
+                    "a feverish desire to rip one's clothes off",
+                    "a feverish desire to rip ones clothes off"
+                ]
+            ],
+            "correct_answers": [
+                "The inability to stand up",
+                "the inability to stand up",
+                "inability to stand up"
+            ],
+            "options": [
+                "The inability to make decisions",
+                "The inability to concentrate on anything",
+                "A feverish desire to rip one's clothes off",
+                "The inability to stand up"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the airspeed velocity of an unladen swallow?",
+            "correct_answer": "24 MPH",
+            "incorrect_answers": [
+                [
+                    "15 MPH",
+                    "15 mph"
+                ],
+                [
+                    "20 MPH",
+                    "20 mph"
+                ],
+                [
+                    "200 MPH",
+                    "200 mph"
+                ]
+            ],
+            "correct_answers": [
+                "24 MPH",
+                "24 mph"
+            ],
+            "options": [
+                "15 MPH",
+                "20 MPH",
+                "200 MPH",
+                "24 MPH"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which musician has collaborated with American producer Porter Robinson and released the 2016 song &quot;Shelter&quot;?",
+            "correct_answer": "Madeon",
+            "incorrect_answers": [
+                [
+                    "Mat Zo",
+                    "mat zo"
+                ],
+                [
+                    "deadmau5",
+                    "deadmau5"
+                ],
+                [
+                    "Zedd",
+                    "zedd"
+                ]
+            ],
+            "correct_answers": [
+                "Madeon",
+                "madeon"
+            ],
+            "options": [
+                "Mat Zo",
+                "deadmau5",
+                "Zedd",
+                "Madeon"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In flight systems, what does the initialism &quot;TCAS&quot; stand for?",
+            "correct_answer": "Traffic Collision Avoidance System",
+            "incorrect_answers": [
+                [
+                    "Traffic Communication Alert System",
+                    "traffic communication alert system"
+                ],
+                [
+                    "Traffic Configuration Alignment System",
+                    "traffic configuration alignment system"
+                ],
+                [
+                    "Traffic Call-sign Abbreviation System",
+                    "traffic call-sign abbreviation system"
+                ]
+            ],
+            "correct_answers": [
+                "Traffic Collision Avoidance System",
+                "traffic collision avoidance system"
+            ],
+            "options": [
+                "Traffic Communication Alert System",
+                "Traffic Configuration Alignment System",
+                "Traffic Call-sign Abbreviation System",
+                "Traffic Collision Avoidance System"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The word &quot;abulia&quot; means which of the following?",
+            "correct_answer": "The inability to make decisions",
+            "incorrect_answers": [
+                [
+                    "The inability to stand up",
+                    "the inability to stand up",
+                    "inability to stand up"
+                ],
+                [
+                    "The inability to concentrate on anything",
+                    "the inability to concentrate on anything",
+                    "inability to concentrate on anything"
+                ],
+                [
+                    "A feverish desire to rip one's clothes off",
+                    "a feverish desire to rip one's clothes off",
+                    "a feverish desire to rip ones clothes off"
+                ]
+            ],
+            "correct_answers": [
+                "The inability to make decisions",
+                "the inability to make decisions",
+                "inability to make decisions"
+            ],
+            "options": [
+                "The inability to stand up",
+                "The inability to concentrate on anything",
+                "A feverish desire to rip one's clothes off",
+                "The inability to make decisions"
+            ]
+        }
+    ]
 }

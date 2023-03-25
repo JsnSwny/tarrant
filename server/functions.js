@@ -1,11 +1,6 @@
 const childProcess = require("child_process");
 const axios = require("axios");
-const {
-    COLOUR_WHITE_LIGHT,
-    COLOUR_NONE,
-    ON_UNIX,
-    TIME_SCALE_FACTOR,
-} = require("./constants");
+const { COLOUR_WHITE_LIGHT, COLOUR_NONE, FORMATTED_CATEGORIES, ON_UNIX, TIME_SCALE_FACTOR } = require("./constants");
 
 if (ON_UNIX) {
     module.exports.makePostRequest = (uri, object, next) => {
@@ -99,6 +94,12 @@ module.exports.nLengthNumber = (n, number) => {
 	if (diff > 0) number = "0".repeat(diff) + number;
 	return number;
 };
+
+module.exports.selectRandomDifficulty = () => {
+	const keys = Object.keys(FORMATTED_CATEGORIES);
+	const category = randomElement(keys);
+	return FORMATTED_CATEGORIES[category];
+}
 
 module.exports.randomElement = randomElement;
 module.exports.randomInt = randomInt;

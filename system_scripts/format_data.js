@@ -81,7 +81,7 @@ function formatQuestions(questions) {
 
 const TARGET_DIRECTORY = "api_responses/"
 
-for (let fileIndex = 1; fileIndex < 306; fileIndex++) {
+for (let fileIndex = 1; fileIndex < 301; fileIndex++) {
 	const filename = `${nLengthNumber(4, fileIndex)}.json`;
 	const path = `../${TARGET_DIRECTORY}${filename}`;
 	const questions = require(path);
@@ -101,7 +101,7 @@ for (let key of Object.keys(TARGET_ARRAYS)) {
 	acc += count;
 	console.log(`${key}: ${count} questions`);
 	const object = { questions: TARGET_ARRAYS[key] };
-	const targetFilename = `data/questions/${key}/easy.json`;
+	const targetFilename = `data/questions/${key}/hard.json`;
 	fs.writeFileSync(targetFilename, JSON.stringify(object, null, 4));
 }
 

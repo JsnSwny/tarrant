@@ -1,0 +1,284 @@
+{
+    "questions": [
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the most significant side venture the popular firearms company, Remington, has pursued?",
+            "correct_answer": "Typewriters",
+            "incorrect_answers": [
+                [
+                    "Blenders",
+                    "blenders"
+                ],
+                [
+                    "Ceiling Fans",
+                    "ceiling fans"
+                ],
+                [
+                    "Door Knobs",
+                    "door knobs"
+                ]
+            ],
+            "correct_answers": [
+                "Typewriters",
+                "typewriters"
+            ],
+            "options": [
+                "Blenders",
+                "Ceiling Fans",
+                "Door Knobs",
+                "Typewriters"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the &quot;Mitsubishi Wakamaru&quot;?",
+            "correct_answer": "A robot",
+            "incorrect_answers": [
+                [
+                    "A pickup truck",
+                    "a pickup truck"
+                ],
+                [
+                    "An motorcycle",
+                    "an motorcycle"
+                ],
+                [
+                    "A motorboat",
+                    "a motorboat"
+                ]
+            ],
+            "correct_answers": [
+                "A robot",
+                "a robot"
+            ],
+            "options": [
+                "A pickup truck",
+                "An motorcycle",
+                "A motorboat",
+                "A robot"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Out of all of the NASA Space Shuttles, which 2 have been destroyed in disasters?",
+            "correct_answer": "Challenger and Columbia",
+            "incorrect_answers": [
+                [
+                    "Enterprise and Atlantis",
+                    "enterprise and atlantis"
+                ],
+                [
+                    "Discovery and Endeavour",
+                    "discovery and endeavour"
+                ],
+                [
+                    "None of the Above",
+                    "none of the above",
+                    "none of above"
+                ]
+            ],
+            "correct_answers": [
+                "Challenger and Columbia",
+                "challenger and columbia"
+            ],
+            "options": [
+                "Enterprise and Atlantis",
+                "Discovery and Endeavour",
+                "None of the Above",
+                "Challenger and Columbia"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?",
+            "correct_answer": "2012",
+            "incorrect_answers": [
+                [
+                    "2010",
+                    "2010"
+                ],
+                [
+                    "2011",
+                    "2011"
+                ],
+                [
+                    "2013",
+                    "2013"
+                ]
+            ],
+            "correct_answers": [
+                "2012",
+                "2012"
+            ],
+            "options": [
+                "2010",
+                "2011",
+                "2013",
+                "2012"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What are the base station trackers used for the HTC Vive called?",
+            "correct_answer": "Lighthouse",
+            "incorrect_answers": [
+                [
+                    "Motion",
+                    "motion"
+                ],
+                [
+                    "Constellation ",
+                    "constellation "
+                ],
+                [
+                    "Trackers",
+                    "trackers"
+                ]
+            ],
+            "correct_answers": [
+                "Lighthouse",
+                "lighthouse"
+            ],
+            "options": [
+                "Motion",
+                "Constellation ",
+                "Trackers",
+                "Lighthouse"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which company developed the Hololens?",
+            "correct_answer": "Microsoft",
+            "incorrect_answers": [
+                [
+                    "HTC",
+                    "htc"
+                ],
+                [
+                    "Oculus",
+                    "oculus"
+                ],
+                [
+                    "Tobii",
+                    "tobii"
+                ]
+            ],
+            "correct_answers": [
+                "Microsoft",
+                "microsoft"
+            ],
+            "options": [
+                "HTC",
+                "Oculus",
+                "Tobii",
+                "Microsoft"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Mobile hardware and software company &quot;Blackberry Limited&quot; was founded in which country?",
+            "correct_answer": "Canada",
+            "incorrect_answers": [
+                [
+                    "Norway",
+                    "norway"
+                ],
+                [
+                    "United States of America",
+                    "united states of america"
+                ],
+                [
+                    "United Kingdom",
+                    "united kingdom"
+                ]
+            ],
+            "correct_answers": [
+                "Canada",
+                "canada"
+            ],
+            "options": [
+                "Norway",
+                "United States of America",
+                "United Kingdom",
+                "Canada"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who patented a steam engine that produced continuous rotary motion?",
+            "correct_answer": "James Watt",
+            "incorrect_answers": [
+                [
+                    "Nikola Tesla",
+                    "nikola tesla"
+                ],
+                [
+                    "Albert Einstein",
+                    "albert einstein"
+                ],
+                [
+                    "Alessandro Volta",
+                    "alessandro volta"
+                ]
+            ],
+            "correct_answers": [
+                "James Watt",
+                "james watt"
+            ],
+            "options": [
+                "Nikola Tesla",
+                "Albert Einstein",
+                "Alessandro Volta",
+                "James Watt"
+            ]
+        },
+        {
+            "category": "Science: Gadgets",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which company designed the &quot;Betamax&quot; video cassette format?",
+            "correct_answer": "Sony",
+            "incorrect_answers": [
+                [
+                    "Panasonic",
+                    "panasonic"
+                ],
+                [
+                    "LG",
+                    "lg"
+                ],
+                [
+                    "Fujitsu",
+                    "fujitsu"
+                ]
+            ],
+            "correct_answers": [
+                "Sony",
+                "sony"
+            ],
+            "options": [
+                "Panasonic",
+                "LG",
+                "Fujitsu",
+                "Sony"
+            ]
+        }
+    ]
+}

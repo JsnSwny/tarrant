@@ -1,0 +1,4438 @@
+{
+    "questions": [
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Apollo mission was the last one in NASA's Apollo program?",
+            "correct_answer": "Apollo 17",
+            "incorrect_answers": [
+                [
+                    "Apollo 13",
+                    "apollo 13"
+                ],
+                [
+                    "Apollo 11",
+                    "apollo 11"
+                ],
+                [
+                    "Apollo 15",
+                    "apollo 15"
+                ]
+            ],
+            "correct_answers": [
+                "Apollo 17",
+                "apollo 17"
+            ],
+            "options": [
+                "Apollo 13",
+                "Apollo 11",
+                "Apollo 15",
+                "Apollo 17"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+            "correct_answer": "Goldsboro, North Carolina",
+            "incorrect_answers": [
+                [
+                    "Hicksville, New York",
+                    "hicksville, new york"
+                ],
+                [
+                    "Jacksonville, Florida",
+                    "jacksonville, florida"
+                ],
+                [
+                    "Conway, Arkansas",
+                    "conway, arkansas"
+                ]
+            ],
+            "correct_answers": [
+                "Goldsboro, North Carolina",
+                "goldsboro, north carolina"
+            ],
+            "options": [
+                "Hicksville, New York",
+                "Jacksonville, Florida",
+                "Conway, Arkansas",
+                "Goldsboro, North Carolina"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+            "correct_answer": "USS Hornet",
+            "incorrect_answers": [
+                [
+                    "USS Enterprise",
+                    "uss enterprise"
+                ],
+                [
+                    "USS Lexington",
+                    "uss lexington"
+                ],
+                [
+                    "USS Saratoga",
+                    "uss saratoga"
+                ]
+            ],
+            "correct_answers": [
+                "USS Hornet",
+                "uss hornet"
+            ],
+            "options": [
+                "USS Enterprise",
+                "USS Lexington",
+                "USS Saratoga",
+                "USS Hornet"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year was the last natural case of smallpox documented?",
+            "correct_answer": "1977",
+            "incorrect_answers": [
+                [
+                    "1982",
+                    "1982"
+                ],
+                [
+                    "1980",
+                    "1980"
+                ],
+                [
+                    "1990",
+                    "1990"
+                ]
+            ],
+            "correct_answers": [
+                "1977",
+                "1977"
+            ],
+            "options": [
+                "1982",
+                "1980",
+                "1990",
+                "1977"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was the United States National Security Agency established?",
+            "correct_answer": "November 4, 1952",
+            "incorrect_answers": [
+                [
+                    "July 26, 1908",
+                    "july 26, 1908"
+                ],
+                [
+                    " July 1, 1973",
+                    " july 1, 1973"
+                ],
+                [
+                    " November 25, 2002",
+                    " november 25, 2002"
+                ]
+            ],
+            "correct_answers": [
+                "November 4, 1952",
+                "november 4, 1952"
+            ],
+            "options": [
+                "July 26, 1908",
+                " July 1, 1973",
+                " November 25, 2002",
+                "November 4, 1952"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year was the video game company Electronic Arts founded?",
+            "correct_answer": "1982",
+            "incorrect_answers": [
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "1981",
+                    "1981"
+                ],
+                [
+                    "2005",
+                    "2005"
+                ]
+            ],
+            "correct_answers": [
+                "1982",
+                "1982"
+            ],
+            "options": [
+                "1999",
+                "1981",
+                "2005",
+                "1982"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Nation DID NOT have a Colony in Modern-day America?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                [
+                    "Spain",
+                    "spain"
+                ],
+                [
+                    "Sweden",
+                    "sweden"
+                ],
+                [
+                    "Netherlands",
+                    "netherlands"
+                ]
+            ],
+            "correct_answers": [
+                "Portugal",
+                "portugal"
+            ],
+            "options": [
+                "Spain",
+                "Sweden",
+                "Netherlands",
+                "Portugal"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what dialogue did Socrates defend himself to the court of Athens? ",
+            "correct_answer": "The Apology",
+            "incorrect_answers": [
+                [
+                    "The Euthyphro",
+                    "the euthyphro",
+                    "euthyphro"
+                ],
+                [
+                    "The Laws",
+                    "the laws",
+                    "laws"
+                ],
+                [
+                    "The Republic",
+                    "the republic",
+                    "republic"
+                ]
+            ],
+            "correct_answers": [
+                "The Apology",
+                "the apology",
+                "apology"
+            ],
+            "options": [
+                "The Euthyphro",
+                "The Laws",
+                "The Republic",
+                "The Apology"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+            "correct_answer": "Harry S. Truman",
+            "incorrect_answers": [
+                [
+                    "Dwight D. Eisenhower",
+                    "dwight d. eisenhower"
+                ],
+                [
+                    "Franklin D. Roosevelt",
+                    "franklin d. roosevelt"
+                ],
+                [
+                    "Herbert Hoover",
+                    "herbert hoover"
+                ]
+            ],
+            "correct_answers": [
+                "Harry S. Truman",
+                "harry s. truman"
+            ],
+            "options": [
+                "Dwight D. Eisenhower",
+                "Franklin D. Roosevelt",
+                "Herbert Hoover",
+                "Harry S. Truman"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+            "correct_answer": "Vespasian",
+            "incorrect_answers": [
+                [
+                    "Vitellius",
+                    "vitellius"
+                ],
+                [
+                    "Otho",
+                    "otho"
+                ],
+                [
+                    "Galba",
+                    "galba"
+                ]
+            ],
+            "correct_answers": [
+                "Vespasian",
+                "vespasian"
+            ],
+            "options": [
+                "Vitellius",
+                "Otho",
+                "Galba",
+                "Vespasian"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which historical conflict killed the most people?",
+            "correct_answer": "World War II",
+            "incorrect_answers": [
+                [
+                    "Taiping Rebellion",
+                    "taiping rebellion"
+                ],
+                [
+                    "Three Kingdoms War",
+                    "three kingdoms war"
+                ],
+                [
+                    "Mongol conquests",
+                    "mongol conquests"
+                ]
+            ],
+            "correct_answers": [
+                "World War II",
+                "world war ii"
+            ],
+            "options": [
+                "Taiping Rebellion",
+                "Three Kingdoms War",
+                "Mongol conquests",
+                "World War II"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which country was an allied power in World War II?",
+            "correct_answer": "Soviet Union",
+            "incorrect_answers": [
+                [
+                    "Italy",
+                    "italy"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Japan",
+                    "japan"
+                ]
+            ],
+            "correct_answers": [
+                "Soviet Union",
+                "soviet union"
+            ],
+            "options": [
+                "Italy",
+                "Germany",
+                "Japan",
+                "Soviet Union"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did the Vietnam War end?",
+            "correct_answer": "1975",
+            "incorrect_answers": [
+                [
+                    "1978",
+                    "1978"
+                ],
+                [
+                    "1967",
+                    "1967"
+                ],
+                [
+                    "1969",
+                    "1969"
+                ]
+            ],
+            "correct_answers": [
+                "1975",
+                "1975"
+            ],
+            "options": [
+                "1978",
+                "1967",
+                "1969",
+                "1975"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following Presidents of the United States was assassinated?",
+            "correct_answer": "William McKinley",
+            "incorrect_answers": [
+                [
+                    "Lyndon Johnson",
+                    "lyndon johnson"
+                ],
+                [
+                    "Chester Arthur",
+                    "chester arthur"
+                ],
+                [
+                    "Franklin Roosevelt",
+                    "franklin roosevelt"
+                ]
+            ],
+            "correct_answers": [
+                "William McKinley",
+                "william mckinley"
+            ],
+            "options": [
+                "Lyndon Johnson",
+                "Chester Arthur",
+                "Franklin Roosevelt",
+                "William McKinley"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which king was killed at the Battle of Bosworth Field in 1485? ",
+            "correct_answer": "Richard III",
+            "incorrect_answers": [
+                [
+                    "Edward V",
+                    "edward v"
+                ],
+                [
+                    "Henry VII",
+                    "henry vii"
+                ],
+                [
+                    "James I",
+                    "james i"
+                ]
+            ],
+            "correct_answers": [
+                "Richard III",
+                "richard iii"
+            ],
+            "options": [
+                "Edward V",
+                "Henry VII",
+                "James I",
+                "Richard III"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which infamous European traitor was known as &quot;the last person to enter Parliament with honest intentions&quot;?",
+            "correct_answer": "Guy Fawkes",
+            "incorrect_answers": [
+                [
+                    "Robert Catesby",
+                    "robert catesby"
+                ],
+                [
+                    "Francis Tresham",
+                    "francis tresham"
+                ],
+                [
+                    "Everard Digby",
+                    "everard digby"
+                ]
+            ],
+            "correct_answers": [
+                "Guy Fawkes",
+                "guy fawkes"
+            ],
+            "options": [
+                "Robert Catesby",
+                "Francis Tresham",
+                "Everard Digby",
+                "Guy Fawkes"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which WWII tank ace is credited with having destroyed the most tanks?",
+            "correct_answer": "Kurt Knispel",
+            "incorrect_answers": [
+                [
+                    "Michael Wittmann",
+                    "michael wittmann"
+                ],
+                [
+                    "Walter Kniep",
+                    "walter kniep"
+                ],
+                [
+                    "Otto Carius",
+                    "otto carius"
+                ]
+            ],
+            "correct_answers": [
+                "Kurt Knispel",
+                "kurt knispel"
+            ],
+            "options": [
+                "Michael Wittmann",
+                "Walter Kniep",
+                "Otto Carius",
+                "Kurt Knispel"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the mnemonic device for remembering the fates of the wives of Henry VIII?",
+            "correct_answer": "Divorced, Beheaded, Died, Divorced, Beheaded, Survived",
+            "incorrect_answers": [
+                [
+                    "Beheaded, Died, Divorced, Divorced, Beheaded, Survived",
+                    "beheaded, died, divorced, divorced, beheaded, survived"
+                ],
+                [
+                    "Died, Beheaded, Divorced, Beheaded, Survived, Divorced",
+                    "died, beheaded, divorced, beheaded, survived, divorced"
+                ],
+                [
+                    "Survived, Beheaded, Died, Divorced, Divorced, Beheaded",
+                    "survived, beheaded, died, divorced, divorced, beheaded"
+                ]
+            ],
+            "correct_answers": [
+                "Divorced, Beheaded, Died, Divorced, Beheaded, Survived",
+                "divorced, beheaded, died, divorced, beheaded, survived"
+            ],
+            "options": [
+                "Beheaded, Died, Divorced, Divorced, Beheaded, Survived",
+                "Died, Beheaded, Divorced, Beheaded, Survived, Divorced",
+                "Survived, Beheaded, Died, Divorced, Divorced, Beheaded",
+                "Divorced, Beheaded, Died, Divorced, Beheaded, Survived"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year is considered to be the year that the British Empire ended?",
+            "correct_answer": "1997",
+            "incorrect_answers": [
+                [
+                    "1986",
+                    "1986"
+                ],
+                [
+                    "1981",
+                    "1981"
+                ],
+                [
+                    "1971",
+                    "1971"
+                ]
+            ],
+            "correct_answers": [
+                "1997",
+                "1997"
+            ],
+            "options": [
+                "1986",
+                "1981",
+                "1971",
+                "1997"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?",
+            "correct_answer": "The Central Powers",
+            "incorrect_answers": [
+                [
+                    "The Axis Powers",
+                    "the axis powers",
+                    "axis powers"
+                ],
+                [
+                    "The Federation of Empires",
+                    "the federation of empires",
+                    "federation of empires"
+                ],
+                [
+                    "Authoritarian Alliance",
+                    "authoritarian alliance"
+                ]
+            ],
+            "correct_answers": [
+                "The Central Powers",
+                "the central powers",
+                "central powers"
+            ],
+            "options": [
+                "The Axis Powers",
+                "The Federation of Empires",
+                "Authoritarian Alliance",
+                "The Central Powers"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On what day did Germany invade Poland?",
+            "correct_answer": "September 1, 1939",
+            "incorrect_answers": [
+                [
+                    "December 7, 1941",
+                    "december 7, 1941"
+                ],
+                [
+                    "June 22, 1941",
+                    "june 22, 1941"
+                ],
+                [
+                    "July 7, 1937",
+                    "july 7, 1937"
+                ]
+            ],
+            "correct_answers": [
+                "September 1, 1939",
+                "september 1, 1939"
+            ],
+            "options": [
+                "December 7, 1941",
+                "June 22, 1941",
+                "July 7, 1937",
+                "September 1, 1939"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+            "correct_answer": "Battle of Adrianople",
+            "incorrect_answers": [
+                [
+                    "Battle of Thessalonica",
+                    "battle of thessalonica"
+                ],
+                [
+                    "Battle of Pollentia",
+                    "battle of pollentia"
+                ],
+                [
+                    "Battle of Constantinople",
+                    "battle of constantinople"
+                ]
+            ],
+            "correct_answers": [
+                "Battle of Adrianople",
+                "battle of adrianople"
+            ],
+            "options": [
+                "Battle of Thessalonica",
+                "Battle of Pollentia",
+                "Battle of Constantinople",
+                "Battle of Adrianople"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Against which country did the Dutch Republic fight the Eighty Years' War?",
+            "correct_answer": "Spain",
+            "incorrect_answers": [
+                [
+                    "France",
+                    "france"
+                ],
+                [
+                    "England",
+                    "england"
+                ],
+                [
+                    "Portugal",
+                    "portugal"
+                ]
+            ],
+            "correct_answers": [
+                "Spain",
+                "spain"
+            ],
+            "options": [
+                "France",
+                "England",
+                "Portugal",
+                "Spain"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who assassinated Archduke Franz Ferdinand?",
+            "correct_answer": "Gavrilo Princip",
+            "incorrect_answers": [
+                [
+                    "Nedeljko Čabrinović",
+                    "nedeljko čabrinović"
+                ],
+                [
+                    "Oskar Potiorek",
+                    "oskar potiorek"
+                ],
+                [
+                    "Ferdinand Cohen-Blind",
+                    "ferdinand cohen-blind"
+                ]
+            ],
+            "correct_answers": [
+                "Gavrilo Princip",
+                "gavrilo princip"
+            ],
+            "options": [
+                "Nedeljko Čabrinović",
+                "Oskar Potiorek",
+                "Ferdinand Cohen-Blind",
+                "Gavrilo Princip"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was the People's Republic of China founded?",
+            "correct_answer": "October 1, 1949",
+            "incorrect_answers": [
+                [
+                    "April 3, 1947",
+                    "april 3, 1947"
+                ],
+                [
+                    "May 7, 1945",
+                    "may 7, 1945"
+                ],
+                [
+                    "December 6, 1950",
+                    "december 6, 1950"
+                ]
+            ],
+            "correct_answers": [
+                "October 1, 1949",
+                "october 1, 1949"
+            ],
+            "options": [
+                "April 3, 1947",
+                "May 7, 1945",
+                "December 6, 1950",
+                "October 1, 1949"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+            "correct_answer": "Māori",
+            "incorrect_answers": [
+                [
+                    "Papuans",
+                    "papuans"
+                ],
+                [
+                    "Aborigines",
+                    "aborigines"
+                ],
+                [
+                    "Polynesians",
+                    "polynesians"
+                ]
+            ],
+            "correct_answers": [
+                "Māori",
+                "māori"
+            ],
+            "options": [
+                "Papuans",
+                "Aborigines",
+                "Polynesians",
+                "Māori"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which country had an &quot;Orange Revolution&quot; between 2004 and 2005?",
+            "correct_answer": "Ukraine",
+            "incorrect_answers": [
+                [
+                    "Belarus",
+                    "belarus"
+                ],
+                [
+                    "Latvia",
+                    "latvia"
+                ],
+                [
+                    "Lithuania",
+                    "lithuania"
+                ]
+            ],
+            "correct_answers": [
+                "Ukraine",
+                "ukraine"
+            ],
+            "options": [
+                "Belarus",
+                "Latvia",
+                "Lithuania",
+                "Ukraine"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Adolf Hitler was born on which date?",
+            "correct_answer": "April 20, 1889",
+            "incorrect_answers": [
+                [
+                    "June 12, 1889",
+                    "june 12, 1889"
+                ],
+                [
+                    "February 6, 1889",
+                    "february 6, 1889"
+                ],
+                [
+                    "April 16, 1889",
+                    "april 16, 1889"
+                ]
+            ],
+            "correct_answers": [
+                "April 20, 1889",
+                "april 20, 1889"
+            ],
+            "options": [
+                "June 12, 1889",
+                "February 6, 1889",
+                "April 16, 1889",
+                "April 20, 1889"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?",
+            "correct_answer": "Pope Leo III",
+            "incorrect_answers": [
+                [
+                    "Pope Urban IV",
+                    "pope urban iv"
+                ],
+                [
+                    "Pope Stephen V",
+                    "pope stephen v"
+                ],
+                [
+                    "Pope Valentine",
+                    "pope valentine"
+                ]
+            ],
+            "correct_answers": [
+                "Pope Leo III",
+                "pope leo iii"
+            ],
+            "options": [
+                "Pope Urban IV",
+                "Pope Stephen V",
+                "Pope Valentine",
+                "Pope Leo III"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+            "correct_answer": "Siege of Petersburg",
+            "incorrect_answers": [
+                [
+                    "Siege of Vicksburg",
+                    "siege of vicksburg"
+                ],
+                [
+                    "Antietam Campaign",
+                    "antietam campaign"
+                ],
+                [
+                    "Gettysburg Campagin",
+                    "gettysburg campagin"
+                ]
+            ],
+            "correct_answers": [
+                "Siege of Petersburg",
+                "siege of petersburg"
+            ],
+            "options": [
+                "Siege of Vicksburg",
+                "Antietam Campaign",
+                "Gettysburg Campagin",
+                "Siege of Petersburg"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was &quot;The Gadget&quot;, the first nuclear device to be detonated, tested?",
+            "correct_answer": "July 16, 1945",
+            "incorrect_answers": [
+                [
+                    "June 22, 1945",
+                    "june 22, 1945"
+                ],
+                [
+                    "August 6, 1945",
+                    "august 6, 1945"
+                ],
+                [
+                    "April 5, 1945",
+                    "april 5, 1945"
+                ]
+            ],
+            "correct_answers": [
+                "July 16, 1945",
+                "july 16, 1945"
+            ],
+            "options": [
+                "June 22, 1945",
+                "August 6, 1945",
+                "April 5, 1945",
+                "July 16, 1945"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+            "correct_answer": "September 11, 1941",
+            "incorrect_answers": [
+                [
+                    "June 15, 1947",
+                    "june 15, 1947"
+                ],
+                [
+                    "January 15, 1943",
+                    "january 15, 1943"
+                ],
+                [
+                    "September 2, 1962",
+                    "september 2, 1962"
+                ]
+            ],
+            "correct_answers": [
+                "September 11, 1941",
+                "september 11, 1941"
+            ],
+            "options": [
+                "June 15, 1947",
+                "January 15, 1943",
+                "September 2, 1962",
+                "September 11, 1941"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who tutored Alexander the Great?",
+            "correct_answer": "Aristotle",
+            "incorrect_answers": [
+                [
+                    "Socrates",
+                    "socrates"
+                ],
+                [
+                    "Plato",
+                    "plato"
+                ],
+                [
+                    "King Philip",
+                    "king philip"
+                ]
+            ],
+            "correct_answers": [
+                "Aristotle",
+                "aristotle"
+            ],
+            "options": [
+                "Socrates",
+                "Plato",
+                "King Philip",
+                "Aristotle"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which years did the Battle of Gallipoli take place?",
+            "correct_answer": "1915 - 1916",
+            "incorrect_answers": [
+                [
+                    "1914 - 1918",
+                    "1914 - 1918"
+                ],
+                [
+                    "1914 - 1915",
+                    "1914 - 1915"
+                ],
+                [
+                    "1915 - 1918",
+                    "1915 - 1918"
+                ]
+            ],
+            "correct_answers": [
+                "1915 - 1916",
+                "1915 - 1916"
+            ],
+            "options": [
+                "1914 - 1918",
+                "1914 - 1915",
+                "1915 - 1918",
+                "1915 - 1916"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following countries was the first to send an object into space?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                [
+                    "USA",
+                    "usa"
+                ],
+                [
+                    "Russia",
+                    "russia"
+                ],
+                [
+                    "China",
+                    "china"
+                ]
+            ],
+            "correct_answers": [
+                "Germany",
+                "germany"
+            ],
+            "options": [
+                "USA",
+                "Russia",
+                "China",
+                "Germany"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did Texas secede from Mexico?",
+            "correct_answer": "1836",
+            "incorrect_answers": [
+                [
+                    "1838",
+                    "1838"
+                ],
+                [
+                    "1845",
+                    "1845"
+                ],
+                [
+                    "1844",
+                    "1844"
+                ]
+            ],
+            "correct_answers": [
+                "1836",
+                "1836"
+            ],
+            "options": [
+                "1838",
+                "1845",
+                "1844",
+                "1836"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
+            "correct_answer": "Mormon",
+            "incorrect_answers": [
+                [
+                    "Catholic",
+                    "catholic"
+                ],
+                [
+                    "Jewish",
+                    "jewish"
+                ],
+                [
+                    "Atheist",
+                    "atheist"
+                ]
+            ],
+            "correct_answers": [
+                "Mormon",
+                "mormon"
+            ],
+            "options": [
+                "Catholic",
+                "Jewish",
+                "Atheist",
+                "Mormon"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Spitfire L.F. Mk IX had what engine?",
+            "correct_answer": "Merlin 66",
+            "incorrect_answers": [
+                [
+                    "Griffon 65",
+                    "griffon 65"
+                ],
+                [
+                    "Merlin 50",
+                    "merlin 50"
+                ],
+                [
+                    "Merlin X",
+                    "merlin x"
+                ]
+            ],
+            "correct_answers": [
+                "Merlin 66",
+                "merlin 66"
+            ],
+            "options": [
+                "Griffon 65",
+                "Merlin 50",
+                "Merlin X",
+                "Merlin 66"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What number does the Roman numeral &quot;D&quot; stand for?",
+            "correct_answer": "500",
+            "incorrect_answers": [
+                [
+                    "100",
+                    "100"
+                ],
+                [
+                    "1000",
+                    "1000"
+                ],
+                [
+                    "50",
+                    "50"
+                ]
+            ],
+            "correct_answers": [
+                "500",
+                "500"
+            ],
+            "options": [
+                "100",
+                "1000",
+                "50",
+                "500"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+            "correct_answer": "55",
+            "incorrect_answers": [
+                [
+                    "50",
+                    "50"
+                ],
+                [
+                    "60",
+                    "60"
+                ],
+                [
+                    "54",
+                    "54"
+                ]
+            ],
+            "correct_answers": [
+                "55",
+                "55"
+            ],
+            "options": [
+                "50",
+                "60",
+                "54",
+                "55"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which American civilization is the source of the belief that the world would end or drastically change on December 21st, 2012?",
+            "correct_answer": "The Mayans",
+            "incorrect_answers": [
+                [
+                    "The Incas",
+                    "the incas",
+                    "incas"
+                ],
+                [
+                    "The Aztecs",
+                    "the aztecs",
+                    "aztecs"
+                ],
+                [
+                    "The Navajos",
+                    "the navajos",
+                    "navajos"
+                ]
+            ],
+            "correct_answers": [
+                "The Mayans",
+                "the mayans",
+                "mayans"
+            ],
+            "options": [
+                "The Incas",
+                "The Aztecs",
+                "The Navajos",
+                "The Mayans"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?",
+            "correct_answer": "The Flamingo",
+            "incorrect_answers": [
+                [
+                    "The MGM Grand",
+                    "the mgm grand",
+                    "mgm grand"
+                ],
+                [
+                    "The Sands",
+                    "the sands",
+                    "sands"
+                ],
+                [
+                    "The Sahara",
+                    "the sahara",
+                    "sahara"
+                ]
+            ],
+            "correct_answers": [
+                "The Flamingo",
+                "the flamingo",
+                "flamingo"
+            ],
+            "options": [
+                "The MGM Grand",
+                "The Sands",
+                "The Sahara",
+                "The Flamingo"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the Prime Minister of the United Kingdom for most of World War II?",
+            "correct_answer": "Winston Churchill",
+            "incorrect_answers": [
+                [
+                    "Neville Chamberlain",
+                    "neville chamberlain"
+                ],
+                [
+                    "Harold Macmillan",
+                    "harold macmillan"
+                ],
+                [
+                    "Edward Heath",
+                    "edward heath"
+                ]
+            ],
+            "correct_answers": [
+                "Winston Churchill",
+                "winston churchill"
+            ],
+            "options": [
+                "Neville Chamberlain",
+                "Harold Macmillan",
+                "Edward Heath",
+                "Winston Churchill"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what prison was Adolf Hitler held in 1924?",
+            "correct_answer": "Landsberg Prison",
+            "incorrect_answers": [
+                [
+                    "Spandau Prison",
+                    "spandau prison"
+                ],
+                [
+                    "Ebrach Abbey",
+                    "ebrach abbey"
+                ],
+                [
+                    "Hohenasperg",
+                    "hohenasperg"
+                ]
+            ],
+            "correct_answers": [
+                "Landsberg Prison",
+                "landsberg prison"
+            ],
+            "options": [
+                "Spandau Prison",
+                "Ebrach Abbey",
+                "Hohenasperg",
+                "Landsberg Prison"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "All of the following are names of the Seven Warring States EXCEPT:",
+            "correct_answer": "Zhai (翟)",
+            "incorrect_answers": [
+                [
+                    "Zhao (趙)",
+                    "zhao (趙)"
+                ],
+                [
+                    "Qin (秦)",
+                    "qin (秦)"
+                ],
+                [
+                    "Qi (齊)",
+                    "qi (齊)"
+                ]
+            ],
+            "correct_answers": [
+                "Zhai (翟)",
+                "zhai (翟)"
+            ],
+            "options": [
+                "Zhao (趙)",
+                "Qin (秦)",
+                "Qi (齊)",
+                "Zhai (翟)"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What were the first states to break away from Yugoslavia?",
+            "correct_answer": "Slovenia, Croatia",
+            "incorrect_answers": [
+                [
+                    "Macedonia, Montenegro",
+                    "macedonia, montenegro"
+                ],
+                [
+                    "Slovenia, Macedonia",
+                    "slovenia, macedonia"
+                ],
+                [
+                    "Montenegro, Slovenia",
+                    "montenegro, slovenia"
+                ]
+            ],
+            "correct_answers": [
+                "Slovenia, Croatia",
+                "slovenia, croatia"
+            ],
+            "options": [
+                "Macedonia, Montenegro",
+                "Slovenia, Macedonia",
+                "Montenegro, Slovenia",
+                "Slovenia, Croatia"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the total length of the Titanic?",
+            "correct_answer": "882 ft | 268.8 m",
+            "incorrect_answers": [
+                [
+                    "759 ft | 231.3 m",
+                    "759 ft | 231.3 m"
+                ],
+                [
+                    "1042 ft | 317.6 m",
+                    "1042 ft | 317.6 m"
+                ],
+                [
+                    "825 ft | 251.5 m",
+                    "825 ft | 251.5 m"
+                ]
+            ],
+            "correct_answers": [
+                "882 ft | 268.8 m",
+                "882 ft | 268.8 m"
+            ],
+            "options": [
+                "759 ft | 231.3 m",
+                "1042 ft | 317.6 m",
+                "825 ft | 251.5 m",
+                "882 ft | 268.8 m"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the capital of South Vietnam before the Vietnam War?",
+            "correct_answer": "Saigon",
+            "incorrect_answers": [
+                [
+                    "Ho Chi Minh City",
+                    "ho chi minh city"
+                ],
+                [
+                    "Hanoi",
+                    "hanoi"
+                ],
+                [
+                    "Hue",
+                    "hue"
+                ]
+            ],
+            "correct_answers": [
+                "Saigon",
+                "saigon"
+            ],
+            "options": [
+                "Ho Chi Minh City",
+                "Hanoi",
+                "Hue",
+                "Saigon"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which year did the First World War begin?",
+            "correct_answer": "1914",
+            "incorrect_answers": [
+                [
+                    "1930",
+                    "1930"
+                ],
+                [
+                    "1917",
+                    "1917"
+                ],
+                [
+                    "1939",
+                    "1939"
+                ]
+            ],
+            "correct_answers": [
+                "1914",
+                "1914"
+            ],
+            "options": [
+                "1930",
+                "1917",
+                "1939",
+                "1914"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did the Berlin Wall fall?",
+            "correct_answer": "1989",
+            "incorrect_answers": [
+                [
+                    "1987",
+                    "1987"
+                ],
+                [
+                    "1991",
+                    "1991"
+                ],
+                [
+                    "1993",
+                    "1993"
+                ]
+            ],
+            "correct_answers": [
+                "1989",
+                "1989"
+            ],
+            "options": [
+                "1987",
+                "1991",
+                "1993",
+                "1989"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What historical event was Tchaikovsky's 1812 Overture referencing?",
+            "correct_answer": "The Napoleonic Wars",
+            "incorrect_answers": [
+                [
+                    "The American War of 1812",
+                    "the american war of 1812",
+                    "american war of 1812"
+                ],
+                [
+                    "The Russian Revolution",
+                    "the russian revolution",
+                    "russian revolution"
+                ],
+                [
+                    "The Charge of the Light Brigade (Crimean War)",
+                    "the charge of the light brigade (crimean war)",
+                    "charge of light brigade (crimean war)"
+                ]
+            ],
+            "correct_answers": [
+                "The Napoleonic Wars",
+                "the napoleonic wars",
+                "napoleonic wars"
+            ],
+            "options": [
+                "The American War of 1812",
+                "The Russian Revolution",
+                "The Charge of the Light Brigade (Crimean War)",
+                "The Napoleonic Wars"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of his six wives was Henry VIII married to the longest?",
+            "correct_answer": "Catherine of Aragon",
+            "incorrect_answers": [
+                [
+                    "Anne Boleyn",
+                    "anne boleyn"
+                ],
+                [
+                    "Jane Seymour",
+                    "jane seymour"
+                ],
+                [
+                    "Catherine Parr",
+                    "catherine parr"
+                ]
+            ],
+            "correct_answers": [
+                "Catherine of Aragon",
+                "catherine of aragon"
+            ],
+            "options": [
+                "Anne Boleyn",
+                "Jane Seymour",
+                "Catherine Parr",
+                "Catherine of Aragon"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+            "correct_answer": "German",
+            "incorrect_answers": [
+                [
+                    "American",
+                    "american"
+                ],
+                [
+                    "British",
+                    "british"
+                ],
+                [
+                    "Polish",
+                    "polish"
+                ]
+            ],
+            "correct_answers": [
+                "German",
+                "german"
+            ],
+            "options": [
+                "American",
+                "British",
+                "Polish",
+                "German"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?",
+            "correct_answer": "2004",
+            "incorrect_answers": [
+                [
+                    "2006",
+                    "2006"
+                ],
+                [
+                    "2008",
+                    "2008"
+                ],
+                [
+                    "2002",
+                    "2002"
+                ]
+            ],
+            "correct_answers": [
+                "2004",
+                "2004"
+            ],
+            "options": [
+                "2006",
+                "2008",
+                "2002",
+                "2004"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as &quot;Skoal Bandits&quot;?",
+            "correct_answer": "1983",
+            "incorrect_answers": [
+                [
+                    "1934",
+                    "1934"
+                ],
+                [
+                    "1984",
+                    "1984"
+                ],
+                [
+                    "1822",
+                    "1822"
+                ]
+            ],
+            "correct_answers": [
+                "1983",
+                "1983"
+            ],
+            "options": [
+                "1934",
+                "1984",
+                "1822",
+                "1983"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The crown of the Empire State Building was originally built for what purpose?",
+            "correct_answer": "Airship Dock",
+            "incorrect_answers": [
+                [
+                    "Lightning Rod",
+                    "lightning rod"
+                ],
+                [
+                    "Antennae",
+                    "antennae"
+                ],
+                [
+                    "Flag Pole",
+                    "flag pole"
+                ]
+            ],
+            "correct_answers": [
+                "Airship Dock",
+                "airship dock"
+            ],
+            "options": [
+                "Lightning Rod",
+                "Antennae",
+                "Flag Pole",
+                "Airship Dock"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these countries was NOT a part of the Soviet Union?",
+            "correct_answer": "Afghanistan",
+            "incorrect_answers": [
+                [
+                    "Turkmenistan",
+                    "turkmenistan"
+                ],
+                [
+                    "Kazakhstan",
+                    "kazakhstan"
+                ],
+                [
+                    "Uzbekistan",
+                    "uzbekistan"
+                ]
+            ],
+            "correct_answers": [
+                "Afghanistan",
+                "afghanistan"
+            ],
+            "options": [
+                "Turkmenistan",
+                "Kazakhstan",
+                "Uzbekistan",
+                "Afghanistan"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was the Grand Patriotic War in the USSR concluded?",
+            "correct_answer": "May 9th, 1945",
+            "incorrect_answers": [
+                [
+                    "September 2nd, 1945",
+                    "september 2nd, 1945"
+                ],
+                [
+                    "August 9th, 1945",
+                    "august 9th, 1945"
+                ],
+                [
+                    "December 11th, 1945",
+                    "december 11th, 1945"
+                ]
+            ],
+            "correct_answers": [
+                "May 9th, 1945",
+                "may 9th, 1945"
+            ],
+            "options": [
+                "September 2nd, 1945",
+                "August 9th, 1945",
+                "December 11th, 1945",
+                "May 9th, 1945"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did the Crisis of the Third Century begin?",
+            "correct_answer": "235 AD",
+            "incorrect_answers": [
+                [
+                    "235 BC",
+                    "235 bc"
+                ],
+                [
+                    "242 AD",
+                    "242 ad"
+                ],
+                [
+                    "210 AD",
+                    "210 ad"
+                ]
+            ],
+            "correct_answers": [
+                "235 AD",
+                "235 ad"
+            ],
+            "options": [
+                "235 BC",
+                "242 AD",
+                "210 AD",
+                "235 AD"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+            "correct_answer": "Assyrians",
+            "incorrect_answers": [
+                [
+                    "Babylonians",
+                    "babylonians"
+                ],
+                [
+                    "Hittites",
+                    "hittites"
+                ],
+                [
+                    "Elamites",
+                    "elamites"
+                ]
+            ],
+            "correct_answers": [
+                "Assyrians",
+                "assyrians"
+            ],
+            "options": [
+                "Babylonians",
+                "Hittites",
+                "Elamites",
+                "Assyrians"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+            "correct_answer": "USS Pueblo",
+            "incorrect_answers": [
+                [
+                    "USS North Carolina",
+                    "uss north carolina"
+                ],
+                [
+                    "USS Constitution",
+                    "uss constitution"
+                ],
+                [
+                    "USS Indianapolis",
+                    "uss indianapolis"
+                ]
+            ],
+            "correct_answers": [
+                "USS Pueblo",
+                "uss pueblo"
+            ],
+            "options": [
+                "USS North Carolina",
+                "USS Constitution",
+                "USS Indianapolis",
+                "USS Pueblo"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "During what war did the &quot;Cuban Missile Crisis&quot; occur?",
+            "correct_answer": "Cold War",
+            "incorrect_answers": [
+                [
+                    "World War I",
+                    "world war i"
+                ],
+                [
+                    "World War II",
+                    "world war ii"
+                ],
+                [
+                    "Revolutionary War",
+                    "revolutionary war"
+                ]
+            ],
+            "correct_answers": [
+                "Cold War",
+                "cold war"
+            ],
+            "options": [
+                "World War I",
+                "World War II",
+                "Revolutionary War",
+                "Cold War"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did the First World War end?",
+            "correct_answer": "1918",
+            "incorrect_answers": [
+                [
+                    "1914",
+                    "1914"
+                ],
+                [
+                    "1916",
+                    "1916"
+                ],
+                [
+                    "1912",
+                    "1912"
+                ]
+            ],
+            "correct_answers": [
+                "1918",
+                "1918"
+            ],
+            "options": [
+                "1914",
+                "1916",
+                "1912",
+                "1918"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did Norway become free from Sweden?",
+            "correct_answer": "1905",
+            "incorrect_answers": [
+                [
+                    "1925",
+                    "1925"
+                ],
+                [
+                    "1814",
+                    "1814"
+                ],
+                [
+                    "1834",
+                    "1834"
+                ]
+            ],
+            "correct_answers": [
+                "1905",
+                "1905"
+            ],
+            "options": [
+                "1925",
+                "1814",
+                "1834",
+                "1905"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Louis was known as 'The Sun King of France'?",
+            "correct_answer": "Louis XIV",
+            "incorrect_answers": [
+                [
+                    "Louis XIII",
+                    "louis xiii"
+                ],
+                [
+                    "Louis XV",
+                    "louis xv"
+                ],
+                [
+                    "Louis XVI",
+                    "louis xvi"
+                ]
+            ],
+            "correct_answers": [
+                "Louis XIV",
+                "louis xiv"
+            ],
+            "options": [
+                "Louis XIII",
+                "Louis XV",
+                "Louis XVI",
+                "Louis XIV"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Roman Emperor led the Roman Empire to reach its maximum territorial extent?",
+            "correct_answer": "Trajan",
+            "incorrect_answers": [
+                [
+                    "Julius Caesar",
+                    "julius caesar"
+                ],
+                [
+                    "Claudius",
+                    "claudius"
+                ],
+                [
+                    "Constantine the Great",
+                    "constantine the great",
+                    "constantine great"
+                ]
+            ],
+            "correct_answers": [
+                "Trajan",
+                "trajan"
+            ],
+            "options": [
+                "Julius Caesar",
+                "Claudius",
+                "Constantine the Great",
+                "Trajan"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Battle of the Somme in World War I took place in which country?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Italy",
+                    "italy"
+                ],
+                [
+                    "Austria",
+                    "austria"
+                ]
+            ],
+            "correct_answers": [
+                "France",
+                "france"
+            ],
+            "options": [
+                "Germany",
+                "Italy",
+                "Austria",
+                "France"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When Christopher Columbus sailed to America, what was the first region he arrived in?",
+            "correct_answer": "The Bahamas Archipelago",
+            "incorrect_answers": [
+                [
+                    "Florida",
+                    "florida"
+                ],
+                [
+                    "Isthmus of Panama",
+                    "isthmus of panama"
+                ],
+                [
+                    "Nicaragua",
+                    "nicaragua"
+                ]
+            ],
+            "correct_answers": [
+                "The Bahamas Archipelago",
+                "the bahamas archipelago",
+                "bahamas archipelago"
+            ],
+            "options": [
+                "Florida",
+                "Isthmus of Panama",
+                "Nicaragua",
+                "The Bahamas Archipelago"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of the chemical that was dropped on Vietnam during the Vietnam war?",
+            "correct_answer": "Agent Orange",
+            "incorrect_answers": [
+                [
+                    "Phosgene",
+                    "phosgene"
+                ],
+                [
+                    "Mustard Gas",
+                    "mustard gas"
+                ],
+                [
+                    "Hydrogen Cyanide",
+                    "hydrogen cyanide"
+                ]
+            ],
+            "correct_answers": [
+                "Agent Orange",
+                "agent orange"
+            ],
+            "options": [
+                "Phosgene",
+                "Mustard Gas",
+                "Hydrogen Cyanide",
+                "Agent Orange"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The seed drill was invented by which British inventor?",
+            "correct_answer": "Jethro Tull",
+            "incorrect_answers": [
+                [
+                    "Charles Babbage",
+                    "charles babbage"
+                ],
+                [
+                    "Isaac Newton",
+                    "isaac newton"
+                ],
+                [
+                    "J.J Thomson",
+                    "j.j thomson"
+                ]
+            ],
+            "correct_answers": [
+                "Jethro Tull",
+                "jethro tull"
+            ],
+            "options": [
+                "Charles Babbage",
+                "Isaac Newton",
+                "J.J Thomson",
+                "Jethro Tull"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did the North American Video Game Crash occur?",
+            "correct_answer": "1983",
+            "incorrect_answers": [
+                [
+                    "1982",
+                    "1982"
+                ],
+                [
+                    "1993",
+                    "1993"
+                ],
+                [
+                    "1970",
+                    "1970"
+                ]
+            ],
+            "correct_answers": [
+                "1983",
+                "1983"
+            ],
+            "options": [
+                "1982",
+                "1993",
+                "1970",
+                "1983"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+            "correct_answer": "The Columbian Exchange",
+            "incorrect_answers": [
+                [
+                    "Triangle Trade",
+                    "triangle trade"
+                ],
+                [
+                    "Transatlantic Slave Trade",
+                    "transatlantic slave trade"
+                ],
+                [
+                    "The Silk Road",
+                    "the silk road",
+                    "silk road"
+                ]
+            ],
+            "correct_answers": [
+                "The Columbian Exchange",
+                "the columbian exchange",
+                "columbian exchange"
+            ],
+            "options": [
+                "Triangle Trade",
+                "Transatlantic Slave Trade",
+                "The Silk Road",
+                "The Columbian Exchange"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did the British hand-over sovereignty of Hong Kong back to China?",
+            "correct_answer": "1997",
+            "incorrect_answers": [
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "1841",
+                    "1841"
+                ],
+                [
+                    "1900",
+                    "1900"
+                ]
+            ],
+            "correct_answers": [
+                "1997",
+                "1997"
+            ],
+            "options": [
+                "1999",
+                "1841",
+                "1900",
+                "1997"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                [
+                    "Britain",
+                    "britain"
+                ],
+                [
+                    "Belgium",
+                    "belgium"
+                ],
+                [
+                    "France",
+                    "france"
+                ]
+            ],
+            "correct_answers": [
+                "Germany",
+                "germany"
+            ],
+            "options": [
+                "Britain",
+                "Belgium",
+                "France",
+                "Germany"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was Genghis Khan's real name?",
+            "correct_answer": "Tem&uuml;jin",
+            "incorrect_answers": [
+                [
+                    "M&ouml;ngke",
+                    "m&ouml;ngke"
+                ],
+                [
+                    "&Ouml;gedei",
+                    "&ouml;gedei"
+                ],
+                [
+                    "Tem&uuml;r",
+                    "tem&uuml;r"
+                ]
+            ],
+            "correct_answers": [
+                "Tem&uuml;jin",
+                "tem&uuml;jin"
+            ],
+            "options": [
+                "M&ouml;ngke",
+                "&Ouml;gedei",
+                "Tem&uuml;r",
+                "Tem&uuml;jin"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the bloodiest single-day battle during the American Civil War?",
+            "correct_answer": "The Battle of Antietam",
+            "incorrect_answers": [
+                [
+                    "The Siege of Vicksburg",
+                    "the siege of vicksburg",
+                    "siege of vicksburg"
+                ],
+                [
+                    "The Battle of Gettysburg",
+                    "the battle of gettysburg",
+                    "battle of gettysburg"
+                ],
+                [
+                    "The Battles of Chancellorsville",
+                    "the battles of chancellorsville",
+                    "battles of chancellorsville"
+                ]
+            ],
+            "correct_answers": [
+                "The Battle of Antietam",
+                "the battle of antietam",
+                "battle of antietam"
+            ],
+            "options": [
+                "The Siege of Vicksburg",
+                "The Battle of Gettysburg",
+                "The Battles of Chancellorsville",
+                "The Battle of Antietam"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many years did the Hundred Years' War last?",
+            "correct_answer": "116",
+            "incorrect_answers": [
+                [
+                    "100",
+                    "100"
+                ],
+                [
+                    "90",
+                    "90"
+                ],
+                [
+                    "101",
+                    "101"
+                ]
+            ],
+            "correct_answers": [
+                "116",
+                "116"
+            ],
+            "options": [
+                "100",
+                "90",
+                "101",
+                "116"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these founding fathers of the United States of America later became president?",
+            "correct_answer": "James Monroe",
+            "incorrect_answers": [
+                [
+                    "Alexander Hamilton",
+                    "alexander hamilton"
+                ],
+                [
+                    "Samuel Adams",
+                    "samuel adams"
+                ],
+                [
+                    "Roger Sherman",
+                    "roger sherman"
+                ]
+            ],
+            "correct_answers": [
+                "James Monroe",
+                "james monroe"
+            ],
+            "options": [
+                "Alexander Hamilton",
+                "Samuel Adams",
+                "Roger Sherman",
+                "James Monroe"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What event marked the start of World War II?",
+            "correct_answer": "Invasion of Poland (1939)",
+            "incorrect_answers": [
+                [
+                    "Invasion of Russia (1942)",
+                    "invasion of russia (1942)"
+                ],
+                [
+                    "Battle of Britain (1940)",
+                    "battle of britain (1940)"
+                ],
+                [
+                    "Invasion of Normandy (1944)",
+                    "invasion of normandy (1944)"
+                ]
+            ],
+            "correct_answers": [
+                "Invasion of Poland (1939)",
+                "invasion of poland (1939)"
+            ],
+            "options": [
+                "Invasion of Russia (1942)",
+                "Battle of Britain (1940)",
+                "Invasion of Normandy (1944)",
+                "Invasion of Poland (1939)"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+            "correct_answer": "Typhoons",
+            "incorrect_answers": [
+                [
+                    "Tornados",
+                    "tornados"
+                ],
+                [
+                    "Economic depression",
+                    "economic depression"
+                ],
+                [
+                    "Samurai",
+                    "samurai"
+                ]
+            ],
+            "correct_answers": [
+                "Typhoons",
+                "typhoons"
+            ],
+            "options": [
+                "Tornados",
+                "Economic depression",
+                "Samurai",
+                "Typhoons"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+            "correct_answer": "Shamshi-Adad III",
+            "incorrect_answers": [
+                [
+                    "Shalmaneser V",
+                    "shalmaneser v"
+                ],
+                [
+                    "Esharhaddon",
+                    "esharhaddon"
+                ],
+                [
+                    "Ashur-nasir-pal II",
+                    "ashur-nasir-pal ii"
+                ]
+            ],
+            "correct_answers": [
+                "Shamshi-Adad III",
+                "shamshi-adad iii"
+            ],
+            "options": [
+                "Shalmaneser V",
+                "Esharhaddon",
+                "Ashur-nasir-pal II",
+                "Shamshi-Adad III"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Fallingwater House, located in Pennsylvania, was designed by which architect?",
+            "correct_answer": "Frank Lloyd Wright",
+            "incorrect_answers": [
+                [
+                    "Antoni Gaudi",
+                    "antoni gaudi"
+                ],
+                [
+                    "Frank Gehry",
+                    "frank gehry"
+                ],
+                [
+                    "Le Corbusier",
+                    "le corbusier"
+                ]
+            ],
+            "correct_answers": [
+                "Frank Lloyd Wright",
+                "frank lloyd wright"
+            ],
+            "options": [
+                "Antoni Gaudi",
+                "Frank Gehry",
+                "Le Corbusier",
+                "Frank Lloyd Wright"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?",
+            "correct_answer": "Hampton Court",
+            "incorrect_answers": [
+                [
+                    "St James's Palace",
+                    "st james's palace",
+                    "st jamess palace"
+                ],
+                [
+                    "Buckingham Palace",
+                    "buckingham palace"
+                ],
+                [
+                    "Coughton Court",
+                    "coughton court"
+                ]
+            ],
+            "correct_answers": [
+                "Hampton Court",
+                "hampton court"
+            ],
+            "options": [
+                "St James's Palace",
+                "Buckingham Palace",
+                "Coughton Court",
+                "Hampton Court"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+            "correct_answer": "Operation Downfall",
+            "incorrect_answers": [
+                [
+                    "Operation Boarding Party",
+                    "operation boarding party"
+                ],
+                [
+                    "Operation Ironclad",
+                    "operation ironclad"
+                ],
+                [
+                    "Operation Aflame",
+                    "operation aflame"
+                ]
+            ],
+            "correct_answers": [
+                "Operation Downfall",
+                "operation downfall"
+            ],
+            "options": [
+                "Operation Boarding Party",
+                "Operation Ironclad",
+                "Operation Aflame",
+                "Operation Downfall"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?",
+            "correct_answer": "August 19",
+            "incorrect_answers": [
+                [
+                    "August 21",
+                    "august 21"
+                ],
+                [
+                    "December 26",
+                    "december 26"
+                ],
+                [
+                    "December 24",
+                    "december 24"
+                ]
+            ],
+            "correct_answers": [
+                "August 19",
+                "august 19"
+            ],
+            "options": [
+                "August 21",
+                "December 26",
+                "December 24",
+                "August 19"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the War of the Pacific (1879 - 1883), Bolivia lost its access to the Pacific Ocean after being defeated by which South American country?",
+            "correct_answer": "Chile",
+            "incorrect_answers": [
+                [
+                    "Peru",
+                    "peru"
+                ],
+                [
+                    "Brazil",
+                    "brazil"
+                ],
+                [
+                    "Argentina",
+                    "argentina"
+                ]
+            ],
+            "correct_answers": [
+                "Chile",
+                "chile"
+            ],
+            "options": [
+                "Peru",
+                "Brazil",
+                "Argentina",
+                "Chile"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did the Battle of Agincourt take place?",
+            "correct_answer": "1415",
+            "incorrect_answers": [
+                [
+                    "1463",
+                    "1463"
+                ],
+                [
+                    "1401",
+                    "1401"
+                ],
+                [
+                    "1422",
+                    "1422"
+                ]
+            ],
+            "correct_answers": [
+                "1415",
+                "1415"
+            ],
+            "options": [
+                "1463",
+                "1401",
+                "1422",
+                "1415"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which building was set aflame on August 24th, 1812?",
+            "correct_answer": "The White House",
+            "incorrect_answers": [
+                [
+                    "Parliament Building",
+                    "parliament building"
+                ],
+                [
+                    "Grand National Assembly Building",
+                    "grand national assembly building"
+                ],
+                [
+                    "Palace of the Nation",
+                    "palace of the nation",
+                    "palace of nation"
+                ]
+            ],
+            "correct_answers": [
+                "The White House",
+                "the white house",
+                "white house"
+            ],
+            "options": [
+                "Parliament Building",
+                "Grand National Assembly Building",
+                "Palace of the Nation",
+                "The White House"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Panama Canal was finished under the administration of which U.S. president?",
+            "correct_answer": "Woodrow Wilson",
+            "incorrect_answers": [
+                [
+                    "Franklin Delano Roosevelt",
+                    "franklin delano roosevelt"
+                ],
+                [
+                    "Herbert Hoover",
+                    "herbert hoover"
+                ],
+                [
+                    "Theodore Roosevelt",
+                    "theodore roosevelt"
+                ]
+            ],
+            "correct_answers": [
+                "Woodrow Wilson",
+                "woodrow wilson"
+            ],
+            "options": [
+                "Franklin Delano Roosevelt",
+                "Herbert Hoover",
+                "Theodore Roosevelt",
+                "Woodrow Wilson"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Thirty Years War ended with which treaty?",
+            "correct_answer": "Peace of Westphalia",
+            "incorrect_answers": [
+                [
+                    "Treaty of Versailles",
+                    "treaty of versailles"
+                ],
+                [
+                    "Treaty of Paris",
+                    "treaty of paris"
+                ],
+                [
+                    "Peace of Prague",
+                    "peace of prague"
+                ]
+            ],
+            "correct_answers": [
+                "Peace of Westphalia",
+                "peace of westphalia"
+            ],
+            "options": [
+                "Treaty of Versailles",
+                "Treaty of Paris",
+                "Peace of Prague",
+                "Peace of Westphalia"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did Jamaica recieve its independence from England? ",
+            "correct_answer": "1962",
+            "incorrect_answers": [
+                [
+                    "1492",
+                    "1492"
+                ],
+                [
+                    "1963",
+                    "1963"
+                ],
+                [
+                    "1987",
+                    "1987"
+                ]
+            ],
+            "correct_answers": [
+                "1962",
+                "1962"
+            ],
+            "options": [
+                "1492",
+                "1963",
+                "1987",
+                "1962"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Where and when was the first cardboard box made for industrial use?",
+            "correct_answer": "England, 1817",
+            "incorrect_answers": [
+                [
+                    "United States, 1817",
+                    "united states, 1817"
+                ],
+                [
+                    "England, 1917",
+                    "england, 1917"
+                ],
+                [
+                    "United States, 1917",
+                    "united states, 1917"
+                ]
+            ],
+            "correct_answers": [
+                "England, 1817",
+                "england, 1817"
+            ],
+            "options": [
+                "United States, 1817",
+                "England, 1917",
+                "United States, 1917",
+                "England, 1817"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following is NOT classified as a Semetic language?",
+            "correct_answer": "Sumerian",
+            "incorrect_answers": [
+                [
+                    "Maltese",
+                    "maltese"
+                ],
+                [
+                    "Akkadian",
+                    "akkadian"
+                ],
+                [
+                    "Mandaic",
+                    "mandaic"
+                ]
+            ],
+            "correct_answers": [
+                "Sumerian",
+                "sumerian"
+            ],
+            "options": [
+                "Maltese",
+                "Akkadian",
+                "Mandaic",
+                "Sumerian"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+            "correct_answer": "Californian",
+            "incorrect_answers": [
+                [
+                    "Carpathia",
+                    "carpathia"
+                ],
+                [
+                    "Cristol",
+                    "cristol"
+                ],
+                [
+                    "Commerce",
+                    "commerce"
+                ]
+            ],
+            "correct_answers": [
+                "Californian",
+                "californian"
+            ],
+            "options": [
+                "Carpathia",
+                "Cristol",
+                "Commerce",
+                "Californian"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "One of the deadliest pandemics, the &quot;Spanish Flu&quot;, killed off what percentage of the human world population at the time?",
+            "correct_answer": "3 to 6 percent",
+            "incorrect_answers": [
+                [
+                    "6 to 10 percent",
+                    "6 to 10 percent"
+                ],
+                [
+                    "1 to 3 percent",
+                    "1 to 3 percent"
+                ],
+                [
+                    "less than 1 percent",
+                    "less than 1 percent"
+                ]
+            ],
+            "correct_answers": [
+                "3 to 6 percent",
+                "3 to 6 percent"
+            ],
+            "options": [
+                "6 to 10 percent",
+                "1 to 3 percent",
+                "less than 1 percent",
+                "3 to 6 percent"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which year was Constantinople conquered by the Turks?",
+            "correct_answer": "1453",
+            "incorrect_answers": [
+                [
+                    "1435",
+                    "1435"
+                ],
+                [
+                    "1454",
+                    "1454"
+                ],
+                [
+                    "1440",
+                    "1440"
+                ]
+            ],
+            "correct_answers": [
+                "1453",
+                "1453"
+            ],
+            "options": [
+                "1435",
+                "1454",
+                "1440",
+                "1453"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The fraudelent doctor John R. Brinkley acummulated great fame and wealth in the early 1900s offering what service?",
+            "correct_answer": "Goat testicles transplant",
+            "incorrect_answers": [
+                [
+                    "Pig blood transfusion",
+                    "pig blood transfusion"
+                ],
+                [
+                    "Cow liver transplant",
+                    "cow liver transplant"
+                ],
+                [
+                    "Turkey breast implants",
+                    "turkey breast implants"
+                ]
+            ],
+            "correct_answers": [
+                "Goat testicles transplant",
+                "goat testicles transplant"
+            ],
+            "options": [
+                "Pig blood transfusion",
+                "Cow liver transplant",
+                "Turkey breast implants",
+                "Goat testicles transplant"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did the Battle of the Bulge end?",
+            "correct_answer": "January 25, 1945",
+            "incorrect_answers": [
+                [
+                    "August 6, 1945",
+                    "august 6, 1945"
+                ],
+                [
+                    "December 7, 1941",
+                    "december 7, 1941"
+                ],
+                [
+                    "December 16, 1944",
+                    "december 16, 1944"
+                ]
+            ],
+            "correct_answers": [
+                "January 25, 1945",
+                "january 25, 1945"
+            ],
+            "options": [
+                "August 6, 1945",
+                "December 7, 1941",
+                "December 16, 1944",
+                "January 25, 1945"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+            "correct_answer": "107 BCE",
+            "incorrect_answers": [
+                [
+                    "42 BCE",
+                    "42 bce"
+                ],
+                [
+                    "264 BCE",
+                    "264 bce"
+                ],
+                [
+                    "102 CE",
+                    "102 ce"
+                ]
+            ],
+            "correct_answers": [
+                "107 BCE",
+                "107 bce"
+            ],
+            "options": [
+                "42 BCE",
+                "264 BCE",
+                "102 CE",
+                "107 BCE"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year did Australia become a federation?",
+            "correct_answer": "1901",
+            "incorrect_answers": [
+                [
+                    "1910",
+                    "1910"
+                ],
+                [
+                    "1899",
+                    "1899"
+                ],
+                [
+                    "1911",
+                    "1911"
+                ]
+            ],
+            "correct_answers": [
+                "1901",
+                "1901"
+            ],
+            "options": [
+                "1910",
+                "1899",
+                "1911",
+                "1901"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What nationality was sultan Saladin?",
+            "correct_answer": "Kurdish",
+            "incorrect_answers": [
+                [
+                    "Arab",
+                    "arab"
+                ],
+                [
+                    "Egyptian",
+                    "egyptian"
+                ],
+                [
+                    "Syrian",
+                    "syrian"
+                ]
+            ],
+            "correct_answers": [
+                "Kurdish",
+                "kurdish"
+            ],
+            "options": [
+                "Arab",
+                "Egyptian",
+                "Syrian",
+                "Kurdish"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did the United States formally declare war on Japan, entering World War II?",
+            "correct_answer": "December 8, 1941",
+            "incorrect_answers": [
+                [
+                    "June 6, 1944",
+                    "june 6, 1944"
+                ],
+                [
+                    "June 22, 1941",
+                    "june 22, 1941"
+                ],
+                [
+                    "September 1, 1939",
+                    "september 1, 1939"
+                ]
+            ],
+            "correct_answers": [
+                "December 8, 1941",
+                "december 8, 1941"
+            ],
+            "options": [
+                "June 6, 1944",
+                "June 22, 1941",
+                "September 1, 1939",
+                "December 8, 1941"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The United States Army Air Corps became the United States Air Force on what date?",
+            "correct_answer": "September 18, 1947",
+            "incorrect_answers": [
+                [
+                    "December 14, 1946",
+                    "december 14, 1946"
+                ],
+                [
+                    "October 27, 1945",
+                    "october 27, 1945"
+                ],
+                [
+                    "November 08, 1944",
+                    "november 08, 1944"
+                ]
+            ],
+            "correct_answers": [
+                "September 18, 1947",
+                "september 18, 1947"
+            ],
+            "options": [
+                "December 14, 1946",
+                "October 27, 1945",
+                "November 08, 1944",
+                "September 18, 1947"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these countries was sea charted in 1500 by the Portuguese maritime explorations?",
+            "correct_answer": "Brazil",
+            "incorrect_answers": [
+                [
+                    "India",
+                    "india"
+                ],
+                [
+                    "Mozambique",
+                    "mozambique"
+                ],
+                [
+                    "Madagascar",
+                    "madagascar"
+                ]
+            ],
+            "correct_answers": [
+                "Brazil",
+                "brazil"
+            ],
+            "options": [
+                "India",
+                "Mozambique",
+                "Madagascar",
+                "Brazil"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many times was Albert Einstein married in his lifetime?",
+            "correct_answer": "Twice",
+            "incorrect_answers": [
+                [
+                    "Five",
+                    "five"
+                ],
+                [
+                    "Thrice",
+                    "thrice"
+                ],
+                [
+                    "Once",
+                    "once"
+                ]
+            ],
+            "correct_answers": [
+                "Twice",
+                "twice"
+            ],
+            "options": [
+                "Five",
+                "Thrice",
+                "Once",
+                "Twice"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What happened on June 6, 1944?",
+            "correct_answer": "D-Day",
+            "incorrect_answers": [
+                [
+                    "Atomic bombings of Hiroshima and Nagasaki",
+                    "atomic bombings of hiroshima and nagasaki"
+                ],
+                [
+                    "Attack on Pearl Harbor",
+                    "attack on pearl harbor"
+                ],
+                [
+                    "The Liberation of Paris",
+                    "the liberation of paris",
+                    "liberation of paris"
+                ]
+            ],
+            "correct_answers": [
+                "D-Day",
+                "d-day"
+            ],
+            "options": [
+                "Atomic bombings of Hiroshima and Nagasaki",
+                "Attack on Pearl Harbor",
+                "The Liberation of Paris",
+                "D-Day"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did O, Canada officially become the national anthem?",
+            "correct_answer": "1980",
+            "incorrect_answers": [
+                [
+                    "1950",
+                    "1950"
+                ],
+                [
+                    "1920",
+                    "1920"
+                ],
+                [
+                    "1880",
+                    "1880"
+                ]
+            ],
+            "correct_answers": [
+                "1980",
+                "1980"
+            ],
+            "options": [
+                "1950",
+                "1920",
+                "1880",
+                "1980"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Joseph Smith was the founder of what religion?",
+            "correct_answer": "Mormonism",
+            "incorrect_answers": [
+                [
+                    "Buddhism",
+                    "buddhism"
+                ],
+                [
+                    "Christianity",
+                    "christianity"
+                ],
+                [
+                    "Hinduism",
+                    "hinduism"
+                ]
+            ],
+            "correct_answers": [
+                "Mormonism",
+                "mormonism"
+            ],
+            "options": [
+                "Buddhism",
+                "Christianity",
+                "Hinduism",
+                "Mormonism"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which country gifted the Statue of Liberty to the United States of America?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                [
+                    "Spain",
+                    "spain"
+                ],
+                [
+                    "England",
+                    "england"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ]
+            ],
+            "correct_answers": [
+                "France",
+                "france"
+            ],
+            "options": [
+                "Spain",
+                "England",
+                "Germany",
+                "France"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following snipers has the highest amount of confirmed kills?",
+            "correct_answer": "Simo H&auml;yh&auml;",
+            "incorrect_answers": [
+                [
+                    "Chris Kyle",
+                    "chris kyle"
+                ],
+                [
+                    "Vasily Zaytsev",
+                    "vasily zaytsev"
+                ],
+                [
+                    "Craig Harrison",
+                    "craig harrison"
+                ]
+            ],
+            "correct_answers": [
+                "Simo H&auml;yh&auml;",
+                "simo h&auml;yh&auml;"
+            ],
+            "options": [
+                "Chris Kyle",
+                "Vasily Zaytsev",
+                "Craig Harrison",
+                "Simo H&auml;yh&auml;"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+            "correct_answer": "Star Wars",
+            "incorrect_answers": [
+                [
+                    "Jaws",
+                    "jaws"
+                ],
+                [
+                    "Blade Runner",
+                    "blade runner"
+                ],
+                [
+                    "Alien",
+                    "alien"
+                ]
+            ],
+            "correct_answers": [
+                "Star Wars",
+                "star wars"
+            ],
+            "options": [
+                "Jaws",
+                "Blade Runner",
+                "Alien",
+                "Star Wars"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Joseph Stalin had a criminal past doing what?",
+            "correct_answer": "Robbing Trains",
+            "incorrect_answers": [
+                [
+                    "Murder for Hire",
+                    "murder for hire"
+                ],
+                [
+                    "Tax Evasion",
+                    "tax evasion"
+                ],
+                [
+                    "Identity Fraud",
+                    "identity fraud"
+                ]
+            ],
+            "correct_answers": [
+                "Robbing Trains",
+                "robbing trains"
+            ],
+            "options": [
+                "Murder for Hire",
+                "Tax Evasion",
+                "Identity Fraud",
+                "Robbing Trains"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+            "correct_answer": "Irish Republican Army",
+            "incorrect_answers": [
+                [
+                    "Irish Rebel Alliance",
+                    "irish rebel alliance"
+                ],
+                [
+                    "Irish Reformation Army",
+                    "irish reformation army"
+                ],
+                [
+                    "Irish-Royal Alliance",
+                    "irish-royal alliance"
+                ]
+            ],
+            "correct_answers": [
+                "Irish Republican Army",
+                "irish republican army"
+            ],
+            "options": [
+                "Irish Rebel Alliance",
+                "Irish Reformation Army",
+                "Irish-Royal Alliance",
+                "Irish Republican Army"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the only US President to be elected four times?",
+            "correct_answer": "Franklin Roosevelt",
+            "incorrect_answers": [
+                [
+                    "Theodore Roosevelt",
+                    "theodore roosevelt"
+                ],
+                [
+                    "George Washington",
+                    "george washington"
+                ],
+                [
+                    "Abraham Lincoln",
+                    "abraham lincoln"
+                ]
+            ],
+            "correct_answers": [
+                "Franklin Roosevelt",
+                "franklin roosevelt"
+            ],
+            "options": [
+                "Theodore Roosevelt",
+                "George Washington",
+                "Abraham Lincoln",
+                "Franklin Roosevelt"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
+            "correct_answer": "5%",
+            "incorrect_answers": [
+                [
+                    "1%",
+                    "1%"
+                ],
+                [
+                    "3%",
+                    "3%"
+                ],
+                [
+                    "&lt;1%",
+                    "&lt;1%"
+                ]
+            ],
+            "correct_answers": [
+                "5%",
+                "5%"
+            ],
+            "options": [
+                "1%",
+                "3%",
+                "&lt;1%",
+                "5%"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following is not in the Indo-European language family?",
+            "correct_answer": "Finnish",
+            "incorrect_answers": [
+                [
+                    "English",
+                    "english"
+                ],
+                [
+                    "Hindi",
+                    "hindi"
+                ],
+                [
+                    "Russian",
+                    "russian"
+                ]
+            ],
+            "correct_answers": [
+                "Finnish",
+                "finnish"
+            ],
+            "options": [
+                "English",
+                "Hindi",
+                "Russian",
+                "Finnish"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the first president born in the independent United States?",
+            "correct_answer": "Martin Van Buren",
+            "incorrect_answers": [
+                [
+                    "John Adams",
+                    "john adams"
+                ],
+                [
+                    "George Washington",
+                    "george washington"
+                ],
+                [
+                    "James Monroe ",
+                    "james monroe "
+                ]
+            ],
+            "correct_answers": [
+                "Martin Van Buren",
+                "martin van buren"
+            ],
+            "options": [
+                "John Adams",
+                "George Washington",
+                "James Monroe ",
+                "Martin Van Buren"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+            "correct_answer": "100 Megatons",
+            "incorrect_answers": [
+                [
+                    "200 Megatons",
+                    "200 megatons"
+                ],
+                [
+                    "75 Megatons",
+                    "75 megatons"
+                ],
+                [
+                    "150 Megatons",
+                    "150 megatons"
+                ]
+            ],
+            "correct_answers": [
+                "100 Megatons",
+                "100 megatons"
+            ],
+            "options": [
+                "200 Megatons",
+                "75 Megatons",
+                "150 Megatons",
+                "100 Megatons"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the bloodiest event in United States history, in terms of casualties?",
+            "correct_answer": "Battle of Antietam",
+            "incorrect_answers": [
+                [
+                    "Pearl Harbor",
+                    "pearl harbor"
+                ],
+                [
+                    "September 11th",
+                    "september 11th"
+                ],
+                [
+                    "D-Day",
+                    "d-day"
+                ]
+            ],
+            "correct_answers": [
+                "Battle of Antietam",
+                "battle of antietam"
+            ],
+            "options": [
+                "Pearl Harbor",
+                "September 11th",
+                "D-Day",
+                "Battle of Antietam"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": " What Russian automatic gas-operated assault rifle was developed in the Soviet Union in 1947, and is still popularly used today?",
+            "correct_answer": "AK-47",
+            "incorrect_answers": [
+                [
+                    "RPK",
+                    "rpk"
+                ],
+                [
+                    "M16",
+                    "m16"
+                ],
+                [
+                    "MG 42",
+                    "mg 42"
+                ]
+            ],
+            "correct_answers": [
+                "AK-47",
+                "ak-47"
+            ],
+            "options": [
+                "RPK",
+                "M16",
+                "MG 42",
+                "AK-47"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these facilities was not present on the Titanic?",
+            "correct_answer": "Fainting room",
+            "incorrect_answers": [
+                [
+                    "Turkish bath",
+                    "turkish bath"
+                ],
+                [
+                    "Kennel",
+                    "kennel"
+                ],
+                [
+                    "Squash court",
+                    "squash court"
+                ]
+            ],
+            "correct_answers": [
+                "Fainting room",
+                "fainting room"
+            ],
+            "options": [
+                "Turkish bath",
+                "Kennel",
+                "Squash court",
+                "Fainting room"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the oldest US state?",
+            "correct_answer": "Delaware",
+            "incorrect_answers": [
+                [
+                    "Rhode Island",
+                    "rhode island"
+                ],
+                [
+                    "Maine",
+                    "maine"
+                ],
+                [
+                    "Virginia",
+                    "virginia"
+                ]
+            ],
+            "correct_answers": [
+                "Delaware",
+                "delaware"
+            ],
+            "options": [
+                "Rhode Island",
+                "Maine",
+                "Virginia",
+                "Delaware"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is attributed credit for recording the epic poem The Odyssey?",
+            "correct_answer": "Homer",
+            "incorrect_answers": [
+                [
+                    "Aristotle",
+                    "aristotle"
+                ],
+                [
+                    "Odysseus",
+                    "odysseus"
+                ],
+                [
+                    "Socrates",
+                    "socrates"
+                ]
+            ],
+            "correct_answers": [
+                "Homer",
+                "homer"
+            ],
+            "options": [
+                "Aristotle",
+                "Odysseus",
+                "Socrates",
+                "Homer"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the first explorer to sail to North America?",
+            "correct_answer": "Leif Erikson",
+            "incorrect_answers": [
+                [
+                    "Christopher Columbus",
+                    "christopher columbus"
+                ],
+                [
+                    "Amerigo Vespucci",
+                    "amerigo vespucci"
+                ],
+                [
+                    "Ferdinand Magellan",
+                    "ferdinand magellan"
+                ]
+            ],
+            "correct_answers": [
+                "Leif Erikson",
+                "leif erikson"
+            ],
+            "options": [
+                "Christopher Columbus",
+                "Amerigo Vespucci",
+                "Ferdinand Magellan",
+                "Leif Erikson"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which dictator killed the most people?",
+            "correct_answer": "Mao Zedong",
+            "incorrect_answers": [
+                [
+                    "Joseph Stalin",
+                    "joseph stalin"
+                ],
+                [
+                    "Adolf Hitler",
+                    "adolf hitler"
+                ],
+                [
+                    "Kim Il Sung",
+                    "kim il sung"
+                ]
+            ],
+            "correct_answers": [
+                "Mao Zedong",
+                "mao zedong"
+            ],
+            "options": [
+                "Joseph Stalin",
+                "Adolf Hitler",
+                "Kim Il Sung",
+                "Mao Zedong"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the first Chancellor of a united Germany in 1871? ",
+            "correct_answer": "Otto Von Bismark",
+            "incorrect_answers": [
+                [
+                    "Kaiser Wilhelm ",
+                    "kaiser wilhelm "
+                ],
+                [
+                    "Fredrick the 2nd",
+                    "fredrick the 2nd",
+                    "fredrick 2nd"
+                ],
+                [
+                    "Robert Koch",
+                    "robert koch"
+                ]
+            ],
+            "correct_answers": [
+                "Otto Von Bismark",
+                "otto von bismark"
+            ],
+            "options": [
+                "Kaiser Wilhelm ",
+                "Fredrick the 2nd",
+                "Robert Koch",
+                "Otto Von Bismark"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which U.S. President was famously 'attacked' by a swimming rabbit?",
+            "correct_answer": "Jimmy Carter",
+            "incorrect_answers": [
+                [
+                    "Ronald Reagan",
+                    "ronald reagan"
+                ],
+                [
+                    "Lydon B. Johnson",
+                    "lydon b. johnson"
+                ],
+                [
+                    "Gerald Ford",
+                    "gerald ford"
+                ]
+            ],
+            "correct_answers": [
+                "Jimmy Carter",
+                "jimmy carter"
+            ],
+            "options": [
+                "Ronald Reagan",
+                "Lydon B. Johnson",
+                "Gerald Ford",
+                "Jimmy Carter"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did construction of the Suez Canal finish?",
+            "correct_answer": "1869",
+            "incorrect_answers": [
+                [
+                    "1859",
+                    "1859"
+                ],
+                [
+                    "1860",
+                    "1860"
+                ],
+                [
+                    "1850",
+                    "1850"
+                ]
+            ],
+            "correct_answers": [
+                "1869",
+                "1869"
+            ],
+            "options": [
+                "1859",
+                "1860",
+                "1850",
+                "1869"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+            "correct_answer": "St. Helena",
+            "incorrect_answers": [
+                [
+                    "Elba",
+                    "elba"
+                ],
+                [
+                    "Corsica",
+                    "corsica"
+                ],
+                [
+                    "Canary",
+                    "canary"
+                ]
+            ],
+            "correct_answers": [
+                "St. Helena",
+                "st. helena"
+            ],
+            "options": [
+                "Elba",
+                "Corsica",
+                "Canary",
+                "St. Helena"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+            "correct_answer": "1923",
+            "incorrect_answers": [
+                [
+                    "1903",
+                    "1903"
+                ],
+                [
+                    "1913",
+                    "1913"
+                ],
+                [
+                    "1933",
+                    "1933"
+                ]
+            ],
+            "correct_answers": [
+                "1923",
+                "1923"
+            ],
+            "options": [
+                "1903",
+                "1913",
+                "1933",
+                "1923"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+            "correct_answer": "1969",
+            "incorrect_answers": [
+                [
+                    "1965",
+                    "1965"
+                ],
+                [
+                    "1966",
+                    "1966"
+                ],
+                [
+                    "1973",
+                    "1973"
+                ]
+            ],
+            "correct_answers": [
+                "1969",
+                "1969"
+            ],
+            "options": [
+                "1965",
+                "1966",
+                "1973",
+                "1969"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The Korean War started in what year?",
+            "correct_answer": "1950",
+            "incorrect_answers": [
+                [
+                    "1945",
+                    "1945"
+                ],
+                [
+                    "1960",
+                    "1960"
+                ],
+                [
+                    "1912",
+                    "1912"
+                ]
+            ],
+            "correct_answers": [
+                "1950",
+                "1950"
+            ],
+            "options": [
+                "1945",
+                "1960",
+                "1912",
+                "1950"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The minigun was designed in 1960 by which manufacturer.",
+            "correct_answer": "General Electric",
+            "incorrect_answers": [
+                [
+                    "Colt Firearms",
+                    "colt firearms"
+                ],
+                [
+                    "Heckler &amp; Koch",
+                    "heckler &amp; koch"
+                ],
+                [
+                    "Sig Sauer",
+                    "sig sauer"
+                ]
+            ],
+            "correct_answers": [
+                "General Electric",
+                "general electric"
+            ],
+            "options": [
+                "Colt Firearms",
+                "Heckler &amp; Koch",
+                "Sig Sauer",
+                "General Electric"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
+            "correct_answer": "Renault FT",
+            "incorrect_answers": [
+                [
+                    "M4 Sherman",
+                    "m4 sherman"
+                ],
+                [
+                    " Panzer IV",
+                    " panzer iv"
+                ],
+                [
+                    "Cromwell ",
+                    "cromwell "
+                ]
+            ],
+            "correct_answers": [
+                "Renault FT",
+                "renault ft"
+            ],
+            "options": [
+                "M4 Sherman",
+                " Panzer IV",
+                "Cromwell ",
+                "Renault FT"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When did Norway get its constitution?",
+            "correct_answer": "1814",
+            "incorrect_answers": [
+                [
+                    "1932",
+                    "1932"
+                ],
+                [
+                    "1905",
+                    "1905"
+                ],
+                [
+                    "1854",
+                    "1854"
+                ]
+            ],
+            "correct_answers": [
+                "1814",
+                "1814"
+            ],
+            "options": [
+                "1932",
+                "1905",
+                "1854",
+                "1814"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In what year did Kentucky become the 15th state to join the union?",
+            "correct_answer": "1792",
+            "incorrect_answers": [
+                [
+                    "1782",
+                    "1782"
+                ],
+                [
+                    "1798",
+                    "1798"
+                ],
+                [
+                    "1788",
+                    "1788"
+                ]
+            ],
+            "correct_answers": [
+                "1792",
+                "1792"
+            ],
+            "options": [
+                "1782",
+                "1798",
+                "1788",
+                "1792"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the unofficial name for Germany between 1919 and 1933?",
+            "correct_answer": "Weimar Republic",
+            "incorrect_answers": [
+                [
+                    "German Democratic Republic",
+                    "german democratic republic"
+                ],
+                [
+                    "Federal Republic of Germany",
+                    "federal republic of germany"
+                ],
+                [
+                    "Oesterreich ",
+                    "oesterreich "
+                ]
+            ],
+            "correct_answers": [
+                "Weimar Republic",
+                "weimar republic"
+            ],
+            "options": [
+                "German Democratic Republic",
+                "Federal Republic of Germany",
+                "Oesterreich ",
+                "Weimar Republic"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure? ",
+            "correct_answer": "Polio",
+            "incorrect_answers": [
+                [
+                    "Cancer",
+                    "cancer"
+                ],
+                [
+                    "Meningitis",
+                    "meningitis"
+                ],
+                [
+                    "HIV",
+                    "hiv"
+                ]
+            ],
+            "correct_answers": [
+                "Polio",
+                "polio"
+            ],
+            "options": [
+                "Cancer",
+                "Meningitis",
+                "HIV",
+                "Polio"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+            "correct_answer": "Josip Broz Tito",
+            "incorrect_answers": [
+                [
+                    "Karadjordje Petrovic",
+                    "karadjordje petrovic"
+                ],
+                [
+                    "Milos Obilic",
+                    "milos obilic"
+                ],
+                [
+                    "Aleskandar Petrovic",
+                    "aleskandar petrovic"
+                ]
+            ],
+            "correct_answers": [
+                "Josip Broz Tito",
+                "josip broz tito"
+            ],
+            "options": [
+                "Karadjordje Petrovic",
+                "Milos Obilic",
+                "Aleskandar Petrovic",
+                "Josip Broz Tito"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Nazi General was known as the &quot;Desert Fox&quot;?",
+            "correct_answer": "Erwin Rommel",
+            "incorrect_answers": [
+                [
+                    "Gerd von Rundstadt",
+                    "gerd von rundstadt"
+                ],
+                [
+                    "Wilhelm Keitel",
+                    "wilhelm keitel"
+                ],
+                [
+                    "Heinz Guderian ",
+                    "heinz guderian "
+                ]
+            ],
+            "correct_answers": [
+                "Erwin Rommel",
+                "erwin rommel"
+            ],
+            "options": [
+                "Gerd von Rundstadt",
+                "Wilhelm Keitel",
+                "Heinz Guderian ",
+                "Erwin Rommel"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the code name for the German invasion of the Soviet Union in WW2?",
+            "correct_answer": "Operation Barbarossa",
+            "incorrect_answers": [
+                [
+                    "Operation Kaiserschlact",
+                    "operation kaiserschlact"
+                ],
+                [
+                    "Operation Unthinkable",
+                    "operation unthinkable"
+                ],
+                [
+                    "Operation Molotov",
+                    "operation molotov"
+                ]
+            ],
+            "correct_answers": [
+                "Operation Barbarossa",
+                "operation barbarossa"
+            ],
+            "options": [
+                "Operation Kaiserschlact",
+                "Operation Unthinkable",
+                "Operation Molotov",
+                "Operation Barbarossa"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which U.S. President was in office when the Gulf War began?",
+            "correct_answer": "George H. W. Bush",
+            "incorrect_answers": [
+                [
+                    "Richard Nixon",
+                    "richard nixon"
+                ],
+                [
+                    "George W. Bush ",
+                    "george w. bush "
+                ],
+                [
+                    "Ronald Regan",
+                    "ronald regan"
+                ]
+            ],
+            "correct_answers": [
+                "George H. W. Bush",
+                "george h. w. bush"
+            ],
+            "options": [
+                "Richard Nixon",
+                "George W. Bush ",
+                "Ronald Regan",
+                "George H. W. Bush"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "questions": [
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "According to Algonquian folklore, how does one transform into a Wendigo?",
+            "correct_answer": "Participating in cannibalism.",
+            "incorrect_answers": [
+                [
+                    "Excessive mutilation of animal corpses.",
+                    "excessive mutilation of animal corpses."
+                ],
+                [
+                    "Performing a ritual involving murder.",
+                    "performing a ritual involving murder."
+                ],
+                [
+                    "Drinking the blood of many slain animals.",
+                    "drinking the blood of many slain animals.",
+                    "drinking blood of many slain animals."
+                ]
+            ],
+            "correct_answers": [
+                "Participating in cannibalism.",
+                "participating in cannibalism."
+            ],
+            "options": [
+                "Excessive mutilation of animal corpses.",
+                "Performing a ritual involving murder.",
+                "Drinking the blood of many slain animals.",
+                "Participating in cannibalism."
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Talos, the mythical giant bronze man, was the protector of which island?",
+            "correct_answer": "Crete",
+            "incorrect_answers": [
+                [
+                    "Sardinia",
+                    "sardinia"
+                ],
+                [
+                    "Sicily",
+                    "sicily"
+                ],
+                [
+                    "Cyprus",
+                    "cyprus"
+                ]
+            ],
+            "correct_answers": [
+                "Crete",
+                "crete"
+            ],
+            "options": [
+                "Sardinia",
+                "Sicily",
+                "Cyprus",
+                "Crete"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the punishment for Sysiphus's craftiness?",
+            "correct_answer": "Cursed to roll a boulder up a hill for eternity.",
+            "incorrect_answers": [
+                [
+                    "Tied to a boulder for eternity, being pecked by birds.",
+                    "tied to a boulder for eternity, being pecked by birds."
+                ],
+                [
+                    "Standing in a lake filled with water he could not drink.",
+                    "standing in a lake filled with water he could not drink."
+                ],
+                [
+                    "To fell a tree that regenerated after every axe swing.",
+                    "to fell a tree that regenerated after every axe swing."
+                ]
+            ],
+            "correct_answers": [
+                "Cursed to roll a boulder up a hill for eternity.",
+                "cursed to roll a boulder up a hill for eternity."
+            ],
+            "options": [
+                "Tied to a boulder for eternity, being pecked by birds.",
+                "Standing in a lake filled with water he could not drink.",
+                "To fell a tree that regenerated after every axe swing.",
+                "Cursed to roll a boulder up a hill for eternity."
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Greek Mythology, who was the daughter of King Minos?",
+            "correct_answer": "Ariadne",
+            "incorrect_answers": [
+                [
+                    "Athena",
+                    "athena"
+                ],
+                [
+                    "Ariel",
+                    "ariel"
+                ],
+                [
+                    "Alana",
+                    "alana"
+                ]
+            ],
+            "correct_answers": [
+                "Ariadne",
+                "ariadne"
+            ],
+            "options": [
+                "Athena",
+                "Ariel",
+                "Alana",
+                "Ariadne"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?",
+            "correct_answer": "Nidhogg",
+            "incorrect_answers": [
+                [
+                    "Bragi",
+                    "bragi"
+                ],
+                [
+                    "Odin",
+                    "odin"
+                ],
+                [
+                    "Ymir",
+                    "ymir"
+                ]
+            ],
+            "correct_answers": [
+                "Nidhogg",
+                "nidhogg"
+            ],
+            "options": [
+                "Bragi",
+                "Odin",
+                "Ymir",
+                "Nidhogg"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is NOT a god in Norse Mythology.",
+            "correct_answer": "Jens",
+            "incorrect_answers": [
+                [
+                    "Loki",
+                    "loki"
+                ],
+                [
+                    "Tyr",
+                    "tyr"
+                ],
+                [
+                    "Snotra",
+                    "snotra"
+                ]
+            ],
+            "correct_answers": [
+                "Jens",
+                "jens"
+            ],
+            "options": [
+                "Loki",
+                "Tyr",
+                "Snotra",
+                "Jens"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Nidhogg is a mythical creature from what mythology?",
+            "correct_answer": "Norse",
+            "incorrect_answers": [
+                [
+                    "Egyptian",
+                    "egyptian"
+                ],
+                [
+                    "Greek",
+                    "greek"
+                ],
+                [
+                    "Hindu",
+                    "hindu"
+                ]
+            ],
+            "correct_answers": [
+                "Norse",
+                "norse"
+            ],
+            "options": [
+                "Egyptian",
+                "Greek",
+                "Hindu",
+                "Norse"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which Norse God has a horse named Sleipnir?",
+            "correct_answer": "Odin",
+            "incorrect_answers": [
+                [
+                    "Thor",
+                    "thor"
+                ],
+                [
+                    "Frigg",
+                    "frigg"
+                ],
+                [
+                    "Balder",
+                    "balder"
+                ]
+            ],
+            "correct_answers": [
+                "Odin",
+                "odin"
+            ],
+            "options": [
+                "Thor",
+                "Frigg",
+                "Balder",
+                "Odin"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+            "correct_answer": "Tree",
+            "incorrect_answers": [
+                [
+                    "Mountain",
+                    "mountain"
+                ],
+                [
+                    "Temple",
+                    "temple"
+                ],
+                [
+                    "Castle",
+                    "castle"
+                ]
+            ],
+            "correct_answers": [
+                "Tree",
+                "tree"
+            ],
+            "options": [
+                "Mountain",
+                "Temple",
+                "Castle",
+                "Tree"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is a minor god that is protector and creator of various arts, such as cheese making and bee keeping.",
+            "correct_answer": "Aristaeus",
+            "incorrect_answers": [
+                [
+                    "Autonoe",
+                    "autonoe"
+                ],
+                [
+                    "Carme",
+                    "carme"
+                ],
+                [
+                    "Cephisso",
+                    "cephisso"
+                ]
+            ],
+            "correct_answers": [
+                "Aristaeus",
+                "aristaeus"
+            ],
+            "options": [
+                "Autonoe",
+                "Carme",
+                "Cephisso",
+                "Aristaeus"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the Egyptian god of reproduction and lettuce?",
+            "correct_answer": "Min",
+            "incorrect_answers": [
+                [
+                    "Menu",
+                    "menu"
+                ],
+                [
+                    "Mut",
+                    "mut"
+                ],
+                [
+                    "Meret",
+                    "meret"
+                ]
+            ],
+            "correct_answers": [
+                "Min",
+                "min"
+            ],
+            "options": [
+                "Menu",
+                "Mut",
+                "Meret",
+                "Min"
+            ]
+        }
+    ]
+}

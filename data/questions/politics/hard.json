@@ -1,0 +1,380 @@
+{
+    "questions": [
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of Niccol&ograve; Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
+            "correct_answer": "The Prince",
+            "incorrect_answers": [
+                [
+                    "The Rape of Lucrece",
+                    "the rape of lucrece",
+                    "rape of lucrece"
+                ],
+                [
+                    "Will to Power",
+                    "will to power"
+                ],
+                [
+                    "Love's Labours Lost",
+                    "love's labours lost",
+                    "loves labours lost"
+                ]
+            ],
+            "correct_answers": [
+                "The Prince",
+                "the prince",
+                "prince"
+            ],
+            "options": [
+                "The Rape of Lucrece",
+                "Will to Power",
+                "Love's Labours Lost",
+                "The Prince"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who was the longest-serving senator in US history, serving from 1959 to 2010?",
+            "correct_answer": "Robert Byrd",
+            "incorrect_answers": [
+                [
+                    "Daniel Inouye",
+                    "daniel inouye"
+                ],
+                [
+                    "Strom Thurmond",
+                    "strom thurmond"
+                ],
+                [
+                    "Joe Biden",
+                    "joe biden"
+                ]
+            ],
+            "correct_answers": [
+                "Robert Byrd",
+                "robert byrd"
+            ],
+            "options": [
+                "Daniel Inouye",
+                "Strom Thurmond",
+                "Joe Biden",
+                "Robert Byrd"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is centralism?",
+            "correct_answer": " Concentration of power and authority in a central organization.",
+            "incorrect_answers": [
+                [
+                    "Conforming to one single common political agenda.",
+                    "conforming to one single common political agenda."
+                ],
+                [
+                    "Remaining politically neutral.",
+                    "remaining politically neutral."
+                ],
+                [
+                    "The grey area in the spectrum of political left and right.",
+                    "the grey area in the spectrum of political left and right.",
+                    "grey area in spectrum of political left and right."
+                ]
+            ],
+            "correct_answers": [
+                " Concentration of power and authority in a central organization.",
+                " concentration of power and authority in a central organization."
+            ],
+            "options": [
+                "Conforming to one single common political agenda.",
+                "Remaining politically neutral.",
+                "The grey area in the spectrum of political left and right.",
+                " Concentration of power and authority in a central organization."
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following United States senators is known for performing a 24-hour long filibuster?",
+            "correct_answer": "Strom Thurmond",
+            "incorrect_answers": [
+                [
+                    "Roy Blunt",
+                    "roy blunt"
+                ],
+                [
+                    "John Barrasso",
+                    "john barrasso"
+                ],
+                [
+                    "Chuck Schumer",
+                    "chuck schumer"
+                ]
+            ],
+            "correct_answers": [
+                "Strom Thurmond",
+                "strom thurmond"
+            ],
+            "options": [
+                "Roy Blunt",
+                "John Barrasso",
+                "Chuck Schumer",
+                "Strom Thurmond"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
+            "correct_answer": "Qatar",
+            "incorrect_answers": [
+                [
+                    "Bahrain",
+                    "bahrain"
+                ],
+                [
+                    "United States of America",
+                    "united states of america"
+                ],
+                [
+                    "Russia",
+                    "russia"
+                ]
+            ],
+            "correct_answers": [
+                "Qatar",
+                "qatar"
+            ],
+            "options": [
+                "Bahrain",
+                "United States of America",
+                "Russia",
+                "Qatar"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these was an official candidate in the 2017 British General Election?",
+            "correct_answer": "Lord Buckethead",
+            "incorrect_answers": [
+                [
+                    "James Francis",
+                    "james francis"
+                ],
+                [
+                    "Robert Wimbledon",
+                    "robert wimbledon"
+                ],
+                [
+                    "Sir Crumpetsby",
+                    "sir crumpetsby"
+                ]
+            ],
+            "correct_answers": [
+                "Lord Buckethead",
+                "lord buckethead"
+            ],
+            "options": [
+                "James Francis",
+                "Robert Wimbledon",
+                "Sir Crumpetsby",
+                "Lord Buckethead"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the only US president to serve two non-consecutive terms in office?",
+            "correct_answer": "Grover Cleveland",
+            "incorrect_answers": [
+                [
+                    "James K. Polk",
+                    "james k. polk"
+                ],
+                [
+                    "Franklin D. Roosevelt",
+                    "franklin d. roosevelt"
+                ],
+                [
+                    "Thomas Jefferson",
+                    "thomas jefferson"
+                ]
+            ],
+            "correct_answers": [
+                "Grover Cleveland",
+                "grover cleveland"
+            ],
+            "options": [
+                "James K. Polk",
+                "Franklin D. Roosevelt",
+                "Thomas Jefferson",
+                "Grover Cleveland"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "&quot;Yes, America Can!&quot; was this United States politician's de facto campaign slogan in 2004.",
+            "correct_answer": "George W. Bush",
+            "incorrect_answers": [
+                [
+                    "John Kerry",
+                    "john kerry"
+                ],
+                [
+                    "Barack Obama",
+                    "barack obama"
+                ],
+                [
+                    "Al Gore",
+                    "al gore"
+                ]
+            ],
+            "correct_answers": [
+                "George W. Bush",
+                "george w. bush"
+            ],
+            "options": [
+                "John Kerry",
+                "Barack Obama",
+                "Al Gore",
+                "George W. Bush"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following United States Presidents served the shortest term in office?",
+            "correct_answer": "William Henry Harrison",
+            "incorrect_answers": [
+                [
+                    "Zachary Taylor",
+                    "zachary taylor"
+                ],
+                [
+                    "James A. Garfield",
+                    "james a. garfield"
+                ],
+                [
+                    "Warren G. Harding",
+                    "warren g. harding"
+                ]
+            ],
+            "correct_answers": [
+                "William Henry Harrison",
+                "william henry harrison"
+            ],
+            "options": [
+                "Zachary Taylor",
+                "James A. Garfield",
+                "Warren G. Harding",
+                "William Henry Harrison"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
+            "correct_answer": "Yomba Shoshone Tribe",
+            "incorrect_answers": [
+                [
+                    "Standing Rock Sioux Tribe",
+                    "standing rock sioux tribe"
+                ],
+                [
+                    "Kiowa Tribe of Oklahoma",
+                    "kiowa tribe of oklahoma"
+                ],
+                [
+                    "Pawnee Nation of Oklahoma",
+                    "pawnee nation of oklahoma"
+                ]
+            ],
+            "correct_answers": [
+                "Yomba Shoshone Tribe",
+                "yomba shoshone tribe"
+            ],
+            "options": [
+                "Standing Rock Sioux Tribe",
+                "Kiowa Tribe of Oklahoma",
+                "Pawnee Nation of Oklahoma",
+                "Yomba Shoshone Tribe"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What year did the effort to deploy the Common Core State Standards (CCSS) in the US begin?",
+            "correct_answer": "2009",
+            "incorrect_answers": [
+                [
+                    "2012",
+                    "2012"
+                ],
+                [
+                    "2006",
+                    "2006"
+                ],
+                [
+                    "1997",
+                    "1997"
+                ]
+            ],
+            "correct_answers": [
+                "2009",
+                "2009"
+            ],
+            "options": [
+                "2012",
+                "2006",
+                "1997",
+                "2009"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which letter do you need to have on a European driver license in order to ride any motorbikes?",
+            "correct_answer": "A",
+            "incorrect_answers": [
+                [
+                    "X",
+                    "x"
+                ],
+                [
+                    "D",
+                    "d"
+                ],
+                [
+                    "B",
+                    "b"
+                ]
+            ],
+            "correct_answers": [
+                "A",
+                "a"
+            ],
+            "options": [
+                "X",
+                "D",
+                "B",
+                "A"
+            ]
+        }
+    ]
+}

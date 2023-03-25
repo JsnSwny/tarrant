@@ -1,0 +1,1040 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Nickelodeon is owned by what parent company?",
+            "correct_answer": "Viacom",
+            "incorrect_answers": [
+                [
+                    "CBS",
+                    "cbs"
+                ],
+                [
+                    "FOX",
+                    "fox"
+                ],
+                [
+                    "ABC",
+                    "abc"
+                ]
+            ],
+            "correct_answers": [
+                "Viacom",
+                "viacom"
+            ],
+            "options": [
+                "CBS",
+                "FOX",
+                "ABC",
+                "Viacom"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?",
+            "correct_answer": "Captain Jack",
+            "incorrect_answers": [
+                [
+                    "Captain Jake",
+                    "captain jake"
+                ],
+                [
+                    "Captain Hector",
+                    "captain hector"
+                ],
+                [
+                    "Captain Flynn",
+                    "captain flynn"
+                ]
+            ],
+            "correct_answers": [
+                "Captain Jack",
+                "captain jack"
+            ],
+            "options": [
+                "Captain Jake",
+                "Captain Hector",
+                "Captain Flynn",
+                "Captain Jack"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is the &quot;dumb blonde&quot; character in Nickelodeon's &quot;The Loud House&quot;?",
+            "correct_answer": "Leni",
+            "incorrect_answers": [
+                [
+                    "Luan",
+                    "luan"
+                ],
+                [
+                    "Luna",
+                    "luna"
+                ],
+                [
+                    "Lincoln",
+                    "lincoln"
+                ]
+            ],
+            "correct_answers": [
+                "Leni",
+                "leni"
+            ],
+            "options": [
+                "Luan",
+                "Luna",
+                "Lincoln",
+                "Leni"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Hanna-Barbera cartoon character travelled with a canine companion named Beegle Beagle?",
+            "correct_answer": "Grape Ape",
+            "incorrect_answers": [
+                [
+                    "Boss Gator",
+                    "boss gator"
+                ],
+                [
+                    "Wally Gator",
+                    "wally gator"
+                ],
+                [
+                    "Yogi Bear",
+                    "yogi bear"
+                ]
+            ],
+            "correct_answers": [
+                "Grape Ape",
+                "grape ape"
+            ],
+            "options": [
+                "Boss Gator",
+                "Wally Gator",
+                "Yogi Bear",
+                "Grape Ape"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the number on Gerald's shirt in &quot;Hey Arnold!&quot;?",
+            "correct_answer": "33",
+            "incorrect_answers": [
+                [
+                    "88",
+                    "88"
+                ],
+                [
+                    "38",
+                    "38"
+                ],
+                [
+                    "83",
+                    "83"
+                ]
+            ],
+            "correct_answers": [
+                "33",
+                "33"
+            ],
+            "options": [
+                "88",
+                "38",
+                "83",
+                "33"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is Scooby-Doo's real name?",
+            "correct_answer": "Scoobert",
+            "incorrect_answers": [
+                [
+                    "Scooter",
+                    "scooter"
+                ],
+                [
+                    "Scrappy",
+                    "scrappy"
+                ],
+                [
+                    "Shooby",
+                    "shooby"
+                ]
+            ],
+            "correct_answers": [
+                "Scoobert",
+                "scoobert"
+            ],
+            "options": [
+                "Scooter",
+                "Scrappy",
+                "Shooby",
+                "Scoobert"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of Ruby Rose's weapon from RWBY?",
+            "correct_answer": "Crescent Rose",
+            "incorrect_answers": [
+                [
+                    "Thorned Rosebud",
+                    "thorned rosebud"
+                ],
+                [
+                    "Magnhild",
+                    "magnhild"
+                ],
+                [
+                    "Crooked Scythe",
+                    "crooked scythe"
+                ]
+            ],
+            "correct_answers": [
+                "Crescent Rose",
+                "crescent rose"
+            ],
+            "options": [
+                "Thorned Rosebud",
+                "Magnhild",
+                "Crooked Scythe",
+                "Crescent Rose"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+            "correct_answer": "Rose Marene",
+            "incorrect_answers": [
+                [
+                    "Pinkie Pie",
+                    "pinkie pie"
+                ],
+                [
+                    "Maud Pie",
+                    "maud pie"
+                ],
+                [
+                    "Rainbow Dash",
+                    "rainbow dash"
+                ]
+            ],
+            "correct_answers": [
+                "Rose Marene",
+                "rose marene"
+            ],
+            "options": [
+                "Pinkie Pie",
+                "Maud Pie",
+                "Rainbow Dash",
+                "Rose Marene"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What Cartoon Network show aired its first episode on November 4th, 2013?",
+            "correct_answer": "Steven Universe",
+            "incorrect_answers": [
+                [
+                    "Regular Show",
+                    "regular show"
+                ],
+                [
+                    "Adventure Time",
+                    "adventure time"
+                ],
+                [
+                    "The Amazing World of Gumball",
+                    "the amazing world of gumball",
+                    "amazing world of gumball"
+                ]
+            ],
+            "correct_answers": [
+                "Steven Universe",
+                "steven universe"
+            ],
+            "options": [
+                "Regular Show",
+                "Adventure Time",
+                "The Amazing World of Gumball",
+                "Steven Universe"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the cartoon character, Andy Capp, known as in Germany?",
+            "correct_answer": "Willi Wakker",
+            "incorrect_answers": [
+                [
+                    "Dick Tingeler",
+                    "dick tingeler"
+                ],
+                [
+                    "Helmut Schmacker",
+                    "helmut schmacker"
+                ],
+                [
+                    "Rod Tapper",
+                    "rod tapper"
+                ]
+            ],
+            "correct_answers": [
+                "Willi Wakker",
+                "willi wakker"
+            ],
+            "options": [
+                "Dick Tingeler",
+                "Helmut Schmacker",
+                "Rod Tapper",
+                "Willi Wakker"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the standard frame rate for animation?",
+            "correct_answer": "24 FPS",
+            "incorrect_answers": [
+                [
+                    "12 FPS",
+                    "12 fps"
+                ],
+                [
+                    "30 FPS",
+                    "30 fps"
+                ],
+                [
+                    "60 FPS",
+                    "60 fps"
+                ]
+            ],
+            "correct_answers": [
+                "24 FPS",
+                "24 fps"
+            ],
+            "options": [
+                "12 FPS",
+                "30 FPS",
+                "60 FPS",
+                "24 FPS"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is Dipper's real name from &quot;Gravity Falls&quot;?",
+            "correct_answer": "Mason Pines",
+            "incorrect_answers": [
+                [
+                    "Mable Pines",
+                    "mable pines"
+                ],
+                [
+                    "Jason Pines",
+                    "jason pines"
+                ],
+                [
+                    "Mark Pines",
+                    "mark pines"
+                ]
+            ],
+            "correct_answers": [
+                "Mason Pines",
+                "mason pines"
+            ],
+            "options": [
+                "Mable Pines",
+                "Jason Pines",
+                "Mark Pines",
+                "Mason Pines"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which city did Anger berate for ruining pizza in &quot;Inside Out&quot;?",
+            "correct_answer": "San Francisco",
+            "incorrect_answers": [
+                [
+                    "Minnesota",
+                    "minnesota"
+                ],
+                [
+                    "Washington",
+                    "washington"
+                ],
+                [
+                    "California",
+                    "california"
+                ]
+            ],
+            "correct_answers": [
+                "San Francisco",
+                "san francisco"
+            ],
+            "options": [
+                "Minnesota",
+                "Washington",
+                "California",
+                "San Francisco"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who created &quot;RWBY&quot;?",
+            "correct_answer": "Monty Oum",
+            "incorrect_answers": [
+                [
+                    "Miles Luna",
+                    "miles luna"
+                ],
+                [
+                    "Kerry Shawcross",
+                    "kerry shawcross"
+                ],
+                [
+                    "Shane Newville",
+                    "shane newville"
+                ]
+            ],
+            "correct_answers": [
+                "Monty Oum",
+                "monty oum"
+            ],
+            "options": [
+                "Miles Luna",
+                "Kerry Shawcross",
+                "Shane Newville",
+                "Monty Oum"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?",
+            "correct_answer": "Myrtenaster",
+            "incorrect_answers": [
+                [
+                    "Gambol Shroud",
+                    "gambol shroud"
+                ],
+                [
+                    "Crescent Rose",
+                    "crescent rose"
+                ],
+                [
+                    "Ember Celica",
+                    "ember celica"
+                ]
+            ],
+            "correct_answers": [
+                "Myrtenaster",
+                "myrtenaster"
+            ],
+            "options": [
+                "Gambol Shroud",
+                "Crescent Rose",
+                "Ember Celica",
+                "Myrtenaster"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The stop motion comedy show &quot;Robot Chicken&quot; was created by which of the following?",
+            "correct_answer": "Seth Green",
+            "incorrect_answers": [
+                [
+                    "Seth MacFarlane",
+                    "seth macfarlane"
+                ],
+                [
+                    "Seth Rogen",
+                    "seth rogen"
+                ],
+                [
+                    "Seth Rollins",
+                    "seth rollins"
+                ]
+            ],
+            "correct_answers": [
+                "Seth Green",
+                "seth green"
+            ],
+            "options": [
+                "Seth MacFarlane",
+                "Seth Rogen",
+                "Seth Rollins",
+                "Seth Green"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;My Little Pony: Friendship is Magic&quot;, which of these ponies represents the quality of honesty?",
+            "correct_answer": "Applejack",
+            "incorrect_answers": [
+                [
+                    "Twilight Sparkle",
+                    "twilight sparkle"
+                ],
+                [
+                    "Pinkie Pie",
+                    "pinkie pie"
+                ],
+                [
+                    "Rarity",
+                    "rarity"
+                ]
+            ],
+            "correct_answers": [
+                "Applejack",
+                "applejack"
+            ],
+            "options": [
+                "Twilight Sparkle",
+                "Pinkie Pie",
+                "Rarity",
+                "Applejack"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;The Simpsons&quot;, where did Homer and Marge first meet?",
+            "correct_answer": "At Summer Camp",
+            "incorrect_answers": [
+                [
+                    "At High School",
+                    "at high school"
+                ],
+                [
+                    "At Church",
+                    "at church"
+                ],
+                [
+                    "At 742 Evergreen Terrace",
+                    "at 742 evergreen terrace"
+                ]
+            ],
+            "correct_answers": [
+                "At Summer Camp",
+                "at summer camp"
+            ],
+            "options": [
+                "At High School",
+                "At Church",
+                "At 742 Evergreen Terrace",
+                "At Summer Camp"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What year was the Disney film &quot;A Goofy Movie&quot; released?",
+            "correct_answer": "1995",
+            "incorrect_answers": [
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "2001",
+                    "2001"
+                ],
+                [
+                    "1997",
+                    "1997"
+                ]
+            ],
+            "correct_answers": [
+                "1995",
+                "1995"
+            ],
+            "options": [
+                "1999",
+                "2001",
+                "1997",
+                "1995"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many episodes were in season five of Samurai Jack?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                [
+                    "12",
+                    "12"
+                ],
+                [
+                    "11",
+                    "11"
+                ],
+                [
+                    "13",
+                    "13"
+                ]
+            ],
+            "correct_answers": [
+                "10",
+                "10"
+            ],
+            "options": [
+                "12",
+                "11",
+                "13",
+                "10"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Adam West was the mayor of which cartoon town?",
+            "correct_answer": "Quahog",
+            "incorrect_answers": [
+                [
+                    "Springfield",
+                    "springfield"
+                ],
+                [
+                    "South Park",
+                    "south park"
+                ],
+                [
+                    "Langley Falls",
+                    "langley falls"
+                ]
+            ],
+            "correct_answers": [
+                "Quahog",
+                "quahog"
+            ],
+            "options": [
+                "Springfield",
+                "South Park",
+                "Langley Falls",
+                "Quahog"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?",
+            "correct_answer": "Mermaid Transformation",
+            "incorrect_answers": [
+                [
+                    "Artificial Gills",
+                    "artificial gills"
+                ],
+                [
+                    "Bubble Head",
+                    "bubble head"
+                ],
+                [
+                    "Bubble Shield",
+                    "bubble shield"
+                ]
+            ],
+            "correct_answers": [
+                "Mermaid Transformation",
+                "mermaid transformation"
+            ],
+            "options": [
+                "Artificial Gills",
+                "Bubble Head",
+                "Bubble Shield",
+                "Mermaid Transformation"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What animated internet character is known to answer emails with his boxing gloves?",
+            "correct_answer": "Strong Bad",
+            "incorrect_answers": [
+                [
+                    "Strong Sad",
+                    "strong sad"
+                ],
+                [
+                    "Strong Mad",
+                    "strong mad"
+                ],
+                [
+                    "Strong Glad",
+                    "strong glad"
+                ]
+            ],
+            "correct_answers": [
+                "Strong Bad",
+                "strong bad"
+            ],
+            "options": [
+                "Strong Sad",
+                "Strong Mad",
+                "Strong Glad",
+                "Strong Bad"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of Sid's dog in &quot;Toy Story&quot;?",
+            "correct_answer": "Scud",
+            "incorrect_answers": [
+                [
+                    "Buster",
+                    "buster"
+                ],
+                [
+                    "Whiskers",
+                    "whiskers"
+                ],
+                [
+                    "Mr. Jones",
+                    "mr. jones"
+                ]
+            ],
+            "correct_answers": [
+                "Scud",
+                "scud"
+            ],
+            "options": [
+                "Buster",
+                "Whiskers",
+                "Mr. Jones",
+                "Scud"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters' fictional gang?",
+            "correct_answer": "The Junkyard Gang",
+            "incorrect_answers": [
+                [
+                    "The Trash Troupe",
+                    "the trash troupe",
+                    "trash troupe"
+                ],
+                [
+                    "The Scrapyard Seven",
+                    "the scrapyard seven",
+                    "scrapyard seven"
+                ],
+                [
+                    "The Rotten Posse",
+                    "the rotten posse",
+                    "rotten posse"
+                ]
+            ],
+            "correct_answers": [
+                "The Junkyard Gang",
+                "the junkyard gang",
+                "junkyard gang"
+            ],
+            "options": [
+                "The Trash Troupe",
+                "The Scrapyard Seven",
+                "The Rotten Posse",
+                "The Junkyard Gang"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which episode from The Amazing World Of Gumball won the Childrens Choice Award at the British Animation Awards in 2016?",
+            "correct_answer": "The Shell",
+            "incorrect_answers": [
+                [
+                    "The Limit",
+                    "the limit",
+                    "limit"
+                ],
+                [
+                    "The Kids",
+                    "the kids",
+                    "kids"
+                ],
+                [
+                    "The Gripes",
+                    "the gripes",
+                    "gripes"
+                ]
+            ],
+            "correct_answers": [
+                "The Shell",
+                "the shell",
+                "shell"
+            ],
+            "options": [
+                "The Limit",
+                "The Kids",
+                "The Gripes",
+                "The Shell"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one of these cartoon characters is NOT voiced by Rob Paulsen?",
+            "correct_answer": "Max Tennyson (Ben 10)",
+            "incorrect_answers": [
+                [
+                    "Carl Wheezer (Jimmy Neutron)",
+                    "carl wheezer (jimmy neutron)"
+                ],
+                [
+                    "Yakko Warner (Animaniacs)",
+                    "yakko warner (animaniacs)"
+                ],
+                [
+                    "The Mask (The Mask, TV Series)",
+                    "the mask (the mask, tv series)",
+                    "mask (mask, tv series)"
+                ]
+            ],
+            "correct_answers": [
+                "Max Tennyson (Ben 10)",
+                "max tennyson (ben 10)"
+            ],
+            "options": [
+                "Carl Wheezer (Jimmy Neutron)",
+                "Yakko Warner (Animaniacs)",
+                "The Mask (The Mask, TV Series)",
+                "Max Tennyson (Ben 10)"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which &quot;Toy Story&quot; character was voiced by Don Rickles?",
+            "correct_answer": "Mr. Potato Head",
+            "incorrect_answers": [
+                [
+                    "Slinky Dog",
+                    "slinky dog"
+                ],
+                [
+                    "Hamm",
+                    "hamm"
+                ],
+                [
+                    "Rex",
+                    "rex"
+                ]
+            ],
+            "correct_answers": [
+                "Mr. Potato Head",
+                "mr. potato head"
+            ],
+            "options": [
+                "Slinky Dog",
+                "Hamm",
+                "Rex",
+                "Mr. Potato Head"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which singer provided the voice of Metroid's Mother Brain in the animated series &quot;Captain N: The Game Master&quot;?",
+            "correct_answer": "Levi Stubbs",
+            "incorrect_answers": [
+                [
+                    "Freddie Mercury",
+                    "freddie mercury"
+                ],
+                [
+                    "Janet Jackson",
+                    "janet jackson"
+                ],
+                [
+                    "Joan Jett",
+                    "joan jett"
+                ]
+            ],
+            "correct_answers": [
+                "Levi Stubbs",
+                "levi stubbs"
+            ],
+            "options": [
+                "Freddie Mercury",
+                "Janet Jackson",
+                "Joan Jett",
+                "Levi Stubbs"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;SpongeBob SquarePants&quot;, what is the name of Sandy Cheek's place of residence?",
+            "correct_answer": "Sandy&#039;s Treedome",
+            "incorrect_answers": [
+                [
+                    "&quot;The Dome&quot;",
+                    "&quot;the dome&quot;",
+                    "&quot;dome&quot;"
+                ],
+                [
+                    "Sandy's Bubble",
+                    "sandy's bubble",
+                    "sandys bubble"
+                ],
+                [
+                    "Auquatic Reseach Centre",
+                    "auquatic reseach centre"
+                ]
+            ],
+            "correct_answers": [
+                "Sandy's Treedome",
+                "sandy's treedome",
+                "sandys treedome"
+            ],
+            "options": [
+                "&quot;The Dome&quot;",
+                "Sandy's Bubble",
+                "Auquatic Reseach Centre",
+                "Sandy's Treedome"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;The Amazing World of Gumball&quot;, who is the principal of Elmore Junior High?",
+            "correct_answer": "Principal Brown",
+            "incorrect_answers": [
+                [
+                    "Principal Small",
+                    "principal small"
+                ],
+                [
+                    "Principal Brawn",
+                    "principal brawn"
+                ],
+                [
+                    "Principal Simeon",
+                    "principal simeon"
+                ]
+            ],
+            "correct_answers": [
+                "Principal Brown",
+                "principal brown"
+            ],
+            "options": [
+                "Principal Small",
+                "Principal Brawn",
+                "Principal Simeon",
+                "Principal Brown"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Sanrio character was introduced in 1996?",
+            "correct_answer": "Pompompurin",
+            "incorrect_answers": [
+                [
+                    "My Melody",
+                    "my melody"
+                ],
+                [
+                    "Badtz-Maru",
+                    "badtz-maru"
+                ],
+                [
+                    "Kerropi",
+                    "kerropi"
+                ]
+            ],
+            "correct_answers": [
+                "Pompompurin",
+                "pompompurin"
+            ],
+            "options": [
+                "My Melody",
+                "Badtz-Maru",
+                "Kerropi",
+                "Pompompurin"
+            ]
+        },
+        {
+            "category": "Entertainment: Cartoon & Animations",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who voiced Finn in Adventure Time?",
+            "correct_answer": "Jeremy Shada",
+            "incorrect_answers": [
+                [
+                    "Nolan North",
+                    "nolan north"
+                ],
+                [
+                    "John DiMaggio",
+                    "john dimaggio"
+                ],
+                [
+                    "Tom Kenny",
+                    "tom kenny"
+                ]
+            ],
+            "correct_answers": [
+                "Jeremy Shada",
+                "jeremy shada"
+            ],
+            "options": [
+                "Nolan North",
+                "John DiMaggio",
+                "Tom Kenny",
+                "Jeremy Shada"
+            ]
+        }
+    ]
+}
