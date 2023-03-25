@@ -1,0 +1,253 @@
+{
+    "questions": [
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The largest consumer market in 2015 was...",
+            "correct_answer": "The United States of America",
+            "incorrect_answers": [
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Japan",
+                    "japan"
+                ],
+                [
+                    "United Kingdom",
+                    "united kingdom"
+                ]
+            ],
+            "correct_answers": [
+                "The United States of America",
+                "the united states of america",
+                "united states of america"
+            ],
+            "options": [
+                "Germany",
+                "Japan",
+                "United Kingdom",
+                "The United States of America"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "According to the United States Constitution, how old must a person be to be elected President of the United States?",
+            "correct_answer": "35",
+            "incorrect_answers": [
+                [
+                    "30",
+                    "30"
+                ],
+                [
+                    "40",
+                    "40"
+                ],
+                [
+                    "45",
+                    "45"
+                ]
+            ],
+            "correct_answers": [
+                "35",
+                "35"
+            ],
+            "options": [
+                "30",
+                "40",
+                "45",
+                "35"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many people are in the U.S. House of Representatives?",
+            "correct_answer": "435",
+            "incorrect_answers": [
+                [
+                    "260",
+                    "260"
+                ],
+                [
+                    "415",
+                    "415"
+                ],
+                [
+                    "50",
+                    "50"
+                ]
+            ],
+            "correct_answers": [
+                "435",
+                "435"
+            ],
+            "options": [
+                "260",
+                "415",
+                "50",
+                "435"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Whose 2016 presidential campaign slogan was &quot;Make America Great Again&quot;?",
+            "correct_answer": "Donald Trump",
+            "incorrect_answers": [
+                [
+                    "Ted Cruz",
+                    "ted cruz"
+                ],
+                [
+                    "Marco Rubio",
+                    "marco rubio"
+                ],
+                [
+                    "Bernie Sanders",
+                    "bernie sanders"
+                ]
+            ],
+            "correct_answers": [
+                "Donald Trump",
+                "donald trump"
+            ],
+            "options": [
+                "Ted Cruz",
+                "Marco Rubio",
+                "Bernie Sanders",
+                "Donald Trump"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
+            "correct_answer": "Tonga",
+            "incorrect_answers": [
+                [
+                    "Palau",
+                    "palau"
+                ],
+                [
+                    "Fiji",
+                    "fiji"
+                ],
+                [
+                    "Kiribati",
+                    "kiribati"
+                ]
+            ],
+            "correct_answers": [
+                "Tonga",
+                "tonga"
+            ],
+            "options": [
+                "Palau",
+                "Fiji",
+                "Kiribati",
+                "Tonga"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the 45th President of the United States?",
+            "correct_answer": "Donald Trump",
+            "incorrect_answers": [
+                [
+                    "Barack Obama",
+                    "barack obama"
+                ],
+                [
+                    "Bill Clinton",
+                    "bill clinton"
+                ],
+                [
+                    "George Bush",
+                    "george bush"
+                ]
+            ],
+            "correct_answers": [
+                "Donald Trump",
+                "donald trump"
+            ],
+            "options": [
+                "Barack Obama",
+                "Bill Clinton",
+                "George Bush",
+                "Donald Trump"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Former United States President Bill Clinton famously played which instrument?",
+            "correct_answer": "Saxophone",
+            "incorrect_answers": [
+                [
+                    "Baritone horn",
+                    "baritone horn"
+                ],
+                [
+                    "Piano",
+                    "piano"
+                ],
+                [
+                    "Violin",
+                    "violin"
+                ]
+            ],
+            "correct_answers": [
+                "Saxophone",
+                "saxophone"
+            ],
+            "options": [
+                "Baritone horn",
+                "Piano",
+                "Violin",
+                "Saxophone"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which former US president was nicknamed &quot;Teddy&quot; after he refused to shoot a defenseless black bear?",
+            "correct_answer": "Theodore Roosevelt",
+            "incorrect_answers": [
+                [
+                    "Woodrow Wilson",
+                    "woodrow wilson"
+                ],
+                [
+                    "James F. Fielder",
+                    "james f. fielder"
+                ],
+                [
+                    "Andrew Jackson",
+                    "andrew jackson"
+                ]
+            ],
+            "correct_answers": [
+                "Theodore Roosevelt",
+                "theodore roosevelt"
+            ],
+            "options": [
+                "Woodrow Wilson",
+                "James F. Fielder",
+                "Andrew Jackson",
+                "Theodore Roosevelt"
+            ]
+        }
+    ]
+}

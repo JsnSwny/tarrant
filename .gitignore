@@ -11,3 +11,5 @@ notes
 .env
 data/logs/*
 leaderboard.csv
+api_responses/
+responses_saved/

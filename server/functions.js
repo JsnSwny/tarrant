@@ -93,5 +93,12 @@ module.exports.whisper = (text, show = True) => {
     if (show) console.log(`${COLOUR_WHITE_LIGHT}${text}${COLOUR_NONE}`);
 };
 
+module.exports.nLengthNumber = (n, number) => {
+	number = number.toString();
+	let diff = n - number.length;
+	if (diff > 0) number = "0".repeat(diff) + number;
+	return number;
+};
+
 module.exports.randomElement = randomElement;
 module.exports.randomInt = randomInt;

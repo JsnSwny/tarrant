@@ -1,0 +1,225 @@
+{
+    "questions": [
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who painted the Sistine Chapel?",
+            "correct_answer": "Michelangelo",
+            "incorrect_answers": [
+                [
+                    "Leonardo da Vinci",
+                    "leonardo da vinci"
+                ],
+                [
+                    "Pablo Picasso",
+                    "pablo picasso"
+                ],
+                [
+                    "Raphael",
+                    "raphael"
+                ]
+            ],
+            "correct_answers": [
+                "Michelangelo",
+                "michelangelo"
+            ],
+            "options": [
+                "Leonardo da Vinci",
+                "Pablo Picasso",
+                "Raphael",
+                "Michelangelo"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who painted &quot;Swans Reflecting Elephants&quot;, &quot;Sleep&quot;, and &quot;The Persistence of Memory&quot;?",
+            "correct_answer": "Salvador Dali",
+            "incorrect_answers": [
+                [
+                    "Jackson Pollock",
+                    "jackson pollock"
+                ],
+                [
+                    "Vincent van Gogh",
+                    "vincent van gogh"
+                ],
+                [
+                    "Edgar Degas",
+                    "edgar degas"
+                ]
+            ],
+            "correct_answers": [
+                "Salvador Dali",
+                "salvador dali"
+            ],
+            "options": [
+                "Jackson Pollock",
+                "Vincent van Gogh",
+                "Edgar Degas",
+                "Salvador Dali"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who painted The Starry Night?",
+            "correct_answer": "Vincent van Gogh",
+            "incorrect_answers": [
+                [
+                    "Pablo Picasso",
+                    "pablo picasso"
+                ],
+                [
+                    "Leonardo da Vinci",
+                    "leonardo da vinci"
+                ],
+                [
+                    "Michelangelo",
+                    "michelangelo"
+                ]
+            ],
+            "correct_answers": [
+                "Vincent van Gogh",
+                "vincent van gogh"
+            ],
+            "options": [
+                "Pablo Picasso",
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Vincent van Gogh"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who painted the Mona Lisa?",
+            "correct_answer": "Leonardo da Vinci",
+            "incorrect_answers": [
+                [
+                    "Pablo Picasso",
+                    "pablo picasso"
+                ],
+                [
+                    "Claude Monet",
+                    "claude monet"
+                ],
+                [
+                    "Vincent van Gogh",
+                    "vincent van gogh"
+                ]
+            ],
+            "correct_answers": [
+                "Leonardo da Vinci",
+                "leonardo da vinci"
+            ],
+            "options": [
+                "Pablo Picasso",
+                "Claude Monet",
+                "Vincent van Gogh",
+                "Leonardo da Vinci"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Van Gogh painting depicts the view from his asylum in Saint-R&eacute;my-de-Provence in southern France?",
+            "correct_answer": "The Starry Night",
+            "incorrect_answers": [
+                [
+                    "Wheatfields with Crows",
+                    "wheatfields with crows"
+                ],
+                [
+                    "The Sower with Setting Sun",
+                    "the sower with setting sun",
+                    "sower with setting sun"
+                ],
+                [
+                    "The Church at Auvers",
+                    "the church at auvers",
+                    "church at auvers"
+                ]
+            ],
+            "correct_answers": [
+                "The Starry Night",
+                "the starry night",
+                "starry night"
+            ],
+            "options": [
+                "Wheatfields with Crows",
+                "The Sower with Setting Sun",
+                "The Church at Auvers",
+                "The Starry Night"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who painted the biblical fresco The Creation of Adam?",
+            "correct_answer": "Michelangelo",
+            "incorrect_answers": [
+                [
+                    "Leonardo da Vinci",
+                    "leonardo da vinci"
+                ],
+                [
+                    "Caravaggio",
+                    "caravaggio"
+                ],
+                [
+                    "Rembrandt",
+                    "rembrandt"
+                ]
+            ],
+            "correct_answers": [
+                "Michelangelo",
+                "michelangelo"
+            ],
+            "options": [
+                "Leonardo da Vinci",
+                "Caravaggio",
+                "Rembrandt",
+                "Michelangelo"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which painting was not made by Vincent Van Gogh?",
+            "correct_answer": "The Ninth Wave",
+            "incorrect_answers": [
+                [
+                    "Caf&eacute; Terrace at Night",
+                    "caf&eacute; terrace at night"
+                ],
+                [
+                    "Bedroom In Arles",
+                    "bedroom in arles"
+                ],
+                [
+                    "Starry Night",
+                    "starry night"
+                ]
+            ],
+            "correct_answers": [
+                "The Ninth Wave",
+                "the ninth wave",
+                "ninth wave"
+            ],
+            "options": [
+                "Caf&eacute; Terrace at Night",
+                "Bedroom In Arles",
+                "Starry Night",
+                "The Ninth Wave"
+            ]
+        }
+    ]
+}

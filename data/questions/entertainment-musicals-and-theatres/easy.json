@@ -1,0 +1,223 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many plays is Shakespeare generally considered to have written?",
+            "correct_answer": "37",
+            "incorrect_answers": [
+                [
+                    "18",
+                    "18"
+                ],
+                [
+                    "54",
+                    "54"
+                ],
+                [
+                    "25",
+                    "25"
+                ]
+            ],
+            "correct_answers": [
+                "37",
+                "37"
+            ],
+            "options": [
+                "18",
+                "54",
+                "25",
+                "37"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is Jean ValJean's first prisoner number?",
+            "correct_answer": "24601",
+            "incorrect_answers": [
+                [
+                    "9430",
+                    "9430"
+                ],
+                [
+                    "1729",
+                    "1729"
+                ],
+                [
+                    "32769",
+                    "32769"
+                ]
+            ],
+            "correct_answers": [
+                "24601",
+                "24601"
+            ],
+            "options": [
+                "9430",
+                "1729",
+                "32769",
+                "24601"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;Doctor Who&quot; star David Tennant performed in a rendition of which Shakespearean play?",
+            "correct_answer": "Hamlet",
+            "incorrect_answers": [
+                [
+                    "The Tempest",
+                    "the tempest",
+                    "tempest"
+                ],
+                [
+                    "Othello",
+                    "othello"
+                ],
+                [
+                    "The Taming of the Shrew",
+                    "the taming of the shrew",
+                    "taming of shrew"
+                ]
+            ],
+            "correct_answers": [
+                "Hamlet",
+                "hamlet"
+            ],
+            "options": [
+                "The Tempest",
+                "Othello",
+                "The Taming of the Shrew",
+                "Hamlet"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+            "correct_answer": "Romeo &amp; Juliet",
+            "incorrect_answers": [
+                [
+                    "Hamlet",
+                    "hamlet"
+                ],
+                [
+                    "Macbeth",
+                    "macbeth"
+                ],
+                [
+                    "Othello",
+                    "othello"
+                ]
+            ],
+            "correct_answers": [
+                "Romeo &amp; Juliet",
+                "romeo &amp; juliet"
+            ],
+            "options": [
+                "Hamlet",
+                "Macbeth",
+                "Othello",
+                "Romeo &amp; Juliet"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+            "correct_answer": "Et tu, Brute? ",
+            "incorrect_answers": [
+                [
+                    "Iacta alea est!",
+                    "iacta alea est!"
+                ],
+                [
+                    "Vidi, vini, vici.",
+                    "vidi, vini, vici."
+                ],
+                [
+                    "Aegri somnia vana.",
+                    "aegri somnia vana."
+                ]
+            ],
+            "correct_answers": [
+                "Et tu, Brute? ",
+                "et tu, brute? "
+            ],
+            "options": [
+                "Iacta alea est!",
+                "Vidi, vini, vici.",
+                "Aegri somnia vana.",
+                "Et tu, Brute? "
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote the award winning musical &quot;In The Heights&quot;?",
+            "correct_answer": "Lin-Manuel Miranda",
+            "incorrect_answers": [
+                [
+                    "Steven Sondheim",
+                    "steven sondheim"
+                ],
+                [
+                    "Francis Scott Key",
+                    "francis scott key"
+                ],
+                [
+                    "John Phillips Sousa",
+                    "john phillips sousa"
+                ]
+            ],
+            "correct_answers": [
+                "Lin-Manuel Miranda",
+                "lin-manuel miranda"
+            ],
+            "options": [
+                "Steven Sondheim",
+                "Francis Scott Key",
+                "John Phillips Sousa",
+                "Lin-Manuel Miranda"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote the play 'Angels in America'?",
+            "correct_answer": "Tony Kusher",
+            "incorrect_answers": [
+                [
+                    "Tom Stoppard",
+                    "tom stoppard"
+                ],
+                [
+                    "Matthew Lopez",
+                    "matthew lopez"
+                ],
+                [
+                    "Anthony Neilson",
+                    "anthony neilson"
+                ]
+            ],
+            "correct_answers": [
+                "Tony Kusher",
+                "tony kusher"
+            ],
+            "options": [
+                "Tom Stoppard",
+                "Matthew Lopez",
+                "Anthony Neilson",
+                "Tony Kusher"
+            ]
+        }
+    ]
+}

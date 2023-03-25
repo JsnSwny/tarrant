@@ -1,0 +1,439 @@
+{
+    "questions": [
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the only god from Greece who did not get a name change in Rome?",
+            "correct_answer": "Apollo",
+            "incorrect_answers": [
+                [
+                    "Demeter",
+                    "demeter"
+                ],
+                [
+                    "Zeus",
+                    "zeus"
+                ],
+                [
+                    "Athena",
+                    "athena"
+                ]
+            ],
+            "correct_answers": [
+                "Apollo",
+                "apollo"
+            ],
+            "options": [
+                "Demeter",
+                "Zeus",
+                "Athena",
+                "Apollo"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What mythology did the god &quot;Apollo&quot; come from?",
+            "correct_answer": "Greek and Roman",
+            "incorrect_answers": [
+                [
+                    "Roman and Spanish",
+                    "roman and spanish"
+                ],
+                [
+                    "Greek and Chinese",
+                    "greek and chinese"
+                ],
+                [
+                    "Greek, Roman and Norse",
+                    "greek, roman and norse"
+                ]
+            ],
+            "correct_answers": [
+                "Greek and Roman",
+                "greek and roman"
+            ],
+            "options": [
+                "Roman and Spanish",
+                "Greek and Chinese",
+                "Greek, Roman and Norse",
+                "Greek and Roman"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What mytological creatures have women's faces and vultures' bodies?",
+            "correct_answer": "Harpies",
+            "incorrect_answers": [
+                [
+                    "Mermaids",
+                    "mermaids"
+                ],
+                [
+                    "Nymph",
+                    "nymph"
+                ],
+                [
+                    "Lilith",
+                    "lilith"
+                ]
+            ],
+            "correct_answers": [
+                "Harpies",
+                "harpies"
+            ],
+            "options": [
+                "Mermaids",
+                "Nymph",
+                "Lilith",
+                "Harpies"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Greek &amp; Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
+            "correct_answer": "Apollo",
+            "incorrect_answers": [
+                [
+                    "Aphrodite",
+                    "aphrodite"
+                ],
+                [
+                    "Artemis",
+                    "artemis"
+                ],
+                [
+                    "Athena",
+                    "athena"
+                ]
+            ],
+            "correct_answers": [
+                "Apollo",
+                "apollo"
+            ],
+            "options": [
+                "Aphrodite",
+                "Artemis",
+                "Athena",
+                "Apollo"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The ancient Roman god of war was commonly known as which of the following?",
+            "correct_answer": "Mars",
+            "incorrect_answers": [
+                [
+                    "Jupiter",
+                    "jupiter"
+                ],
+                [
+                    "Juno",
+                    "juno"
+                ],
+                [
+                    "Ares",
+                    "ares"
+                ]
+            ],
+            "correct_answers": [
+                "Mars",
+                "mars"
+            ],
+            "options": [
+                "Jupiter",
+                "Juno",
+                "Ares",
+                "Mars"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which figure from Greek mythology traveled to the underworld to return his wife Eurydice to the land of the living?",
+            "correct_answer": "Orpheus",
+            "incorrect_answers": [
+                [
+                    "Hercules",
+                    "hercules"
+                ],
+                [
+                    "Perseus",
+                    "perseus"
+                ],
+                [
+                    "Daedalus",
+                    "daedalus"
+                ]
+            ],
+            "correct_answers": [
+                "Orpheus",
+                "orpheus"
+            ],
+            "options": [
+                "Hercules",
+                "Perseus",
+                "Daedalus",
+                "Orpheus"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the King of Gods in Ancient Greek mythology?",
+            "correct_answer": "Zeus",
+            "incorrect_answers": [
+                [
+                    "Apollo",
+                    "apollo"
+                ],
+                [
+                    "Hermes",
+                    "hermes"
+                ],
+                [
+                    "Poseidon",
+                    "poseidon"
+                ]
+            ],
+            "correct_answers": [
+                "Zeus",
+                "zeus"
+            ],
+            "options": [
+                "Apollo",
+                "Hermes",
+                "Poseidon",
+                "Zeus"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Nike apparel and footwear brand takes it's name from the Greek goddess of what?",
+            "correct_answer": "Victory",
+            "incorrect_answers": [
+                [
+                    "Courage",
+                    "courage"
+                ],
+                [
+                    "Strength",
+                    "strength"
+                ],
+                [
+                    "Honor",
+                    "honor"
+                ]
+            ],
+            "correct_answers": [
+                "Victory",
+                "victory"
+            ],
+            "options": [
+                "Courage",
+                "Strength",
+                "Honor",
+                "Victory"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The greek god Poseidon was the god of what?",
+            "correct_answer": "The Sea",
+            "incorrect_answers": [
+                [
+                    "War",
+                    "war"
+                ],
+                [
+                    "Sun",
+                    "sun"
+                ],
+                [
+                    "Fire",
+                    "fire"
+                ]
+            ],
+            "correct_answers": [
+                "The Sea",
+                "the sea",
+                "sea"
+            ],
+            "options": [
+                "War",
+                "Sun",
+                "Fire",
+                "The Sea"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In most traditions, who was the wife of Zeus?",
+            "correct_answer": "Hera",
+            "incorrect_answers": [
+                [
+                    "Aphrodite",
+                    "aphrodite"
+                ],
+                [
+                    "Athena",
+                    "athena"
+                ],
+                [
+                    "Hestia",
+                    "hestia"
+                ]
+            ],
+            "correct_answers": [
+                "Hera",
+                "hera"
+            ],
+            "options": [
+                "Aphrodite",
+                "Athena",
+                "Hestia",
+                "Hera"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
+            "correct_answer": "Eris",
+            "incorrect_answers": [
+                [
+                    "Charon",
+                    "charon"
+                ],
+                [
+                    "Ceres",
+                    "ceres"
+                ],
+                [
+                    "Dysnomia",
+                    "dysnomia"
+                ]
+            ],
+            "correct_answers": [
+                "Eris",
+                "eris"
+            ],
+            "options": [
+                "Charon",
+                "Ceres",
+                "Dysnomia",
+                "Eris"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Greek mythology, who is the god of wine?",
+            "correct_answer": "Dionysus",
+            "incorrect_answers": [
+                [
+                    "Hephaestus",
+                    "hephaestus"
+                ],
+                [
+                    "Demeter",
+                    "demeter"
+                ],
+                [
+                    "Apollo",
+                    "apollo"
+                ]
+            ],
+            "correct_answers": [
+                "Dionysus",
+                "dionysus"
+            ],
+            "options": [
+                "Hephaestus",
+                "Demeter",
+                "Apollo",
+                "Dionysus"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these mythological creatures is said to be half-man and half-horse?",
+            "correct_answer": "Centaur",
+            "incorrect_answers": [
+                [
+                    "Minotaur",
+                    "minotaur"
+                ],
+                [
+                    "Pegasus",
+                    "pegasus"
+                ],
+                [
+                    "Gorgon",
+                    "gorgon"
+                ]
+            ],
+            "correct_answers": [
+                "Centaur",
+                "centaur"
+            ],
+            "options": [
+                "Minotaur",
+                "Pegasus",
+                "Gorgon",
+                "Centaur"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+            "correct_answer": "Jason",
+            "incorrect_answers": [
+                [
+                    "Castor",
+                    "castor"
+                ],
+                [
+                    "Daedalus",
+                    "daedalus"
+                ],
+                [
+                    "Odysseus",
+                    "odysseus"
+                ]
+            ],
+            "correct_answers": [
+                "Jason",
+                "jason"
+            ],
+            "options": [
+                "Castor",
+                "Daedalus",
+                "Odysseus",
+                "Jason"
+            ]
+        }
+    ]
+}

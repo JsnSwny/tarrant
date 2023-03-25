@@ -1,5 +1,35 @@
 const fs = require("fs");
 
+const { nLengthNumber } = require("../server/functions");
+const { FORMATTED_CATEGORIES } = require("../server/constants");
+
+const TARGET_ARRAYS = {
+	"mythology": [],
+	"entertainment-film": [],
+	"entertainment-cartoon-and-animations": [],
+	"entertainment-music": [],
+	"science-and-nature": [],
+	"history": [],
+	"entertainment-books": [],
+	"geography": [],
+	"science-computers": [],
+	"general-knowledge": [],
+	"science-gadgets": [],
+	"sports": [],
+	"entertainment-video-games": [],
+	"entertainment-television": [],
+	"celebrities": [],
+	"science-mathematics": [],
+	"vehicles": [],
+	"entertainment-board-games": [],
+	"entertainment-japanese-anime-and-manga": [],
+	"animals": [],
+	"art": [],
+	"entertainment-comics": [],
+	"politics": [],
+	"entertainment-musicals-and-theatres": []
+};
+
 // replace HTML character references with unicode characters
 function substituteCharRefs(string) {
 	string = string.replace(/&#039;/g, "'");
@@ -49,21 +79,31 @@ function formatQuestions(questions) {
 	questions["formatted"] = true;
 }
 
-const CATEGORIES = ["general-knowledge", "history"];
-const DIFFICULTIES = ["easy", "medium", "hard"];
+const TARGET_DIRECTORY = "api_responses/"
 
-for (let category of CATEGORIES) {
-	for (let difficulty of DIFFICULTIES) {
-		const filename = `data/questions/${category}/${difficulty}.json`;
-		if (fs.existsSync(filename)) {
-			const questions = require(`../data/questions/${category}/${difficulty}`);
-			if (questions.formatted) {
-				console.log("Already formatted!");
-				continue;
-			}
-			console.log(`${filename} exists`);
-			formatQuestions(questions);
-			fs.writeFileSync(filename, JSON.stringify(questions, null, 4));
-		}
+for (let fileIndex = 1; fileIndex < 306; fileIndex++) {
+	const filename = `${nLengthNumber(4, fileIndex)}.json`;
+	const path = `../${TARGET_DIRECTORY}${filename}`;
+	const questions = require(path);
+	formatQuestions(questions);
+	for (let question of questions.questions) {
+		let category = FORMATTED_CATEGORIES[question.category];
+		let targetArray = TARGET_ARRAYS[category];
+		let index = targetArray.findIndex(e => e.question === question.question);
+		if (index === -1) targetArray.push(question);
 	}
 }
+
+let acc = 0;
+
+for (let key of Object.keys(TARGET_ARRAYS)) {
+	const count = TARGET_ARRAYS[key].length;
+	acc += count;
+	console.log(`${key}: ${count} questions`);
+	const object = { questions: TARGET_ARRAYS[key] };
+	const targetFilename = `data/questions/${key}/easy.json`;
+	fs.writeFileSync(targetFilename, JSON.stringify(object, null, 4));
+}
+
+console.log(`\nTotal: ${acc} questions`);
+

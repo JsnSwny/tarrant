@@ -1,0 +1,1661 @@
+{
+    "questions": [
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many manned moon landings have there been?",
+            "correct_answer": "6",
+            "incorrect_answers": [
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "7",
+                    "7"
+                ]
+            ],
+            "correct_answers": [
+                "6",
+                "6"
+            ],
+            "options": [
+                "1",
+                "3",
+                "7",
+                "6"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+            "correct_answer": "X",
+            "incorrect_answers": [
+                [
+                    "W",
+                    "w"
+                ],
+                [
+                    "U",
+                    "u"
+                ],
+                [
+                    "J",
+                    "j"
+                ]
+            ],
+            "correct_answers": [
+                "X",
+                "x"
+            ],
+            "options": [
+                "W",
+                "U",
+                "J",
+                "X"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In 1720, England was in massive debt, and became in involved in the South Sea Bubble. Who was the main mastermind behind it?",
+            "correct_answer": "John Blunt",
+            "incorrect_answers": [
+                [
+                    "Daniel Defoe",
+                    "daniel defoe"
+                ],
+                [
+                    "Robert Harley",
+                    "robert harley"
+                ],
+                [
+                    "John Churchill",
+                    "john churchill"
+                ]
+            ],
+            "correct_answers": [
+                "John Blunt",
+                "john blunt"
+            ],
+            "options": [
+                "Daniel Defoe",
+                "Robert Harley",
+                "John Churchill",
+                "John Blunt"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+            "correct_answer": "Poland",
+            "incorrect_answers": [
+                [
+                    "Czechoslovakia",
+                    "czechoslovakia"
+                ],
+                [
+                    "Austria",
+                    "austria"
+                ],
+                [
+                    "Hungary",
+                    "hungary"
+                ]
+            ],
+            "correct_answers": [
+                "Poland",
+                "poland"
+            ],
+            "options": [
+                "Czechoslovakia",
+                "Austria",
+                "Hungary",
+                "Poland"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who discovered Penicillin?",
+            "correct_answer": "Alexander Flemming",
+            "incorrect_answers": [
+                [
+                    "Marie Curie",
+                    "marie curie"
+                ],
+                [
+                    "Alfred Nobel",
+                    "alfred nobel"
+                ],
+                [
+                    "Louis Pasteur",
+                    "louis pasteur"
+                ]
+            ],
+            "correct_answers": [
+                "Alexander Flemming",
+                "alexander flemming"
+            ],
+            "options": [
+                "Marie Curie",
+                "Alfred Nobel",
+                "Louis Pasteur",
+                "Alexander Flemming"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the first president of the United States?",
+            "correct_answer": "George Washington",
+            "incorrect_answers": [
+                [
+                    "James Madison",
+                    "james madison"
+                ],
+                [
+                    "Thomas Jefferson",
+                    "thomas jefferson"
+                ],
+                [
+                    "James K. Polk",
+                    "james k. polk"
+                ]
+            ],
+            "correct_answers": [
+                "George Washington",
+                "george washington"
+            ],
+            "options": [
+                "James Madison",
+                "Thomas Jefferson",
+                "James K. Polk",
+                "George Washington"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In what year was the M1911 pistol designed?",
+            "correct_answer": "1911",
+            "incorrect_answers": [
+                [
+                    "1907",
+                    "1907"
+                ],
+                [
+                    "1899",
+                    "1899"
+                ],
+                [
+                    "1917",
+                    "1917"
+                ]
+            ],
+            "correct_answers": [
+                "1911",
+                "1911"
+            ],
+            "options": [
+                "1907",
+                "1899",
+                "1917",
+                "1911"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Ottoman Empire was dissolved after their loss in which war?",
+            "correct_answer": "World War I",
+            "incorrect_answers": [
+                [
+                    "Crimean War",
+                    "crimean war"
+                ],
+                [
+                    "Serbian Revolution",
+                    "serbian revolution"
+                ],
+                [
+                    "Second Balkan War",
+                    "second balkan war"
+                ]
+            ],
+            "correct_answers": [
+                "World War I",
+                "world war i"
+            ],
+            "options": [
+                "Crimean War",
+                "Serbian Revolution",
+                "Second Balkan War",
+                "World War I"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The &quot;Trail of Tears&quot; was a result of which United States President's Indian Removal Policy?",
+            "correct_answer": "Andrew Jackson",
+            "incorrect_answers": [
+                [
+                    "Harry S. Truman",
+                    "harry s. truman"
+                ],
+                [
+                    "Martin Van Buren",
+                    "martin van buren"
+                ],
+                [
+                    "John Quincy Adams",
+                    "john quincy adams"
+                ]
+            ],
+            "correct_answers": [
+                "Andrew Jackson",
+                "andrew jackson"
+            ],
+            "options": [
+                "Harry S. Truman",
+                "Martin Van Buren",
+                "John Quincy Adams",
+                "Andrew Jackson"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In what year did the Wall Street Crash take place?",
+            "correct_answer": "1929",
+            "incorrect_answers": [
+                [
+                    "1932",
+                    "1932"
+                ],
+                [
+                    "1930",
+                    "1930"
+                ],
+                [
+                    "1925",
+                    "1925"
+                ]
+            ],
+            "correct_answers": [
+                "1929",
+                "1929"
+            ],
+            "options": [
+                "1932",
+                "1930",
+                "1925",
+                "1929"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+            "correct_answer": "The Polish President",
+            "incorrect_answers": [
+                [
+                    "Pope John Paul II",
+                    "pope john paul ii"
+                ],
+                [
+                    "Bang-Ding Ow",
+                    "bang-ding ow"
+                ],
+                [
+                    "Albert Putin",
+                    "albert putin"
+                ]
+            ],
+            "correct_answers": [
+                "The Polish President",
+                "the polish president",
+                "polish president"
+            ],
+            "options": [
+                "Pope John Paul II",
+                "Bang-Ding Ow",
+                "Albert Putin",
+                "The Polish President"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+            "correct_answer": "Silk Road",
+            "incorrect_answers": [
+                [
+                    "Spice Road",
+                    "spice road"
+                ],
+                [
+                    "Clay Road",
+                    "clay road"
+                ],
+                [
+                    "Salt Road",
+                    "salt road"
+                ]
+            ],
+            "correct_answers": [
+                "Silk Road",
+                "silk road"
+            ],
+            "options": [
+                "Spice Road",
+                "Clay Road",
+                "Salt Road",
+                "Silk Road"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+            "correct_answer": "Republican",
+            "incorrect_answers": [
+                [
+                    "Democrat",
+                    "democrat"
+                ],
+                [
+                    "Independent",
+                    "independent"
+                ],
+                [
+                    "Whig",
+                    "whig"
+                ]
+            ],
+            "correct_answers": [
+                "Republican",
+                "republican"
+            ],
+            "options": [
+                "Democrat",
+                "Independent",
+                "Whig",
+                "Republican"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+            "correct_answer": "Silver",
+            "incorrect_answers": [
+                [
+                    "Gold",
+                    "gold"
+                ],
+                [
+                    "Juno",
+                    "juno"
+                ],
+                [
+                    "Sword",
+                    "sword"
+                ]
+            ],
+            "correct_answers": [
+                "Silver",
+                "silver"
+            ],
+            "options": [
+                "Gold",
+                "Juno",
+                "Sword",
+                "Silver"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "King Henry VIII was the second monarch of which European royal house?",
+            "correct_answer": "Tudor",
+            "incorrect_answers": [
+                [
+                    "York",
+                    "york"
+                ],
+                [
+                    "Stuart",
+                    "stuart"
+                ],
+                [
+                    "Lancaster",
+                    "lancaster"
+                ]
+            ],
+            "correct_answers": [
+                "Tudor",
+                "tudor"
+            ],
+            "options": [
+                "York",
+                "Stuart",
+                "Lancaster",
+                "Tudor"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How old was Adolf Hitler when he died?",
+            "correct_answer": "56",
+            "incorrect_answers": [
+                [
+                    "43",
+                    "43"
+                ],
+                [
+                    "65",
+                    "65"
+                ],
+                [
+                    "47",
+                    "47"
+                ]
+            ],
+            "correct_answers": [
+                "56",
+                "56"
+            ],
+            "options": [
+                "43",
+                "65",
+                "47",
+                "56"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "On what street did the 1666 Great Fire of London start?",
+            "correct_answer": "Pudding Lane",
+            "incorrect_answers": [
+                [
+                    "Baker Street",
+                    "baker street"
+                ],
+                [
+                    "Houses of Parliament",
+                    "houses of parliament"
+                ],
+                [
+                    "St Paul's Cathedral",
+                    "st paul's cathedral",
+                    "st pauls cathedral"
+                ]
+            ],
+            "correct_answers": [
+                "Pudding Lane",
+                "pudding lane"
+            ],
+            "options": [
+                "Baker Street",
+                "Houses of Parliament",
+                "St Paul's Cathedral",
+                "Pudding Lane"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which country was Josef Stalin born in?",
+            "correct_answer": "Georgia",
+            "incorrect_answers": [
+                [
+                    "Russia",
+                    "russia"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Poland",
+                    "poland"
+                ]
+            ],
+            "correct_answers": [
+                "Georgia",
+                "georgia"
+            ],
+            "options": [
+                "Russia",
+                "Germany",
+                "Poland",
+                "Georgia"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who led the Communist Revolution of Russia?",
+            "correct_answer": "Vladimir Lenin",
+            "incorrect_answers": [
+                [
+                    "Joseph Stalin",
+                    "joseph stalin"
+                ],
+                [
+                    "Vladimir Putin",
+                    "vladimir putin"
+                ],
+                [
+                    "Mikhail Gorbachev",
+                    "mikhail gorbachev"
+                ]
+            ],
+            "correct_answers": [
+                "Vladimir Lenin",
+                "vladimir lenin"
+            ],
+            "options": [
+                "Joseph Stalin",
+                "Vladimir Putin",
+                "Mikhail Gorbachev",
+                "Vladimir Lenin"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When did the Battle of the Somme begin?",
+            "correct_answer": "July 1st, 1916",
+            "incorrect_answers": [
+                [
+                    "August 1st, 1916",
+                    "august 1st, 1916"
+                ],
+                [
+                    "July 2nd, 1916",
+                    "july 2nd, 1916"
+                ],
+                [
+                    "June 30th, 1916",
+                    "june 30th, 1916"
+                ]
+            ],
+            "correct_answers": [
+                "July 1st, 1916",
+                "july 1st, 1916"
+            ],
+            "options": [
+                "August 1st, 1916",
+                "July 2nd, 1916",
+                "June 30th, 1916",
+                "July 1st, 1916"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How long did World War II last?",
+            "correct_answer": "6 years",
+            "incorrect_answers": [
+                [
+                    "4 years",
+                    "4 years"
+                ],
+                [
+                    "5 years",
+                    "5 years"
+                ],
+                [
+                    "7 years",
+                    "7 years"
+                ]
+            ],
+            "correct_answers": [
+                "6 years",
+                "6 years"
+            ],
+            "options": [
+                "4 years",
+                "5 years",
+                "7 years",
+                "6 years"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+            "correct_answer": "Harper&#039;s Ferry",
+            "incorrect_answers": [
+                [
+                    "Richmond",
+                    "richmond"
+                ],
+                [
+                    "Harrisonburg",
+                    "harrisonburg"
+                ],
+                [
+                    "Martinsburg",
+                    "martinsburg"
+                ]
+            ],
+            "correct_answers": [
+                "Harper's Ferry",
+                "harper's ferry",
+                "harpers ferry"
+            ],
+            "options": [
+                "Richmond",
+                "Harrisonburg",
+                "Martinsburg",
+                "Harper's Ferry"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the historical name of Sri Lanka?",
+            "correct_answer": "Ceylon",
+            "incorrect_answers": [
+                [
+                    "Myanmar",
+                    "myanmar"
+                ],
+                [
+                    "Colombo",
+                    "colombo"
+                ],
+                [
+                    "Badulla",
+                    "badulla"
+                ]
+            ],
+            "correct_answers": [
+                "Ceylon",
+                "ceylon"
+            ],
+            "options": [
+                "Myanmar",
+                "Colombo",
+                "Badulla",
+                "Ceylon"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the first American in space?",
+            "correct_answer": "Alan Shephard",
+            "incorrect_answers": [
+                [
+                    "Neil Armstrong",
+                    "neil armstrong"
+                ],
+                [
+                    "John Glenn",
+                    "john glenn"
+                ],
+                [
+                    "Jim Lovell",
+                    "jim lovell"
+                ]
+            ],
+            "correct_answers": [
+                "Alan Shephard",
+                "alan shephard"
+            ],
+            "options": [
+                "Neil Armstrong",
+                "John Glenn",
+                "Jim Lovell",
+                "Alan Shephard"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he/she never said it at all?",
+            "correct_answer": "Marie Antoinette",
+            "incorrect_answers": [
+                [
+                    "Czar Nicholas II",
+                    "czar nicholas ii"
+                ],
+                [
+                    "Elizabeth I",
+                    "elizabeth i"
+                ],
+                [
+                    "Henry VIII",
+                    "henry viii"
+                ]
+            ],
+            "correct_answers": [
+                "Marie Antoinette",
+                "marie antoinette"
+            ],
+            "options": [
+                "Czar Nicholas II",
+                "Elizabeth I",
+                "Henry VIII",
+                "Marie Antoinette"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following African countries was most successful in resisting colonization?",
+            "correct_answer": "Ethiopia",
+            "incorrect_answers": [
+                [
+                    "C&ocirc;te d&rsquo;Ivoire",
+                    "c&ocirc;te d&rsquo;ivoire"
+                ],
+                [
+                    "Congo",
+                    "congo"
+                ],
+                [
+                    "Namibia",
+                    "namibia"
+                ]
+            ],
+            "correct_answers": [
+                "Ethiopia",
+                "ethiopia"
+            ],
+            "options": [
+                "C&ocirc;te d&rsquo;Ivoire",
+                "Congo",
+                "Namibia",
+                "Ethiopia"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+            "correct_answer": "Turkey",
+            "incorrect_answers": [
+                [
+                    "Syria",
+                    "syria"
+                ],
+                [
+                    "Greece",
+                    "greece"
+                ],
+                [
+                    "Egypt",
+                    "egypt"
+                ]
+            ],
+            "correct_answers": [
+                "Turkey",
+                "turkey"
+            ],
+            "options": [
+                "Syria",
+                "Greece",
+                "Egypt",
+                "Turkey"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+            "correct_answer": "Afghanistan",
+            "incorrect_answers": [
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "Iraq",
+                    "iraq"
+                ],
+                [
+                    "Russia",
+                    "russia"
+                ]
+            ],
+            "correct_answers": [
+                "Afghanistan",
+                "afghanistan"
+            ],
+            "options": [
+                "China",
+                "Iraq",
+                "Russia",
+                "Afghanistan"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was William Frederick Cody better known as?",
+            "correct_answer": "Buffalo Bill",
+            "incorrect_answers": [
+                [
+                    "Billy the Kid",
+                    "billy the kid",
+                    "billy kid"
+                ],
+                [
+                    "Wild Bill Hickok",
+                    "wild bill hickok"
+                ],
+                [
+                    "Pawnee Bill",
+                    "pawnee bill"
+                ]
+            ],
+            "correct_answers": [
+                "Buffalo Bill",
+                "buffalo bill"
+            ],
+            "options": [
+                "Billy the Kid",
+                "Wild Bill Hickok",
+                "Pawnee Bill",
+                "Buffalo Bill"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these countries remained neutral during World War II?",
+            "correct_answer": "Switzerland",
+            "incorrect_answers": [
+                [
+                    "United Kingdom",
+                    "united kingdom"
+                ],
+                [
+                    "France",
+                    "france"
+                ],
+                [
+                    "Italy",
+                    "italy"
+                ]
+            ],
+            "correct_answers": [
+                "Switzerland",
+                "switzerland"
+            ],
+            "options": [
+                "United Kingdom",
+                "France",
+                "Italy",
+                "Switzerland"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which German field marshal was known as the `Desert Fox`?",
+            "correct_answer": "Erwin Rommel",
+            "incorrect_answers": [
+                [
+                    "Ernst Busch",
+                    "ernst busch"
+                ],
+                [
+                    "Wolfram Freiherr von Richthofen",
+                    "wolfram freiherr von richthofen"
+                ],
+                [
+                    "Wilhelm List",
+                    "wilhelm list"
+                ]
+            ],
+            "correct_answers": [
+                "Erwin Rommel",
+                "erwin rommel"
+            ],
+            "options": [
+                "Ernst Busch",
+                "Wolfram Freiherr von Richthofen",
+                "Wilhelm List",
+                "Erwin Rommel"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+            "correct_answer": "Tog II",
+            "incorrect_answers": [
+                [
+                    "M4 Sherman",
+                    "m4 sherman"
+                ],
+                [
+                    "Tiger H1",
+                    "tiger h1"
+                ],
+                [
+                    "T-34",
+                    "t-34"
+                ]
+            ],
+            "correct_answers": [
+                "Tog II",
+                "tog ii"
+            ],
+            "options": [
+                "M4 Sherman",
+                "Tiger H1",
+                "T-34",
+                "Tog II"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The collapse of the Soviet Union took place in which year?",
+            "correct_answer": "1991",
+            "incorrect_answers": [
+                [
+                    "1992",
+                    "1992"
+                ],
+                [
+                    "1891",
+                    "1891"
+                ],
+                [
+                    "1990",
+                    "1990"
+                ]
+            ],
+            "correct_answers": [
+                "1991",
+                "1991"
+            ],
+            "options": [
+                "1992",
+                "1891",
+                "1990",
+                "1991"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+            "correct_answer": "Paul Revere",
+            "incorrect_answers": [
+                [
+                    "Thomas Paine",
+                    "thomas paine"
+                ],
+                [
+                    "Henry Longfellow",
+                    "henry longfellow"
+                ],
+                [
+                    "Nathan Hale",
+                    "nathan hale"
+                ]
+            ],
+            "correct_answers": [
+                "Paul Revere",
+                "paul revere"
+            ],
+            "options": [
+                "Thomas Paine",
+                "Henry Longfellow",
+                "Nathan Hale",
+                "Paul Revere"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following countries was not an axis power during World War II?",
+            "correct_answer": " Soviet Union",
+            "incorrect_answers": [
+                [
+                    "Italy",
+                    "italy"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Japan",
+                    "japan"
+                ]
+            ],
+            "correct_answers": [
+                " Soviet Union",
+                " soviet union"
+            ],
+            "options": [
+                "Italy",
+                "Germany",
+                "Japan",
+                " Soviet Union"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "These two countries held a commonwealth from the 16th to 18th century.",
+            "correct_answer": "Poland and Lithuania",
+            "incorrect_answers": [
+                [
+                    "Hutu and Rwanda",
+                    "hutu and rwanda"
+                ],
+                [
+                    "North Korea and South Korea",
+                    "north korea and south korea"
+                ],
+                [
+                    "Bangladesh and Bhutan",
+                    "bangladesh and bhutan"
+                ]
+            ],
+            "correct_answers": [
+                "Poland and Lithuania",
+                "poland and lithuania"
+            ],
+            "options": [
+                "Hutu and Rwanda",
+                "North Korea and South Korea",
+                "Bangladesh and Bhutan",
+                "Poland and Lithuania"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What year did World War I begin?",
+            "correct_answer": "1914",
+            "incorrect_answers": [
+                [
+                    "1905",
+                    "1905"
+                ],
+                [
+                    "1919",
+                    "1919"
+                ],
+                [
+                    "1925",
+                    "1925"
+                ]
+            ],
+            "correct_answers": [
+                "1914",
+                "1914"
+            ],
+            "options": [
+                "1905",
+                "1919",
+                "1925",
+                "1914"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In 1453, which important city fell?",
+            "correct_answer": "Constantinople",
+            "incorrect_answers": [
+                [
+                    "Rome",
+                    "rome"
+                ],
+                [
+                    "Hamburg",
+                    "hamburg"
+                ],
+                [
+                    "Athens",
+                    "athens"
+                ]
+            ],
+            "correct_answers": [
+                "Constantinople",
+                "constantinople"
+            ],
+            "options": [
+                "Rome",
+                "Hamburg",
+                "Athens",
+                "Constantinople"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+            "correct_answer": "Hannibal",
+            "incorrect_answers": [
+                [
+                    "Garmanicus",
+                    "garmanicus"
+                ],
+                [
+                    "Alexander the Great",
+                    "alexander the great",
+                    "alexander great"
+                ],
+                [
+                    "Tiberius",
+                    "tiberius"
+                ]
+            ],
+            "correct_answers": [
+                "Hannibal",
+                "hannibal"
+            ],
+            "options": [
+                "Garmanicus",
+                "Alexander the Great",
+                "Tiberius",
+                "Hannibal"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+            "correct_answer": "Nagasaki",
+            "incorrect_answers": [
+                [
+                    "Kawasaki",
+                    "kawasaki"
+                ],
+                [
+                    "Tokyo",
+                    "tokyo"
+                ],
+                [
+                    "Kagoshima",
+                    "kagoshima"
+                ]
+            ],
+            "correct_answers": [
+                "Nagasaki",
+                "nagasaki"
+            ],
+            "options": [
+                "Kawasaki",
+                "Tokyo",
+                "Kagoshima",
+                "Nagasaki"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+            "correct_answer": "1721",
+            "incorrect_answers": [
+                [
+                    "1726",
+                    "1726"
+                ],
+                [
+                    "1727",
+                    "1727"
+                ],
+                [
+                    "1724",
+                    "1724"
+                ]
+            ],
+            "correct_answers": [
+                "1721",
+                "1721"
+            ],
+            "options": [
+                "1726",
+                "1727",
+                "1724",
+                "1721"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does the United States of America celebrate during the 4th of July?",
+            "correct_answer": "The signing of the Declaration of Independence",
+            "incorrect_answers": [
+                [
+                    "The anniversary of the Battle of Gettysburg",
+                    "the anniversary of the battle of gettysburg",
+                    "anniversary of battle of gettysburg"
+                ],
+                [
+                    "The crossing of the Delaware River",
+                    "the crossing of the delaware river",
+                    "crossing of delaware river"
+                ],
+                [
+                    "The ratification of the Constitution",
+                    "the ratification of the constitution",
+                    "ratification of constitution"
+                ]
+            ],
+            "correct_answers": [
+                "The signing of the Declaration of Independence",
+                "the signing of the declaration of independence",
+                "signing of declaration of independence"
+            ],
+            "options": [
+                "The anniversary of the Battle of Gettysburg",
+                "The crossing of the Delaware River",
+                "The ratification of the Constitution",
+                "The signing of the Declaration of Independence"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+            "correct_answer": "Illyrians",
+            "incorrect_answers": [
+                [
+                    "Dorians",
+                    "dorians"
+                ],
+                [
+                    "Achaeans",
+                    "achaeans"
+                ],
+                [
+                    "Ionians",
+                    "ionians"
+                ]
+            ],
+            "correct_answers": [
+                "Illyrians",
+                "illyrians"
+            ],
+            "options": [
+                "Dorians",
+                "Achaeans",
+                "Ionians",
+                "Illyrians"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How was Socrates executed?",
+            "correct_answer": "Poison",
+            "incorrect_answers": [
+                [
+                    "Decapitation",
+                    "decapitation"
+                ],
+                [
+                    "Firing squad",
+                    "firing squad"
+                ],
+                [
+                    "Crucifixion ",
+                    "crucifixion "
+                ]
+            ],
+            "correct_answers": [
+                "Poison",
+                "poison"
+            ],
+            "options": [
+                "Decapitation",
+                "Firing squad",
+                "Crucifixion ",
+                "Poison"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the first sport to have been played on the moon?",
+            "correct_answer": "Golf",
+            "incorrect_answers": [
+                [
+                    "Football",
+                    "football"
+                ],
+                [
+                    "Tennis",
+                    "tennis"
+                ],
+                [
+                    "Soccer",
+                    "soccer"
+                ]
+            ],
+            "correct_answers": [
+                "Golf",
+                "golf"
+            ],
+            "options": [
+                "Football",
+                "Tennis",
+                "Soccer",
+                "Golf"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the first prime minister of Canada?",
+            "correct_answer": "John Macdonald",
+            "incorrect_answers": [
+                [
+                    "John Abbott",
+                    "john abbott"
+                ],
+                [
+                    "Alexander Mackenzie",
+                    "alexander mackenzie"
+                ],
+                [
+                    "Robert Borden",
+                    "robert borden"
+                ]
+            ],
+            "correct_answers": [
+                "John Macdonald",
+                "john macdonald"
+            ],
+            "options": [
+                "John Abbott",
+                "Alexander Mackenzie",
+                "Robert Borden",
+                "John Macdonald"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Manfred von Richthofen's nickname?",
+            "correct_answer": "The Red Baron",
+            "incorrect_answers": [
+                [
+                    "The High Flying Ace",
+                    "the high flying ace",
+                    "high flying ace"
+                ],
+                [
+                    "The Blue Serpent ",
+                    "the blue serpent ",
+                    "blue serpent "
+                ],
+                [
+                    "The Germany Gunner",
+                    "the germany gunner",
+                    "germany gunner"
+                ]
+            ],
+            "correct_answers": [
+                "The Red Baron",
+                "the red baron",
+                "red baron"
+            ],
+            "options": [
+                "The High Flying Ace",
+                "The Blue Serpent ",
+                "The Germany Gunner",
+                "The Red Baron"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+            "correct_answer": "Hideki Tojo",
+            "incorrect_answers": [
+                [
+                    "Michinomiya Hirohito",
+                    "michinomiya hirohito"
+                ],
+                [
+                    "Isoroku Yamamoto",
+                    "isoroku yamamoto"
+                ],
+                [
+                    "Fumimaro Konoe",
+                    "fumimaro konoe"
+                ]
+            ],
+            "correct_answers": [
+                "Hideki Tojo",
+                "hideki tojo"
+            ],
+            "options": [
+                "Michinomiya Hirohito",
+                "Isoroku Yamamoto",
+                "Fumimaro Konoe",
+                "Hideki Tojo"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The idea of Socialism was articulated and advanced by whom?",
+            "correct_answer": "Karl Marx",
+            "incorrect_answers": [
+                [
+                    "Vladimir Lenin",
+                    "vladimir lenin"
+                ],
+                [
+                    "Joseph Stalin",
+                    "joseph stalin"
+                ],
+                [
+                    "Vladimir Putin",
+                    "vladimir putin"
+                ]
+            ],
+            "correct_answers": [
+                "Karl Marx",
+                "karl marx"
+            ],
+            "options": [
+                "Vladimir Lenin",
+                "Joseph Stalin",
+                "Vladimir Putin",
+                "Karl Marx"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following was Brazil was a former colony under?",
+            "correct_answer": "Portugal",
+            "incorrect_answers": [
+                [
+                    "Spain",
+                    "spain"
+                ],
+                [
+                    "The Netherlands",
+                    "the netherlands",
+                    "netherlands"
+                ],
+                [
+                    "France",
+                    "france"
+                ]
+            ],
+            "correct_answers": [
+                "Portugal",
+                "portugal"
+            ],
+            "options": [
+                "Spain",
+                "The Netherlands",
+                "France",
+                "Portugal"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What country joined the EU in 2013?",
+            "correct_answer": "Croatia",
+            "incorrect_answers": [
+                [
+                    "Bulgaria",
+                    "bulgaria"
+                ],
+                [
+                    "Slovenia",
+                    "slovenia"
+                ],
+                [
+                    "Turkey",
+                    "turkey"
+                ]
+            ],
+            "correct_answers": [
+                "Croatia",
+                "croatia"
+            ],
+            "options": [
+                "Bulgaria",
+                "Slovenia",
+                "Turkey",
+                "Croatia"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When was Google founded?",
+            "correct_answer": "September 4, 1998",
+            "incorrect_answers": [
+                [
+                    "October 9, 1997",
+                    "october 9, 1997"
+                ],
+                [
+                    "December 12, 1989",
+                    "december 12, 1989"
+                ],
+                [
+                    "Feburary 7th, 2000",
+                    "feburary 7th, 2000"
+                ]
+            ],
+            "correct_answers": [
+                "September 4, 1998",
+                "september 4, 1998"
+            ],
+            "options": [
+                "October 9, 1997",
+                "December 12, 1989",
+                "Feburary 7th, 2000",
+                "September 4, 1998"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+            "correct_answer": "1990",
+            "incorrect_answers": [
+                [
+                    "1992",
+                    "1992"
+                ],
+                [
+                    "1988",
+                    "1988"
+                ],
+                [
+                    "1986",
+                    "1986"
+                ]
+            ],
+            "correct_answers": [
+                "1990",
+                "1990"
+            ],
+            "options": [
+                "1992",
+                "1988",
+                "1986",
+                "1990"
+            ]
+        }
+    ]
+}
