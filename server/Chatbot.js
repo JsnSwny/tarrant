@@ -63,6 +63,36 @@ class Chatbot {
 			this.io.emit("start_game");
 		}
 	}
+	getVoices() {
+            let voices = speechSynthesis.getVoices();
+            if(!voices.length){
+            let utterance = new SpeechSynthesisUtterance("");
+            speechSynthesis.speak(utterance);
+            voices = speechSynthesis.getVoices();
+            }
+            return voices;
+        }
+	speaking_text(text, voice, rate, pitch, volume) {
+        	let speakData = new SpeechSynthesisUtterance();
+        	speakData.volume = volume;
+        	speakData.rate = rate;
+        	speakData.pitch = pitch;
+        	speakData.text = text;
+        	speakData.lang = 'en';
+        	speakData.voice = voice;
+        	speechSynthesis.speak(speakData);
+        }
+	
+	text_to_speech(text){
+		if ('speechSynthesis' in window) {
+			let voices = getVoices();
+			let rate = 1, pitch = 1, volume = 1;
+			speaking_text(text,voices[2], rate, pitch, volume);
+		}else{
+		console.log('SpeechSynthesis is Not Supported');
+		}
+	}
+
 
 	nextQuestion(firstQuestion = false) {
 		if (firstQuestion) {
