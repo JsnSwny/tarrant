@@ -19,6 +19,7 @@
         "dotenv": "^16.0.3",
         "express": "^4.18.2",
         "fuzzball": "^2.1.2",
+        "he": "^1.2.0",
         "lodash": "^4.17.21",
         "node-libcurl": "^3.0.0",
         "shelljs": "^0.8.5",

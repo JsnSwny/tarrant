@@ -5,6 +5,7 @@ const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 const fuzz = require("fuzzball");
 const { selectRandomDifficulty } = require("./functions");
+const he = require("he");
 
 const {
 	COLOUR_CYAN,
@@ -108,6 +109,7 @@ class Chatbot {
 
 		if (this.questionRefs !== null) {
 			const questionKey = this.questionRefs[this.questionNumber - 1];
+
 			this.configureQuestion(
 				this.currentDifficulty,
 				questionKey[0],
@@ -179,7 +181,13 @@ class Chatbot {
 				this.questionsAsked.includes(difficulty + "_" + category + "_" + index)
 			);
 		}
+
 		this.question = questions[index];
+		this.question.question = he.decode(this.question.question);
+
+		this.question.options = this.question.options.map((item) =>
+			he.decode(item)
+		);
 		this.options = this.question["incorrect_answers"].concat(
 			this.question["correct_answer"]
 		);
@@ -256,12 +264,12 @@ class Chatbot {
 
 	say(text) {
 		if (text === "") return;
-		const audioSerial = this.produceAudio(text);
+		// const audioSerial = this.produceAudio(text);
 		if (this.io) {
 			this.io.emit("receive_message", {
 				text: text,
 				speaker: "HOST",
-				audioSerial,
+				audioSerial: null,
 			});
 		}
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
@@ -340,12 +348,13 @@ class Chatbot {
 
 		let options = {
 			scorer: fuzz.token_set_ratio,
-			limit: 1,
 			cutoff: 40,
 			unsorted: true,
 		};
 
 		let results = fuzz.extract(query, choices, options);
+
+		console.log("Fuzzy Results:");
 		console.log(results);
 
 		if (results.length > 0) {

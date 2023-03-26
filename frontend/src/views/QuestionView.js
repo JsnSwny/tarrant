@@ -34,7 +34,7 @@ const QuestionView = () => {
 
 	const connect = () => {
 		connection?.disconnect();
-		const socket = io.connect(`137.195.118.51:5000`);
+		const socket = io.connect(`192.168.0.14:5000`);
 		socket.on("connect", () => {
 			console.log("connected", socket.id);
 			setConnection(socket);
