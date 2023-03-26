@@ -1,14 +1,4 @@
 {
-	"introduction": {
-		"EXEC": "this.utter('introduction')",
-		"agreement": "this.say('Awesome! Then let us begin.'); this.nextQuestion()",
-		"reject": "this.say('Too bad. Maybe next time then.')",
-		"DEFAULT": ""
-	},
-	"invite": {
-		"EXEC": "this.say('Would you like to play Who Wants To Be A Millionaire?')",
-		"DEFAULT": "this.say('Sorry. I do not quite understand your answer. Was that a yes?')"
-	},
 	"goodbye": {
 		"EXEC": "this.say('Catch you later.')"
 	},
@@ -20,7 +10,7 @@
 		"agreement": "(this.answerOffered === '') ? '' : this.changeState('seek-confirmation')",
 		"final-answer": "this.changeState('accept-answer')",
 		"DEFAULT": "",
-		"SILENCE": [12, "this.offerGuidance()"]
+		"SILENCE": [12, "this.utter('offer-generic-guidance')"]
 	},
 	"seek-confirmation": {
 		"EXEC": "this.utter('seek-confirmation', [this.answerOffered])",
@@ -31,8 +21,8 @@
 		"offer-answer": "this.handleOfferAnswer(this.lastIntent.args)",
 		"offer-to-answer": "this.prependUtter('encourage'); this.changeState('question', [2])",
 		"confirm-final-answer": "this.changeState('accept-answer')",
-		"DEFAULT": [12, "this.utter('return-to-question'); this.changeState('question', [2])"],
-		"SILENCE": [12, "this.utter('return-to-question'); this.changeState('question', [2])"]
+		"DEFAULT": [12, "this.prependUtter('return-to-question'); this.changeState('question', [2])"],
+		"SILENCE": [12, "this.prependUtter('return-to-question'); this.changeState('question', [2])"]
 	},
 	"seek-direct-answer": {
 		"EXEC": "this.utter('seek-direct-answer')",

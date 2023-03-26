@@ -1,19 +1,8 @@
 {
-	"introduction": {
-		"examples": [
-			"Hello there. Glad you could join us. Would you like to play Who Wants To Be A Millionaire?"
-		]
-	},
 	"encourage": {
 		"examples": [
 			"If you think you know it, go for it.",
 			"Have a go if you think you know it."
-		]
-	},
-	"greet": {
-		"examples": [
-			"Hey there. I'm glad you could join me.",
-			"Pleasure to meet you."
 		]
 	},
 	"lock-answer": {
@@ -115,11 +104,6 @@
 			"You are saying [1]."
 		]
 	},
-	"temp": {
-		"examples": [
-			"You folk sure enjoy chatting. (delete)"
-		]
-	},
 	"acknowledge-agreement": {
 		"examples": [
 			"It's important you both agree on this.",
@@ -163,32 +147,6 @@
 			"There are four options, only one of which is correct.",
 			"One of these is the correct answer. Which one?",
 			"I would help you if I could."
-		]
-	},
-	"offer-lifelines": {
-		"examples": [
-			"Remember that you have two lifelines.",
-			"You can always ask the audience, or if you like you can have two answers eliminated.",
-			"Would you like to eliminate two answers or ask the audience?",
-			"There are still two lifelines available to you.",
-			"You can eliminate or ask the audience.",
-			"There is nothing stopping you from asking the audience or using fifty."
-		]
-	},
-	"offer-fifty-fifty": {
-		"examples": [
-			"Remember that you still have fifty fifty available to you.",
-			"You can always use fifty fifty if you feel you need it.",
-			"Would you like to use fifty fifty?"
-		]
-	},
-	"offer-ask-the-audience": {
-		"examples": [
-			"Remember that you still have the ask the audience lifeline available to you.",
-			"You can always ask the audience if you feel you need it.",
-			"Would you like to ask the audience?",
-			"Do you think the audience know",
-			"The audience might know. Remember that you can ask them."
 		]
 	}
 }

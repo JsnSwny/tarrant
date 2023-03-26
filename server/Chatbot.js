@@ -543,10 +543,6 @@ class Chatbot {
 		}
 	}
 
-	offerGuidance() {
-		this.utter("offer-generic-guidance");
-	}
-
 	stateQuestion(args) {
 		// args[0] is an integer
 		// if args[0] is 1 then state the question in full; if 2 then give a brief of the question; otherwise, say nothing

@@ -1,20 +1,4 @@
 {
-    "greet": {
-        "examples": [
-            "Hey there. I'm glad you could join me.",
-            "Pleasure to meet you."
-        ]
-    },
-    "greet-question": {
-        "examples": ["How are you?", "How's it going?", "How are you today?"]
-    },
-    "respond-to-greet-question": {
-        "examples": [
-            "I'm feeling great thank you!",
-            "About as happy as a bundle of silicone and wires can be.",
-            "I'm doing well thank you."
-        ]
-    },
     "say-correct": {
         "examples": ["Well done. That is the correct answer."]
     },
