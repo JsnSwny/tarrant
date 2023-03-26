@@ -37,3 +37,13 @@ function sendSpeech() {
 function log(text) {
 	LOG_ELEMENT.innerHTML = LOG_ELEMENT.innerHTML + `<p>${text}</p>`;
 }
+
+const SERVER_URI = "localhost:5000";
+
+function hearSpeech(serial) {
+	const elem = document.getElementById("host-audio");
+	setTimeout(() => {
+		elem.src = `http://${SERVER_URI}/audios/${serial}.mp3`;
+		elem.play();
+	}, 2000);
+}

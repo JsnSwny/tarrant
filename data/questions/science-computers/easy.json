@@ -1,0 +1,1066 @@
+{
+    "questions": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What amount of bits commonly equals one byte?",
+            "correct_answer": "8",
+            "incorrect_answers": [
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "2",
+                    "2"
+                ],
+                [
+                    "64",
+                    "64"
+                ]
+            ],
+            "correct_answers": [
+                "8",
+                "8"
+            ],
+            "options": [
+                "1",
+                "2",
+                "64",
+                "8"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
+            "correct_answer": "Final",
+            "incorrect_answers": [
+                [
+                    "Static",
+                    "static"
+                ],
+                [
+                    "Private",
+                    "private"
+                ],
+                [
+                    "Public",
+                    "public"
+                ]
+            ],
+            "correct_answers": [
+                "Final",
+                "final"
+            ],
+            "options": [
+                "Static",
+                "Private",
+                "Public",
+                "Final"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the domain name for the country Tuvalu?",
+            "correct_answer": ".tv",
+            "incorrect_answers": [
+                [
+                    ".tu",
+                    ".tu"
+                ],
+                [
+                    ".tt",
+                    ".tt"
+                ],
+                [
+                    ".tl",
+                    ".tl"
+                ]
+            ],
+            "correct_answers": [
+                ".tv",
+                ".tv"
+            ],
+            "options": [
+                ".tu",
+                ".tt",
+                ".tl",
+                ".tv"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In computing, what does MIDI stand for?",
+            "correct_answer": "Musical Instrument Digital Interface",
+            "incorrect_answers": [
+                [
+                    "Musical Interface of Digital Instruments",
+                    "musical interface of digital instruments"
+                ],
+                [
+                    "Modular Interface of Digital Instruments",
+                    "modular interface of digital instruments"
+                ],
+                [
+                    "Musical Instrument Data Interface",
+                    "musical instrument data interface"
+                ]
+            ],
+            "correct_answers": [
+                "Musical Instrument Digital Interface",
+                "musical instrument digital interface"
+            ],
+            "options": [
+                "Musical Interface of Digital Instruments",
+                "Modular Interface of Digital Instruments",
+                "Musical Instrument Data Interface",
+                "Musical Instrument Digital Interface"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In web design, what does CSS stand for?",
+            "correct_answer": "Cascading Style Sheet",
+            "incorrect_answers": [
+                [
+                    "Counter Strike: Source",
+                    "counter strike: source"
+                ],
+                [
+                    "Corrective Style Sheet",
+                    "corrective style sheet"
+                ],
+                [
+                    "Computer Style Sheet",
+                    "computer style sheet"
+                ]
+            ],
+            "correct_answers": [
+                "Cascading Style Sheet",
+                "cascading style sheet"
+            ],
+            "options": [
+                "Counter Strike: Source",
+                "Corrective Style Sheet",
+                "Computer Style Sheet",
+                "Cascading Style Sheet"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "On Twitter, what was the original character limit for a Tweet?",
+            "correct_answer": "140",
+            "incorrect_answers": [
+                [
+                    "120",
+                    "120"
+                ],
+                [
+                    "160",
+                    "160"
+                ],
+                [
+                    "100",
+                    "100"
+                ]
+            ],
+            "correct_answers": [
+                "140",
+                "140"
+            ],
+            "options": [
+                "120",
+                "160",
+                "100",
+                "140"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the most preferred image format used for logos in the Wikimedia database?",
+            "correct_answer": ".svg",
+            "incorrect_answers": [
+                [
+                    ".png",
+                    ".png"
+                ],
+                [
+                    ".jpeg",
+                    ".jpeg"
+                ],
+                [
+                    ".gif",
+                    ".gif"
+                ]
+            ],
+            "correct_answers": [
+                ".svg",
+                ".svg"
+            ],
+            "options": [
+                ".png",
+                ".jpeg",
+                ".gif",
+                ".svg"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does LTS stand for in the software market?",
+            "correct_answer": "Long Term Support",
+            "incorrect_answers": [
+                [
+                    "Long Taco Service",
+                    "long taco service"
+                ],
+                [
+                    "Ludicrous Transfer Speed",
+                    "ludicrous transfer speed"
+                ],
+                [
+                    "Ludicrous Turbo Speed",
+                    "ludicrous turbo speed"
+                ]
+            ],
+            "correct_answers": [
+                "Long Term Support",
+                "long term support"
+            ],
+            "options": [
+                "Long Taco Service",
+                "Ludicrous Transfer Speed",
+                "Ludicrous Turbo Speed",
+                "Long Term Support"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which programming language shares its name with an island in Indonesia?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                [
+                    "Python",
+                    "python"
+                ],
+                [
+                    "C",
+                    "c"
+                ],
+                [
+                    "Jakarta",
+                    "jakarta"
+                ]
+            ],
+            "correct_answers": [
+                "Java",
+                "java"
+            ],
+            "options": [
+                "Python",
+                "C",
+                "Jakarta",
+                "Java"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                [
+                    "Red",
+                    "red"
+                ],
+                [
+                    "Blue",
+                    "blue"
+                ],
+                [
+                    "Yellow",
+                    "yellow"
+                ]
+            ],
+            "correct_answers": [
+                "Green",
+                "green"
+            ],
+            "options": [
+                "Red",
+                "Blue",
+                "Yellow",
+                "Green"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What language does Node.js use?",
+            "correct_answer": "JavaScript",
+            "incorrect_answers": [
+                [
+                    "Java",
+                    "java"
+                ],
+                [
+                    "Java Source",
+                    "java source"
+                ],
+                [
+                    "Joomla Source Code",
+                    "joomla source code"
+                ]
+            ],
+            "correct_answers": [
+                "JavaScript",
+                "javascript"
+            ],
+            "options": [
+                "Java",
+                "Java Source",
+                "Joomla Source Code",
+                "JavaScript"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+            "correct_answer": "Motherboard",
+            "incorrect_answers": [
+                [
+                    "Central Processing Unit",
+                    "central processing unit"
+                ],
+                [
+                    "Hard Disk Drive",
+                    "hard disk drive"
+                ],
+                [
+                    "Random Access Memory",
+                    "random access memory"
+                ]
+            ],
+            "correct_answers": [
+                "Motherboard",
+                "motherboard"
+            ],
+            "options": [
+                "Central Processing Unit",
+                "Hard Disk Drive",
+                "Random Access Memory",
+                "Motherboard"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The programming language 'Swift' was created to replace what other programming language?",
+            "correct_answer": "Objective-C",
+            "incorrect_answers": [
+                [
+                    "C#",
+                    "c#"
+                ],
+                [
+                    "Ruby",
+                    "ruby"
+                ],
+                [
+                    "C++",
+                    "c++"
+                ]
+            ],
+            "correct_answers": [
+                "Objective-C",
+                "objective-c"
+            ],
+            "options": [
+                "C#",
+                "Ruby",
+                "C++",
+                "Objective-C"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "HTML is what type of language?",
+            "correct_answer": "Markup Language",
+            "incorrect_answers": [
+                [
+                    "Macro Language",
+                    "macro language"
+                ],
+                [
+                    "Programming Language",
+                    "programming language"
+                ],
+                [
+                    "Scripting Language",
+                    "scripting language"
+                ]
+            ],
+            "correct_answers": [
+                "Markup Language",
+                "markup language"
+            ],
+            "options": [
+                "Macro Language",
+                "Programming Language",
+                "Scripting Language",
+                "Markup Language"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does the Prt Sc button do?",
+            "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
+            "incorrect_answers": [
+                [
+                    "Nothing",
+                    "nothing"
+                ],
+                [
+                    "Saves a .png file of what's on the screen in your screenshots folder in photos",
+                    "saves a .png file of what's on the screen in your screenshots folder in photos",
+                    "saves a .png file of what's on screen in your screenshots folder in photos",
+                    "saves a .png file of whats on the screen in your screenshots folder in photos"
+                ],
+                [
+                    "Closes all windows",
+                    "closes all windows"
+                ]
+            ],
+            "correct_answers": [
+                "Captures what's on the screen and copies it to your clipboard",
+                "captures what's on the screen and copies it to your clipboard",
+                "captures what's on screen and copies it to your clipboard",
+                "captures whats on the screen and copies it to your clipboard"
+            ],
+            "options": [
+                "Nothing",
+                "Saves a .png file of what's on the screen in your screenshots folder in photos",
+                "Closes all windows",
+                "Captures what's on the screen and copies it to your clipboard"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+            "correct_answer": "HD Graphics 500",
+            "incorrect_answers": [
+                [
+                    "HD Graphics 700 ",
+                    "hd graphics 700 "
+                ],
+                [
+                    "HD Graphics 600",
+                    "hd graphics 600"
+                ],
+                [
+                    "HD Graphics 7000",
+                    "hd graphics 7000"
+                ]
+            ],
+            "correct_answers": [
+                "HD Graphics 500",
+                "hd graphics 500"
+            ],
+            "options": [
+                "HD Graphics 700 ",
+                "HD Graphics 600",
+                "HD Graphics 7000",
+                "HD Graphics 500"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The C programming language was created by this American computer scientist. ",
+            "correct_answer": "Dennis Ritchie",
+            "incorrect_answers": [
+                [
+                    "Tim Berners Lee",
+                    "tim berners lee"
+                ],
+                [
+                    "al-Khwārizmī",
+                    "al-khwārizmī"
+                ],
+                [
+                    "Willis Ware",
+                    "willis ware"
+                ]
+            ],
+            "correct_answers": [
+                "Dennis Ritchie",
+                "dennis ritchie"
+            ],
+            "options": [
+                "Tim Berners Lee",
+                "al-Khwārizmī",
+                "Willis Ware",
+                "Dennis Ritchie"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+            "correct_answer": "1000",
+            "incorrect_answers": [
+                [
+                    "512",
+                    "512"
+                ],
+                [
+                    "1024",
+                    "1024"
+                ],
+                [
+                    "500",
+                    "500"
+                ]
+            ],
+            "correct_answers": [
+                "1000",
+                "1000"
+            ],
+            "options": [
+                "512",
+                "1024",
+                "500",
+                "1000"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many values can a single byte represent?",
+            "correct_answer": "256",
+            "incorrect_answers": [
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "1024",
+                    "1024"
+                ]
+            ],
+            "correct_answers": [
+                "256",
+                "256"
+            ],
+            "options": [
+                "8",
+                "1",
+                "1024",
+                "256"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does the computer software acronym JVM stand for?",
+            "correct_answer": "Java Virtual Machine",
+            "incorrect_answers": [
+                [
+                    "Java Vendor Machine",
+                    "java vendor machine"
+                ],
+                [
+                    "Java Visual Machine",
+                    "java visual machine"
+                ],
+                [
+                    "Just Virtual Machine",
+                    "just virtual machine"
+                ]
+            ],
+            "correct_answers": [
+                "Java Virtual Machine",
+                "java virtual machine"
+            ],
+            "options": [
+                "Java Vendor Machine",
+                "Java Visual Machine",
+                "Just Virtual Machine",
+                "Java Virtual Machine"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This mobile OS held the largest market share in 2012.",
+            "correct_answer": "iOS",
+            "incorrect_answers": [
+                [
+                    "Android",
+                    "android"
+                ],
+                [
+                    "BlackBerry",
+                    "blackberry"
+                ],
+                [
+                    "Symbian",
+                    "symbian"
+                ]
+            ],
+            "correct_answers": [
+                "iOS",
+                "ios"
+            ],
+            "options": [
+                "Android",
+                "BlackBerry",
+                "Symbian",
+                "iOS"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+            "correct_answer": "Apple",
+            "incorrect_answers": [
+                [
+                    "Microsoft",
+                    "microsoft"
+                ],
+                [
+                    "Atari",
+                    "atari"
+                ],
+                [
+                    "Commodore",
+                    "commodore"
+                ]
+            ],
+            "correct_answers": [
+                "Apple",
+                "apple"
+            ],
+            "options": [
+                "Microsoft",
+                "Atari",
+                "Commodore",
+                "Apple"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does CPU stand for?",
+            "correct_answer": "Central Processing Unit",
+            "incorrect_answers": [
+                [
+                    "Central Process Unit",
+                    "central process unit"
+                ],
+                [
+                    "Computer Personal Unit",
+                    "computer personal unit"
+                ],
+                [
+                    "Central Processor Unit",
+                    "central processor unit"
+                ]
+            ],
+            "correct_answers": [
+                "Central Processing Unit",
+                "central processing unit"
+            ],
+            "options": [
+                "Central Process Unit",
+                "Computer Personal Unit",
+                "Central Processor Unit",
+                "Central Processing Unit"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which computer language would you associate Django framework with?",
+            "correct_answer": "Python",
+            "incorrect_answers": [
+                [
+                    "C#",
+                    "c#"
+                ],
+                [
+                    "C++",
+                    "c++"
+                ],
+                [
+                    "Java",
+                    "java"
+                ]
+            ],
+            "correct_answers": [
+                "Python",
+                "python"
+            ],
+            "options": [
+                "C#",
+                "C++",
+                "Java",
+                "Python"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "If you were to code software in this language you'd only be able to type 0's and 1's.",
+            "correct_answer": "Binary",
+            "incorrect_answers": [
+                [
+                    "JavaScript",
+                    "javascript"
+                ],
+                [
+                    "C++",
+                    "c++"
+                ],
+                [
+                    "Python",
+                    "python"
+                ]
+            ],
+            "correct_answers": [
+                "Binary",
+                "binary"
+            ],
+            "options": [
+                "JavaScript",
+                "C++",
+                "Python",
+                "Binary"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When Gmail first launched, how much storage did it provide for your email?",
+            "correct_answer": "1GB",
+            "incorrect_answers": [
+                [
+                    "512MB",
+                    "512mb"
+                ],
+                [
+                    "5GB",
+                    "5gb"
+                ],
+                [
+                    "Unlimited",
+                    "unlimited"
+                ]
+            ],
+            "correct_answers": [
+                "1GB",
+                "1gb"
+            ],
+            "options": [
+                "512MB",
+                "5GB",
+                "Unlimited",
+                "1GB"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+            "correct_answer": "Hexidecimal",
+            "incorrect_answers": [
+                [
+                    "Binary",
+                    "binary"
+                ],
+                [
+                    "Duodecimal",
+                    "duodecimal"
+                ],
+                [
+                    "Octal",
+                    "octal"
+                ]
+            ],
+            "correct_answers": [
+                "Hexidecimal",
+                "hexidecimal"
+            ],
+            "options": [
+                "Binary",
+                "Duodecimal",
+                "Octal",
+                "Hexidecimal"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In any programming language, what is the most common way to iterate through an array?",
+            "correct_answer": "&#039;For&#039; loops",
+            "incorrect_answers": [
+                [
+                    "'If' Statements",
+                    "'if' statements",
+                    "if statements"
+                ],
+                [
+                    "'Do-while' loops",
+                    "'do-while' loops",
+                    "do-while loops"
+                ],
+                [
+                    "'While' loops",
+                    "'while' loops",
+                    "while loops"
+                ]
+            ],
+            "correct_answers": [
+                "'For' loops",
+                "'for' loops",
+                "for loops"
+            ],
+            "options": [
+                "'If' Statements",
+                "'Do-while' loops",
+                "'While' loops",
+                "'For' loops"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does GHz stand for?",
+            "correct_answer": "Gigahertz",
+            "incorrect_answers": [
+                [
+                    "Gigahotz",
+                    "gigahotz"
+                ],
+                [
+                    "Gigahetz",
+                    "gigahetz"
+                ],
+                [
+                    "Gigahatz",
+                    "gigahatz"
+                ]
+            ],
+            "correct_answers": [
+                "Gigahertz",
+                "gigahertz"
+            ],
+            "options": [
+                "Gigahotz",
+                "Gigahetz",
+                "Gigahatz",
+                "Gigahertz"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In computing, what does LAN stand for?",
+            "correct_answer": "Local Area Network",
+            "incorrect_answers": [
+                [
+                    "Long Antenna Node",
+                    "long antenna node"
+                ],
+                [
+                    "Light Access Node",
+                    "light access node"
+                ],
+                [
+                    "Land Address Navigation",
+                    "land address navigation"
+                ]
+            ],
+            "correct_answers": [
+                "Local Area Network",
+                "local area network"
+            ],
+            "options": [
+                "Long Antenna Node",
+                "Light Access Node",
+                "Land Address Navigation",
+                "Local Area Network"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does the &quot;MP&quot; stand for in MP3?",
+            "correct_answer": "Moving Picture",
+            "incorrect_answers": [
+                [
+                    "Music Player",
+                    "music player"
+                ],
+                [
+                    "Multi Pass",
+                    "multi pass"
+                ],
+                [
+                    "Micro Point",
+                    "micro point"
+                ]
+            ],
+            "correct_answers": [
+                "Moving Picture",
+                "moving picture"
+            ],
+            "options": [
+                "Music Player",
+                "Multi Pass",
+                "Micro Point",
+                "Moving Picture"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many kilobytes in one gigabyte (in decimal)?",
+            "correct_answer": "1000000",
+            "incorrect_answers": [
+                [
+                    "1024",
+                    "1024"
+                ],
+                [
+                    "1000",
+                    "1000"
+                ],
+                [
+                    "1048576",
+                    "1048576"
+                ]
+            ],
+            "correct_answers": [
+                "1000000",
+                "1000000"
+            ],
+            "options": [
+                "1024",
+                "1000",
+                "1048576",
+                "1000000"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How long is an IPv6 address?",
+            "correct_answer": "128 bits",
+            "incorrect_answers": [
+                [
+                    "32 bits",
+                    "32 bits"
+                ],
+                [
+                    "64 bits",
+                    "64 bits"
+                ],
+                [
+                    "128 bytes",
+                    "128 bytes"
+                ]
+            ],
+            "correct_answers": [
+                "128 bits",
+                "128 bits"
+            ],
+            "options": [
+                "32 bits",
+                "64 bits",
+                "128 bytes",
+                "128 bits"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the code name for the mobile operating system Android 7.0?",
+            "correct_answer": "Nougat",
+            "incorrect_answers": [
+                [
+                    "Ice Cream Sandwich",
+                    "ice cream sandwich"
+                ],
+                [
+                    "Jelly Bean",
+                    "jelly bean"
+                ],
+                [
+                    "Marshmallow",
+                    "marshmallow"
+                ]
+            ],
+            "correct_answers": [
+                "Nougat",
+                "nougat"
+            ],
+            "options": [
+                "Ice Cream Sandwich",
+                "Jelly Bean",
+                "Marshmallow",
+                "Nougat"
+            ]
+        }
+    ]
+}

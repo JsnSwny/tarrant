@@ -1,0 +1,409 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which universe crossover was introduced in the &quot;Sonic the Hedgehog&quot; comic issue #247?",
+            "correct_answer": "Mega Man",
+            "incorrect_answers": [
+                [
+                    "Super Mario Brothers",
+                    "super mario brothers"
+                ],
+                [
+                    "Alex Kidd",
+                    "alex kidd"
+                ],
+                [
+                    "Super Monkey Ball",
+                    "super monkey ball"
+                ]
+            ],
+            "correct_answers": [
+                "Mega Man",
+                "mega man"
+            ],
+            "options": [
+                "Super Mario Brothers",
+                "Alex Kidd",
+                "Super Monkey Ball",
+                "Mega Man"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Homestuck&quot; the &quot;Kingdom of Darkness&quot; is also known as?",
+            "correct_answer": "Derse",
+            "incorrect_answers": [
+                [
+                    "Skaia",
+                    "skaia"
+                ],
+                [
+                    "Prospit",
+                    "prospit"
+                ],
+                [
+                    "The Medium",
+                    "the medium",
+                    "medium"
+                ]
+            ],
+            "correct_answers": [
+                "Derse",
+                "derse"
+            ],
+            "options": [
+                "Skaia",
+                "Prospit",
+                "The Medium",
+                "Derse"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is Batman?",
+            "correct_answer": "Bruce Wayne",
+            "incorrect_answers": [
+                [
+                    "Clark Kent",
+                    "clark kent"
+                ],
+                [
+                    "Barry Allen",
+                    "barry allen"
+                ],
+                [
+                    "Tony Stark",
+                    "tony stark"
+                ]
+            ],
+            "correct_answers": [
+                "Bruce Wayne",
+                "bruce wayne"
+            ],
+            "options": [
+                "Clark Kent",
+                "Barry Allen",
+                "Tony Stark",
+                "Bruce Wayne"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This Marvel superhero is often called &quot;The man without fear&quot;.",
+            "correct_answer": "Daredevil",
+            "incorrect_answers": [
+                [
+                    "Thor",
+                    "thor"
+                ],
+                [
+                    "Wolverine",
+                    "wolverine"
+                ],
+                [
+                    "Hulk",
+                    "hulk"
+                ]
+            ],
+            "correct_answers": [
+                "Daredevil",
+                "daredevil"
+            ],
+            "options": [
+                "Thor",
+                "Wolverine",
+                "Hulk",
+                "Daredevil"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the alter-ego of the DC comics character &quot;Superman&quot;?",
+            "correct_answer": "Clark Kent",
+            "incorrect_answers": [
+                [
+                    "Bruce Wayne",
+                    "bruce wayne"
+                ],
+                [
+                    "Arthur Curry",
+                    "arthur curry"
+                ],
+                [
+                    "John Jones",
+                    "john jones"
+                ]
+            ],
+            "correct_answers": [
+                "Clark Kent",
+                "clark kent"
+            ],
+            "options": [
+                "Bruce Wayne",
+                "Arthur Curry",
+                "John Jones",
+                "Clark Kent"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When was Marvel Comics founded?",
+            "correct_answer": "1939",
+            "incorrect_answers": [
+                [
+                    "1932",
+                    "1932"
+                ],
+                [
+                    "1951",
+                    "1951"
+                ],
+                [
+                    "1936",
+                    "1936"
+                ]
+            ],
+            "correct_answers": [
+                "1939",
+                "1939"
+            ],
+            "options": [
+                "1932",
+                "1951",
+                "1936",
+                "1939"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which one of these superhero teams appears in the Invincible comics?",
+            "correct_answer": "Guardians of the Globe",
+            "incorrect_answers": [
+                [
+                    "Avengers",
+                    "avengers"
+                ],
+                [
+                    "Justice League",
+                    "justice league"
+                ],
+                [
+                    "Teenage Mutant Ninja Turtles",
+                    "teenage mutant ninja turtles"
+                ]
+            ],
+            "correct_answers": [
+                "Guardians of the Globe",
+                "guardians of the globe",
+                "guardians of globe"
+            ],
+            "options": [
+                "Avengers",
+                "Justice League",
+                "Teenage Mutant Ninja Turtles",
+                "Guardians of the Globe"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Black Hammer, what city did the heroes save from the Anti-God?",
+            "correct_answer": "Spiral City",
+            "incorrect_answers": [
+                [
+                    "Mega-City One",
+                    "mega-city one"
+                ],
+                [
+                    "Rockwood",
+                    "rockwood"
+                ],
+                [
+                    "Star City",
+                    "star city"
+                ]
+            ],
+            "correct_answers": [
+                "Spiral City",
+                "spiral city"
+            ],
+            "options": [
+                "Mega-City One",
+                "Rockwood",
+                "Star City",
+                "Spiral City"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Homestuck&quot; what is Dave Strider's guardian?",
+            "correct_answer": "Bro",
+            "incorrect_answers": [
+                [
+                    "Becquerel",
+                    "becquerel"
+                ],
+                [
+                    "Doc Scratch",
+                    "doc scratch"
+                ],
+                [
+                    "Halley",
+                    "halley"
+                ]
+            ],
+            "correct_answers": [
+                "Bro",
+                "bro"
+            ],
+            "options": [
+                "Becquerel",
+                "Doc Scratch",
+                "Halley",
+                "Bro"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the full first name of the babysitter in Calvin and Hobbes?",
+            "correct_answer": "Rosalyn",
+            "incorrect_answers": [
+                [
+                    "Rose",
+                    "rose"
+                ],
+                [
+                    "Ruby",
+                    "ruby"
+                ],
+                [
+                    "Rachel",
+                    "rachel"
+                ]
+            ],
+            "correct_answers": [
+                "Rosalyn",
+                "rosalyn"
+            ],
+            "options": [
+                "Rose",
+                "Ruby",
+                "Rachel",
+                "Rosalyn"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+            "correct_answer": "John Calvin",
+            "incorrect_answers": [
+                [
+                    "Calvin Klein",
+                    "calvin klein"
+                ],
+                [
+                    "Calvin Coolidge",
+                    "calvin coolidge"
+                ],
+                [
+                    "Phillip Calvin McGraw",
+                    "phillip calvin mcgraw"
+                ]
+            ],
+            "correct_answers": [
+                "John Calvin",
+                "john calvin"
+            ],
+            "options": [
+                "Calvin Klein",
+                "Calvin Coolidge",
+                "Phillip Calvin McGraw",
+                "John Calvin"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What's the race of Invincible's father?",
+            "correct_answer": "Viltrumite",
+            "incorrect_answers": [
+                [
+                    "Kryptonian",
+                    "kryptonian"
+                ],
+                [
+                    "Kree",
+                    "kree"
+                ],
+                [
+                    "Irken",
+                    "irken"
+                ]
+            ],
+            "correct_answers": [
+                "Viltrumite",
+                "viltrumite"
+            ],
+            "options": [
+                "Kryptonian",
+                "Kree",
+                "Irken",
+                "Viltrumite"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the creator of the comic series &quot;The Walking Dead&quot;?",
+            "correct_answer": "Robert Kirkman",
+            "incorrect_answers": [
+                [
+                    "Stan Lee",
+                    "stan lee"
+                ],
+                [
+                    "Malcolm Wheeler-Nicholson",
+                    "malcolm wheeler-nicholson"
+                ],
+                [
+                    "Robert Crumb",
+                    "robert crumb"
+                ]
+            ],
+            "correct_answers": [
+                "Robert Kirkman",
+                "robert kirkman"
+            ],
+            "options": [
+                "Stan Lee",
+                "Malcolm Wheeler-Nicholson",
+                "Robert Crumb",
+                "Robert Kirkman"
+            ]
+        }
+    ]
+}

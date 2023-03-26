@@ -1,0 +1,1413 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the true moon princess in Sailor Moon?",
+            "correct_answer": "Sailor Moon",
+            "incorrect_answers": [
+                [
+                    "Sailor Venus",
+                    "sailor venus"
+                ],
+                [
+                    "Sailor Mars",
+                    "sailor mars"
+                ],
+                [
+                    "Sailor Jupiter",
+                    "sailor jupiter"
+                ]
+            ],
+            "correct_answers": [
+                "Sailor Moon",
+                "sailor moon"
+            ],
+            "options": [
+                "Sailor Venus",
+                "Sailor Mars",
+                "Sailor Jupiter",
+                "Sailor Moon"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the colossal titan in &quot;Attack On Titan&quot;?",
+            "correct_answer": "Bertolt Hoover",
+            "incorrect_answers": [
+                [
+                    "Reiner",
+                    "reiner"
+                ],
+                [
+                    "Eren",
+                    "eren"
+                ],
+                [
+                    "Sasha",
+                    "sasha"
+                ]
+            ],
+            "correct_answers": [
+                "Bertolt Hoover",
+                "bertolt hoover"
+            ],
+            "options": [
+                "Reiner",
+                "Eren",
+                "Sasha",
+                "Bertolt Hoover"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?",
+            "correct_answer": "Dirty Deeds Done Dirt Cheap",
+            "incorrect_answers": [
+                [
+                    "Filthy Acts Done For A Reasonable Price",
+                    "filthy acts done for a reasonable price"
+                ],
+                [
+                    "Civil War",
+                    "civil war"
+                ],
+                [
+                    "God Bless The USA",
+                    "god bless the usa",
+                    "god bless usa"
+                ]
+            ],
+            "correct_answers": [
+                "Dirty Deeds Done Dirt Cheap",
+                "dirty deeds done dirt cheap"
+            ],
+            "options": [
+                "Filthy Acts Done For A Reasonable Price",
+                "Civil War",
+                "God Bless The USA",
+                "Dirty Deeds Done Dirt Cheap"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which part from the JoJo's Bizarre Adventure manga is about a horse race across America?",
+            "correct_answer": "Part 7: Steel Ball Run",
+            "incorrect_answers": [
+                [
+                    "Part 6: Stone Ocean",
+                    "part 6: stone ocean"
+                ],
+                [
+                    "Part 3: Stardust Crusaders",
+                    "part 3: stardust crusaders"
+                ],
+                [
+                    "Part 5: Golden Wind",
+                    "part 5: golden wind"
+                ]
+            ],
+            "correct_answers": [
+                "Part 7: Steel Ball Run",
+                "part 7: steel ball run"
+            ],
+            "options": [
+                "Part 6: Stone Ocean",
+                "Part 3: Stardust Crusaders",
+                "Part 5: Golden Wind",
+                "Part 7: Steel Ball Run"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the Naruto manga, what is the last name of Tsunade?",
+            "correct_answer": "Senju",
+            "incorrect_answers": [
+                [
+                    "Haruno",
+                    "haruno"
+                ],
+                [
+                    "Uzumaki",
+                    "uzumaki"
+                ],
+                [
+                    "Yamanaka",
+                    "yamanaka"
+                ]
+            ],
+            "correct_answers": [
+                "Senju",
+                "senju"
+            ],
+            "options": [
+                "Haruno",
+                "Uzumaki",
+                "Yamanaka",
+                "Senju"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The characters of &quot;Log Horizon&quot; are trapped in what game?",
+            "correct_answer": "Elder Tale",
+            "incorrect_answers": [
+                [
+                    "Sword Art Online",
+                    "sword art online"
+                ],
+                [
+                    "Tower Unite",
+                    "tower unite"
+                ],
+                [
+                    "Yggdrasil",
+                    "yggdrasil"
+                ]
+            ],
+            "correct_answers": [
+                "Elder Tale",
+                "elder tale"
+            ],
+            "options": [
+                "Sword Art Online",
+                "Tower Unite",
+                "Yggdrasil",
+                "Elder Tale"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What animation studio produced &quot;Gurren Lagann&quot;?",
+            "correct_answer": "Gainax",
+            "incorrect_answers": [
+                [
+                    "Kyoto Animation",
+                    "kyoto animation"
+                ],
+                [
+                    "Pierrot",
+                    "pierrot"
+                ],
+                [
+                    "A-1 Pictures",
+                    "a-1 pictures"
+                ]
+            ],
+            "correct_answers": [
+                "Gainax",
+                "gainax"
+            ],
+            "options": [
+                "Kyoto Animation",
+                "Pierrot",
+                "A-1 Pictures",
+                "Gainax"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Inuyasha&quot;, what are the heros are looking to collect?",
+            "correct_answer": "Jewel Shards",
+            "incorrect_answers": [
+                [
+                    "Dragon Balls",
+                    "dragon balls"
+                ],
+                [
+                    "Rave Stones",
+                    "rave stones"
+                ],
+                [
+                    "Sacred Stones",
+                    "sacred stones"
+                ]
+            ],
+            "correct_answers": [
+                "Jewel Shards",
+                "jewel shards"
+            ],
+            "options": [
+                "Dragon Balls",
+                "Rave Stones",
+                "Sacred Stones",
+                "Jewel Shards"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The name of Junko Enoshima's imposter at the beginning of Danganronpa: Trigger Happy Havoc is?",
+            "correct_answer": "Mukuro Ikusaba",
+            "incorrect_answers": [
+                [
+                    "Ryota Mitarai",
+                    "ryota mitarai"
+                ],
+                [
+                    "Ultimate Imposter",
+                    "ultimate imposter"
+                ],
+                [
+                    "Komaru Naegi",
+                    "komaru naegi"
+                ]
+            ],
+            "correct_answers": [
+                "Mukuro Ikusaba",
+                "mukuro ikusaba"
+            ],
+            "options": [
+                "Ryota Mitarai",
+                "Ultimate Imposter",
+                "Komaru Naegi",
+                "Mukuro Ikusaba"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following originated as a manga?",
+            "correct_answer": "Akira",
+            "incorrect_answers": [
+                [
+                    "Cowboy Bebop",
+                    "cowboy bebop"
+                ],
+                [
+                    "High School DxD",
+                    "high school dxd"
+                ],
+                [
+                    "Gurren Lagann",
+                    "gurren lagann"
+                ]
+            ],
+            "correct_answers": [
+                "Akira",
+                "akira"
+            ],
+            "options": [
+                "Cowboy Bebop",
+                "High School DxD",
+                "Gurren Lagann",
+                "Akira"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Digimon, what is the Japanese name for the final evolutionary stage?",
+            "correct_answer": "Ultimate",
+            "incorrect_answers": [
+                [
+                    "Mega",
+                    "mega"
+                ],
+                [
+                    "Adult",
+                    "adult"
+                ],
+                [
+                    "Champion",
+                    "champion"
+                ]
+            ],
+            "correct_answers": [
+                "Ultimate",
+                "ultimate"
+            ],
+            "options": [
+                "Mega",
+                "Adult",
+                "Champion",
+                "Ultimate"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What year did &quot;Attack on Titan&quot; first air?",
+            "correct_answer": "2013",
+            "incorrect_answers": [
+                [
+                    "2014",
+                    "2014"
+                ],
+                [
+                    "2012",
+                    "2012"
+                ],
+                [
+                    "2015",
+                    "2015"
+                ]
+            ],
+            "correct_answers": [
+                "2013",
+                "2013"
+            ],
+            "options": [
+                "2014",
+                "2012",
+                "2015",
+                "2013"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?",
+            "correct_answer": "Ame &amp; Yuki",
+            "incorrect_answers": [
+                [
+                    "Hana &amp; Yuki",
+                    "hana &amp; yuki"
+                ],
+                [
+                    "Ame &amp; Hana",
+                    "ame &amp; hana"
+                ],
+                [
+                    "Chuck &amp; Anna",
+                    "chuck &amp; anna"
+                ]
+            ],
+            "correct_answers": [
+                "Ame &amp; Yuki",
+                "ame &amp; yuki"
+            ],
+            "options": [
+                "Hana &amp; Yuki",
+                "Ame &amp; Hana",
+                "Chuck &amp; Anna",
+                "Ame &amp; Yuki"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The two main characters of &quot;No Game No Life&quot;, Sora and Shiro, together go by what name?",
+            "correct_answer": "Blank",
+            "incorrect_answers": [
+                [
+                    "Immanity",
+                    "immanity"
+                ],
+                [
+                    "Disboard",
+                    "disboard"
+                ],
+                [
+                    "Warbeasts",
+                    "warbeasts"
+                ]
+            ],
+            "correct_answers": [
+                "Blank",
+                "blank"
+            ],
+            "options": [
+                "Immanity",
+                "Disboard",
+                "Warbeasts",
+                "Blank"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Satella in &quot;Re:Zero&quot; is the witch of what?",
+            "correct_answer": "Envy",
+            "incorrect_answers": [
+                [
+                    "Pride",
+                    "pride"
+                ],
+                [
+                    "Sloth",
+                    "sloth"
+                ],
+                [
+                    "Wrath",
+                    "wrath"
+                ]
+            ],
+            "correct_answers": [
+                "Envy",
+                "envy"
+            ],
+            "options": [
+                "Pride",
+                "Sloth",
+                "Wrath",
+                "Envy"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What name is the main character Chihiro given in the 2001 movie &quot;Spirited Away&quot;?",
+            "correct_answer": "Sen (Thousand)",
+            "incorrect_answers": [
+                [
+                    "Hyaku (Hundred)",
+                    "hyaku (hundred)"
+                ],
+                [
+                    "Ichiman (Ten thousand)",
+                    "ichiman (ten thousand)"
+                ],
+                [
+                    "Juu (Ten)",
+                    "juu (ten)"
+                ]
+            ],
+            "correct_answers": [
+                "Sen (Thousand)",
+                "sen (thousand)"
+            ],
+            "options": [
+                "Hyaku (Hundred)",
+                "Ichiman (Ten thousand)",
+                "Juu (Ten)",
+                "Sen (Thousand)"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In 2013, virtual pop-star Hatsune Miku had a sponsorship with which pizza chain?",
+            "correct_answer": "Domino&#039;s",
+            "incorrect_answers": [
+                [
+                    "Papa John's",
+                    "papa john's",
+                    "papa johns"
+                ],
+                [
+                    "Pizza Hut",
+                    "pizza hut"
+                ],
+                [
+                    "Sabarro's",
+                    "sabarro's",
+                    "sabarros"
+                ]
+            ],
+            "correct_answers": [
+                "Domino's",
+                "domino's",
+                "dominos"
+            ],
+            "options": [
+                "Papa John's",
+                "Pizza Hut",
+                "Sabarro's",
+                "Domino's"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Pok&eacute;mon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+            "correct_answer": "The Porygon Line",
+            "incorrect_answers": [
+                [
+                    "The Pikachu Line",
+                    "the pikachu line",
+                    "pikachu line"
+                ],
+                [
+                    "The Elekid Line",
+                    "the elekid line",
+                    "elekid line"
+                ],
+                [
+                    "The Magby Line",
+                    "the magby line",
+                    "magby line"
+                ]
+            ],
+            "correct_answers": [
+                "The Porygon Line",
+                "the porygon line",
+                "porygon line"
+            ],
+            "options": [
+                "The Pikachu Line",
+                "The Elekid Line",
+                "The Magby Line",
+                "The Porygon Line"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of JoJo's Bizarre Adventure Part 5?",
+            "correct_answer": "Vento Aureo",
+            "incorrect_answers": [
+                [
+                    "Vento Oreo",
+                    "vento oreo"
+                ],
+                [
+                    "Vanto Aureo",
+                    "vanto aureo"
+                ],
+                [
+                    "Vento Eureo",
+                    "vento eureo"
+                ]
+            ],
+            "correct_answers": [
+                "Vento Aureo",
+                "vento aureo"
+            ],
+            "options": [
+                "Vento Oreo",
+                "Vanto Aureo",
+                "Vento Eureo",
+                "Vento Aureo"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the anime &quot;My Hero Academia&quot;, which character is shown with the ability to manipulate gravity?",
+            "correct_answer": "Uraraka",
+            "incorrect_answers": [
+                [
+                    "Bakugo",
+                    "bakugo"
+                ],
+                [
+                    "Deku",
+                    "deku"
+                ],
+                [
+                    "Asui ",
+                    "asui "
+                ]
+            ],
+            "correct_answers": [
+                "Uraraka",
+                "uraraka"
+            ],
+            "options": [
+                "Bakugo",
+                "Deku",
+                "Asui ",
+                "Uraraka"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many &quot;JoJos&quot; that are protagonists are there in the series &quot;Jojo's Bizarre Adventure&quot;?",
+            "correct_answer": "8",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "4",
+                    "4"
+                ],
+                [
+                    "5",
+                    "5"
+                ]
+            ],
+            "correct_answers": [
+                "8",
+                "8"
+            ],
+            "options": [
+                "6",
+                "4",
+                "5",
+                "8"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the main heroine of the anime, Full Metal Panic!",
+            "correct_answer": "Kaname Chidori",
+            "incorrect_answers": [
+                [
+                    "Teletha Testarossa",
+                    "teletha testarossa"
+                ],
+                [
+                    "Melissa Mao",
+                    "melissa mao"
+                ],
+                [
+                    "Kyoko Tokiwa",
+                    "kyoko tokiwa"
+                ]
+            ],
+            "correct_answers": [
+                "Kaname Chidori",
+                "kaname chidori"
+            ],
+            "options": [
+                "Teletha Testarossa",
+                "Melissa Mao",
+                "Kyoko Tokiwa",
+                "Kaname Chidori"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the corgi in Cowboy Bebop?",
+            "correct_answer": "Einstein",
+            "incorrect_answers": [
+                [
+                    "Edward",
+                    "edward"
+                ],
+                [
+                    "Rocket",
+                    "rocket"
+                ],
+                [
+                    "Joel",
+                    "joel"
+                ]
+            ],
+            "correct_answers": [
+                "Einstein",
+                "einstein"
+            ],
+            "options": [
+                "Edward",
+                "Rocket",
+                "Joel",
+                "Einstein"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Ash Ketchum's second Pokemon?",
+            "correct_answer": "Caterpie",
+            "incorrect_answers": [
+                [
+                    "Charmander",
+                    "charmander"
+                ],
+                [
+                    "Pikachu",
+                    "pikachu"
+                ],
+                [
+                    "Pidgey",
+                    "pidgey"
+                ]
+            ],
+            "correct_answers": [
+                "Caterpie",
+                "caterpie"
+            ],
+            "options": [
+                "Charmander",
+                "Pikachu",
+                "Pidgey",
+                "Caterpie"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the armored titan in &quot;Attack On Titan&quot;?",
+            "correct_answer": "Reiner Braun",
+            "incorrect_answers": [
+                [
+                    "Armin Arlelt",
+                    "armin arlelt"
+                ],
+                [
+                    "Mikasa Ackermann",
+                    "mikasa ackermann"
+                ],
+                [
+                    "Eren Jaeger",
+                    "eren jaeger"
+                ]
+            ],
+            "correct_answers": [
+                "Reiner Braun",
+                "reiner braun"
+            ],
+            "options": [
+                "Armin Arlelt",
+                "Mikasa Ackermann",
+                "Eren Jaeger",
+                "Reiner Braun"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the 9th Pokemon movie, who is the Prince of the Sea?",
+            "correct_answer": "Manaphy",
+            "incorrect_answers": [
+                [
+                    "Ash",
+                    "ash"
+                ],
+                [
+                    "May",
+                    "may"
+                ],
+                [
+                    "Phantom",
+                    "phantom"
+                ]
+            ],
+            "correct_answers": [
+                "Manaphy",
+                "manaphy"
+            ],
+            "options": [
+                "Ash",
+                "May",
+                "Phantom",
+                "Manaphy"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
+            "correct_answer": "Being run over by a truck",
+            "incorrect_answers": [
+                [
+                    "Ate one too many chocobars",
+                    "ate one too many chocobars"
+                ],
+                [
+                    "Through a magical ritual",
+                    "through a magical ritual"
+                ],
+                [
+                    "When he put on the harmaki",
+                    "when he put on the harmaki",
+                    "when he put on harmaki"
+                ]
+            ],
+            "correct_answers": [
+                "Being run over by a truck",
+                "being run over by a truck"
+            ],
+            "options": [
+                "Ate one too many chocobars",
+                "Through a magical ritual",
+                "When he put on the harmaki",
+                "Being run over by a truck"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the stuffed lion in Bleach?",
+            "correct_answer": "Kon",
+            "incorrect_answers": [
+                [
+                    "Jo",
+                    "jo"
+                ],
+                [
+                    "Urdiu",
+                    "urdiu"
+                ],
+                [
+                    "Chad",
+                    "chad"
+                ]
+            ],
+            "correct_answers": [
+                "Kon",
+                "kon"
+            ],
+            "options": [
+                "Jo",
+                "Urdiu",
+                "Chad",
+                "Kon"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the author of the manga series &quot;Astro Boy&quot;?",
+            "correct_answer": "Osamu Tezuka",
+            "incorrect_answers": [
+                [
+                    "Mitsuteri Yokoyama",
+                    "mitsuteri yokoyama"
+                ],
+                [
+                    "Takao Saito",
+                    "takao saito"
+                ],
+                [
+                    "Yoshihiro Tatsumi",
+                    "yoshihiro tatsumi"
+                ]
+            ],
+            "correct_answers": [
+                "Osamu Tezuka",
+                "osamu tezuka"
+            ],
+            "options": [
+                "Mitsuteri Yokoyama",
+                "Takao Saito",
+                "Yoshihiro Tatsumi",
+                "Osamu Tezuka"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "On what medium was &quot;Clannad&quot; first created?",
+            "correct_answer": "Visual novel",
+            "incorrect_answers": [
+                [
+                    "Anime",
+                    "anime"
+                ],
+                [
+                    "Manga",
+                    "manga"
+                ],
+                [
+                    "Light novel",
+                    "light novel"
+                ]
+            ],
+            "correct_answers": [
+                "Visual novel",
+                "visual novel"
+            ],
+            "options": [
+                "Anime",
+                "Manga",
+                "Light novel",
+                "Visual novel"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Future Diary&quot;, what is the name of Yuno Gasai's Phone Diary?",
+            "correct_answer": "Yukiteru Diary",
+            "incorrect_answers": [
+                [
+                    "Murder Diary",
+                    "murder diary"
+                ],
+                [
+                    "Escape Diary ",
+                    "escape diary "
+                ],
+                [
+                    "Justice Diary ",
+                    "justice diary "
+                ]
+            ],
+            "correct_answers": [
+                "Yukiteru Diary",
+                "yukiteru diary"
+            ],
+            "options": [
+                "Murder Diary",
+                "Escape Diary ",
+                "Justice Diary ",
+                "Yukiteru Diary"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;To Love-Ru&quot;, Ren and Run are from what planet?",
+            "correct_answer": "Memorze",
+            "incorrect_answers": [
+                [
+                    "Deviluke",
+                    "deviluke"
+                ],
+                [
+                    "Mistletoe",
+                    "mistletoe"
+                ],
+                [
+                    "Okiwana",
+                    "okiwana"
+                ]
+            ],
+            "correct_answers": [
+                "Memorze",
+                "memorze"
+            ],
+            "options": [
+                "Deviluke",
+                "Mistletoe",
+                "Okiwana",
+                "Memorze"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
+            "correct_answer": "Tohru",
+            "incorrect_answers": [
+                [
+                    "Lucoa",
+                    "lucoa"
+                ],
+                [
+                    "Kanna",
+                    "kanna"
+                ],
+                [
+                    "Elma",
+                    "elma"
+                ]
+            ],
+            "correct_answers": [
+                "Tohru",
+                "tohru"
+            ],
+            "options": [
+                "Lucoa",
+                "Kanna",
+                "Elma",
+                "Tohru"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which anime heavily features music from the genre &quot;Eurobeat&quot;?",
+            "correct_answer": "Initial D",
+            "incorrect_answers": [
+                [
+                    "Wangan Midnight",
+                    "wangan midnight"
+                ],
+                [
+                    "Kino no Tabi",
+                    "kino no tabi"
+                ],
+                [
+                    "Cowboy Bebop",
+                    "cowboy bebop"
+                ]
+            ],
+            "correct_answers": [
+                "Initial D",
+                "initial d"
+            ],
+            "options": [
+                "Wangan Midnight",
+                "Kino no Tabi",
+                "Cowboy Bebop",
+                "Initial D"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Fairy Tail&quot;, what is the nickname of Natsu Dragneel?",
+            "correct_answer": "The Salamander",
+            "incorrect_answers": [
+                [
+                    "The Dragon Slayer",
+                    "the dragon slayer",
+                    "dragon slayer"
+                ],
+                [
+                    "The Dragon",
+                    "the dragon",
+                    "dragon"
+                ],
+                [
+                    "The Demon",
+                    "the demon",
+                    "demon"
+                ]
+            ],
+            "correct_answers": [
+                "The Salamander",
+                "the salamander",
+                "salamander"
+            ],
+            "options": [
+                "The Dragon Slayer",
+                "The Dragon",
+                "The Demon",
+                "The Salamander"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the anime Black Butler, who is betrothed to be married to Ciel Phantomhive?",
+            "correct_answer": "Elizabeth Midford",
+            "incorrect_answers": [
+                [
+                    "Rachel Phantomhive",
+                    "rachel phantomhive"
+                ],
+                [
+                    "Alexis Leon Midford",
+                    "alexis leon midford"
+                ],
+                [
+                    "Angelina Dalles",
+                    "angelina dalles"
+                ]
+            ],
+            "correct_answers": [
+                "Elizabeth Midford",
+                "elizabeth midford"
+            ],
+            "options": [
+                "Rachel Phantomhive",
+                "Alexis Leon Midford",
+                "Angelina Dalles",
+                "Elizabeth Midford"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
+            "correct_answer": "10",
+            "incorrect_answers": [
+                [
+                    "11",
+                    "11"
+                ],
+                [
+                    "12",
+                    "12"
+                ],
+                [
+                    "9",
+                    "9"
+                ]
+            ],
+            "correct_answers": [
+                "10",
+                "10"
+            ],
+            "options": [
+                "11",
+                "12",
+                "9",
+                "10"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the anime Noragami who is one of the main protagonists?",
+            "correct_answer": "Yukine",
+            "incorrect_answers": [
+                [
+                    "Karuha",
+                    "karuha"
+                ],
+                [
+                    "Mineha",
+                    "mineha"
+                ],
+                [
+                    "Mayu",
+                    "mayu"
+                ]
+            ],
+            "correct_answers": [
+                "Yukine",
+                "yukine"
+            ],
+            "options": [
+                "Karuha",
+                "Mineha",
+                "Mayu",
+                "Yukine"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was given the title &quot;Full Metal&quot; in the anime series &quot;Full Metal Alchemist&quot;?",
+            "correct_answer": "Edward Elric",
+            "incorrect_answers": [
+                [
+                    "Alphonse Elric",
+                    "alphonse elric"
+                ],
+                [
+                    "Van Hohenheim",
+                    "van hohenheim"
+                ],
+                [
+                    "Izumi Curtis",
+                    "izumi curtis"
+                ]
+            ],
+            "correct_answers": [
+                "Edward Elric",
+                "edward elric"
+            ],
+            "options": [
+                "Alphonse Elric",
+                "Van Hohenheim",
+                "Izumi Curtis",
+                "Edward Elric"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;The Melancholy of Haruhi Suzumiya&quot; series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+            "correct_answer": "God",
+            "incorrect_answers": [
+                [
+                    "Alien",
+                    "alien"
+                ],
+                [
+                    "Time Traveler",
+                    "time traveler"
+                ],
+                [
+                    "Esper",
+                    "esper"
+                ]
+            ],
+            "correct_answers": [
+                "God",
+                "god"
+            ],
+            "options": [
+                "Alien",
+                "Time Traveler",
+                "Esper",
+                "God"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the theme song of &quot;Neon Genesis Evangelion&quot;?",
+            "correct_answer": "A Cruel Angel&#039;s Thesis",
+            "incorrect_answers": [
+                [
+                    "Stardust Crusaders",
+                    "stardust crusaders"
+                ],
+                [
+                    "Requiem for a Dream",
+                    "requiem for a dream"
+                ],
+                [
+                    "God Knows",
+                    "god knows"
+                ]
+            ],
+            "correct_answers": [
+                "A Cruel Angel's Thesis",
+                "a cruel angel's thesis",
+                "a cruel angels thesis"
+            ],
+            "options": [
+                "Stardust Crusaders",
+                "Requiem for a Dream",
+                "God Knows",
+                "A Cruel Angel's Thesis"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the main character with yellow hair in the anime Naruto?",
+            "correct_answer": "Naruto",
+            "incorrect_answers": [
+                [
+                    "Ten Ten",
+                    "ten ten"
+                ],
+                [
+                    "Sasuke",
+                    "sasuke"
+                ],
+                [
+                    "Kakashi",
+                    "kakashi"
+                ]
+            ],
+            "correct_answers": [
+                "Naruto",
+                "naruto"
+            ],
+            "options": [
+                "Ten Ten",
+                "Sasuke",
+                "Kakashi",
+                "Naruto"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;A Certain Scientific Railgun&quot;, how many &quot;sisters&quot; did Accelerator have to kill to achieve the rumored level 6?",
+            "correct_answer": "20,000",
+            "incorrect_answers": [
+                [
+                    "128",
+                    "128"
+                ],
+                [
+                    "10,000",
+                    "10,000"
+                ],
+                [
+                    "5,000",
+                    "5,000"
+                ]
+            ],
+            "correct_answers": [
+                "20,000",
+                "20,000"
+            ],
+            "options": [
+                "128",
+                "10,000",
+                "5,000",
+                "20,000"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the anime Seven Deadly Sins what is the name of one of the sins?",
+            "correct_answer": "Diane",
+            "incorrect_answers": [
+                [
+                    "Sakura",
+                    "sakura"
+                ],
+                [
+                    "Ayano",
+                    "ayano"
+                ],
+                [
+                    "Sheska",
+                    "sheska"
+                ]
+            ],
+            "correct_answers": [
+                "Diane",
+                "diane"
+            ],
+            "options": [
+                "Sakura",
+                "Ayano",
+                "Sheska",
+                "Diane"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+            "correct_answer": "Elric",
+            "incorrect_answers": [
+                [
+                    "Ellis",
+                    "ellis"
+                ],
+                [
+                    "Eliek",
+                    "eliek"
+                ],
+                [
+                    "Elwood",
+                    "elwood"
+                ]
+            ],
+            "correct_answers": [
+                "Elric",
+                "elric"
+            ],
+            "options": [
+                "Ellis",
+                "Eliek",
+                "Elwood",
+                "Elric"
+            ]
+        }
+    ]
+}

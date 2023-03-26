@@ -1,0 +1,256 @@
+{
+    "questions": [
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which artist's style was to use small different colored dots to create a picture?",
+            "correct_answer": "Georges Seurat",
+            "incorrect_answers": [
+                [
+                    "Paul C&eacute;zanne",
+                    "paul c&eacute;zanne"
+                ],
+                [
+                    "Vincent Van Gogh",
+                    "vincent van gogh"
+                ],
+                [
+                    "Henri Rousseau",
+                    "henri rousseau"
+                ]
+            ],
+            "correct_answers": [
+                "Georges Seurat",
+                "georges seurat"
+            ],
+            "options": [
+                "Paul C&eacute;zanne",
+                "Vincent Van Gogh",
+                "Henri Rousseau",
+                "Georges Seurat"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these are the name of a famous marker brand?",
+            "correct_answer": "Copic",
+            "incorrect_answers": [
+                [
+                    "Dopix",
+                    "dopix"
+                ],
+                [
+                    "Cofix",
+                    "cofix"
+                ],
+                [
+                    "Marx",
+                    "marx"
+                ]
+            ],
+            "correct_answers": [
+                "Copic",
+                "copic"
+            ],
+            "options": [
+                "Dopix",
+                "Cofix",
+                "Marx",
+                "Copic"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What nationality was the surrealist painter Salvador Dali?",
+            "correct_answer": "Spanish",
+            "incorrect_answers": [
+                [
+                    "Italian",
+                    "italian"
+                ],
+                [
+                    "French",
+                    "french"
+                ],
+                [
+                    "Portuguese",
+                    "portuguese"
+                ]
+            ],
+            "correct_answers": [
+                "Spanish",
+                "spanish"
+            ],
+            "options": [
+                "Italian",
+                "French",
+                "Portuguese",
+                "Spanish"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which time signature is commonly known as &ldquo;Cut Time?&rdquo;",
+            "correct_answer": "2/2",
+            "incorrect_answers": [
+                [
+                    "4/4",
+                    "4/4"
+                ],
+                [
+                    "6/8",
+                    "6/8"
+                ],
+                [
+                    "3/4",
+                    "3/4"
+                ]
+            ],
+            "correct_answers": [
+                "2/2",
+                "2/2"
+            ],
+            "options": [
+                "4/4",
+                "6/8",
+                "3/4",
+                "2/2"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one of these paintings is not by Caspar David Friedrich?",
+            "correct_answer": "The Black Sea",
+            "incorrect_answers": [
+                [
+                    "The Sea of Ice",
+                    "the sea of ice",
+                    "sea of ice"
+                ],
+                [
+                    "Wanderer above the Sea of Fog",
+                    "wanderer above the sea of fog",
+                    "wanderer above sea of fog"
+                ],
+                [
+                    "The Monk by the Sea",
+                    "the monk by the sea",
+                    "monk by sea"
+                ]
+            ],
+            "correct_answers": [
+                "The Black Sea",
+                "the black sea",
+                "black sea"
+            ],
+            "options": [
+                "The Sea of Ice",
+                "Wanderer above the Sea of Fog",
+                "The Monk by the Sea",
+                "The Black Sea"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who painted the epic mural Guernica?",
+            "correct_answer": "Pablo Picasso",
+            "incorrect_answers": [
+                [
+                    "Francisco Goya",
+                    "francisco goya"
+                ],
+                [
+                    "Leonardo da Vinci",
+                    "leonardo da vinci"
+                ],
+                [
+                    "Henri Matisse",
+                    "henri matisse"
+                ]
+            ],
+            "correct_answers": [
+                "Pablo Picasso",
+                "pablo picasso"
+            ],
+            "options": [
+                "Francisco Goya",
+                "Leonardo da Vinci",
+                "Henri Matisse",
+                "Pablo Picasso"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who designed the Chupa Chups logo?",
+            "correct_answer": "Salvador Dali",
+            "incorrect_answers": [
+                [
+                    "Pablo Picasso",
+                    "pablo picasso"
+                ],
+                [
+                    "Andy Warhol",
+                    "andy warhol"
+                ],
+                [
+                    "Vincent van Gogh",
+                    "vincent van gogh"
+                ]
+            ],
+            "correct_answers": [
+                "Salvador Dali",
+                "salvador dali"
+            ],
+            "options": [
+                "Pablo Picasso",
+                "Andy Warhol",
+                "Vincent van Gogh",
+                "Salvador Dali"
+            ]
+        },
+        {
+            "category": "Art",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which artist&rsquo;s studio was known as 'The Factory'?",
+            "correct_answer": "Andy Warhol",
+            "incorrect_answers": [
+                [
+                    "Roy Lichtenstein",
+                    "roy lichtenstein"
+                ],
+                [
+                    "David Hockney",
+                    "david hockney"
+                ],
+                [
+                    "Peter Blake",
+                    "peter blake"
+                ]
+            ],
+            "correct_answers": [
+                "Andy Warhol",
+                "andy warhol"
+            ],
+            "options": [
+                "Roy Lichtenstein",
+                "David Hockney",
+                "Peter Blake",
+                "Andy Warhol"
+            ]
+        }
+    ]
+}

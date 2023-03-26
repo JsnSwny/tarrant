@@ -1,0 +1,737 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following is the world's best-selling book?",
+            "correct_answer": "The Lord of the Rings",
+            "incorrect_answers": [
+                [
+                    "The Little Prince",
+                    "the little prince",
+                    "little prince"
+                ],
+                [
+                    "Harry Potter and the Philosopher's Stone",
+                    "harry potter and the philosopher's stone",
+                    "harry potter and philosopher's stone",
+                    "harry potter and the philosophers stone"
+                ],
+                [
+                    "The Da Vinci Code",
+                    "the da vinci code",
+                    "da vinci code"
+                ]
+            ],
+            "correct_answers": [
+                "The Lord of the Rings",
+                "the lord of the rings",
+                "lord of rings"
+            ],
+            "options": [
+                "The Little Prince",
+                "Harry Potter and the Philosopher's Stone",
+                "The Da Vinci Code",
+                "The Lord of the Rings"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?",
+            "correct_answer": "Holden Caulfield",
+            "incorrect_answers": [
+                [
+                    "Fletcher Christian",
+                    "fletcher christian"
+                ],
+                [
+                    "Jay Gatsby",
+                    "jay gatsby"
+                ],
+                [
+                    "Randall Flagg",
+                    "randall flagg"
+                ]
+            ],
+            "correct_answers": [
+                "Holden Caulfield",
+                "holden caulfield"
+            ],
+            "options": [
+                "Fletcher Christian",
+                "Jay Gatsby",
+                "Randall Flagg",
+                "Holden Caulfield"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?",
+            "correct_answer": "A Clash of Kings",
+            "incorrect_answers": [
+                [
+                    "A Dance with Dragons",
+                    "a dance with dragons"
+                ],
+                [
+                    "A Storm of Swords",
+                    "a storm of swords"
+                ],
+                [
+                    "A Feast for Crows",
+                    "a feast for crows"
+                ]
+            ],
+            "correct_answers": [
+                "A Clash of Kings",
+                "a clash of kings"
+            ],
+            "options": [
+                "A Dance with Dragons",
+                "A Storm of Swords",
+                "A Feast for Crows",
+                "A Clash of Kings"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Sir Handel's original name in &quot;The Railway Series&quot; and it's animated counterpart &quot;Thomas and Friends?&quot;",
+            "correct_answer": "Falcon",
+            "incorrect_answers": [
+                [
+                    "Eagle",
+                    "eagle"
+                ],
+                [
+                    "Kyte",
+                    "kyte"
+                ],
+                [
+                    "Swallow",
+                    "swallow"
+                ]
+            ],
+            "correct_answers": [
+                "Falcon",
+                "falcon"
+            ],
+            "options": [
+                "Eagle",
+                "Kyte",
+                "Swallow",
+                "Falcon"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+            "correct_answer": "Richard Bachman",
+            "incorrect_answers": [
+                [
+                    "J. D. Robb",
+                    "j. d. robb"
+                ],
+                [
+                    "Mark Twain",
+                    "mark twain"
+                ],
+                [
+                    "Lewis Carroll",
+                    "lewis carroll"
+                ]
+            ],
+            "correct_answers": [
+                "Richard Bachman",
+                "richard bachman"
+            ],
+            "options": [
+                "J. D. Robb",
+                "Mark Twain",
+                "Lewis Carroll",
+                "Richard Bachman"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;Green Eggs And Ham&quot; is a book by which author?",
+            "correct_answer": "Dr. Seuss",
+            "incorrect_answers": [
+                [
+                    "Beatrix Potter",
+                    "beatrix potter"
+                ],
+                [
+                    "Roald Dahl",
+                    "roald dahl"
+                ],
+                [
+                    "A.A. Milne",
+                    "a.a. milne"
+                ]
+            ],
+            "correct_answers": [
+                "Dr. Seuss",
+                "dr. seuss"
+            ],
+            "options": [
+                "Beatrix Potter",
+                "Roald Dahl",
+                "A.A. Milne",
+                "Dr. Seuss"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was the author of the 1954 novel, &quot;Lord of the Flies&quot;?",
+            "correct_answer": "William Golding",
+            "incorrect_answers": [
+                [
+                    "Stephen King",
+                    "stephen king"
+                ],
+                [
+                    "F. Scott Fitzgerald",
+                    "f. scott fitzgerald"
+                ],
+                [
+                    "Hunter Fox",
+                    "hunter fox"
+                ]
+            ],
+            "correct_answers": [
+                "William Golding",
+                "william golding"
+            ],
+            "options": [
+                "Stephen King",
+                "F. Scott Fitzgerald",
+                "Hunter Fox",
+                "William Golding"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which famous spy novelist wrote the childrens' story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+            "correct_answer": "Ian Fleming",
+            "incorrect_answers": [
+                [
+                    "Joseph Conrad",
+                    "joseph conrad"
+                ],
+                [
+                    "John Buchan",
+                    "john buchan"
+                ],
+                [
+                    "Graham Greene",
+                    "graham greene"
+                ]
+            ],
+            "correct_answers": [
+                "Ian Fleming",
+                "ian fleming"
+            ],
+            "options": [
+                "Joseph Conrad",
+                "John Buchan",
+                "Graham Greene",
+                "Ian Fleming"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many Harry Potter books are there?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "5",
+                    "5"
+                ],
+                [
+                    "6",
+                    "6"
+                ]
+            ],
+            "correct_answers": [
+                "7",
+                "7"
+            ],
+            "options": [
+                "8",
+                "5",
+                "6",
+                "7"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote &quot;A Tale of Two Cities&quot;?",
+            "correct_answer": "Charles Dickens",
+            "incorrect_answers": [
+                [
+                    "Charles Darwin",
+                    "charles darwin"
+                ],
+                [
+                    "Mark Twain",
+                    "mark twain"
+                ],
+                [
+                    "Roald Dahl",
+                    "roald dahl"
+                ]
+            ],
+            "correct_answers": [
+                "Charles Dickens",
+                "charles dickens"
+            ],
+            "options": [
+                "Charles Darwin",
+                "Mark Twain",
+                "Roald Dahl",
+                "Charles Dickens"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+            "correct_answer": "SCP-173",
+            "incorrect_answers": [
+                [
+                    "SCP-001",
+                    "scp-001"
+                ],
+                [
+                    "SCP-999",
+                    "scp-999"
+                ],
+                [
+                    "SCP-1459",
+                    "scp-1459"
+                ]
+            ],
+            "correct_answers": [
+                "SCP-173",
+                "scp-173"
+            ],
+            "options": [
+                "SCP-001",
+                "SCP-999",
+                "SCP-1459",
+                "SCP-173"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "George Orwell wrote this book, which is often considered a statement on government oversight.",
+            "correct_answer": "1984",
+            "incorrect_answers": [
+                [
+                    "The Old Man and the Sea",
+                    "the old man and the sea",
+                    "old man and sea"
+                ],
+                [
+                    "Catcher and the Rye",
+                    "catcher and the rye",
+                    "catcher and rye"
+                ],
+                [
+                    "To Kill a Mockingbird",
+                    "to kill a mockingbird"
+                ]
+            ],
+            "correct_answers": [
+                "1984",
+                "1984"
+            ],
+            "options": [
+                "The Old Man and the Sea",
+                "Catcher and the Rye",
+                "To Kill a Mockingbird",
+                "1984"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which famous book is sub-titled 'The Modern Prometheus'?",
+            "correct_answer": "Frankenstein",
+            "incorrect_answers": [
+                [
+                    "Dracula",
+                    "dracula"
+                ],
+                [
+                    "The Strange Case of Dr. Jekyll and Mr. Hyde ",
+                    "the strange case of dr. jekyll and mr. hyde ",
+                    "strange case of dr. jekyll and mr. hyde "
+                ],
+                [
+                    "The Legend of Sleepy Hollow",
+                    "the legend of sleepy hollow",
+                    "legend of sleepy hollow"
+                ]
+            ],
+            "correct_answers": [
+                "Frankenstein",
+                "frankenstein"
+            ],
+            "options": [
+                "Dracula",
+                "The Strange Case of Dr. Jekyll and Mr. Hyde ",
+                "The Legend of Sleepy Hollow",
+                "Frankenstein"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote the young adult novel &quot;The Fault in Our Stars&quot;?",
+            "correct_answer": "John Green",
+            "incorrect_answers": [
+                [
+                    "Stephenie Meyer",
+                    "stephenie meyer"
+                ],
+                [
+                    "Suzanne Collins",
+                    "suzanne collins"
+                ],
+                [
+                    "Stephen Chbosky",
+                    "stephen chbosky"
+                ]
+            ],
+            "correct_answers": [
+                "John Green",
+                "john green"
+            ],
+            "options": [
+                "Stephenie Meyer",
+                "Suzanne Collins",
+                "Stephen Chbosky",
+                "John Green"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the novel 1984, written by George Orwell, what is the name of the totalitarian regime that controls Oceania?",
+            "correct_answer": "INGSOC",
+            "incorrect_answers": [
+                [
+                    "Neo-Bolshevism",
+                    "neo-bolshevism"
+                ],
+                [
+                    "Obliteration of the Self",
+                    "obliteration of the self",
+                    "obliteration of self"
+                ],
+                [
+                    "Earth Alliance",
+                    "earth alliance"
+                ]
+            ],
+            "correct_answers": [
+                "INGSOC",
+                "ingsoc"
+            ],
+            "options": [
+                "Neo-Bolshevism",
+                "Obliteration of the Self",
+                "Earth Alliance",
+                "INGSOC"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
+            "correct_answer": "Hunter S. Thompson",
+            "incorrect_answers": [
+                [
+                    "F. Scott Fitzgerald",
+                    "f. scott fitzgerald"
+                ],
+                [
+                    "Henry Miller",
+                    "henry miller"
+                ],
+                [
+                    "William S. Burroughs",
+                    "william s. burroughs"
+                ]
+            ],
+            "correct_answers": [
+                "Hunter S. Thompson",
+                "hunter s. thompson"
+            ],
+            "options": [
+                "F. Scott Fitzgerald",
+                "Henry Miller",
+                "William S. Burroughs",
+                "Hunter S. Thompson"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What's Harry Potter's dad's name?",
+            "correct_answer": "James Potter",
+            "incorrect_answers": [
+                [
+                    "Joey Potter",
+                    "joey potter"
+                ],
+                [
+                    "Frank Potter",
+                    "frank potter"
+                ],
+                [
+                    "Hairy Potter Sr.",
+                    "hairy potter sr."
+                ]
+            ],
+            "correct_answers": [
+                "James Potter",
+                "james potter"
+            ],
+            "options": [
+                "Joey Potter",
+                "Frank Potter",
+                "Hairy Potter Sr.",
+                "James Potter"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the name of Captain Nemo's submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+            "correct_answer": "The Nautilus",
+            "incorrect_answers": [
+                [
+                    "The Neptune",
+                    "the neptune",
+                    "neptune"
+                ],
+                [
+                    "The Poseidon  ",
+                    "the poseidon  ",
+                    "poseidon  "
+                ],
+                [
+                    "The Atlantis",
+                    "the atlantis",
+                    "atlantis"
+                ]
+            ],
+            "correct_answers": [
+                "The Nautilus",
+                "the nautilus",
+                "nautilus"
+            ],
+            "options": [
+                "The Neptune",
+                "The Poseidon  ",
+                "The Atlantis",
+                "The Nautilus"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which is NOT a book in the Harry Potter Series?",
+            "correct_answer": "The House Elf",
+            "incorrect_answers": [
+                [
+                    "The Chamber of Secrets",
+                    "the chamber of secrets",
+                    "chamber of secrets"
+                ],
+                [
+                    "The Prisoner of Azkaban",
+                    "the prisoner of azkaban",
+                    "prisoner of azkaban"
+                ],
+                [
+                    "The Deathly Hallows",
+                    "the deathly hallows",
+                    "deathly hallows"
+                ]
+            ],
+            "correct_answers": [
+                "The House Elf",
+                "the house elf",
+                "house elf"
+            ],
+            "options": [
+                "The Chamber of Secrets",
+                "The Prisoner of Azkaban",
+                "The Deathly Hallows",
+                "The House Elf"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+            "correct_answer": "A Study in Scarlet",
+            "incorrect_answers": [
+                [
+                    "The Sign of the Four",
+                    "the sign of the four",
+                    "sign of four"
+                ],
+                [
+                    "A Case of Identity",
+                    "a case of identity"
+                ],
+                [
+                    "The Doings of Raffles Haw",
+                    "the doings of raffles haw",
+                    "doings of raffles haw"
+                ]
+            ],
+            "correct_answers": [
+                "A Study in Scarlet",
+                "a study in scarlet"
+            ],
+            "options": [
+                "The Sign of the Four",
+                "A Case of Identity",
+                "The Doings of Raffles Haw",
+                "A Study in Scarlet"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote &quot;Harry Potter&quot;?",
+            "correct_answer": "J.K. Rowling",
+            "incorrect_answers": [
+                [
+                    "J.R.R. Tolkien",
+                    "j.r.r. tolkien"
+                ],
+                [
+                    "Terry Pratchett",
+                    "terry pratchett"
+                ],
+                [
+                    "Daniel Radcliffe",
+                    "daniel radcliffe"
+                ]
+            ],
+            "correct_answers": [
+                "J.K. Rowling",
+                "j.k. rowling"
+            ],
+            "options": [
+                "J.R.R. Tolkien",
+                "Terry Pratchett",
+                "Daniel Radcliffe",
+                "J.K. Rowling"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
+            "correct_answer": "Fluffy",
+            "incorrect_answers": [
+                [
+                    "Spike",
+                    "spike"
+                ],
+                [
+                    "Poofy",
+                    "poofy"
+                ],
+                [
+                    "Spot",
+                    "spot"
+                ]
+            ],
+            "correct_answers": [
+                "Fluffy",
+                "fluffy"
+            ],
+            "options": [
+                "Spike",
+                "Poofy",
+                "Spot",
+                "Fluffy"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of Sherlock Holmes's brother?",
+            "correct_answer": "Mycroft Holmes",
+            "incorrect_answers": [
+                [
+                    "Mederi Holmes",
+                    "mederi holmes"
+                ],
+                [
+                    "Martin Holmes",
+                    "martin holmes"
+                ],
+                [
+                    "Herbie Hancock Holmes",
+                    "herbie hancock holmes"
+                ]
+            ],
+            "correct_answers": [
+                "Mycroft Holmes",
+                "mycroft holmes"
+            ],
+            "options": [
+                "Mederi Holmes",
+                "Martin Holmes",
+                "Herbie Hancock Holmes",
+                "Mycroft Holmes"
+            ]
+        }
+    ]
+}

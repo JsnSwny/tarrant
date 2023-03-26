@@ -11,3 +11,7 @@ notes
 .env
 data/logs/*
 leaderboard.csv
+api_responses/
+medium/
+hard/
+public/audios/

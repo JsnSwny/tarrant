@@ -28,3 +28,30 @@ module.exports.COLOUR_CYAN = "\033[1;36m";
 module.exports.COLOUR_WHITE_BOLD = "\033[1;37m";
 module.exports.COLOUR_WHITE_LIGHT = "\033[2;37m";
 module.exports.COLOUR_NONE = "\033[0m";
+
+module.exports.FORMATTED_CATEGORIES = {
+	"Mythology": "mythology",
+	"Entertainment: Film": "entertainment-film",
+	"Entertainment: Cartoon & Animations": "entertainment-cartoon-and-animations",
+	"Entertainment: Music": "entertainment-music",
+	"Science & Nature": "science-and-nature",
+	"History": "history",
+	"Entertainment: Books": "entertainment-books",
+	"Geography": "geography",
+	"Science: Computers": "science-computers",
+	"General Knowledge": "general-knowledge",
+	"Science: Gadgets": "science-gadgets",
+	"Sports": "sports",
+	"Entertainment: Video Games": "entertainment-video-games",
+	"Entertainment: Television": "entertainment-television",
+	"Celebrities": "celebrities",
+	"Science: Mathematics": "science-mathematics",
+	"Vehicles": "vehicles",
+	"Entertainment: Board Games": "entertainment-board-games",
+	"Entertainment: Japanese Anime & Manga": "entertainment-japanese-anime-and-manga",
+	"Animals": "animals",
+	"Art": "art",
+	"Entertainment: Comics": "entertainment-comics",
+	"Politics": "politics",
+	"Entertainment: Musicals & Theatres": "entertainment-musicals-and-theatres"
+};

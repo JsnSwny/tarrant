@@ -1,0 +1,2896 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who had a 1983 hit with the song 'Africa'?",
+            "correct_answer": "Toto",
+            "incorrect_answers": [
+                [
+                    "Foreigner",
+                    "foreigner"
+                ],
+                [
+                    "Steely Dan",
+                    "steely dan"
+                ],
+                [
+                    "Journey",
+                    "journey"
+                ]
+            ],
+            "correct_answers": [
+                "Toto",
+                "toto"
+            ],
+            "options": [
+                "Foreigner",
+                "Steely Dan",
+                "Journey",
+                "Toto"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Finish these lyrics from the 2016 song &quot;Panda&quot; by Desiigner: &quot;I got broads in _______&quot;.",
+            "correct_answer": "Atlanta",
+            "incorrect_answers": [
+                [
+                    "Savannah",
+                    "savannah"
+                ],
+                [
+                    "Augusta",
+                    "augusta"
+                ],
+                [
+                    "Marietta",
+                    "marietta"
+                ]
+            ],
+            "correct_answers": [
+                "Atlanta",
+                "atlanta"
+            ],
+            "options": [
+                "Savannah",
+                "Augusta",
+                "Marietta",
+                "Atlanta"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which artist released the 2012 single &quot;Harlem Shake&quot;, which was used in numerous YouTube videos in 2013?",
+            "correct_answer": "Baauer",
+            "incorrect_answers": [
+                [
+                    "RL Grime",
+                    "rl grime"
+                ],
+                [
+                    "NGHTMRE",
+                    "nghtmre"
+                ],
+                [
+                    "Flosstradamus",
+                    "flosstradamus"
+                ]
+            ],
+            "correct_answers": [
+                "Baauer",
+                "baauer"
+            ],
+            "options": [
+                "RL Grime",
+                "NGHTMRE",
+                "Flosstradamus",
+                "Baauer"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+            "correct_answer": "Bass Guitar",
+            "incorrect_answers": [
+                [
+                    "Drums",
+                    "drums"
+                ],
+                [
+                    "Guitar",
+                    "guitar"
+                ],
+                [
+                    "Keyboards",
+                    "keyboards"
+                ]
+            ],
+            "correct_answers": [
+                "Bass Guitar",
+                "bass guitar"
+            ],
+            "options": [
+                "Drums",
+                "Guitar",
+                "Keyboards",
+                "Bass Guitar"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the lead singer of Green Day?",
+            "correct_answer": "Billie Joe Armstrong",
+            "incorrect_answers": [
+                [
+                    "Mike Dirnt",
+                    "mike dirnt"
+                ],
+                [
+                    "Sean Hughes",
+                    "sean hughes"
+                ],
+                [
+                    "Tr&eacute; Cool",
+                    "tr&eacute; cool"
+                ]
+            ],
+            "correct_answers": [
+                "Billie Joe Armstrong",
+                "billie joe armstrong"
+            ],
+            "options": [
+                "Mike Dirnt",
+                "Sean Hughes",
+                "Tr&eacute; Cool",
+                "Billie Joe Armstrong"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When was Gangnam Style uploaded to YouTube?",
+            "correct_answer": "2012",
+            "incorrect_answers": [
+                [
+                    "2013",
+                    "2013"
+                ],
+                [
+                    "2014",
+                    "2014"
+                ],
+                [
+                    "2011",
+                    "2011"
+                ]
+            ],
+            "correct_answers": [
+                "2012",
+                "2012"
+            ],
+            "options": [
+                "2013",
+                "2014",
+                "2011",
+                "2012"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following is an album by punk rock band Anti-Flag?",
+            "correct_answer": "For Blood And Empire",
+            "incorrect_answers": [
+                [
+                    "Infinity On High",
+                    "infinity on high"
+                ],
+                [
+                    "21st Century Breakdown",
+                    "21st century breakdown"
+                ],
+                [
+                    "No Pads, No Helmets...Just Balls",
+                    "no pads, no helmets...just balls"
+                ]
+            ],
+            "correct_answers": [
+                "For Blood And Empire",
+                "for blood and empire"
+            ],
+            "options": [
+                "Infinity On High",
+                "21st Century Breakdown",
+                "No Pads, No Helmets...Just Balls",
+                "For Blood And Empire"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
+            "correct_answer": "Snow",
+            "incorrect_answers": [
+                [
+                    "Rain",
+                    "rain"
+                ],
+                [
+                    "Hail",
+                    "hail"
+                ],
+                [
+                    "Sleet",
+                    "sleet"
+                ]
+            ],
+            "correct_answers": [
+                "Snow",
+                "snow"
+            ],
+            "options": [
+                "Rain",
+                "Hail",
+                "Sleet",
+                "Snow"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+            "correct_answer": "Recess",
+            "incorrect_answers": [
+                [
+                    "All is Fair in Love and Brostep",
+                    "all is fair in love and brostep"
+                ],
+                [
+                    "Rock N Roll (Will Take You to the Mountain)",
+                    "rock n roll (will take you to the mountain)",
+                    "rock n roll (will take you to mountain)"
+                ],
+                [
+                    "Scary Monsters and Nice Sprites",
+                    "scary monsters and nice sprites"
+                ]
+            ],
+            "correct_answers": [
+                "Recess",
+                "recess"
+            ],
+            "options": [
+                "All is Fair in Love and Brostep",
+                "Rock N Roll (Will Take You to the Mountain)",
+                "Scary Monsters and Nice Sprites",
+                "Recess"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What Led Zeppelin album contains &quot;Stairway to Heaven&quot;?",
+            "correct_answer": "Led Zeppelin IV",
+            "incorrect_answers": [
+                [
+                    "Houses of the Holy",
+                    "houses of the holy",
+                    "houses of holy"
+                ],
+                [
+                    "Physical Graffiti",
+                    "physical graffiti"
+                ],
+                [
+                    "Led Zeppelin III",
+                    "led zeppelin iii"
+                ]
+            ],
+            "correct_answers": [
+                "Led Zeppelin IV",
+                "led zeppelin iv"
+            ],
+            "options": [
+                "Houses of the Holy",
+                "Physical Graffiti",
+                "Led Zeppelin III",
+                "Led Zeppelin IV"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these are NOT a Men at Work song?",
+            "correct_answer": "Basket Case",
+            "incorrect_answers": [
+                [
+                    "Dr. Heckyll and Mr. Jive",
+                    "dr. heckyll and mr. jive"
+                ],
+                [
+                    "Who Can It Be Now?",
+                    "who can it be now?"
+                ],
+                [
+                    "Be Good Johnny",
+                    "be good johnny"
+                ]
+            ],
+            "correct_answers": [
+                "Basket Case",
+                "basket case"
+            ],
+            "options": [
+                "Dr. Heckyll and Mr. Jive",
+                "Who Can It Be Now?",
+                "Be Good Johnny",
+                "Basket Case"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;Some people call me the space cowboy&quot; is the first line from what song?",
+            "correct_answer": "The Joker",
+            "incorrect_answers": [
+                [
+                    "Fandango",
+                    "fandango"
+                ],
+                [
+                    "Take The Money and Run",
+                    "take the money and run",
+                    "take money and run"
+                ],
+                [
+                    "Fly Like an Eagle",
+                    "fly like an eagle"
+                ]
+            ],
+            "correct_answers": [
+                "The Joker",
+                "the joker",
+                "joker"
+            ],
+            "options": [
+                "Fandango",
+                "Take The Money and Run",
+                "Fly Like an Eagle",
+                "The Joker"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many studio albums have the duo Daft Punk released?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "5",
+                    "5"
+                ],
+                [
+                    "2",
+                    "2"
+                ]
+            ],
+            "correct_answers": [
+                "4",
+                "4"
+            ],
+            "options": [
+                "1",
+                "5",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Disney character sings the song &quot;A Dream is a Wish Your Heart Makes&quot;?",
+            "correct_answer": "Cinderella",
+            "incorrect_answers": [
+                [
+                    "Belle",
+                    "belle"
+                ],
+                [
+                    "Snow White",
+                    "snow white"
+                ],
+                [
+                    "Pocahontas",
+                    "pocahontas"
+                ]
+            ],
+            "correct_answers": [
+                "Cinderella",
+                "cinderella"
+            ],
+            "options": [
+                "Belle",
+                "Snow White",
+                "Pocahontas",
+                "Cinderella"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What album did The Lumineers release in 2016?",
+            "correct_answer": "Cleopatra",
+            "incorrect_answers": [
+                [
+                    "Winter",
+                    "winter"
+                ],
+                [
+                    "The Lumineers",
+                    "the lumineers",
+                    "lumineers"
+                ],
+                [
+                    "Tracks From The Attic",
+                    "tracks from the attic",
+                    "tracks from attic"
+                ]
+            ],
+            "correct_answers": [
+                "Cleopatra",
+                "cleopatra"
+            ],
+            "options": [
+                "Winter",
+                "The Lumineers",
+                "Tracks From The Attic",
+                "Cleopatra"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the lead singer of Foo Fighters?",
+            "correct_answer": "Dave Grohl",
+            "incorrect_answers": [
+                [
+                    "Dave Mustaine",
+                    "dave mustaine"
+                ],
+                [
+                    "James Hetfield",
+                    "james hetfield"
+                ],
+                [
+                    "Little Red Riding Hood",
+                    "little red riding hood"
+                ]
+            ],
+            "correct_answers": [
+                "Dave Grohl",
+                "dave grohl"
+            ],
+            "options": [
+                "Dave Mustaine",
+                "James Hetfield",
+                "Little Red Riding Hood",
+                "Dave Grohl"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The band Muse released their first album, Showbiz, in what year?",
+            "correct_answer": "1999",
+            "incorrect_answers": [
+                [
+                    "1998",
+                    "1998"
+                ],
+                [
+                    "2000",
+                    "2000"
+                ],
+                [
+                    "2001",
+                    "2001"
+                ]
+            ],
+            "correct_answers": [
+                "1999",
+                "1999"
+            ],
+            "options": [
+                "1998",
+                "2000",
+                "2001",
+                "1999"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;Hallelujah&quot; is a song written by which Canadian recording artist?",
+            "correct_answer": "Leonard Cohen",
+            "incorrect_answers": [
+                [
+                    "Kory Lefkowits",
+                    "kory lefkowits"
+                ],
+                [
+                    "Ryan Letourneau ",
+                    "ryan letourneau "
+                ],
+                [
+                    "Justin Bieber ",
+                    "justin bieber "
+                ]
+            ],
+            "correct_answers": [
+                "Leonard Cohen",
+                "leonard cohen"
+            ],
+            "options": [
+                "Kory Lefkowits",
+                "Ryan Letourneau ",
+                "Justin Bieber ",
+                "Leonard Cohen"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the lead singer of the British pop rock band Coldplay?",
+            "correct_answer": "Chris Martin",
+            "incorrect_answers": [
+                [
+                    "Jonny Buckland",
+                    "jonny buckland"
+                ],
+                [
+                    "Guy Berryman",
+                    "guy berryman"
+                ],
+                [
+                    "Will Champion",
+                    "will champion"
+                ]
+            ],
+            "correct_answers": [
+                "Chris Martin",
+                "chris martin"
+            ],
+            "options": [
+                "Jonny Buckland",
+                "Guy Berryman",
+                "Will Champion",
+                "Chris Martin"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In 2006, which band released their debut album &quot;A Fever You Can't Sweat Out&quot;?",
+            "correct_answer": "Panic! At the Disco",
+            "incorrect_answers": [
+                [
+                    "Twenty One Pilots",
+                    "twenty one pilots"
+                ],
+                [
+                    "My Chemical Romance",
+                    "my chemical romance"
+                ],
+                [
+                    "Fall Out Boy",
+                    "fall out boy"
+                ]
+            ],
+            "correct_answers": [
+                "Panic! At the Disco",
+                "panic! at the disco",
+                "panic! at disco"
+            ],
+            "options": [
+                "Twenty One Pilots",
+                "My Chemical Romance",
+                "Fall Out Boy",
+                "Panic! At the Disco"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which song on Daft Punk's &quot;Random Access Memories&quot; features Pharrell Williams?",
+            "correct_answer": "Get Lucky",
+            "incorrect_answers": [
+                [
+                    "Doin' It Right",
+                    "doin' it right",
+                    "doin it right"
+                ],
+                [
+                    "Instant Crush",
+                    "instant crush"
+                ],
+                [
+                    "The Game of Love",
+                    "the game of love",
+                    "game of love"
+                ]
+            ],
+            "correct_answers": [
+                "Get Lucky",
+                "get lucky"
+            ],
+            "options": [
+                "Doin' It Right",
+                "Instant Crush",
+                "The Game of Love",
+                "Get Lucky"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was &quot;Kung Fu Fighting&quot; in 1974?",
+            "correct_answer": "Carl Douglas",
+            "incorrect_answers": [
+                [
+                    "The Bee Gees",
+                    "the bee gees",
+                    "bee gees"
+                ],
+                [
+                    "Heatwave",
+                    "heatwave"
+                ],
+                [
+                    "Kool &amp; the Gang",
+                    "kool &amp; the gang",
+                    "kool &amp; gang"
+                ]
+            ],
+            "correct_answers": [
+                "Carl Douglas",
+                "carl douglas"
+            ],
+            "options": [
+                "The Bee Gees",
+                "Heatwave",
+                "Kool &amp; the Gang",
+                "Carl Douglas"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the best selling album of all time from 1976 to 2018?",
+            "correct_answer": "Thriller",
+            "incorrect_answers": [
+                [
+                    "Back in Black",
+                    "back in black"
+                ],
+                [
+                    "Abbey Road",
+                    "abbey road"
+                ],
+                [
+                    "The Dark Side of the Moon",
+                    "the dark side of the moon",
+                    "dark side of moon"
+                ]
+            ],
+            "correct_answers": [
+                "Thriller",
+                "thriller"
+            ],
+            "options": [
+                "Back in Black",
+                "Abbey Road",
+                "The Dark Side of the Moon",
+                "Thriller"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The &quot;British Invasion&quot; was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?",
+            "correct_answer": "60&#039;s",
+            "incorrect_answers": [
+                [
+                    "50's",
+                    "50's",
+                    "50s"
+                ],
+                [
+                    "40's",
+                    "40's",
+                    "40s"
+                ],
+                [
+                    "30's",
+                    "30's",
+                    "30s"
+                ]
+            ],
+            "correct_answers": [
+                "60's",
+                "60's",
+                "60s"
+            ],
+            "options": [
+                "50's",
+                "40's",
+                "30's",
+                "60's"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which singer was featured in Jack &Uuml; (Skrillex &amp; Diplo)'s 2015 song 'Where Are &Uuml; Now'?",
+            "correct_answer": "Justin Bieber",
+            "incorrect_answers": [
+                [
+                    "Selena Gomez",
+                    "selena gomez"
+                ],
+                [
+                    "Ellie Goulding",
+                    "ellie goulding"
+                ],
+                [
+                    "The Weeknd",
+                    "the weeknd",
+                    "weeknd"
+                ]
+            ],
+            "correct_answers": [
+                "Justin Bieber",
+                "justin bieber"
+            ],
+            "options": [
+                "Selena Gomez",
+                "Ellie Goulding",
+                "The Weeknd",
+                "Justin Bieber"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Beatles album does NOT feature any of the band members on it's cover?",
+            "correct_answer": "The Beatles (White Album)",
+            "incorrect_answers": [
+                [
+                    "Rubber Soul",
+                    "rubber soul"
+                ],
+                [
+                    "Abbey Road",
+                    "abbey road"
+                ],
+                [
+                    "Magical Mystery Tour",
+                    "magical mystery tour"
+                ]
+            ],
+            "correct_answers": [
+                "The Beatles (White Album)",
+                "the beatles (white album)",
+                "beatles (white album)"
+            ],
+            "options": [
+                "Rubber Soul",
+                "Abbey Road",
+                "Magical Mystery Tour",
+                "The Beatles (White Album)"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Kanye West at 2009 VMA's interrupted which celebrity?",
+            "correct_answer": "Taylor Swift",
+            "incorrect_answers": [
+                [
+                    "MF DOOM",
+                    "mf doom"
+                ],
+                [
+                    "Beyonce",
+                    "beyonce"
+                ],
+                [
+                    "Beck",
+                    "beck"
+                ]
+            ],
+            "correct_answers": [
+                "Taylor Swift",
+                "taylor swift"
+            ],
+            "options": [
+                "MF DOOM",
+                "Beyonce",
+                "Beck",
+                "Taylor Swift"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Whose albums included &quot;Back in Black&quot; and &quot;Ballbreaker&quot;?",
+            "correct_answer": "AC/DC",
+            "incorrect_answers": [
+                [
+                    "Iron Maiden",
+                    "iron maiden"
+                ],
+                [
+                    "Black Sabbath",
+                    "black sabbath"
+                ],
+                [
+                    "Metallica",
+                    "metallica"
+                ]
+            ],
+            "correct_answers": [
+                "AC/DC",
+                "ac/dc"
+            ],
+            "options": [
+                "Iron Maiden",
+                "Black Sabbath",
+                "Metallica",
+                "AC/DC"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the album released in 2014 by American band Maroon 5?",
+            "correct_answer": "V",
+            "incorrect_answers": [
+                [
+                    "X",
+                    "x"
+                ],
+                [
+                    "III",
+                    "iii"
+                ],
+                [
+                    "IV",
+                    "iv"
+                ]
+            ],
+            "correct_answers": [
+                "V",
+                "v"
+            ],
+            "options": [
+                "X",
+                "III",
+                "IV",
+                "V"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Brian May was the guitarist for which band?",
+            "correct_answer": "Queen",
+            "incorrect_answers": [
+                [
+                    "Pink Floyd",
+                    "pink floyd"
+                ],
+                [
+                    "Rolling Stones",
+                    "rolling stones"
+                ],
+                [
+                    "The Doors",
+                    "the doors",
+                    "doors"
+                ]
+            ],
+            "correct_answers": [
+                "Queen",
+                "queen"
+            ],
+            "options": [
+                "Pink Floyd",
+                "Rolling Stones",
+                "The Doors",
+                "Queen"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which 80s band is fronted by singer/guitarist Robert Smith?",
+            "correct_answer": "The Cure",
+            "incorrect_answers": [
+                [
+                    "The Smiths",
+                    "the smiths",
+                    "smiths"
+                ],
+                [
+                    "Echo &amp; the Bunnymen",
+                    "echo &amp; the bunnymen",
+                    "echo &amp; bunnymen"
+                ],
+                [
+                    "New Order",
+                    "new order"
+                ]
+            ],
+            "correct_answers": [
+                "The Cure",
+                "the cure",
+                "cure"
+            ],
+            "options": [
+                "The Smiths",
+                "Echo &amp; the Bunnymen",
+                "New Order",
+                "The Cure"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Whose signature guitar technique is called the &quot;windmill&quot;?",
+            "correct_answer": "Pete Townshend",
+            "incorrect_answers": [
+                [
+                    "Jimmy Page",
+                    "jimmy page"
+                ],
+                [
+                    "Eddie Van Halen",
+                    "eddie van halen"
+                ],
+                [
+                    "Jimi Hendrix",
+                    "jimi hendrix"
+                ]
+            ],
+            "correct_answers": [
+                "Pete Townshend",
+                "pete townshend"
+            ],
+            "options": [
+                "Jimmy Page",
+                "Eddie Van Halen",
+                "Jimi Hendrix",
+                "Pete Townshend"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many members are there in the band Nirvana?",
+            "correct_answer": "Three",
+            "incorrect_answers": [
+                [
+                    "Two",
+                    "two"
+                ],
+                [
+                    "Four",
+                    "four"
+                ],
+                [
+                    "Five",
+                    "five"
+                ]
+            ],
+            "correct_answers": [
+                "Three",
+                "three"
+            ],
+            "options": [
+                "Two",
+                "Four",
+                "Five",
+                "Three"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
+            "correct_answer": "Daft Punk",
+            "incorrect_answers": [
+                [
+                    "deadmau5",
+                    "deadmau5"
+                ],
+                [
+                    "Disclosure",
+                    "disclosure"
+                ],
+                [
+                    "DJ Shadow",
+                    "dj shadow"
+                ]
+            ],
+            "correct_answers": [
+                "Daft Punk",
+                "daft punk"
+            ],
+            "options": [
+                "deadmau5",
+                "Disclosure",
+                "DJ Shadow",
+                "Daft Punk"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the  Rossini opera, what was the name of 'The Barber of Seville'?",
+            "correct_answer": "Figaro",
+            "incorrect_answers": [
+                [
+                    "Angelo",
+                    "angelo"
+                ],
+                [
+                    "Fernando",
+                    "fernando"
+                ],
+                [
+                    "Dave",
+                    "dave"
+                ]
+            ],
+            "correct_answers": [
+                "Figaro",
+                "figaro"
+            ],
+            "options": [
+                "Angelo",
+                "Fernando",
+                "Dave",
+                "Figaro"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which English guitarist has the nickname &quot;Slowhand&quot;?",
+            "correct_answer": "Eric Clapton",
+            "incorrect_answers": [
+                [
+                    "Mark Knopfler",
+                    "mark knopfler"
+                ],
+                [
+                    "Jeff Beck",
+                    "jeff beck"
+                ],
+                [
+                    "Jimmy Page",
+                    "jimmy page"
+                ]
+            ],
+            "correct_answers": [
+                "Eric Clapton",
+                "eric clapton"
+            ],
+            "options": [
+                "Mark Knopfler",
+                "Jeff Beck",
+                "Jimmy Page",
+                "Eric Clapton"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+            "correct_answer": "Blood Sugar Sex Magik",
+            "incorrect_answers": [
+                [
+                    "One Hot Minute",
+                    "one hot minute"
+                ],
+                [
+                    "By the Way",
+                    "by the way",
+                    "by way"
+                ],
+                [
+                    "Stadium Arcadium",
+                    "stadium arcadium"
+                ]
+            ],
+            "correct_answers": [
+                "Blood Sugar Sex Magik",
+                "blood sugar sex magik"
+            ],
+            "options": [
+                "One Hot Minute",
+                "By the Way",
+                "Stadium Arcadium",
+                "Blood Sugar Sex Magik"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?",
+            "correct_answer": "Cocaine",
+            "incorrect_answers": [
+                [
+                    "Conan O'Brien",
+                    "conan o'brien",
+                    "conan obrien"
+                ],
+                [
+                    "Cobalt(II) carbonate",
+                    "cobalt(ii) carbonate"
+                ],
+                [
+                    "Coconut cream pie",
+                    "coconut cream pie"
+                ]
+            ],
+            "correct_answers": [
+                "Cocaine",
+                "cocaine"
+            ],
+            "options": [
+                "Conan O'Brien",
+                "Cobalt(II) carbonate",
+                "Coconut cream pie",
+                "Cocaine"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "According to the American rapper Nelly, what should you do when its hot in here?",
+            "correct_answer": "Take off all your clothes",
+            "incorrect_answers": [
+                [
+                    "Take a cool shower",
+                    "take a cool shower"
+                ],
+                [
+                    "Drink some water",
+                    "drink some water"
+                ],
+                [
+                    "Go skinny dipping",
+                    "go skinny dipping"
+                ]
+            ],
+            "correct_answers": [
+                "Take off all your clothes",
+                "take off all your clothes"
+            ],
+            "options": [
+                "Take a cool shower",
+                "Drink some water",
+                "Go skinny dipping",
+                "Take off all your clothes"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+            "correct_answer": "Earth",
+            "incorrect_answers": [
+                [
+                    "Venus",
+                    "venus"
+                ],
+                [
+                    "Mars",
+                    "mars"
+                ],
+                [
+                    "Uranus",
+                    "uranus"
+                ]
+            ],
+            "correct_answers": [
+                "Earth",
+                "earth"
+            ],
+            "options": [
+                "Venus",
+                "Mars",
+                "Uranus",
+                "Earth"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Ringo Starr of The Beatles mainly played what instrument?",
+            "correct_answer": "Drums",
+            "incorrect_answers": [
+                [
+                    "Bass",
+                    "bass"
+                ],
+                [
+                    "Guitar",
+                    "guitar"
+                ],
+                [
+                    "Piano",
+                    "piano"
+                ]
+            ],
+            "correct_answers": [
+                "Drums",
+                "drums"
+            ],
+            "options": [
+                "Bass",
+                "Guitar",
+                "Piano",
+                "Drums"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+            "correct_answer": "Dave Grohl",
+            "incorrect_answers": [
+                [
+                    "Taylor Hawkins",
+                    "taylor hawkins"
+                ],
+                [
+                    "Nate Mendel",
+                    "nate mendel"
+                ],
+                [
+                    "Chris Shiflett",
+                    "chris shiflett"
+                ]
+            ],
+            "correct_answers": [
+                "Dave Grohl",
+                "dave grohl"
+            ],
+            "options": [
+                "Taylor Hawkins",
+                "Nate Mendel",
+                "Chris Shiflett",
+                "Dave Grohl"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Rage Against the Machine's debut album?",
+            "correct_answer": "Rage Against the Machine",
+            "incorrect_answers": [
+                [
+                    "Evil Empire",
+                    "evil empire"
+                ],
+                [
+                    "Bombtrack",
+                    "bombtrack"
+                ],
+                [
+                    "The Battle Of Los Angeles",
+                    "the battle of los angeles",
+                    "battle of los angeles"
+                ]
+            ],
+            "correct_answers": [
+                "Rage Against the Machine",
+                "rage against the machine",
+                "rage against machine"
+            ],
+            "options": [
+                "Evil Empire",
+                "Bombtrack",
+                "The Battle Of Los Angeles",
+                "Rage Against the Machine"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Twitch streamer is the vocalist for Red Vox?",
+            "correct_answer": "Vinesauce",
+            "incorrect_answers": [
+                [
+                    "The8BitDrummer",
+                    "the8bitdrummer"
+                ],
+                [
+                    "LIRIK",
+                    "lirik"
+                ],
+                [
+                    "Sodapoppin",
+                    "sodapoppin"
+                ]
+            ],
+            "correct_answers": [
+                "Vinesauce",
+                "vinesauce"
+            ],
+            "options": [
+                "The8BitDrummer",
+                "LIRIK",
+                "Sodapoppin",
+                "Vinesauce"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What collaborative album was released by Kanye West and Jay-Z in 2011?",
+            "correct_answer": "Watch the Throne",
+            "incorrect_answers": [
+                [
+                    "Distant Relatives",
+                    "distant relatives"
+                ],
+                [
+                    "What a Time to be Alive",
+                    "what a time to be alive"
+                ],
+                [
+                    "Unfinished Business",
+                    "unfinished business"
+                ]
+            ],
+            "correct_answers": [
+                "Watch the Throne",
+                "watch the throne",
+                "watch throne"
+            ],
+            "options": [
+                "Distant Relatives",
+                "What a Time to be Alive",
+                "Unfinished Business",
+                "Watch the Throne"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What album did Bon Iver release in 2016?",
+            "correct_answer": "22, A Million",
+            "incorrect_answers": [
+                [
+                    "Bon Iver, Bon Iver",
+                    "bon iver, bon iver"
+                ],
+                [
+                    "Blood Bank EP",
+                    "blood bank ep"
+                ],
+                [
+                    "For Emma, Forever Ago",
+                    "for emma, forever ago"
+                ]
+            ],
+            "correct_answers": [
+                "22, A Million",
+                "22, a million"
+            ],
+            "options": [
+                "Bon Iver, Bon Iver",
+                "Blood Bank EP",
+                "For Emma, Forever Ago",
+                "22, A Million"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;The Singing Cowboy&quot; Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+            "correct_answer": "White Christmas",
+            "incorrect_answers": [
+                [
+                    "Frosty the Snowman",
+                    "frosty the snowman",
+                    "frosty snowman"
+                ],
+                [
+                    "Rudolph the Red-Nosed Reindeer",
+                    "rudolph the red-nosed reindeer",
+                    "rudolph red-nosed reindeer"
+                ],
+                [
+                    "Here Comes Santa Claus",
+                    "here comes santa claus"
+                ]
+            ],
+            "correct_answers": [
+                "White Christmas",
+                "white christmas"
+            ],
+            "options": [
+                "Frosty the Snowman",
+                "Rudolph the Red-Nosed Reindeer",
+                "Here Comes Santa Claus",
+                "White Christmas"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following songs did Elton John perform following Princess Diane's passing?",
+            "correct_answer": "Candles in the Wind",
+            "incorrect_answers": [
+                [
+                    "I Guess That's Why They Call It The Blues",
+                    "i guess that's why they call it the blues",
+                    "i guess that's why they call it blues",
+                    "i guess thats why they call it the blues"
+                ],
+                [
+                    "Your Song",
+                    "your song"
+                ],
+                [
+                    "Island Girl",
+                    "island girl"
+                ]
+            ],
+            "correct_answers": [
+                "Candles in the Wind",
+                "candles in the wind",
+                "candles in wind"
+            ],
+            "options": [
+                "I Guess That's Why They Call It The Blues",
+                "Your Song",
+                "Island Girl",
+                "Candles in the Wind"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the frontman of the band 30 Seconds to Mars?",
+            "correct_answer": "Jared Leto",
+            "incorrect_answers": [
+                [
+                    "Gerard Way",
+                    "gerard way"
+                ],
+                [
+                    "Matthew Bellamy",
+                    "matthew bellamy"
+                ],
+                [
+                    "Mike Shinoda",
+                    "mike shinoda"
+                ]
+            ],
+            "correct_answers": [
+                "Jared Leto",
+                "jared leto"
+            ],
+            "options": [
+                "Gerard Way",
+                "Matthew Bellamy",
+                "Mike Shinoda",
+                "Jared Leto"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of Finnish DJ Darude's hit single released in October 1999?",
+            "correct_answer": "Sandstorm",
+            "incorrect_answers": [
+                [
+                    "Dust Devil",
+                    "dust devil"
+                ],
+                [
+                    "Sirocco",
+                    "sirocco"
+                ],
+                [
+                    "Khamsin",
+                    "khamsin"
+                ]
+            ],
+            "correct_answers": [
+                "Sandstorm",
+                "sandstorm"
+            ],
+            "options": [
+                "Dust Devil",
+                "Sirocco",
+                "Khamsin",
+                "Sandstorm"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which band recorded the album &quot;Parallel Lines&quot;?",
+            "correct_answer": "Blondie",
+            "incorrect_answers": [
+                [
+                    "Paramore",
+                    "paramore"
+                ],
+                [
+                    "Coldplay",
+                    "coldplay"
+                ],
+                [
+                    "The Police",
+                    "the police",
+                    "police"
+                ]
+            ],
+            "correct_answers": [
+                "Blondie",
+                "blondie"
+            ],
+            "options": [
+                "Paramore",
+                "Coldplay",
+                "The Police",
+                "Blondie"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Mean Girls, who has breasts that tell when it's raining?",
+            "correct_answer": "Karen Smith",
+            "incorrect_answers": [
+                [
+                    "Gretchen Weiners",
+                    "gretchen weiners"
+                ],
+                [
+                    "Janice Ian",
+                    "janice ian"
+                ],
+                [
+                    "Cady Heron",
+                    "cady heron"
+                ]
+            ],
+            "correct_answers": [
+                "Karen Smith",
+                "karen smith"
+            ],
+            "options": [
+                "Gretchen Weiners",
+                "Janice Ian",
+                "Cady Heron",
+                "Karen Smith"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Kanye West's &quot;Gold Digger&quot; featured which Oscar-winning actor?",
+            "correct_answer": "Jamie Foxx",
+            "incorrect_answers": [
+                [
+                    "Alec Baldwin",
+                    "alec baldwin"
+                ],
+                [
+                    "Dwayne Johnson",
+                    "dwayne johnson"
+                ],
+                [
+                    " Bruce Willis",
+                    " bruce willis"
+                ]
+            ],
+            "correct_answers": [
+                "Jamie Foxx",
+                "jamie foxx"
+            ],
+            "options": [
+                "Alec Baldwin",
+                "Dwayne Johnson",
+                " Bruce Willis",
+                "Jamie Foxx"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song &quot;Paper Planes&quot;?",
+            "correct_answer": "M.I.A.",
+            "incorrect_answers": [
+                [
+                    "K.I.A.",
+                    "k.i.a."
+                ],
+                [
+                    "C.I.A.",
+                    "c.i.a."
+                ],
+                [
+                    "A.I.A.",
+                    "a.i.a."
+                ]
+            ],
+            "correct_answers": [
+                "M.I.A.",
+                "m.i.a."
+            ],
+            "options": [
+                "K.I.A.",
+                "C.I.A.",
+                "A.I.A.",
+                "M.I.A."
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which music publication is often abbreviated to NME?",
+            "correct_answer": "New Musical Express",
+            "incorrect_answers": [
+                [
+                    "New Metro Entertainment",
+                    "new metro entertainment"
+                ],
+                [
+                    "Next Musical Enterprise",
+                    "next musical enterprise"
+                ],
+                [
+                    "North Manchester Express",
+                    "north manchester express"
+                ]
+            ],
+            "correct_answers": [
+                "New Musical Express",
+                "new musical express"
+            ],
+            "options": [
+                "New Metro Entertainment",
+                "Next Musical Enterprise",
+                "North Manchester Express",
+                "New Musical Express"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;Grande Valse&quot; is a phrase from the song &quot;Gran Vals&quot;. What is that song segment known as?",
+            "correct_answer": "Nokia Tune",
+            "incorrect_answers": [
+                [
+                    "Hello Moto [Motorola Ringtone]",
+                    "hello moto [motorola ringtone]"
+                ],
+                [
+                    "Droid Ringtone",
+                    "droid ringtone"
+                ],
+                [
+                    "Microsoft Ringtone",
+                    "microsoft ringtone"
+                ]
+            ],
+            "correct_answers": [
+                "Nokia Tune",
+                "nokia tune"
+            ],
+            "options": [
+                "Hello Moto [Motorola Ringtone]",
+                "Droid Ringtone",
+                "Microsoft Ringtone",
+                "Nokia Tune"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                [
+                    "19",
+                    "19"
+                ],
+                [
+                    "21",
+                    "21"
+                ],
+                [
+                    "25",
+                    "25"
+                ]
+            ],
+            "correct_answers": [
+                "12",
+                "12"
+            ],
+            "options": [
+                "19",
+                "21",
+                "25",
+                "12"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these is the name of a song by Tears for Fears?",
+            "correct_answer": "Shout",
+            "incorrect_answers": [
+                [
+                    "Scream",
+                    "scream"
+                ],
+                [
+                    "Yell",
+                    "yell"
+                ],
+                [
+                    "Shriek",
+                    "shriek"
+                ]
+            ],
+            "correct_answers": [
+                "Shout",
+                "shout"
+            ],
+            "options": [
+                "Scream",
+                "Yell",
+                "Shriek",
+                "Shout"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is not a wind instrument?",
+            "correct_answer": "Viola",
+            "incorrect_answers": [
+                [
+                    "Oboe",
+                    "oboe"
+                ],
+                [
+                    "Trombone",
+                    "trombone"
+                ],
+                [
+                    "Duduk",
+                    "duduk"
+                ]
+            ],
+            "correct_answers": [
+                "Viola",
+                "viola"
+            ],
+            "options": [
+                "Oboe",
+                "Trombone",
+                "Duduk",
+                "Viola"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?",
+            "correct_answer": "Blonde",
+            "incorrect_answers": [
+                [
+                    "Brunette",
+                    "brunette"
+                ],
+                [
+                    "Black",
+                    "black"
+                ],
+                [
+                    "Burgundy",
+                    "burgundy"
+                ]
+            ],
+            "correct_answers": [
+                "Blonde",
+                "blonde"
+            ],
+            "options": [
+                "Brunette",
+                "Black",
+                "Burgundy",
+                "Blonde"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of Rivers Cuomo's wife?",
+            "correct_answer": "Kyoko Ito",
+            "incorrect_answers": [
+                [
+                    "Yoko Ono",
+                    "yoko ono"
+                ],
+                [
+                    "Kyary Pamyu Pamyu",
+                    "kyary pamyu pamyu"
+                ],
+                [
+                    "LiSA",
+                    "lisa"
+                ]
+            ],
+            "correct_answers": [
+                "Kyoko Ito",
+                "kyoko ito"
+            ],
+            "options": [
+                "Yoko Ono",
+                "Kyary Pamyu Pamyu",
+                "LiSA",
+                "Kyoko Ito"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which year was the album &quot;Year of the Snitch&quot; by Death Grips released?",
+            "correct_answer": "2018",
+            "incorrect_answers": [
+                [
+                    "2013",
+                    "2013"
+                ],
+                [
+                    "2017",
+                    "2017"
+                ],
+                [
+                    "2011",
+                    "2011"
+                ]
+            ],
+            "correct_answers": [
+                "2018",
+                "2018"
+            ],
+            "options": [
+                "2013",
+                "2017",
+                "2011",
+                "2018"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which band released songs suchs as &quot;Rio&quot;, &quot;Girls on Film&quot;, and &quot;The Reflex&quot;?",
+            "correct_answer": "Duran Duran",
+            "incorrect_answers": [
+                [
+                    "The Cure",
+                    "the cure",
+                    "cure"
+                ],
+                [
+                    "New Order",
+                    "new order"
+                ],
+                [
+                    "Depeche Mode",
+                    "depeche mode"
+                ]
+            ],
+            "correct_answers": [
+                "Duran Duran",
+                "duran duran"
+            ],
+            "options": [
+                "The Cure",
+                "New Order",
+                "Depeche Mode",
+                "Duran Duran"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In an orchestra, what is the lowest member of the brass family?",
+            "correct_answer": "Tuba",
+            "incorrect_answers": [
+                [
+                    "Trombone",
+                    "trombone"
+                ],
+                [
+                    "Contrabass",
+                    "contrabass"
+                ],
+                [
+                    "Bassoon",
+                    "bassoon"
+                ]
+            ],
+            "correct_answers": [
+                "Tuba",
+                "tuba"
+            ],
+            "options": [
+                "Trombone",
+                "Contrabass",
+                "Bassoon",
+                "Tuba"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which former boy-band star released hit solo single &quot;Angels&quot; in 1997?",
+            "correct_answer": "Robbie Williams",
+            "incorrect_answers": [
+                [
+                    "Justin Timberlake",
+                    "justin timberlake"
+                ],
+                [
+                    "Harry Styles",
+                    "harry styles"
+                ],
+                [
+                    "Gary Barlow",
+                    "gary barlow"
+                ]
+            ],
+            "correct_answers": [
+                "Robbie Williams",
+                "robbie williams"
+            ],
+            "options": [
+                "Justin Timberlake",
+                "Harry Styles",
+                "Gary Barlow",
+                "Robbie Williams"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which rap group released the album &quot;Straight Outta Compton&quot;?",
+            "correct_answer": "N.W.A",
+            "incorrect_answers": [
+                [
+                    "Wu-Tang Clan",
+                    "wu-tang clan"
+                ],
+                [
+                    "Run-D.M.C.",
+                    "run-d.m.c."
+                ],
+                [
+                    "Beastie Boys",
+                    "beastie boys"
+                ]
+            ],
+            "correct_answers": [
+                "N.W.A",
+                "n.w.a"
+            ],
+            "options": [
+                "Wu-Tang Clan",
+                "Run-D.M.C.",
+                "Beastie Boys",
+                "N.W.A"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who was featured in the song &quot;Words&quot; by Feint? ",
+            "correct_answer": "Laura Brehm",
+            "incorrect_answers": [
+                [
+                    "Anna Yvette ",
+                    "anna yvette "
+                ],
+                [
+                    "Danyka Nadeau",
+                    "danyka nadeau"
+                ],
+                [
+                    "Veela",
+                    "veela"
+                ]
+            ],
+            "correct_answers": [
+                "Laura Brehm",
+                "laura brehm"
+            ],
+            "options": [
+                "Anna Yvette ",
+                "Danyka Nadeau",
+                "Veela",
+                "Laura Brehm"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Daft Punk's first studio album?",
+            "correct_answer": "Homework",
+            "incorrect_answers": [
+                [
+                    "Discovery",
+                    "discovery"
+                ],
+                [
+                    "Random Access Memories",
+                    "random access memories"
+                ],
+                [
+                    "Human After All",
+                    "human after all"
+                ]
+            ],
+            "correct_answers": [
+                "Homework",
+                "homework"
+            ],
+            "options": [
+                "Discovery",
+                "Random Access Memories",
+                "Human After All",
+                "Homework"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the frontman's name of the metal band Megadeth?",
+            "correct_answer": "Dave Mustaine",
+            "incorrect_answers": [
+                [
+                    "Rob Halford",
+                    "rob halford"
+                ],
+                [
+                    "Vince Neil",
+                    "vince neil"
+                ],
+                [
+                    "James Hetfield",
+                    "james hetfield"
+                ]
+            ],
+            "correct_answers": [
+                "Dave Mustaine",
+                "dave mustaine"
+            ],
+            "options": [
+                "Rob Halford",
+                "Vince Neil",
+                "James Hetfield",
+                "Dave Mustaine"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?",
+            "correct_answer": "Prince",
+            "incorrect_answers": [
+                [
+                    "Michael Jackson",
+                    "michael jackson"
+                ],
+                [
+                    "Cameo",
+                    "cameo"
+                ],
+                [
+                    "Rick James",
+                    "rick james"
+                ]
+            ],
+            "correct_answers": [
+                "Prince",
+                "prince"
+            ],
+            "options": [
+                "Michael Jackson",
+                "Cameo",
+                "Rick James",
+                "Prince"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which country does the band Rammstein hail from?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                [
+                    "Austria",
+                    "austria"
+                ],
+                [
+                    "Armenia",
+                    "armenia"
+                ],
+                [
+                    "Belgium",
+                    "belgium"
+                ]
+            ],
+            "correct_answers": [
+                "Germany",
+                "germany"
+            ],
+            "options": [
+                "Austria",
+                "Armenia",
+                "Belgium",
+                "Germany"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which classical composer wrote the &quot;Moonlight Sonata&quot;?",
+            "correct_answer": "Ludvig Van Beethoven",
+            "incorrect_answers": [
+                [
+                    "Chief Keef",
+                    "chief keef"
+                ],
+                [
+                    "Wolfgang Amadeus Mozart",
+                    "wolfgang amadeus mozart"
+                ],
+                [
+                    "Johannes Brahms",
+                    "johannes brahms"
+                ]
+            ],
+            "correct_answers": [
+                "Ludvig Van Beethoven",
+                "ludvig van beethoven"
+            ],
+            "options": [
+                "Chief Keef",
+                "Wolfgang Amadeus Mozart",
+                "Johannes Brahms",
+                "Ludvig Van Beethoven"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who had a 1969 top 5 hit with the song,  'A Boy Named Sue'?",
+            "correct_answer": "Johnny Cash",
+            "incorrect_answers": [
+                [
+                    "Bob Dylan",
+                    "bob dylan"
+                ],
+                [
+                    "Willie Nelson",
+                    "willie nelson"
+                ],
+                [
+                    "Kris Kristofferson",
+                    "kris kristofferson"
+                ]
+            ],
+            "correct_answers": [
+                "Johnny Cash",
+                "johnny cash"
+            ],
+            "options": [
+                "Bob Dylan",
+                "Willie Nelson",
+                "Kris Kristofferson",
+                "Johnny Cash"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who performed &quot;I Took A Pill In Ibiza&quot;?",
+            "correct_answer": "Mike Posner",
+            "incorrect_answers": [
+                [
+                    "Avicii",
+                    "avicii"
+                ],
+                [
+                    "Robbie Williams",
+                    "robbie williams"
+                ],
+                [
+                    "Harry Styles",
+                    "harry styles"
+                ]
+            ],
+            "correct_answers": [
+                "Mike Posner",
+                "mike posner"
+            ],
+            "options": [
+                "Avicii",
+                "Robbie Williams",
+                "Harry Styles",
+                "Mike Posner"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which punk rock band released hit songs such as &quot;Californication&quot;, &quot;Can't Stop&quot; and &quot;Under the Bridge&quot;?",
+            "correct_answer": "Red Hot Chilli Peppers",
+            "incorrect_answers": [
+                [
+                    "Green Day",
+                    "green day"
+                ],
+                [
+                    "Linkin Park",
+                    "linkin park"
+                ],
+                [
+                    "Foo Fighters",
+                    "foo fighters"
+                ]
+            ],
+            "correct_answers": [
+                "Red Hot Chilli Peppers",
+                "red hot chilli peppers"
+            ],
+            "options": [
+                "Green Day",
+                "Linkin Park",
+                "Foo Fighters",
+                "Red Hot Chilli Peppers"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What 1970's American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
+            "correct_answer": "American Pie",
+            "incorrect_answers": [
+                [
+                    "Kentucky Rain",
+                    "kentucky rain"
+                ],
+                [
+                    "I Will Always Love You",
+                    "i will always love you"
+                ],
+                [
+                    "Rock 'n' Roll Suicide",
+                    "rock 'n' roll suicide",
+                    "rock n roll suicide"
+                ]
+            ],
+            "correct_answers": [
+                "American Pie",
+                "american pie"
+            ],
+            "options": [
+                "Kentucky Rain",
+                "I Will Always Love You",
+                "Rock 'n' Roll Suicide",
+                "American Pie"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the lead singer of Arctic Monkeys?",
+            "correct_answer": "Alex Turner",
+            "incorrect_answers": [
+                [
+                    "Jamie Cook",
+                    "jamie cook"
+                ],
+                [
+                    "Matt Helders",
+                    "matt helders"
+                ],
+                [
+                    "Nick O'Malley",
+                    "nick o'malley",
+                    "nick omalley"
+                ]
+            ],
+            "correct_answers": [
+                "Alex Turner",
+                "alex turner"
+            ],
+            "options": [
+                "Jamie Cook",
+                "Matt Helders",
+                "Nick O'Malley",
+                "Alex Turner"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the best selling album of 2015?",
+            "correct_answer": "Adele, 25",
+            "incorrect_answers": [
+                [
+                    "Fetty Wap, Fetty Wap",
+                    "fetty wap, fetty wap"
+                ],
+                [
+                    "Taylor Swift, 1989",
+                    "taylor swift, 1989"
+                ],
+                [
+                    "Justin Bieber, Purpose",
+                    "justin bieber, purpose"
+                ]
+            ],
+            "correct_answers": [
+                "Adele, 25",
+                "adele, 25"
+            ],
+            "options": [
+                "Fetty Wap, Fetty Wap",
+                "Taylor Swift, 1989",
+                "Justin Bieber, Purpose",
+                "Adele, 25"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the lead singer of Pearl Jam?",
+            "correct_answer": "Eddie Vedder",
+            "incorrect_answers": [
+                [
+                    "Ozzy Osbourne",
+                    "ozzy osbourne"
+                ],
+                [
+                    "Stone Gossard",
+                    "stone gossard"
+                ],
+                [
+                    "Kurt Cobain",
+                    "kurt cobain"
+                ]
+            ],
+            "correct_answers": [
+                "Eddie Vedder",
+                "eddie vedder"
+            ],
+            "options": [
+                "Ozzy Osbourne",
+                "Stone Gossard",
+                "Kurt Cobain",
+                "Eddie Vedder"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Nirvana album had a naked baby on the cover?",
+            "correct_answer": "Nevermind",
+            "incorrect_answers": [
+                [
+                    "Bleach",
+                    "bleach"
+                ],
+                [
+                    "In Utero",
+                    "in utero"
+                ],
+                [
+                    "Incesticide",
+                    "incesticide"
+                ]
+            ],
+            "correct_answers": [
+                "Nevermind",
+                "nevermind"
+            ],
+            "options": [
+                "Bleach",
+                "In Utero",
+                "Incesticide",
+                "Nevermind"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Rush song &quot;YYZ&quot; derives its name from the IATA aiport identification code for which city?",
+            "correct_answer": "Toronto",
+            "incorrect_answers": [
+                [
+                    "Vancouver",
+                    "vancouver"
+                ],
+                [
+                    "Ottawa",
+                    "ottawa"
+                ],
+                [
+                    "Calgary",
+                    "calgary"
+                ]
+            ],
+            "correct_answers": [
+                "Toronto",
+                "toronto"
+            ],
+            "options": [
+                "Vancouver",
+                "Ottawa",
+                "Calgary",
+                "Toronto"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which famous rapper is featured in Jack &Uuml; (Skrillex and Diplo)'s 2015 single called &quot;Febreze&quot;?",
+            "correct_answer": "2 Chainz",
+            "incorrect_answers": [
+                [
+                    "Kendrick Lamar",
+                    "kendrick lamar"
+                ],
+                [
+                    "Future",
+                    "future"
+                ],
+                [
+                    "Fatman Scoop",
+                    "fatman scoop"
+                ]
+            ],
+            "correct_answers": [
+                "2 Chainz",
+                "2 chainz"
+            ],
+            "options": [
+                "Kendrick Lamar",
+                "Future",
+                "Fatman Scoop",
+                "2 Chainz"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many strings are there on a cello?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                [
+                    "5",
+                    "5"
+                ],
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "8",
+                    "8"
+                ]
+            ],
+            "correct_answers": [
+                "4",
+                "4"
+            ],
+            "options": [
+                "5",
+                "6",
+                "8",
+                "4"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Where does the Mac part of the name Fleetwood Mac come from?",
+            "correct_answer": "John McVie",
+            "incorrect_answers": [
+                [
+                    "Christine McVie",
+                    "christine mcvie"
+                ],
+                [
+                    "Mac McAnally",
+                    "mac mcanally"
+                ],
+                [
+                    "David Tennant",
+                    "david tennant"
+                ]
+            ],
+            "correct_answers": [
+                "John McVie",
+                "john mcvie"
+            ],
+            "options": [
+                "Christine McVie",
+                "Mac McAnally",
+                "David Tennant",
+                "John McVie"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
+            "correct_answer": "Korean",
+            "incorrect_answers": [
+                [
+                    "Kenyan",
+                    "kenyan"
+                ],
+                [
+                    "Kazakhstan",
+                    "kazakhstan"
+                ],
+                [
+                    "Kuwaiti",
+                    "kuwaiti"
+                ]
+            ],
+            "correct_answers": [
+                "Korean",
+                "korean"
+            ],
+            "options": [
+                "Kenyan",
+                "Kazakhstan",
+                "Kuwaiti",
+                "Korean"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following is not a studio album by the band Pink Floyd?",
+            "correct_answer": "Moving Pictures",
+            "incorrect_answers": [
+                [
+                    "The Dark Side of the Moon",
+                    "the dark side of the moon",
+                    "dark side of moon"
+                ],
+                [
+                    "Wish You Were Here",
+                    "wish you were here"
+                ],
+                [
+                    "Animals",
+                    "animals"
+                ]
+            ],
+            "correct_answers": [
+                "Moving Pictures",
+                "moving pictures"
+            ],
+            "options": [
+                "The Dark Side of the Moon",
+                "Wish You Were Here",
+                "Animals",
+                "Moving Pictures"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the lead singer of the band Coldplay?",
+            "correct_answer": "Chris Martin",
+            "incorrect_answers": [
+                [
+                    "Chris Isaak",
+                    "chris isaak"
+                ],
+                [
+                    "Chris Wallace",
+                    "chris wallace"
+                ],
+                [
+                    "Chris Connelly",
+                    "chris connelly"
+                ]
+            ],
+            "correct_answers": [
+                "Chris Martin",
+                "chris martin"
+            ],
+            "options": [
+                "Chris Isaak",
+                "Chris Wallace",
+                "Chris Connelly",
+                "Chris Martin"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which one of these songs did the group &quot;Men At Work&quot; NOT make?",
+            "correct_answer": "Safety Dance",
+            "incorrect_answers": [
+                [
+                    "Down Under",
+                    "down under"
+                ],
+                [
+                    "Who Can It Be Now?",
+                    "who can it be now?"
+                ],
+                [
+                    "It's a Mistake",
+                    "it's a mistake",
+                    "its a mistake"
+                ]
+            ],
+            "correct_answers": [
+                "Safety Dance",
+                "safety dance"
+            ],
+            "options": [
+                "Down Under",
+                "Who Can It Be Now?",
+                "It's a Mistake",
+                "Safety Dance"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "From which country did the song &quot;Gangnam Style&quot; originate from?",
+            "correct_answer": "South Korea",
+            "incorrect_answers": [
+                [
+                    "Japan",
+                    "japan"
+                ],
+                [
+                    "North Korea",
+                    "north korea"
+                ],
+                [
+                    "China",
+                    "china"
+                ]
+            ],
+            "correct_answers": [
+                "South Korea",
+                "south korea"
+            ],
+            "options": [
+                "Japan",
+                "North Korea",
+                "China",
+                "South Korea"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which group performs the song &quot;Crash into Me&quot;?",
+            "correct_answer": "Dave Matthews Band",
+            "incorrect_answers": [
+                [
+                    "Phish",
+                    "phish"
+                ],
+                [
+                    "The Grateful Dead",
+                    "the grateful dead",
+                    "grateful dead"
+                ],
+                [
+                    "Destiny's Child",
+                    "destiny's child",
+                    "destinys child"
+                ]
+            ],
+            "correct_answers": [
+                "Dave Matthews Band",
+                "dave matthews band"
+            ],
+            "options": [
+                "Phish",
+                "The Grateful Dead",
+                "Destiny's Child",
+                "Dave Matthews Band"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which brass instrument has the lowest pitch in an orchestra?",
+            "correct_answer": "Tuba",
+            "incorrect_answers": [
+                [
+                    "Trumpet",
+                    "trumpet"
+                ],
+                [
+                    "Saxophone",
+                    "saxophone"
+                ],
+                [
+                    "Trombone",
+                    "trombone"
+                ]
+            ],
+            "correct_answers": [
+                "Tuba",
+                "tuba"
+            ],
+            "options": [
+                "Trumpet",
+                "Saxophone",
+                "Trombone",
+                "Tuba"
+            ]
+        },
+        {
+            "category": "Entertainment: Music",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;Doctor Jones&quot;, &quot;Turn Back Time&quot; and &quot;Barbie Girl&quot; were UK number ones for which Eurodance group?",
+            "correct_answer": "Aqua",
+            "incorrect_answers": [
+                [
+                    "Vengaboys",
+                    "vengaboys"
+                ],
+                [
+                    "Eiffel 65",
+                    "eiffel 65"
+                ],
+                [
+                    "Sash!",
+                    "sash!"
+                ]
+            ],
+            "correct_answers": [
+                "Aqua",
+                "aqua"
+            ],
+            "options": [
+                "Vengaboys",
+                "Eiffel 65",
+                "Sash!",
+                "Aqua"
+            ]
+        }
+    ]
+}

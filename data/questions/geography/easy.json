@@ -1,0 +1,1901 @@
+{
+    "questions": [
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of Indonesia?",
+            "correct_answer": "Jakarta",
+            "incorrect_answers": [
+                [
+                    "Bandung",
+                    "bandung"
+                ],
+                [
+                    "Medan",
+                    "medan"
+                ],
+                [
+                    "Palembang",
+                    "palembang"
+                ]
+            ],
+            "correct_answers": [
+                "Jakarta",
+                "jakarta"
+            ],
+            "options": [
+                "Bandung",
+                "Medan",
+                "Palembang",
+                "Jakarta"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the 15th letter of the Greek alphabet?",
+            "correct_answer": "Omicron (&Omicron;)",
+            "incorrect_answers": [
+                [
+                    "Sigma (&Sigma;)",
+                    "sigma (&sigma;)"
+                ],
+                [
+                    "Pi (&Pi;)",
+                    "pi (&pi;)"
+                ],
+                [
+                    "Nu (&Nu;)",
+                    "nu (&nu;)"
+                ]
+            ],
+            "correct_answers": [
+                "Omicron (&Omicron;)",
+                "omicron (&omicron;)"
+            ],
+            "options": [
+                "Sigma (&Sigma;)",
+                "Pi (&Pi;)",
+                "Nu (&Nu;)",
+                "Omicron (&Omicron;)"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following languages does NOT use the Latin alphabet?",
+            "correct_answer": "Georgian",
+            "incorrect_answers": [
+                [
+                    "Turkish",
+                    "turkish"
+                ],
+                [
+                    "Swahili",
+                    "swahili"
+                ],
+                [
+                    "Vietnamese",
+                    "vietnamese"
+                ]
+            ],
+            "correct_answers": [
+                "Georgian",
+                "georgian"
+            ],
+            "options": [
+                "Turkish",
+                "Swahili",
+                "Vietnamese",
+                "Georgian"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many time zones does China have?",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "4",
+                    "4"
+                ],
+                [
+                    "2",
+                    "2"
+                ]
+            ],
+            "correct_answers": [
+                "1",
+                "1"
+            ],
+            "options": [
+                "3",
+                "4",
+                "2",
+                "1"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many countries does the United States share a land border with?",
+            "correct_answer": "2",
+            "incorrect_answers": [
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "4",
+                    "4"
+                ]
+            ],
+            "correct_answers": [
+                "2",
+                "2"
+            ],
+            "options": [
+                "1",
+                "3",
+                "4",
+                "2"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which ocean borders the west coast of the United States?",
+            "correct_answer": "Pacific",
+            "incorrect_answers": [
+                [
+                    "Atlantic",
+                    "atlantic"
+                ],
+                [
+                    "Indian",
+                    "indian"
+                ],
+                [
+                    "Arctic",
+                    "arctic"
+                ]
+            ],
+            "correct_answers": [
+                "Pacific",
+                "pacific"
+            ],
+            "options": [
+                "Atlantic",
+                "Indian",
+                "Arctic",
+                "Pacific"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the official language of Costa Rica?",
+            "correct_answer": "Spanish",
+            "incorrect_answers": [
+                [
+                    "English",
+                    "english"
+                ],
+                [
+                    "Portuguese",
+                    "portuguese"
+                ],
+                [
+                    "Creole",
+                    "creole"
+                ]
+            ],
+            "correct_answers": [
+                "Spanish",
+                "spanish"
+            ],
+            "options": [
+                "English",
+                "Portuguese",
+                "Creole",
+                "Spanish"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these is the name of the largest city in the US state Tennessee?",
+            "correct_answer": "Memphis",
+            "incorrect_answers": [
+                [
+                    "Thebes",
+                    "thebes"
+                ],
+                [
+                    "Alexandria",
+                    "alexandria"
+                ],
+                [
+                    "Luxor",
+                    "luxor"
+                ]
+            ],
+            "correct_answers": [
+                "Memphis",
+                "memphis"
+            ],
+            "options": [
+                "Thebes",
+                "Alexandria",
+                "Luxor",
+                "Memphis"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of the US State of New York?",
+            "correct_answer": "Albany",
+            "incorrect_answers": [
+                [
+                    "Buffalo",
+                    "buffalo"
+                ],
+                [
+                    "New York",
+                    "new york"
+                ],
+                [
+                    "Rochester",
+                    "rochester"
+                ]
+            ],
+            "correct_answers": [
+                "Albany",
+                "albany"
+            ],
+            "options": [
+                "Buffalo",
+                "New York",
+                "Rochester",
+                "Albany"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Harvard University is located in which city?",
+            "correct_answer": "Cambridge",
+            "incorrect_answers": [
+                [
+                    "Providence",
+                    "providence"
+                ],
+                [
+                    "New York",
+                    "new york"
+                ],
+                [
+                    "Washington D.C.",
+                    "washington d.c."
+                ]
+            ],
+            "correct_answers": [
+                "Cambridge",
+                "cambridge"
+            ],
+            "options": [
+                "Providence",
+                "New York",
+                "Washington D.C.",
+                "Cambridge"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which city is the capital of the United States of America?",
+            "correct_answer": "Washington D.C",
+            "incorrect_answers": [
+                [
+                    "Seattle",
+                    "seattle"
+                ],
+                [
+                    "Albany",
+                    "albany"
+                ],
+                [
+                    "Los Angeles",
+                    "los angeles"
+                ]
+            ],
+            "correct_answers": [
+                "Washington D.C",
+                "washington d.c"
+            ],
+            "options": [
+                "Seattle",
+                "Albany",
+                "Los Angeles",
+                "Washington D.C"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these is NOT an Australian state or territory?",
+            "correct_answer": "Alberta",
+            "incorrect_answers": [
+                [
+                    "New South Wales",
+                    "new south wales"
+                ],
+                [
+                    "Victoria",
+                    "victoria"
+                ],
+                [
+                    "Queensland",
+                    "queensland"
+                ]
+            ],
+            "correct_answers": [
+                "Alberta",
+                "alberta"
+            ],
+            "options": [
+                "New South Wales",
+                "Victoria",
+                "Queensland",
+                "Alberta"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of Denmark?",
+            "correct_answer": "Copenhagen",
+            "incorrect_answers": [
+                [
+                    "Aarhus",
+                    "aarhus"
+                ],
+                [
+                    "Odense",
+                    "odense"
+                ],
+                [
+                    "Aalborg",
+                    "aalborg"
+                ]
+            ],
+            "correct_answers": [
+                "Copenhagen",
+                "copenhagen"
+            ],
+            "options": [
+                "Aarhus",
+                "Odense",
+                "Aalborg",
+                "Copenhagen"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is Canada's smallest province?",
+            "correct_answer": "Prince Edward Island",
+            "incorrect_answers": [
+                [
+                    "New Brunswick",
+                    "new brunswick"
+                ],
+                [
+                    "Nova Scotia",
+                    "nova scotia"
+                ],
+                [
+                    "Yukon",
+                    "yukon"
+                ]
+            ],
+            "correct_answers": [
+                "Prince Edward Island",
+                "prince edward island"
+            ],
+            "options": [
+                "New Brunswick",
+                "Nova Scotia",
+                "Yukon",
+                "Prince Edward Island"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many countries does Mexico border?",
+            "correct_answer": "3",
+            "incorrect_answers": [
+                [
+                    "2",
+                    "2"
+                ],
+                [
+                    "4",
+                    "4"
+                ],
+                [
+                    "1",
+                    "1"
+                ]
+            ],
+            "correct_answers": [
+                "3",
+                "3"
+            ],
+            "options": [
+                "2",
+                "4",
+                "1",
+                "3"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The longest shared border in the world can be found between which two nations?",
+            "correct_answer": "Canada and the United States",
+            "incorrect_answers": [
+                [
+                    "Chile and Argentina",
+                    "chile and argentina"
+                ],
+                [
+                    "Russia and China",
+                    "russia and china"
+                ],
+                [
+                    "India and Pakistan",
+                    "india and pakistan"
+                ]
+            ],
+            "correct_answers": [
+                "Canada and the United States",
+                "canada and the united states",
+                "canada and united states"
+            ],
+            "options": [
+                "Chile and Argentina",
+                "Russia and China",
+                "India and Pakistan",
+                "Canada and the United States"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of India?",
+            "correct_answer": "New Delhi",
+            "incorrect_answers": [
+                [
+                    "Bejing",
+                    "bejing"
+                ],
+                [
+                    "Montreal",
+                    "montreal"
+                ],
+                [
+                    "Tithi",
+                    "tithi"
+                ]
+            ],
+            "correct_answers": [
+                "New Delhi",
+                "new delhi"
+            ],
+            "options": [
+                "Bejing",
+                "Montreal",
+                "Tithi",
+                "New Delhi"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following former Yugoslavian states is landlocked?",
+            "correct_answer": "Serbia",
+            "incorrect_answers": [
+                [
+                    "Bosnia and Herzegovina",
+                    "bosnia and herzegovina"
+                ],
+                [
+                    "Montenegro",
+                    "montenegro"
+                ],
+                [
+                    "Croatia",
+                    "croatia"
+                ]
+            ],
+            "correct_answers": [
+                "Serbia",
+                "serbia"
+            ],
+            "options": [
+                "Bosnia and Herzegovina",
+                "Montenegro",
+                "Croatia",
+                "Serbia"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The body of the Egyptian Sphinx was based on which animal?",
+            "correct_answer": "Lion",
+            "incorrect_answers": [
+                [
+                    "Bull",
+                    "bull"
+                ],
+                [
+                    "Horse",
+                    "horse"
+                ],
+                [
+                    "Dog",
+                    "dog"
+                ]
+            ],
+            "correct_answers": [
+                "Lion",
+                "lion"
+            ],
+            "options": [
+                "Bull",
+                "Horse",
+                "Dog",
+                "Lion"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What country is the second largest in the world by area?",
+            "correct_answer": "Canada",
+            "incorrect_answers": [
+                [
+                    "Russia",
+                    "russia"
+                ],
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "United States of America",
+                    "united states of america"
+                ]
+            ],
+            "correct_answers": [
+                "Canada",
+                "canada"
+            ],
+            "options": [
+                "Russia",
+                "China",
+                "United States of America",
+                "Canada"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which UK country features a dragon on their flag?",
+            "correct_answer": "Wales",
+            "incorrect_answers": [
+                [
+                    "England",
+                    "england"
+                ],
+                [
+                    "North Ireland",
+                    "north ireland"
+                ],
+                [
+                    "Scotland",
+                    "scotland"
+                ]
+            ],
+            "correct_answers": [
+                "Wales",
+                "wales"
+            ],
+            "options": [
+                "England",
+                "North Ireland",
+                "Scotland",
+                "Wales"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of the American state of Arizona?",
+            "correct_answer": "Phoenix",
+            "incorrect_answers": [
+                [
+                    "Montgomery",
+                    "montgomery"
+                ],
+                [
+                    "Tallahassee",
+                    "tallahassee"
+                ],
+                [
+                    "Raleigh",
+                    "raleigh"
+                ]
+            ],
+            "correct_answers": [
+                "Phoenix",
+                "phoenix"
+            ],
+            "options": [
+                "Montgomery",
+                "Tallahassee",
+                "Raleigh",
+                "Phoenix"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many federal states does Germany have?",
+            "correct_answer": "16",
+            "incorrect_answers": [
+                [
+                    "13",
+                    "13"
+                ],
+                [
+                    "32",
+                    "32"
+                ],
+                [
+                    "25",
+                    "25"
+                ]
+            ],
+            "correct_answers": [
+                "16",
+                "16"
+            ],
+            "options": [
+                "13",
+                "32",
+                "25",
+                "16"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?",
+            "correct_answer": "Sri Lanka",
+            "incorrect_answers": [
+                [
+                    "Kiribati",
+                    "kiribati"
+                ],
+                [
+                    "Scotland",
+                    "scotland"
+                ],
+                [
+                    "Bhutan",
+                    "bhutan"
+                ]
+            ],
+            "correct_answers": [
+                "Sri Lanka",
+                "sri lanka"
+            ],
+            "options": [
+                "Kiribati",
+                "Scotland",
+                "Bhutan",
+                "Sri Lanka"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Where would you find the &quot;Spanish Steps&quot;?",
+            "correct_answer": "Rome, Italy",
+            "incorrect_answers": [
+                [
+                    "Barcelona, Spain",
+                    "barcelona, spain"
+                ],
+                [
+                    "Berlin, Germany",
+                    "berlin, germany"
+                ],
+                [
+                    "London, England",
+                    "london, england"
+                ]
+            ],
+            "correct_answers": [
+                "Rome, Italy",
+                "rome, italy"
+            ],
+            "options": [
+                "Barcelona, Spain",
+                "Berlin, Germany",
+                "London, England",
+                "Rome, Italy"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Greenland is a part of which kingdom?",
+            "correct_answer": "Denmark",
+            "incorrect_answers": [
+                [
+                    "Sweden",
+                    "sweden"
+                ],
+                [
+                    "Norway",
+                    "norway"
+                ],
+                [
+                    "United Kingdom",
+                    "united kingdom"
+                ]
+            ],
+            "correct_answers": [
+                "Denmark",
+                "denmark"
+            ],
+            "options": [
+                "Sweden",
+                "Norway",
+                "United Kingdom",
+                "Denmark"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What state is the largest state of the United States of America?",
+            "correct_answer": "Alaska",
+            "incorrect_answers": [
+                [
+                    "California",
+                    "california"
+                ],
+                [
+                    "Texas",
+                    "texas"
+                ],
+                [
+                    "Washington",
+                    "washington"
+                ]
+            ],
+            "correct_answers": [
+                "Alaska",
+                "alaska"
+            ],
+            "options": [
+                "California",
+                "Texas",
+                "Washington",
+                "Alaska"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the peninsula containing Spain and Portugal?",
+            "correct_answer": "Iberian Peninsula",
+            "incorrect_answers": [
+                [
+                    "European Peninsula",
+                    "european peninsula"
+                ],
+                [
+                    "Peloponnesian Peninsula",
+                    "peloponnesian peninsula"
+                ],
+                [
+                    "Scandinavian Peninsula",
+                    "scandinavian peninsula"
+                ]
+            ],
+            "correct_answers": [
+                "Iberian Peninsula",
+                "iberian peninsula"
+            ],
+            "options": [
+                "European Peninsula",
+                "Peloponnesian Peninsula",
+                "Scandinavian Peninsula",
+                "Iberian Peninsula"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "If soccer is called football in England, what is American football called in England?",
+            "correct_answer": "American football",
+            "incorrect_answers": [
+                [
+                    "Combball",
+                    "combball"
+                ],
+                [
+                    "Handball",
+                    "handball"
+                ],
+                [
+                    "Touchdown",
+                    "touchdown"
+                ]
+            ],
+            "correct_answers": [
+                "American football",
+                "american football"
+            ],
+            "options": [
+                "Combball",
+                "Handball",
+                "Touchdown",
+                "American football"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?",
+            "correct_answer": "Qatar",
+            "incorrect_answers": [
+                [
+                    "Kuwait",
+                    "kuwait"
+                ],
+                [
+                    "United Arab Emirates",
+                    "united arab emirates"
+                ],
+                [
+                    "Jordan",
+                    "jordan"
+                ]
+            ],
+            "correct_answers": [
+                "Qatar",
+                "qatar"
+            ],
+            "options": [
+                "Kuwait",
+                "United Arab Emirates",
+                "Jordan",
+                "Qatar"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which small country is located between the borders of France and Spain?",
+            "correct_answer": "Andorra",
+            "incorrect_answers": [
+                [
+                    "San Marino",
+                    "san marino"
+                ],
+                [
+                    "Vatican City",
+                    "vatican city"
+                ],
+                [
+                    "Lichtenstein",
+                    "lichtenstein"
+                ]
+            ],
+            "correct_answers": [
+                "Andorra",
+                "andorra"
+            ],
+            "options": [
+                "San Marino",
+                "Vatican City",
+                "Lichtenstein",
+                "Andorra"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+            "correct_answer": "Equatorial Guinea",
+            "incorrect_answers": [
+                [
+                    "Guinea",
+                    "guinea"
+                ],
+                [
+                    "Cameroon",
+                    "cameroon"
+                ],
+                [
+                    "Angola",
+                    "angola"
+                ]
+            ],
+            "correct_answers": [
+                "Equatorial Guinea",
+                "equatorial guinea"
+            ],
+            "options": [
+                "Guinea",
+                "Cameroon",
+                "Angola",
+                "Equatorial Guinea"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following European languages is classified as a &quot;language isolate?&quot;",
+            "correct_answer": "Basque",
+            "incorrect_answers": [
+                [
+                    "Galician",
+                    "galician"
+                ],
+                [
+                    "Maltese",
+                    "maltese"
+                ],
+                [
+                    "Hungarian",
+                    "hungarian"
+                ]
+            ],
+            "correct_answers": [
+                "Basque",
+                "basque"
+            ],
+            "options": [
+                "Galician",
+                "Maltese",
+                "Hungarian",
+                "Basque"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What country has a horizontal bicolor red and white flag?",
+            "correct_answer": "Monaco",
+            "incorrect_answers": [
+                [
+                    "Bahrain",
+                    "bahrain"
+                ],
+                [
+                    "Malta",
+                    "malta"
+                ],
+                [
+                    "Liechenstein",
+                    "liechenstein"
+                ]
+            ],
+            "correct_answers": [
+                "Monaco",
+                "monaco"
+            ],
+            "options": [
+                "Bahrain",
+                "Malta",
+                "Liechenstein",
+                "Monaco"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following Japanese islands is the biggest?",
+            "correct_answer": "Honshu",
+            "incorrect_answers": [
+                [
+                    "Hokkaido",
+                    "hokkaido"
+                ],
+                [
+                    "Shikoku",
+                    "shikoku"
+                ],
+                [
+                    "Kyushu",
+                    "kyushu"
+                ]
+            ],
+            "correct_answers": [
+                "Honshu",
+                "honshu"
+            ],
+            "options": [
+                "Hokkaido",
+                "Shikoku",
+                "Kyushu",
+                "Honshu"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What colour is the circle on the Japanese flag?",
+            "correct_answer": "Red",
+            "incorrect_answers": [
+                [
+                    "White",
+                    "white"
+                ],
+                [
+                    "Yellow",
+                    "yellow"
+                ],
+                [
+                    "Black",
+                    "black"
+                ]
+            ],
+            "correct_answers": [
+                "Red",
+                "red"
+            ],
+            "options": [
+                "White",
+                "Yellow",
+                "Black",
+                "Red"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which US state has the highest population?",
+            "correct_answer": "California",
+            "incorrect_answers": [
+                [
+                    "New York",
+                    "new york"
+                ],
+                [
+                    "Texas",
+                    "texas"
+                ],
+                [
+                    "Florida",
+                    "florida"
+                ]
+            ],
+            "correct_answers": [
+                "California",
+                "california"
+            ],
+            "options": [
+                "New York",
+                "Texas",
+                "Florida",
+                "California"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of South Korea?",
+            "correct_answer": "Seoul",
+            "incorrect_answers": [
+                [
+                    "Pyongyang",
+                    "pyongyang"
+                ],
+                [
+                    "Taegu",
+                    "taegu"
+                ],
+                [
+                    "Kitakyushu",
+                    "kitakyushu"
+                ]
+            ],
+            "correct_answers": [
+                "Seoul",
+                "seoul"
+            ],
+            "options": [
+                "Pyongyang",
+                "Taegu",
+                "Kitakyushu",
+                "Seoul"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the nickname for the US state Delaware?",
+            "correct_answer": "The First State",
+            "incorrect_answers": [
+                [
+                    "The Fiftieth State",
+                    "the fiftieth state",
+                    "fiftieth state"
+                ],
+                [
+                    "The Second State",
+                    "the second state",
+                    "second state"
+                ],
+                [
+                    "The Sixteenth State",
+                    "the sixteenth state",
+                    "sixteenth state"
+                ]
+            ],
+            "correct_answers": [
+                "The First State",
+                "the first state",
+                "first state"
+            ],
+            "options": [
+                "The Fiftieth State",
+                "The Second State",
+                "The Sixteenth State",
+                "The First State"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which country was NOT part of the Soviet Union?",
+            "correct_answer": "Romania",
+            "incorrect_answers": [
+                [
+                    "Turkmenistan",
+                    "turkmenistan"
+                ],
+                [
+                    "Belarus",
+                    "belarus"
+                ],
+                [
+                    "Tajikistan",
+                    "tajikistan"
+                ]
+            ],
+            "correct_answers": [
+                "Romania",
+                "romania"
+            ],
+            "options": [
+                "Turkmenistan",
+                "Belarus",
+                "Tajikistan",
+                "Romania"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which country does Austria not border?",
+            "correct_answer": "France",
+            "incorrect_answers": [
+                [
+                    "Slovenia",
+                    "slovenia"
+                ],
+                [
+                    "Switzerland",
+                    "switzerland"
+                ],
+                [
+                    "Slovakia",
+                    "slovakia"
+                ]
+            ],
+            "correct_answers": [
+                "France",
+                "france"
+            ],
+            "options": [
+                "Slovenia",
+                "Switzerland",
+                "Slovakia",
+                "France"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Space Needle is located in which city?",
+            "correct_answer": "Seattle",
+            "incorrect_answers": [
+                [
+                    "Los Angles",
+                    "los angles"
+                ],
+                [
+                    "Toronto",
+                    "toronto"
+                ],
+                [
+                    "Vancouver",
+                    "vancouver"
+                ]
+            ],
+            "correct_answers": [
+                "Seattle",
+                "seattle"
+            ],
+            "options": [
+                "Los Angles",
+                "Toronto",
+                "Vancouver",
+                "Seattle"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which country is the home of the largest Japanese population outside of Japan?",
+            "correct_answer": "Brazil",
+            "incorrect_answers": [
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "Russia",
+                    "russia"
+                ],
+                [
+                    "The United States",
+                    "the united states",
+                    "united states"
+                ]
+            ],
+            "correct_answers": [
+                "Brazil",
+                "brazil"
+            ],
+            "options": [
+                "China",
+                "Russia",
+                "The United States",
+                "Brazil"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the smallest country in the world?",
+            "correct_answer": "Vatican City",
+            "incorrect_answers": [
+                [
+                    "Maldives",
+                    "maldives"
+                ],
+                [
+                    "Monaco",
+                    "monaco"
+                ],
+                [
+                    "Malta",
+                    "malta"
+                ]
+            ],
+            "correct_answers": [
+                "Vatican City",
+                "vatican city"
+            ],
+            "options": [
+                "Maldives",
+                "Monaco",
+                "Malta",
+                "Vatican City"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is Laos?",
+            "correct_answer": "Country",
+            "incorrect_answers": [
+                [
+                    "Region",
+                    "region"
+                ],
+                [
+                    "River",
+                    "river"
+                ],
+                [
+                    "City",
+                    "city"
+                ]
+            ],
+            "correct_answers": [
+                "Country",
+                "country"
+            ],
+            "options": [
+                "Region",
+                "River",
+                "City",
+                "Country"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the Polish city known to Germans as Danzig?",
+            "correct_answer": "Gdańsk",
+            "incorrect_answers": [
+                [
+                    "Warsaw",
+                    "warsaw"
+                ],
+                [
+                    "Zakopane",
+                    "zakopane"
+                ],
+                [
+                    "Poznań",
+                    "poznań"
+                ]
+            ],
+            "correct_answers": [
+                "Gdańsk",
+                "gdańsk"
+            ],
+            "options": [
+                "Warsaw",
+                "Zakopane",
+                "Poznań",
+                "Gdańsk"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Alps are a mountain range on which continent?",
+            "correct_answer": "Europe",
+            "incorrect_answers": [
+                [
+                    "North America",
+                    "north america"
+                ],
+                [
+                    "Asia",
+                    "asia"
+                ],
+                [
+                    "Africa",
+                    "africa"
+                ]
+            ],
+            "correct_answers": [
+                "Europe",
+                "europe"
+            ],
+            "options": [
+                "North America",
+                "Asia",
+                "Africa",
+                "Europe"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What name was historically used for the Turkish city currently known as Istanbul?",
+            "correct_answer": "Constantinople",
+            "incorrect_answers": [
+                [
+                    "H&uuml;davendigar",
+                    "h&uuml;davendigar"
+                ],
+                [
+                    "S&ouml;ğ&uuml;t",
+                    "s&ouml;ğ&uuml;t"
+                ],
+                [
+                    "Adrianople",
+                    "adrianople"
+                ]
+            ],
+            "correct_answers": [
+                "Constantinople",
+                "constantinople"
+            ],
+            "options": [
+                "H&uuml;davendigar",
+                "S&ouml;ğ&uuml;t",
+                "Adrianople",
+                "Constantinople"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of Spain?",
+            "correct_answer": "Madrid",
+            "incorrect_answers": [
+                [
+                    "Barcelona",
+                    "barcelona"
+                ],
+                [
+                    "Sevilla",
+                    "sevilla"
+                ],
+                [
+                    "Toledo",
+                    "toledo"
+                ]
+            ],
+            "correct_answers": [
+                "Madrid",
+                "madrid"
+            ],
+            "options": [
+                "Barcelona",
+                "Sevilla",
+                "Toledo",
+                "Madrid"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which nation claims ownership of Antarctica?",
+            "correct_answer": "No one, but there are claims.",
+            "incorrect_answers": [
+                [
+                    "United States of America",
+                    "united states of america"
+                ],
+                [
+                    "United Nations",
+                    "united nations"
+                ],
+                [
+                    "Australia",
+                    "australia"
+                ]
+            ],
+            "correct_answers": [
+                "No one, but there are claims.",
+                "no one, but there are claims."
+            ],
+            "options": [
+                "United States of America",
+                "United Nations",
+                "Australia",
+                "No one, but there are claims."
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the largest country in the world?",
+            "correct_answer": "Russia",
+            "incorrect_answers": [
+                [
+                    "Canada",
+                    "canada"
+                ],
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "United States",
+                    "united states"
+                ]
+            ],
+            "correct_answers": [
+                "Russia",
+                "russia"
+            ],
+            "options": [
+                "Canada",
+                "China",
+                "United States",
+                "Russia"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of Jamaica?",
+            "correct_answer": "Kingston",
+            "incorrect_answers": [
+                [
+                    "San Juan",
+                    "san juan"
+                ],
+                [
+                    "Port-au-Prince",
+                    "port-au-prince"
+                ],
+                [
+                    "Bridgetown",
+                    "bridgetown"
+                ]
+            ],
+            "correct_answers": [
+                "Kingston",
+                "kingston"
+            ],
+            "options": [
+                "San Juan",
+                "Port-au-Prince",
+                "Bridgetown",
+                "Kingston"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which Russian oblast forms a border with Poland?",
+            "correct_answer": "Kaliningrad",
+            "incorrect_answers": [
+                [
+                    "Samara",
+                    "samara"
+                ],
+                [
+                    "Nizhny Novgorod",
+                    "nizhny novgorod"
+                ],
+                [
+                    "Omsk",
+                    "omsk"
+                ]
+            ],
+            "correct_answers": [
+                "Kaliningrad",
+                "kaliningrad"
+            ],
+            "options": [
+                "Samara",
+                "Nizhny Novgorod",
+                "Omsk",
+                "Kaliningrad"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the capital of Scotland?",
+            "correct_answer": "Edinburgh",
+            "incorrect_answers": [
+                [
+                    "Glasgow",
+                    "glasgow"
+                ],
+                [
+                    "Dundee",
+                    "dundee"
+                ],
+                [
+                    "London",
+                    "london"
+                ]
+            ],
+            "correct_answers": [
+                "Edinburgh",
+                "edinburgh"
+            ],
+            "options": [
+                "Glasgow",
+                "Dundee",
+                "London",
+                "Edinburgh"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the only state in the United States that does not have a flag in a shape with 4 edges?",
+            "correct_answer": "Ohio",
+            "incorrect_answers": [
+                [
+                    "Florida",
+                    "florida"
+                ],
+                [
+                    "Idaho",
+                    "idaho"
+                ],
+                [
+                    "New Mexico",
+                    "new mexico"
+                ]
+            ],
+            "correct_answers": [
+                "Ohio",
+                "ohio"
+            ],
+            "options": [
+                "Florida",
+                "Idaho",
+                "New Mexico",
+                "Ohio"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+            "correct_answer": "Portugal, Ireland, Italy, Greece, Spain",
+            "incorrect_answers": [
+                [
+                    "Poland, Iceland, Italy, Greece, Serbia",
+                    "poland, iceland, italy, greece, serbia"
+                ],
+                [
+                    "Poland, Iceland, Italy, Greenland, Spain",
+                    "poland, iceland, italy, greenland, spain"
+                ],
+                [
+                    "Portugal, Iceland, Ireland, Greece, Serbia",
+                    "portugal, iceland, ireland, greece, serbia"
+                ]
+            ],
+            "correct_answers": [
+                "Portugal, Ireland, Italy, Greece, Spain",
+                "portugal, ireland, italy, greece, spain"
+            ],
+            "options": [
+                "Poland, Iceland, Italy, Greece, Serbia",
+                "Poland, Iceland, Italy, Greenland, Spain",
+                "Portugal, Iceland, Ireland, Greece, Serbia",
+                "Portugal, Ireland, Italy, Greece, Spain"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the largest country in the world ?",
+            "correct_answer": "Russian Federation",
+            "incorrect_answers": [
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "Canada",
+                    "canada"
+                ],
+                [
+                    "Brazil",
+                    "brazil"
+                ]
+            ],
+            "correct_answers": [
+                "Russian Federation",
+                "russian federation"
+            ],
+            "options": [
+                "China",
+                "Canada",
+                "Brazil",
+                "Russian Federation"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "All of the following are classified as Finno-Ugric languages EXCEPT:",
+            "correct_answer": "Samoyedic",
+            "incorrect_answers": [
+                [
+                    "Hungarian",
+                    "hungarian"
+                ],
+                [
+                    "Finnish",
+                    "finnish"
+                ],
+                [
+                    "Estonian",
+                    "estonian"
+                ]
+            ],
+            "correct_answers": [
+                "Samoyedic",
+                "samoyedic"
+            ],
+            "options": [
+                "Hungarian",
+                "Finnish",
+                "Estonian",
+                "Samoyedic"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of New Zealand's indigenous people?",
+            "correct_answer": "Maori",
+            "incorrect_answers": [
+                [
+                    "Vikings",
+                    "vikings"
+                ],
+                [
+                    "Polynesians",
+                    "polynesians"
+                ],
+                [
+                    "Samoans",
+                    "samoans"
+                ]
+            ],
+            "correct_answers": [
+                "Maori",
+                "maori"
+            ],
+            "options": [
+                "Vikings",
+                "Polynesians",
+                "Samoans",
+                "Maori"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the Capital of the United States?",
+            "correct_answer": "Washington, D.C.",
+            "incorrect_answers": [
+                [
+                    "Los Angelas, CA",
+                    "los angelas, ca"
+                ],
+                [
+                    "New York City, NY",
+                    "new york city, ny"
+                ],
+                [
+                    "Houston, TX",
+                    "houston, tx"
+                ]
+            ],
+            "correct_answers": [
+                "Washington, D.C.",
+                "washington, d.c."
+            ],
+            "options": [
+                "Los Angelas, CA",
+                "New York City, NY",
+                "Houston, TX",
+                "Washington, D.C."
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many stars are featured on New Zealand's flag?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                [
+                    "5",
+                    "5"
+                ],
+                [
+                    "2",
+                    "2"
+                ],
+                [
+                    "0",
+                    "0"
+                ]
+            ],
+            "correct_answers": [
+                "4",
+                "4"
+            ],
+            "options": [
+                "5",
+                "2",
+                "0",
+                "4"
+            ]
+        }
+    ]
+}

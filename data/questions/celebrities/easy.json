@@ -1,0 +1,345 @@
+{
+    "questions": [
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Aubrey Graham is better known as",
+            "correct_answer": "Drake",
+            "incorrect_answers": [
+                [
+                    "Travis Scott",
+                    "travis scott"
+                ],
+                [
+                    "Lil Wayne",
+                    "lil wayne"
+                ],
+                [
+                    "2 Chainz",
+                    "2 chainz"
+                ]
+            ],
+            "correct_answers": [
+                "Drake",
+                "drake"
+            ],
+            "options": [
+                "Travis Scott",
+                "Lil Wayne",
+                "2 Chainz",
+                "Drake"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "By which name is Ramon Estevez better known as?",
+            "correct_answer": "Martin Sheen",
+            "incorrect_answers": [
+                [
+                    "Charlie Sheen",
+                    "charlie sheen"
+                ],
+                [
+                    "Ramon Sheen",
+                    "ramon sheen"
+                ],
+                [
+                    "Emilio Estevez",
+                    "emilio estevez"
+                ]
+            ],
+            "correct_answers": [
+                "Martin Sheen",
+                "martin sheen"
+            ],
+            "options": [
+                "Charlie Sheen",
+                "Ramon Sheen",
+                "Emilio Estevez",
+                "Martin Sheen"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the cause of Marilyn Monroes suicide?",
+            "correct_answer": "Drug Overdose",
+            "incorrect_answers": [
+                [
+                    "Knife Attack",
+                    "knife attack"
+                ],
+                [
+                    "House Fire",
+                    "house fire"
+                ],
+                [
+                    "Gunshot",
+                    "gunshot"
+                ]
+            ],
+            "correct_answers": [
+                "Drug Overdose",
+                "drug overdose"
+            ],
+            "options": [
+                "Knife Attack",
+                "House Fire",
+                "Gunshot",
+                "Drug Overdose"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which celebrity announced his presidency in 2015?",
+            "correct_answer": "Kanye West",
+            "incorrect_answers": [
+                [
+                    "Donald Trump",
+                    "donald trump"
+                ],
+                [
+                    "Leonardo DiCaprio",
+                    "leonardo dicaprio"
+                ],
+                [
+                    "Miley Cyrus",
+                    "miley cyrus"
+                ]
+            ],
+            "correct_answers": [
+                "Kanye West",
+                "kanye west"
+            ],
+            "options": [
+                "Donald Trump",
+                "Leonardo DiCaprio",
+                "Miley Cyrus",
+                "Kanye West"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Named after a character he played in a 1969 film, what is the name of the ski resort in Utah that Robert Redford bought in 1968?",
+            "correct_answer": "Sundance",
+            "incorrect_answers": [
+                [
+                    "Woodward",
+                    "woodward"
+                ],
+                [
+                    "Turner",
+                    "turner"
+                ],
+                [
+                    "Booker",
+                    "booker"
+                ]
+            ],
+            "correct_answers": [
+                "Sundance",
+                "sundance"
+            ],
+            "options": [
+                "Woodward",
+                "Turner",
+                "Booker",
+                "Sundance"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "By what name is Carlos Estevez better known? ",
+            "correct_answer": "Charlie Sheen",
+            "incorrect_answers": [
+                [
+                    "Ricky Martin",
+                    "ricky martin"
+                ],
+                [
+                    "Bruno Mars",
+                    "bruno mars"
+                ],
+                [
+                    "Joaquin Phoenix",
+                    "joaquin phoenix"
+                ]
+            ],
+            "correct_answers": [
+                "Charlie Sheen",
+                "charlie sheen"
+            ],
+            "options": [
+                "Ricky Martin",
+                "Bruno Mars",
+                "Joaquin Phoenix",
+                "Charlie Sheen"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which actress married Michael Douglas in 2000?",
+            "correct_answer": "Catherine Zeta-Jones",
+            "incorrect_answers": [
+                [
+                    "Ruth Jones",
+                    "ruth jones"
+                ],
+                [
+                    "Pam Ferris",
+                    "pam ferris"
+                ],
+                [
+                    "Sara Sugarman",
+                    "sara sugarman"
+                ]
+            ],
+            "correct_answers": [
+                "Catherine Zeta-Jones",
+                "catherine zeta-jones"
+            ],
+            "options": [
+                "Ruth Jones",
+                "Pam Ferris",
+                "Sara Sugarman",
+                "Catherine Zeta-Jones"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was James Coburn's last film role before his death?",
+            "correct_answer": "American Gun",
+            "incorrect_answers": [
+                [
+                    "Monsters Inc",
+                    "monsters inc"
+                ],
+                [
+                    "Texas Rangers",
+                    "texas rangers"
+                ],
+                [
+                    "Snow Dogs",
+                    "snow dogs"
+                ]
+            ],
+            "correct_answers": [
+                "American Gun",
+                "american gun"
+            ],
+            "options": [
+                "Monsters Inc",
+                "Texas Rangers",
+                "Snow Dogs",
+                "American Gun"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does film maker Dan Bell typically focus his films on?",
+            "correct_answer": "Abandoned Buildings and Dead Malls",
+            "incorrect_answers": [
+                [
+                    "Historic Landmarks",
+                    "historic landmarks"
+                ],
+                [
+                    "Action Films",
+                    "action films"
+                ],
+                [
+                    "Documentaries ",
+                    "documentaries "
+                ]
+            ],
+            "correct_answers": [
+                "Abandoned Buildings and Dead Malls",
+                "abandoned buildings and dead malls"
+            ],
+            "options": [
+                "Historic Landmarks",
+                "Action Films",
+                "Documentaries ",
+                "Abandoned Buildings and Dead Malls"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Neil Hamburger is played by which comedian?",
+            "correct_answer": "Gregg Turkington",
+            "incorrect_answers": [
+                [
+                    "Nathan Fielder",
+                    "nathan fielder"
+                ],
+                [
+                    "Tim Heidecker",
+                    "tim heidecker"
+                ],
+                [
+                    "Todd Glass",
+                    "todd glass"
+                ]
+            ],
+            "correct_answers": [
+                "Gregg Turkington",
+                "gregg turkington"
+            ],
+            "options": [
+                "Nathan Fielder",
+                "Tim Heidecker",
+                "Todd Glass",
+                "Gregg Turkington"
+            ]
+        },
+        {
+            "category": "Celebrities",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Gwyneth Paltrow has a daughter named...?",
+            "correct_answer": "Apple",
+            "incorrect_answers": [
+                [
+                    "Lily",
+                    "lily"
+                ],
+                [
+                    "French",
+                    "french"
+                ],
+                [
+                    "Dakota",
+                    "dakota"
+                ]
+            ],
+            "correct_answers": [
+                "Apple",
+                "apple"
+            ],
+            "options": [
+                "Lily",
+                "French",
+                "Dakota",
+                "Apple"
+            ]
+        }
+    ]
+}

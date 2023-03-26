@@ -1,0 +1,5431 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these TrackMania environments was NOT in the original game?",
+            "correct_answer": "Bay",
+            "incorrect_answers": [
+                [
+                    "Desert",
+                    "desert"
+                ],
+                [
+                    "Snow",
+                    "snow"
+                ],
+                [
+                    "Rally",
+                    "rally"
+                ]
+            ],
+            "correct_answers": [
+                "Bay",
+                "bay"
+            ],
+            "options": [
+                "Desert",
+                "Snow",
+                "Rally",
+                "Bay"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many people can you recruit in the game Suikoden in a single playthrough?",
+            "correct_answer": "107",
+            "incorrect_answers": [
+                [
+                    "108",
+                    "108"
+                ],
+                [
+                    "93",
+                    "93"
+                ],
+                [
+                    "96",
+                    "96"
+                ]
+            ],
+            "correct_answers": [
+                "107",
+                "107"
+            ],
+            "options": [
+                "108",
+                "93",
+                "96",
+                "107"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of the hero in the 80s animated video game 'Dragon's Lair'?",
+            "correct_answer": "Dirk the Daring",
+            "incorrect_answers": [
+                [
+                    "Arthur",
+                    "arthur"
+                ],
+                [
+                    "Sir Toby Belch",
+                    "sir toby belch"
+                ],
+                [
+                    "Guy of Gisbourne",
+                    "guy of gisbourne"
+                ]
+            ],
+            "correct_answers": [
+                "Dirk the Daring",
+                "dirk the daring",
+                "dirk daring"
+            ],
+            "options": [
+                "Arthur",
+                "Sir Toby Belch",
+                "Guy of Gisbourne",
+                "Dirk the Daring"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which one of the following titles by Valve is not based on a Community Mod?",
+            "correct_answer": "Ricochet",
+            "incorrect_answers": [
+                [
+                    "Day of Defeat",
+                    "day of defeat"
+                ],
+                [
+                    "Counter-Strike",
+                    "counter-strike"
+                ],
+                [
+                    "Alien Swarm",
+                    "alien swarm"
+                ]
+            ],
+            "correct_answers": [
+                "Ricochet",
+                "ricochet"
+            ],
+            "options": [
+                "Day of Defeat",
+                "Counter-Strike",
+                "Alien Swarm",
+                "Ricochet"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?",
+            "correct_answer": "Steed",
+            "incorrect_answers": [
+                [
+                    "Mule",
+                    "mule"
+                ],
+                [
+                    "Benson",
+                    "benson"
+                ],
+                [
+                    "Pony",
+                    "pony"
+                ]
+            ],
+            "correct_answers": [
+                "Steed",
+                "steed"
+            ],
+            "options": [
+                "Mule",
+                "Benson",
+                "Pony",
+                "Steed"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the homeworld of the Elites from Halo?",
+            "correct_answer": "Sanghelios",
+            "incorrect_answers": [
+                [
+                    "Te",
+                    "te"
+                ],
+                [
+                    "Doisac",
+                    "doisac"
+                ],
+                [
+                    "Eayn",
+                    "eayn"
+                ]
+            ],
+            "correct_answers": [
+                "Sanghelios",
+                "sanghelios"
+            ],
+            "options": [
+                "Te",
+                "Doisac",
+                "Eayn",
+                "Sanghelios"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In TF2 Lore, what are the names of the Heavy's younger sisters?",
+            "correct_answer": "Yana and Bronislava",
+            "incorrect_answers": [
+                [
+                    "Gaba and Anna",
+                    "gaba and anna"
+                ],
+                [
+                    "Yanna and Gaba",
+                    "yanna and gaba"
+                ],
+                [
+                    "Anna and Bronislava",
+                    "anna and bronislava"
+                ]
+            ],
+            "correct_answers": [
+                "Yana and Bronislava",
+                "yana and bronislava"
+            ],
+            "options": [
+                "Gaba and Anna",
+                "Yanna and Gaba",
+                "Anna and Bronislava",
+                "Yana and Bronislava"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Pok&eacute;mon series, what is Palkia's hidden ability?",
+            "correct_answer": "Telepathy",
+            "incorrect_answers": [
+                [
+                    "Pressure",
+                    "pressure"
+                ],
+                [
+                    "Water Bubble",
+                    "water bubble"
+                ],
+                [
+                    "Hydration",
+                    "hydration"
+                ]
+            ],
+            "correct_answers": [
+                "Telepathy",
+                "telepathy"
+            ],
+            "options": [
+                "Pressure",
+                "Water Bubble",
+                "Hydration",
+                "Telepathy"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "During development of &quot;Super Mario World&quot;, Yoshi's hard saddle was originally which of these?",
+            "correct_answer": "A shell",
+            "incorrect_answers": [
+                [
+                    "A slide of Gelatin",
+                    "a slide of gelatin"
+                ],
+                [
+                    "A poffin",
+                    "a poffin"
+                ],
+                [
+                    "A spike",
+                    "a spike"
+                ]
+            ],
+            "correct_answers": [
+                "A shell",
+                "a shell"
+            ],
+            "options": [
+                "A slide of Gelatin",
+                "A poffin",
+                "A spike",
+                "A shell"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which character from the Mega Man series made a small cameo on Volt Catfish's introduction scene in CD versions of Mega Man X3?",
+            "correct_answer": "Auto",
+            "incorrect_answers": [
+                [
+                    "Eddie",
+                    "eddie"
+                ],
+                [
+                    "Tango",
+                    "tango"
+                ],
+                [
+                    "Rush",
+                    "rush"
+                ]
+            ],
+            "correct_answers": [
+                "Auto",
+                "auto"
+            ],
+            "options": [
+                "Eddie",
+                "Tango",
+                "Rush",
+                "Auto"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Magicka&quot;, which two elements are combined to cast the spell, &quot;Nullify&quot;?",
+            "correct_answer": "Arcane + Shield",
+            "incorrect_answers": [
+                [
+                    "Lightning + Shield",
+                    "lightning + shield"
+                ],
+                [
+                    "Lightning + Life",
+                    "lightning + life"
+                ],
+                [
+                    "Arcane + Life",
+                    "arcane + life"
+                ]
+            ],
+            "correct_answers": [
+                "Arcane + Shield",
+                "arcane + shield"
+            ],
+            "options": [
+                "Lightning + Shield",
+                "Lightning + Life",
+                "Arcane + Life",
+                "Arcane + Shield"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Disney's &quot;Toontown Online&quot;, which of these species wasn't available as a Toon?",
+            "correct_answer": "Cow",
+            "incorrect_answers": [
+                [
+                    "Monkey",
+                    "monkey"
+                ],
+                [
+                    "Bear",
+                    "bear"
+                ],
+                [
+                    "Pig",
+                    "pig"
+                ]
+            ],
+            "correct_answers": [
+                "Cow",
+                "cow"
+            ],
+            "options": [
+                "Monkey",
+                "Bear",
+                "Pig",
+                "Cow"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Team Fortress 2 canon, what did Shakespearicles NOT invent?",
+            "correct_answer": "Stairs",
+            "incorrect_answers": [
+                [
+                    "Two-Story Building",
+                    "two-story building"
+                ],
+                [
+                    "Rocket Launcher",
+                    "rocket launcher"
+                ],
+                [
+                    "Stage Play",
+                    "stage play"
+                ]
+            ],
+            "correct_answers": [
+                "Stairs",
+                "stairs"
+            ],
+            "options": [
+                "Two-Story Building",
+                "Rocket Launcher",
+                "Stage Play",
+                "Stairs"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the fastest speed possible in Trackmania&sup2;: Stadium?",
+            "correct_answer": "1000  km/h",
+            "incorrect_answers": [
+                [
+                    "500 km/h",
+                    "500 km/h"
+                ],
+                [
+                    "320 km/h",
+                    "320 km/h"
+                ],
+                [
+                    "100 km/h",
+                    "100 km/h"
+                ]
+            ],
+            "correct_answers": [
+                "1000  km/h",
+                "1000  km/h"
+            ],
+            "options": [
+                "500 km/h",
+                "320 km/h",
+                "100 km/h",
+                "1000  km/h"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Devil May Cry&quot; franchise, which game is chronologically first?",
+            "correct_answer": "Devil May Cry 3: Dante&#039;s Awakening ",
+            "incorrect_answers": [
+                [
+                    "Devil May Cry 4",
+                    "devil may cry 4"
+                ],
+                [
+                    "Devil May Cry",
+                    "devil may cry"
+                ],
+                [
+                    "Devil May Cry 2",
+                    "devil may cry 2"
+                ]
+            ],
+            "correct_answers": [
+                "Devil May Cry 3: Dante's Awakening ",
+                "devil may cry 3: dante's awakening ",
+                "devil may cry 3: dantes awakening "
+            ],
+            "options": [
+                "Devil May Cry 4",
+                "Devil May Cry",
+                "Devil May Cry 2",
+                "Devil May Cry 3: Dante's Awakening "
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Team Fortress 2&quot;, what is the fastest taunt kill that can be pulled off?",
+            "correct_answer": "Showdown",
+            "incorrect_answers": [
+                [
+                    "Hadouken",
+                    "hadouken"
+                ],
+                [
+                    "Organ Grinder",
+                    "organ grinder"
+                ],
+                [
+                    "Skewer",
+                    "skewer"
+                ]
+            ],
+            "correct_answers": [
+                "Showdown",
+                "showdown"
+            ],
+            "options": [
+                "Hadouken",
+                "Organ Grinder",
+                "Skewer",
+                "Showdown"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Diablo lore, this lesser evil spawned from one of the seven heads of Tathamet, and was known as the Maiden of Anguish.",
+            "correct_answer": "Andariel",
+            "incorrect_answers": [
+                [
+                    "Valla",
+                    "valla"
+                ],
+                [
+                    "Malthael",
+                    "malthael"
+                ],
+                [
+                    "Kashya",
+                    "kashya"
+                ]
+            ],
+            "correct_answers": [
+                "Andariel",
+                "andariel"
+            ],
+            "options": [
+                "Valla",
+                "Malthael",
+                "Kashya",
+                "Andariel"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many partners can you obtain in Paper Mario: The Thousand-Year Door?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "9",
+                    "9"
+                ],
+                [
+                    "10",
+                    "10"
+                ]
+            ],
+            "correct_answers": [
+                "7",
+                "7"
+            ],
+            "options": [
+                "6",
+                "9",
+                "10",
+                "7"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which one of these characters appeared in Marvel vs Capcom: Infinite? ",
+            "correct_answer": "Firebrand",
+            "incorrect_answers": [
+                [
+                    "Wolverine",
+                    "wolverine"
+                ],
+                [
+                    "Dr. Doom",
+                    "dr. doom"
+                ],
+                [
+                    "Jill Valentine",
+                    "jill valentine"
+                ]
+            ],
+            "correct_answers": [
+                "Firebrand",
+                "firebrand"
+            ],
+            "options": [
+                "Wolverine",
+                "Dr. Doom",
+                "Jill Valentine",
+                "Firebrand"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the nickname of the original model for Half-Life's protagonist Gordon Freeman?",
+            "correct_answer": "Ivan the Space Biker",
+            "incorrect_answers": [
+                [
+                    "Gordon the Space Biker",
+                    "gordon the space biker",
+                    "gordon space biker"
+                ],
+                [
+                    "Ivan the Alien Biker",
+                    "ivan the alien biker",
+                    "ivan alien biker"
+                ],
+                [
+                    "Gordon the Alien Biker",
+                    "gordon the alien biker",
+                    "gordon alien biker"
+                ]
+            ],
+            "correct_answers": [
+                "Ivan the Space Biker",
+                "ivan the space biker",
+                "ivan space biker"
+            ],
+            "options": [
+                "Gordon the Space Biker",
+                "Ivan the Alien Biker",
+                "Gordon the Alien Biker",
+                "Ivan the Space Biker"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Xenoblade Chronicles X, which class has a sniper rifle as it's primary weapon?",
+            "correct_answer": "Partisan Eagle",
+            "incorrect_answers": [
+                [
+                    "Blast Fencer",
+                    "blast fencer"
+                ],
+                [
+                    "Winged Viper",
+                    "winged viper"
+                ],
+                [
+                    "Bastion Warrior",
+                    "bastion warrior"
+                ]
+            ],
+            "correct_answers": [
+                "Partisan Eagle",
+                "partisan eagle"
+            ],
+            "options": [
+                "Blast Fencer",
+                "Winged Viper",
+                "Bastion Warrior",
+                "Partisan Eagle"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, where is &quot;Stamin-Up&quot; located?",
+            "correct_answer": "Generator 5",
+            "incorrect_answers": [
+                [
+                    "Generator 3",
+                    "generator 3"
+                ],
+                [
+                    "Generator 4",
+                    "generator 4"
+                ],
+                [
+                    "Excavation Site",
+                    "excavation site"
+                ]
+            ],
+            "correct_answers": [
+                "Generator 5",
+                "generator 5"
+            ],
+            "options": [
+                "Generator 3",
+                "Generator 4",
+                "Excavation Site",
+                "Generator 5"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these characters wasn't a villian in Club Penguin?",
+            "correct_answer": "The Director",
+            "incorrect_answers": [
+                [
+                    "Herbert P. Bear",
+                    "herbert p. bear"
+                ],
+                [
+                    "Tusk",
+                    "tusk"
+                ],
+                [
+                    "Ultimate Proto-Bot 10000",
+                    "ultimate proto-bot 10000"
+                ]
+            ],
+            "correct_answers": [
+                "The Director",
+                "the director",
+                "director"
+            ],
+            "options": [
+                "Herbert P. Bear",
+                "Tusk",
+                "Ultimate Proto-Bot 10000",
+                "The Director"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Need for Speed III: Hot Pursuit&quot;, what is the name of the fictional car?",
+            "correct_answer": "El Ni&ntilde;o",
+            "incorrect_answers": [
+                [
+                    "R&aacute;pido",
+                    "r&aacute;pido"
+                ],
+                [
+                    "&Aacute;gil",
+                    "&aacute;gil"
+                ],
+                [
+                    "La Ni&ntilde;a",
+                    "la ni&ntilde;a"
+                ]
+            ],
+            "correct_answers": [
+                "El Ni&ntilde;o",
+                "el ni&ntilde;o"
+            ],
+            "options": [
+                "R&aacute;pido",
+                "&Aacute;gil",
+                "La Ni&ntilde;a",
+                "El Ni&ntilde;o"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which one of these is NOT an official map in Counter-Strike: Global Offensive?",
+            "correct_answer": "de_season",
+            "incorrect_answers": [
+                [
+                    "de_sugarcane",
+                    "de_sugarcane"
+                ],
+                [
+                    "de_canals",
+                    "de_canals"
+                ],
+                [
+                    "de_militia",
+                    "de_militia"
+                ]
+            ],
+            "correct_answers": [
+                "de_season",
+                "de_season"
+            ],
+            "options": [
+                "de_sugarcane",
+                "de_canals",
+                "de_militia",
+                "de_season"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the alien species introduced in Shadow the Hedgehog (2005)?",
+            "correct_answer": "Black Arms",
+            "incorrect_answers": [
+                [
+                    "The Swarm",
+                    "the swarm",
+                    "swarm"
+                ],
+                [
+                    "Black Hive",
+                    "black hive"
+                ],
+                [
+                    "The Eclipse",
+                    "the eclipse",
+                    "eclipse"
+                ]
+            ],
+            "correct_answers": [
+                "Black Arms",
+                "black arms"
+            ],
+            "options": [
+                "The Swarm",
+                "Black Hive",
+                "The Eclipse",
+                "Black Arms"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the National Pokedex what number is Porygon-Z?",
+            "correct_answer": "474",
+            "incorrect_answers": [
+                [
+                    "376",
+                    "376"
+                ],
+                [
+                    "432",
+                    "432"
+                ],
+                [
+                    "589",
+                    "589"
+                ]
+            ],
+            "correct_answers": [
+                "474",
+                "474"
+            ],
+            "options": [
+                "376",
+                "432",
+                "589",
+                "474"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which car did not appear in the 2002 Lego Game: Drome Racers?",
+            "correct_answer": "Wasp",
+            "incorrect_answers": [
+                [
+                    "Raptor",
+                    "raptor"
+                ],
+                [
+                    "Hornet",
+                    "hornet"
+                ],
+                [
+                    "Behemoth",
+                    "behemoth"
+                ]
+            ],
+            "correct_answers": [
+                "Wasp",
+                "wasp"
+            ],
+            "options": [
+                "Raptor",
+                "Hornet",
+                "Behemoth",
+                "Wasp"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following games in the The Legend of Zelda franchise was released in North America before Japan?",
+            "correct_answer": "The Legend of Zelda: Twilight Princess",
+            "incorrect_answers": [
+                [
+                    "Zelda II: The Adventure of Link",
+                    "zelda ii: the adventure of link",
+                    "zelda ii: adventure of link"
+                ],
+                [
+                    "The Legend of Zelda: Four Swords Adventures",
+                    "the legend of zelda: four swords adventures",
+                    "legend of zelda: four swords adventures"
+                ],
+                [
+                    "The Legend of Zelda: Majora's Mask",
+                    "the legend of zelda: majora's mask",
+                    "legend of zelda: majora's mask",
+                    "the legend of zelda: majoras mask"
+                ]
+            ],
+            "correct_answers": [
+                "The Legend of Zelda: Twilight Princess",
+                "the legend of zelda: twilight princess",
+                "legend of zelda: twilight princess"
+            ],
+            "options": [
+                "Zelda II: The Adventure of Link",
+                "The Legend of Zelda: Four Swords Adventures",
+                "The Legend of Zelda: Majora's Mask",
+                "The Legend of Zelda: Twilight Princess"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What Touhou Project character's first ever appearance was as a midboss in the eighth game, Imperishable Night?",
+            "correct_answer": "Tewi Inaba",
+            "incorrect_answers": [
+                [
+                    "Mystia Lorelei",
+                    "mystia lorelei"
+                ],
+                [
+                    "Kaguya Houraisan",
+                    "kaguya houraisan"
+                ],
+                [
+                    "Rumia",
+                    "rumia"
+                ]
+            ],
+            "correct_answers": [
+                "Tewi Inaba",
+                "tewi inaba"
+            ],
+            "options": [
+                "Mystia Lorelei",
+                "Kaguya Houraisan",
+                "Rumia",
+                "Tewi Inaba"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of your team in Star Wars: Republic Commando?",
+            "correct_answer": "Delta Squad",
+            "incorrect_answers": [
+                [
+                    "The Commandos",
+                    "the commandos",
+                    "commandos"
+                ],
+                [
+                    "Bravo Six",
+                    "bravo six"
+                ],
+                [
+                    "Vader's Fist",
+                    "vader's fist",
+                    "vaders fist"
+                ]
+            ],
+            "correct_answers": [
+                "Delta Squad",
+                "delta squad"
+            ],
+            "options": [
+                "The Commandos",
+                "Bravo Six",
+                "Vader's Fist",
+                "Delta Squad"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Monster Hunter Generations, which of these hunter arts are exclusive to the Longsword?",
+            "correct_answer": "Unhinged Spirit",
+            "incorrect_answers": [
+                [
+                    "Shoryugeki",
+                    "shoryugeki"
+                ],
+                [
+                    "Provoke",
+                    "provoke"
+                ],
+                [
+                    "Demon Riot",
+                    "demon riot"
+                ]
+            ],
+            "correct_answers": [
+                "Unhinged Spirit",
+                "unhinged spirit"
+            ],
+            "options": [
+                "Shoryugeki",
+                "Provoke",
+                "Demon Riot",
+                "Unhinged Spirit"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which Kingdom Hearts game featured the cast of &quot;The World Ends With You&quot;?",
+            "correct_answer": "Dream Drop Distance",
+            "incorrect_answers": [
+                [
+                    "Birth By Sleep",
+                    "birth by sleep"
+                ],
+                [
+                    "365/2 Days",
+                    "365/2 days"
+                ],
+                [
+                    "Re:Chain of Memories",
+                    "re:chain of memories"
+                ]
+            ],
+            "correct_answers": [
+                "Dream Drop Distance",
+                "dream drop distance"
+            ],
+            "options": [
+                "Birth By Sleep",
+                "365/2 Days",
+                "Re:Chain of Memories",
+                "Dream Drop Distance"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the title of the game &quot;Luigi's Mansion&quot;, what is the only letter to not appear with a pair of eyes in it?",
+            "correct_answer": "s",
+            "incorrect_answers": [
+                [
+                    "n",
+                    "n"
+                ],
+                [
+                    "i",
+                    "i"
+                ],
+                [
+                    "m",
+                    "m"
+                ]
+            ],
+            "correct_answers": [
+                "s",
+                "s"
+            ],
+            "options": [
+                "n",
+                "i",
+                "m",
+                "s"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following games in the The Legend of Zelda franchise was released in Japan before North America?",
+            "correct_answer": "The Legend of Zelda: The Minish Cap",
+            "incorrect_answers": [
+                [
+                    "The Legend of Zelda: Twilight Princess",
+                    "the legend of zelda: twilight princess",
+                    "legend of zelda: twilight princess"
+                ],
+                [
+                    "The Legend of Zelda: Spirit Tracks",
+                    "the legend of zelda: spirit tracks",
+                    "legend of zelda: spirit tracks"
+                ],
+                [
+                    "The Legend of Zelda: Four Swords",
+                    "the legend of zelda: four swords",
+                    "legend of zelda: four swords"
+                ]
+            ],
+            "correct_answers": [
+                "The Legend of Zelda: The Minish Cap",
+                "the legend of zelda: the minish cap",
+                "legend of zelda: minish cap"
+            ],
+            "options": [
+                "The Legend of Zelda: Twilight Princess",
+                "The Legend of Zelda: Spirit Tracks",
+                "The Legend of Zelda: Four Swords",
+                "The Legend of Zelda: The Minish Cap"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which artist composed the original soundtrack for &quot;Watch Dogs 2&quot;?",
+            "correct_answer": "Hudson Mohawke",
+            "incorrect_answers": [
+                [
+                    "Rustie",
+                    "rustie"
+                ],
+                [
+                    "Machinedrum",
+                    "machinedrum"
+                ],
+                [
+                    "Flying Lotus",
+                    "flying lotus"
+                ]
+            ],
+            "correct_answers": [
+                "Hudson Mohawke",
+                "hudson mohawke"
+            ],
+            "options": [
+                "Rustie",
+                "Machinedrum",
+                "Flying Lotus",
+                "Hudson Mohawke"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these characters from Final Fantasy VIII primarily spoke in one word sentences?",
+            "correct_answer": "Fujin",
+            "incorrect_answers": [
+                [
+                    "Raijin",
+                    "raijin"
+                ],
+                [
+                    "Seifer",
+                    "seifer"
+                ],
+                [
+                    "Zell",
+                    "zell"
+                ]
+            ],
+            "correct_answers": [
+                "Fujin",
+                "fujin"
+            ],
+            "options": [
+                "Raijin",
+                "Seifer",
+                "Zell",
+                "Fujin"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the SHMUP series, &quot;Gradius&quot;, what is the name of the antagonist faction you fight against?",
+            "correct_answer": "Bacterion",
+            "incorrect_answers": [
+                [
+                    "Bydo",
+                    "bydo"
+                ],
+                [
+                    "Belsar",
+                    "belsar"
+                ],
+                [
+                    "ORN Empire",
+                    "orn empire"
+                ]
+            ],
+            "correct_answers": [
+                "Bacterion",
+                "bacterion"
+            ],
+            "options": [
+                "Bydo",
+                "Belsar",
+                "ORN Empire",
+                "Bacterion"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these online games was originally named LindenWorld in it's early development?",
+            "correct_answer": "SecondLife",
+            "incorrect_answers": [
+                [
+                    "ActiveWorlds",
+                    "activeworlds"
+                ],
+                [
+                    "IMVU",
+                    "imvu"
+                ],
+                [
+                    "HabboHotel",
+                    "habbohotel"
+                ]
+            ],
+            "correct_answers": [
+                "SecondLife",
+                "secondlife"
+            ],
+            "options": [
+                "ActiveWorlds",
+                "IMVU",
+                "HabboHotel",
+                "SecondLife"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In World of Warcraft lore, who organized the creation of the Paladins?",
+            "correct_answer": "Alonsus Faol",
+            "incorrect_answers": [
+                [
+                    "Uther the Lightbringer",
+                    "uther the lightbringer",
+                    "uther lightbringer"
+                ],
+                [
+                    "Alexandros Mograine",
+                    "alexandros mograine"
+                ],
+                [
+                    "Sargeras, The Daemon Lord",
+                    "sargeras, the daemon lord",
+                    "sargeras, daemon lord"
+                ]
+            ],
+            "correct_answers": [
+                "Alonsus Faol",
+                "alonsus faol"
+            ],
+            "options": [
+                "Uther the Lightbringer",
+                "Alexandros Mograine",
+                "Sargeras, The Daemon Lord",
+                "Alonsus Faol"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the world's first handheld game device?",
+            "correct_answer": "Mattel Auto Race",
+            "incorrect_answers": [
+                [
+                    "Game Boy",
+                    "game boy"
+                ],
+                [
+                    "Microvision",
+                    "microvision"
+                ],
+                [
+                    "Game &amp; Watch",
+                    "game &amp; watch"
+                ]
+            ],
+            "correct_answers": [
+                "Mattel Auto Race",
+                "mattel auto race"
+            ],
+            "options": [
+                "Game Boy",
+                "Microvision",
+                "Game &amp; Watch",
+                "Mattel Auto Race"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many voice channels does the Super Nintendo Entertainment System support?",
+            "correct_answer": "8",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "10",
+                    "10"
+                ],
+                [
+                    "12",
+                    "12"
+                ]
+            ],
+            "correct_answers": [
+                "8",
+                "8"
+            ],
+            "options": [
+                "6",
+                "10",
+                "12",
+                "8"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The 'D' in the term &quot;D-Mail&quot; from the game &quot;Steins; Gate&quot; is short for what?",
+            "correct_answer": "DeLorean",
+            "incorrect_answers": [
+                [
+                    "Deep",
+                    "deep"
+                ],
+                [
+                    "Demo",
+                    "demo"
+                ],
+                [
+                    "Dev",
+                    "dev"
+                ]
+            ],
+            "correct_answers": [
+                "DeLorean",
+                "delorean"
+            ],
+            "options": [
+                "Deep",
+                "Demo",
+                "Dev",
+                "DeLorean"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many aces can be shot down through the entirety of &quot;Ace Combat Zero: The Belkan War&quot;?",
+            "correct_answer": "169",
+            "incorrect_answers": [
+                [
+                    "100",
+                    "100"
+                ],
+                [
+                    "132",
+                    "132"
+                ],
+                [
+                    "245",
+                    "245"
+                ]
+            ],
+            "correct_answers": [
+                "169",
+                "169"
+            ],
+            "options": [
+                "100",
+                "132",
+                "245",
+                "169"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In which game did the character &quot;Mario&quot; make his first appearance?",
+            "correct_answer": "Donkey Kong",
+            "incorrect_answers": [
+                [
+                    "Super Mario Bros.",
+                    "super mario bros."
+                ],
+                [
+                    "Super Mario Land",
+                    "super mario land"
+                ],
+                [
+                    "Mario Bros.",
+                    "mario bros."
+                ]
+            ],
+            "correct_answers": [
+                "Donkey Kong",
+                "donkey kong"
+            ],
+            "options": [
+                "Super Mario Bros.",
+                "Super Mario Land",
+                "Mario Bros.",
+                "Donkey Kong"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Counter Strike: Global Offensive, what is the code implanted onto the C4 as the Terrorists plant the bomb?",
+            "correct_answer": "7355608",
+            "incorrect_answers": [
+                [
+                    "7890728",
+                    "7890728"
+                ],
+                [
+                    "7256380",
+                    "7256380"
+                ],
+                [
+                    "7726354",
+                    "7726354"
+                ]
+            ],
+            "correct_answers": [
+                "7355608",
+                "7355608"
+            ],
+            "options": [
+                "7890728",
+                "7256380",
+                "7726354",
+                "7355608"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In what year was the game &quot;Eliminator&quot; released?",
+            "correct_answer": "1998",
+            "incorrect_answers": [
+                [
+                    "2000",
+                    "2000"
+                ],
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "2001",
+                    "2001"
+                ]
+            ],
+            "correct_answers": [
+                "1998",
+                "1998"
+            ],
+            "options": [
+                "2000",
+                "1999",
+                "2001",
+                "1998"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The creeper in Minecraft was the result of a bug while implementing which creature?",
+            "correct_answer": "Pig",
+            "incorrect_answers": [
+                [
+                    "Zombie",
+                    "zombie"
+                ],
+                [
+                    "Chicken",
+                    "chicken"
+                ],
+                [
+                    "Cow",
+                    "cow"
+                ]
+            ],
+            "correct_answers": [
+                "Pig",
+                "pig"
+            ],
+            "options": [
+                "Zombie",
+                "Chicken",
+                "Cow",
+                "Pig"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of Sonic the Hedgehog's original human girlfriend?",
+            "correct_answer": "Madonna",
+            "incorrect_answers": [
+                [
+                    "Celeste",
+                    "celeste"
+                ],
+                [
+                    "Sierra",
+                    "sierra"
+                ],
+                [
+                    "Nina",
+                    "nina"
+                ]
+            ],
+            "correct_answers": [
+                "Madonna",
+                "madonna"
+            ],
+            "options": [
+                "Celeste",
+                "Sierra",
+                "Nina",
+                "Madonna"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which game was exclusive to Dreamcast?",
+            "correct_answer": "Pen Pen TriIcelon",
+            "incorrect_answers": [
+                [
+                    "Sylvester &amp; Tweety in Cagey Capers",
+                    "sylvester &amp; tweety in cagey capers"
+                ],
+                [
+                    "Perfect Dark",
+                    "perfect dark"
+                ],
+                [
+                    "Tetrisphere",
+                    "tetrisphere"
+                ]
+            ],
+            "correct_answers": [
+                "Pen Pen TriIcelon",
+                "pen pen triicelon"
+            ],
+            "options": [
+                "Sylvester &amp; Tweety in Cagey Capers",
+                "Perfect Dark",
+                "Tetrisphere",
+                "Pen Pen TriIcelon"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game &quot;Overwatch,&quot; which quote does the hero &quot;McCree&quot; NOT say upon using his flashbang ability?",
+            "correct_answer": "&quot;You done?&quot;",
+            "incorrect_answers": [
+                [
+                    "&quot;Whoa there.&quot;",
+                    "&quot;whoa there.&quot;"
+                ],
+                [
+                    "&quot;Hold up now.&quot;",
+                    "&quot;hold up now.&quot;"
+                ],
+                [
+                    "&quot;Don't move.&quot;",
+                    "&quot;don't move.&quot;",
+                    "&quot;dont move.&quot;"
+                ]
+            ],
+            "correct_answers": [
+                "&quot;You done?&quot;",
+                "&quot;you done?&quot;"
+            ],
+            "options": [
+                "&quot;Whoa there.&quot;",
+                "&quot;Hold up now.&quot;",
+                "&quot;Don't move.&quot;",
+                "&quot;You done?&quot;"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Call Of Duty: Zombies&quot;, which weapon does NOT deal any damage?",
+            "correct_answer": "31-79 JGb215",
+            "incorrect_answers": [
+                [
+                    "Sliquifier",
+                    "sliquifier"
+                ],
+                [
+                    "V-R11",
+                    "v-r11"
+                ],
+                [
+                    "Wunderwaffe DG-2",
+                    "wunderwaffe dg-2"
+                ]
+            ],
+            "correct_answers": [
+                "31-79 JGb215",
+                "31-79 jgb215"
+            ],
+            "options": [
+                "Sliquifier",
+                "V-R11",
+                "Wunderwaffe DG-2",
+                "31-79 JGb215"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the real name of &quot;Warhead&quot; in the Sega Genesis game &quot;Vectorman&quot;?",
+            "correct_answer": "Raster",
+            "incorrect_answers": [
+                [
+                    "Peacehead",
+                    "peacehead"
+                ],
+                [
+                    "Vectorkid",
+                    "vectorkid"
+                ],
+                [
+                    "Bitmap",
+                    "bitmap"
+                ]
+            ],
+            "correct_answers": [
+                "Raster",
+                "raster"
+            ],
+            "options": [
+                "Peacehead",
+                "Vectorkid",
+                "Bitmap",
+                "Raster"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game Warframe, what Mastery Rank do you need to have to build the Tigris Prime?",
+            "correct_answer": "13",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "18",
+                    "18"
+                ],
+                [
+                    "10",
+                    "10"
+                ]
+            ],
+            "correct_answers": [
+                "13",
+                "13"
+            ],
+            "options": [
+                "6",
+                "18",
+                "10",
+                "13"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which retro video game was released first?",
+            "correct_answer": "Space Invaders",
+            "incorrect_answers": [
+                [
+                    "Galaga",
+                    "galaga"
+                ],
+                [
+                    "Pac-Man",
+                    "pac-man"
+                ],
+                [
+                    "Asteroids",
+                    "asteroids"
+                ]
+            ],
+            "correct_answers": [
+                "Space Invaders",
+                "space invaders"
+            ],
+            "options": [
+                "Galaga",
+                "Pac-Man",
+                "Asteroids",
+                "Space Invaders"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Nintendo Game Splatoon 2, what is Marina's screen name?",
+            "correct_answer": "DJ_Hyperfresh",
+            "incorrect_answers": [
+                [
+                    "MC.princess",
+                    "mc.princess"
+                ],
+                [
+                    "Kidnotsquid123",
+                    "kidnotsquid123"
+                ],
+                [
+                    "I&lt;30ffTh3H00k",
+                    "i&lt;30ffth3h00k"
+                ]
+            ],
+            "correct_answers": [
+                "DJ_Hyperfresh",
+                "dj_hyperfresh"
+            ],
+            "options": [
+                "MC.princess",
+                "Kidnotsquid123",
+                "I&lt;30ffTh3H00k",
+                "DJ_Hyperfresh"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was the first Call of Duty title released?",
+            "correct_answer": "October 29, 2003",
+            "incorrect_answers": [
+                [
+                    "December 1, 2003",
+                    "december 1, 2003"
+                ],
+                [
+                    "November 14, 2002",
+                    "november 14, 2002"
+                ],
+                [
+                    "July 18, 2004",
+                    "july 18, 2004"
+                ]
+            ],
+            "correct_answers": [
+                "October 29, 2003",
+                "october 29, 2003"
+            ],
+            "options": [
+                "December 1, 2003",
+                "November 14, 2002",
+                "July 18, 2004",
+                "October 29, 2003"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game &quot;The Sims&quot;, how many Simoleons does each family start with?",
+            "correct_answer": "20,000",
+            "incorrect_answers": [
+                [
+                    "10,000",
+                    "10,000"
+                ],
+                [
+                    "15,000",
+                    "15,000"
+                ],
+                [
+                    "25,000",
+                    "25,000"
+                ]
+            ],
+            "correct_answers": [
+                "20,000",
+                "20,000"
+            ],
+            "options": [
+                "10,000",
+                "15,000",
+                "25,000",
+                "20,000"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these characters in &quot;Undertale&quot; can the player NOT go on a date with?",
+            "correct_answer": "Toriel",
+            "incorrect_answers": [
+                [
+                    "Papyrus",
+                    "papyrus"
+                ],
+                [
+                    "Undyne",
+                    "undyne"
+                ],
+                [
+                    "Alphys",
+                    "alphys"
+                ]
+            ],
+            "correct_answers": [
+                "Toriel",
+                "toriel"
+            ],
+            "options": [
+                "Papyrus",
+                "Undyne",
+                "Alphys",
+                "Toriel"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
+            "correct_answer": "Live and Learn",
+            "incorrect_answers": [
+                [
+                    "Open Your Heart",
+                    "open your heart"
+                ],
+                [
+                    "Can You Feel the Sunshine?",
+                    "can you feel the sunshine?",
+                    "can you feel sunshine?"
+                ],
+                [
+                    "His World",
+                    "his world"
+                ]
+            ],
+            "correct_answers": [
+                "Live and Learn",
+                "live and learn"
+            ],
+            "options": [
+                "Open Your Heart",
+                "Can You Feel the Sunshine?",
+                "His World",
+                "Live and Learn"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How long are all the cutscenes from Metal Gear Solid 4 (PS3, 2008) combined?",
+            "correct_answer": "8 hours",
+            "incorrect_answers": [
+                [
+                    "4 hours",
+                    "4 hours"
+                ],
+                [
+                    "12 hours",
+                    "12 hours"
+                ],
+                [
+                    "5 hours",
+                    "5 hours"
+                ]
+            ],
+            "correct_answers": [
+                "8 hours",
+                "8 hours"
+            ],
+            "options": [
+                "4 hours",
+                "12 hours",
+                "5 hours",
+                "8 hours"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Fallout series, on which date did The Great War happen?",
+            "correct_answer": "October 23rd, 2077",
+            "incorrect_answers": [
+                [
+                    "May 15th, 2058",
+                    "may 15th, 2058"
+                ],
+                [
+                    "December 14th, 2069",
+                    "december 14th, 2069"
+                ],
+                [
+                    "November 5th, 2076",
+                    "november 5th, 2076"
+                ]
+            ],
+            "correct_answers": [
+                "October 23rd, 2077",
+                "october 23rd, 2077"
+            ],
+            "options": [
+                "May 15th, 2058",
+                "December 14th, 2069",
+                "November 5th, 2076",
+                "October 23rd, 2077"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these Pok&eacute;mon cannot learn Surf?",
+            "correct_answer": "Arbok",
+            "incorrect_answers": [
+                [
+                    "Linoone",
+                    "linoone"
+                ],
+                [
+                    "Tauros",
+                    "tauros"
+                ],
+                [
+                    "Nidoking",
+                    "nidoking"
+                ]
+            ],
+            "correct_answers": [
+                "Arbok",
+                "arbok"
+            ],
+            "options": [
+                "Linoone",
+                "Tauros",
+                "Nidoking",
+                "Arbok"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which day in &quot;Papers, Please&quot; does the man in red appear?",
+            "correct_answer": "Day 23",
+            "incorrect_answers": [
+                [
+                    "Day 20",
+                    "day 20"
+                ],
+                [
+                    "Day 17",
+                    "day 17"
+                ],
+                [
+                    "Day 15",
+                    "day 15"
+                ]
+            ],
+            "correct_answers": [
+                "Day 23",
+                "day 23"
+            ],
+            "options": [
+                "Day 20",
+                "Day 17",
+                "Day 15",
+                "Day 23"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Lego Island trilogy, who taught Pepper Roni how to read?",
+            "correct_answer": "Officer Laura Brick",
+            "incorrect_answers": [
+                [
+                    "Papa Brickolini",
+                    "papa brickolini"
+                ],
+                [
+                    "Officer Nick Brick",
+                    "officer nick brick"
+                ],
+                [
+                    "Mama Brickolini",
+                    "mama brickolini"
+                ]
+            ],
+            "correct_answers": [
+                "Officer Laura Brick",
+                "officer laura brick"
+            ],
+            "options": [
+                "Papa Brickolini",
+                "Officer Nick Brick",
+                "Mama Brickolini",
+                "Officer Laura Brick"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Little Lost Girl&quot; Easter Egg in Call of Duty: Black Ops II, what's the last step required for the achievement?",
+            "correct_answer": "Raise Hell",
+            "incorrect_answers": [
+                [
+                    "Freedom",
+                    "freedom"
+                ],
+                [
+                    "Skewer the Winged Beast",
+                    "skewer the winged beast",
+                    "skewer winged beast"
+                ],
+                [
+                    "Ascend from Darkness",
+                    "ascend from darkness"
+                ]
+            ],
+            "correct_answers": [
+                "Raise Hell",
+                "raise hell"
+            ],
+            "options": [
+                "Freedom",
+                "Skewer the Winged Beast",
+                "Ascend from Darkness",
+                "Raise Hell"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the 4th boss in the 1997 video game &quot;Crash Bandicoot 2: Cortex Strikes Back&quot;?",
+            "correct_answer": "Dr. N. Gin",
+            "incorrect_answers": [
+                [
+                    "Dr. Neo Cortex",
+                    "dr. neo cortex"
+                ],
+                [
+                    "Komodo Brothers",
+                    "komodo brothers"
+                ],
+                [
+                    "Tiny Tiger",
+                    "tiny tiger"
+                ]
+            ],
+            "correct_answers": [
+                "Dr. N. Gin",
+                "dr. n. gin"
+            ],
+            "options": [
+                "Dr. Neo Cortex",
+                "Komodo Brothers",
+                "Tiny Tiger",
+                "Dr. N. Gin"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following games was NOT included in Valve's Orange Box?",
+            "correct_answer": "Counter-Strike",
+            "incorrect_answers": [
+                [
+                    "Portal",
+                    "portal"
+                ],
+                [
+                    "Half-Life 2: Episode Two",
+                    "half-life 2: episode two"
+                ],
+                [
+                    "Team Fortress 2",
+                    "team fortress 2"
+                ]
+            ],
+            "correct_answers": [
+                "Counter-Strike",
+                "counter-strike"
+            ],
+            "options": [
+                "Portal",
+                "Half-Life 2: Episode Two",
+                "Team Fortress 2",
+                "Counter-Strike"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What Pok&eacute;mon's Base Stat Total does not change when it evolves?",
+            "correct_answer": "Scyther",
+            "incorrect_answers": [
+                [
+                    "Pikachu",
+                    "pikachu"
+                ],
+                [
+                    "Sneasel",
+                    "sneasel"
+                ],
+                [
+                    "Larvesta",
+                    "larvesta"
+                ]
+            ],
+            "correct_answers": [
+                "Scyther",
+                "scyther"
+            ],
+            "options": [
+                "Pikachu",
+                "Sneasel",
+                "Larvesta",
+                "Scyther"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which drive form was added into Kingdom Hearts II Final Mix?",
+            "correct_answer": "Limit Form",
+            "incorrect_answers": [
+                [
+                    "Valor Form",
+                    "valor form"
+                ],
+                [
+                    "Wisdom Form",
+                    "wisdom form"
+                ],
+                [
+                    "Anti Form",
+                    "anti form"
+                ]
+            ],
+            "correct_answers": [
+                "Limit Form",
+                "limit form"
+            ],
+            "options": [
+                "Valor Form",
+                "Wisdom Form",
+                "Anti Form",
+                "Limit Form"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the world's first video game?",
+            "correct_answer": "Tennis for Two",
+            "incorrect_answers": [
+                [
+                    "Spacewar!",
+                    "spacewar!"
+                ],
+                [
+                    "Pong",
+                    "pong"
+                ],
+                [
+                    "Space Travel",
+                    "space travel"
+                ]
+            ],
+            "correct_answers": [
+                "Tennis for Two",
+                "tennis for two"
+            ],
+            "options": [
+                "Spacewar!",
+                "Pong",
+                "Space Travel",
+                "Tennis for Two"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Animal Crossing series, which flower is erroneously called the &quot;Jacob's Ladder&quot;?",
+            "correct_answer": "Lily of the Valley",
+            "incorrect_answers": [
+                [
+                    "Hydrangea",
+                    "hydrangea"
+                ],
+                [
+                    "Harebell",
+                    "harebell"
+                ],
+                [
+                    "Yarrow",
+                    "yarrow"
+                ]
+            ],
+            "correct_answers": [
+                "Lily of the Valley",
+                "lily of the valley",
+                "lily of valley"
+            ],
+            "options": [
+                "Hydrangea",
+                "Harebell",
+                "Yarrow",
+                "Lily of the Valley"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Super Smash Bros. for Nintendo 3DS and Nintendo Wii U, who was the sixth fighter to be added to the game post-launch?",
+            "correct_answer": "Corrin",
+            "incorrect_answers": [
+                [
+                    "Cloud",
+                    "cloud"
+                ],
+                [
+                    "Bayonnetta",
+                    "bayonnetta"
+                ],
+                [
+                    "Ryu",
+                    "ryu"
+                ]
+            ],
+            "correct_answers": [
+                "Corrin",
+                "corrin"
+            ],
+            "options": [
+                "Cloud",
+                "Bayonnetta",
+                "Ryu",
+                "Corrin"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many playable characters are there in Super Smash Bros. for Nintendo 3DS and Wii U?",
+            "correct_answer": "58",
+            "incorrect_answers": [
+                [
+                    "48",
+                    "48"
+                ],
+                [
+                    "51",
+                    "51"
+                ],
+                [
+                    "55",
+                    "55"
+                ]
+            ],
+            "correct_answers": [
+                "58",
+                "58"
+            ],
+            "options": [
+                "48",
+                "51",
+                "55",
+                "58"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which variant of the MP5 is depicted in Counter-Strike 1.6?",
+            "correct_answer": "MP5N",
+            "incorrect_answers": [
+                [
+                    "MP5SD",
+                    "mp5sd"
+                ],
+                [
+                    "MP5K",
+                    "mp5k"
+                ],
+                [
+                    "MP5RAS",
+                    "mp5ras"
+                ]
+            ],
+            "correct_answers": [
+                "MP5N",
+                "mp5n"
+            ],
+            "options": [
+                "MP5SD",
+                "MP5K",
+                "MP5RAS",
+                "MP5N"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Zombies mode of &quot;Call of Duty: Black Ops&quot;, what is the &quot;Pack-A-Punched&quot; version of the &quot;Galil&quot; called?",
+            "correct_answer": "Lamentation",
+            "incorrect_answers": [
+                [
+                    "Galvanized Atomic Lead Insertion Liquidator",
+                    "galvanized atomic lead insertion liquidator"
+                ],
+                [
+                    "Gabig",
+                    "gabig"
+                ],
+                [
+                    "Predictive Death Wish",
+                    "predictive death wish"
+                ]
+            ],
+            "correct_answers": [
+                "Lamentation",
+                "lamentation"
+            ],
+            "options": [
+                "Galvanized Atomic Lead Insertion Liquidator",
+                "Gabig",
+                "Predictive Death Wish",
+                "Lamentation"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The creation of the  Entertainment Software Ratings Board (ESRB) is often associated with Mortal Kombat and what FMV video game?",
+            "correct_answer": "Night Trap",
+            "incorrect_answers": [
+                [
+                    "Sewer Shark",
+                    "sewer shark"
+                ],
+                [
+                    "The Daedalus Encounter",
+                    "the daedalus encounter",
+                    "daedalus encounter"
+                ],
+                [
+                    "Corpse Killer",
+                    "corpse killer"
+                ]
+            ],
+            "correct_answers": [
+                "Night Trap",
+                "night trap"
+            ],
+            "options": [
+                "Sewer Shark",
+                "The Daedalus Encounter",
+                "Corpse Killer",
+                "Night Trap"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was Steam first released?",
+            "correct_answer": "2003",
+            "incorrect_answers": [
+                [
+                    "2004",
+                    "2004"
+                ],
+                [
+                    "2011",
+                    "2011"
+                ],
+                [
+                    "2007",
+                    "2007"
+                ]
+            ],
+            "correct_answers": [
+                "2003",
+                "2003"
+            ],
+            "options": [
+                "2004",
+                "2011",
+                "2007",
+                "2003"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The voice actor for which Portal 2 character was not a TV or film actor prior to the game?",
+            "correct_answer": "GLaDOS",
+            "incorrect_answers": [
+                [
+                    "Cave Johnson",
+                    "cave johnson"
+                ],
+                [
+                    "Wheatley",
+                    "wheatley"
+                ],
+                [
+                    "Atlas / P-Body",
+                    "atlas / p-body"
+                ]
+            ],
+            "correct_answers": [
+                "GLaDOS",
+                "glados"
+            ],
+            "options": [
+                "Cave Johnson",
+                "Wheatley",
+                "Atlas / P-Body",
+                "GLaDOS"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What programming language was used to create the game &quot;Minecraft&quot;?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                [
+                    "HTML 5",
+                    "html 5"
+                ],
+                [
+                    "C++",
+                    "c++"
+                ],
+                [
+                    "Python",
+                    "python"
+                ]
+            ],
+            "correct_answers": [
+                "Java",
+                "java"
+            ],
+            "options": [
+                "HTML 5",
+                "C++",
+                "Python",
+                "Java"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Internet Meme &quot;All your base are belong to us&quot; is based on the poorly translated English Version of which Video Game?",
+            "correct_answer": "Zero Wing",
+            "incorrect_answers": [
+                [
+                    "F-Zero",
+                    "f-zero"
+                ],
+                [
+                    "Wing Commander",
+                    "wing commander"
+                ],
+                [
+                    "Star Wars: X-Wing",
+                    "star wars: x-wing"
+                ]
+            ],
+            "correct_answers": [
+                "Zero Wing",
+                "zero wing"
+            ],
+            "options": [
+                "F-Zero",
+                "Wing Commander",
+                "Star Wars: X-Wing",
+                "Zero Wing"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Why was the character Trevor Philips discharged from the Air Force?",
+            "correct_answer": "Mental Health Issues",
+            "incorrect_answers": [
+                [
+                    "Injuries",
+                    "injuries"
+                ],
+                [
+                    "Disease",
+                    "disease"
+                ],
+                [
+                    "Danger to Others",
+                    "danger to others"
+                ]
+            ],
+            "correct_answers": [
+                "Mental Health Issues",
+                "mental health issues"
+            ],
+            "options": [
+                "Injuries",
+                "Disease",
+                "Danger to Others",
+                "Mental Health Issues"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game Call of Duty, what is the last level where you play as an American soldier?",
+            "correct_answer": "Festung Recogne",
+            "incorrect_answers": [
+                [
+                    "Ste. Mere-Eglise (Day)",
+                    "ste. mere-eglise (day)"
+                ],
+                [
+                    "Chateau",
+                    "chateau"
+                ],
+                [
+                    "Brecourt",
+                    "brecourt"
+                ]
+            ],
+            "correct_answers": [
+                "Festung Recogne",
+                "festung recogne"
+            ],
+            "options": [
+                "Ste. Mere-Eglise (Day)",
+                "Chateau",
+                "Brecourt",
+                "Festung Recogne"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina's ultimate ability is what?",
+            "correct_answer": "Ultimate Swimmer",
+            "incorrect_answers": [
+                [
+                    "Ultimate Detective",
+                    "ultimate detective"
+                ],
+                [
+                    "Ultimate Gambler",
+                    "ultimate gambler"
+                ],
+                [
+                    "Ultimate Dancer",
+                    "ultimate dancer"
+                ]
+            ],
+            "correct_answers": [
+                "Ultimate Swimmer",
+                "ultimate swimmer"
+            ],
+            "options": [
+                "Ultimate Detective",
+                "Ultimate Gambler",
+                "Ultimate Dancer",
+                "Ultimate Swimmer"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Starbound&quot;, according to the asset files, the description of the &quot;Erchius Ghost&quot; is the same as which other assets?",
+            "correct_answer": "Spookit",
+            "incorrect_answers": [
+                [
+                    "Petricub",
+                    "petricub"
+                ],
+                [
+                    "Trictus",
+                    "trictus"
+                ],
+                [
+                    "Pyromantle",
+                    "pyromantle"
+                ]
+            ],
+            "correct_answers": [
+                "Spookit",
+                "spookit"
+            ],
+            "options": [
+                "Petricub",
+                "Trictus",
+                "Pyromantle",
+                "Spookit"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which occupation did John Tanner, the main protagonist for Driver and Driver 2, had before turning into an undercover cop?",
+            "correct_answer": "Racing Driver",
+            "incorrect_answers": [
+                [
+                    "Taxi Driver",
+                    "taxi driver"
+                ],
+                [
+                    "Delivery Driver",
+                    "delivery driver"
+                ],
+                [
+                    "Getaway Driver",
+                    "getaway driver"
+                ]
+            ],
+            "correct_answers": [
+                "Racing Driver",
+                "racing driver"
+            ],
+            "options": [
+                "Taxi Driver",
+                "Delivery Driver",
+                "Getaway Driver",
+                "Racing Driver"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Gamecube Version of &quot;Resident Evil&quot; what text document is open on the monitor of the computer in the Visual Data Room?",
+            "correct_answer": "A GDC Document",
+            "incorrect_answers": [
+                [
+                    "Text Document on Herbs",
+                    "text document on herbs"
+                ],
+                [
+                    "Nothing",
+                    "nothing"
+                ],
+                [
+                    "Document on B.O.Ws",
+                    "document on b.o.ws"
+                ]
+            ],
+            "correct_answers": [
+                "A GDC Document",
+                "a gdc document"
+            ],
+            "options": [
+                "Text Document on Herbs",
+                "Nothing",
+                "Document on B.O.Ws",
+                "A GDC Document"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is NOT a possible drink to be made in the game &quot;VA-11 HALL-A: Cyberpunk Bartender Action&quot;?",
+            "correct_answer": "Sour Appletini",
+            "incorrect_answers": [
+                [
+                    "Fringe Weaver",
+                    "fringe weaver"
+                ],
+                [
+                    "Piano Man",
+                    "piano man"
+                ],
+                [
+                    "Bad Touch",
+                    "bad touch"
+                ]
+            ],
+            "correct_answers": [
+                "Sour Appletini",
+                "sour appletini"
+            ],
+            "options": [
+                "Fringe Weaver",
+                "Piano Man",
+                "Bad Touch",
+                "Sour Appletini"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these characters was considered, but ultimately not included, for Super Smash Bros. Melee?",
+            "correct_answer": "James Bond",
+            "incorrect_answers": [
+                [
+                    "Diddy Kong",
+                    "diddy kong"
+                ],
+                [
+                    "Mega Man",
+                    "mega man"
+                ],
+                [
+                    "Wave Racer",
+                    "wave racer"
+                ]
+            ],
+            "correct_answers": [
+                "James Bond",
+                "james bond"
+            ],
+            "options": [
+                "Diddy Kong",
+                "Mega Man",
+                "Wave Racer",
+                "James Bond"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Ace Attorney&quot; series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?",
+            "correct_answer": "Bansai Ichiyanagi",
+            "incorrect_answers": [
+                [
+                    "Manfred Von Karma",
+                    "manfred von karma"
+                ],
+                [
+                    "Gregory Edgeworth",
+                    "gregory edgeworth"
+                ],
+                [
+                    "Tateyuki Shigaraki",
+                    "tateyuki shigaraki"
+                ]
+            ],
+            "correct_answers": [
+                "Bansai Ichiyanagi",
+                "bansai ichiyanagi"
+            ],
+            "options": [
+                "Manfred Von Karma",
+                "Gregory Edgeworth",
+                "Tateyuki Shigaraki",
+                "Bansai Ichiyanagi"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the original &quot;Super Mario Bros.&quot;, what is the acceleration of Mario if he was in free fall?",
+            "correct_answer": "91.28 m/s^2",
+            "incorrect_answers": [
+                [
+                    "110  m/s^2",
+                    "110  m/s^2"
+                ],
+                [
+                    "9.42  m/s^2",
+                    "9.42  m/s^2"
+                ],
+                [
+                    "4.4  m/s^2",
+                    "4.4  m/s^2"
+                ]
+            ],
+            "correct_answers": [
+                "91.28 m/s^2",
+                "91.28 m/s^2"
+            ],
+            "options": [
+                "110  m/s^2",
+                "9.42  m/s^2",
+                "4.4  m/s^2",
+                "91.28 m/s^2"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was the first &quot;Half-Life&quot; released?",
+            "correct_answer": "1998",
+            "incorrect_answers": [
+                [
+                    "2004",
+                    "2004"
+                ],
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "1997",
+                    "1997"
+                ]
+            ],
+            "correct_answers": [
+                "1998",
+                "1998"
+            ],
+            "options": [
+                "2004",
+                "1999",
+                "1997",
+                "1998"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What device allows Tracer to manipulate her own time in the game &quot;Overwatch&quot;?",
+            "correct_answer": "Chronal Accelerator",
+            "incorrect_answers": [
+                [
+                    "B.L.I.N.K",
+                    "b.l.i.n.k"
+                ],
+                [
+                    "Spacial Displacement Manipulator",
+                    "spacial displacement manipulator"
+                ],
+                [
+                    "TMD (Time Manipulation Device)",
+                    "tmd (time manipulation device)"
+                ]
+            ],
+            "correct_answers": [
+                "Chronal Accelerator",
+                "chronal accelerator"
+            ],
+            "options": [
+                "B.L.I.N.K",
+                "Spacial Displacement Manipulator",
+                "TMD (Time Manipulation Device)",
+                "Chronal Accelerator"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How long was the World Record Speed Run of Valve Software's &quot;Half-Life&quot; that was done in 2014.",
+            "correct_answer": "20 Minutes, 41 Seconds",
+            "incorrect_answers": [
+                [
+                    "45 Minutes, 32 Seconds",
+                    "45 minutes, 32 seconds"
+                ],
+                [
+                    "5 Minutes, 50 Seconds",
+                    "5 minutes, 50 seconds"
+                ],
+                [
+                    "12 Minutes, 59 Seconds",
+                    "12 minutes, 59 seconds"
+                ]
+            ],
+            "correct_answers": [
+                "20 Minutes, 41 Seconds",
+                "20 minutes, 41 seconds"
+            ],
+            "options": [
+                "45 Minutes, 32 Seconds",
+                "5 Minutes, 50 Seconds",
+                "12 Minutes, 59 Seconds",
+                "20 Minutes, 41 Seconds"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In World of Warcraft lore, which of the following is known as the God of Spiders in the troll's loa beliefs?",
+            "correct_answer": "Elortha no Shadra",
+            "incorrect_answers": [
+                [
+                    "Bwonsamdi",
+                    "bwonsamdi"
+                ],
+                [
+                    "Hakkar",
+                    "hakkar"
+                ],
+                [
+                    "Shirvallah",
+                    "shirvallah"
+                ]
+            ],
+            "correct_answers": [
+                "Elortha no Shadra",
+                "elortha no shadra"
+            ],
+            "options": [
+                "Bwonsamdi",
+                "Hakkar",
+                "Shirvallah",
+                "Elortha no Shadra"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Pok&eacute;mon Sun and Moon&quot;, Team Skull took over which town?",
+            "correct_answer": "Po Town",
+            "incorrect_answers": [
+                [
+                    "Heahea City",
+                    "heahea city"
+                ],
+                [
+                    "Tapu Village",
+                    "tapu village"
+                ],
+                [
+                    "Iki Town",
+                    "iki town"
+                ]
+            ],
+            "correct_answers": [
+                "Po Town",
+                "po town"
+            ],
+            "options": [
+                "Heahea City",
+                "Tapu Village",
+                "Iki Town",
+                "Po Town"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the victim mentioned in the second KG-8 incident, in Ace attorney Investigations, Case 4?",
+            "correct_answer": "Deid Mann",
+            "incorrect_answers": [
+                [
+                    "Frank Sahwit",
+                    "frank sahwit"
+                ],
+                [
+                    "Shey De Killer",
+                    "shey de killer"
+                ],
+                [
+                    "Raymond Shields",
+                    "raymond shields"
+                ]
+            ],
+            "correct_answers": [
+                "Deid Mann",
+                "deid mann"
+            ],
+            "options": [
+                "Frank Sahwit",
+                "Shey De Killer",
+                "Raymond Shields",
+                "Deid Mann"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which game in the &quot;Monster Hunter&quot; series introduced the monster &quot;Gobul&quot;?",
+            "correct_answer": "Monster Hunter Tri",
+            "incorrect_answers": [
+                [
+                    "Monster Hunter Freedom Unite",
+                    "monster hunter freedom unite"
+                ],
+                [
+                    "Monster Hunter Frontier",
+                    "monster hunter frontier"
+                ],
+                [
+                    "Monster Hunter Generations",
+                    "monster hunter generations"
+                ]
+            ],
+            "correct_answers": [
+                "Monster Hunter Tri",
+                "monster hunter tri"
+            ],
+            "options": [
+                "Monster Hunter Freedom Unite",
+                "Monster Hunter Frontier",
+                "Monster Hunter Generations",
+                "Monster Hunter Tri"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which game in the &quot;Dark Souls&quot; series does the player play as the &quot;Ashen One&quot;?",
+            "correct_answer": "Dark Souls III",
+            "incorrect_answers": [
+                [
+                    "Dark Souls I",
+                    "dark souls i"
+                ],
+                [
+                    "Bloodborne",
+                    "bloodborne"
+                ],
+                [
+                    "Demon Souls",
+                    "demon souls"
+                ]
+            ],
+            "correct_answers": [
+                "Dark Souls III",
+                "dark souls iii"
+            ],
+            "options": [
+                "Dark Souls I",
+                "Bloodborne",
+                "Demon Souls",
+                "Dark Souls III"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Terraria, which debuff does the ankh charm not provide immunity to?",
+            "correct_answer": "Venom",
+            "incorrect_answers": [
+                [
+                    "Cursed",
+                    "cursed"
+                ],
+                [
+                    "Bleeding",
+                    "bleeding"
+                ],
+                [
+                    "Slow",
+                    "slow"
+                ]
+            ],
+            "correct_answers": [
+                "Venom",
+                "venom"
+            ],
+            "options": [
+                "Cursed",
+                "Bleeding",
+                "Slow",
+                "Venom"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "According to Toby Fox, what was the method to creating the initial tune for Megalovania?",
+            "correct_answer": "Singing into a Microphone",
+            "incorrect_answers": [
+                [
+                    "Playing a Piano",
+                    "playing a piano"
+                ],
+                [
+                    "Using a Composer Software",
+                    "using a composer software"
+                ],
+                [
+                    "Listened to birds at the park",
+                    "listened to birds at the park",
+                    "listened to birds at park"
+                ]
+            ],
+            "correct_answers": [
+                "Singing into a Microphone",
+                "singing into a microphone"
+            ],
+            "options": [
+                "Playing a Piano",
+                "Using a Composer Software",
+                "Listened to birds at the park",
+                "Singing into a Microphone"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Animal Crossing: New Leaf, which of these paintings from Redd's Art Gallery is always genuine?",
+            "correct_answer": "Warm Painting",
+            "incorrect_answers": [
+                [
+                    "Jolly Painting",
+                    "jolly painting"
+                ],
+                [
+                    "Neutral Painting",
+                    "neutral painting"
+                ],
+                [
+                    "Wistful Painting",
+                    "wistful painting"
+                ]
+            ],
+            "correct_answers": [
+                "Warm Painting",
+                "warm painting"
+            ],
+            "options": [
+                "Jolly Painting",
+                "Neutral Painting",
+                "Wistful Painting",
+                "Warm Painting"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many trophies are there in &quot;Super Smash Bros. for Nintendo 3DS&quot;?",
+            "correct_answer": "685",
+            "incorrect_answers": [
+                [
+                    "1360",
+                    "1360"
+                ],
+                [
+                    "716",
+                    "716"
+                ],
+                [
+                    "1155",
+                    "1155"
+                ]
+            ],
+            "correct_answers": [
+                "685",
+                "685"
+            ],
+            "options": [
+                "1360",
+                "716",
+                "1155",
+                "685"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Halo&quot;, what is the name of the planet which Installation 04 orbits?",
+            "correct_answer": "Threshold",
+            "incorrect_answers": [
+                [
+                    "Substance",
+                    "substance"
+                ],
+                [
+                    "Sanghelios",
+                    "sanghelios"
+                ],
+                [
+                    "Te",
+                    "te"
+                ]
+            ],
+            "correct_answers": [
+                "Threshold",
+                "threshold"
+            ],
+            "options": [
+                "Substance",
+                "Sanghelios",
+                "Te",
+                "Threshold"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Super Mario Sunshine&quot;, how do you unlock the &quot;Corona Mountain&quot; level?",
+            "correct_answer": "By clearing every 7th episode",
+            "incorrect_answers": [
+                [
+                    "By obtaining 70 Shines",
+                    "by obtaining 70 shines"
+                ],
+                [
+                    "By clearing every episode involving a &quot;Secret&quot;",
+                    "by clearing every episode involving a &quot;secret&quot;"
+                ],
+                [
+                    "By unlocking every nozzle F.L.U.D.D can use",
+                    "by unlocking every nozzle f.l.u.d.d can use"
+                ]
+            ],
+            "correct_answers": [
+                "By clearing every 7th episode",
+                "by clearing every 7th episode"
+            ],
+            "options": [
+                "By obtaining 70 Shines",
+                "By clearing every episode involving a &quot;Secret&quot;",
+                "By unlocking every nozzle F.L.U.D.D can use",
+                "By clearing every 7th episode"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many copies of the notorious E.T. game for the Atari 2600 did Atari end up selling?",
+            "correct_answer": "1.5 Million",
+            "incorrect_answers": [
+                [
+                    "1 Million",
+                    "1 million"
+                ],
+                [
+                    "250 Thousand",
+                    "250 thousand"
+                ],
+                [
+                    "Less than 250 Thousand",
+                    "less than 250 thousand"
+                ]
+            ],
+            "correct_answers": [
+                "1.5 Million",
+                "1.5 million"
+            ],
+            "options": [
+                "1 Million",
+                "250 Thousand",
+                "Less than 250 Thousand",
+                "1.5 Million"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;The Binding of Isaac&quot;, which item instantly kills Mom and Mom's Heart?",
+            "correct_answer": "The Bible",
+            "incorrect_answers": [
+                [
+                    "The Halo",
+                    "the halo",
+                    "halo"
+                ],
+                [
+                    "Brimstone",
+                    "brimstone"
+                ],
+                [
+                    "Book of Shadows",
+                    "book of shadows"
+                ]
+            ],
+            "correct_answers": [
+                "The Bible",
+                "the bible",
+                "bible"
+            ],
+            "options": [
+                "The Halo",
+                "Brimstone",
+                "Book of Shadows",
+                "The Bible"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Call Of Duty: Zombies&quot;, which map's opening cutscene shows &quot;Richtofen&quot; killing another version of himself?",
+            "correct_answer": "The Giant",
+            "incorrect_answers": [
+                [
+                    "Shadows Of Evil",
+                    "shadows of evil"
+                ],
+                [
+                    "Der Eisendrache",
+                    "der eisendrache"
+                ],
+                [
+                    "Moon",
+                    "moon"
+                ]
+            ],
+            "correct_answers": [
+                "The Giant",
+                "the giant",
+                "giant"
+            ],
+            "options": [
+                "Shadows Of Evil",
+                "Der Eisendrache",
+                "Moon",
+                "The Giant"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the default name of the Vampire character in &quot;Shining Soul 2&quot;.",
+            "correct_answer": "Bloodstar",
+            "incorrect_answers": [
+                [
+                    "Sachs",
+                    "sachs"
+                ],
+                [
+                    "Dracuul",
+                    "dracuul"
+                ],
+                [
+                    "Alucard",
+                    "alucard"
+                ]
+            ],
+            "correct_answers": [
+                "Bloodstar",
+                "bloodstar"
+            ],
+            "options": [
+                "Sachs",
+                "Dracuul",
+                "Alucard",
+                "Bloodstar"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What do the video games No Man&rsquo;s Sky and Mighty No. 9 have in common?",
+            "correct_answer": "Both were announced in 2013.",
+            "incorrect_answers": [
+                [
+                    "Both were crowdfunded.",
+                    "both were crowdfunded."
+                ],
+                [
+                    "Both were developed by indie studios.",
+                    "both were developed by indie studios."
+                ],
+                [
+                    "Both were released for the PlayStation 3.",
+                    "both were released for the playstation 3.",
+                    "both were released for playstation 3."
+                ]
+            ],
+            "correct_answers": [
+                "Both were announced in 2013.",
+                "both were announced in 2013."
+            ],
+            "options": [
+                "Both were crowdfunded.",
+                "Both were developed by indie studios.",
+                "Both were released for the PlayStation 3.",
+                "Both were announced in 2013."
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many voice channels does the Nintendo Entertainment System support natively?",
+            "correct_answer": "5",
+            "incorrect_answers": [
+                [
+                    "4",
+                    "4"
+                ],
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "3",
+                    "3"
+                ]
+            ],
+            "correct_answers": [
+                "5",
+                "5"
+            ],
+            "options": [
+                "4",
+                "6",
+                "3",
+                "5"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Earthbound&quot;, how does one enter &quot;Master Belch's&quot; factory?",
+            "correct_answer": "Wait 3 Minutes",
+            "incorrect_answers": [
+                [
+                    "Enter the password &quot;Fly Honey&quot;",
+                    "enter the password &quot;fly honey&quot;",
+                    "enter password &quot;fly honey&quot;"
+                ],
+                [
+                    "Enter the password &quot;Master Belch Rules&quot;",
+                    "enter the password &quot;master belch rules&quot;",
+                    "enter password &quot;master belch rules&quot;"
+                ],
+                [
+                    "Enter the password &quot;Mr Saturn Drools&quot;",
+                    "enter the password &quot;mr saturn drools&quot;",
+                    "enter password &quot;mr saturn drools&quot;"
+                ]
+            ],
+            "correct_answers": [
+                "Wait 3 Minutes",
+                "wait 3 minutes"
+            ],
+            "options": [
+                "Enter the password &quot;Fly Honey&quot;",
+                "Enter the password &quot;Master Belch Rules&quot;",
+                "Enter the password &quot;Mr Saturn Drools&quot;",
+                "Wait 3 Minutes"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "According to the lore of &quot;Starbound&quot;, what does the &quot;Colony Deed&quot; do when it is placed down?",
+            "correct_answer": "Sends out an advertisement for someone to move in.",
+            "incorrect_answers": [
+                [
+                    "Teleports somebody from somewhere on the planet it is placed.",
+                    "teleports somebody from somewhere on the planet it is placed.",
+                    "teleports somebody from somewhere on planet it is placed."
+                ],
+                [
+                    "Teleports a random person to the location.",
+                    "teleports a random person to the location.",
+                    "teleports a random person to location."
+                ],
+                [
+                    "Materializes a new being at it's location.",
+                    "materializes a new being at it's location.",
+                    "materializes a new being at its location."
+                ]
+            ],
+            "correct_answers": [
+                "Sends out an advertisement for someone to move in.",
+                "sends out an advertisement for someone to move in."
+            ],
+            "options": [
+                "Teleports somebody from somewhere on the planet it is placed.",
+                "Teleports a random person to the location.",
+                "Materializes a new being at it's location.",
+                "Sends out an advertisement for someone to move in."
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the virus that infected New York in Tom Clancy's The Division?",
+            "correct_answer": "Dollar Flu",
+            "incorrect_answers": [
+                [
+                    "Ebola",
+                    "ebola"
+                ],
+                [
+                    "Red Poison",
+                    "red poison"
+                ],
+                [
+                    "Smallpox",
+                    "smallpox"
+                ]
+            ],
+            "correct_answers": [
+                "Dollar Flu",
+                "dollar flu"
+            ],
+            "options": [
+                "Ebola",
+                "Red Poison",
+                "Smallpox",
+                "Dollar Flu"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Before Super Smash Bros. contained Nintendo characters, what was it known as internally?",
+            "correct_answer": "Dragon King: The Fighting Game",
+            "incorrect_answers": [
+                [
+                    "Contest of Champions",
+                    "contest of champions"
+                ],
+                [
+                    "Smash and Pummel",
+                    "smash and pummel"
+                ],
+                [
+                    "Fighter of the Ages: Conquest",
+                    "fighter of the ages: conquest",
+                    "fighter of ages: conquest"
+                ]
+            ],
+            "correct_answers": [
+                "Dragon King: The Fighting Game",
+                "dragon king: the fighting game",
+                "dragon king: fighting game"
+            ],
+            "options": [
+                "Contest of Champions",
+                "Smash and Pummel",
+                "Fighter of the Ages: Conquest",
+                "Dragon King: The Fighting Game"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was the Valve Corporation founded?",
+            "correct_answer": "August 24, 1996",
+            "incorrect_answers": [
+                [
+                    "December 26, 1994",
+                    "december 26, 1994"
+                ],
+                [
+                    "March 22, 1997",
+                    "march 22, 1997"
+                ],
+                [
+                    "March 13, 1997",
+                    "march 13, 1997"
+                ]
+            ],
+            "correct_answers": [
+                "August 24, 1996",
+                "august 24, 1996"
+            ],
+            "options": [
+                "December 26, 1994",
+                "March 22, 1997",
+                "March 13, 1997",
+                "August 24, 1996"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Where are Terror Fiends more commonly found in the Nintendo game Miitopia?",
+            "correct_answer": "New Lumos",
+            "incorrect_answers": [
+                [
+                    "Peculia",
+                    "peculia"
+                ],
+                [
+                    "The Sky Scraper",
+                    "the sky scraper",
+                    "sky scraper"
+                ],
+                [
+                    "Otherworld",
+                    "otherworld"
+                ]
+            ],
+            "correct_answers": [
+                "New Lumos",
+                "new lumos"
+            ],
+            "options": [
+                "Peculia",
+                "The Sky Scraper",
+                "Otherworld",
+                "New Lumos"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the original DOOM (1993) which of the following is NOT a cheat code?",
+            "correct_answer": "IDCLIP",
+            "incorrect_answers": [
+                [
+                    "IDFA",
+                    "idfa"
+                ],
+                [
+                    "IDDQD",
+                    "iddqd"
+                ],
+                [
+                    "IDSPISPOPD",
+                    "idspispopd"
+                ]
+            ],
+            "correct_answers": [
+                "IDCLIP",
+                "idclip"
+            ],
+            "options": [
+                "IDFA",
+                "IDDQD",
+                "IDSPISPOPD",
+                "IDCLIP"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which gaming series includes &quot;The Diabolical Box&quot; and &quot;The Curious Village&quot;?",
+            "correct_answer": "Professor Layton",
+            "incorrect_answers": [
+                [
+                    "Persona",
+                    "persona"
+                ],
+                [
+                    "Etrian Odyssey",
+                    "etrian odyssey"
+                ],
+                [
+                    "Sam &amp; Max",
+                    "sam &amp; max"
+                ]
+            ],
+            "correct_answers": [
+                "Professor Layton",
+                "professor layton"
+            ],
+            "options": [
+                "Persona",
+                "Etrian Odyssey",
+                "Sam &amp; Max",
+                "Professor Layton"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "&quot;Strangereal&quot; is a fictitious Earth-like world for which game series?",
+            "correct_answer": "Ace Combat",
+            "incorrect_answers": [
+                [
+                    "Jet Set Radio",
+                    "jet set radio"
+                ],
+                [
+                    "Deus Ex",
+                    "deus ex"
+                ],
+                [
+                    "Crimson Skies",
+                    "crimson skies"
+                ]
+            ],
+            "correct_answers": [
+                "Ace Combat",
+                "ace combat"
+            ],
+            "options": [
+                "Jet Set Radio",
+                "Deus Ex",
+                "Crimson Skies",
+                "Ace Combat"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Meryl Silverburgh, a video game character from the Metal Gear series, was originally a character in which game?",
+            "correct_answer": "Policenauts",
+            "incorrect_answers": [
+                [
+                    "Gradius",
+                    "gradius"
+                ],
+                [
+                    "Contra",
+                    "contra"
+                ],
+                [
+                    "Castlevania: Symphony of the Night",
+                    "castlevania: symphony of the night",
+                    "castlevania: symphony of night"
+                ]
+            ],
+            "correct_answers": [
+                "Policenauts",
+                "policenauts"
+            ],
+            "options": [
+                "Gradius",
+                "Contra",
+                "Castlevania: Symphony of the Night",
+                "Policenauts"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What military rank is the protagonist &quot;Nomad&quot; in &quot;Crysis&quot;?",
+            "correct_answer": "First Lieutenant",
+            "incorrect_answers": [
+                [
+                    "Captain",
+                    "captain"
+                ],
+                [
+                    "First Sargent ",
+                    "first sargent "
+                ],
+                [
+                    "Staff Sargent",
+                    "staff sargent"
+                ]
+            ],
+            "correct_answers": [
+                "First Lieutenant",
+                "first lieutenant"
+            ],
+            "options": [
+                "Captain",
+                "First Sargent ",
+                "Staff Sargent",
+                "First Lieutenant"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the plane of existence in MicroProse's 1997 &quot;Magic the Gathering&quot;?",
+            "correct_answer": "Shandalar",
+            "incorrect_answers": [
+                [
+                    "Theros",
+                    "theros"
+                ],
+                [
+                    "Ravnica",
+                    "ravnica"
+                ],
+                [
+                    "Amonkhet",
+                    "amonkhet"
+                ]
+            ],
+            "correct_answers": [
+                "Shandalar",
+                "shandalar"
+            ],
+            "options": [
+                "Theros",
+                "Ravnica",
+                "Amonkhet",
+                "Shandalar"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which character, in the game &quot;Morenatsu&quot;, has the most possible endings to their route, at a total of four different endings?",
+            "correct_answer": "Shin Kuroi",
+            "incorrect_answers": [
+                [
+                    "Kouya Aotsuki",
+                    "kouya aotsuki"
+                ],
+                [
+                    "Soutarou Touno",
+                    "soutarou touno"
+                ],
+                [
+                    "Torahiko Ooshima",
+                    "torahiko ooshima"
+                ]
+            ],
+            "correct_answers": [
+                "Shin Kuroi",
+                "shin kuroi"
+            ],
+            "options": [
+                "Kouya Aotsuki",
+                "Soutarou Touno",
+                "Torahiko Ooshima",
+                "Shin Kuroi"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;PAYDAY&quot; series, what is the real name of the character known as &quot;Dallas&quot;?",
+            "correct_answer": "Nathan Steele",
+            "incorrect_answers": [
+                [
+                    "Nate Siemens",
+                    "nate siemens"
+                ],
+                [
+                    "Nick Stamos",
+                    "nick stamos"
+                ],
+                [
+                    "Nolan Stuhlinger",
+                    "nolan stuhlinger"
+                ]
+            ],
+            "correct_answers": [
+                "Nathan Steele",
+                "nathan steele"
+            ],
+            "options": [
+                "Nate Siemens",
+                "Nick Stamos",
+                "Nolan Stuhlinger",
+                "Nathan Steele"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What vault in the video game &quot;Fallout 3&quot; is the home of multiple clones named Gary?",
+            "correct_answer": "Vault 108",
+            "incorrect_answers": [
+                [
+                    "Vault 101",
+                    "vault 101"
+                ],
+                [
+                    "Vault 87",
+                    "vault 87"
+                ],
+                [
+                    "Vault 21",
+                    "vault 21"
+                ]
+            ],
+            "correct_answers": [
+                "Vault 108",
+                "vault 108"
+            ],
+            "options": [
+                "Vault 101",
+                "Vault 87",
+                "Vault 21",
+                "Vault 108"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Sonic the Hedgehog 2&quot; for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
+            "correct_answer": "The Lead Programmer&#039;s birthday",
+            "incorrect_answers": [
+                [
+                    "The first release date of &quot;Sonic the Hedgehog&quot;",
+                    "the first release date of &quot;sonic the hedgehog&quot;",
+                    "first release date of &quot;sonic hedgehog&quot;"
+                ],
+                [
+                    "The date Sonic Team was founded",
+                    "the date sonic team was founded",
+                    "date sonic team was founded"
+                ],
+                [
+                    "The first release date of &quot;Sonic the Hedgehog 2&quot;",
+                    "the first release date of &quot;sonic the hedgehog 2&quot;",
+                    "first release date of &quot;sonic hedgehog 2&quot;"
+                ]
+            ],
+            "correct_answers": [
+                "The Lead Programmer's birthday",
+                "the lead programmer's birthday",
+                "lead programmer's birthday",
+                "the lead programmers birthday"
+            ],
+            "options": [
+                "The first release date of &quot;Sonic the Hedgehog&quot;",
+                "The date Sonic Team was founded",
+                "The first release date of &quot;Sonic the Hedgehog 2&quot;",
+                "The Lead Programmer's birthday"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which video game was recalled for containing a hidden, playable South Park episode?",
+            "correct_answer": "Tiger Woods 99 PGA Tour",
+            "incorrect_answers": [
+                [
+                    "Tony Hawk's Pro Skater 3",
+                    "tony hawk's pro skater 3",
+                    "tony hawks pro skater 3"
+                ],
+                [
+                    "Sonic Adventure",
+                    "sonic adventure"
+                ],
+                [
+                    "Madden 99",
+                    "madden 99"
+                ]
+            ],
+            "correct_answers": [
+                "Tiger Woods 99 PGA Tour",
+                "tiger woods 99 pga tour"
+            ],
+            "options": [
+                "Tony Hawk's Pro Skater 3",
+                "Sonic Adventure",
+                "Madden 99",
+                "Tiger Woods 99 PGA Tour"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game Nuclear Throne, what organization chases the player character throughout the game?",
+            "correct_answer": "The I.D.P.D",
+            "incorrect_answers": [
+                [
+                    "The Fishmen",
+                    "the fishmen",
+                    "fishmen"
+                ],
+                [
+                    "The Bandits",
+                    "the bandits",
+                    "bandits"
+                ],
+                [
+                    "The Y.V.G.G",
+                    "the y.v.g.g",
+                    "y.v.g.g"
+                ]
+            ],
+            "correct_answers": [
+                "The I.D.P.D",
+                "the i.d.p.d",
+                "i.d.p.d"
+            ],
+            "options": [
+                "The Fishmen",
+                "The Bandits",
+                "The Y.V.G.G",
+                "The I.D.P.D"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these games was NOT developed by Markus Persson?",
+            "correct_answer": "Dwarf Fortress",
+            "incorrect_answers": [
+                [
+                    "Minecraft",
+                    "minecraft"
+                ],
+                [
+                    "Wurm Online",
+                    "wurm online"
+                ],
+                [
+                    "0x10c",
+                    "0x10c"
+                ]
+            ],
+            "correct_answers": [
+                "Dwarf Fortress",
+                "dwarf fortress"
+            ],
+            "options": [
+                "Minecraft",
+                "Wurm Online",
+                "0x10c",
+                "Dwarf Fortress"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "&quot;Exile&quot; and &quot;Revelations&quot; were the third and fourth installments of which PC game series?",
+            "correct_answer": "Myst",
+            "incorrect_answers": [
+                [
+                    "Shivers",
+                    "shivers"
+                ],
+                [
+                    "Doom",
+                    "doom"
+                ],
+                [
+                    "Tropico",
+                    "tropico"
+                ]
+            ],
+            "correct_answers": [
+                "Myst",
+                "myst"
+            ],
+            "options": [
+                "Shivers",
+                "Doom",
+                "Tropico",
+                "Myst"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "GoldenEye 007 on the Nintendo 64 was planned to allow you to play as all previous Bond actors, with the exception of who?",
+            "correct_answer": "George Lazenby",
+            "incorrect_answers": [
+                [
+                    "Roger Moore",
+                    "roger moore"
+                ],
+                [
+                    "Sean Connery",
+                    "sean connery"
+                ],
+                [
+                    "Timothy Dalton",
+                    "timothy dalton"
+                ]
+            ],
+            "correct_answers": [
+                "George Lazenby",
+                "george lazenby"
+            ],
+            "options": [
+                "Roger Moore",
+                "Sean Connery",
+                "Timothy Dalton",
+                "George Lazenby"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which monster in &quot;Monster Hunter Tri&quot; was causing earthquakes in Moga Village?",
+            "correct_answer": "Ceadeus",
+            "incorrect_answers": [
+                [
+                    "Alatreon",
+                    "alatreon"
+                ],
+                [
+                    "Rathalos",
+                    "rathalos"
+                ],
+                [
+                    "Lagiacrus",
+                    "lagiacrus"
+                ]
+            ],
+            "correct_answers": [
+                "Ceadeus",
+                "ceadeus"
+            ],
+            "options": [
+                "Alatreon",
+                "Rathalos",
+                "Lagiacrus",
+                "Ceadeus"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which was the first M-rated video game developed by Squaresoft/Square Enix?",
+            "correct_answer": "Parasite Eve",
+            "incorrect_answers": [
+                [
+                    "Final Fantasy VIII",
+                    "final fantasy viii"
+                ],
+                [
+                    "Front Mission",
+                    "front mission"
+                ],
+                [
+                    "Vagrant Story",
+                    "vagrant story"
+                ]
+            ],
+            "correct_answers": [
+                "Parasite Eve",
+                "parasite eve"
+            ],
+            "options": [
+                "Final Fantasy VIII",
+                "Front Mission",
+                "Vagrant Story",
+                "Parasite Eve"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In World of Warcraft, which raid instance features a chess event?",
+            "correct_answer": "Karazhan",
+            "incorrect_answers": [
+                [
+                    "Zul'Aman",
+                    "zul'aman",
+                    "zulaman"
+                ],
+                [
+                    "Blackwing Lair",
+                    "blackwing lair"
+                ],
+                [
+                    "Temple of Ahn'Qiraj",
+                    "temple of ahn'qiraj",
+                    "temple of ahnqiraj"
+                ]
+            ],
+            "correct_answers": [
+                "Karazhan",
+                "karazhan"
+            ],
+            "options": [
+                "Zul'Aman",
+                "Blackwing Lair",
+                "Temple of Ahn'Qiraj",
+                "Karazhan"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Starbound&quot;, what is the max HP of the monster &quot;Punchy&quot;?",
+            "correct_answer": "50,000 HP",
+            "incorrect_answers": [
+                [
+                    "9,000,000 HP",
+                    "9,000,000 hp"
+                ],
+                [
+                    "100 HP",
+                    "100 hp"
+                ],
+                [
+                    "150,000 HP",
+                    "150,000 hp"
+                ]
+            ],
+            "correct_answers": [
+                "50,000 HP",
+                "50,000 hp"
+            ],
+            "options": [
+                "9,000,000 HP",
+                "100 HP",
+                "150,000 HP",
+                "50,000 HP"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the indie farming game &quot;Stardew Valley&quot;, which NPC hates the &quot;prismatic shard&quot; item when received as a gift?",
+            "correct_answer": "Haley",
+            "incorrect_answers": [
+                [
+                    "Abigail ",
+                    "abigail "
+                ],
+                [
+                    "Elliott",
+                    "elliott"
+                ],
+                [
+                    "Lewis",
+                    "lewis"
+                ]
+            ],
+            "correct_answers": [
+                "Haley",
+                "haley"
+            ],
+            "options": [
+                "Abigail ",
+                "Elliott",
+                "Lewis",
+                "Haley"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the code name given to Sonic the Hedgehog 4 during its development?",
+            "correct_answer": "Project Needlemouse",
+            "incorrect_answers": [
+                [
+                    "Project Bluespike",
+                    "project bluespike"
+                ],
+                [
+                    "Project Roboegg",
+                    "project roboegg"
+                ],
+                [
+                    "Project Darksphere",
+                    "project darksphere"
+                ]
+            ],
+            "correct_answers": [
+                "Project Needlemouse",
+                "project needlemouse"
+            ],
+            "options": [
+                "Project Bluespike",
+                "Project Roboegg",
+                "Project Darksphere",
+                "Project Needlemouse"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these weapon classes DO NOT appear in the first Monster Hunter game?",
+            "correct_answer": "Bow ",
+            "incorrect_answers": [
+                [
+                    "Hammer",
+                    "hammer"
+                ],
+                [
+                    "Heavy Bowgun",
+                    "heavy bowgun"
+                ],
+                [
+                    "Light Bowgun",
+                    "light bowgun"
+                ]
+            ],
+            "correct_answers": [
+                "Bow ",
+                "bow "
+            ],
+            "options": [
+                "Hammer",
+                "Heavy Bowgun",
+                "Light Bowgun",
+                "Bow "
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What's the name of the halloween-related Sims 4 Stuff Pack released September 29th, 2015?",
+            "correct_answer": "Spooky Stuff",
+            "incorrect_answers": [
+                [
+                    "Ghosts n' Ghouls",
+                    "ghosts n' ghouls",
+                    "ghosts n ghouls"
+                ],
+                [
+                    "Nerving Nights",
+                    "nerving nights"
+                ],
+                [
+                    "Fearful Frights",
+                    "fearful frights"
+                ]
+            ],
+            "correct_answers": [
+                "Spooky Stuff",
+                "spooky stuff"
+            ],
+            "options": [
+                "Ghosts n' Ghouls",
+                "Nerving Nights",
+                "Fearful Frights",
+                "Spooky Stuff"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Kingdom Hearts series, which is not an optional boss you can fight?",
+            "correct_answer": "Master Yen Sid",
+            "incorrect_answers": [
+                [
+                    "Sephiroth",
+                    "sephiroth"
+                ],
+                [
+                    "Julius",
+                    "julius"
+                ],
+                [
+                    "Kurt Zisa",
+                    "kurt zisa"
+                ]
+            ],
+            "correct_answers": [
+                "Master Yen Sid",
+                "master yen sid"
+            ],
+            "options": [
+                "Sephiroth",
+                "Julius",
+                "Kurt Zisa",
+                "Master Yen Sid"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Halo 2, how many rounds does the M6C hold in a single magazine?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "36",
+                    "36"
+                ],
+                [
+                    "18",
+                    "18"
+                ]
+            ],
+            "correct_answers": [
+                "12",
+                "12"
+            ],
+            "options": [
+                "6",
+                "36",
+                "18",
+                "12"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the first &quot;Call Of Duty: Zombies&quot; map to be directed by Jason Blundell?",
+            "correct_answer": "Mob Of The Dead",
+            "incorrect_answers": [
+                [
+                    "Buried",
+                    "buried"
+                ],
+                [
+                    "Origins",
+                    "origins"
+                ],
+                [
+                    "Moon",
+                    "moon"
+                ]
+            ],
+            "correct_answers": [
+                "Mob Of The Dead",
+                "mob of the dead",
+                "mob of dead"
+            ],
+            "options": [
+                "Buried",
+                "Origins",
+                "Moon",
+                "Mob Of The Dead"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;The Witness&quot;, how many lasers must be activated to get into the mountain area?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "5",
+                    "5"
+                ],
+                [
+                    "12",
+                    "12"
+                ]
+            ],
+            "correct_answers": [
+                "7",
+                "7"
+            ],
+            "options": [
+                "8",
+                "5",
+                "12",
+                "7"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Counting the Blood and Wine DLC, how many Hero Cards are there in total in The Witcher 3?",
+            "correct_answer": "25",
+            "incorrect_answers": [
+                [
+                    "30",
+                    "30"
+                ],
+                [
+                    "20",
+                    "20"
+                ],
+                [
+                    "15",
+                    "15"
+                ]
+            ],
+            "correct_answers": [
+                "25",
+                "25"
+            ],
+            "options": [
+                "30",
+                "20",
+                "15",
+                "25"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Team Fortress 2&quot;, how much health does a scout have when overhealed?",
+            "correct_answer": "185",
+            "incorrect_answers": [
+                [
+                    "215",
+                    "215"
+                ],
+                [
+                    "195",
+                    "195"
+                ],
+                [
+                    "225",
+                    "225"
+                ]
+            ],
+            "correct_answers": [
+                "185",
+                "185"
+            ],
+            "options": [
+                "215",
+                "195",
+                "225",
+                "185"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Call Of Duty: Zombies&quot;, &quot;Richtofen&quot; is in possession of two filled blood vials belonging to who?",
+            "correct_answer": "Sal DeLuca and Finn O&#039;Leary",
+            "incorrect_answers": [
+                [
+                    "Richtofen",
+                    "richtofen"
+                ],
+                [
+                    "Al Arlington and Sal DeLuca",
+                    "al arlington and sal deluca"
+                ],
+                [
+                    "Jessica Rose and Jack Vincent",
+                    "jessica rose and jack vincent"
+                ]
+            ],
+            "correct_answers": [
+                "Sal DeLuca and Finn O'Leary",
+                "sal deluca and finn o'leary",
+                "sal deluca and finn oleary"
+            ],
+            "options": [
+                "Richtofen",
+                "Al Arlington and Sal DeLuca",
+                "Jessica Rose and Jack Vincent",
+                "Sal DeLuca and Finn O'Leary"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the game Enter the Gungeon, which one of these is not a playable character?",
+            "correct_answer": "The Wizard",
+            "incorrect_answers": [
+                [
+                    "The Bullet",
+                    "the bullet",
+                    "bullet"
+                ],
+                [
+                    "The Robot",
+                    "the robot",
+                    "robot"
+                ],
+                [
+                    "The Cultist",
+                    "the cultist",
+                    "cultist"
+                ]
+            ],
+            "correct_answers": [
+                "The Wizard",
+                "the wizard",
+                "wizard"
+            ],
+            "options": [
+                "The Bullet",
+                "The Robot",
+                "The Cultist",
+                "The Wizard"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which game in the &quot;Monster Hunter&quot; series introduced the &quot;Insect Glaive&quot; weapon?",
+            "correct_answer": "Monster Hunter 4",
+            "incorrect_answers": [
+                [
+                    "Monster Hunter Freedom",
+                    "monster hunter freedom"
+                ],
+                [
+                    "Monster Hunter Stories",
+                    "monster hunter stories"
+                ],
+                [
+                    "Monster Hunter 2",
+                    "monster hunter 2"
+                ]
+            ],
+            "correct_answers": [
+                "Monster Hunter 4",
+                "monster hunter 4"
+            ],
+            "options": [
+                "Monster Hunter Freedom",
+                "Monster Hunter Stories",
+                "Monster Hunter 2",
+                "Monster Hunter 4"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into &quot;Super Smash Bros.&quot;?",
+            "correct_answer": "Dragon King: The Fighting Game",
+            "incorrect_answers": [
+                [
+                    "Nintendo Legends: Fight!",
+                    "nintendo legends: fight!"
+                ],
+                [
+                    "Martial Arts: King of the Hill",
+                    "martial arts: king of the hill",
+                    "martial arts: king of hill"
+                ],
+                [
+                    "Aerial Warriors: Supreme Battle",
+                    "aerial warriors: supreme battle"
+                ]
+            ],
+            "correct_answers": [
+                "Dragon King: The Fighting Game",
+                "dragon king: the fighting game",
+                "dragon king: fighting game"
+            ],
+            "options": [
+                "Nintendo Legends: Fight!",
+                "Martial Arts: King of the Hill",
+                "Aerial Warriors: Supreme Battle",
+                "Dragon King: The Fighting Game"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The map featured in Arma 3 named &quot;Altis&quot; is based off of what Greek island?",
+            "correct_answer": "Lemnos",
+            "incorrect_answers": [
+                [
+                    "Ithaca",
+                    "ithaca"
+                ],
+                [
+                    "Naxos",
+                    "naxos"
+                ],
+                [
+                    "Anafi",
+                    "anafi"
+                ]
+            ],
+            "correct_answers": [
+                "Lemnos",
+                "lemnos"
+            ],
+            "options": [
+                "Ithaca",
+                "Naxos",
+                "Anafi",
+                "Lemnos"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Halo&quot; series, what is the name of the race of aliens humans refer to as &quot;Grunts&quot;?",
+            "correct_answer": "Unggoy",
+            "incorrect_answers": [
+                [
+                    "Huragok",
+                    "huragok"
+                ],
+                [
+                    "Sangheili",
+                    "sangheili"
+                ],
+                [
+                    "Yanme'e",
+                    "yanme'e",
+                    "yanmee"
+                ]
+            ],
+            "correct_answers": [
+                "Unggoy",
+                "unggoy"
+            ],
+            "options": [
+                "Huragok",
+                "Sangheili",
+                "Yanme'e",
+                "Unggoy"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the &quot;Pikmin&quot; games, which of the following pikmin colors lacks it's own &quot;Onion&quot; nest?",
+            "correct_answer": "Purple",
+            "incorrect_answers": [
+                [
+                    "Winged",
+                    "winged"
+                ],
+                [
+                    "Blue",
+                    "blue"
+                ],
+                [
+                    "Rock",
+                    "rock"
+                ]
+            ],
+            "correct_answers": [
+                "Purple",
+                "purple"
+            ],
+            "options": [
+                "Winged",
+                "Blue",
+                "Rock",
+                "Purple"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Super Mario Bros. Series, what is Yoshi's scientific name?",
+            "correct_answer": "T. Yoshisaur Munchakoopas",
+            "incorrect_answers": [
+                [
+                    "Yoshi",
+                    "yoshi"
+                ],
+                [
+                    "T. Yoshisotop Munchakoopas",
+                    "t. yoshisotop munchakoopas"
+                ],
+                [
+                    "Yossy",
+                    "yossy"
+                ]
+            ],
+            "correct_answers": [
+                "T. Yoshisaur Munchakoopas",
+                "t. yoshisaur munchakoopas"
+            ],
+            "options": [
+                "Yoshi",
+                "T. Yoshisotop Munchakoopas",
+                "Yossy",
+                "T. Yoshisaur Munchakoopas"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
+            "correct_answer": "FME-7",
+            "incorrect_answers": [
+                [
+                    "VRC7",
+                    "vrc7"
+                ],
+                [
+                    "VRC6",
+                    "vrc6"
+                ],
+                [
+                    "MMC5",
+                    "mmc5"
+                ]
+            ],
+            "correct_answers": [
+                "FME-7",
+                "fme-7"
+            ],
+            "options": [
+                "VRC7",
+                "VRC6",
+                "MMC5",
+                "FME-7"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the PAYDAY series, where did Dallas start his criminal career?",
+            "correct_answer": "Chicago, Illinois",
+            "incorrect_answers": [
+                [
+                    "Dallas, Texas",
+                    "dallas, texas"
+                ],
+                [
+                    "New York City, New York",
+                    "new york city, new york"
+                ],
+                [
+                    "Boston, Massachusetts",
+                    "boston, massachusetts"
+                ]
+            ],
+            "correct_answers": [
+                "Chicago, Illinois",
+                "chicago, illinois"
+            ],
+            "options": [
+                "Dallas, Texas",
+                "New York City, New York",
+                "Boston, Massachusetts",
+                "Chicago, Illinois"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Left 4 Dead, what is the character Bill's last name?",
+            "correct_answer": "Overbeck",
+            "incorrect_answers": [
+                [
+                    "Fish",
+                    "fish"
+                ],
+                [
+                    "Roberts",
+                    "roberts"
+                ],
+                [
+                    "Stevenson",
+                    "stevenson"
+                ]
+            ],
+            "correct_answers": [
+                "Overbeck",
+                "overbeck"
+            ],
+            "options": [
+                "Fish",
+                "Roberts",
+                "Stevenson",
+                "Overbeck"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In 2004, which person(s) created &quot;Roblox&quot;?",
+            "correct_answer": "David Baszucki and Erik Cassel",
+            "incorrect_answers": [
+                [
+                    "Erik Cassel",
+                    "erik cassel"
+                ],
+                [
+                    "Jonas Alto and Sarah Smith",
+                    "jonas alto and sarah smith"
+                ],
+                [
+                    "James Kolein",
+                    "james kolein"
+                ]
+            ],
+            "correct_answers": [
+                "David Baszucki and Erik Cassel",
+                "david baszucki and erik cassel"
+            ],
+            "options": [
+                "Erik Cassel",
+                "Jonas Alto and Sarah Smith",
+                "James Kolein",
+                "David Baszucki and Erik Cassel"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Mario Kart series, which game introduced the &quot;Shield Drifting&quot; mechanic?",
+            "correct_answer": "Mario Kart Arcade GP DX",
+            "incorrect_answers": [
+                [
+                    "Mario Kart: Double Dash",
+                    "mario kart: double dash"
+                ],
+                [
+                    "Mario Kart Super Circuit",
+                    "mario kart super circuit"
+                ],
+                [
+                    "Mario Kart DS",
+                    "mario kart ds"
+                ]
+            ],
+            "correct_answers": [
+                "Mario Kart Arcade GP DX",
+                "mario kart arcade gp dx"
+            ],
+            "options": [
+                "Mario Kart: Double Dash",
+                "Mario Kart Super Circuit",
+                "Mario Kart DS",
+                "Mario Kart Arcade GP DX"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What animal is on Link's pajamas in The Legend of Zelda: The Wind Waker?",
+            "correct_answer": "Crawfish",
+            "incorrect_answers": [
+                [
+                    "Lobster",
+                    "lobster"
+                ],
+                [
+                    "Salmon",
+                    "salmon"
+                ],
+                [
+                    "Swordfish",
+                    "swordfish"
+                ]
+            ],
+            "correct_answers": [
+                "Crawfish",
+                "crawfish"
+            ],
+            "options": [
+                "Lobster",
+                "Salmon",
+                "Swordfish",
+                "Crawfish"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the main island in PLAYERUNKNOWN'S BATTLEGROUNDS?",
+            "correct_answer": "Erangel",
+            "incorrect_answers": [
+                [
+                    "Marmara",
+                    "marmara"
+                ],
+                [
+                    "Severny",
+                    "severny"
+                ],
+                [
+                    "Lastovo",
+                    "lastovo"
+                ]
+            ],
+            "correct_answers": [
+                "Erangel",
+                "erangel"
+            ],
+            "options": [
+                "Marmara",
+                "Severny",
+                "Lastovo",
+                "Erangel"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which souls game was not directed by Hidetaka Miyazaki?",
+            "correct_answer": "Dark Souls 2",
+            "incorrect_answers": [
+                [
+                    "Demon Souls",
+                    "demon souls"
+                ],
+                [
+                    "Dark Souls",
+                    "dark souls"
+                ],
+                [
+                    "Dark Souls 3",
+                    "dark souls 3"
+                ]
+            ],
+            "correct_answers": [
+                "Dark Souls 2",
+                "dark souls 2"
+            ],
+            "options": [
+                "Demon Souls",
+                "Dark Souls",
+                "Dark Souls 3",
+                "Dark Souls 2"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Final Fantasy VI&quot;, what is the name of (summoned) Gilgamesh's weakest attack?",
+            "correct_answer": "Excalipoor",
+            "incorrect_answers": [
+                [
+                    "Excalibore",
+                    "excalibore"
+                ],
+                [
+                    "Excalisnore",
+                    "excalisnore"
+                ],
+                [
+                    "Excalisore",
+                    "excalisore"
+                ]
+            ],
+            "correct_answers": [
+                "Excalipoor",
+                "excalipoor"
+            ],
+            "options": [
+                "Excalibore",
+                "Excalisnore",
+                "Excalisore",
+                "Excalipoor"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which team won the &quot;Tom Clancy's Rainbow Six Siege&quot; Invitational Event February 2017 in the PC Category?",
+            "correct_answer": "Continuum",
+            "incorrect_answers": [
+                [
+                    "GIFU",
+                    "gifu"
+                ],
+                [
+                    "Santos Dexterity",
+                    "santos dexterity"
+                ],
+                [
+                    "eRa Eternity",
+                    "era eternity"
+                ]
+            ],
+            "correct_answers": [
+                "Continuum",
+                "continuum"
+            ],
+            "options": [
+                "GIFU",
+                "Santos Dexterity",
+                "eRa Eternity",
+                "Continuum"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Geometry Dash, what is level 13?",
+            "correct_answer": "Electroman Adventures",
+            "incorrect_answers": [
+                [
+                    "Theory of Everything",
+                    "theory of everything"
+                ],
+                [
+                    "Clubstep ",
+                    "clubstep "
+                ],
+                [
+                    "Clutterfunk",
+                    "clutterfunk"
+                ]
+            ],
+            "correct_answers": [
+                "Electroman Adventures",
+                "electroman adventures"
+            ],
+            "options": [
+                "Theory of Everything",
+                "Clubstep ",
+                "Clutterfunk",
+                "Electroman Adventures"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the video game &quot;Metal Gear Solid&quot;, what did Revolver Ocelot consider the greatest handgun ever made?",
+            "correct_answer": "Colt Single Action Army",
+            "incorrect_answers": [
+                [
+                    "Colt Python",
+                    "colt python"
+                ],
+                [
+                    "Colt M1892",
+                    "colt m1892"
+                ],
+                [
+                    "Colt 1851 Navy Revolver",
+                    "colt 1851 navy revolver"
+                ]
+            ],
+            "correct_answers": [
+                "Colt Single Action Army",
+                "colt single action army"
+            ],
+            "options": [
+                "Colt Python",
+                "Colt M1892",
+                "Colt 1851 Navy Revolver",
+                "Colt Single Action Army"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In &quot;Sonic the Hedgehog 3&quot; for the Sega Genesis, what is the color of the second Chaos Emerald you can get from Special Stages?",
+            "correct_answer": "Orange",
+            "incorrect_answers": [
+                [
+                    "Blue",
+                    "blue"
+                ],
+                [
+                    "Green",
+                    "green"
+                ],
+                [
+                    "Magenta",
+                    "magenta"
+                ]
+            ],
+            "correct_answers": [
+                "Orange",
+                "orange"
+            ],
+            "options": [
+                "Blue",
+                "Green",
+                "Magenta",
+                "Orange"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When was Pokemon GO released in North America?",
+            "correct_answer": "July 6th, 2016",
+            "incorrect_answers": [
+                [
+                    "June 5th, 2016",
+                    "june 5th, 2016"
+                ],
+                [
+                    "May 24th, 2016",
+                    "may 24th, 2016"
+                ],
+                [
+                    "January 2nd, 2017",
+                    "january 2nd, 2017"
+                ]
+            ],
+            "correct_answers": [
+                "July 6th, 2016",
+                "july 6th, 2016"
+            ],
+            "options": [
+                "June 5th, 2016",
+                "May 24th, 2016",
+                "January 2nd, 2017",
+                "July 6th, 2016"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these Generation 1 Pokemon did NOT have an evolution in Generation 4?",
+            "correct_answer": "Jynx",
+            "incorrect_answers": [
+                [
+                    "Electabuzz",
+                    "electabuzz"
+                ],
+                [
+                    "Magmar",
+                    "magmar"
+                ],
+                [
+                    "Rhydon",
+                    "rhydon"
+                ]
+            ],
+            "correct_answers": [
+                "Jynx",
+                "jynx"
+            ],
+            "options": [
+                "Electabuzz",
+                "Magmar",
+                "Rhydon",
+                "Jynx"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many total monsters appear in Monster Hunter Generations?",
+            "correct_answer": "105",
+            "incorrect_answers": [
+                [
+                    "100",
+                    "100"
+                ],
+                [
+                    "98",
+                    "98"
+                ],
+                [
+                    "73",
+                    "73"
+                ]
+            ],
+            "correct_answers": [
+                "105",
+                "105"
+            ],
+            "options": [
+                "100",
+                "98",
+                "73",
+                "105"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the alligator in Where's My Water?",
+            "correct_answer": "Swampy",
+            "incorrect_answers": [
+                [
+                    "Cranky",
+                    "cranky"
+                ],
+                [
+                    "Crocky",
+                    "crocky"
+                ],
+                [
+                    "Justice",
+                    "justice"
+                ]
+            ],
+            "correct_answers": [
+                "Swampy",
+                "swampy"
+            ],
+            "options": [
+                "Cranky",
+                "Crocky",
+                "Justice",
+                "Swampy"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the main character in the video game VA-11 HALL-A: Cyberpunk Bartender Action?",
+            "correct_answer": "Jill",
+            "incorrect_answers": [
+                [
+                    "Dana",
+                    "dana"
+                ],
+                [
+                    "Alma",
+                    "alma"
+                ],
+                [
+                    "Anna",
+                    "anna"
+                ]
+            ],
+            "correct_answers": [
+                "Jill",
+                "jill"
+            ],
+            "options": [
+                "Dana",
+                "Alma",
+                "Anna",
+                "Jill"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the 2014 Pokemon VGC Finals, which Pokemon was famous for bringing the winner to victory?",
+            "correct_answer": "Pachirisu",
+            "incorrect_answers": [
+                [
+                    "Garchomp",
+                    "garchomp"
+                ],
+                [
+                    "Lapras",
+                    "lapras"
+                ],
+                [
+                    "Primal Groudon",
+                    "primal groudon"
+                ]
+            ],
+            "correct_answers": [
+                "Pachirisu",
+                "pachirisu"
+            ],
+            "options": [
+                "Garchomp",
+                "Lapras",
+                "Primal Groudon",
+                "Pachirisu"
+            ]
+        }
+    ]
+}

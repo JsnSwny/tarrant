@@ -1,0 +1,1648 @@
+{
+    "questions": [
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these cities has a 4&deg; East longitude. ",
+            "correct_answer": "Amsterdam",
+            "incorrect_answers": [
+                [
+                    "Rio de Janero",
+                    "rio de janero"
+                ],
+                [
+                    "Toronto",
+                    "toronto"
+                ],
+                [
+                    "Hong Kong",
+                    "hong kong"
+                ]
+            ],
+            "correct_answers": [
+                "Amsterdam",
+                "amsterdam"
+            ],
+            "options": [
+                "Rio de Janero",
+                "Toronto",
+                "Hong Kong",
+                "Amsterdam"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the most common climbing route for the second highest mountain in the world, K2?",
+            "correct_answer": "Abruzzi Spur",
+            "incorrect_answers": [
+                [
+                    "Magic Line",
+                    "magic line"
+                ],
+                [
+                    "Cesen Route",
+                    "cesen route"
+                ],
+                [
+                    "Polish Line",
+                    "polish line"
+                ]
+            ],
+            "correct_answers": [
+                "Abruzzi Spur",
+                "abruzzi spur"
+            ],
+            "options": [
+                "Magic Line",
+                "Cesen Route",
+                "Polish Line",
+                "Abruzzi Spur"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What national museum will you find in Cooperstown, New York?",
+            "correct_answer": "National Baseball Hall of Fame",
+            "incorrect_answers": [
+                [
+                    "Metropolitan Museum of Art",
+                    "metropolitan museum of art"
+                ],
+                [
+                    "National Toy Hall of Fame",
+                    "national toy hall of fame"
+                ],
+                [
+                    "Museum of Modern Art",
+                    "museum of modern art"
+                ]
+            ],
+            "correct_answers": [
+                "National Baseball Hall of Fame",
+                "national baseball hall of fame"
+            ],
+            "options": [
+                "Metropolitan Museum of Art",
+                "National Toy Hall of Fame",
+                "Museum of Modern Art",
+                "National Baseball Hall of Fame"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In which city, is the Big Nickel located in Canada?",
+            "correct_answer": "Sudbury, Ontario",
+            "incorrect_answers": [
+                [
+                    "Calgary, Alberta",
+                    "calgary, alberta"
+                ],
+                [
+                    "Halifax, Nova Scotia ",
+                    "halifax, nova scotia "
+                ],
+                [
+                    "Victoria, British Columbia",
+                    "victoria, british columbia"
+                ]
+            ],
+            "correct_answers": [
+                "Sudbury, Ontario",
+                "sudbury, ontario"
+            ],
+            "options": [
+                "Calgary, Alberta",
+                "Halifax, Nova Scotia ",
+                "Victoria, British Columbia",
+                "Sudbury, Ontario"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these countries is NOT a part of the Asian continent?",
+            "correct_answer": "Suriname",
+            "incorrect_answers": [
+                [
+                    "Georgia",
+                    "georgia"
+                ],
+                [
+                    "Russia",
+                    "russia"
+                ],
+                [
+                    "Singapore",
+                    "singapore"
+                ]
+            ],
+            "correct_answers": [
+                "Suriname",
+                "suriname"
+            ],
+            "options": [
+                "Georgia",
+                "Russia",
+                "Singapore",
+                "Suriname"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+            "correct_answer": "Chinese",
+            "incorrect_answers": [
+                [
+                    "Japanese",
+                    "japanese"
+                ],
+                [
+                    "Russian",
+                    "russian"
+                ],
+                [
+                    "Indian",
+                    "indian"
+                ]
+            ],
+            "correct_answers": [
+                "Chinese",
+                "chinese"
+            ],
+            "options": [
+                "Japanese",
+                "Russian",
+                "Indian",
+                "Chinese"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The mountainous Khyber Pass connects which of the two following countries?",
+            "correct_answer": "Afghanistan and Pakistan",
+            "incorrect_answers": [
+                [
+                    "India and Nepal",
+                    "india and nepal"
+                ],
+                [
+                    "Pakistan and India",
+                    "pakistan and india"
+                ],
+                [
+                    "Tajikistan and Kyrgyzstan",
+                    "tajikistan and kyrgyzstan"
+                ]
+            ],
+            "correct_answers": [
+                "Afghanistan and Pakistan",
+                "afghanistan and pakistan"
+            ],
+            "options": [
+                "India and Nepal",
+                "Pakistan and India",
+                "Tajikistan and Kyrgyzstan",
+                "Afghanistan and Pakistan"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the most populous Muslim-majority nation in 2010?",
+            "correct_answer": "Indonesia",
+            "incorrect_answers": [
+                [
+                    "Saudi Arabia",
+                    "saudi arabia"
+                ],
+                [
+                    "Iran",
+                    "iran"
+                ],
+                [
+                    "Sudan",
+                    "sudan"
+                ]
+            ],
+            "correct_answers": [
+                "Indonesia",
+                "indonesia"
+            ],
+            "options": [
+                "Saudi Arabia",
+                "Iran",
+                "Sudan",
+                "Indonesia"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the official German name of the Swiss Federal Railways?",
+            "correct_answer": "Schweizerische Bundesbahnen",
+            "incorrect_answers": [
+                [
+                    "Schweizerische Nationalbahnen",
+                    "schweizerische nationalbahnen"
+                ],
+                [
+                    "Bundesbahnen der Schweiz",
+                    "bundesbahnen der schweiz"
+                ],
+                [
+                    "Schweizerische Staatsbahnen",
+                    "schweizerische staatsbahnen"
+                ]
+            ],
+            "correct_answers": [
+                "Schweizerische Bundesbahnen",
+                "schweizerische bundesbahnen"
+            ],
+            "options": [
+                "Schweizerische Nationalbahnen",
+                "Bundesbahnen der Schweiz",
+                "Schweizerische Staatsbahnen",
+                "Schweizerische Bundesbahnen"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the Finnish word for &quot;Finland&quot;?",
+            "correct_answer": "Suomi",
+            "incorrect_answers": [
+                [
+                    "Eesti",
+                    "eesti"
+                ],
+                [
+                    "Magyarorsz&aacute;g",
+                    "magyarorsz&aacute;g"
+                ],
+                [
+                    "Sverige",
+                    "sverige"
+                ]
+            ],
+            "correct_answers": [
+                "Suomi",
+                "suomi"
+            ],
+            "options": [
+                "Eesti",
+                "Magyarorsz&aacute;g",
+                "Sverige",
+                "Suomi"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the largest city and commercial capital of Sri Lanka?",
+            "correct_answer": "Colombo",
+            "incorrect_answers": [
+                [
+                    "Moratuwa",
+                    "moratuwa"
+                ],
+                [
+                    "Negombo",
+                    "negombo"
+                ],
+                [
+                    "Kandy",
+                    "kandy"
+                ]
+            ],
+            "correct_answers": [
+                "Colombo",
+                "colombo"
+            ],
+            "options": [
+                "Moratuwa",
+                "Negombo",
+                "Kandy",
+                "Colombo"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+            "correct_answer": "Grand Banks",
+            "incorrect_answers": [
+                [
+                    "Great Barrier Reef",
+                    "great barrier reef"
+                ],
+                [
+                    "Mariana Trench",
+                    "mariana trench"
+                ],
+                [
+                    "Hudson Bay",
+                    "hudson bay"
+                ]
+            ],
+            "correct_answers": [
+                "Grand Banks",
+                "grand banks"
+            ],
+            "options": [
+                "Great Barrier Reef",
+                "Mariana Trench",
+                "Hudson Bay",
+                "Grand Banks"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many stations does the Central Line have on the London Underground?",
+            "correct_answer": "49",
+            "incorrect_answers": [
+                [
+                    "51",
+                    "51"
+                ],
+                [
+                    "43",
+                    "43"
+                ],
+                [
+                    "47",
+                    "47"
+                ]
+            ],
+            "correct_answers": [
+                "49",
+                "49"
+            ],
+            "options": [
+                "51",
+                "43",
+                "47",
+                "49"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which country is completely landlocked by South Africa?",
+            "correct_answer": "Lesotho",
+            "incorrect_answers": [
+                [
+                    "Swaziland",
+                    "swaziland"
+                ],
+                [
+                    "Botswana",
+                    "botswana"
+                ],
+                [
+                    "Zimbabwe",
+                    "zimbabwe"
+                ]
+            ],
+            "correct_answers": [
+                "Lesotho",
+                "lesotho"
+            ],
+            "options": [
+                "Swaziland",
+                "Botswana",
+                "Zimbabwe",
+                "Lesotho"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is NOT a province in China?",
+            "correct_answer": "Yangtze",
+            "incorrect_answers": [
+                [
+                    "Fujian",
+                    "fujian"
+                ],
+                [
+                    "Sichuan",
+                    "sichuan"
+                ],
+                [
+                    "Guangdong",
+                    "guangdong"
+                ]
+            ],
+            "correct_answers": [
+                "Yangtze",
+                "yangtze"
+            ],
+            "options": [
+                "Fujian",
+                "Sichuan",
+                "Guangdong",
+                "Yangtze"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What year is on the flag of the US state Wisconsin?",
+            "correct_answer": "1848",
+            "incorrect_answers": [
+                [
+                    "1634",
+                    "1634"
+                ],
+                [
+                    "1783",
+                    "1783"
+                ],
+                [
+                    "1901",
+                    "1901"
+                ]
+            ],
+            "correct_answers": [
+                "1848",
+                "1848"
+            ],
+            "options": [
+                "1634",
+                "1783",
+                "1901",
+                "1848"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the capital city of Bermuda?",
+            "correct_answer": "Hamilton",
+            "incorrect_answers": [
+                [
+                    "Santo Dominigo",
+                    "santo dominigo"
+                ],
+                [
+                    "San Juan",
+                    "san juan"
+                ],
+                [
+                    "Havana",
+                    "havana"
+                ]
+            ],
+            "correct_answers": [
+                "Hamilton",
+                "hamilton"
+            ],
+            "options": [
+                "Santo Dominigo",
+                "San Juan",
+                "Havana",
+                "Hamilton"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which country was NOT formerly part of Yugoslavia?",
+            "correct_answer": "Albania",
+            "incorrect_answers": [
+                [
+                    "Croatia",
+                    "croatia"
+                ],
+                [
+                    "Serbia",
+                    "serbia"
+                ],
+                [
+                    "Macedonia",
+                    "macedonia"
+                ]
+            ],
+            "correct_answers": [
+                "Albania",
+                "albania"
+            ],
+            "options": [
+                "Croatia",
+                "Serbia",
+                "Macedonia",
+                "Albania"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the land connecting North America and South America?",
+            "correct_answer": "Isthmus of Panama",
+            "incorrect_answers": [
+                [
+                    "Isthmus of Suez",
+                    "isthmus of suez"
+                ],
+                [
+                    "Urals",
+                    "urals"
+                ],
+                [
+                    "Australasia",
+                    "australasia"
+                ]
+            ],
+            "correct_answers": [
+                "Isthmus of Panama",
+                "isthmus of panama"
+            ],
+            "options": [
+                "Isthmus of Suez",
+                "Urals",
+                "Australasia",
+                "Isthmus of Panama"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the capital of Mauritius?",
+            "correct_answer": "Port Louis",
+            "incorrect_answers": [
+                [
+                    "Port Moresby",
+                    "port moresby"
+                ],
+                [
+                    "Port Vila",
+                    "port vila"
+                ],
+                [
+                    "Port-au-Prince",
+                    "port-au-prince"
+                ]
+            ],
+            "correct_answers": [
+                "Port Louis",
+                "port louis"
+            ],
+            "options": [
+                "Port Moresby",
+                "Port Vila",
+                "Port-au-Prince",
+                "Port Louis"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these cities is NOT in England?",
+            "correct_answer": "Edinburgh",
+            "incorrect_answers": [
+                [
+                    "Oxford",
+                    "oxford"
+                ],
+                [
+                    "Manchester",
+                    "manchester"
+                ],
+                [
+                    "Southampton",
+                    "southampton"
+                ]
+            ],
+            "correct_answers": [
+                "Edinburgh",
+                "edinburgh"
+            ],
+            "options": [
+                "Oxford",
+                "Manchester",
+                "Southampton",
+                "Edinburgh"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many countries border Kyrgyzstan?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                [
+                    "3",
+                    "3"
+                ],
+                [
+                    "1",
+                    "1"
+                ],
+                [
+                    "6",
+                    "6"
+                ]
+            ],
+            "correct_answers": [
+                "4",
+                "4"
+            ],
+            "options": [
+                "3",
+                "1",
+                "6",
+                "4"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Into which basin does the Jordan River flow into?",
+            "correct_answer": "Dead Sea",
+            "incorrect_answers": [
+                [
+                    "Aral Sea",
+                    "aral sea"
+                ],
+                [
+                    "Caspian Sea",
+                    "caspian sea"
+                ],
+                [
+                    "Salton Sea",
+                    "salton sea"
+                ]
+            ],
+            "correct_answers": [
+                "Dead Sea",
+                "dead sea"
+            ],
+            "options": [
+                "Aral Sea",
+                "Caspian Sea",
+                "Salton Sea",
+                "Dead Sea"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In which country is Tallinn located?",
+            "correct_answer": "Estonia",
+            "incorrect_answers": [
+                [
+                    "Finland",
+                    "finland"
+                ],
+                [
+                    "Sweden",
+                    "sweden"
+                ],
+                [
+                    "Poland",
+                    "poland"
+                ]
+            ],
+            "correct_answers": [
+                "Estonia",
+                "estonia"
+            ],
+            "options": [
+                "Finland",
+                "Sweden",
+                "Poland",
+                "Estonia"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+            "correct_answer": "Egypt and Sudan",
+            "incorrect_answers": [
+                [
+                    "Israel and Jordan",
+                    "israel and jordan"
+                ],
+                [
+                    "Chad and Libya",
+                    "chad and libya"
+                ],
+                [
+                    "Iraq and Saudi Arabia",
+                    "iraq and saudi arabia"
+                ]
+            ],
+            "correct_answers": [
+                "Egypt and Sudan",
+                "egypt and sudan"
+            ],
+            "options": [
+                "Israel and Jordan",
+                "Chad and Libya",
+                "Iraq and Saudi Arabia",
+                "Egypt and Sudan"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which is not a country in Africa?",
+            "correct_answer": "Guyana",
+            "incorrect_answers": [
+                [
+                    "Senegal",
+                    "senegal"
+                ],
+                [
+                    "Liberia",
+                    "liberia"
+                ],
+                [
+                    "Somalia",
+                    "somalia"
+                ]
+            ],
+            "correct_answers": [
+                "Guyana",
+                "guyana"
+            ],
+            "options": [
+                "Senegal",
+                "Liberia",
+                "Somalia",
+                "Guyana"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What North American tourist attraction is served by the &quot;Maid of the Mist&quot; tour company?",
+            "correct_answer": "Niagara Falls",
+            "incorrect_answers": [
+                [
+                    "Whistler, British Columbia",
+                    "whistler, british columbia"
+                ],
+                [
+                    "Disney World",
+                    "disney world"
+                ],
+                [
+                    "Yosemite National Park",
+                    "yosemite national park"
+                ]
+            ],
+            "correct_answers": [
+                "Niagara Falls",
+                "niagara falls"
+            ],
+            "options": [
+                "Whistler, British Columbia",
+                "Disney World",
+                "Yosemite National Park",
+                "Niagara Falls"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the tallest mountain in Canada?",
+            "correct_answer": "Mount Logan",
+            "incorrect_answers": [
+                [
+                    "Mont Tremblant",
+                    "mont tremblant"
+                ],
+                [
+                    "Whistler Mountain",
+                    "whistler mountain"
+                ],
+                [
+                    "Blue Mountain",
+                    "blue mountain"
+                ]
+            ],
+            "correct_answers": [
+                "Mount Logan",
+                "mount logan"
+            ],
+            "options": [
+                "Mont Tremblant",
+                "Whistler Mountain",
+                "Blue Mountain",
+                "Mount Logan"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which is the largest freshwater lake in the world?",
+            "correct_answer": "Lake Superior ",
+            "incorrect_answers": [
+                [
+                    "Caspian Sea",
+                    "caspian sea"
+                ],
+                [
+                    "Lake Michigan",
+                    "lake michigan"
+                ],
+                [
+                    "Lake Huron",
+                    "lake huron"
+                ]
+            ],
+            "correct_answers": [
+                "Lake Superior ",
+                "lake superior "
+            ],
+            "options": [
+                "Caspian Sea",
+                "Lake Michigan",
+                "Lake Huron",
+                "Lake Superior "
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+            "correct_answer": "Crown",
+            "incorrect_answers": [
+                [
+                    "Bird",
+                    "bird"
+                ],
+                [
+                    "Sickle",
+                    "sickle"
+                ],
+                [
+                    "Tree",
+                    "tree"
+                ]
+            ],
+            "correct_answers": [
+                "Crown",
+                "crown"
+            ],
+            "options": [
+                "Bird",
+                "Sickle",
+                "Tree",
+                "Crown"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of one of the Neo-Aramaic languages spoken by the Jewish population from Northwestern Iraq?",
+            "correct_answer": "Lishana Deni",
+            "incorrect_answers": [
+                [
+                    "Hulaul&aacute;",
+                    "hulaul&aacute;"
+                ],
+                [
+                    "Lishan Didan",
+                    "lishan didan"
+                ],
+                [
+                    "Chaldean Neo-Aramaic",
+                    "chaldean neo-aramaic"
+                ]
+            ],
+            "correct_answers": [
+                "Lishana Deni",
+                "lishana deni"
+            ],
+            "options": [
+                "Hulaul&aacute;",
+                "Lishan Didan",
+                "Chaldean Neo-Aramaic",
+                "Lishana Deni"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the area of Vatican City?",
+            "correct_answer": "0.44km^2",
+            "incorrect_answers": [
+                [
+                    "0.10km^2",
+                    "0.10km^2"
+                ],
+                [
+                    "0.86km^2",
+                    "0.86km^2"
+                ],
+                [
+                    "12.00km^2",
+                    "12.00km^2"
+                ]
+            ],
+            "correct_answers": [
+                "0.44km^2",
+                "0.44km^2"
+            ],
+            "options": [
+                "0.10km^2",
+                "0.86km^2",
+                "12.00km^2",
+                "0.44km^2"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the capital of Wisconsin, USA?",
+            "correct_answer": "Madison",
+            "incorrect_answers": [
+                [
+                    "Milwaukee",
+                    "milwaukee"
+                ],
+                [
+                    "Wisconsin Dells",
+                    "wisconsin dells"
+                ],
+                [
+                    "Green Bay",
+                    "green bay"
+                ]
+            ],
+            "correct_answers": [
+                "Madison",
+                "madison"
+            ],
+            "options": [
+                "Milwaukee",
+                "Wisconsin Dells",
+                "Green Bay",
+                "Madison"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What country is not a part of Scandinavia?",
+            "correct_answer": "Finland",
+            "incorrect_answers": [
+                [
+                    "Norway",
+                    "norway"
+                ],
+                [
+                    "Sweden",
+                    "sweden"
+                ],
+                [
+                    "Denmark",
+                    "denmark"
+                ]
+            ],
+            "correct_answers": [
+                "Finland",
+                "finland"
+            ],
+            "options": [
+                "Norway",
+                "Sweden",
+                "Denmark",
+                "Finland"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Fucking is a village in which country?",
+            "correct_answer": "Austria",
+            "incorrect_answers": [
+                [
+                    "Germany",
+                    "germany"
+                ],
+                [
+                    "Switzerland",
+                    "switzerland"
+                ],
+                [
+                    "Czech Republic",
+                    "czech republic"
+                ]
+            ],
+            "correct_answers": [
+                "Austria",
+                "austria"
+            ],
+            "options": [
+                "Germany",
+                "Switzerland",
+                "Czech Republic",
+                "Austria"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What city is known as the Rose Capital of the World?",
+            "correct_answer": "Tyler, Texas",
+            "incorrect_answers": [
+                [
+                    "San Diego, California",
+                    "san diego, california"
+                ],
+                [
+                    "Miami, Florida",
+                    "miami, florida"
+                ],
+                [
+                    "Anaheim, California",
+                    "anaheim, california"
+                ]
+            ],
+            "correct_answers": [
+                "Tyler, Texas",
+                "tyler, texas"
+            ],
+            "options": [
+                "San Diego, California",
+                "Miami, Florida",
+                "Anaheim, California",
+                "Tyler, Texas"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In 2012 the German-speaking microstate &quot;Liechtenstein&quot; in Central Europe had a population of how many inhabitants?",
+            "correct_answer": "36,600",
+            "incorrect_answers": [
+                [
+                    "2,400",
+                    "2,400"
+                ],
+                [
+                    "90,000",
+                    "90,000"
+                ],
+                [
+                    "323,400",
+                    "323,400"
+                ]
+            ],
+            "correct_answers": [
+                "36,600",
+                "36,600"
+            ],
+            "options": [
+                "2,400",
+                "90,000",
+                "323,400",
+                "36,600"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is NOT a real tectonic plate?",
+            "correct_answer": "Atlantic Plate",
+            "incorrect_answers": [
+                [
+                    "North American Plate",
+                    "north american plate"
+                ],
+                [
+                    "Eurasian Plate",
+                    "eurasian plate"
+                ],
+                [
+                    "Nazca Plate",
+                    "nazca plate"
+                ]
+            ],
+            "correct_answers": [
+                "Atlantic Plate",
+                "atlantic plate"
+            ],
+            "options": [
+                "North American Plate",
+                "Eurasian Plate",
+                "Nazca Plate",
+                "Atlantic Plate"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+            "correct_answer": "Indonesia",
+            "incorrect_answers": [
+                [
+                    "Chile",
+                    "chile"
+                ],
+                [
+                    "New Zealand",
+                    "new zealand"
+                ],
+                [
+                    "Fiji",
+                    "fiji"
+                ]
+            ],
+            "correct_answers": [
+                "Indonesia",
+                "indonesia"
+            ],
+            "options": [
+                "Chile",
+                "New Zealand",
+                "Fiji",
+                "Indonesia"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the Canadian national anthem?",
+            "correct_answer": "O Canada",
+            "incorrect_answers": [
+                [
+                    "O Red Maple",
+                    "o red maple"
+                ],
+                [
+                    "Leaf-Spangled Banner",
+                    "leaf-spangled banner"
+                ],
+                [
+                    "March of the Puck Drop",
+                    "march of the puck drop",
+                    "march of puck drop"
+                ]
+            ],
+            "correct_answers": [
+                "O Canada",
+                "o canada"
+            ],
+            "options": [
+                "O Red Maple",
+                "Leaf-Spangled Banner",
+                "March of the Puck Drop",
+                "O Canada"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which country is the Taedong River in?",
+            "correct_answer": "North Korea",
+            "incorrect_answers": [
+                [
+                    "South Korea",
+                    "south korea"
+                ],
+                [
+                    "Japan",
+                    "japan"
+                ],
+                [
+                    "China",
+                    "china"
+                ]
+            ],
+            "correct_answers": [
+                "North Korea",
+                "north korea"
+            ],
+            "options": [
+                "South Korea",
+                "Japan",
+                "China",
+                "North Korea"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is Canada's largest island?",
+            "correct_answer": "Baffin Island",
+            "incorrect_answers": [
+                [
+                    "Prince Edward Island",
+                    "prince edward island"
+                ],
+                [
+                    "Vancouver Island",
+                    "vancouver island"
+                ],
+                [
+                    "Newfoundland",
+                    "newfoundland"
+                ]
+            ],
+            "correct_answers": [
+                "Baffin Island",
+                "baffin island"
+            ],
+            "options": [
+                "Prince Edward Island",
+                "Vancouver Island",
+                "Newfoundland",
+                "Baffin Island"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?",
+            "correct_answer": "Inuktitut",
+            "incorrect_answers": [
+                [
+                    "Inuinnaqtun",
+                    "inuinnaqtun"
+                ],
+                [
+                    "Greenlandic",
+                    "greenlandic"
+                ],
+                [
+                    "Inupiat",
+                    "inupiat"
+                ]
+            ],
+            "correct_answers": [
+                "Inuktitut",
+                "inuktitut"
+            ],
+            "options": [
+                "Inuinnaqtun",
+                "Greenlandic",
+                "Inupiat",
+                "Inuktitut"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the second-largest city in Lithuania?",
+            "correct_answer": "Kaunas",
+            "incorrect_answers": [
+                [
+                    "Panevėžys",
+                    "panevėžys"
+                ],
+                [
+                    "Vilnius",
+                    "vilnius"
+                ],
+                [
+                    "Klaipėda",
+                    "klaipėda"
+                ]
+            ],
+            "correct_answers": [
+                "Kaunas",
+                "kaunas"
+            ],
+            "options": [
+                "Panevėžys",
+                "Vilnius",
+                "Klaipėda",
+                "Kaunas"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of rocky region that spans most of eastern Canada?",
+            "correct_answer": "Canadian Shield",
+            "incorrect_answers": [
+                [
+                    "Rocky Mountains",
+                    "rocky mountains"
+                ],
+                [
+                    "Appalachian Mountains",
+                    "appalachian mountains"
+                ],
+                [
+                    "Himalayas",
+                    "himalayas"
+                ]
+            ],
+            "correct_answers": [
+                "Canadian Shield",
+                "canadian shield"
+            ],
+            "options": [
+                "Rocky Mountains",
+                "Appalachian Mountains",
+                "Himalayas",
+                "Canadian Shield"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these island countries is located in the Caribbean?",
+            "correct_answer": "Barbados",
+            "incorrect_answers": [
+                [
+                    "Fiji",
+                    "fiji"
+                ],
+                [
+                    "Maldives",
+                    "maldives"
+                ],
+                [
+                    "Seychelles",
+                    "seychelles"
+                ]
+            ],
+            "correct_answers": [
+                "Barbados",
+                "barbados"
+            ],
+            "options": [
+                "Fiji",
+                "Maldives",
+                "Seychelles",
+                "Barbados"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is NOT a city in India?",
+            "correct_answer": "Islamabad",
+            "incorrect_answers": [
+                [
+                    "Hyderabad",
+                    "hyderabad"
+                ],
+                [
+                    "Ahmedabad",
+                    "ahmedabad"
+                ],
+                [
+                    "Ghaziabad",
+                    "ghaziabad"
+                ]
+            ],
+            "correct_answers": [
+                "Islamabad",
+                "islamabad"
+            ],
+            "options": [
+                "Hyderabad",
+                "Ahmedabad",
+                "Ghaziabad",
+                "Islamabad"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When does Finland celebrate their independence day?",
+            "correct_answer": "December 6th",
+            "incorrect_answers": [
+                [
+                    "January 2nd",
+                    "january 2nd"
+                ],
+                [
+                    "November 12th",
+                    "november 12th"
+                ],
+                [
+                    "February 8th",
+                    "february 8th"
+                ]
+            ],
+            "correct_answers": [
+                "December 6th",
+                "december 6th"
+            ],
+            "options": [
+                "January 2nd",
+                "November 12th",
+                "February 8th",
+                "December 6th"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
+            "correct_answer": "Anglesey",
+            "incorrect_answers": [
+                [
+                    "Barry",
+                    "barry"
+                ],
+                [
+                    "Bardsey",
+                    "bardsey"
+                ],
+                [
+                    "Caldey",
+                    "caldey"
+                ]
+            ],
+            "correct_answers": [
+                "Anglesey",
+                "anglesey"
+            ],
+            "options": [
+                "Barry",
+                "Bardsey",
+                "Caldey",
+                "Anglesey"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the largest freshwater lake by volume?",
+            "correct_answer": "Lake Baikal",
+            "incorrect_answers": [
+                [
+                    "Lake Superior",
+                    "lake superior"
+                ],
+                [
+                    "Lake Huron",
+                    "lake huron"
+                ],
+                [
+                    "Lake Michigan",
+                    "lake michigan"
+                ]
+            ],
+            "correct_answers": [
+                "Lake Baikal",
+                "lake baikal"
+            ],
+            "options": [
+                "Lake Superior",
+                "Lake Huron",
+                "Lake Michigan",
+                "Lake Baikal"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Where is the fast food chain &quot;Panda Express&quot; headquartered?",
+            "correct_answer": "Rosemead, California",
+            "incorrect_answers": [
+                [
+                    "Sacramento, California",
+                    "sacramento, california"
+                ],
+                [
+                    "Fresno, California",
+                    "fresno, california"
+                ],
+                [
+                    "San Diego, California",
+                    "san diego, california"
+                ]
+            ],
+            "correct_answers": [
+                "Rosemead, California",
+                "rosemead, california"
+            ],
+            "options": [
+                "Sacramento, California",
+                "Fresno, California",
+                "San Diego, California",
+                "Rosemead, California"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Hunua Ranges is located in...",
+            "correct_answer": "New Zealand",
+            "incorrect_answers": [
+                [
+                    "Nepal",
+                    "nepal"
+                ],
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "Mexico",
+                    "mexico"
+                ]
+            ],
+            "correct_answers": [
+                "New Zealand",
+                "new zealand"
+            ],
+            "options": [
+                "Nepal",
+                "China",
+                "Mexico",
+                "New Zealand"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+            "correct_answer": "India",
+            "incorrect_answers": [
+                [
+                    "Vietnam",
+                    "vietnam"
+                ],
+                [
+                    "Thailand",
+                    "thailand"
+                ],
+                [
+                    "Indonesia",
+                    "indonesia"
+                ]
+            ],
+            "correct_answers": [
+                "India",
+                "india"
+            ],
+            "options": [
+                "Vietnam",
+                "Thailand",
+                "Indonesia",
+                "India"
+            ]
+        }
+    ]
+}

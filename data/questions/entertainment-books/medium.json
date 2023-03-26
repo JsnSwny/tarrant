@@ -1,0 +1,1269 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following authors was not born in England? ",
+            "correct_answer": "Arthur Conan Doyle",
+            "incorrect_answers": [
+                [
+                    "Graham Greene",
+                    "graham greene"
+                ],
+                [
+                    "H G Wells",
+                    "h g wells"
+                ],
+                [
+                    "Arthur C Clarke",
+                    "arthur c clarke"
+                ]
+            ],
+            "correct_answers": [
+                "Arthur Conan Doyle",
+                "arthur conan doyle"
+            ],
+            "options": [
+                "Graham Greene",
+                "H G Wells",
+                "Arthur C Clarke",
+                "Arthur Conan Doyle"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Lord of the Rings, who is the father of the dwarf Gimli?",
+            "correct_answer": "Gloin",
+            "incorrect_answers": [
+                [
+                    "Thorin Oakenshield",
+                    "thorin oakenshield"
+                ],
+                [
+                    "Bombur",
+                    "bombur"
+                ],
+                [
+                    "Dwalin",
+                    "dwalin"
+                ]
+            ],
+            "correct_answers": [
+                "Gloin",
+                "gloin"
+            ],
+            "options": [
+                "Thorin Oakenshield",
+                "Bombur",
+                "Dwalin",
+                "Gloin"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+            "correct_answer": "The Greasers",
+            "incorrect_answers": [
+                [
+                    "The Outsiders",
+                    "the outsiders",
+                    "outsiders"
+                ],
+                [
+                    "The Mafia",
+                    "the mafia",
+                    "mafia"
+                ],
+                [
+                    "The Socs",
+                    "the socs",
+                    "socs"
+                ]
+            ],
+            "correct_answers": [
+                "The Greasers",
+                "the greasers",
+                "greasers"
+            ],
+            "options": [
+                "The Outsiders",
+                "The Mafia",
+                "The Socs",
+                "The Greasers"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The book &quot;Fahrenheit 451&quot; was written by whom?",
+            "correct_answer": "Ray Bradbury",
+            "incorrect_answers": [
+                [
+                    "R. L. Stine",
+                    "r. l. stine"
+                ],
+                [
+                    "Wolfgang Amadeus Mozart",
+                    "wolfgang amadeus mozart"
+                ],
+                [
+                    "Stephen King",
+                    "stephen king"
+                ]
+            ],
+            "correct_answers": [
+                "Ray Bradbury",
+                "ray bradbury"
+            ],
+            "options": [
+                "R. L. Stine",
+                "Wolfgang Amadeus Mozart",
+                "Stephen King",
+                "Ray Bradbury"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who wrote the children's story &quot;The Little Match Girl&quot;?",
+            "correct_answer": "Hans Christian Andersen",
+            "incorrect_answers": [
+                [
+                    "Charles Dickens",
+                    "charles dickens"
+                ],
+                [
+                    "Lewis Carroll",
+                    "lewis carroll"
+                ],
+                [
+                    "Oscar Wilde",
+                    "oscar wilde"
+                ]
+            ],
+            "correct_answers": [
+                "Hans Christian Andersen",
+                "hans christian andersen"
+            ],
+            "options": [
+                "Charles Dickens",
+                "Lewis Carroll",
+                "Oscar Wilde",
+                "Hans Christian Andersen"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Terry Pratchett's Discworld novel 'Wyrd Sisters', which of these are not one of the three main witches?",
+            "correct_answer": "Winny Hathersham",
+            "incorrect_answers": [
+                [
+                    "Granny Weatherwax",
+                    "granny weatherwax"
+                ],
+                [
+                    "Nanny Ogg",
+                    "nanny ogg"
+                ],
+                [
+                    "Magrat Garlick",
+                    "magrat garlick"
+                ]
+            ],
+            "correct_answers": [
+                "Winny Hathersham",
+                "winny hathersham"
+            ],
+            "options": [
+                "Granny Weatherwax",
+                "Nanny Ogg",
+                "Magrat Garlick",
+                "Winny Hathersham"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many books are in the Chronicles of Narnia series?",
+            "correct_answer": "7",
+            "incorrect_answers": [
+                [
+                    "6",
+                    "6"
+                ],
+                [
+                    "8",
+                    "8"
+                ],
+                [
+                    "5",
+                    "5"
+                ]
+            ],
+            "correct_answers": [
+                "7",
+                "7"
+            ],
+            "options": [
+                "6",
+                "8",
+                "5",
+                "7"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who wrote the &quot;A Song of Ice And Fire&quot; fantasy novel series?",
+            "correct_answer": "George R. R. Martin",
+            "incorrect_answers": [
+                [
+                    "George Lucas",
+                    "george lucas"
+                ],
+                [
+                    "George Orwell",
+                    "george orwell"
+                ],
+                [
+                    "George Eliot",
+                    "george eliot"
+                ]
+            ],
+            "correct_answers": [
+                "George R. R. Martin",
+                "george r. r. martin"
+            ],
+            "options": [
+                "George Lucas",
+                "George Orwell",
+                "George Eliot",
+                "George R. R. Martin"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What position does Harry Potter play in Quidditch?",
+            "correct_answer": "Seeker",
+            "incorrect_answers": [
+                [
+                    "Beater",
+                    "beater"
+                ],
+                [
+                    "Chaser",
+                    "chaser"
+                ],
+                [
+                    "Keeper",
+                    "keeper"
+                ]
+            ],
+            "correct_answers": [
+                "Seeker",
+                "seeker"
+            ],
+            "options": [
+                "Beater",
+                "Chaser",
+                "Keeper",
+                "Seeker"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Russian author wrote the epic novel War and Peace?",
+            "correct_answer": "Leo Tolstoy",
+            "incorrect_answers": [
+                [
+                    "Fyodor Dostoyevsky",
+                    "fyodor dostoyevsky"
+                ],
+                [
+                    "Alexander Pushkin",
+                    "alexander pushkin"
+                ],
+                [
+                    "Vladimir Nabokov",
+                    "vladimir nabokov"
+                ]
+            ],
+            "correct_answers": [
+                "Leo Tolstoy",
+                "leo tolstoy"
+            ],
+            "options": [
+                "Fyodor Dostoyevsky",
+                "Alexander Pushkin",
+                "Vladimir Nabokov",
+                "Leo Tolstoy"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The title of Adolf Hitler's autobiography &quot;Mein Kampf&quot; is what when translated to English?",
+            "correct_answer": "My Struggle",
+            "incorrect_answers": [
+                [
+                    "My Hatred",
+                    "my hatred"
+                ],
+                [
+                    "My Sadness",
+                    "my sadness"
+                ],
+                [
+                    "My Desire",
+                    "my desire"
+                ]
+            ],
+            "correct_answers": [
+                "My Struggle",
+                "my struggle"
+            ],
+            "options": [
+                "My Hatred",
+                "My Sadness",
+                "My Desire",
+                "My Struggle"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The novel &quot;Of Mice And Men&quot; was written by what author? ",
+            "correct_answer": "John Steinbeck ",
+            "incorrect_answers": [
+                [
+                    "George Orwell",
+                    "george orwell"
+                ],
+                [
+                    "Mark Twain ",
+                    "mark twain "
+                ],
+                [
+                    "Harper Lee",
+                    "harper lee"
+                ]
+            ],
+            "correct_answers": [
+                "John Steinbeck ",
+                "john steinbeck "
+            ],
+            "options": [
+                "George Orwell",
+                "Mark Twain ",
+                "Harper Lee",
+                "John Steinbeck "
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+            "correct_answer": "John Steinbeck",
+            "incorrect_answers": [
+                [
+                    "F. Scott Fitzgerald",
+                    "f. scott fitzgerald"
+                ],
+                [
+                    "Ernest Hemingway",
+                    "ernest hemingway"
+                ],
+                [
+                    "William Faulkner",
+                    "william faulkner"
+                ]
+            ],
+            "correct_answers": [
+                "John Steinbeck",
+                "john steinbeck"
+            ],
+            "options": [
+                "F. Scott Fitzgerald",
+                "Ernest Hemingway",
+                "William Faulkner",
+                "John Steinbeck"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
+            "correct_answer": "The Artful Dodger",
+            "incorrect_answers": [
+                [
+                    "Fagin",
+                    "fagin"
+                ],
+                [
+                    "Bull&rsquo;s-eye",
+                    "bull&rsquo;s-eye"
+                ],
+                [
+                    "Mr. Fang",
+                    "mr. fang"
+                ]
+            ],
+            "correct_answers": [
+                "The Artful Dodger",
+                "the artful dodger",
+                "artful dodger"
+            ],
+            "options": [
+                "Fagin",
+                "Bull&rsquo;s-eye",
+                "Mr. Fang",
+                "The Artful Dodger"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+            "correct_answer": "Camino Island",
+            "incorrect_answers": [
+                [
+                    "Rogue Lawyer",
+                    "rogue lawyer"
+                ],
+                [
+                    "Gray Mountain",
+                    "gray mountain"
+                ],
+                [
+                    "The Litigators",
+                    "the litigators",
+                    "litigators"
+                ]
+            ],
+            "correct_answers": [
+                "Camino Island",
+                "camino island"
+            ],
+            "options": [
+                "Rogue Lawyer",
+                "Gray Mountain",
+                "The Litigators",
+                "Camino Island"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+            "correct_answer": "Anna Karenina",
+            "incorrect_answers": [
+                [
+                    "Notes from the Underground",
+                    "notes from the underground",
+                    "notes from underground"
+                ],
+                [
+                    "Crime and Punishment",
+                    "crime and punishment"
+                ],
+                [
+                    "The Brothers Karamazov",
+                    "the brothers karamazov",
+                    "brothers karamazov"
+                ]
+            ],
+            "correct_answers": [
+                "Anna Karenina",
+                "anna karenina"
+            ],
+            "options": [
+                "Notes from the Underground",
+                "Crime and Punishment",
+                "The Brothers Karamazov",
+                "Anna Karenina"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+            "correct_answer": "The Dresden Files",
+            "incorrect_answers": [
+                [
+                    "A Hat in Time",
+                    "a hat in time"
+                ],
+                [
+                    "The Cinder Spires",
+                    "the cinder spires",
+                    "cinder spires"
+                ],
+                [
+                    "My Life as a Teenage Wizard",
+                    "my life as a teenage wizard"
+                ]
+            ],
+            "correct_answers": [
+                "The Dresden Files",
+                "the dresden files",
+                "dresden files"
+            ],
+            "options": [
+                "A Hat in Time",
+                "The Cinder Spires",
+                "My Life as a Teenage Wizard",
+                "The Dresden Files"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Alice in Wonderland, what is the name of Alice's kitten?",
+            "correct_answer": "Dinah",
+            "incorrect_answers": [
+                [
+                    "Oscar",
+                    "oscar"
+                ],
+                [
+                    "Heath",
+                    "heath"
+                ],
+                [
+                    "Smokey",
+                    "smokey"
+                ]
+            ],
+            "correct_answers": [
+                "Dinah",
+                "dinah"
+            ],
+            "options": [
+                "Oscar",
+                "Heath",
+                "Smokey",
+                "Dinah"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.",
+            "correct_answer": "Frankenstein&#039;s monster",
+            "incorrect_answers": [
+                [
+                    "Dracula",
+                    "dracula"
+                ],
+                [
+                    "The Thing",
+                    "the thing",
+                    "thing"
+                ],
+                [
+                    "The Invisible Man",
+                    "the invisible man",
+                    "invisible man"
+                ]
+            ],
+            "correct_answers": [
+                "Frankenstein's monster",
+                "frankenstein's monster",
+                "frankensteins monster"
+            ],
+            "options": [
+                "Dracula",
+                "The Thing",
+                "The Invisible Man",
+                "Frankenstein's monster"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Michael Crichton's novel &quot;Jurassic Park&quot;, John Hammond meets his demise at the claws of which dinosaur?",
+            "correct_answer": "Procompsognathus",
+            "incorrect_answers": [
+                [
+                    "Dilophosaurus",
+                    "dilophosaurus"
+                ],
+                [
+                    "Tyrannosaurus Rex",
+                    "tyrannosaurus rex"
+                ],
+                [
+                    "Velociraptor",
+                    "velociraptor"
+                ]
+            ],
+            "correct_answers": [
+                "Procompsognathus",
+                "procompsognathus"
+            ],
+            "options": [
+                "Dilophosaurus",
+                "Tyrannosaurus Rex",
+                "Velociraptor",
+                "Procompsognathus"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the name of Eragon's dragon in &quot;Eragon&quot;?",
+            "correct_answer": "Saphira",
+            "incorrect_answers": [
+                [
+                    "Glaedr",
+                    "glaedr"
+                ],
+                [
+                    "Thorn",
+                    "thorn"
+                ],
+                [
+                    "Arya",
+                    "arya"
+                ]
+            ],
+            "correct_answers": [
+                "Saphira",
+                "saphira"
+            ],
+            "options": [
+                "Glaedr",
+                "Thorn",
+                "Arya",
+                "Saphira"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "J.K. Rowling completed &quot;Harry Potter and the Deathly Hallows&quot; in which hotel in Edinburgh, Scotland?",
+            "correct_answer": "The Balmoral",
+            "incorrect_answers": [
+                [
+                    "The Dunstane Hotel",
+                    "the dunstane hotel",
+                    "dunstane hotel"
+                ],
+                [
+                    "Hotel Novotel",
+                    "hotel novotel"
+                ],
+                [
+                    "Sheraton Grand Hotel &amp; Spa",
+                    "sheraton grand hotel &amp; spa"
+                ]
+            ],
+            "correct_answers": [
+                "The Balmoral",
+                "the balmoral",
+                "balmoral"
+            ],
+            "options": [
+                "The Dunstane Hotel",
+                "Hotel Novotel",
+                "Sheraton Grand Hotel &amp; Spa",
+                "The Balmoral"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?",
+            "correct_answer": "Zhao Yun",
+            "incorrect_answers": [
+                [
+                    "Liu Bei",
+                    "liu bei"
+                ],
+                [
+                    "Guan Yu",
+                    "guan yu"
+                ],
+                [
+                    "Zhang Fei",
+                    "zhang fei"
+                ]
+            ],
+            "correct_answers": [
+                "Zhao Yun",
+                "zhao yun"
+            ],
+            "options": [
+                "Liu Bei",
+                "Guan Yu",
+                "Zhang Fei",
+                "Zhao Yun"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who wrote the 1967 horror novel &quot;Rosemary's Baby&quot;?",
+            "correct_answer": "Ira Levin",
+            "incorrect_answers": [
+                [
+                    "Stephen King",
+                    "stephen king"
+                ],
+                [
+                    "Robert Bloch",
+                    "robert bloch"
+                ],
+                [
+                    "Mary Shelley",
+                    "mary shelley"
+                ]
+            ],
+            "correct_answers": [
+                "Ira Levin",
+                "ira levin"
+            ],
+            "options": [
+                "Stephen King",
+                "Robert Bloch",
+                "Mary Shelley",
+                "Ira Levin"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In &quot;Little Women&quot;, which of the March sisters married Laurie?",
+            "correct_answer": "Amy",
+            "incorrect_answers": [
+                [
+                    "Beth",
+                    "beth"
+                ],
+                [
+                    "Jo",
+                    "jo"
+                ],
+                [
+                    "Meg",
+                    "meg"
+                ]
+            ],
+            "correct_answers": [
+                "Amy",
+                "amy"
+            ],
+            "options": [
+                "Beth",
+                "Jo",
+                "Meg",
+                "Amy"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the &quot;The Hobbit&quot;, who kills Smaug?",
+            "correct_answer": "Bard",
+            "incorrect_answers": [
+                [
+                    "Bilbo Baggins",
+                    "bilbo baggins"
+                ],
+                [
+                    "Gandalf the Grey",
+                    "gandalf the grey",
+                    "gandalf grey"
+                ],
+                [
+                    "Frodo",
+                    "frodo"
+                ]
+            ],
+            "correct_answers": [
+                "Bard",
+                "bard"
+            ],
+            "options": [
+                "Bilbo Baggins",
+                "Gandalf the Grey",
+                "Frodo",
+                "Bard"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is the author of the series &quot;Malazan Book of the Fallen&quot;?",
+            "correct_answer": "Steven Erikson",
+            "incorrect_answers": [
+                [
+                    "Ian Cameron Esslemont",
+                    "ian cameron esslemont"
+                ],
+                [
+                    "George R. R. Martin",
+                    "george r. r. martin"
+                ],
+                [
+                    "J. R. R. Tolkien",
+                    "j. r. r. tolkien"
+                ]
+            ],
+            "correct_answers": [
+                "Steven Erikson",
+                "steven erikson"
+            ],
+            "options": [
+                "Ian Cameron Esslemont",
+                "George R. R. Martin",
+                "J. R. R. Tolkien",
+                "Steven Erikson"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the pen name of novelist, Mary Ann Evans?",
+            "correct_answer": "George Eliot",
+            "incorrect_answers": [
+                [
+                    "George Orwell",
+                    "george orwell"
+                ],
+                [
+                    "George Bernard Shaw",
+                    "george bernard shaw"
+                ],
+                [
+                    "George Saunders",
+                    "george saunders"
+                ]
+            ],
+            "correct_answers": [
+                "George Eliot",
+                "george eliot"
+            ],
+            "options": [
+                "George Orwell",
+                "George Bernard Shaw",
+                "George Saunders",
+                "George Eliot"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The book &quot;The Little Prince&quot; was written by...",
+            "correct_answer": "Antoine de Saint-Exup&eacute;ry",
+            "incorrect_answers": [
+                [
+                    "Miguel de Cervantes Saavedra",
+                    "miguel de cervantes saavedra"
+                ],
+                [
+                    "Jane Austen",
+                    "jane austen"
+                ],
+                [
+                    "F. Scott Fitzgerald",
+                    "f. scott fitzgerald"
+                ]
+            ],
+            "correct_answers": [
+                "Antoine de Saint-Exup&eacute;ry",
+                "antoine de saint-exup&eacute;ry"
+            ],
+            "options": [
+                "Miguel de Cervantes Saavedra",
+                "Jane Austen",
+                "F. Scott Fitzgerald",
+                "Antoine de Saint-Exup&eacute;ry"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the make and model of the tour vehicles in &quot;Jurassic Park&quot; (1990)?",
+            "correct_answer": "1989 Toyota Land Cruiser",
+            "incorrect_answers": [
+                [
+                    "1989 Jeep Wrangler YJ Sahar",
+                    "1989 jeep wrangler yj sahar"
+                ],
+                [
+                    "1989 Ford Explorer XLT",
+                    "1989 ford explorer xlt"
+                ],
+                [
+                    "Mercedes M-Class",
+                    "mercedes m-class"
+                ]
+            ],
+            "correct_answers": [
+                "1989 Toyota Land Cruiser",
+                "1989 toyota land cruiser"
+            ],
+            "options": [
+                "1989 Jeep Wrangler YJ Sahar",
+                "1989 Ford Explorer XLT",
+                "Mercedes M-Class",
+                "1989 Toyota Land Cruiser"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the last message of the Dolphins in &quot;The Hitchhiker's Guide to the Galaxy&quot;?",
+            "correct_answer": "&quot;So long, and thanks for all the fish.&quot;",
+            "incorrect_answers": [
+                [
+                    "&quot;The answer is 42.&quot;",
+                    "&quot;the answer is 42.&quot;",
+                    "&quot;answer is 42.&quot;"
+                ],
+                [
+                    "&quot;Land of the brave.&quot;",
+                    "&quot;land of the brave.&quot;",
+                    "&quot;land of brave.&quot;"
+                ],
+                [
+                    "&quot;Goodbye cruel world!&quot;",
+                    "&quot;goodbye cruel world!&quot;"
+                ]
+            ],
+            "correct_answers": [
+                "&quot;So long, and thanks for all the fish.&quot;",
+                "&quot;so long, and thanks for all the fish.&quot;",
+                "&quot;so long, and thanks for all fish.&quot;"
+            ],
+            "options": [
+                "&quot;The answer is 42.&quot;",
+                "&quot;Land of the brave.&quot;",
+                "&quot;Goodbye cruel world!&quot;",
+                "&quot;So long, and thanks for all the fish.&quot;"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the novel &quot;Lord of the Rings&quot;, how many rings of power were given to the race of man?",
+            "correct_answer": "9",
+            "incorrect_answers": [
+                [
+                    "5",
+                    "5"
+                ],
+                [
+                    "11",
+                    "11"
+                ],
+                [
+                    "13",
+                    "13"
+                ]
+            ],
+            "correct_answers": [
+                "9",
+                "9"
+            ],
+            "options": [
+                "5",
+                "11",
+                "13",
+                "9"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the fourth book of the Old Testament?",
+            "correct_answer": "Numbers",
+            "incorrect_answers": [
+                [
+                    "Genesis",
+                    "genesis"
+                ],
+                [
+                    "Exodus",
+                    "exodus"
+                ],
+                [
+                    "Leviticus",
+                    "leviticus"
+                ]
+            ],
+            "correct_answers": [
+                "Numbers",
+                "numbers"
+            ],
+            "options": [
+                "Genesis",
+                "Exodus",
+                "Leviticus",
+                "Numbers"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "By what name was the author Eric Blair better known?",
+            "correct_answer": "George Orwell",
+            "incorrect_answers": [
+                [
+                    "Aldous Huxley",
+                    "aldous huxley"
+                ],
+                [
+                    "Ernest Hemingway",
+                    "ernest hemingway"
+                ],
+                [
+                    "Ray Bradbury",
+                    "ray bradbury"
+                ]
+            ],
+            "correct_answers": [
+                "George Orwell",
+                "george orwell"
+            ],
+            "options": [
+                "Aldous Huxley",
+                "Ernest Hemingway",
+                "Ray Bradbury",
+                "George Orwell"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name of the Mysterious Island, in Jules Verne's &quot;The Mysterious Island&quot;?",
+            "correct_answer": "Lincoln Island",
+            "incorrect_answers": [
+                [
+                    "Vulcania Island",
+                    "vulcania island"
+                ],
+                [
+                    "Prometheus Island",
+                    "prometheus island"
+                ],
+                [
+                    "Neptune Island",
+                    "neptune island"
+                ]
+            ],
+            "correct_answers": [
+                "Lincoln Island",
+                "lincoln island"
+            ],
+            "options": [
+                "Vulcania Island",
+                "Prometheus Island",
+                "Neptune Island",
+                "Lincoln Island"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+            "correct_answer": "Answer a riddle",
+            "incorrect_answers": [
+                [
+                    "Rhythmically tap barrels with a wand",
+                    "rhythmically tap barrels with a wand"
+                ],
+                [
+                    "Speak a password",
+                    "speak a password"
+                ],
+                [
+                    "Knock in sequence",
+                    "knock in sequence"
+                ]
+            ],
+            "correct_answers": [
+                "Answer a riddle",
+                "answer a riddle"
+            ],
+            "options": [
+                "Rhythmically tap barrels with a wand",
+                "Speak a password",
+                "Knock in sequence",
+                "Answer a riddle"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these book series is by James Patterson?",
+            "correct_answer": "Maximum Ride",
+            "incorrect_answers": [
+                [
+                    "Harry Potter",
+                    "harry potter"
+                ],
+                [
+                    "The Legend of Xanth",
+                    "the legend of xanth",
+                    "legend of xanth"
+                ],
+                [
+                    "The Bartemaeus Trilogy",
+                    "the bartemaeus trilogy",
+                    "bartemaeus trilogy"
+                ]
+            ],
+            "correct_answers": [
+                "Maximum Ride",
+                "maximum ride"
+            ],
+            "options": [
+                "Harry Potter",
+                "The Legend of Xanth",
+                "The Bartemaeus Trilogy",
+                "Maximum Ride"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following was the author of &quot;Username Evie&quot;?",
+            "correct_answer": "Joe Sugg",
+            "incorrect_answers": [
+                [
+                    "Zoe Sugg",
+                    "zoe sugg"
+                ],
+                [
+                    "Joe Weller",
+                    "joe weller"
+                ],
+                [
+                    "Alfie Deyes",
+                    "alfie deyes"
+                ]
+            ],
+            "correct_answers": [
+                "Joe Sugg",
+                "joe sugg"
+            ],
+            "options": [
+                "Zoe Sugg",
+                "Joe Weller",
+                "Alfie Deyes",
+                "Joe Sugg"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+            "correct_answer": "42",
+            "incorrect_answers": [
+                [
+                    "Loving everyone around you",
+                    "loving everyone around you"
+                ],
+                [
+                    "Chocolate",
+                    "chocolate"
+                ],
+                [
+                    "Death",
+                    "death"
+                ]
+            ],
+            "correct_answers": [
+                "42",
+                "42"
+            ],
+            "options": [
+                "Loving everyone around you",
+                "Chocolate",
+                "Death",
+                "42"
+            ]
+        },
+        {
+            "category": "Entertainment: Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+            "correct_answer": "The Thorn of Camorr",
+            "incorrect_answers": [
+                [
+                    "The Rose of the Marrows",
+                    "the rose of the marrows",
+                    "rose of marrows"
+                ],
+                [
+                    "The Thorn of Emberlain",
+                    "the thorn of emberlain",
+                    "thorn of emberlain"
+                ],
+                [
+                    "The Thorn of the Marrows",
+                    "the thorn of the marrows",
+                    "thorn of marrows"
+                ]
+            ],
+            "correct_answers": [
+                "The Thorn of Camorr",
+                "the thorn of camorr",
+                "thorn of camorr"
+            ],
+            "options": [
+                "The Rose of the Marrows",
+                "The Thorn of Emberlain",
+                "The Thorn of the Marrows",
+                "The Thorn of Camorr"
+            ]
+        }
+    ]
+}

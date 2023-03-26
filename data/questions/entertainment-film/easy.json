@@ -1,0 +1,2102 @@
+{
+    "questions": [
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which movie released in 2016 features Superman and Batman fighting?",
+            "correct_answer": "Batman v Superman: Dawn of Justice",
+            "incorrect_answers": [
+                [
+                    "Batman v Superman: Superapocalypse",
+                    "batman v superman: superapocalypse"
+                ],
+                [
+                    "Batman v Superman: Black of Knight",
+                    "batman v superman: black of knight"
+                ],
+                [
+                    "Batman v Superman: Knightfall",
+                    "batman v superman: knightfall"
+                ]
+            ],
+            "correct_answers": [
+                "Batman v Superman: Dawn of Justice",
+                "batman v superman: dawn of justice"
+            ],
+            "options": [
+                "Batman v Superman: Superapocalypse",
+                "Batman v Superman: Black of Knight",
+                "Batman v Superman: Knightfall",
+                "Batman v Superman: Dawn of Justice"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;ALF&quot;, what was ALF's real name?",
+            "correct_answer": "Gordon Shumway",
+            "incorrect_answers": [
+                [
+                    "Gordon Milipp",
+                    "gordon milipp"
+                ],
+                [
+                    "Gordon Foster",
+                    "gordon foster"
+                ],
+                [
+                    "Gordon von Gam",
+                    "gordon von gam"
+                ]
+            ],
+            "correct_answers": [
+                "Gordon Shumway",
+                "gordon shumway"
+            ],
+            "options": [
+                "Gordon Milipp",
+                "Gordon Foster",
+                "Gordon von Gam",
+                "Gordon Shumway"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film &quot;The Fugitive&quot;?",
+            "correct_answer": "Tommy Lee Jones",
+            "incorrect_answers": [
+                [
+                    "Harrison Ford",
+                    "harrison ford"
+                ],
+                [
+                    "Harvey Keitel",
+                    "harvey keitel"
+                ],
+                [
+                    "Martin Landau",
+                    "martin landau"
+                ]
+            ],
+            "correct_answers": [
+                "Tommy Lee Jones",
+                "tommy lee jones"
+            ],
+            "options": [
+                "Harrison Ford",
+                "Harvey Keitel",
+                "Martin Landau",
+                "Tommy Lee Jones"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who directed the Kill Bill movies?",
+            "correct_answer": "Quentin Tarantino",
+            "incorrect_answers": [
+                [
+                    "Arnold Schwarzenegger",
+                    "arnold schwarzenegger"
+                ],
+                [
+                    "David Lean",
+                    "david lean"
+                ],
+                [
+                    "Stanley Kubrick",
+                    "stanley kubrick"
+                ]
+            ],
+            "correct_answers": [
+                "Quentin Tarantino",
+                "quentin tarantino"
+            ],
+            "options": [
+                "Arnold Schwarzenegger",
+                "David Lean",
+                "Stanley Kubrick",
+                "Quentin Tarantino"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the first monster to appear alongside Godzilla?",
+            "correct_answer": "Anguirus",
+            "incorrect_answers": [
+                [
+                    "King Kong",
+                    "king kong"
+                ],
+                [
+                    "Mothra",
+                    "mothra"
+                ],
+                [
+                    "King Ghidora",
+                    "king ghidora"
+                ]
+            ],
+            "correct_answers": [
+                "Anguirus",
+                "anguirus"
+            ],
+            "options": [
+                "King Kong",
+                "Mothra",
+                "King Ghidora",
+                "Anguirus"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Where does the original Friday The 13th movie take place?",
+            "correct_answer": "Camp Crystal Lake",
+            "incorrect_answers": [
+                [
+                    "Packanack",
+                    "packanack"
+                ],
+                [
+                    "Higgins Haven",
+                    "higgins haven"
+                ],
+                [
+                    "Camp Forest Green",
+                    "camp forest green"
+                ]
+            ],
+            "correct_answers": [
+                "Camp Crystal Lake",
+                "camp crystal lake"
+            ],
+            "options": [
+                "Packanack",
+                "Higgins Haven",
+                "Camp Forest Green",
+                "Camp Crystal Lake"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following was not one of &quot;The Magnificent Seven&quot;?",
+            "correct_answer": "Clint Eastwood",
+            "incorrect_answers": [
+                [
+                    "Steve McQueen",
+                    "steve mcqueen"
+                ],
+                [
+                    "Charles Bronson",
+                    "charles bronson"
+                ],
+                [
+                    "Robert Vaughn",
+                    "robert vaughn"
+                ]
+            ],
+            "correct_answers": [
+                "Clint Eastwood",
+                "clint eastwood"
+            ],
+            "options": [
+                "Steve McQueen",
+                "Charles Bronson",
+                "Robert Vaughn",
+                "Clint Eastwood"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the movie &quot;Blade Runner&quot;, what is the term used for human-like androids ?",
+            "correct_answer": "Replicants",
+            "incorrect_answers": [
+                [
+                    "Cylons",
+                    "cylons"
+                ],
+                [
+                    "Synthetics",
+                    "synthetics"
+                ],
+                [
+                    "Skinjobs",
+                    "skinjobs"
+                ]
+            ],
+            "correct_answers": [
+                "Replicants",
+                "replicants"
+            ],
+            "options": [
+                "Cylons",
+                "Synthetics",
+                "Skinjobs",
+                "Replicants"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these films is NOT set in Los Angeles?",
+            "correct_answer": "RoboCop",
+            "incorrect_answers": [
+                [
+                    "Blade Runner",
+                    "blade runner"
+                ],
+                [
+                    "The Terminator",
+                    "the terminator",
+                    "terminator"
+                ],
+                [
+                    "Predator 2",
+                    "predator 2"
+                ]
+            ],
+            "correct_answers": [
+                "RoboCop",
+                "robocop"
+            ],
+            "options": [
+                "Blade Runner",
+                "The Terminator",
+                "Predator 2",
+                "RoboCop"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+            "correct_answer": "Highlander",
+            "incorrect_answers": [
+                [
+                    "Flash Gordon",
+                    "flash gordon"
+                ],
+                [
+                    "Labyrinth",
+                    "labyrinth"
+                ],
+                [
+                    "Howard the Duck",
+                    "howard the duck",
+                    "howard duck"
+                ]
+            ],
+            "correct_answers": [
+                "Highlander",
+                "highlander"
+            ],
+            "options": [
+                "Flash Gordon",
+                "Labyrinth",
+                "Howard the Duck",
+                "Highlander"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+            "correct_answer": "Top Gun",
+            "incorrect_answers": [
+                [
+                    "Days of Thunder",
+                    "days of thunder"
+                ],
+                [
+                    "The Color of Money",
+                    "the color of money",
+                    "color of money"
+                ],
+                [
+                    "Cocktail",
+                    "cocktail"
+                ]
+            ],
+            "correct_answers": [
+                "Top Gun",
+                "top gun"
+            ],
+            "options": [
+                "Days of Thunder",
+                "The Color of Money",
+                "Cocktail",
+                "Top Gun"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which animated movie was first to feature a celebrity as a voice actor?",
+            "correct_answer": "Aladdin",
+            "incorrect_answers": [
+                [
+                    "Toy Story",
+                    "toy story"
+                ],
+                [
+                    "James and the Giant Peach",
+                    "james and the giant peach",
+                    "james and giant peach"
+                ],
+                [
+                    "The Hunchback of Notre Dame",
+                    "the hunchback of notre dame",
+                    "hunchback of notre dame"
+                ]
+            ],
+            "correct_answers": [
+                "Aladdin",
+                "aladdin"
+            ],
+            "options": [
+                "Toy Story",
+                "James and the Giant Peach",
+                "The Hunchback of Notre Dame",
+                "Aladdin"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the movie Gremlins, after what time of day should you not feed Mogwai?",
+            "correct_answer": "Midnight",
+            "incorrect_answers": [
+                [
+                    "Evening",
+                    "evening"
+                ],
+                [
+                    "Morning",
+                    "morning"
+                ],
+                [
+                    "Afternoon",
+                    "afternoon"
+                ]
+            ],
+            "correct_answers": [
+                "Midnight",
+                "midnight"
+            ],
+            "options": [
+                "Evening",
+                "Morning",
+                "Afternoon",
+                "Midnight"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What historical time period was the center of the Assassin&rsquo;s Creed movie (2016)?",
+            "correct_answer": "Spanish Inquisition",
+            "incorrect_answers": [
+                [
+                    "Victorian England",
+                    "victorian england"
+                ],
+                [
+                    "French Revolution",
+                    "french revolution"
+                ],
+                [
+                    "Colonial America",
+                    "colonial america"
+                ]
+            ],
+            "correct_answers": [
+                "Spanish Inquisition",
+                "spanish inquisition"
+            ],
+            "options": [
+                "Victorian England",
+                "French Revolution",
+                "Colonial America",
+                "Spanish Inquisition"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+            "correct_answer": "Quentin Tarantino",
+            "incorrect_answers": [
+                [
+                    "Martin Scorcese",
+                    "martin scorcese"
+                ],
+                [
+                    "Steven Spielberg",
+                    "steven spielberg"
+                ],
+                [
+                    "James Cameron",
+                    "james cameron"
+                ]
+            ],
+            "correct_answers": [
+                "Quentin Tarantino",
+                "quentin tarantino"
+            ],
+            "options": [
+                "Martin Scorcese",
+                "Steven Spielberg",
+                "James Cameron",
+                "Quentin Tarantino"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who directed &quot;E.T. the Extra-Terrestrial&quot; (1982)?",
+            "correct_answer": "Steven Spielberg",
+            "incorrect_answers": [
+                [
+                    "Stanley Kubrick",
+                    "stanley kubrick"
+                ],
+                [
+                    "James Cameron",
+                    "james cameron"
+                ],
+                [
+                    "Tim Burton",
+                    "tim burton"
+                ]
+            ],
+            "correct_answers": [
+                "Steven Spielberg",
+                "steven spielberg"
+            ],
+            "options": [
+                "Stanley Kubrick",
+                "James Cameron",
+                "Tim Burton",
+                "Steven Spielberg"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the 2012 film, &quot;The Lorax&quot;, who is the antagonist?",
+            "correct_answer": "Aloysius O&#039;Hare",
+            "incorrect_answers": [
+                [
+                    "Ted Wiggins",
+                    "ted wiggins"
+                ],
+                [
+                    "The Once-Ler",
+                    "the once-ler",
+                    "once-ler"
+                ],
+                [
+                    "Grammy Norma",
+                    "grammy norma"
+                ]
+            ],
+            "correct_answers": [
+                "Aloysius O'Hare",
+                "aloysius o'hare",
+                "aloysius ohare"
+            ],
+            "options": [
+                "Ted Wiggins",
+                "The Once-Ler",
+                "Grammy Norma",
+                "Aloysius O'Hare"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the movie &quot;V for Vendetta,&quot; what is the date that masked vigilante &quot;V&quot; urges people to remember?",
+            "correct_answer": "November 5th",
+            "incorrect_answers": [
+                [
+                    "November 6th",
+                    "november 6th"
+                ],
+                [
+                    "November 4th",
+                    "november 4th"
+                ],
+                [
+                    "September 5th",
+                    "september 5th"
+                ]
+            ],
+            "correct_answers": [
+                "November 5th",
+                "november 5th"
+            ],
+            "options": [
+                "November 6th",
+                "November 4th",
+                "September 5th",
+                "November 5th"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+            "correct_answer": "Ewan McGregor",
+            "incorrect_answers": [
+                [
+                    "Alec Guinness",
+                    "alec guinness"
+                ],
+                [
+                    "Hayden Christensen",
+                    "hayden christensen"
+                ],
+                [
+                    "Liam Neeson",
+                    "liam neeson"
+                ]
+            ],
+            "correct_answers": [
+                "Ewan McGregor",
+                "ewan mcgregor"
+            ],
+            "options": [
+                "Alec Guinness",
+                "Hayden Christensen",
+                "Liam Neeson",
+                "Ewan McGregor"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+            "correct_answer": "San Fransokyo",
+            "incorrect_answers": [
+                [
+                    "San Tokyo",
+                    "san tokyo"
+                ],
+                [
+                    "Tokysisco",
+                    "tokysisco"
+                ],
+                [
+                    "Sankyo",
+                    "sankyo"
+                ]
+            ],
+            "correct_answers": [
+                "San Fransokyo",
+                "san fransokyo"
+            ],
+            "options": [
+                "San Tokyo",
+                "Tokysisco",
+                "Sankyo",
+                "San Fransokyo"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The 2002 film &quot;28 Days Later&quot; is mainly set in which European country?",
+            "correct_answer": "United Kingdom",
+            "incorrect_answers": [
+                [
+                    "France",
+                    "france"
+                ],
+                [
+                    "Italy",
+                    "italy"
+                ],
+                [
+                    "Germany",
+                    "germany"
+                ]
+            ],
+            "correct_answers": [
+                "United Kingdom",
+                "united kingdom"
+            ],
+            "options": [
+                "France",
+                "Italy",
+                "Germany",
+                "United Kingdom"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which movie contains the quote, &quot;Say hello to my little friend!&quot;?",
+            "correct_answer": "Scarface",
+            "incorrect_answers": [
+                [
+                    "Reservoir Dogs",
+                    "reservoir dogs"
+                ],
+                [
+                    "Heat",
+                    "heat"
+                ],
+                [
+                    "Goodfellas",
+                    "goodfellas"
+                ]
+            ],
+            "correct_answers": [
+                "Scarface",
+                "scarface"
+            ],
+            "options": [
+                "Reservoir Dogs",
+                "Heat",
+                "Goodfellas",
+                "Scarface"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these movies did Jeff Bridges not star in?",
+            "correct_answer": "The Hateful Eight",
+            "incorrect_answers": [
+                [
+                    "Tron: Legacy",
+                    "tron: legacy"
+                ],
+                [
+                    "The Giver",
+                    "the giver",
+                    "giver"
+                ],
+                [
+                    "True Grit",
+                    "true grit"
+                ]
+            ],
+            "correct_answers": [
+                "The Hateful Eight",
+                "the hateful eight",
+                "hateful eight"
+            ],
+            "options": [
+                "Tron: Legacy",
+                "The Giver",
+                "True Grit",
+                "The Hateful Eight"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the oldest Disney film?",
+            "correct_answer": "Snow White and the Seven Dwarfs",
+            "incorrect_answers": [
+                [
+                    "Pinocchio",
+                    "pinocchio"
+                ],
+                [
+                    "Dumbo",
+                    "dumbo"
+                ],
+                [
+                    "Fantasia",
+                    "fantasia"
+                ]
+            ],
+            "correct_answers": [
+                "Snow White and the Seven Dwarfs",
+                "snow white and the seven dwarfs",
+                "snow white and seven dwarfs"
+            ],
+            "options": [
+                "Pinocchio",
+                "Dumbo",
+                "Fantasia",
+                "Snow White and the Seven Dwarfs"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these actors/actresses is NOT a part of the cast for the 2016 movie &quot;Suicide Squad&quot;?",
+            "correct_answer": "Scarlett Johansson",
+            "incorrect_answers": [
+                [
+                    "Jared Leto",
+                    "jared leto"
+                ],
+                [
+                    "Will Smith",
+                    "will smith"
+                ],
+                [
+                    "Margot Robbie",
+                    "margot robbie"
+                ]
+            ],
+            "correct_answers": [
+                "Scarlett Johansson",
+                "scarlett johansson"
+            ],
+            "options": [
+                "Jared Leto",
+                "Will Smith",
+                "Margot Robbie",
+                "Scarlett Johansson"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When does &quot;Rogue One: A Star Wars Story&quot; take place chronologically in the series?",
+            "correct_answer": "Between Episode 3 and 4",
+            "incorrect_answers": [
+                [
+                    "After Episode 6",
+                    "after episode 6"
+                ],
+                [
+                    "Before Episode 1",
+                    "before episode 1"
+                ],
+                [
+                    "Between Episode 4 and 5",
+                    "between episode 4 and 5"
+                ]
+            ],
+            "correct_answers": [
+                "Between Episode 3 and 4",
+                "between episode 3 and 4"
+            ],
+            "options": [
+                "After Episode 6",
+                "Before Episode 1",
+                "Between Episode 4 and 5",
+                "Between Episode 3 and 4"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In which film does Humphrey Bogart say the famous line, &quot;Here's looking at you, kid&quot;?",
+            "correct_answer": "Casablanca",
+            "incorrect_answers": [
+                [
+                    "The Maltese Falcon",
+                    "the maltese falcon",
+                    "maltese falcon"
+                ],
+                [
+                    "The Treasure of the Sierra Madre",
+                    "the treasure of the sierra madre",
+                    "treasure of sierra madre"
+                ],
+                [
+                    "Citizen Kane",
+                    "citizen kane"
+                ]
+            ],
+            "correct_answers": [
+                "Casablanca",
+                "casablanca"
+            ],
+            "options": [
+                "The Maltese Falcon",
+                "The Treasure of the Sierra Madre",
+                "Citizen Kane",
+                "Casablanca"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following movies was not based on a novel by Stephen King? ",
+            "correct_answer": "The Thing",
+            "incorrect_answers": [
+                [
+                    "Carrie",
+                    "carrie"
+                ],
+                [
+                    "Misery",
+                    "misery"
+                ],
+                [
+                    "The Green Mile",
+                    "the green mile",
+                    "green mile"
+                ]
+            ],
+            "correct_answers": [
+                "The Thing",
+                "the thing",
+                "thing"
+            ],
+            "options": [
+                "Carrie",
+                "Misery",
+                "The Green Mile",
+                "The Thing"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+            "correct_answer": "Air",
+            "incorrect_answers": [
+                [
+                    "The Schwartz",
+                    "the schwartz",
+                    "schwartz"
+                ],
+                [
+                    "Princess Lonestar",
+                    "princess lonestar"
+                ],
+                [
+                    "Meatballs",
+                    "meatballs"
+                ]
+            ],
+            "correct_answers": [
+                "Air",
+                "air"
+            ],
+            "options": [
+                "The Schwartz",
+                "Princess Lonestar",
+                "Meatballs",
+                "Air"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the 1992 film &quot;Army of Darkness&quot;, what name does Ash give to his double-barreled shotgun?",
+            "correct_answer": "Boomstick",
+            "incorrect_answers": [
+                [
+                    "Bloomstick",
+                    "bloomstick"
+                ],
+                [
+                    "Blastbranch",
+                    "blastbranch"
+                ],
+                [
+                    "2-Pump Chump",
+                    "2-pump chump"
+                ]
+            ],
+            "correct_answers": [
+                "Boomstick",
+                "boomstick"
+            ],
+            "options": [
+                "Bloomstick",
+                "Blastbranch",
+                "2-Pump Chump",
+                "Boomstick"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+            "correct_answer": "Smash Mouth",
+            "incorrect_answers": [
+                [
+                    "Bowling for Soup",
+                    "bowling for soup"
+                ],
+                [
+                    "Sum 41",
+                    "sum 41"
+                ],
+                [
+                    "Linkin Park",
+                    "linkin park"
+                ]
+            ],
+            "correct_answers": [
+                "Smash Mouth",
+                "smash mouth"
+            ],
+            "options": [
+                "Bowling for Soup",
+                "Sum 41",
+                "Linkin Park",
+                "Smash Mouth"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "For the film &quot;Raiders of The Lost Ark&quot;, what was Harrison Ford sick with during the filming of the Cairo chase?",
+            "correct_answer": "Dysentery",
+            "incorrect_answers": [
+                [
+                    "Anemia",
+                    "anemia"
+                ],
+                [
+                    "Constipation",
+                    "constipation"
+                ],
+                [
+                    "Acid Reflux ",
+                    "acid reflux "
+                ]
+            ],
+            "correct_answers": [
+                "Dysentery",
+                "dysentery"
+            ],
+            "options": [
+                "Anemia",
+                "Constipation",
+                "Acid Reflux ",
+                "Dysentery"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who plays Alice in the Resident Evil movies?",
+            "correct_answer": "Milla Jovovich",
+            "incorrect_answers": [
+                [
+                    "Madison Derpe",
+                    "madison derpe"
+                ],
+                [
+                    "Milla Johnson",
+                    "milla johnson"
+                ],
+                [
+                    "Kim Demp",
+                    "kim demp"
+                ]
+            ],
+            "correct_answers": [
+                "Milla Jovovich",
+                "milla jovovich"
+            ],
+            "options": [
+                "Madison Derpe",
+                "Milla Johnson",
+                "Kim Demp",
+                "Milla Jovovich"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following actors has only been in a Quentin Tarantino directed film once?",
+            "correct_answer": "John Travolta",
+            "incorrect_answers": [
+                [
+                    "Christoph Waltz",
+                    "christoph waltz"
+                ],
+                [
+                    "Harvey Keitel",
+                    "harvey keitel"
+                ],
+                [
+                    "Samuel L. Jackson",
+                    "samuel l. jackson"
+                ]
+            ],
+            "correct_answers": [
+                "John Travolta",
+                "john travolta"
+            ],
+            "options": [
+                "Christoph Waltz",
+                "Harvey Keitel",
+                "Samuel L. Jackson",
+                "John Travolta"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Dorothy's surname in 'The Wizard Of Oz'?",
+            "correct_answer": "Gale",
+            "incorrect_answers": [
+                [
+                    "Perkins",
+                    "perkins"
+                ],
+                [
+                    "Day",
+                    "day"
+                ],
+                [
+                    "Parker",
+                    "parker"
+                ]
+            ],
+            "correct_answers": [
+                "Gale",
+                "gale"
+            ],
+            "options": [
+                "Perkins",
+                "Day",
+                "Parker",
+                "Gale"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the main protagonist in, the 1985 film, Back to the Future?",
+            "correct_answer": "Marty McFly",
+            "incorrect_answers": [
+                [
+                    "Emmett &quot;Doc&quot; Brown",
+                    "emmett &quot;doc&quot; brown"
+                ],
+                [
+                    "Biff Tannen",
+                    "biff tannen"
+                ],
+                [
+                    "George McFly",
+                    "george mcfly"
+                ]
+            ],
+            "correct_answers": [
+                "Marty McFly",
+                "marty mcfly"
+            ],
+            "options": [
+                "Emmett &quot;Doc&quot; Brown",
+                "Biff Tannen",
+                "George McFly",
+                "Marty McFly"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the movie &quot;Cast Away&quot; the main protagonist's best friend while on the island is named",
+            "correct_answer": "Wilson",
+            "incorrect_answers": [
+                [
+                    "Carson",
+                    "carson"
+                ],
+                [
+                    "Jackson",
+                    "jackson"
+                ],
+                [
+                    "Willy",
+                    "willy"
+                ]
+            ],
+            "correct_answers": [
+                "Wilson",
+                "wilson"
+            ],
+            "options": [
+                "Carson",
+                "Jackson",
+                "Willy",
+                "Wilson"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "When was the movie 'Con Air' released?",
+            "correct_answer": "1997",
+            "incorrect_answers": [
+                [
+                    "1985",
+                    "1985"
+                ],
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "1990",
+                    "1990"
+                ]
+            ],
+            "correct_answers": [
+                "1997",
+                "1997"
+            ],
+            "options": [
+                "1985",
+                "1999",
+                "1990",
+                "1997"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who starred in the film 1973 movie &quot;Enter The Dragon&quot;?",
+            "correct_answer": "Bruce Lee",
+            "incorrect_answers": [
+                [
+                    "Jackie Chan",
+                    "jackie chan"
+                ],
+                [
+                    "Jet Li",
+                    "jet li"
+                ],
+                [
+                    " Yun-Fat Chow",
+                    " yun-fat chow"
+                ]
+            ],
+            "correct_answers": [
+                "Bruce Lee",
+                "bruce lee"
+            ],
+            "options": [
+                "Jackie Chan",
+                "Jet Li",
+                " Yun-Fat Chow",
+                "Bruce Lee"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This movie contains the quote, &quot;Houston, we have a problem.&quot;",
+            "correct_answer": "Apollo 13",
+            "incorrect_answers": [
+                [
+                    "The Right Stuff",
+                    "the right stuff",
+                    "right stuff"
+                ],
+                [
+                    "Capricorn One",
+                    "capricorn one"
+                ],
+                [
+                    "Marooned",
+                    "marooned"
+                ]
+            ],
+            "correct_answers": [
+                "Apollo 13",
+                "apollo 13"
+            ],
+            "options": [
+                "The Right Stuff",
+                "Capricorn One",
+                "Marooned",
+                "Apollo 13"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The 2016 Disney animated film 'Moana' is based on which culture?",
+            "correct_answer": "Polynesian",
+            "incorrect_answers": [
+                [
+                    "Native American",
+                    "native american"
+                ],
+                [
+                    "Japanese",
+                    "japanese"
+                ],
+                [
+                    "Nordic",
+                    "nordic"
+                ]
+            ],
+            "correct_answers": [
+                "Polynesian",
+                "polynesian"
+            ],
+            "options": [
+                "Native American",
+                "Japanese",
+                "Nordic",
+                "Polynesian"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
+            "correct_answer": "Uma Thurman",
+            "incorrect_answers": [
+                [
+                    "Kathy Griffin",
+                    "kathy griffin"
+                ],
+                [
+                    "Pam Grier",
+                    "pam grier"
+                ],
+                [
+                    "Bridget Fonda",
+                    "bridget fonda"
+                ]
+            ],
+            "correct_answers": [
+                "Uma Thurman",
+                "uma thurman"
+            ],
+            "options": [
+                "Kathy Griffin",
+                "Pam Grier",
+                "Bridget Fonda",
+                "Uma Thurman"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Jurassic World&quot;, what is the name of the dinosaur that is a genetic hybrid?",
+            "correct_answer": "Indominus Rex",
+            "incorrect_answers": [
+                [
+                    "Mosasaurus",
+                    "mosasaurus"
+                ],
+                [
+                    "Pteranodon",
+                    "pteranodon"
+                ],
+                [
+                    "Tyrannosaurus Rex ",
+                    "tyrannosaurus rex "
+                ]
+            ],
+            "correct_answers": [
+                "Indominus Rex",
+                "indominus rex"
+            ],
+            "options": [
+                "Mosasaurus",
+                "Pteranodon",
+                "Tyrannosaurus Rex ",
+                "Indominus Rex"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In the 1995 film &quot;Balto&quot;, who are Steele's accomplices?",
+            "correct_answer": "Kaltag, Nikki, and Star",
+            "incorrect_answers": [
+                [
+                    "Dusty, Kirby, and Ralph",
+                    "dusty, kirby, and ralph"
+                ],
+                [
+                    "Nuk, Yak, and Sumac",
+                    "nuk, yak, and sumac"
+                ],
+                [
+                    "Jenna, Sylvie, and Dixie",
+                    "jenna, sylvie, and dixie"
+                ]
+            ],
+            "correct_answers": [
+                "Kaltag, Nikki, and Star",
+                "kaltag, nikki, and star"
+            ],
+            "options": [
+                "Dusty, Kirby, and Ralph",
+                "Nuk, Yak, and Sumac",
+                "Jenna, Sylvie, and Dixie",
+                "Kaltag, Nikki, and Star"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who plays the character of Po in the Kung Fu Panda movies?",
+            "correct_answer": "Jack Black",
+            "incorrect_answers": [
+                [
+                    "Mirana Jonnes",
+                    "mirana jonnes"
+                ],
+                [
+                    "McConahey Ramses",
+                    "mcconahey ramses"
+                ],
+                [
+                    "Jim Petersson",
+                    "jim petersson"
+                ]
+            ],
+            "correct_answers": [
+                "Jack Black",
+                "jack black"
+            ],
+            "options": [
+                "Mirana Jonnes",
+                "McConahey Ramses",
+                "Jim Petersson",
+                "Jack Black"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the orange and white bot's name in &quot;Star Wars: The Force Awakens&quot;?",
+            "correct_answer": "BB-8",
+            "incorrect_answers": [
+                [
+                    "BB-3",
+                    "bb-3"
+                ],
+                [
+                    "AA-A",
+                    "aa-a"
+                ],
+                [
+                    "R2-D2",
+                    "r2-d2"
+                ]
+            ],
+            "correct_answers": [
+                "BB-8",
+                "bb-8"
+            ],
+            "options": [
+                "BB-3",
+                "AA-A",
+                "R2-D2",
+                "BB-8"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "&quot;The first rule is: you don't talk about it&quot; is a reference to which movie?",
+            "correct_answer": "Fight Club",
+            "incorrect_answers": [
+                [
+                    "The Island",
+                    "the island",
+                    "island"
+                ],
+                [
+                    "Unthinkable",
+                    "unthinkable"
+                ],
+                [
+                    "American Pie",
+                    "american pie"
+                ]
+            ],
+            "correct_answers": [
+                "Fight Club",
+                "fight club"
+            ],
+            "options": [
+                "The Island",
+                "Unthinkable",
+                "American Pie",
+                "Fight Club"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following is not the name of a &quot;Bond Girl&quot;? ",
+            "correct_answer": "Vanessa Kensington",
+            "incorrect_answers": [
+                [
+                    "Pam Bouvier",
+                    "pam bouvier"
+                ],
+                [
+                    "Mary Goodnight",
+                    "mary goodnight"
+                ],
+                [
+                    "Wai Lin",
+                    "wai lin"
+                ]
+            ],
+            "correct_answers": [
+                "Vanessa Kensington",
+                "vanessa kensington"
+            ],
+            "options": [
+                "Pam Bouvier",
+                "Mary Goodnight",
+                "Wai Lin",
+                "Vanessa Kensington"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the island that &quot;Jurassic Park&quot; is built on?",
+            "correct_answer": "Isla Nublar",
+            "incorrect_answers": [
+                [
+                    "Isla Sorna",
+                    "isla sorna"
+                ],
+                [
+                    "Isla Muerta",
+                    "isla muerta"
+                ],
+                [
+                    "Isla Pena",
+                    "isla pena"
+                ]
+            ],
+            "correct_answers": [
+                "Isla Nublar",
+                "isla nublar"
+            ],
+            "options": [
+                "Isla Sorna",
+                "Isla Muerta",
+                "Isla Pena",
+                "Isla Nublar"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who directed the 2015 movie &quot;The Revenant&quot;?",
+            "correct_answer": "Alejandro G. I&ntilde;&aacute;rritu",
+            "incorrect_answers": [
+                [
+                    "Christopher Nolan",
+                    "christopher nolan"
+                ],
+                [
+                    "David Fincher",
+                    "david fincher"
+                ],
+                [
+                    "Wes Anderson",
+                    "wes anderson"
+                ]
+            ],
+            "correct_answers": [
+                "Alejandro G. I&ntilde;&aacute;rritu",
+                "alejandro g. i&ntilde;&aacute;rritu"
+            ],
+            "options": [
+                "Christopher Nolan",
+                "David Fincher",
+                "Wes Anderson",
+                "Alejandro G. I&ntilde;&aacute;rritu"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+            "correct_answer": "Groovy.",
+            "incorrect_answers": [
+                [
+                    "Gnarly.",
+                    "gnarly."
+                ],
+                [
+                    "Perfect.",
+                    "perfect."
+                ],
+                [
+                    "Nice.",
+                    "nice."
+                ]
+            ],
+            "correct_answers": [
+                "Groovy.",
+                "groovy."
+            ],
+            "options": [
+                "Gnarly.",
+                "Perfect.",
+                "Nice.",
+                "Groovy."
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who plays Jack Burton in the movie &quot;Big Trouble in Little China?&quot;",
+            "correct_answer": "Kurt Russell",
+            "incorrect_answers": [
+                [
+                    "Patrick Swayze",
+                    "patrick swayze"
+                ],
+                [
+                    "John Cusack",
+                    "john cusack"
+                ],
+                [
+                    "Harrison Ford",
+                    "harrison ford"
+                ]
+            ],
+            "correct_answers": [
+                "Kurt Russell",
+                "kurt russell"
+            ],
+            "options": [
+                "Patrick Swayze",
+                "John Cusack",
+                "Harrison Ford",
+                "Kurt Russell"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
+            "correct_answer": "Harry Potter",
+            "incorrect_answers": [
+                [
+                    "Ted",
+                    "ted"
+                ],
+                [
+                    "Spy Kids",
+                    "spy kids"
+                ],
+                [
+                    "Pirates of the Caribbean ",
+                    "pirates of the caribbean ",
+                    "pirates of caribbean "
+                ]
+            ],
+            "correct_answers": [
+                "Harry Potter",
+                "harry potter"
+            ],
+            "options": [
+                "Ted",
+                "Spy Kids",
+                "Pirates of the Caribbean ",
+                "Harry Potter"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The 1996 film 'Fargo' is primarily set in which US state?",
+            "correct_answer": "Minnesota",
+            "incorrect_answers": [
+                [
+                    "North Dakota",
+                    "north dakota"
+                ],
+                [
+                    "South Dakota",
+                    "south dakota"
+                ],
+                [
+                    "Wisconsin",
+                    "wisconsin"
+                ]
+            ],
+            "correct_answers": [
+                "Minnesota",
+                "minnesota"
+            ],
+            "options": [
+                "North Dakota",
+                "South Dakota",
+                "Wisconsin",
+                "Minnesota"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who in Pulp Fiction says &quot;No, they got the metric system there, they wouldn't know what the fuck a Quarter Pounder is.&quot;",
+            "correct_answer": "Vincent Vega",
+            "incorrect_answers": [
+                [
+                    "Jules Winnfield",
+                    "jules winnfield"
+                ],
+                [
+                    "Jimmie Dimmick",
+                    "jimmie dimmick"
+                ],
+                [
+                    "Butch Coolidge",
+                    "butch coolidge"
+                ]
+            ],
+            "correct_answers": [
+                "Vincent Vega",
+                "vincent vega"
+            ],
+            "options": [
+                "Jules Winnfield",
+                "Jimmie Dimmick",
+                "Butch Coolidge",
+                "Vincent Vega"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of these Movies was NOT released in 1996?",
+            "correct_answer": "Gladiator",
+            "incorrect_answers": [
+                [
+                    "Independence Day",
+                    "independence day"
+                ],
+                [
+                    "The Rock",
+                    "the rock",
+                    "rock"
+                ],
+                [
+                    "Mission: Impossible",
+                    "mission: impossible"
+                ]
+            ],
+            "correct_answers": [
+                "Gladiator",
+                "gladiator"
+            ],
+            "options": [
+                "Independence Day",
+                "The Rock",
+                "Mission: Impossible",
+                "Gladiator"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "This movie contains the quote, &quot;Nobody puts Baby in a corner.&quot;",
+            "correct_answer": "Dirty Dancing",
+            "incorrect_answers": [
+                [
+                    "Three Men and a Baby",
+                    "three men and a baby"
+                ],
+                [
+                    "Ferris Bueller's Day Off",
+                    "ferris bueller's day off",
+                    "ferris buellers day off"
+                ],
+                [
+                    "Pretty in Pink",
+                    "pretty in pink"
+                ]
+            ],
+            "correct_answers": [
+                "Dirty Dancing",
+                "dirty dancing"
+            ],
+            "options": [
+                "Three Men and a Baby",
+                "Ferris Bueller's Day Off",
+                "Pretty in Pink",
+                "Dirty Dancing"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie &quot;Batman&quot;?",
+            "correct_answer": "Michael Keaton",
+            "incorrect_answers": [
+                [
+                    "George Clooney",
+                    "george clooney"
+                ],
+                [
+                    "Val Kilmer",
+                    "val kilmer"
+                ],
+                [
+                    "Adam West",
+                    "adam west"
+                ]
+            ],
+            "correct_answers": [
+                "Michael Keaton",
+                "michael keaton"
+            ],
+            "options": [
+                "George Clooney",
+                "Val Kilmer",
+                "Adam West",
+                "Michael Keaton"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the first James Bond film?",
+            "correct_answer": "Dr. No",
+            "incorrect_answers": [
+                [
+                    "Goldfinger",
+                    "goldfinger"
+                ],
+                [
+                    "From Russia With Love",
+                    "from russia with love"
+                ],
+                [
+                    "Thunderball",
+                    "thunderball"
+                ]
+            ],
+            "correct_answers": [
+                "Dr. No",
+                "dr. no"
+            ],
+            "options": [
+                "Goldfinger",
+                "From Russia With Love",
+                "Thunderball",
+                "Dr. No"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the title of the first Bond movie, released in 1962?",
+            "correct_answer": "Dr. No",
+            "incorrect_answers": [
+                [
+                    "From Russia with Love",
+                    "from russia with love"
+                ],
+                [
+                    "Goldfinger",
+                    "goldfinger"
+                ],
+                [
+                    "Thunderball",
+                    "thunderball"
+                ]
+            ],
+            "correct_answers": [
+                "Dr. No",
+                "dr. no"
+            ],
+            "options": [
+                "From Russia with Love",
+                "Goldfinger",
+                "Thunderball",
+                "Dr. No"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+            "correct_answer": "My Neighbor Totoro",
+            "incorrect_answers": [
+                [
+                    "Hop",
+                    "hop"
+                ],
+                [
+                    "Rise of the Guardians",
+                    "rise of the guardians",
+                    "rise of guardians"
+                ],
+                [
+                    "Alice in Wonderland",
+                    "alice in wonderland"
+                ]
+            ],
+            "correct_answers": [
+                "My Neighbor Totoro",
+                "my neighbor totoro"
+            ],
+            "options": [
+                "Hop",
+                "Rise of the Guardians",
+                "Alice in Wonderland",
+                "My Neighbor Totoro"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?",
+            "correct_answer": "Wilson",
+            "incorrect_answers": [
+                [
+                    "Friday",
+                    "friday"
+                ],
+                [
+                    "Jones",
+                    "jones"
+                ],
+                [
+                    "Billy",
+                    "billy"
+                ]
+            ],
+            "correct_answers": [
+                "Wilson",
+                "wilson"
+            ],
+            "options": [
+                "Friday",
+                "Jones",
+                "Billy",
+                "Wilson"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+            "correct_answer": "Labrador Retriever",
+            "incorrect_answers": [
+                [
+                    "Golden Retriever",
+                    "golden retriever"
+                ],
+                [
+                    "Dalmatian",
+                    "dalmatian"
+                ],
+                [
+                    "Shiba Inu",
+                    "shiba inu"
+                ]
+            ],
+            "correct_answers": [
+                "Labrador Retriever",
+                "labrador retriever"
+            ],
+            "options": [
+                "Golden Retriever",
+                "Dalmatian",
+                "Shiba Inu",
+                "Labrador Retriever"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?",
+            "correct_answer": "Ming Tea",
+            "incorrect_answers": [
+                [
+                    "Cough Fi",
+                    "cough fi"
+                ],
+                [
+                    "Spear Mint",
+                    "spear mint"
+                ],
+                [
+                    "Mister E",
+                    "mister e"
+                ]
+            ],
+            "correct_answers": [
+                "Ming Tea",
+                "ming tea"
+            ],
+            "options": [
+                "Cough Fi",
+                "Spear Mint",
+                "Mister E",
+                "Ming Tea"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who wrote and directed the 1986 film 'Platoon'?",
+            "correct_answer": "Oliver Stone",
+            "incorrect_answers": [
+                [
+                    "Francis Ford Coppola",
+                    "francis ford coppola"
+                ],
+                [
+                    "Stanley Kubrick",
+                    "stanley kubrick"
+                ],
+                [
+                    "Michael Cimino",
+                    "michael cimino"
+                ]
+            ],
+            "correct_answers": [
+                "Oliver Stone",
+                "oliver stone"
+            ],
+            "options": [
+                "Francis Ford Coppola",
+                "Stanley Kubrick",
+                "Michael Cimino",
+                "Oliver Stone"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who played the female lead in the 1933 film &quot;King Kong&quot;?",
+            "correct_answer": "Fay Wray",
+            "incorrect_answers": [
+                [
+                    "Jean Harlow",
+                    "jean harlow"
+                ],
+                [
+                    "Vivien Leigh",
+                    "vivien leigh"
+                ],
+                [
+                    "Mae West",
+                    "mae west"
+                ]
+            ],
+            "correct_answers": [
+                "Fay Wray",
+                "fay wray"
+            ],
+            "options": [
+                "Jean Harlow",
+                "Vivien Leigh",
+                "Mae West",
+                "Fay Wray"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What was the first feature-length computer-animated movie?",
+            "correct_answer": "Toy Story",
+            "incorrect_answers": [
+                [
+                    "Tron",
+                    "tron"
+                ],
+                [
+                    "Lion king",
+                    "lion king"
+                ],
+                [
+                    "101 Dalmatians",
+                    "101 dalmatians"
+                ]
+            ],
+            "correct_answers": [
+                "Toy Story",
+                "toy story"
+            ],
+            "options": [
+                "Tron",
+                "Lion king",
+                "101 Dalmatians",
+                "Toy Story"
+            ]
+        }
+    ]
+}

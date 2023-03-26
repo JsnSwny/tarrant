@@ -1,8 +1,10 @@
 const childProcess = require("child_process");
+const uuid = require("uuid");
 
 const DialogueManager = require("./DialogueManager");
 const IntentRecogniser = require("./IntentRecogniser");
 const fuzz = require("fuzzball");
+const { selectRandomDifficulty } = require("./functions");
 
 const {
 	COLOUR_CYAN,
@@ -43,8 +45,7 @@ class Chatbot {
 		this.timeScaleFactor = 0.2;
 		this.USER_1_NAME = "Abraham";
 		this.USER_2_NAME = "Eleanor";
-		this.hasLifelineFiftyFifty = true;
-		this.hasLifelineAskTheAudience = true;
+		this.prependedUtterances = [];
 		this.io = null;
 		this.currentDifficulty = "easy";
 	}
@@ -63,6 +64,37 @@ class Chatbot {
 			this.io.emit("start_game");
 		}
 	}
+	getVoices() {
+		let voices = speechSynthesis.getVoices();
+		if (!voices.length) {
+			let utterance = new SpeechSynthesisUtterance("");
+			speechSynthesis.speak(utterance);
+			voices = speechSynthesis.getVoices();
+		}
+		return voices;
+	}
+	speaking_text(text, voice, rate, pitch, volume) {
+		let speakData = new SpeechSynthesisUtterance();
+		speakData.volume = volume;
+		speakData.rate = rate;
+		speakData.pitch = pitch;
+		speakData.text = text;
+		speakData.lang = "en";
+		speakData.voice = voice;
+		speechSynthesis.speak(speakData);
+	}
+
+	text_to_speech(text) {
+		if ("speechSynthesis" in window) {
+			let voices = getVoices();
+			let rate = 1,
+				pitch = 1,
+				volume = 1;
+			speaking_text(text, voices[2], rate, pitch, volume);
+		} else {
+			console.log("SpeechSynthesis is Not Supported");
+		}
+	}
 
 	nextQuestion(firstQuestion = false) {
 		if (firstQuestion) {
@@ -71,6 +103,9 @@ class Chatbot {
 		} else {
 			this.questionNumber++;
 		}
+
+		this.updateDifficulty();
+
 		if (this.questionRefs !== null) {
 			const questionKey = this.questionRefs[this.questionNumber - 1];
 			this.configureQuestion(
@@ -79,8 +114,9 @@ class Chatbot {
 				questionKey[1]
 			);
 		} else {
-			this.configureQuestion(this.currentDifficulty, "general-knowledge");
+			this.configureQuestion(this.currentDifficulty, selectRandomDifficulty());
 		}
+
 		this.options = this.question["incorrect_answers"].map((options) => options);
 		this.options.push(this.question["correct_answers"]);
 		shuffle(this.options);
@@ -90,13 +126,24 @@ class Chatbot {
 		this.currentPrize += 50;
 		this.answerOffered = "";
 		this.prevAnswerOffered = "";
-		this.changeState("question", [true]);
+		this.changeState("question", [1]);
 		if (this.io) {
 			this.io.emit("next_question", {
 				questionNumber: this.questionNumber,
 				question: this.question,
 			});
 		}
+	}
+
+	updateDifficulty() {
+		if (this.questionNumber <= 3) {
+			this.currentDifficulty = "easy";
+		} else if (this.questionNumber <= 7) {
+			this.currentDifficulty = "medium";
+		} else {
+			this.currentDifficulty = "hard";
+		}
+		whisper(`Set difficulty to ${this.currentDifficulty}`, DEBUG_MODE);
 	}
 
 	changeState(state, stateArgs = []) {
@@ -108,8 +155,17 @@ class Chatbot {
 		this.performAction();
 	}
 
+	prependUtter(action, args = []) {
+		this.prependedUtterances.push({ action, args });
+	}
+
 	utter(action, args = []) {
-		let speech = this.nlg(action, args);
+		let speech = [this.nlg(action, args)];
+		for (let utterance of this.prependedUtterances) {
+			speech.unshift(this.nlg(utterance.action, utterance.args));
+		}
+		this.prependedUtterances.splice(0);
+		speech = speech.join(" ");
 		this.say(speech);
 	}
 
@@ -188,12 +244,24 @@ class Chatbot {
 		this.setAction("do nothing", [], 0, "");
 	}
 
+	produceAudio(text) {
+		const serial = uuid.v4();
+		const command = `python3 Text_To_Speech/Text_To_Speech.py ${serial} "${text}"`;
+		childProcess.exec(command, (err, stdout) => {
+			if (err) throw err;
+			console.log("Produced audio " + serial);
+		});
+		return serial;
+	}
+
 	say(text) {
 		if (text === "") return;
+		const audioSerial = this.produceAudio(text);
 		if (this.io) {
 			this.io.emit("receive_message", {
 				text: text,
 				speaker: "HOST",
+				audioSerial,
 			});
 		}
 		text = `\nHOST: ${COLOUR_CYAN}${text}${COLOUR_NONE}`;
@@ -391,7 +459,7 @@ class Chatbot {
 			if (this.answerOffered === this.prevAnswerOffered) {
 				this.acceptAnswer();
 			} else {
-				this.changeState("question", [false]);
+				this.changeState("seek-confirmation");
 			}
 		} else {
 			this.changeState("seek-confirmation");
@@ -468,19 +536,12 @@ class Chatbot {
 
 	offerGuidance() {
 		this.utter("offer-generic-guidance");
-		return;
-		if (false && this.hasLifelineFiftyFifty && this.hasLifelineAskTheAudience) {
-			this.utter("offer-lifelines");
-		} else if (this.hasLifelineFiftyFifty) {
-			this.utter("offer-fifty-fifty");
-		} else if (this.hasLifelineAskTheAudience) {
-			this.utter("offer-ask-the-audience");
-		}
 	}
 
 	stateQuestion(args) {
-		// args[0] is a boolean specifying whether the question should be stated in full
-		if (args[0]) {
+		// args[0] is an integer
+		// if args[0] is 1 then state the question in full; if 2 then give a brief of the question; otherwise, say nothing
+		if (args[0] === 1) {
 			this.utter("question", [
 				this.questionNumber,
 				this.currentPrize,

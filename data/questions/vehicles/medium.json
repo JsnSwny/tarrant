@@ -1,0 +1,719 @@
+{
+    "questions": [
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Japanese company is the world's largest manufacturer of motorcycles?",
+            "correct_answer": "Honda",
+            "incorrect_answers": [
+                [
+                    "Yamaha",
+                    "yamaha"
+                ],
+                [
+                    "Suzuki",
+                    "suzuki"
+                ],
+                [
+                    "Kawasaki",
+                    "kawasaki"
+                ]
+            ],
+            "correct_answers": [
+                "Honda",
+                "honda"
+            ],
+            "options": [
+                "Yamaha",
+                "Suzuki",
+                "Kawasaki",
+                "Honda"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following car models has been badge-engineered (rebadged) the most?",
+            "correct_answer": "Isuzu Trooper",
+            "incorrect_answers": [
+                [
+                    "Holden Monaro",
+                    "holden monaro"
+                ],
+                [
+                    "Suzuki Swift",
+                    "suzuki swift"
+                ],
+                [
+                    "Chevy Camaro",
+                    "chevy camaro"
+                ]
+            ],
+            "correct_answers": [
+                "Isuzu Trooper",
+                "isuzu trooper"
+            ],
+            "options": [
+                "Holden Monaro",
+                "Suzuki Swift",
+                "Chevy Camaro",
+                "Isuzu Trooper"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?",
+            "correct_answer": "Alfa Romeo",
+            "incorrect_answers": [
+                [
+                    "Auto Union",
+                    "auto union"
+                ],
+                [
+                    "Mercedes Benz",
+                    "mercedes benz"
+                ],
+                [
+                    "Bentley",
+                    "bentley"
+                ]
+            ],
+            "correct_answers": [
+                "Alfa Romeo",
+                "alfa romeo"
+            ],
+            "options": [
+                "Auto Union",
+                "Mercedes Benz",
+                "Bentley",
+                "Alfa Romeo"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?",
+            "correct_answer": "Camshaft",
+            "incorrect_answers": [
+                [
+                    "Piston",
+                    "piston"
+                ],
+                [
+                    "Drive shaft",
+                    "drive shaft"
+                ],
+                [
+                    "Crankshaft",
+                    "crankshaft"
+                ]
+            ],
+            "correct_answers": [
+                "Camshaft",
+                "camshaft"
+            ],
+            "options": [
+                "Piston",
+                "Drive shaft",
+                "Crankshaft",
+                "Camshaft"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What country is the Hussarya supercar, made by the car manufacturer &quot;Arrinera&quot;, assembled in?",
+            "correct_answer": "Poland",
+            "incorrect_answers": [
+                [
+                    "China",
+                    "china"
+                ],
+                [
+                    "Sweden",
+                    "sweden"
+                ],
+                [
+                    "Italy",
+                    "italy"
+                ]
+            ],
+            "correct_answers": [
+                "Poland",
+                "poland"
+            ],
+            "options": [
+                "China",
+                "Sweden",
+                "Italy",
+                "Poland"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What nickname was given to Air Canada Flight 143 after it ran out of fuel and glided to safety in 1983?",
+            "correct_answer": "Gimli Glider",
+            "incorrect_answers": [
+                [
+                    "Gimli Microlight",
+                    "gimli microlight"
+                ],
+                [
+                    "Gimli Chaser",
+                    "gimli chaser"
+                ],
+                [
+                    "Gimli Superb",
+                    "gimli superb"
+                ]
+            ],
+            "correct_answers": [
+                "Gimli Glider",
+                "gimli glider"
+            ],
+            "options": [
+                "Gimli Microlight",
+                "Gimli Chaser",
+                "Gimli Superb",
+                "Gimli Glider"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following countries has officially banned the civilian use of dash cams in cars?",
+            "correct_answer": "Austria",
+            "incorrect_answers": [
+                [
+                    "United States",
+                    "united states"
+                ],
+                [
+                    "Czechia",
+                    "czechia"
+                ],
+                [
+                    "South Korea",
+                    "south korea"
+                ]
+            ],
+            "correct_answers": [
+                "Austria",
+                "austria"
+            ],
+            "options": [
+                "United States",
+                "Czechia",
+                "South Korea",
+                "Austria"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one of the following is not made by Ford?",
+            "correct_answer": "Camry",
+            "incorrect_answers": [
+                [
+                    "Fusion",
+                    "fusion"
+                ],
+                [
+                    "Model A",
+                    "model a"
+                ],
+                [
+                    "F-150",
+                    "f-150"
+                ]
+            ],
+            "correct_answers": [
+                "Camry",
+                "camry"
+            ],
+            "options": [
+                "Fusion",
+                "Model A",
+                "F-150",
+                "Camry"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What do the 4 Rings in Audi's Logo represent?",
+            "correct_answer": "Previously independent automobile manufacturers",
+            "incorrect_answers": [
+                [
+                    "States in which Audi makes the most sales",
+                    "states in which audi makes the most sales",
+                    "states in which audi makes most sales"
+                ],
+                [
+                    "Main cities vital to Audi",
+                    "main cities vital to audi"
+                ],
+                [
+                    "Countries in which Audi makes the most sales",
+                    "countries in which audi makes the most sales",
+                    "countries in which audi makes most sales"
+                ]
+            ],
+            "correct_answers": [
+                "Previously independent automobile manufacturers",
+                "previously independent automobile manufacturers"
+            ],
+            "options": [
+                "States in which Audi makes the most sales",
+                "Main cities vital to Audi",
+                "Countries in which Audi makes the most sales",
+                "Previously independent automobile manufacturers"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which country has the international vehicle registration letter 'A'?",
+            "correct_answer": "Austria",
+            "incorrect_answers": [
+                [
+                    "Afghanistan",
+                    "afghanistan"
+                ],
+                [
+                    "Australia",
+                    "australia"
+                ],
+                [
+                    "Armenia",
+                    "armenia"
+                ]
+            ],
+            "correct_answers": [
+                "Austria",
+                "austria"
+            ],
+            "options": [
+                "Afghanistan",
+                "Australia",
+                "Armenia",
+                "Austria"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?",
+            "correct_answer": "Testarossa",
+            "incorrect_answers": [
+                [
+                    "Enzo Ferrari",
+                    "enzo ferrari"
+                ],
+                [
+                    "F40",
+                    "f40"
+                ],
+                [
+                    "288 GTO",
+                    "288 gto"
+                ]
+            ],
+            "correct_answers": [
+                "Testarossa",
+                "testarossa"
+            ],
+            "options": [
+                "Enzo Ferrari",
+                "F40",
+                "288 GTO",
+                "Testarossa"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these car models are produced by Lamborghini?",
+            "correct_answer": "Aventador",
+            "incorrect_answers": [
+                [
+                    "Huayra",
+                    "huayra"
+                ],
+                [
+                    "918",
+                    "918"
+                ],
+                [
+                    "Chiron",
+                    "chiron"
+                ]
+            ],
+            "correct_answers": [
+                "Aventador",
+                "aventador"
+            ],
+            "options": [
+                "Huayra",
+                "918",
+                "Chiron",
+                "Aventador"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following passenger jets is the longest?",
+            "correct_answer": "Boeing 747-8",
+            "incorrect_answers": [
+                [
+                    "Airbus A350-1000",
+                    "airbus a350-1000"
+                ],
+                [
+                    "Airbus A330-200",
+                    "airbus a330-200"
+                ],
+                [
+                    "Boeing 787-10",
+                    "boeing 787-10"
+                ]
+            ],
+            "correct_answers": [
+                "Boeing 747-8",
+                "boeing 747-8"
+            ],
+            "options": [
+                "Airbus A350-1000",
+                "Airbus A330-200",
+                "Boeing 787-10",
+                "Boeing 747-8"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
+            "correct_answer": "Scorpion",
+            "incorrect_answers": [
+                [
+                    "Snake",
+                    "snake"
+                ],
+                [
+                    "Bull",
+                    "bull"
+                ],
+                [
+                    "Horse",
+                    "horse"
+                ]
+            ],
+            "correct_answers": [
+                "Scorpion",
+                "scorpion"
+            ],
+            "options": [
+                "Snake",
+                "Bull",
+                "Horse",
+                "Scorpion"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one is NOT the function of engine oil in car engines?",
+            "correct_answer": "Combustion",
+            "incorrect_answers": [
+                [
+                    "Lubrication",
+                    "lubrication"
+                ],
+                [
+                    "Cooling",
+                    "cooling"
+                ],
+                [
+                    "Reduce corrosion",
+                    "reduce corrosion"
+                ]
+            ],
+            "correct_answers": [
+                "Combustion",
+                "combustion"
+            ],
+            "options": [
+                "Lubrication",
+                "Cooling",
+                "Reduce corrosion",
+                "Combustion"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following vehicles featured a full glass roof at base model?",
+            "correct_answer": "Renault Avantime",
+            "incorrect_answers": [
+                [
+                    "Chevy Volt",
+                    "chevy volt"
+                ],
+                [
+                    "Mercedes-Benz A-Class",
+                    "mercedes-benz a-class"
+                ],
+                [
+                    "Honda Odyssey",
+                    "honda odyssey"
+                ]
+            ],
+            "correct_answers": [
+                "Renault Avantime",
+                "renault avantime"
+            ],
+            "options": [
+                "Chevy Volt",
+                "Mercedes-Benz A-Class",
+                "Honda Odyssey",
+                "Renault Avantime"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?",
+            "correct_answer": "Nissan",
+            "incorrect_answers": [
+                [
+                    "Honda",
+                    "honda"
+                ],
+                [
+                    "Hyundai",
+                    "hyundai"
+                ],
+                [
+                    "Subaru",
+                    "subaru"
+                ]
+            ],
+            "correct_answers": [
+                "Nissan",
+                "nissan"
+            ],
+            "options": [
+                "Honda",
+                "Hyundai",
+                "Subaru",
+                "Nissan"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was Tesla founded?",
+            "correct_answer": "2003",
+            "incorrect_answers": [
+                [
+                    "2008",
+                    "2008"
+                ],
+                [
+                    "2005",
+                    "2005"
+                ],
+                [
+                    "2007",
+                    "2007"
+                ]
+            ],
+            "correct_answers": [
+                "2003",
+                "2003"
+            ],
+            "options": [
+                "2008",
+                "2005",
+                "2007",
+                "2003"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which car brand does NOT belong to General Motors?",
+            "correct_answer": "Ford",
+            "incorrect_answers": [
+                [
+                    "Buick",
+                    "buick"
+                ],
+                [
+                    "Cadillac",
+                    "cadillac"
+                ],
+                [
+                    "Chevrolet",
+                    "chevrolet"
+                ]
+            ],
+            "correct_answers": [
+                "Ford",
+                "ford"
+            ],
+            "options": [
+                "Buick",
+                "Cadillac",
+                "Chevrolet",
+                "Ford"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was Cadillac founded?",
+            "correct_answer": "1902",
+            "incorrect_answers": [
+                [
+                    "1964",
+                    "1964"
+                ],
+                [
+                    "1898",
+                    "1898"
+                ],
+                [
+                    "1985",
+                    "1985"
+                ]
+            ],
+            "correct_answers": [
+                "1902",
+                "1902"
+            ],
+            "options": [
+                "1964",
+                "1898",
+                "1985",
+                "1902"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of the following is NOT a Russian car manufacturer?",
+            "correct_answer": "BYD",
+            "incorrect_answers": [
+                [
+                    "Silant",
+                    "silant"
+                ],
+                [
+                    "Dragon",
+                    "dragon"
+                ],
+                [
+                    "GAZ",
+                    "gaz"
+                ]
+            ],
+            "correct_answers": [
+                "BYD",
+                "byd"
+            ],
+            "options": [
+                "Silant",
+                "Dragon",
+                "GAZ",
+                "BYD"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which supercar company is from Sweden?",
+            "correct_answer": "Koenigsegg",
+            "incorrect_answers": [
+                [
+                    "Bugatti",
+                    "bugatti"
+                ],
+                [
+                    "Lamborghini",
+                    "lamborghini"
+                ],
+                [
+                    "McLaren",
+                    "mclaren"
+                ]
+            ],
+            "correct_answers": [
+                "Koenigsegg",
+                "koenigsegg"
+            ],
+            "options": [
+                "Bugatti",
+                "Lamborghini",
+                "McLaren",
+                "Koenigsegg"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which car manufacturer created the &quot;Aventador&quot;?",
+            "correct_answer": "Lamborghini",
+            "incorrect_answers": [
+                [
+                    "Ferrari",
+                    "ferrari"
+                ],
+                [
+                    "Pagani",
+                    "pagani"
+                ],
+                [
+                    "Bugatti",
+                    "bugatti"
+                ]
+            ],
+            "correct_answers": [
+                "Lamborghini",
+                "lamborghini"
+            ],
+            "options": [
+                "Ferrari",
+                "Pagani",
+                "Bugatti",
+                "Lamborghini"
+            ]
+        }
+    ]
+}

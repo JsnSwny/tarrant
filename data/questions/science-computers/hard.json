@@ -1,0 +1,1062 @@
+{
+    "questions": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Harvard architecture for micro-controllers added which additional bus?",
+            "correct_answer": "Instruction",
+            "incorrect_answers": [
+                [
+                    "Address",
+                    "address"
+                ],
+                [
+                    "Data",
+                    "data"
+                ],
+                [
+                    "Control",
+                    "control"
+                ]
+            ],
+            "correct_answers": [
+                "Instruction",
+                "instruction"
+            ],
+            "options": [
+                "Address",
+                "Data",
+                "Control",
+                "Instruction"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "America Online (AOL) started out as which of these online service providers?",
+            "correct_answer": "Quantum Link",
+            "incorrect_answers": [
+                [
+                    "CompuServe",
+                    "compuserve"
+                ],
+                [
+                    "Prodigy",
+                    "prodigy"
+                ],
+                [
+                    "GEnie",
+                    "genie"
+                ]
+            ],
+            "correct_answers": [
+                "Quantum Link",
+                "quantum link"
+            ],
+            "options": [
+                "CompuServe",
+                "Prodigy",
+                "GEnie",
+                "Quantum Link"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which RAID array type is associated with data mirroring?",
+            "correct_answer": "RAID 1",
+            "incorrect_answers": [
+                [
+                    "RAID 0",
+                    "raid 0"
+                ],
+                [
+                    "RAID 10",
+                    "raid 10"
+                ],
+                [
+                    "RAID 5",
+                    "raid 5"
+                ]
+            ],
+            "correct_answers": [
+                "RAID 1",
+                "raid 1"
+            ],
+            "options": [
+                "RAID 0",
+                "RAID 10",
+                "RAID 5",
+                "RAID 1"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+            "correct_answer": "Transport",
+            "incorrect_answers": [
+                [
+                    "Session",
+                    "session"
+                ],
+                [
+                    "Data link",
+                    "data link"
+                ],
+                [
+                    "Network",
+                    "network"
+                ]
+            ],
+            "correct_answers": [
+                "Transport",
+                "transport"
+            ],
+            "options": [
+                "Session",
+                "Data link",
+                "Network",
+                "Transport"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The acronym &quot;RIP&quot; stands for which of these?",
+            "correct_answer": "Routing Information Protocol",
+            "incorrect_answers": [
+                [
+                    "Runtime Instance Processes",
+                    "runtime instance processes"
+                ],
+                [
+                    "Regular Interval Processes",
+                    "regular interval processes"
+                ],
+                [
+                    "Routine Inspection Protocol",
+                    "routine inspection protocol"
+                ]
+            ],
+            "correct_answers": [
+                "Routing Information Protocol",
+                "routing information protocol"
+            ],
+            "options": [
+                "Runtime Instance Processes",
+                "Regular Interval Processes",
+                "Routine Inspection Protocol",
+                "Routing Information Protocol"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+            "correct_answer": "ADPCM Sampler",
+            "incorrect_answers": [
+                [
+                    "FM Synthesizer",
+                    "fm synthesizer"
+                ],
+                [
+                    "Programmable Sound Generator (PSG)",
+                    "programmable sound generator (psg)"
+                ],
+                [
+                    "PCM Sampler",
+                    "pcm sampler"
+                ]
+            ],
+            "correct_answers": [
+                "ADPCM Sampler",
+                "adpcm sampler"
+            ],
+            "options": [
+                "FM Synthesizer",
+                "Programmable Sound Generator (PSG)",
+                "PCM Sampler",
+                "ADPCM Sampler"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": [
+                [
+                    "Enceladus",
+                    "enceladus"
+                ],
+                [
+                    "Pollux",
+                    "pollux"
+                ],
+                [
+                    "Saturn",
+                    "saturn"
+                ]
+            ],
+            "correct_answers": [
+                "Neptune",
+                "neptune"
+            ],
+            "options": [
+                "Enceladus",
+                "Pollux",
+                "Saturn",
+                "Neptune"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the original author of the realtime physics engine called PhysX?",
+            "correct_answer": "NovodeX",
+            "incorrect_answers": [
+                [
+                    "Ageia",
+                    "ageia"
+                ],
+                [
+                    "Nvidia",
+                    "nvidia"
+                ],
+                [
+                    "AMD",
+                    "amd"
+                ]
+            ],
+            "correct_answers": [
+                "NovodeX",
+                "novodex"
+            ],
+            "options": [
+                "Ageia",
+                "Nvidia",
+                "AMD",
+                "NovodeX"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What internet protocol was documented in RFC 1459?",
+            "correct_answer": "IRC",
+            "incorrect_answers": [
+                [
+                    "HTTP",
+                    "http"
+                ],
+                [
+                    "HTTPS",
+                    "https"
+                ],
+                [
+                    "FTP",
+                    "ftp"
+                ]
+            ],
+            "correct_answers": [
+                "IRC",
+                "irc"
+            ],
+            "options": [
+                "HTTP",
+                "HTTPS",
+                "FTP",
+                "IRC"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
+            "correct_answer": "Cheetah",
+            "incorrect_answers": [
+                [
+                    "Puma",
+                    "puma"
+                ],
+                [
+                    "Tiger",
+                    "tiger"
+                ],
+                [
+                    "Leopard",
+                    "leopard"
+                ]
+            ],
+            "correct_answers": [
+                "Cheetah",
+                "cheetah"
+            ],
+            "options": [
+                "Puma",
+                "Tiger",
+                "Leopard",
+                "Cheetah"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+            "correct_answer": "Game Maker",
+            "incorrect_answers": [
+                [
+                    "Stencyl",
+                    "stencyl"
+                ],
+                [
+                    "Construct",
+                    "construct"
+                ],
+                [
+                    "Torque 2D",
+                    "torque 2d"
+                ]
+            ],
+            "correct_answers": [
+                "Game Maker",
+                "game maker"
+            ],
+            "options": [
+                "Stencyl",
+                "Construct",
+                "Torque 2D",
+                "Game Maker"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Lenovo acquired IBM's personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+            "correct_answer": "2005",
+            "incorrect_answers": [
+                [
+                    "1999",
+                    "1999"
+                ],
+                [
+                    "2002",
+                    "2002"
+                ],
+                [
+                    "2008",
+                    "2008"
+                ]
+            ],
+            "correct_answers": [
+                "2005",
+                "2005"
+            ],
+            "options": [
+                "1999",
+                "2002",
+                "2008",
+                "2005"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which data structure does FILO apply to?",
+            "correct_answer": "Stack",
+            "incorrect_answers": [
+                [
+                    "Queue",
+                    "queue"
+                ],
+                [
+                    "Heap",
+                    "heap"
+                ],
+                [
+                    "Tree",
+                    "tree"
+                ]
+            ],
+            "correct_answers": [
+                "Stack",
+                "stack"
+            ],
+            "options": [
+                "Queue",
+                "Heap",
+                "Tree",
+                "Stack"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following computer components can be built using only NAND gates?",
+            "correct_answer": "ALU",
+            "incorrect_answers": [
+                [
+                    "CPU",
+                    "cpu"
+                ],
+                [
+                    "RAM",
+                    "ram"
+                ],
+                [
+                    "Register",
+                    "register"
+                ]
+            ],
+            "correct_answers": [
+                "ALU",
+                "alu"
+            ],
+            "options": [
+                "CPU",
+                "RAM",
+                "Register",
+                "ALU"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of the security vulnerability found in Bash in 2014?",
+            "correct_answer": "Shellshock",
+            "incorrect_answers": [
+                [
+                    "Heartbleed",
+                    "heartbleed"
+                ],
+                [
+                    "Bashbug",
+                    "bashbug"
+                ],
+                [
+                    "Stagefright",
+                    "stagefright"
+                ]
+            ],
+            "correct_answers": [
+                "Shellshock",
+                "shellshock"
+            ],
+            "options": [
+                "Heartbleed",
+                "Bashbug",
+                "Stagefright",
+                "Shellshock"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many Hz does the video standard PAL support?",
+            "correct_answer": "50",
+            "incorrect_answers": [
+                [
+                    "59",
+                    "59"
+                ],
+                [
+                    "60",
+                    "60"
+                ],
+                [
+                    "25",
+                    "25"
+                ]
+            ],
+            "correct_answers": [
+                "50",
+                "50"
+            ],
+            "options": [
+                "59",
+                "60",
+                "25",
+                "50"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who invented the &quot;Spanning Tree Protocol&quot;?",
+            "correct_answer": "Radia Perlman",
+            "incorrect_answers": [
+                [
+                    "Paul Vixie",
+                    "paul vixie"
+                ],
+                [
+                    "Vint Cerf",
+                    "vint cerf"
+                ],
+                [
+                    "Michael Roberts",
+                    "michael roberts"
+                ]
+            ],
+            "correct_answers": [
+                "Radia Perlman",
+                "radia perlman"
+            ],
+            "options": [
+                "Paul Vixie",
+                "Vint Cerf",
+                "Michael Roberts",
+                "Radia Perlman"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?",
+            "correct_answer": "Heartbleed",
+            "incorrect_answers": [
+                [
+                    "Shellshock",
+                    "shellshock"
+                ],
+                [
+                    "Corrupted Blood",
+                    "corrupted blood"
+                ],
+                [
+                    "Shellscript",
+                    "shellscript"
+                ]
+            ],
+            "correct_answers": [
+                "Heartbleed",
+                "heartbleed"
+            ],
+            "options": [
+                "Shellshock",
+                "Corrupted Blood",
+                "Shellscript",
+                "Heartbleed"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What port does HTTP run on?",
+            "correct_answer": "80",
+            "incorrect_answers": [
+                [
+                    "53",
+                    "53"
+                ],
+                [
+                    "443",
+                    "443"
+                ],
+                [
+                    "23",
+                    "23"
+                ]
+            ],
+            "correct_answers": [
+                "80",
+                "80"
+            ],
+            "options": [
+                "53",
+                "443",
+                "23",
+                "80"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the first company to use the term &quot;Golden Master&quot;?",
+            "correct_answer": "Apple",
+            "incorrect_answers": [
+                [
+                    "IBM",
+                    "ibm"
+                ],
+                [
+                    "Microsoft",
+                    "microsoft"
+                ],
+                [
+                    "Google",
+                    "google"
+                ]
+            ],
+            "correct_answers": [
+                "Apple",
+                "apple"
+            ],
+            "options": [
+                "IBM",
+                "Microsoft",
+                "Google",
+                "Apple"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What major programming language does Unreal Engine 4 use?",
+            "correct_answer": "C++",
+            "incorrect_answers": [
+                [
+                    "Assembly",
+                    "assembly"
+                ],
+                [
+                    "C#",
+                    "c#"
+                ],
+                [
+                    "ECMAScript",
+                    "ecmascript"
+                ]
+            ],
+            "correct_answers": [
+                "C++",
+                "c++"
+            ],
+            "options": [
+                "Assembly",
+                "C#",
+                "ECMAScript",
+                "C++"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?",
+            "correct_answer": "Micronesia",
+            "incorrect_answers": [
+                [
+                    "Fiji",
+                    "fiji"
+                ],
+                [
+                    "Tuvalu",
+                    "tuvalu"
+                ],
+                [
+                    "Marshall Islands",
+                    "marshall islands"
+                ]
+            ],
+            "correct_answers": [
+                "Micronesia",
+                "micronesia"
+            ],
+            "options": [
+                "Fiji",
+                "Tuvalu",
+                "Marshall Islands",
+                "Micronesia"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+            "correct_answer": "Coffee Lake",
+            "incorrect_answers": [
+                [
+                    "Sandy Bridge",
+                    "sandy bridge"
+                ],
+                [
+                    "Skylake",
+                    "skylake"
+                ],
+                [
+                    "Broadwell",
+                    "broadwell"
+                ]
+            ],
+            "correct_answers": [
+                "Coffee Lake",
+                "coffee lake"
+            ],
+            "options": [
+                "Sandy Bridge",
+                "Skylake",
+                "Broadwell",
+                "Coffee Lake"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+            "correct_answer": "Cherry MX Blue",
+            "incorrect_answers": [
+                [
+                    "Cherry MX Black",
+                    "cherry mx black"
+                ],
+                [
+                    "Cherry MX Red",
+                    "cherry mx red"
+                ],
+                [
+                    "Cherry MX Brown",
+                    "cherry mx brown"
+                ]
+            ],
+            "correct_answers": [
+                "Cherry MX Blue",
+                "cherry mx blue"
+            ],
+            "options": [
+                "Cherry MX Black",
+                "Cherry MX Red",
+                "Cherry MX Brown",
+                "Cherry MX Blue"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+            "correct_answer": "Injection ",
+            "incorrect_answers": [
+                [
+                    "Broken Authentication",
+                    "broken authentication"
+                ],
+                [
+                    "Cross-Site Scripting",
+                    "cross-site scripting"
+                ],
+                [
+                    "Insecure Direct Object References",
+                    "insecure direct object references"
+                ]
+            ],
+            "correct_answers": [
+                "Injection ",
+                "injection "
+            ],
+            "options": [
+                "Broken Authentication",
+                "Cross-Site Scripting",
+                "Insecure Direct Object References",
+                "Injection "
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:",
+            "correct_answer": "A&#039; + B&#039;",
+            "incorrect_answers": [
+                [
+                    "A'B + B'A",
+                    "a'b + b'a",
+                    "ab + ba"
+                ],
+                [
+                    "A'B'",
+                    "a'b'",
+                    "ab"
+                ],
+                [
+                    "AB' + AB",
+                    "ab' + ab",
+                    "ab + ab"
+                ]
+            ],
+            "correct_answers": [
+                "A' + B'",
+                "a' + b'",
+                "a + b"
+            ],
+            "options": [
+                "A'B + B'A",
+                "A'B'",
+                "AB' + AB",
+                "A' + B'"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is the oldest of these computers by release date?",
+            "correct_answer": "TRS-80",
+            "incorrect_answers": [
+                [
+                    "Commodore 64",
+                    "commodore 64"
+                ],
+                [
+                    "ZX Spectrum",
+                    "zx spectrum"
+                ],
+                [
+                    "Apple 3",
+                    "apple 3"
+                ]
+            ],
+            "correct_answers": [
+                "TRS-80",
+                "trs-80"
+            ],
+            "options": [
+                "Commodore 64",
+                "ZX Spectrum",
+                "Apple 3",
+                "TRS-80"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+            "correct_answer": "Quantum Teleportation",
+            "incorrect_answers": [
+                [
+                    "Super Dense Coding",
+                    "super dense coding"
+                ],
+                [
+                    "Quantum Entanglement",
+                    "quantum entanglement"
+                ],
+                [
+                    "Quantum Programming",
+                    "quantum programming"
+                ]
+            ],
+            "correct_answers": [
+                "Quantum Teleportation",
+                "quantum teleportation"
+            ],
+            "options": [
+                "Super Dense Coding",
+                "Quantum Entanglement",
+                "Quantum Programming",
+                "Quantum Teleportation"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What does the International System of Quantities refer 1024 bytes as?",
+            "correct_answer": "Kibibyte",
+            "incorrect_answers": [
+                [
+                    "Kylobyte",
+                    "kylobyte"
+                ],
+                [
+                    "Kilobyte",
+                    "kilobyte"
+                ],
+                [
+                    "Kelobyte",
+                    "kelobyte"
+                ]
+            ],
+            "correct_answers": [
+                "Kibibyte",
+                "kibibyte"
+            ],
+            "options": [
+                "Kylobyte",
+                "Kilobyte",
+                "Kelobyte",
+                "Kibibyte"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is not a layer in the OSI model for data communications?",
+            "correct_answer": "Connection Layer",
+            "incorrect_answers": [
+                [
+                    "Application Layer",
+                    "application layer"
+                ],
+                [
+                    "Transport Layer",
+                    "transport layer"
+                ],
+                [
+                    "Physical Layer",
+                    "physical layer"
+                ]
+            ],
+            "correct_answers": [
+                "Connection Layer",
+                "connection layer"
+            ],
+            "options": [
+                "Application Layer",
+                "Transport Layer",
+                "Physical Layer",
+                "Connection Layer"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the founder of Palantir?",
+            "correct_answer": "Peter Thiel",
+            "incorrect_answers": [
+                [
+                    "Mark Zuckerberg",
+                    "mark zuckerberg"
+                ],
+                [
+                    "Marc Benioff",
+                    "marc benioff"
+                ],
+                [
+                    "Jack Dorsey",
+                    "jack dorsey"
+                ]
+            ],
+            "correct_answers": [
+                "Peter Thiel",
+                "peter thiel"
+            ],
+            "options": [
+                "Mark Zuckerberg",
+                "Marc Benioff",
+                "Jack Dorsey",
+                "Peter Thiel"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is not a key value of Agile software development?",
+            "correct_answer": "Comprehensive documentation",
+            "incorrect_answers": [
+                [
+                    "Individuals and interactions",
+                    "individuals and interactions"
+                ],
+                [
+                    "Customer collaboration",
+                    "customer collaboration"
+                ],
+                [
+                    "Responding to change",
+                    "responding to change"
+                ]
+            ],
+            "correct_answers": [
+                "Comprehensive documentation",
+                "comprehensive documentation"
+            ],
+            "options": [
+                "Individuals and interactions",
+                "Customer collaboration",
+                "Responding to change",
+                "Comprehensive documentation"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which kind of algorithm is Ron Rivest not famous for creating?",
+            "correct_answer": "Secret sharing scheme",
+            "incorrect_answers": [
+                [
+                    "Hashing algorithm",
+                    "hashing algorithm"
+                ],
+                [
+                    "Asymmetric encryption",
+                    "asymmetric encryption"
+                ],
+                [
+                    "Stream cipher",
+                    "stream cipher"
+                ]
+            ],
+            "correct_answers": [
+                "Secret sharing scheme",
+                "secret sharing scheme"
+            ],
+            "options": [
+                "Hashing algorithm",
+                "Asymmetric encryption",
+                "Stream cipher",
+                "Secret sharing scheme"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of the first Bulgarian personal computer?",
+            "correct_answer": "IMKO-1",
+            "incorrect_answers": [
+                [
+                    "Pravetz 82",
+                    "pravetz 82"
+                ],
+                [
+                    "Pravetz 8D",
+                    "pravetz 8d"
+                ],
+                [
+                    "IZOT 1030",
+                    "izot 1030"
+                ]
+            ],
+            "correct_answers": [
+                "IMKO-1",
+                "imko-1"
+            ],
+            "options": [
+                "Pravetz 82",
+                "Pravetz 8D",
+                "IZOT 1030",
+                "IMKO-1"
+            ]
+        }
+    ]
+}

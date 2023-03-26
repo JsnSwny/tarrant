@@ -18,6 +18,13 @@
             <button onclick="sendSpeech()">Submit</button>
             <div id="log"></div>
         </div>
+
+		<div>
+			<audio id="host-audio" controls>
+				<source src="" type="audio/mpeg">
+				Your browser does not support the audio tag.
+			</audio>
+		</div>
     </body>
     <script src="/socket.io/socket.io.js"></script>
     <script
